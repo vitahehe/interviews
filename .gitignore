@@ -1,1 +1,7 @@
 .venv
+*:MSHIELD
+# Windows junk
+*:Zone.Identifier
+Thumbs.db
+desktop.ini
+*.Zone.Identifier

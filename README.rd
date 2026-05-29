@@ -63,11 +63,14 @@ SYMBOL TABLE:
 Use this symbol table if these markers appear:
 - "..." = hesitation, pause, unfinished thought
 - "???" = confusion, unclear speech, or unintelligible part
-- "[laughs]" = laughter
+- "[laughs]" = general laughter
 - "[silence]" = silence
 - "[overlap]" = overlapping speech
 - "[inaudible]" = cannot hear
 - "[translated]" = translated text
+- "[emphasis]" = strongly felt point
+- "[uncertain]" = not sure/questioning
+- "[agreement]" = other speakers agree
 
 DEFINED CODEBOOK:
 
