@@ -26,6 +26,8 @@ The definitions below are adapted for a physics laboratory course context from:
 
 from __future__ import annotations
 
+import json
+
 
 BROAD_TOPICS = [
     "SELF_DETERMINATION",
@@ -36,11 +38,13 @@ BROAD_TOPICS = [
 ]
 
 
-SYSTEM_PROMPT = """
+_ROLE_AND_SCOPE = """
+<role>
 You are assisting with qualitative analysis of interviews from a laboratory physics course.
-
 Your task is BROAD ANNOTATION ONLY.
+</role>
 
+<scope>
 You are NOT producing final thematic codes.
 You are NOT selecting only the best evidence.
 You are NOT summarizing the interview.
@@ -56,14 +60,14 @@ If a chunk is ambiguous but may be relevant, label it with the possible topic an
 If a chunk contains tension, contradiction, hesitation, uncertainty, disagreement, or minority views,
 preserve this in the annotation fields.
 Always annotate every chunk.
+</scope>
 """
 
 
-BROAD_TOPIC_DEFINITIONS = """
-BROAD TOPIC DEFINITIONS FOR PHYSICS LAB INTERVIEWS
+_TOPIC_DEFINITIONS = """
+<topic_definitions>
 
-1. SELF_DETERMINATION
-
+<topic name="SELF_DETERMINATION">
 Use this label when the chunk relates to whether the lab supports or frustrates
 students' autonomy, competence, relatedness, or quality of motivation.
 
@@ -96,10 +100,9 @@ Possible theory cues:
 Autonomy supported; Autonomy frustrated; Competence supported; Competence frustrated;
 Relatedness supported; Relatedness frustrated; Intrinsic interest; Controlled motivation;
 Wonder motivation; Ownership; Feeling abandoned; Feeling over-directed.
+</topic>
 
-
-2. SELF_EFFICACY
-
+<topic name="SELF_EFFICACY">
 Use this label when the chunk relates to students' task-specific belief that they
 can perform actions required in experimental physics.
 
@@ -129,10 +132,9 @@ Troubleshooting self-efficacy; Theory-lab connection self-efficacy;
 Mastery experience; Success after struggle; Failure as learning;
 Failure as incompetence; Peer modelling; Social encouragement;
 Stress/anxiety affecting efficacy.
+</topic>
 
-
-3. VALUE_MOTIVATION
-
+<topic name="VALUE_MOTIVATION">
 Use this label when the chunk relates to what value students attach to the lab,
 whether they expect success, whether they think the task is worth doing, and what
 costs they perceive.
@@ -160,10 +162,9 @@ Possible theory cues:
 Expectancy of success; Ability belief; Intrinsic value; Utility value;
 Attainment value; Identity relevance; Time cost; Emotional cost; Identity cost;
 Low perceived value; Value shift; Worth-the-effort tension.
+</topic>
 
-
-4. OTHER_RELEVANT
-
+<topic name="OTHER_RELEVANT">
 Use this label when the chunk may matter for later interpretation but does not
 clearly fit the three main topics. Examples:
 - course logistics that explain later comments;
@@ -173,10 +174,9 @@ clearly fit the three main topics. Examples:
 - lab format details;
 - comments about curriculum context;
 - relevant background that may explain a student's later claim.
+</topic>
 
-
-5. CONTEXT_ONLY
-
+<topic name="CONTEXT_ONLY">
 Use this label when the chunk mainly provides background, transition, short
 interviewer framing, factual setup, or administrative information and does not
 itself contain analytic material.
@@ -184,12 +184,39 @@ itself contain analytic material.
 Important:
 A chunk can be both CONTEXT_ONLY and another label only if it contains context plus
 a small but relevant signal. Otherwise, use CONTEXT_ONLY alone.
+</topic>
+
+</topic_definitions>
 """
 
 
-ANNOTATION_INSTRUCTIONS = """
-ANNOTATION INSTRUCTIONS
+_CHUNK_DATA_FORMAT = """
+<chunk_data_format>
+Each item in the <chunks> list you receive in the user message is a JSON object
+with these fields:
 
+- chunk_id: unique identifier for this chunk. Copy it exactly into your annotation.
+- speaker: the raw speaker label as it appeared in the transcript.
+- speaker_type: one of "interviewer", "student", or "unknown" (the script could not
+  confidently classify the speaker).
+- participant_id: set when speaker_type is "student"; otherwise empty.
+- text: the chunk of transcript text you are annotating. This is the only text you
+  are labeling.
+- previous_context / next_context: up to 500 characters of surrounding transcript
+  text, included ONLY to help you interpret meaning — for example, resolving a
+  pronoun, understanding what question a student is answering, or recognizing
+  sarcasm or contradiction that spans a turn boundary.
+
+Use previous_context and next_context for interpretation only. Do not assign a
+label based solely on something that appears in the context fields but not in
+text, and do not treat the context fields as if they were the chunk being
+annotated.
+</chunk_data_format>
+"""
+
+
+_ANNOTATION_INSTRUCTIONS = """
+<annotation_instructions>
 For each chunk, return one annotation object.
 
 Required fields for each chunk:
@@ -199,28 +226,73 @@ Required fields for each chunk:
 - confidence: number from 0.0 to 1.0.
   Use high confidence only when the label is clear.
   Use low or medium confidence when the chunk is ambiguous but potentially relevant.
+
+  Use these bands as anchors so confidence is consistent across chunks and batches:
+  - 0.80-1.00: clear, explicit evidence for this label; little or no inference required.
+  - 0.50-0.79: plausible evidence, but some interpretation, inference, or reliance on
+    context fields was required.
+  - 0.00-0.49: weak or speculative signal; the chunk could plausibly relate to this
+    topic, but the evidence is thin, indirect, or highly context-dependent.
+
 - theory_cues: short list of relevant cues, for example:
   ["Autonomy frustrated", "Competence uncertainty"].
 - annotation_reason: one or two sentences explaining why the broad label was assigned.
 - valence: one of "positive", "negative", "mixed", "unclear", "not_applicable".
-  Valence refers to the student's experience in relation to the label, not whether the statement is good writing.
-- possible_tension: short string describing contradiction, ambiguity, hesitation, disagreement,
-  or "none".
+  Valence refers to the student's experience in relation to the label, not whether
+  the statement is good writing.
+- possible_tension: short string describing contradiction, ambiguity, hesitation,
+  disagreement, or "none".
 - human_review_needed: true or false.
   Use true for low confidence, subtle meaning, possible contradiction, unclear speaker,
   or anything that may be theoretically important but ambiguous.
 
 Rules:
-- Annotate EVERY chunk.
-- Do not omit chunks.
-- Do not invent evidence not present in the chunk.
-- Keep labels broad.
-- Do not create final thematic codes.
+- Annotate EVERY chunk. Do not omit chunks.
+- Do not invent evidence not present in the chunk or its context fields.
+- Keep labels broad. Do not create final thematic codes.
 - Prefer preserving possible evidence over excluding it.
 - It is acceptable for one chunk to have several broad topics.
-- If the interviewer asks a question that frames a theory-relevant issue, label it as CONTEXT_ONLY
-  or OTHER_RELEVANT unless the wording itself matters for interpretation.
+- If the interviewer asks a question, decide between CONTEXT_ONLY and OTHER_RELEVANT
+  as follows: use CONTEXT_ONLY by default for interviewer turns that are purely
+  procedural or framing (e.g. "can you say more about that?"). Use OTHER_RELEVANT
+  instead only when the question's specific wording presupposes or names a concept,
+  tension, or assumption that matters for later interpretation (e.g. the interviewer
+  names "stress" or "disappointment" before the student responds to it).
+</annotation_instructions>
 """
+
+
+_OUTPUT_FORMAT = """
+<output_format>
+Return ONLY a single valid JSON object. No markdown code fences, no preamble, no
+explanation, and no text before or after the JSON. The JSON must have exactly
+this shape:
+
+{
+  "annotations": [
+    {
+      "chunk_id": "string",
+      "broad_topics": ["SELF_DETERMINATION"],
+      "confidence": 0.0,
+      "theory_cues": ["string"],
+      "annotation_reason": "string",
+      "valence": "positive | negative | mixed | unclear | not_applicable",
+      "possible_tension": "string",
+      "human_review_needed": true
+    }
+  ]
+}
+</output_format>
+"""
+
+
+SYSTEM_PROMPT = (
+    _ROLE_AND_SCOPE
+    + _TOPIC_DEFINITIONS
+    + _CHUNK_DATA_FORMAT
+    + _ANNOTATION_INSTRUCTIONS
+    + _OUTPUT_FORMAT
+).strip()
 
 
 def build_user_prompt(batch: list[dict]) -> str:
@@ -235,30 +307,16 @@ def build_user_prompt(batch: list[dict]) -> str:
     - text
     - previous_context
     - next_context
+
+    All instructions, topic definitions, and the required output format live in
+    SYSTEM_PROMPT. This function only carries the per-batch data, serialized as
+    proper JSON (not Python repr) so nothing is ambiguous or mis-escaped.
     """
-    return f"""
-{BROAD_TOPIC_DEFINITIONS}
+    chunks_json = json.dumps(batch, indent=2, ensure_ascii=False)
+    return f"""<chunks>
+{chunks_json}
+</chunks>
 
-{ANNOTATION_INSTRUCTIONS}
-
-Return ONLY valid JSON in this exact shape:
-
-{{
-  "annotations": [
-    {{
-      "chunk_id": "string",
-      "broad_topics": ["SELF_DETERMINATION"],
-      "confidence": 0.0,
-      "theory_cues": ["string"],
-      "annotation_reason": "string",
-      "valence": "positive | negative | mixed | unclear | not_applicable",
-      "possible_tension": "string",
-      "human_review_needed": true
-    }}
-  ]
-}}
-
-Here are the chunks to annotate:
-
-{batch}
-""".strip()
+Annotate every chunk in <chunks> above, following the topic definitions and
+rules given in the system prompt. Return only the JSON object specified in
+<output_format>; do not include any text before or after it.""".strip()

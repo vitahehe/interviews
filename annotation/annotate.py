@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import argparse
@@ -11,8 +10,11 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Any
-from openai import OpenAI
 
+try:
+    import anthropic
+except ImportError:
+    anthropic = None
 
 
 # Allows running this file from annotation/broad_annotation while importing prompts.py
@@ -25,7 +27,8 @@ from prompts import SYSTEM_PROMPT, build_user_prompt, BROAD_TOPICS
 
 DEFAULT_INPUT_DIR = Path("transcription/test")
 DEFAULT_OUTPUT_DIR = Path("annotation/broad_annotation/outputs")
-DEFAULT_MODEL = "gpt-5.5-mini"
+DEFAULT_MODEL = "claude-sonnet-4-6"
+DEFAULT_MAX_TOKENS = 4096
 
 # Conservative default. Increase if you know your model/context can handle more.
 DEFAULT_BATCH_SIZE = 20
@@ -213,28 +216,33 @@ def extract_json(text: str) -> dict[str, Any]:
     raise ValueError("Could not parse model output as JSON.")
 
 
-def call_openai_for_annotations(
+def call_claude_for_annotations(
     client: Any,
     model: str,
     batch: list[dict[str, Any]],
     temperature: float = 0.0,
+    max_tokens: int = DEFAULT_MAX_TOKENS,
 ) -> list[dict[str, Any]]:
-    """Call the OpenAI API to annotate one batch of chunks."""
+
     user_prompt = build_user_prompt(batch)
 
-    response = client.responses.create(
+    response = client.messages.create(
         model=model,
-        input=[
-            {"role": "system", "content": SYSTEM_PROMPT},
+        max_tokens=max_tokens,
+        system=[
+            {
+                "type": "text",
+                "text": SYSTEM_PROMPT,
+                "cache_control": {"type": "ephemeral"},
+            }
+        ],
+        messages=[
             {"role": "user", "content": user_prompt},
         ],
         temperature=temperature,
     )
 
-    output_text = getattr(response, "output_text", None)
-    if not output_text:
-        # Fallback for SDK versions that expose content differently.
-        output_text = str(response)
+    output_text = response.content[0].text
 
     parsed = extract_json(output_text)
     annotations = parsed.get("annotations", [])
@@ -419,13 +427,19 @@ def parse_args() -> argparse.Namespace:
         "--model",
         type=str,
         default=DEFAULT_MODEL,
-        help=f"OpenAI model name. Default: {DEFAULT_MODEL}",
+        help=f"Claude model name. Default: {DEFAULT_MODEL}",
     )
     parser.add_argument(
         "--batch-size",
         type=int,
         default=DEFAULT_BATCH_SIZE,
         help=f"Number of chunks per API call. Default: {DEFAULT_BATCH_SIZE}",
+    )
+    parser.add_argument(
+        "--max-tokens",
+        type=int,
+        default=DEFAULT_MAX_TOKENS,
+        help=f"Max tokens for each Claude response. Default: {DEFAULT_MAX_TOKENS}",
     )
     parser.add_argument(
         "--dry-run",
@@ -463,13 +477,13 @@ def main() -> None:
         print("Dry run complete. No API calls made.")
         return
 
-    if OpenAI is None:
-        raise ImportError("The openai package is not installed. Run: pip install openai")
+    if anthropic is None:
+        raise ImportError("The anthropic package is not installed. Run: pip install anthropic")
 
-    if not os.getenv("OPENAI_API_KEY"):
-        raise EnvironmentError("OPENAI_API_KEY is not set. Please set it before running this script.")
+    if not os.getenv("ANTHROPIC_API_KEY"):
+        raise EnvironmentError("ANTHROPIC_API_KEY is not set. Please set it before running this script.")
 
-    client = OpenAI()
+    client = anthropic.Anthropic()
 
     for file_path in files:
         interview_id = safe_filename(file_path)
@@ -479,11 +493,12 @@ def main() -> None:
         print(f"\nAnnotating interview: {interview_id}")
         for idx, batch in enumerate(batch_items(interview_chunks, args.batch_size), start=1):
             print(f"  API batch {idx}: {len(batch)} chunks")
-            model_annotations = call_openai_for_annotations(
+            model_annotations = call_claude_for_annotations(
                 client=client,
                 model=args.model,
                 batch=batch,
                 temperature=0.0,
+                max_tokens=args.max_tokens,
             )
             completed = validate_and_complete_annotations(batch, model_annotations)
             interview_annotations.extend(completed)
