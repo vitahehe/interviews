@@ -7,3 +7,4 @@ desktop.ini
 *.Zone.Identifier
 __pycache__/
 __init__.py
+.env

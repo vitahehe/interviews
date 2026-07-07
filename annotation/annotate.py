@@ -1,5 +1,4 @@
 from __future__ import annotations
-
 import argparse
 import csv
 import hashlib
@@ -11,20 +10,24 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 import anthropic
-
-CURRENT_DIR = Path(__file__).resolve().parent
-if str(CURRENT_DIR) not in sys.path:
-    sys.path.insert(0, str(CURRENT_DIR))
-
 from prompts import SYSTEM_PROMPT, build_user_prompt, BROAD_TOPICS
+
+from dotenv import load_dotenv
+import os
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+load_dotenv(PROJECT_ROOT / ".env")
+
+api_key = os.getenv("ANTHROPIC_API_KEY")
+
+if not api_key:
+    raise EnvironmentError("ANTHROPIC_API_KEY is not set. Please set it before running this script.")
 
 
 DEFAULT_INPUT_DIR = Path("transcription/test")
 DEFAULT_OUTPUT_DIR = Path("annotation/outputs")
 DEFAULT_MODEL = "claude-sonnet-4-6"
-DEFAULT_MAX_TOKENS = 4096
-
-# Conservative default. Increase if you know your model/context can handle more.
+DEFAULT_MAX_TOKENS = 4000
 DEFAULT_BATCH_SIZE = 20
 
 
@@ -163,7 +166,7 @@ def make_chunks(transcript_text: str, interview_id: str) -> list[dict[str, Any]]
             })
             chunk_number += 1
 
-    # Add previous/next context without duplicating too much text.
+
     chunks = []
     for i, chunk in enumerate(raw_chunks):
         previous_context = raw_chunks[i - 1]["text"][:500] if i > 0 else ""
@@ -191,8 +194,6 @@ def extract_json(text: str) -> dict[str, Any]:
         return json.loads(text)
     except json.JSONDecodeError:
         pass
-
-    # Try to find the largest JSON object.
     start = text.find("{")
     end = text.rfind("}")
     if start != -1 and end != -1 and end > start:
