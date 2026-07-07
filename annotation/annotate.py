@@ -10,14 +10,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Any
+import anthropic
 
-try:
-    import anthropic
-except ImportError:
-    anthropic = None
-
-
-# Allows running this file from annotation/broad_annotation while importing prompts.py
 CURRENT_DIR = Path(__file__).resolve().parent
 if str(CURRENT_DIR) not in sys.path:
     sys.path.insert(0, str(CURRENT_DIR))
@@ -26,7 +20,7 @@ from prompts import SYSTEM_PROMPT, build_user_prompt, BROAD_TOPICS
 
 
 DEFAULT_INPUT_DIR = Path("transcription/test")
-DEFAULT_OUTPUT_DIR = Path("annotation/broad_annotation/outputs")
+DEFAULT_OUTPUT_DIR = Path("annotation/outputs")
 DEFAULT_MODEL = "claude-sonnet-4-6"
 DEFAULT_MAX_TOKENS = 4096
 
@@ -55,19 +49,11 @@ def split_into_speaker_blocks(text: str) -> list[dict[str, str]]:
     """
     Split a transcript into speaker blocks.
 
-    This is intentionally flexible. It supports lines such as:
-        Interviewer: ...
-        Student 1: ...
-        Student 2 - ...
-        S1: ...
-        P3: ...
-
     If no speaker markers are detected, it falls back to paragraph chunks.
     """
     text = normalize_text(text)
     lines = text.split("\n")
 
-    # Pattern for common transcript speaker markers.
     speaker_pattern = re.compile(
         r"^\s*(?P<speaker>"
         r"Interviewer|Interviewee|Moderator|Teacher|Lecturer|TA|Assistant|"
@@ -111,7 +97,7 @@ def split_into_speaker_blocks(text: str) -> list[dict[str, str]]:
     if detected_speaker and blocks:
         return [b for b in blocks if b["text"]]
 
-    # Fallback: no speaker markers found, split by paragraphs.
+    #no speaker markers found, split by paragraphs.
     paragraphs = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
     return [{"speaker": "UNKNOWN", "text": p} for p in paragraphs]
 
@@ -480,10 +466,11 @@ def main() -> None:
     if anthropic is None:
         raise ImportError("The anthropic package is not installed. Run: pip install anthropic")
 
-    if not os.getenv("ANTHROPIC_API_KEY"):
+    api_key = os.getenv("ANTHROPIC_API_KEY")
+    if not api_key:
         raise EnvironmentError("ANTHROPIC_API_KEY is not set. Please set it before running this script.")
 
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(api_key=api_key)
 
     for file_path in files:
         interview_id = safe_filename(file_path)

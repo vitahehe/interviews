@@ -1,0 +1,6 @@
+{
+  "interview_id": "Monday_20260223_Kvant1_lab_transcript",
+  "status": "fallback",
+  "raw_response_path": "outputs/interview_theme_grids/raw_model_responses/Monday_20260223_Kvant1_lab_transcript.txt",
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cco2aU3riGBdsresXxmkn'}"
+}
