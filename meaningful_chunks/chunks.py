@@ -38,7 +38,7 @@ CORE_TOPICS = {"SELF_DETERMINATION", "SELF_EFFICACY", "VALUE_MOTIVATION"}
 SECONDARY_TOPICS = {"OTHER_RELEVANT"}
 CONTEXT_TOPIC = "CONTEXT_ONLY"
 
-DEFAULT_INPUT = Path("annotation/broad_annotation/outputs/all_broad_annotations.jsonl")
+DEFAULT_INPUT = Path("/home/vita/projects/interviews/annotation/outputs/all_broad_annotations.jsonl")
 DEFAULT_OUTPUT_DIR = Path("chunks/outputs")
 
 DEFAULT_CORE_THRESHOLD = 0.5        # matches Stage 1's "plausible evidence" band
