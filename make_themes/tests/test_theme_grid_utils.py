@@ -142,3 +142,35 @@ class ThemeGridUtilsTests(unittest.TestCase):
                 self.assertIn("theme_grid", result)
                 self.assertGreaterEqual(len(result["theme_grid"]), 1)
                 self.assertIn("case_level_notes", result)
+
+    def test_generate_for_interview_writes_json_only_outputs(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            chunks = [
+                {
+                    "interview_id": "I01",
+                    "chunk_id": "I01_C001",
+                    "sequence_number": 1,
+                    "speaker_label_original": "student 1",
+                    "speaker_role": "participant",
+                    "participant_id": "student 1",
+                    "text": "This lab felt difficult and interesting.",
+                    "existing_codes": [],
+                    "local_summary": "Difficulty and interest",
+                    "emotional_tone": "mixed",
+                    "non_defined_candidate_code": "",
+                }
+            ]
+
+            generate_for_interview(
+                interview_id="I01",
+                chunks=chunks,
+                prompt_template="Prompt for {{INTERVIEW_ID}} with {{CHUNKS_JSON}}",
+                client=None,
+                model="test-model",
+                output_dir=tmpdir,
+                overwrite=True,
+            )
+
+            self.assertTrue(Path(tmpdir, "json", "I01.json").exists())
+            self.assertFalse(Path(tmpdir, "csv").exists())
+            self.assertFalse(Path(tmpdir, "markdown").exists())

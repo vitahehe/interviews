@@ -1,1 +1,309 @@
-{"error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cco2aU3riGBdsresXxmkn'}", "status": "fallback"}
+```json
+{
+  "interview_id": "Monday_20260223_Kvant1_lab_transcript",
+  "theme_grid": [
+    {
+      "theme_id": "1",
+      "theme_name": "Students' self-efficacy",
+      "theme_description": "Students' beliefs about their ability to understand, operate equipment, and make sense of results in the quantum eraser lab.",
+      "codes": [
+        {
+          "code_id": "1.a",
+          "code_name": "Prior knowledge dependency",
+          "description": "Apply when a student explicitly links their ability to perform or understand the lab to prior course knowledge (e.g., optics).",
+          "motivation": "Captures how prerequisite knowledge shapes confidence; useful for comparing across labs with different student cohorts.",
+          "examples": [
+            {
+              "participant_id": "student 1",
+              "speaker_label_original": "student 1",
+              "chunk_id": "Monday_20260223_Kvant1_lab_transcript_C007",
+              "quote": "if we didn't have that we would have no idea what we're doing because like we've been explained polarization and basically everything we did today",
+              "existing_theory_codes": [
+                "SE_Theory_laboratory_connection_self_efficacy",
+                "EVT_Utility_value"
+              ],
+              "why_example_fits": "Student directly attributes competence in the lab to prior optics coursework, illustrating knowledge-contingent self-efficacy."
+            }
+          ],
+          "confidence": "high",
+          "human_review_needed": false
+        },
+        {
+          "code_id": "1.b",
+          "code_name": "Conceptual uncertainty during sense-making",
+          "description": "Apply when a student expresses difficulty understanding the physics or interpreting results, even while engaging with the task.",
+          "motivation": "Distinguishes productive struggle from disengagement; useful for tracking conceptual self-efficacy across open vs. structured labs.",
+          "examples": [
+            {
+              "participant_id": "student 2",
+              "speaker_label_original": "student 2",
+              "chunk_id": "Monday_20260223_Kvant1_lab_transcript_C006",
+              "quote": "actually understanding like polarization, what we see on the screens... it's still get more to understanding parts",
+              "existing_theory_codes": [
+                "SE_Data_analysis_self_efficacy",
+                "SE_Troubleshooting_self_efficacy",
+                "EVT_Expectancy_of_success"
+              ],
+              "why_example_fits": "Student signals incomplete conceptual grasp of polarization while still trying to make sense of the data."
+            }
+          ],
+          "confidence": "high",
+          "human_review_needed": false
+        },
+        {
+          "code_id": "1.c",
+          "code_name": "Expectation-reality mismatch (equipment/results)",
+          "description": "Apply when a student's prior expectation about precision or clarity of results diverges from what they actually experienced.",
+          "motivation": "Expectation mismatches can suppress or inflate self-efficacy; tracking this enables comparison of how lab design shapes confidence.",
+          "examples": [
+            {
+              "participant_id": "student 2",
+              "speaker_label_original": "student 2",
+              "chunk_id": "Monday_20260223_Kvant1_lab_transcript_C009",
+              "quote": "I think it was gonna be a bit more obvious than it was... not as defined as I expected it to be.",
+              "existing_theory_codes": [
+                "EVT_Expectancy_of_success",
+                "SE_Stress"
+              ],
+              "why_example_fits": "Student expected a clearer, more definitive result; the ambiguity mildly undermined their sense of success."
+            },
+            {
+              "participant_id": "student 2",
+              "speaker_label_original": "student 2",
+              "chunk_id": "Monday_20260223_Kvant1_lab_transcript_C008",
+              "quote": "I thought, like changing the mirrors and stuff like that had to be more precise. Where this felt more freely like holding the filters up by hand.",
+              "existing_theory_codes": [
+                "SE_Equipment_experimental_self_efficacy",
+                "SDT_Autonomy_supported"
+              ],
+              "why_example_fits": "Student expected a more rigidly defined setup; the improvised nature surprised them and shifted their sense of what competent lab work looks like."
+            }
+          ],
+          "confidence": "high",
+          "human_review_needed": false
+        }
+      ]
+    },
+    {
+      "theme_id": "2",
+      "theme_name": "Autonomy and ownership",
+      "theme_description": "The degree to which students experience freedom, choice, and personal investment in the lab activity.",
+      "codes": [
+        {
+          "code_id": "2.a",
+          "code_name": "Contrast with prescribed labs",
+          "description": "Apply when students explicitly compare the open lab to more rigid, recipe-driven first-year labs to articulate what autonomy feels like.",
+          "motivation": "This contrastive framing is a strong marker of perceived autonomy; cross-interview comparison can reveal whether open labs consistently produce this narrative.",
+          "examples": [
+            {
+              "participant_id": "student 1",
+              "speaker_label_original": "student 1",
+              "chunk_id": "Monday_20260223_Kvant1_lab_transcript_C003",
+              "quote": "in our first year, we kind of like, you need to do this and do this... while here, it was just, we encourage you to do this... it was very free.",
+              "existing_theory_codes": [
+                "SDT_Autonomy_supported",
+                "EVT_Utility_value",
+                "CP_Artificial_school_task"
+              ],
+              "why_example_fits": "Student uses first-year labs as a foil to articulate the qualitative difference in autonomy experienced in this lab."
+            }
+          ],
+          "confidence": "high",
+          "human_review_needed": false
+        },
+        {
+          "code_id": "2.b",
+          "code_name": "Free exploration / play",
+          "description": "Apply when students describe the lab activity using language of play, exploration, or self-directed investigation.",
+          "motivation": "Play-language signals intrinsic motivation and ownership; useful for identifying conditions that foster autonomous engagement.",
+          "examples": [
+            {
+              "participant_id": "student 1",
+              "speaker_label_original": "student 1",
+              "chunk_id": "Monday_20260223_Kvant1_lab_transcript_C002",
+              "quote": "we kind of were allowed to do some free play with that and mess around with it",
+              "existing_theory_codes": [
+                "SE_Equipment_experimental_self_efficacy",
+                "SDT_Autonomy_supported",
+                "EVT_Utility_value"
+              ],
+              "why_example_fits": "Student frames the lab as 'free play', a strong autonomy and intrinsic motivation signal."
+            }
+          ],
+          "confidence": "high",
+          "human_review_needed": false
+        }
+      ]
+    },
+    {
+      "theme_id": "3",
+      "theme_name": "Apparent takeaway of students",
+      "theme_description": "What students report learning or taking away—conceptually, procedurally, or attitudinally—from the lab.",
+      "codes": [
+        {
+          "code_id": "3.a",
+          "code_name": "Conceptual understanding as goal",
+          "description": "Apply when students frame the lab's value in terms of understanding physics concepts rather than producing correct data.",
+          "motivation": "Distinguishes labs where students prioritize understanding from those where they prioritize task completion; key for assessing learning orientation.",
+          "examples": [
+            {
+              "participant_id": "student 2",
+              "speaker_label_original": "student 2",
+              "chunk_id": "Monday_20260223_Kvant1_lab_transcript_C004",
+              "quote": "we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it",
+              "existing_theory_codes": [
+                "SDT_Autonomy_supported",
+                "SDT_Relatedness_supported",
+                "EVT_Intrinsic_value"
+              ],
+              "why_example_fits": "Student identifies sense-making about physics as the core activity, not data collection."
+            }
+          ],
+          "confidence": "high",
+          "human_review_needed": false
+        },
+        {
+          "code_id": "3.b",
+          "code_name": "Request for more theoretical scaffolding",
+          "description": "Apply when students indicate they would have benefited from more theoretical background before or during the lab.",
+          "motivation": "Signals a gap between lab design and student readiness; useful for comparing scaffolding needs across cohorts and lab types.",
+          "examples": [
+            {
+              "participant_id": "student 1",
+              "speaker_label_original": "student 1",
+              "chunk_id": "Monday_20260223_Kvant1_lab_transcript_C007",
+              "quote": "maybe just kind of tiny bit of theoretical background for it would be nice.",
+              "existing_theory_codes": [
+                "SE_Theory_laboratory_connection_self_efficacy",
+                "EVT_Utility_value"
+              ],
+              "why_example_fits": "Student explicitly requests more theory, indicating the open format left some feeling under-prepared conceptually."
+            }
+          ],
+          "confidence": "high",
+          "human_review_needed": false
+        }
+      ]
+    },
+    {
+      "theme_id": "4",
+      "theme_name": "Participation and social learning",
+      "theme_description": "How students engage with each other to make sense of the experiment, share observations, and co-construct understanding.",
+      "codes": [
+        {
+          "code_id": "4.a",
+          "code_name": "Peer discussion as sense-making mechanism",
+          "description": "Apply when students describe talking with peers as the primary way they figured out what they were observing.",
+          "motivation": "Captures collaborative epistemic practices; enables comparison of social learning across open vs. structured lab formats.",
+          "examples": [
+            {
+              "participant_id": "student 2",
+              "speaker_label_original": "student 2",
+              "chunk_id": "Monday_20260223_Kvant1_lab_transcript_C004",
+              "quote": "kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting... we actually had to talk to each other",
+              "existing_theory_codes": [
+                "SDT_Relatedness_supported",
+                "EVT_Intrinsic_value"
+              ],
+              "why_example_fits": "Student highlights peer talk as both enjoyable and epistemically necessary, unlike recipe labs where results were pre-determined."
+            }
+          ],
+          "confidence": "high",
+          "human_review_needed": false
+        }
+      ]
+    },
+    {
+      "theme_id": "5",
+      "theme_name": "Emotional and motivational texture",
+      "theme_description": "The affective quality of students' engagement—relief, curiosity, disappointment, stress—and how it shapes motivation.",
+      "codes": [
+        {
+          "code_id": "5.a",
+          "code_name": "Relief from reduced data burden",
+          "description": "Apply when students express positive affect specifically tied to not having to collect large amounts of precise data.",
+          "motivation": "Emotional cost of data collection is a recurring theme in lab research; isolating this code enables comparison of how lab format affects stress.",
+          "examples": [
+            {
+              "participant_id": "student 3",
+              "speaker_label_original": "student 3",
+              "chunk_id": "Monday_20260223_Kvant1_lab_transcript_C005",
+              "quote": "kind of nice in some way not having to take data... Having to take so much data in some of the labs. Getting stressed about it.",
+              "existing_theory_codes": [
+                "SE_Stress",
+                "EVT_Cost_emotional"
+              ],
+              "why_example_fits": "Student directly links reduced data demands to relief from stress, marking emotional cost as a key motivational factor in traditional labs."
+            }
+          ],
+          "confidence": "high",
+          "human_review_needed": false
+        },
+        {
+          "code_id": "5.b",
+          "code_name": "Mild disappointment at ambiguous results",
+          "description": "Apply when a student expected a more striking or definitive experimental outcome and expresses subdued disappointment.",
+          "motivation": "Affective response to ambiguous results may affect future engagement and confidence; tracking this across labs reveals how result clarity shapes motivation.",
+          "examples": [
+            {
+              "participant_id": "student 2",
+              "speaker_label_original": "student 2",
+              "chunk_id": "Monday_20260223_Kvant1_lab_transcript_C009",
+              "quote": "I think it was gonna be a bit more obvious than it was... not as fun... not as defined as I expected it to be.",
+              "existing_theory_codes": [
+                "EVT_Expectancy_of_success",
+                "SE_Stress"
+              ],
+              "why_example_fits": "Student's muted disappointment at the subtlety of the quantum eraser effect signals how unmet expectations dampen motivational texture."
+            }
+          ],
+          "confidence": "medium",
+          "human_review_needed": false
+        }
+      ]
+    }
+  ],
+  "overlooked_candidates": [
+    {
+      "candidate_theme_or_code": "Lab authenticity / real science feel",
+      "reason_it_may_matter": "Students contrast this lab with 'artificial school tasks' (C003, C004), implying they perceive it as closer to real scientific practice. This authenticity perception may be a distinct motivational driver worth tracking across interviews.",
+      "supporting_chunk_ids": [
+        "Monday_20260223_Kvant1_lab_transcript_C003",
+        "Monday_20260223_Kvant1_lab_transcript_C004"
+      ],
+      "confidence": "medium",
+      "human_review_needed": true
+    },
+    {
+      "candidate_theme_or_code": "Improvised / low-tech setup as epistemic surprise",
+      "reason_it_may_matter": "Student 2 (C008) was surprised that a quantum optics experiment involved holding filters by hand and placing paper. This challenges assumptions about what 'proper' lab work looks like and may affect trust in results and self-efficacy.",
+      "supporting_chunk_ids": [
+        "Monday_20260223_Kvant1_lab_transcript_C008"
+      ],
+      "confidence": "medium",
+      "human_review_needed": true
+    },
+    {
+      "candidate_theme_or_code": "Differential access to prior knowledge within a group",
+      "reason_it_may_matter": "Student 1 (C007) notes that only some group members had optics background, creating unequal footing. This intra-group knowledge asymmetry may affect participation dynamics and is worth tracking in group-based labs.",
+      "supporting_chunk_ids": [
+        "Monday_20260223_Kvant1_lab_transcript_C007"
+      ],
+      "confidence": "medium",
+      "human_review_needed": true
+    }
+  ],
+  "case_level_notes": {
+    "dominant_patterns": [
+      "Autonomy and freedom from prescription are the most salient positive features students articulate, consistently contrasted with rigid first-year labs.",
+      "Peer discussion emerges as both intrinsically valued and epistemically necessary in the absence of a recipe.",
+      "Emotional relief from reduced data burden is a notable motivational signal, suggesting data collection stress is a significant cost in traditional labs."
+    ],
+    "possible_missing_dimensions": [
+      "No student explicitly discusses identity as a physicist or scientist—identity-related codes are absent from this interview.",
+      "Instructor/TA role is not mentioned; it is unclear how much guidance was available or sought.",
+      "Long-term retention or transfer of learning is not addressed; takeaways are immediate and surface-level."
+    ],
+    "warnings": [
+      "Only three students contribute; student 3 speaks only once (C005), so their perspective is underrepresented.",
+      "Speaker label in C007

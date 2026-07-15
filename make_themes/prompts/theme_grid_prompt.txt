@@ -3,6 +3,7 @@ You are helping create a per-interview analytic theme grid from qualitative evid
 Goal: produce a concise, evidence-grounded theme grid for interview {{INTERVIEW_ID}}.
 
 Rules:
+- Return ONLY valid JSON.
 - Use ONLY the meaningful chunks provided.
 - Do NOT invent evidence. Every example must include participant/speaker label, chunk ID, short quote, and optional existing theory codes.
 - Prefer the broad theme families below unless the data strongly suggests other useful categories:

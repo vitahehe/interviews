@@ -2,28 +2,35 @@ import argparse
 import os
 import sys
 from pathlib import Path
+
 from dotenv import load_dotenv
-REPO_ROOT = Path(__file__).resolve().parents[1]
 
-# Load API key from .env in the repository root
-load_dotenv(REPO_ROOT / ".env")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+MAKE_THEMES_ROOT = Path(__file__).resolve().parents[1]
 
-ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+# Load .env from both likely locations
+load_dotenv(REPO_ROOT / ".env", override=False)
+load_dotenv(MAKE_THEMES_ROOT / ".env", override=False)
 
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from meaningful_chunks.theme_grids import DEFAULT_INPUT, DEFAULT_OUTPUT_DIR, DEFAULT_PROMPT_PATH
+from meaningful_chunks.theme_grids import (
+    DEFAULT_INPUT,
+    DEFAULT_OUTPUT_DIR,
+    DEFAULT_PROMPT_PATH,
+    generate_all_interviews,
+)
 
 DEFAULT_INPUT = Path("meaningful_chunks/data/meaningful_chunks/meaningful_chunks.jsonl")
-DEFAULT_OUTPUT_DIR = Path("make_themes/outputs")
+DEFAULT_OUTPUT_DIR = Path("make_themes/outputs/interview_theme_grids")
 DEFAULT_PROMPT_PATH = Path("make_themes/prompts/theme_grid_prompt.txt")
-DEFAULT_MODEL = "claude-sonnet-4-6"
-DEFAULT_MAX_TOKENS = 4096
-DEFAULT_MAX_TEXT_CHARS = 1200
+
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate one theme-grid JSON/CSV/Markdown file per interview from meaningful chunks.")
+    parser = argparse.ArgumentParser(
+        description="Generate one theme-grid JSON/CSV/Markdown file per interview from meaningful chunks."
+    )
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT, help="Path to the meaningful chunks JSONL file.")
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR, help="Directory for generated outputs.")
     parser.add_argument("--prompt", type=Path, default=DEFAULT_PROMPT_PATH, help="Path to the prompt template.")
@@ -36,8 +43,24 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
-    if not ANTHROPIC_API_KEY:
-        print("ANTHROPIC_API_KEY is not set;ERRORRRRS", file=sys.stderr)
+    if not os.getenv("ANTHROPIC_API_KEY"):
+        print("ANTHROPIC_API_KEY is not set; continuing with heuristic fallback outputs.", file=sys.stderr)
+
+    generate_all_interviews(
+        input_path=args.input,
+        output_dir=args.output_dir,
+        prompt_path=args.prompt,
+        model=args.model,
+        overwrite=args.overwrite,
+        max_tokens=args.max_tokens,
+        max_text_chars=args.max_text_chars,
+    )
+
+    print("REPO_ROOT:", REPO_ROOT)
+    print("MAKE_THEMES_ROOT:", MAKE_THEMES_ROOT)
+    print("Root .env exists:", (REPO_ROOT / ".env").exists())
+    print("make_themes .env exists:", (MAKE_THEMES_ROOT / ".env").exists())
+    print("API key loaded:", bool(os.getenv("ANTHROPIC_API_KEY")))
 
 
 if __name__ == "__main__":

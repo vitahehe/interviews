@@ -7,14 +7,19 @@ import re
 from pathlib import Path
 from typing import Any
 
+from dotenv import load_dotenv
+
 try:
     import anthropic
 except ImportError:  # pragma: no cover
     anthropic = None
 
 
-DEFAULT_INPUT = Path("meaningful_chunks/data/meaningful_chunks/meaningful_chunks.jsonl")
-DEFAULT_OUTPUT_DIR = Path("make_themes/outputs")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+load_dotenv(REPO_ROOT / ".env", override=False)
+
+DEFAULT_INPUT = Path("meaningful_chunks/outputs/meaningful_chunks.jsonl")
+DEFAULT_OUTPUT_DIR = Path("make_themes/outputs/interview_theme_grids")
 DEFAULT_PROMPT_PATH = Path("make_themes/prompts/theme_grid_prompt.txt")
 DEFAULT_MODEL = "claude-sonnet-4-6"
 DEFAULT_MAX_TOKENS = 4096
@@ -416,17 +421,13 @@ def generate_for_interview(
 ) -> dict[str, Any]:
     output_dir = Path(output_dir)
     json_dir = output_dir / "json"
-    csv_dir = output_dir / "csv"
-    markdown_dir = output_dir / "markdown"
     raw_dir = output_dir / "raw_model_responses"
 
     json_path = json_dir / f"{interview_id}.json"
-    csv_path = csv_dir / f"{interview_id}.csv"
-    markdown_path = markdown_dir / f"{interview_id}.md"
     raw_path = raw_dir / f"{interview_id}.txt"
     usage_path = raw_dir / f"{interview_id}_usage.json"
 
-    if json_path.exists() and csv_path.exists() and markdown_path.exists() and not overwrite:
+    if json_path.exists() and not overwrite:
         return json.loads(json_path.read_text(encoding="utf-8"))
 
     payload = build_compact_model_payload(interview_id, chunks, max_text_chars=max_text_chars)
@@ -441,9 +442,8 @@ def generate_for_interview(
         fallback_payload["raw_response_path"] = str(raw_path)
         fallback_payload["case_level_notes"]["warnings"].append("Model output was not valid JSON; used heuristic fallback instead.")
         write_json(json_path, fallback_payload)
-        write_csv(csv_path, fallback_payload)
-        write_markdown(markdown_path, fallback_payload)
         write_usage_metadata(usage_path, {"interview_id": interview_id, "status": "invalid_json", "raw_response_path": str(raw_path), **usage_metadata})
+        print(f"[theme-grid] {interview_id}: model returned invalid JSON; wrote fallback JSON to {json_path}")
         return fallback_payload
 
     if parsed.get("status") == "fallback" or parsed.get("error"):
@@ -452,15 +452,13 @@ def generate_for_interview(
         fallback_payload["error"] = parsed.get("error")
         fallback_payload["case_level_notes"]["warnings"].append("Model call failed; generated heuristic fallback artifact only.")
         write_json(json_path, fallback_payload)
-        write_csv(csv_path, fallback_payload)
-        write_markdown(markdown_path, fallback_payload)
         write_usage_metadata(usage_path, {"interview_id": interview_id, "status": "fallback", "raw_response_path": str(raw_path), **usage_metadata})
+        print(f"[theme-grid] {interview_id}: API call failed; wrote fallback JSON to {json_path}")
+        print(f"[theme-grid] {interview_id}: raw error -> {parsed.get('error')}")
         return fallback_payload
 
     write_usage_metadata(usage_path, {"interview_id": interview_id, "status": "ok", **usage_metadata})
     write_json(json_path, parsed)
-    write_csv(csv_path, parsed)
-    write_markdown(markdown_path, parsed)
     return parsed
 
 
@@ -476,6 +474,7 @@ def generate_all_interviews(
     prompt_template = Path(prompt_path).read_text(encoding="utf-8")
     client = anthropic.Anthropic() if anthropic is not None and os.getenv("ANTHROPIC_API_KEY") else None
     chunks_by_interview = load_meaningful_chunks(input_path)
+    print(f"[theme-grid] found {len(chunks_by_interview)} interview(s) in {input_path}")
     results = []
     for interview_id, chunks in sorted(chunks_by_interview.items()):
         result = generate_for_interview(

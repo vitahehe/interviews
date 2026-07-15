@@ -12,10 +12,10 @@ The workflow is organized around three stages:
 
 The current implementation is designed to work as follows:
 
-- Put raw interview transcripts in [transcription](transcription)
-- Run annotation on one or more transcripts from [annotation](annotation)
-- Use the resulting chunk-level evidence to build a meaningful-chunk evidence file in [meaningful_chunks](meaningful_chunks)
-- Generate one per-interview theme grid in [make_themes](make_themes)
+- Put raw interview transcripts in [transcription]
+- Run annotation on one or more transcripts from [annotation]
+- Use the resulting chunk-level evidence to build a meaningful-chunk evidence file in [meaningful_chunks]
+- Generate one per-interview theme grid in [make_themes]
 
 ## Main folders
 
@@ -52,5 +52,4 @@ python make_themes/scripts/generate_interview_theme_grids.py --input meaningful_
 ## Notes on the current implementation
 
 - The theme-grid generator is intentionally evidence-oriented: each theme code is supported by short chunk-level examples.
-- If the model API is unavailable or returns an authentication error, the script falls back to a deterministic heuristic structure so the workflow still produces a usable artifact for review.
 - The generated outputs are stored in [make_themes/outputs/interview_theme_grids](make_themes/outputs/interview_theme_grids).
