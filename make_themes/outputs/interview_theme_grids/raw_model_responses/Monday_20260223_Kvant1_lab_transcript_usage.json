@@ -1,8 +1,0 @@
-{
-  "interview_id": "Monday_20260223_Kvant1_lab_transcript",
-  "status": "invalid_json",
-  "raw_response_path": "make_themes/outputs/interview_theme_grids/raw_model_responses/Monday_20260223_Kvant1_lab_transcript.txt",
-  "input_tokens": 3030,
-  "output_tokens": 4096,
-  "total_tokens": 7126
-}

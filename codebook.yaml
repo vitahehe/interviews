@@ -1,0 +1,112 @@
+# Structured, single-source-of-truth version of the interview coding grid.
+
+themes:
+  - id: "1"
+    name: "Students' self-efficacy"
+    note: "Related to competence."
+    codes:
+      - id: "1.a"
+        name: "Expected difficulty - easy"
+        description: >
+          The student says they had an expectation before the course/lab about
+          the course/subject/experiment being easy.
+        motivation: >
+          Would give a view of how many students expect the course to be easy
+          vs difficult and could be compared to who had a positive experience
+          and learning outcome.
+      - id: "1.b"
+        name: "Expected difficulty - difficult"
+        description: >
+          The student says they had an expectation before the course/lab about
+          the course/subject/experiment being difficult.
+        motivation: >
+          Would give a view of how many students expect the course to be easy
+          vs difficult and could be compared to who had a positive experience
+          and learning outcome.
+      - id: "1.c"
+        name: "Problem-solving experience"
+        description: >
+          The student says they met a challenge during the experiment, e.g. by
+          saying that there was something that didn't work, or that they found
+          difficult, or something they learned how to do.
+        motivation: >
+          Could be compared to who had a positive experience and learning
+          outcome.
+
+  - id: "2"
+    name: "Autonomy and ownership"
+    note: >
+      We focus only on a sub-part of self-determination theory, as competence
+      is covered by self-efficacy and we have not had focus on relatedness in
+      the interviews.
+    codes:
+      - id: "2.a"
+        name: "Preferences"
+        description: >
+          The student says that they like/dislike/prefer something, voicing a
+          personal opinion.
+        motivation: >
+          Would give a view of how many students take ownership and share
+          their opinions during the interview. Could be compared to how
+          engaged the student felt during the experiment.
+      - id: "2.b"
+        name: "Theorist identity"
+        description: >
+          The student says they have a preference for, or are usually better
+          at, theoretical physics or theory in general. This could also be by
+          mentioning them preferring to solve equations or attending lectures.
+        motivation: >
+          Would give a view of how many students identify themselves as
+          theorists and think of mentioning it, when talking about the
+          experiment. Could be compared to the student's expected difficulty
+          and their engagement and learning outcome.
+      - id: "2.c"
+        name: "Experimentalist / practical identity"
+        description: >
+          The student says they have a preference for or are usually better at
+          experimental physics or experiments/practical work in general. This
+          could also be by mentioning them preferring to work with their hands
+          or doing laboratory work.
+        motivation: >
+          Would give a view of how many students identify themselves as
+          experimentalists and think of mentioning it, when talking about the
+          experiment. Could be compared to the student's expected difficulty
+          and their engagement and learning outcome.
+
+  - id: "3"
+    name: "Apparent takeaway of students"
+    codes:
+      - id: "3.a"
+        name: "Positive learning experience"
+        description: >
+          The student says they learned something or became better at
+          something during the experiment.
+        motivation: >
+          Would give a view of how many students experienced a positive
+          learning outcome, and could be compared to many of the other codes.
+      - id: "3.b"
+        name: "Enjoyment and engagement"
+        description: >
+          The student uses words such as "nice", "fun" and "interesting" to
+          describe their experience in lab.
+        motivation: >
+          Would give a view of how engaged the students were during the lab,
+          and could be compared to many of the other codes.
+      - id: "3.c"
+        name: "Perceived usefulness"
+        description: >
+          The student says they got something out of doing the lab, e.g.
+          something related to future work, thesis, exams etc.
+        motivation: >
+          Would give a view of how much the students feel like they get out
+          of the experiment, and could be compared to the ILOs, and the
+          students' identities.
+      - id: "3.d"
+        name: "Perceived unusefulness"
+        description: >
+          The student says they did not get much out of doing the lab, e.g.
+          in relation to future work, thesis, exams etc.
+        motivation: >
+          Would give a view of how much the students feel like they get out
+          of the experiment, and could be compared to the ILOs, and the
+          students' identities.
