@@ -53,3 +53,25 @@ python make_themes/scripts/generate_interview_theme_grids.py --input meaningful_
 
 - The theme-grid generator is intentionally evidence-oriented: each theme code is supported by short chunk-level examples.
 - The generated outputs are stored in [make_themes/outputs/interview_theme_grids](make_themes/outputs/interview_theme_grids).
+
+## RUN
+
+1. segment first the interview
+
+python pipeline/segment_transcript.py \
+  --input transcription/test/Monday_20260223_Kvant1_lab_transcript.txt \
+  --interview-id I01 \
+  --output data/processed/Monday_20260223_Kvant1_lab_transcript.json
+
+
+python pipeline/pipeline.py \
+  --interview-id Monday_20260223_Kvant1_lab_transcript \
+  --processed data/processed/Monday_20260223_Kvant1_lab_transcript.json \
+  --codebook codebook.yaml \
+  --prompts-dir prompts \
+  --outdir output/stage_1/I01 
+
+
+  Note: write interview IDs
+  I01 = Monday_20260223_Kvant1_lab_transcript.txt
+  I02 = <second interview filename>

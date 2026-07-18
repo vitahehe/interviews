@@ -1,0 +1,181 @@
+{
+  "interview_id": "Monday_20260223_Kvant1_lab_transcript",
+  "quotes": [
+    {
+      "theme_id": "1",
+      "code": "1.c",
+      "cited_text": "student 2: I think for my part, actually understanding like polarization, what we see on the screens for because it is the same when we get data like oh is this actually correct or what can we use this data for whether this is I think it's it's easier to look at and maybe try understand it but it's still get more to understanding parts.",
+      "turn_ids": [
+        "I01-T017",
+        "I01-T018"
+      ],
+      "speakers": [
+        "student 1",
+        "student 2"
+      ],
+      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q001"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.c",
+      "cited_text": "student 1: I also think considering me and student 1 we both have optics as student 2 said if we didn't have that we would have [emphasis] no idea what we're doing because like we've been explained polarization and basically everything we did today but we would have no idea about it if we didn't do that so maybe just kind of tiny bit of theoretical background for it would be nice.",
+      "turn_ids": [
+        "I01-T018",
+        "I01-T019"
+      ],
+      "speakers": [
+        "Bjarke",
+        "student 1"
+      ],
+      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q002"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.c",
+      "cited_text": "student 3: I think it was okay, but it was kind of fast that he went through it. So I didn't really get it totally but then it was also one of my some of my friends had optics so i was playing around yeah.",
+      "turn_ids": [
+        "I01-T020",
+        "I01-T021"
+      ],
+      "speakers": [
+        "Bjarke",
+        "student 3"
+      ],
+      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q003"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do this like the results were almost there for us before actually doing the experiment where here we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it yeah so yeah What is the physics behind it?",
+      "turn_ids": [
+        "I01-T008",
+        "I01-T009"
+      ],
+      "speakers": [
+        "Bjarke",
+        "student 2"
+      ],
+      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q004"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. Having to take so much data in some of the labs. Getting stressed about it.[overlap] Yeah, getting stressed about it.",
+      "turn_ids": [
+        "I01-T010",
+        "I01-T011"
+      ],
+      "speakers": [
+        "student 1",
+        "student 3"
+      ],
+      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q005"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 1: I kind of expected to see more interference. Same way. I thought it was gonna be a bit more obvious than it was. Yeah. All right. So that's my expectation. Then I was like, oh okay, I can see it. But it's not like as... Not as fun. Yeah, not as like definite, like as defined as I expected it to be.",
+      "turn_ids": [
+        "I01-T032",
+        "I01-T033"
+      ],
+      "speakers": [
+        "Bjarke",
+        "student 1"
+      ],
+      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q006"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 2: Yeah, I guess. So there's a bit more wow. [laughs]",
+      "turn_ids": [
+        "I01-T034",
+        "I01-T035"
+      ],
+      "speakers": [
+        "student 2",
+        "student 3"
+      ],
+      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q007"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 2: More... Not necessarily not precise. Like it was still... It was just like having the filters in hand and placing them down didn't feel like... they had to be there and stuff like that. Which is both positive and negative I think. Alright. In some way.",
+      "turn_ids": [
+        "I01-T030",
+        "I01-T031"
+      ],
+      "speakers": [
+        "Bjarke",
+        "student 2"
+      ],
+      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q008"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do this like the results were almost there for us before actually doing the experiment where here we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it yeah so yeah What is the physics behind it?",
+      "turn_ids": [
+        "I01-T008",
+        "I01-T009"
+      ],
+      "speakers": [
+        "Bjarke",
+        "student 2"
+      ],
+      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q009"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. Having to take so much data in some of the labs. Getting stressed about it.[overlap] Yeah, getting stressed about it.",
+      "turn_ids": [
+        "I01-T010",
+        "I01-T011"
+      ],
+      "speakers": [
+        "student 1",
+        "student 3"
+      ],
+      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q010"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: It just is quantum memories, so it sounds like something would have found factor. Sounds like it's really cool. [laughs]",
+      "turn_ids": [
+        "I01-T037",
+        "I01-T038"
+      ],
+      "speakers": [
+        "Bjarke",
+        "Student 1"
+      ],
+      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q011"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "student 1: I think you might have the wrong group for this, because everyone except for student 3 does astrophysics. Yeah. So it's not really our area. But I guess, presumably, now it's not personal, now I'm speaking for others, but I know people who want to do quantum, who are excited to do this. So I think it's just not the group here that should bring it.",
+      "turn_ids": [
+        "I01-T044",
+        "I01-T045"
+      ],
+      "speakers": [
+        "Bjarke",
+        "student 1"
+      ],
+      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q012"
+    }
+  ],
+  "codes_with_no_quotes": [
+    "1.a",
+    "1.b",
+    "2.b",
+    "2.c",
+    "3.a",
+    "3.c"
+  ]
+}
