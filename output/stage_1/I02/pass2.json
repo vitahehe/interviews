@@ -1,0 +1,453 @@
+{
+  "interview_id": "Wednesday_20260225_Kvant1_lab_transcript",
+  "interpretations": [
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q001",
+      "rationale": "The student describes an iterative trial-and-error process of adjusting the setup by small degrees to find where interference appeared, which is a direct account of hands-on problem-solving.",
+      "why_interesting": "It shows the student developing a tacit, embodied sense of how small physical adjustments affect the experimental outcome, rather than following a fixed procedure.",
+      "teaching_implication": "Labs could explicitly encourage this kind of iterative fine-tuning by building in open-ended calibration steps rather than prescribing exact settings (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 3: Det var mere det med, at man ændrede det en grad, og så tænkte man, det gør jo ikke noget som helst. student 3: Og så var der interferens. student 3: Og så var det sådan, at når man lige vil have interferens, så lad os lige gå en grad længere ned. ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "student 3"
+      ],
+      "turn_ids": [
+        "I02-T007"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q002",
+      "rationale": "The quote describes a practical difficulty encountered during the experiment (touching the mirror causing the light to wobble) and reflects on its sensitivity, which is a concrete problem-solving observation.",
+      "why_interesting": "It reveals how students learn about experimental sensitivity and error sources through direct physical experience rather than abstract instruction.",
+      "teaching_implication": "Instructors could highlight sensitivity to alignment as a discussion point before the lab, or design a guided reflection question about sources of error (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 3: Det går meget hurtigt, og hvis man kom til at røre ved spejlen, så wobblede lyset på pladen, fordi det gør jo meget for selv i lyset. ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "student 3"
+      ],
+      "turn_ids": [
+        "I02-T007"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q003",
+      "rationale": "The student recounts a specific procedural challenge (waiting for the table to stabilize) and how switching setups solved it, illustrating a problem-solving experience during the lab.",
+      "why_interesting": "It shows how equipment limitations (vibration, stabilization time) shaped the pacing and experience of the experiment.",
+      "teaching_implication": "Providing more stable equipment or clearer guidance on wait times could reduce friction and let students focus more on the physics (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 1: Ja, fordi vi startede med det der lille bord, og der var det sådan noget, så skulle vi lige sidde og vente lidt, fordi bordet skulle lige stå stille, så vi kunne se det. student 1: Ja, og så rykkede vi over til det andet, og så kunne man bare se det, hvad det så var. ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I02-T013"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q004",
+      "rationale": "The student describes the confusion that arises when something unexpected happens (not understanding what happened) and attributes it to imperfect lenses, which is a reflection on troubleshooting during the experiment.",
+      "why_interesting": "It captures the moment of confusion turning into problem-solving as students attribute anomalies to real physical imperfections rather than assuming error.",
+      "teaching_implication": "Discussing imperfect optical components explicitly beforehand might help students interpret anomalies as expected variability rather than mistakes (speculative).",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "student 2: Det kan også gøre, at hvis man ikke forstår det, så tænker man lige pludselig, hvad der skete, og det er selvfølgelig fint. student 2: De linser er ikke 100% perfekte og sådan noget... ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "student 2"
+      ],
+      "turn_ids": [
+        "I02-T038"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q005",
+      "rationale": "The student explicitly states a preference, saying it's 'fedt' (great) that the lab is about understanding, directly expressing a positive preference for the lab's focus.",
+      "why_interesting": "It highlights that students value conceptual understanding over rote procedure in lab work.",
+      "teaching_implication": "Labs could be framed explicitly around conceptual understanding goals to align with this preference (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 1: Jeg synes i hvert fald at det er fedt at det handler meget om forståelse. ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I02-T024"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q006",
+      "rationale": "The student states a preference judgment that the format has 'fungeret fint' (worked well) for two half sessions, directly expressing satisfaction with the lab structure.",
+      "why_interesting": "It suggests the session format (two half-sessions) was well-received, which is useful feedback on scheduling.",
+      "teaching_implication": "Consider retaining or replicating the two-half-session structure in future lab scheduling based on this positive feedback (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 2: Ja, altså jeg synes, at det har fungeret til to halve gange fint. ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "student 2"
+      ],
+      "turn_ids": [
+        "I02-T030"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q007",
+      "rationale": "The student directly compares this format favorably to 'having a lab,' expressing a clear preference for the current approach as more constructive.",
+      "why_interesting": "It suggests students may see less structured/lecture-style labs as less valuable compared to this format.",
+      "teaching_implication": "Further compare student outcomes/preferences between structured labs and this more open format to inform curriculum design (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 2: Det er mere konstruktivt end at have et lab. ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "student 2"
+      ],
+      "turn_ids": [
+        "I02-T030"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q008",
+      "rationale": "The student explicitly states enjoyment ('fedt') of role-playing as a laser, a direct preference statement about a specific lab activity.",
+      "why_interesting": "It shows how an embodied/role-play approach to understanding light can be engaging for students.",
+      "teaching_implication": "Consider incorporating more embodied or role-play elements into physics labs to boost engagement (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 1: Jeg synes, det var fedt at være en laser. ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I02-T040"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q009",
+      "rationale": "The brief affirmation 'det var sjovt nok' directly expresses a positive preference/enjoyment about the experience.",
+      "why_interesting": "Even minimal responses like this indicate genuine positive affect toward the lab activity.",
+      "teaching_implication": "N/A beyond noting positive affect; could be paired with follow-up prompts to elicit more detail in future interviews (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 3: Ja, det var sjovt nok. ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "student 3"
+      ],
+      "turn_ids": [
+        "I02-T041"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q010",
+      "rationale": "The student expresses a preference for the intuitive, hands-on nature of the lab, comparing it to a child's discovery, directly stating a preference for this mode of learning.",
+      "why_interesting": "The analogy to a child's sensory discovery process suggests students value playful, embodied exploration in physics learning.",
+      "teaching_implication": "Design labs to intentionally allow for playful, hands-on exploration before formal analysis, leveraging this preference (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 1: Jeg synes bare, at det er sådan... student 1: Lidt som han også sagde, det bliver sådan lidt mere sådan, du sidder med det i hånden, lidt ligesom sådan en lille barn, der opdager, hvis du blander kartoffelmel og vand. student 1: Altså sådan, det bliver meget sådan... student 1: [uncertain] Intuitivt, du sidder og drejer på det. student 1: Du kan se, hvad der sker, når du sidder og drejer. ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I02-T045"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q011",
+      "rationale": "The short, direct statement 'Det er jo bare sejt' expresses a clear preference/positive judgment about the experience.",
+      "why_interesting": "Simple exclamations like this reveal spontaneous enthusiasm that might not surface in more formal feedback.",
+      "teaching_implication": "N/A beyond noting enthusiasm; could inform which demonstrations to keep emphasizing (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 3: Det er jo bare sejt. ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "student 3"
+      ],
+      "turn_ids": [
+        "I02-T053"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q012",
+      "rationale": "The student directly states a preference judgment calling the experiment 'ret sejt' (pretty cool).",
+      "why_interesting": "It reflects genuine student enthusiasm for a specific experimental setup.",
+      "teaching_implication": "Identify which specific experimental setups elicit this kind of enthusiasm and consider prioritizing similar designs (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 3: Det var et ret sejt forsøg. ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "student 3"
+      ],
+      "turn_ids": [
+        "I02-T053"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q013",
+      "rationale": "The student describes being 'fri til at sidde der og lege med det' (free to play with it) to gain understanding, reflecting an experimentalist, hands-on identity toward learning about light.",
+      "why_interesting": "It shows the student framing their learning process through active, playful experimentation rather than passive instruction.",
+      "teaching_implication": "Preserve unstructured 'play' time in lab sessions as a deliberate pedagogical feature supporting experimentalist identity (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 2: Så ma er meget fri til at sidde der og lege med det og på den måde få en forståelse for lys. ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "student 2"
+      ],
+      "turn_ids": [
+        "I02-T023"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q014",
+      "rationale": "The student contrasts direct hands-on understanding with needing to interpret a program's output, positioning themselves as valuing direct practical engagement, consistent with an experimentalist identity.",
+      "why_interesting": "It reveals a comparison between simulation-based and physical experimentation as differently mediating understanding.",
+      "teaching_implication": "Consider sequencing labs so physical hands-on experiments precede or complement simulation-based exercises to build direct understanding first (speculative).",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "student 2: Det er meget en direkte forståelse for, hvad du gør. student 2: Altså i forhold til, hvordan en gang skal du sætte dig ind i et program, så skal du se, hvad det program fortæller dig. ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "student 2"
+      ],
+      "turn_ids": [
+        "I02-T036"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q015",
+      "rationale": "The student states that the setup allows them to 'visuelt sidde og resonere frem til det' (visually reason through it directly), reflecting a hands-on, practical way of engaging with the physics.",
+      "why_interesting": "It highlights how visual, direct feedback loops support reasoning in ways some other methods may not.",
+      "teaching_implication": "Ensure lab setups provide immediate visual feedback to support this reasoning process (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 2: Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "student 2"
+      ],
+      "turn_ids": [
+        "I02-T038"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q016",
+      "rationale": "The student's description of intuitively turning knobs and observing results directly reflects a practical, experimentalist mode of engaging with the equipment.",
+      "why_interesting": "The comparison to a child's sensory discovery underscores how tactile interaction can foster intuitive physical understanding.",
+      "teaching_implication": "Labs might intentionally build in tactile, adjustable components to support this kind of intuitive learning (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 1: Lidt som han også sagde, det bliver sådan lidt mere sådan, du sidder med det i hånden, lidt ligesom sådan en lille barn, der opdager, hvis du blander kartoffelmel og vand. student 1: Altså sådan, det bliver meget sådan... student 1: [uncertain] Intuitivt, du sidder og drejer på det. student 1: Du kan se, hvad der sker, når du sidder og drejer. ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I02-T045"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q017",
+      "rationale": "The student reflects that they thought more deeply about the two waves involved, indicating a positive learning experience where conceptual insight was gained.",
+      "why_interesting": "It shows a moment where hands-on interaction with the reference lab prompted deeper conceptual reflection on wave phenomena.",
+      "teaching_implication": "Encourage explicit prompts asking students to connect observed phenomena to underlying wave concepts during the lab (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 3: Så tænkte man meget mere over, at det faktisk var de der to bølger. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "student 3"
+      ],
+      "turn_ids": [
+        "I02-T005"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q018",
+      "rationale": "The student describes a positive learning process of playing with the setup and then investigating why phenomena occur, directly describing engagement leading to increased understanding.",
+      "why_interesting": "It illustrates a self-directed inquiry cycle—play, question, investigate—as a positive learning experience.",
+      "teaching_implication": "Structure labs to explicitly support this play-question-investigate cycle rather than a strict procedural script (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 1: Jeg synes i hvert fald at det er fedt at det handler meget om forståelse. student 1: Fordi så er det meget sådan, så kan du bare starte at lege lidt med det, og så er det ret frit, og så er det sådan lidt mere sådan, hov, hvorfor gør det det? student 1: Og så kan du finde ud af, hvorfor det gør det. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I02-T024"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q019",
+      "rationale": "The student states that the direct visual reasoning process helps them understand quickly, describing this as a positive learning experience.",
+      "why_interesting": "It suggests speed and depth of understanding can be linked to direct visual/hands-on interaction with equipment.",
+      "teaching_implication": "Prioritize experimental designs that give quick, visible feedback to accelerate conceptual understanding (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 2: Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. student 2: Det gør jo både at man kan hurtigt, og så kan man forstå det... ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "student 2"
+      ],
+      "turn_ids": [
+        "I02-T038"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q020",
+      "rationale": "The student describes being free to 'lege med det' (play with it), directly expressing enjoyment and engagement with the equipment while learning.",
+      "why_interesting": "It highlights play as a central mode of engagement that blends enjoyment with learning.",
+      "teaching_implication": "Retain open-ended, playful exploration time in lab design to support engagement (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 2: Så ma er meget fri til at sidde der og lege med det og på den måde få en forståelse for lys. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "student 2"
+      ],
+      "turn_ids": [
+        "I02-T023"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q021",
+      "rationale": "The student's statement that it's 'fedt' the lab is about understanding directly expresses enjoyment and engagement with the conceptual focus.",
+      "why_interesting": "It links positive affect directly to the pedagogical framing of the lab around understanding rather than procedure.",
+      "teaching_implication": "Explicitly frame lab goals around understanding to sustain this kind of engagement (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 1: Jeg synes i hvert fald at det er fedt at det handler meget om forståelse. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I02-T024"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q022",
+      "rationale": "The direct statement that it was 'fedt' to role-play as a laser expresses clear enjoyment and engagement with this particular activity.",
+      "why_interesting": "It shows that embodied, playful activities can generate strong positive engagement in physics learning.",
+      "teaching_implication": "Consider incorporating more embodied role-play elements to boost engagement (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 1: Jeg synes, det var fedt at være en laser. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I02-T040"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q023",
+      "rationale": "The brief affirmation 'det var sjovt nok' directly expresses enjoyment of the experience.",
+      "why_interesting": "Even short affirmations reveal genuine engagement that can be easy to overlook in analysis.",
+      "teaching_implication": "N/A beyond noting positive engagement; useful as supporting evidence alongside richer quotes (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 3: Ja, det var sjovt nok. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "student 3"
+      ],
+      "turn_ids": [
+        "I02-T041"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q024",
+      "rationale": "The statement 'Så det virkede ret sejt' directly expresses enjoyment/engagement with how the experiment worked.",
+      "why_interesting": "It reflects spontaneous positive reaction to seeing an experimental result play out successfully.",
+      "teaching_implication": "N/A beyond noting enthusiasm for successful outcomes; could inform which results to highlight for maximum engagement (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 3: Så det virkede ret sejt. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "student 3"
+      ],
+      "turn_ids": [
+        "I02-T049"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q025",
+      "rationale": "The student's exclamation of surprise ('wow, det er meget mere kompleks') and calling it 'sejt' directly expresses enjoyment and engagement upon observing complexity.",
+      "why_interesting": "It shows that encountering unexpected complexity can itself be a source of excitement rather than frustration.",
+      "teaching_implication": "Consider designing moments in labs where complexity is revealed progressively to generate this kind of engaged surprise (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 3: Ja, og så kiggede jeg over, og så var jeg sådan lidt, wow, det er meget mere kompleks agtigt. student 3: Det er jo bare sejt. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "student 3"
+      ],
+      "turn_ids": [
+        "I02-T053"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q026",
+      "rationale": "The statement 'Det var et ret sejt forsøg' directly expresses enjoyment and positive engagement with the specific experiment.",
+      "why_interesting": "It reinforces that specific experimental setups can generate memorable positive engagement.",
+      "teaching_implication": "Identify and preserve the specific experimental setup referenced here as a high-engagement activity (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 3: Det var et ret sejt forsøg. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "student 3"
+      ],
+      "turn_ids": [
+        "I02-T053"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q027",
+      "rationale": "The student connects the lab experience to future usefulness, referencing how understanding laser/signal concepts could relate to topics like informatics and scaling up components, directly reflecting perceived usefulness.",
+      "why_interesting": "It shows students spontaneously linking a foundational lab experience to broader disciplinary and career relevance.",
+      "teaching_implication": "Explicitly connect lab content to advanced topics or applications (e.g., photonics, informatics) to reinforce perceived usefulness (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 2: Hvis man hører et eller andet fra de ældre studerende, der også sidder og leger med laser, når de præsenterer, når de kommer videre. student 2: Jeg tænker, at det er meget med [uncertain] informatic, hvordan signalerne bliver sendt rundt. student 2: Det er jo bare, hvordan man skalerer helt op, hvad der kan sker i de mindre komponenter, så det bliver meget tydeligt, hvad der sker. student 2: Og så i den forståelse gå videre med det. ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "student 2"
+      ],
+      "turn_ids": [
+        "I02-T047"
+      ]
+    },
+    {
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q028",
+      "rationale": "The student describes the lab as a 'god introduktion' that gives a taste of a possible specialization direction, directly reflecting perceived usefulness for future academic choices.",
+      "why_interesting": "It highlights how introductory labs can shape students' sense of disciplinary direction and specialization interest.",
+      "teaching_implication": "Frame introductory labs explicitly as exploratory tasters for specialization paths to support this perceived usefulness (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 3: Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. student 3: Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "student 3"
+      ],
+      "turn_ids": [
+        "I02-T049"
+      ]
+    }
+  ]
+}

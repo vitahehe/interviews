@@ -1,0 +1,451 @@
+{
+  "interview_id": "Wednesday_20260225_Kvant1_lab_transcript",
+  "quotes": [
+    {
+      "theme_id": "1",
+      "code": "1.c",
+      "cited_text": "student 3: Det var mere det med, at man ændrede det en grad, og så tænkte man, det gør jo ikke noget som helst. student 3: Og så var der interferens. student 3: Og så var det sådan, at når man lige vil have interferens, så lad os lige gå en grad længere ned. ",
+      "sentence_ids": [
+        "I02-T007-S01",
+        "I02-T007-S02",
+        "I02-T007-S03"
+      ],
+      "turn_ids": [
+        "I02-T007"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q001"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.c",
+      "cited_text": "student 3: Det går meget hurtigt, og hvis man kom til at røre ved spejlen, så wobblede lyset på pladen, fordi det gør jo meget for selv i lyset. ",
+      "sentence_ids": [
+        "I02-T007-S06"
+      ],
+      "turn_ids": [
+        "I02-T007"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q002"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.c",
+      "cited_text": "student 1: Ja, fordi vi startede med det der lille bord, og der var det sådan noget, så skulle vi lige sidde og vente lidt, fordi bordet skulle lige stå stille, så vi kunne se det. student 1: Ja, og så rykkede vi over til det andet, og så kunne man bare se det, hvad det så var. ",
+      "sentence_ids": [
+        "I02-T013-S01",
+        "I02-T013-S02"
+      ],
+      "turn_ids": [
+        "I02-T013"
+      ],
+      "speakers": [
+        "student 1"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q003"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.c",
+      "cited_text": "student 2: Det kan også gøre, at hvis man ikke forstår det, så tænker man lige pludselig, hvad der skete, og det er selvfølgelig fint. student 2: De linser er ikke 100% perfekte og sådan noget... ",
+      "sentence_ids": [
+        "I02-T038-S05",
+        "I02-T038-S06"
+      ],
+      "turn_ids": [
+        "I02-T038"
+      ],
+      "speakers": [
+        "student 2"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q004"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 1: Jeg synes i hvert fald at det er fedt at det handler meget om forståelse. ",
+      "sentence_ids": [
+        "I02-T024-S01"
+      ],
+      "turn_ids": [
+        "I02-T024"
+      ],
+      "speakers": [
+        "student 1"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q005"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 2: Ja, altså jeg synes, at det har fungeret til to halve gange fint. ",
+      "sentence_ids": [
+        "I02-T030-S01"
+      ],
+      "turn_ids": [
+        "I02-T030"
+      ],
+      "speakers": [
+        "student 2"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q006"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 2: Det er mere konstruktivt end at have et lab. ",
+      "sentence_ids": [
+        "I02-T030-S05"
+      ],
+      "turn_ids": [
+        "I02-T030"
+      ],
+      "speakers": [
+        "student 2"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q007"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 1: Jeg synes, det var fedt at være en laser. ",
+      "sentence_ids": [
+        "I02-T040-S01"
+      ],
+      "turn_ids": [
+        "I02-T040"
+      ],
+      "speakers": [
+        "student 1"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q008"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 3: Ja, det var sjovt nok. ",
+      "sentence_ids": [
+        "I02-T041-S01"
+      ],
+      "turn_ids": [
+        "I02-T041"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q009"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 1: Jeg synes bare, at det er sådan... student 1: Lidt som han også sagde, det bliver sådan lidt mere sådan, du sidder med det i hånden, lidt ligesom sådan en lille barn, der opdager, hvis du blander kartoffelmel og vand. student 1: Altså sådan, det bliver meget sådan... student 1: [uncertain] Intuitivt, du sidder og drejer på det. student 1: Du kan se, hvad der sker, når du sidder og drejer. ",
+      "sentence_ids": [
+        "I02-T045-S01",
+        "I02-T045-S02",
+        "I02-T045-S03",
+        "I02-T045-S04",
+        "I02-T045-S05"
+      ],
+      "turn_ids": [
+        "I02-T045"
+      ],
+      "speakers": [
+        "student 1"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q010"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 3: Det er jo bare sejt. ",
+      "sentence_ids": [
+        "I02-T053-S02"
+      ],
+      "turn_ids": [
+        "I02-T053"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q011"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "student 3: Det var et ret sejt forsøg. ",
+      "sentence_ids": [
+        "I02-T053-S05"
+      ],
+      "turn_ids": [
+        "I02-T053"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q012"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "student 2: Så ma er meget fri til at sidde der og lege med det og på den måde få en forståelse for lys. ",
+      "sentence_ids": [
+        "I02-T023-S04"
+      ],
+      "turn_ids": [
+        "I02-T023"
+      ],
+      "speakers": [
+        "student 2"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q013"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "student 2: Det er meget en direkte forståelse for, hvad du gør. student 2: Altså i forhold til, hvordan en gang skal du sætte dig ind i et program, så skal du se, hvad det program fortæller dig. ",
+      "sentence_ids": [
+        "I02-T036-S02",
+        "I02-T036-S03"
+      ],
+      "turn_ids": [
+        "I02-T036"
+      ],
+      "speakers": [
+        "student 2"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q014"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "student 2: Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. ",
+      "sentence_ids": [
+        "I02-T038-S03"
+      ],
+      "turn_ids": [
+        "I02-T038"
+      ],
+      "speakers": [
+        "student 2"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q015"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "student 1: Lidt som han også sagde, det bliver sådan lidt mere sådan, du sidder med det i hånden, lidt ligesom sådan en lille barn, der opdager, hvis du blander kartoffelmel og vand. student 1: Altså sådan, det bliver meget sådan... student 1: [uncertain] Intuitivt, du sidder og drejer på det. student 1: Du kan se, hvad der sker, når du sidder og drejer. ",
+      "sentence_ids": [
+        "I02-T045-S02",
+        "I02-T045-S03",
+        "I02-T045-S04",
+        "I02-T045-S05"
+      ],
+      "turn_ids": [
+        "I02-T045"
+      ],
+      "speakers": [
+        "student 1"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q016"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "student 3: Så tænkte man meget mere over, at det faktisk var de der to bølger. ",
+      "sentence_ids": [
+        "I02-T005-S05"
+      ],
+      "turn_ids": [
+        "I02-T005"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q017"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "student 1: Jeg synes i hvert fald at det er fedt at det handler meget om forståelse. student 1: Fordi så er det meget sådan, så kan du bare starte at lege lidt med det, og så er det ret frit, og så er det sådan lidt mere sådan, hov, hvorfor gør det det? student 1: Og så kan du finde ud af, hvorfor det gør det. ",
+      "sentence_ids": [
+        "I02-T024-S01",
+        "I02-T024-S02",
+        "I02-T024-S03"
+      ],
+      "turn_ids": [
+        "I02-T024"
+      ],
+      "speakers": [
+        "student 1"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q018"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "student 2: Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. student 2: Det gør jo både at man kan hurtigt, og så kan man forstå det... ",
+      "sentence_ids": [
+        "I02-T038-S03",
+        "I02-T038-S04"
+      ],
+      "turn_ids": [
+        "I02-T038"
+      ],
+      "speakers": [
+        "student 2"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q019"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "student 2: Så ma er meget fri til at sidde der og lege med det og på den måde få en forståelse for lys. ",
+      "sentence_ids": [
+        "I02-T023-S04"
+      ],
+      "turn_ids": [
+        "I02-T023"
+      ],
+      "speakers": [
+        "student 2"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q020"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "student 1: Jeg synes i hvert fald at det er fedt at det handler meget om forståelse. ",
+      "sentence_ids": [
+        "I02-T024-S01"
+      ],
+      "turn_ids": [
+        "I02-T024"
+      ],
+      "speakers": [
+        "student 1"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q021"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "student 1: Jeg synes, det var fedt at være en laser. ",
+      "sentence_ids": [
+        "I02-T040-S01"
+      ],
+      "turn_ids": [
+        "I02-T040"
+      ],
+      "speakers": [
+        "student 1"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q022"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "student 3: Ja, det var sjovt nok. ",
+      "sentence_ids": [
+        "I02-T041-S01"
+      ],
+      "turn_ids": [
+        "I02-T041"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q023"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "student 3: Så det virkede ret sejt. ",
+      "sentence_ids": [
+        "I02-T049-S06"
+      ],
+      "turn_ids": [
+        "I02-T049"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q024"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "student 3: Ja, og så kiggede jeg over, og så var jeg sådan lidt, wow, det er meget mere kompleks agtigt. student 3: Det er jo bare sejt. ",
+      "sentence_ids": [
+        "I02-T053-S01",
+        "I02-T053-S02"
+      ],
+      "turn_ids": [
+        "I02-T053"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q025"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "student 3: Det var et ret sejt forsøg. ",
+      "sentence_ids": [
+        "I02-T053-S05"
+      ],
+      "turn_ids": [
+        "I02-T053"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q026"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "student 2: Hvis man hører et eller andet fra de ældre studerende, der også sidder og leger med laser, når de præsenterer, når de kommer videre. student 2: Jeg tænker, at det er meget med [uncertain] informatic, hvordan signalerne bliver sendt rundt. student 2: Det er jo bare, hvordan man skalerer helt op, hvad der kan sker i de mindre komponenter, så det bliver meget tydeligt, hvad der sker. student 2: Og så i den forståelse gå videre med det. ",
+      "sentence_ids": [
+        "I02-T047-S01",
+        "I02-T047-S02",
+        "I02-T047-S03",
+        "I02-T047-S04"
+      ],
+      "turn_ids": [
+        "I02-T047"
+      ],
+      "speakers": [
+        "student 2"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q027"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "student 3: Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. student 3: Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
+      "sentence_ids": [
+        "I02-T049-S07",
+        "I02-T049-S08"
+      ],
+      "turn_ids": [
+        "I02-T049"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "Wednesday_20260225_Kvant1_lab_transcript-Q028"
+    }
+  ],
+  "codes_with_no_quotes": [
+    "1.a",
+    "1.b",
+    "2.b",
+    "3.d"
+  ]
+}

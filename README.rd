@@ -59,17 +59,17 @@ python make_themes/scripts/generate_interview_theme_grids.py --input meaningful_
 1. segment first the interview
 
 python pipeline/segment_transcript.py \
-  --input transcription/test/Monday_20260223_Kvant1_lab_transcript.txt \
-  --interview-id I01 \
-  --output data/processed/Monday_20260223_Kvant1_lab_transcript.json
+  --input transcription/test/Wednesday_20260225_Kvant1_lab_transcript.txt \
+  --interview-id I02 \
+  --output data/processed/Wednesday_20260225_Kvant1_lab_transcript.json
 
 
 python pipeline/pipeline.py \
-  --interview-id Monday_20260223_Kvant1_lab_transcript \
-  --processed data/processed/Monday_20260223_Kvant1_lab_transcript.json \
+  --interview-id Wednesday_20260225_Kvant1_lab_transcript \
+  --processed data/processed/Wednesday_20260225_Kvant1_lab_transcript.json \
   --codebook codebook.yaml \
   --prompts-dir prompts \
-  --outdir output/stage_1/I01 
+  --outdir output/stage_1/I02
 
 
   Note: write interview IDs

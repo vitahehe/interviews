@@ -47,24 +47,26 @@ def codes_block_for_theme(theme: dict) -> str:
     return "\n".join(lines)
 
 
-def build_custom_content_document(turns: list[dict]) -> dict:
-    """One content block per turn -> citation start/end block index maps
-    directly onto a turn index."""
+def build_custom_content_document(sentences: list[dict]) -> dict:
+    """One content block per sentence -> citation start/end block index maps
+    directly onto a sentence index. A trailing space is added to each
+    block's text so adjacent cited blocks never visually run together
+    (e.g. "precise.student 2:") when concatenated in cited_text."""
     return {
         "type": "document",
         "source": {
             "type": "content",
             "content": [
-                {"type": "text", "text": f"{t['speaker']}: {t['text']}"} for t in turns
+                {"type": "text", "text": f"{s['speaker']}: {s['text']} "} for s in sentences
             ],
         },
         "title": "Interview transcript",
-        "context": "Speaker-labeled physics-lab student interview transcript, one content block per conversational turn.",
+        "context": "Speaker-labeled physics-lab student interview transcript, one content block per sentence.",
         "citations": {"enabled": True},
     }
 
 
-def parse_pass1_response(content_blocks, turns: list[dict], theme_id: str) -> list[dict]:
+def parse_pass1_response(content_blocks, sentences: list[dict], theme_id: str) -> list[dict]:
     quotes = []
     current_code = None
     for block in content_blocks:
@@ -78,21 +80,25 @@ def parse_pass1_response(content_blocks, turns: list[dict], theme_id: str) -> li
             for c in citations:
                 start = getattr(c, "start_block_index", None)
                 end = getattr(c, "end_block_index", None)
-                turn_ids = (
-                    [turns[i]["turn_id"] for i in range(start, end + 1)]
+                # end_block_index is exclusive (matches Anthropic's char-offset
+                # citation convention) -- range(start, end), NOT range(start, end+1).
+                # Using end+1 here previously pulled in one spurious adjacent
+                # block (visible as an extra, unrelated speaker/turn in the
+                # metadata that never actually appeared in cited_text).
+                cited_sentences = (
+                    [sentences[i] for i in range(start, end)]
                     if start is not None and end is not None
                     else []
                 )
-                speakers = sorted(
-                    {turns[i]["speaker"] for i in range(start, end + 1)}
-                    if start is not None and end is not None
-                    else []
-                )
+                sentence_ids = [s["sentence_id"] for s in cited_sentences]
+                turn_ids = list(dict.fromkeys(s["turn_id"] for s in cited_sentences))
+                speakers = sorted({s["speaker"] for s in cited_sentences})
                 quotes.append(
                     {
                         "theme_id": theme_id,
                         "code": current_code,
                         "cited_text": getattr(c, "cited_text", None),
+                        "sentence_ids": sentence_ids,
                         "turn_ids": turn_ids,
                         "speakers": speakers,
                     }
@@ -100,8 +106,8 @@ def parse_pass1_response(content_blocks, turns: list[dict], theme_id: str) -> li
     return quotes
 
 
-def run_pass1(client, model, turns, theme, system_prompt, pass1_template):
-    doc = build_custom_content_document(turns)
+def run_pass1(client, model, sentences, theme, system_prompt, pass1_template):
+    doc = build_custom_content_document(sentences)
     user_text = render(
         pass1_template,
         theme_name=theme["name"],
@@ -117,7 +123,7 @@ def run_pass1(client, model, turns, theme, system_prompt, pass1_template):
             {"role": "user", "content": [doc, {"type": "text", "text": user_text}]}
         ],
     )
-    quotes = parse_pass1_response(response.content, turns, theme["id"])
+    quotes = parse_pass1_response(response.content, sentences, theme["id"])
     return quotes, response.usage, response.stop_reason
 
 
@@ -168,20 +174,23 @@ def run_pass2(client, model, system_prompt, pass2_template, quotes_with_ids, cod
 
     response = client.messages.create(
         model=model,
-        max_tokens=6000,
+        max_tokens=18000,
         system=system_prompt,
         tools=[INTERPRETATION_TOOL],
         tool_choice={"type": "tool", "name": "record_interpretation"},
         messages=[{"role": "user", "content": user_text}],
     )
 
+    stop_reason = response.stop_reason
     for block in response.content:
         if getattr(block, "type", None) == "tool_use":
-            return block.input.get("interpretations", []), response.usage
-    return [], response.usage
+            return block.input.get("interpretations", []), response.usage, stop_reason
+    return [], response.usage, stop_reason
+
 
 def make_json_safe(obj):
     return json.loads(json.dumps(obj, default=str))
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -196,7 +205,7 @@ def main():
     outdir = Path(args.outdir)
     outdir.mkdir(parents=True, exist_ok=True)
 
-    turns = json.loads(Path(args.processed).read_text(encoding="utf-8"))["turns"]
+    sentences = json.loads(Path(args.processed).read_text(encoding="utf-8"))["sentences"]
     codebook = load_codebook(args.codebook)
 
     prompts_dir = Path(args.prompts_dir)
@@ -210,7 +219,7 @@ def main():
     pass1_usage_log = []
     t0 = time.time()
     for theme in codebook["themes"]:
-        quotes, usage, stop_reason = run_pass1(client, args.model, turns, theme, system_prompt, pass1_template)
+        quotes, usage, stop_reason = run_pass1(client, args.model, sentences, theme, system_prompt, pass1_template)
         all_quotes.extend(quotes)
         pass1_usage_log.append({"theme_id": theme["id"], "usage": make_json_safe(usage), "stop_reason": stop_reason})
 
@@ -233,7 +242,7 @@ def main():
     )
     t1 = time.time()
 
-    interpretations, pass2_usage = run_pass2(
+    interpretations, pass2_usage, pass2_stop_reason = run_pass2(
         client, args.model, system_prompt, pass2_template, all_quotes, codebook
     )
 
@@ -262,7 +271,6 @@ def main():
     metadata = {
         "interview_id": args.interview_id,
         "model": args.model,
-        "temperature": 0,
         "codebook_hash": file_hash(Path(args.codebook)),
         "pass1_prompt_hash": file_hash(prompts_dir / "pass1_prompt.md"),
         "pass2_prompt_hash": file_hash(prompts_dir / "pass2_prompt.md"),

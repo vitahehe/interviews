@@ -1,16 +1,18 @@
 """
 segment_transcript.py
 
-Converts a raw, speaker-labeled interview transcript (.txt) into a list of
-turns: [{"turn_id": "I01-T001", "speaker": "student 1", "text": "..."}, ...]
+Converts a raw, speaker-labeled interview transcript (.txt) into:
+  - turns: full conversational turns (kept for human-readable reference)
+  - sentences: sentence-level units, each tagged with its parent turn_id and
+    speaker — these become the citable content blocks for Pass 1.
 
-Why this exists as a separate, deterministic step (not left to the AI):
-segmentation is a mechanical parsing task with a single correct answer given
-the file's format. Doing it in code, once, and saving the result, means every
-later pass1 call for this interview cites against the *same* fixed turn
-indexing,  which is what makes citation offsets (start_block_index /
-end_block_index, see Anthropic's Citations docs on custom content documents)
-reliably map back to a specific turn every time.
+Why sentence-level, not turn-level: Anthropic's citations mechanism can only
+point at a whole content block, never a substring within one. Splitting to
+sentence level lets a citation land on the specific clause that matters.
+
+Why this is still a separate, deterministic step (not left to the AI):
+sentence splitting has a mechanically-defined answer given punctuation --
+keep this reliable and free, save the model's attention for judgment calls.
 """
 
 import argparse
@@ -18,8 +20,13 @@ import json
 import re
 from pathlib import Path
 
-# Recognised speaker-label lines in this transcript format. Extend if a new
 SPEAKER_LINE = re.compile(r"^(?:[Ss]tudent\s+\d+|Bjarke)$")
+
+# Splits after a sentence-ending punctuation mark, only where followed by
+# whitespace -- deliberately does NOT split inside "..." itself (no
+# whitespace between the dots), but does split after "..." once followed by
+# a space, and after a normal ".", "?", or "!".
+SENTENCE_BOUNDARY = re.compile(r"(?<=[.!?])\s+")
 
 
 def segment(raw_text: str, interview_id: str) -> list[dict]:
@@ -47,12 +54,53 @@ def segment(raw_text: str, interview_id: str) -> list[dict]:
             current_speaker = stripped
             current_lines = []
         else:
-            # Ignore file-header lines that appear before any speaker is seen
-            # (e.g. "Monday 20260223 Kvant1 lab.m4a, ..." and "level: bachelors").
             if current_speaker is not None:
                 current_lines.append(line)
     flush()
     return turns
+
+
+def split_into_sentences(turns: list[dict]) -> list[dict]:
+    """Flatten turns into sentence-level citable units."""
+    sentences: list[dict] = []
+    for turn in turns:
+        raw_pieces = SENTENCE_BOUNDARY.split(turn["text"])
+        pieces = [p.strip() for p in raw_pieces if p.strip()]
+        if not pieces:
+            continue
+        for i, piece in enumerate(pieces, start=1):
+            sentences.append(
+                {
+                    "sentence_id": f"{turn['turn_id']}-S{i:02d}",
+                    "turn_id": turn["turn_id"],
+                    "speaker": turn["speaker"],
+                    "text": piece,
+                }
+            )
+    return sentences
+
+
+def _normalize(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def verify_no_data_loss(turns: list[dict], sentences: list[dict]) -> None:
+    """Reconstructs each turn from its sentences and confirms nothing was
+    dropped in the split. Whitespace differences are ignored (splitting
+    necessarily changes spacing), but every word must survive."""
+    by_turn: dict[str, list[str]] = {}
+    for s in sentences:
+        by_turn.setdefault(s["turn_id"], []).append(s["text"])
+
+    for turn in turns:
+        original = _normalize(turn["text"])
+        reconstructed = _normalize(" ".join(by_turn.get(turn["turn_id"], [])))
+        if reconstructed != original:
+            print(
+                f"WARNING: possible data loss/alteration in {turn['turn_id']}\n"
+                f"  original:      {original!r}\n"
+                f"  reconstructed: {reconstructed!r}"
+            )
 
 
 def main():
@@ -64,13 +112,19 @@ def main():
 
     raw = Path(args.input).read_text(encoding="utf-8")
     turns = segment(raw, args.interview_id)
+    sentences = split_into_sentences(turns)
+    verify_no_data_loss(turns, sentences)
 
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     Path(args.output).write_text(
-        json.dumps({"interview_id": args.interview_id, "turns": turns}, indent=2, ensure_ascii=False),
+        json.dumps(
+            {"interview_id": args.interview_id, "turns": turns, "sentences": sentences},
+            indent=2,
+            ensure_ascii=False,
+        ),
         encoding="utf-8",
     )
-    print(f"Wrote {len(turns)} turns to {args.output}")
+    print(f"Wrote {len(turns)} turns / {len(sentences)} sentences to {args.output}")
 
 
 if __name__ == "__main__":
