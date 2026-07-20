@@ -1,77 +1,57 @@
-# Interviews qualitative analysis workflow
+# Interview analysis workflow
 
-This repository supports a lightweight qualitative-analysis pipeline for interview transcripts.
+This repository contains a small pipeline for turning raw interview transcripts into structured qualitative-analysis output. The current workflow is:
 
-## Purpose
+1. Segment a raw transcript into turns and sentence-level units.
+2. Run a two-pass analysis with the Anthropic API using a codebook and prompt templates.
+3. Write JSON outputs for each interview under the output directory.
 
-The workflow is organized around three stages:
+## Repository contents
 
-1. Transcription input
-2. Annotation of transcript chunks
-3. Meaningful-chunk selection and per-interview theme-grid generation
-
-The current implementation is designed to work as follows:
-
-- Put raw interview transcripts in [transcription]
-- Run annotation on one or more transcripts from [annotation]
-- Use the resulting chunk-level evidence to build a meaningful-chunk evidence file in [meaningful_chunks]
-- Generate one per-interview theme grid in [make_themes]
-
-## Main folders
-
-- [transcription](transcription): raw interview transcripts
-- [annotation](annotation): transcript chunking and broad annotation logic
-- [meaningful_chunks](meaningful_chunks): meaningful-chunk loading and evidence preparation
-- [make_themes](make_themes): per-interview theme-grid generation, CSV/JSON/Markdown export, and prompt templates
+- [transcription/test](transcription/test): raw interview transcripts used as input.
+- [pipeline/segment_transcript.py](pipeline/segment_transcript.py): converts a plain transcript into turn-level and sentence-level JSON structures.
+- [pipeline/pipeline.py](pipeline/pipeline.py): runs Pass 1 and Pass 2 analysis and writes the result files.
+- [pipeline/requirements.txt](pipeline/requirements.txt): Python dependencies for the pipeline.
+- [codebook.yaml](codebook.yaml): the coding scheme used by the analysis.
+- [prompts](prompts): system and pass-specific prompt templates.
+- [data/processed](data/processed): processed interview JSON files produced by segmentation.
+- [output/stage_1](output/stage_1): per-interview analysis outputs, including pass1.json, pass2.json, and metadata.json.
 
 ## How to run
 
-### 1. Annotation
-
-Run annotation on a transcript file:
+1. Create and activate a Python environment.
 
 ```bash
-cd /workspaces/interviews
+cd /home/vita/projects/interviews
+python -m venv .venv
+source .venv/bin/activate
+pip install -r pipeline/requirements.txt
+```
+
+2. Set your API key.
+
+```bash
 export ANTHROPIC_API_KEY=your_key_here
-python annotation/annotate.py --file transcription/test/Monday_20260223_Kvant1_lab_transcript.txt --output annotation/outputs
 ```
 
-### 2. Create meaningful-chunk input
-
-The repository expects a JSONL file with meaningful-chunk evidence. A compact example is already prepared under [meaningful_chunks/data](meaningful_chunks/data).
-
-### 3. Generate theme grids
-
-Run the theme-grid generator:
+3. Segment one interview.
 
 ```bash
-cd /workspaces/interviews
-python make_themes/scripts/generate_interview_theme_grids.py --input meaningful_chunks/data/meaningful_chunks.jsonl --output-dir make_themes/outputs/interview_theme_grids
+python pipeline/segment_transcript.py \
+  --input transcription/test/Monday_20260223_Kvant1_lab_transcript.txt \
+  --interview-id I01 \
+  --output data/processed/Monday_20260223_Kvant1_lab_transcript.json
 ```
 
-## Notes on the current implementation
+4. Run the analysis pipeline.
 
-- The theme-grid generator is intentionally evidence-oriented: each theme code is supported by short chunk-level examples.
-- The generated outputs are stored in [make_themes/outputs/interview_theme_grids](make_themes/outputs/interview_theme_grids).
-
-## RUN
-
-1. segment first the interview
-
-python pipeline/segment_transcript.py \
-  --input transcription/test/Wednesday_20260225_Kvant1_lab_transcript.txt \
-  --interview-id I02 \
-  --output data/processed/Wednesday_20260225_Kvant1_lab_transcript.json
-
-
+```bash
 python pipeline/pipeline.py \
-  --interview-id Wednesday_20260225_Kvant1_lab_transcript \
-  --processed data/processed/Wednesday_20260225_Kvant1_lab_transcript.json \
+  --interview-id I01 \
+  --processed data/processed/Monday_20260223_Kvant1_lab_transcript.json \
   --codebook codebook.yaml \
   --prompts-dir prompts \
-  --outdir output/stage_1/I02
+  --outdir output/stage_1/I01
+```
 
-
-  Note: write interview IDs
-  I01 = Monday_20260223_Kvant1_lab_transcript.txt
-  I02 = <second interview filename>
+Use the interview ID values I01 and I02 to match the folders under [output/stage_1](output/stage_1).
