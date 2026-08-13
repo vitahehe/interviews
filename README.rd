@@ -55,3 +55,110 @@ python pipeline/pipeline.py \
 ```
 
 Use the interview ID values I01 and I02 to match the folders under [output/stage_1](output/stage_1).
+
+
+
+STAGE TWO, TRANS INTERVIEW ANALYSIS:
+
+# Stage 1 Aggregator
+
+Aggregates outputs from the Stage 1 pipeline across multiple interview folders, producing a comprehensive summary of coding patterns, themes, and speaker engagement.
+
+## Usage
+
+```bash
+python aggregate_stage1.py <path_to_output_stage_1_dir> <path_to_codebook.yaml>
+```
+
+**Example:**
+```bash
+python aggregate_stage1.py output/stage_1 codebook.yaml
+```
+
+## Output Files
+
+Two files are written to the `output/stage_1` directory:
+
+### 1. `aggregate_data.json`
+Machine-readable JSON file containing all aggregated metrics, suitable for downstream AI-assisted analysis. Includes:
+- List of included and excluded interviews (with exclusion reasons)
+- Code × interview count matrix
+- Theme × interview count matrix
+- Grounding type breakdown per code (quote-only vs. quote+inference)
+- Duplicate citation pairs and co-occurrence counts
+- Unique speakers per code
+- Per-interview statistics
+
+### 2. `aggregate_report.md`
+Human-readable markdown report with formatted tables showing:
+- Summary statistics
+- Interview-level quote and code counts
+- Code × interview matrix
+- Theme × interview matrix
+- Grounding type breakdown table
+- Duplicate citations sorted by frequency
+- Unique speakers per code
+- Codes with zero quotes across all interviews
+
+
+Algorithm Overview
+
+### Phase 1: Discovery & Validation
+1. Scan `output/stage_1/` for interview subdirectories (e.g., I01, I02, ...)
+2. For each directory, run 5 health checks:
+   - `pass2.json` exists with non-empty `interpretations` array
+   - `metadata.json` exists and is valid JSON
+   - `pass1_calls == len(codebook.themes)`
+   - All entries in `pass1_usage_per_theme` have `stop_reason == "end_turn"`
+   - `pass2_stop_reason == "end_turn"` (if field exists; absent = pass)
+3. Separate interviews into `included` (passed all checks) and `excluded` (with reasons)
+
+### Phase 2: Data Extraction & Aggregation
+For each **included** interview, process `pass2.json` interpretations:
+
+1. **Code × Interview Matrix**
+   - Rows: all codes from codebook (in order), including those with 0 quotes
+   - Columns: included interview IDs
+   - Cell values: count of interpretations per code per interview
+
+2. **Theme × Interview Matrix**
+   - Rows: all themes from codebook (in order)
+   - Columns: included interview IDs
+   - Cell values: sum of counts for all codes under that theme
+
+3. **Grounding Type Breakdown** (per code)
+   - Track `interpretation_grounded_in` field: "quote_text_only" or "quote_plus_inference"
+   - Aggregate per code per interview
+   - Calculate totals across all included interviews
+
+4. **Duplicate Citation Detection**
+   - Normalize whitespace in each `cited_text`
+   - Group interpretations by normalized text within each interview
+   - When same text appears under multiple codes, record the code pair
+   - Aggregate co-occurrence counts across all interviews
+   - Sort pairs by frequency (descending)
+
+5. **Unique Speakers per Code**
+   - For each code, collect unique speaker names from all associated interpretations
+   - Sort alphabetically
+
+6. **Interview Statistics**
+   - Total quote count (size of interpretations array)
+   - Distinct codes triggered (unique codes with at least 1 quote)
+   - Percentage of codebook covered
+
+7. **Zero-Quote Codes**
+   - Identify codes with 0 appearances across ALL included interviews
+   - List separately for visibility
+
+
+RUN AI PROMPT STAGE 2
+
+
+   python pipeline/analyze_patterns.py \
+  --stage1-dir outputs/stage_1 \
+  --aggregate-data outputs/stage_1/aggregate_data.json \
+  --codebook codebook.yaml \
+  --prompts-dir prompts \
+  --outdir outputs/stage_2 \
+  --model claude-sonnet-5

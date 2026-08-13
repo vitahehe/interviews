@@ -1,0 +1,242 @@
+"""
+analyze_patterns.py
+
+Stage 2, Step B: AI-assisted pattern-finding across already-aggregated,
+already-verified Stage 1 evidence. Takes aggregate_data.json (Step A's
+deterministic counts) plus the actual verified quotes from every included
+interview's pass2.json, and asks the model to surface tensions,
+contradictions, alignments, subtleties, and emerging patterns.
+
+Design note: findings reference quotes by quote_id only. The model never
+retypes quote text -- cited_text is spliced back in by this script after
+the fact, the same anti-drift pattern used in run_pipeline.py's Pass 2.
+This step trusts Step A's included_interviews list as the single source of
+truth for which interviews are valid -- it does not re-run health checks.
+"""
+
+import argparse
+import hashlib
+import json
+from pathlib import Path
+
+import anthropic
+import yaml
+from dotenv import load_dotenv
+load_dotenv()
+
+
+def render(template: str, **kwargs) -> str:
+    out = template
+    for k, v in kwargs.items():
+        out = out.replace("{{ " + k + " }}", str(v)).replace("{{" + k + "}}", str(v))
+    return out
+
+
+def load_all_quotes(stage1_dir: Path, included_interviews: list[str]) -> list[dict]:
+    """Load every interpretation from every included interview's pass2.json,
+    tagging each with its interview_id so cross-interview findings can
+    reference where each quote came from."""
+    quotes = []
+    for interview_id in included_interviews:
+        pass2_path = stage1_dir / interview_id / "pass2.json"
+        with open(pass2_path, "r", encoding="utf-8") as f:
+            pass2 = json.load(f)
+        for interp in pass2.get("interpretations", []):
+            quotes.append({**interp, "interview_id": interview_id})
+    return quotes
+
+
+def build_quotes_block(quotes: list[dict]) -> str:
+    lines = []
+    for q in quotes:
+        lines.append(
+            f"- quote_id: {q['quote_id']}\n"
+            f"  interview: {q['interview_id']}\n"
+            f"  theme: {q.get('theme_id')}  code: {q.get('code')}\n"
+            f"  quote: \"{q.get('cited_text', '').strip()}\"\n"
+            f"  prior rationale: {q.get('rationale', '')}"
+        )
+    return "\n".join(lines)
+
+
+def build_aggregate_summary(aggregate_data: dict) -> str:
+    """A compact, readable text rendering of the parts of aggregate_data.json
+    relevant to pattern-finding -- not the full JSON dump, to keep the model
+    focused on structure rather than re-parsing raw nested objects."""
+    lines = []
+    lines.append("Code counts per interview:")
+    for code, per_interview in aggregate_data["code_interview_matrix"].items():
+        counts = ", ".join(f"{i}={c}" for i, c in per_interview.items())
+        lines.append(f"  {code}: {counts}")
+    if aggregate_data.get("zero_quote_codes"):
+        lines.append(f"Codes with zero quotes in ANY included interview: {', '.join(aggregate_data['zero_quote_codes'])}")
+    if aggregate_data.get("duplicate_citations_by_pair"):
+        lines.append("Codes whose quotes overlap (same quote satisfied both codes):")
+        for item in aggregate_data["duplicate_citations_by_pair"]:
+            pair = " & ".join(item["code_pair"])
+            lines.append(f"  {pair}: {item['co_occurrence_count']} shared quote(s)")
+    return "\n".join(lines)
+
+
+FINDINGS_TOOL = {
+    "name": "record_pattern_findings",
+    "description": "Record cross-interview pattern findings from coded interview evidence.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "findings": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "finding_type": {
+                            "type": "string",
+                            "enum": ["tension", "contradiction", "alignment", "subtlety", "emerging_pattern"],
+                        },
+                        "title": {"type": "string"},
+                        "description": {"type": "string"},
+                        "quote_ids": {"type": "array", "items": {"type": "string"}},
+                        "themes_involved": {"type": "array", "items": {"type": "string"}},
+                        "codes_involved": {"type": "array", "items": {"type": "string"}},
+                        "confidence": {
+                            "type": "string",
+                            "enum": ["strong", "moderate", "speculative"],
+                        },
+                    },
+                    "required": [
+                        "finding_type", "title", "description",
+                        "quote_ids", "themes_involved", "codes_involved", "confidence",
+                    ],
+                },
+            }
+        },
+        "required": ["findings"],
+    },
+}
+
+
+def run_pattern_analysis(client, model, system_prompt, prompt_template, aggregate_data, quotes):
+    user_text = render(
+        prompt_template,
+        interview_count=len(aggregate_data["included_interviews"]),
+        interview_ids=", ".join(aggregate_data["included_interviews"]),
+        aggregate_summary=build_aggregate_summary(aggregate_data),
+        quotes_block=build_quotes_block(quotes),
+    )
+    response = client.messages.create(
+        model=model,
+        max_tokens=16000,
+        system=system_prompt,
+        tools=[FINDINGS_TOOL],
+        tool_choice={"type": "tool", "name": "record_pattern_findings"},
+        messages=[{"role": "user", "content": user_text}],
+    )
+    stop_reason = response.stop_reason
+    for block in response.content:
+        if getattr(block, "type", None) == "tool_use":
+            return block.input.get("findings", []), response.usage, stop_reason
+    return [], response.usage, stop_reason
+
+
+def make_json_safe(obj):
+    return json.loads(json.dumps(obj, default=str))
+
+
+def generate_markdown_report(findings: list[dict]) -> str:
+    lines = ["# Stage 2 — Cross-Interview Pattern Findings\n"]
+    order = ["contradiction", "tension", "subtlety", "alignment", "emerging_pattern"]
+    for finding_type in order:
+        matching = [f for f in findings if f["finding_type"] == finding_type]
+        if not matching:
+            continue
+        lines.append(f"## {finding_type.replace('_', ' ').title()}\n")
+        for f in matching:
+            lines.append(f"**{f['title']}** (confidence: {f['confidence']})")
+            lines.append(f["description"])
+            lines.append(f"Themes: {', '.join(f['themes_involved'])} | Codes: {', '.join(f['codes_involved'])}")
+            lines.append("Supporting quotes:")
+            for q in f["quotes"]:
+                lines.append(f"- [{q['interview_id']}/{q['code']}/{q['quote_id']}] \"{q['cited_text']}\"")
+            lines.append("")
+    return "\n".join(lines)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--stage1-dir", required=True, help="e.g. outputs/stage_1")
+    ap.add_argument("--aggregate-data", required=True, help="e.g. outputs/stage_1/aggregate_data.json")
+    ap.add_argument("--codebook", required=True)
+    ap.add_argument("--prompts-dir", required=True)
+    ap.add_argument("--outdir", required=True)
+    ap.add_argument("--model", default="claude-sonnet-5")
+    args = ap.parse_args()
+
+    stage1_dir = Path(args.stage1_dir)
+    outdir = Path(args.outdir)
+    outdir.mkdir(parents=True, exist_ok=True)
+
+    aggregate_data = json.loads(Path(args.aggregate_data).read_text(encoding="utf-8"))
+    codebook = yaml.safe_load(Path(args.codebook).read_text(encoding="utf-8"))
+
+    prompts_dir = Path(args.prompts_dir)
+    system_prompt = (prompts_dir / "system_prompt.md").read_text(encoding="utf-8")
+    pattern_template = (prompts_dir / "stage2_pattern_prompt.md").read_text(encoding="utf-8")
+
+    quotes = load_all_quotes(stage1_dir, aggregate_data["included_interviews"])
+    quote_by_id = {q["quote_id"]: q for q in quotes}
+
+    client = anthropic.Anthropic()
+    findings, usage, stop_reason = run_pattern_analysis(
+        client, args.model, system_prompt, pattern_template, aggregate_data, quotes
+    )
+
+    # Splice verified quote data back in by ID -- same anti-drift pattern as
+    # run_pipeline.py's Pass 2. Flag (don't crash on) any quote_id the model
+    # referenced that doesn't actually exist in our data.
+    for finding in findings:
+        resolved = []
+        for qid in finding.get("quote_ids", []):
+            q = quote_by_id.get(qid)
+            if q is None:
+                resolved.append({"quote_id": qid, "cited_text": "[UNRESOLVED quote_id -- not found in source data]", "interview_id": "?", "code": "?"})
+            else:
+                resolved.append({
+                    "quote_id": qid,
+                    "cited_text": q.get("cited_text"),
+                    "interview_id": q.get("interview_id"),
+                    "code": q.get("code"),
+                })
+        finding["quotes"] = resolved
+
+    (outdir / "pattern_findings.json").write_text(
+        json.dumps({"findings": findings, "stop_reason": stop_reason}, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    (outdir / "pattern_findings.md").write_text(
+        generate_markdown_report(findings), encoding="utf-8"
+    )
+
+    def file_hash(p: Path) -> str:
+        return hashlib.sha256(p.read_bytes()).hexdigest()[:16]
+
+    metadata = {
+        "model": args.model,
+        "included_interviews": aggregate_data["included_interviews"],
+        "aggregate_data_hash": file_hash(Path(args.aggregate_data)),
+        "prompt_hash": file_hash(prompts_dir / "stage2_pattern_prompt.md"),
+        "system_prompt_hash": file_hash(prompts_dir / "system_prompt.md"),
+        "finding_count": len(findings),
+        "stop_reason": stop_reason,
+        "usage": make_json_safe(usage),
+    }
+    (outdir / "metadata.json").write_text(
+        json.dumps(metadata, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+
+    print(f"Done. {len(findings)} findings. Files written to {outdir}/")
+    if stop_reason != "end_turn":
+        print(f"WARNING: stop_reason was '{stop_reason}', not 'end_turn' -- output may be truncated.")
+
+
+if __name__ == "__main__":
+    main()
