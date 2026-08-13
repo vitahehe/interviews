@@ -151,6 +151,13 @@ def generate_markdown_report(findings: list[dict]) -> str:
             continue
         lines.append(f"## {finding_type.replace('_', ' ').title()}\n")
         for f in matching:
+            # Prepend any short warning lines for human reviewers when
+            # checks added during quote-resolution flag inconsistencies.
+            if not f.get("codes_involved_consistent", True):
+                lines.append("⚠ codes_involved does not match cited quotes' actual codes -- see codes_involved_actual")
+            if f.get("single_interview_only", False):
+                lines.append("⚠ labeled as alignment but all supporting quotes are from a single interview")
+
             lines.append(f"**{f['title']}** (confidence: {f['confidence']})")
             lines.append(f["description"])
             lines.append(f"Themes: {', '.join(f['themes_involved'])} | Codes: {', '.join(f['codes_involved'])}")
@@ -208,6 +215,24 @@ def main():
                 })
         finding["quotes"] = resolved
 
+        # Validate that the codes the model stated are actually present
+        # on the resolved quotes. Preserve the model's original
+        # `codes_involved` but record whether it matches the actual set
+        # of codes observed on the cited quotes.
+        stated_codes = set(finding.get("codes_involved", []))
+        actual_codes = set(q["code"] for q in finding["quotes"] if q["code"] != "?")
+        finding["codes_involved_consistent"] = (stated_codes == actual_codes)
+        if stated_codes != actual_codes:
+            finding["codes_involved_actual"] = sorted(actual_codes)
+
+        # If a finding is typed as an "alignment", ensure we flag
+        # when its supporting quotes actually come from a single
+        # interview only.
+        interview_ids_cited = set(q["interview_id"] for q in finding["quotes"] if q["interview_id"] != "?")
+        finding["single_interview_only"] = (
+            finding.get("finding_type") == "alignment" and len(interview_ids_cited) <= 1
+        )
+
     (outdir / "pattern_findings.json").write_text(
         json.dumps({"findings": findings, "stop_reason": stop_reason}, indent=2, ensure_ascii=False),
         encoding="utf-8",
@@ -234,8 +259,12 @@ def main():
     )
 
     print(f"Done. {len(findings)} findings. Files written to {outdir}/")
-    if stop_reason != "end_turn":
-        print(f"WARNING: stop_reason was '{stop_reason}', not 'end_turn' -- output may be truncated.")
+    # This script always forces a tool choice; a stop_reason of
+    # "tool_use" (or an explicit "end_turn") is expected. Anything
+    # else (e.g. "max_tokens") should be treated as a potential
+    # truncation and warned about.
+    if stop_reason not in ("tool_use", "end_turn"):
+        print(f"WARNING: stop_reason was '{stop_reason}' -- output may be truncated.")
 
 
 if __name__ == "__main__":

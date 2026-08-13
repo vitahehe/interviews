@@ -156,8 +156,8 @@ RUN AI PROMPT STAGE 2
 
 
    python pipeline/analyze_patterens.py \
-  --stage1-dir outputs/stage_1 \
-  --aggregate-data outputs/stage_1/aggregate_data.json \
+  --stage1-dir output/stage_1 \
+  --aggregate-data output/stage_1/aggregate_data.json \
   --codebook codebook.yaml \
   --prompts-dir prompts \
   --outdir outputs/stage_2 \
