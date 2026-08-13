@@ -155,7 +155,7 @@ For each **included** interview, process `pass2.json` interpretations:
 RUN AI PROMPT STAGE 2
 
 
-   python pipeline/analyze_patterns.py \
+   python pipeline/analyze_patterens.py \
   --stage1-dir outputs/stage_1 \
   --aggregate-data outputs/stage_1/aggregate_data.json \
   --codebook codebook.yaml \
