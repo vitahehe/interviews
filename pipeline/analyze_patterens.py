@@ -49,15 +49,13 @@ def load_all_quotes(stage1_dir: Path, included_interviews: list[str]) -> list[di
 def build_quotes_block(quotes: list[dict]) -> str:
     lines = []
     for q in quotes:
-        lines.append(
-            f"- quote_id: {q['quote_id']}\n"
-            f"  interview: {q['interview_id']}\n"
-            f"  theme: {q.get('theme_id')}  code: {q.get('code')}\n"
-            f"  quote: \"{q.get('cited_text', '').strip()}\"\n"
-            f"  prior rationale: {q.get('rationale', '')}"
-        )
+        lines.append(f"QUOTE_ID       → {q['quote_id']}")
+        lines.append(f"INTERVIEW_ID   → {q['interview_id']}")
+        lines.append(f"THEME          → {q.get('theme_id')}")
+        lines.append(f"CODE           → {q.get('code')}")
+        lines.append(f"VERBATIM_QUOTE → {q.get('cited_text', '').strip()}")
+        lines.append(f"PRIOR_RATIONALE → {q.get('rationale', '')}")
     return "\n".join(lines)
-
 
 def build_aggregate_summary(aggregate_data: dict) -> str:
     """A compact, readable text rendering of the parts of aggregate_data.json
@@ -131,11 +129,15 @@ def run_pattern_analysis(client, model, system_prompt, prompt_template, aggregat
         tool_choice={"type": "tool", "name": "record_pattern_findings"},
         messages=[{"role": "user", "content": user_text}],
     )
-    stop_reason = response.stop_reason
+
+    stop_reason = getattr(response, "stop_reason", None)
+    usage = getattr(response, "usage", {})
+
     for block in response.content:
         if getattr(block, "type", None) == "tool_use":
-            return block.input.get("findings", []), response.usage, stop_reason
-    return [], response.usage, stop_reason
+            return block.input.get("findings", []), usage, stop_reason
+
+    return [], usage, stop_reason
 
 
 def make_json_safe(obj):
