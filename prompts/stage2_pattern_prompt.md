@@ -1,46 +1,59 @@
-You are analyzing coded interview evidence across multiple interviews from the same physics lab course. The evidence was extracted and verified in a prior stage. Your task is to identify genuine cross-interview patterns from the evidence provided below. Do NOT re-derive or recalculate the aggregate counts. The counts below have already been computed deterministically and correctly.
+You are analyzing coded interview evidence from physics lab interviews. Use ONLY the evidence provided. Do NOT reinterpret, re-derive, or invent data.
 
-The following aggregate counts describe the distribution of codes across the included interviews:
-
+**CONTEXT:**
 Interviews: {{interview_ids}}
 
 {{aggregate_summary}}
 
-Use these counts only as contextual information. Do not treat them as a substitute for reading the individual quotes.
-
-Below are all verified quotes from these interviews, grouped by code. Each
-quote has a quote_id, interview_id, theme, code, the verbatim quote, and the
-prior interpretation notes.Treat quote_id, interview_id, theme, and code as metadata attached to the quote. Do not change, reinterpret, or invent these values.
+**EVIDENCE:**
+All verified quotes, grouped by code. Each has quote_id, interview_id, theme, code, and verbatim text.
 
 {{quotes_block}}
 
-Using only this evidence, identify findings in these categories:
-- tension: two or more quotes pulling in different directions on a related
-  question, whether within one interview or across interviews
-- contradiction: a stronger case where quotes appear to directly conflict
-- alignment: a pattern consistent across multiple interviews or students
-- subtlety: a nuance visible only when reading multiple quotes together,
-  not evident from any single quote or from the counts alone
-- emerging_pattern: something the original codebook does not have a code
-  for, but that recurs across the evidence
+---
 
-Do not manufacture findings to fill categories. If the evidence does not support a category, omit it.
+## TASK: Identify Cross-Interview Patterns
 
-For each finding, call record_pattern_findings once with the full list.
-Reference supporting evidence ONLY by quote_id -- do not retype or
-paraphrase quote text into your description; describe the pattern itself
-and let the quote_ids carry the evidence. Every finding must cite at least
-two quote_ids, except emerging_pattern findings which need at least one.
+Find ALL genuine patterns in these categories. No limits per category — find as many as the evidence supports:
 
-codes_involved and themes_involved describe the conceptual scope of the finding. They do NOT necessarily have to be identical to the codes or themes attached to every cited quote.
-For example, a finding may involve codes 2.a and 3.a while the strongest supporting quotes are both coded 2.a. This is acceptable if the evidence genuinely supports a relationship involving both codes.However, do not include a code or theme merely because it is related to the topic. Include it only when it is genuinely relevant to the finding.
+### RELEVANT PATTERNS (codes-based):
+1. **tension**: Quotes pulling in different directions on a related question
+2. **contradiction**: Quotes that directly conflict
+3. **alignment**: Pattern consistent across multiple interviews or students
+4. **subtlety**: Nuance visible only when reading multiple quotes together
+5. **emerging_pattern**: Something recurrent NOT in the codebook
 
-The quote_ids are the authoritative specification of which pieces of evidence you are using to support the finding. The code and theme metadata attached to those quotes are authoritative for those individual pieces of evidence.
+### IRRELEVANT PATTERNS (NOT tied to codebook codes, but noteworthy):
+6. **irrelevant_pattern**: Recurrent themes that emerge but are NOT addressed by codebook codes, including:
+   - Social relations (peer dynamics, collaboration quality, group formation)
+   - Competition (comparison with peers, competitive behavior)
+   - Student worries (anxiety, confidence, stress about performance)
+   - Stress (time pressure, workload, emotional responses)
+   - Other unexpected or peripheral themes
 
-Do not change the code or theme assigned to a quote.
+---
 
-Assign a confidence level: "strong" if quotes are unambiguous and directly
-support the finding, "moderate" if the case is real but relies on some
-interpretation, "speculative" if it's a plausible but weakly-supported
-observation. Do not manufacture findings to fill a quota -- if the evidence
-does not support a category, omit it.
+## GUIDELINES:
+
+**General:**
+- Only cite evidence that genuinely supports the pattern.
+- Every finding needs at least two quote_ids (except emerging_pattern and irrelevant_pattern, which need at least one).
+- Reference quotes by quote_id ONLY — never retype quote text.
+
+**Codes & Themes:**
+- `codes_involved` and `themes_involved` describe the conceptual scope.
+- Include a code/theme ONLY if genuinely relevant to the finding.
+
+**Confidence Levels:**
+- "strong": Unambiguous, direct evidence
+- "moderate": Real, but requires interpretation
+- "speculative": Plausible but weakly supported
+
+**For irrelevant_pattern:**
+- Themes that recur in evidence but are not addressed by codebook.
+- Ground them in quote_ids.
+- Describe what makes them noteworthy (frequency, intensity, surprise).
+
+---
+
+Call `record_pattern_findings` once with ALL findings. Find every genuine pattern the evidence supports.

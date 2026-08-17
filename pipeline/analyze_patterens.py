@@ -53,8 +53,9 @@ def build_quotes_block(quotes: list[dict]) -> str:
         lines.append(f"INTERVIEW_ID   → {q['interview_id']}")
         lines.append(f"THEME          → {q.get('theme_id')}")
         lines.append(f"CODE           → {q.get('code')}")
-        lines.append(f"VERBATIM_QUOTE → {q.get('cited_text', '').strip()}")
-        lines.append(f"PRIOR_RATIONALE → {q.get('rationale', '')}")
+        lines.append(f"FULL_QUOTE     → {q.get('cited_text', '').strip()}")
+        lines.append(f"RATIONALE      → {q.get('rationale', '')}")
+        lines.append("")
     return "\n".join(lines)
 
 def build_aggregate_summary(aggregate_data: dict) -> str:
@@ -89,7 +90,7 @@ FINDINGS_TOOL = {
                     "properties": {
                         "finding_type": {
                             "type": "string",
-                            "enum": ["tension", "contradiction", "alignment", "subtlety", "emerging_pattern"],
+                            "enum": ["tension", "contradiction", "alignment", "subtlety", "emerging_pattern", "irrelevant_pattern"],
                         },
                         "title": {"type": "string"},
                         "description": {"type": "string"},
@@ -146,7 +147,7 @@ def make_json_safe(obj):
 
 def generate_markdown_report(findings: list[dict]) -> str:
     lines = ["# Stage 2 — Cross-Interview Pattern Findings\n"]
-    order = ["contradiction", "tension", "subtlety", "alignment", "emerging_pattern"]
+    order = ["contradiction", "tension", "subtlety", "alignment", "emerging_pattern", "irrelevant_pattern"]
     for finding_type in order:
         matching = [f for f in findings if f["finding_type"] == finding_type]
         if not matching:
@@ -162,10 +163,14 @@ def generate_markdown_report(findings: list[dict]) -> str:
 
             lines.append(f"**{f['title']}** (confidence: {f['confidence']})")
             lines.append(f["description"])
-            lines.append(f"Themes: {', '.join(f['themes_involved'])} | Codes: {', '.join(f['codes_involved'])}")
+            if f.get("codes_involved") or f.get("themes_involved"):
+                codes_str = ", ".join(f.get("codes_involved", [])) if f.get("codes_involved") else "(none)"
+                themes_str = ", ".join(f.get("themes_involved", [])) if f.get("themes_involved") else "(none)"
+                lines.append(f"Themes: {themes_str} | Codes: {codes_str}")
             lines.append("Supporting quotes:")
             for q in f["quotes"]:
-                lines.append(f"- [{q['interview_id']}/{q['code']}/{q['quote_id']}] \"{q['cited_text']}\"")
+                quote_display = f"[{q['quote_id']} | {q['interview_id']} | {q['code']}] {q['cited_text']}"
+                lines.append(f"- {quote_display}")
             lines.append("")
     return "\n".join(lines)
 

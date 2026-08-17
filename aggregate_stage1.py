@@ -149,20 +149,14 @@ def aggregate_interviews(
     # Phase 2: Data collection from valid interviews
     # Maps: code -> { interview_id -> count }
     code_interview_counts = defaultdict(lambda: defaultdict(int))
-    # Maps: theme -> { interview_id -> count }
-    theme_interview_counts = defaultdict(lambda: defaultdict(int))
-    # Maps: code -> { interview_id -> { grounding_type -> count } }
-    grounding_per_code = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
-    # Total grounding counts per code
-    grounding_totals = defaultdict(lambda: {"quote_text_only": 0, "quote_plus_inference": 0})
-    # Duplicate citations: { interview_id -> { normalized_text -> list_of_codes } }
+    # Duplicate citations: { interview_id -> { normalized_text -> [(quote_id, code, full_text), ...] } }
     citations_by_text = defaultdict(lambda: defaultdict(list))
-    # Co-occurrence counter: { (code1, code2) -> count } where code1 < code2
-    co_occurrences = defaultdict(int)
-    # Unique speakers per code
-    speakers_per_code = defaultdict(set)
+    # Cross-interview citations: { normalized_text -> list_of (interview_id, code, theme_id, quote_id) }
+    cross_interview_citations = defaultdict(list)
     # Interview-level stats
     interview_stats = defaultdict(lambda: {"total_quotes": 0, "distinct_codes": set()})
+    # Track citations with themes for per-interview analysis: { interview_id -> { normalized_text -> set_of_themes } }
+    citations_with_themes = defaultdict(lambda: defaultdict(set))
 
     for interview_dir in included_interviews:
         interview_id = interview_dir.name
@@ -179,50 +173,65 @@ def aggregate_interviews(
         for interp in interpretations:
             code = interp.get("code")
             theme_id = code_to_theme(code)
-            speakers = interp.get("speakers", [])
-            grounding = interp.get("interpretation_grounded_in", "")
             cited_text = interp.get("cited_text", "")
+            quote_id = interp.get("quote_id", "")
 
             # Count code
             code_interview_counts[code][interview_id] += 1
-            # Count theme
-            theme_interview_counts[theme_id][interview_id] += 1
-            # Track grounding type
-            if grounding in ["quote_text_only", "quote_plus_inference"]:
-                grounding_per_code[code][interview_id][grounding] += 1
-                grounding_totals[code][grounding] += 1
-
-            # Track unique speakers
-            for speaker in speakers:
-                speakers_per_code[code].add(speaker)
-
             # Track distinct codes for this interview
             interview_stats[interview_id]["distinct_codes"].add(code)
 
-            # Track citations for duplicate detection
+            # Track citations for duplicate detection (within interview)
             normalized_text = normalize_whitespace(cited_text)
-            citations_by_text[interview_id][normalized_text].append(code)
+            citations_by_text[interview_id][normalized_text].append({
+                "quote_id": quote_id,
+                "code": code,
+                "full_text": cited_text
+            })
+            
+            # Track citations across interviews
+            cross_interview_citations[normalized_text].append({
+                "interview_id": interview_id,
+                "code": code,
+                "theme_id": theme_id,
+                "quote_id": quote_id,
+                "full_text": cited_text
+            })
+            
+            # Track themes for this normalized text in this interview (for cross-theme analysis)
+            citations_with_themes[interview_id][normalized_text].add(theme_id)
 
     # Detect duplicate citations (same text, different codes) per interview
-    duplicates_per_interview = defaultdict(list)
-    for interview_id, text_to_codes in citations_by_text.items():
-        for normalized_text, codes in text_to_codes.items():
-            if len(codes) > 1:
-                # Multiple codes reference the same text
-                unique_codes = sorted(set(codes))
-                for i, code1 in enumerate(unique_codes):
-                    for code2 in unique_codes[i + 1 :]:
-                        pair = (code1, code2) if code1 < code2 else (code2, code1)
-                        co_occurrences[pair] += 1
-                        if pair not in [d[0] for d in duplicates_per_interview[interview_id]]:
-                            duplicates_per_interview[interview_id].append(
-                                (pair, normalized_text[:100])
-                            )  # Keep first 100 chars
+    within_interview_duplicates = defaultdict(list)
+    for interview_id, text_to_citations in citations_by_text.items():
+        for normalized_text, citations in text_to_citations.items():
+            if len(citations) > 1:
+                # Multiple codes reference the same text within same interview
+                # Get unique codes
+                unique_codes = sorted(set(c["code"] for c in citations))
+                if len(unique_codes) > 1:  # Only if different codes
+                    within_interview_duplicates[interview_id].append({
+                        "text": normalized_text[:200],
+                        "full_text": citations[0]["full_text"],  # Store one full text
+                        "codes": unique_codes,
+                        "quote_ids": [c["quote_id"] for c in citations],
+                        "count": len(citations)
+                    })
 
-    # Sort co-occurrences by frequency
-    sorted_co_occurrences = sorted(
-        co_occurrences.items(), key=lambda x: x[1], reverse=True
-    )
+    # Detect duplicate citations across interviews
+    cross_interview_duplicates = []
+    for normalized_text, citations in cross_interview_citations.items():
+        # Get unique interviews for this text
+        interviews_with_text = set(c["interview_id"] for c in citations)
+        if len(interviews_with_text) > 1:
+            # Same text appears in multiple interviews
+            cross_interview_duplicates.append({
+                "text": normalized_text[:200],
+                "full_text": citations[0]["full_text"],
+                "interviews": sorted(list(interviews_with_text)),
+                "quote_ids": [c["quote_id"] for c in citations],
+                "occurrences": len(citations)
+            })
 
     # Identify zero-quote codes across ALL included interviews
     zero_quote_codes = []
@@ -233,11 +242,19 @@ def aggregate_interviews(
         ):
             zero_quote_codes.append(code)
 
-    # Calculate distinct code counts per interview
+    # Calculate distinct code counts per interview and cross-theme quotes
+    cross_theme_quotes_per_interview = {}
     for interview_id in interview_stats:
         num_distinct = len(interview_stats[interview_id]["distinct_codes"])
         interview_stats[interview_id]["num_distinct_codes"] = num_distinct
         interview_stats[interview_id]["total_codes_in_codebook"] = len(all_codes)
+        
+        # Count quotes with same text across different themes in this interview
+        cross_theme_count = 0
+        for normalized_text, themes in citations_with_themes[interview_id].items():
+            if len(themes) > 1:
+                cross_theme_count += 1
+        cross_theme_quotes_per_interview[interview_id] = cross_theme_count
 
     return {
         "included_interviews": [d.name for d in included_interviews],
@@ -249,31 +266,9 @@ def aggregate_interviews(
             }
             for code in all_codes
         },
-        "theme_interview_matrix": {
-            theme_id: {
-                int_dir.name: theme_interview_counts[theme_id].get(int_dir.name, 0)
-                for int_dir in included_interviews
-            }
-            for theme_id in get_all_themes_in_order(codebook)
-        },
-        "grounding_per_code": {
-            code: {
-                int_dir.name: {
-                    "quote_text_only": grounding_per_code[code][int_dir.name]["quote_text_only"],
-                    "quote_plus_inference": grounding_per_code[code][int_dir.name]["quote_plus_inference"],
-                }
-                for int_dir in included_interviews
-            }
-            for code in all_codes
-        },
-        "grounding_totals": dict(grounding_totals),
-        "duplicate_citations_by_pair": [
-            {"code_pair": pair, "co_occurrence_count": count}
-            for pair, count in sorted_co_occurrences
-        ],
-        "speakers_per_code": {
-            code: sorted(list(speakers_per_code[code])) for code in all_codes
-        },
+        "within_interview_duplicates": dict(within_interview_duplicates),
+        "cross_interview_duplicates": cross_interview_duplicates,
+        "cross_theme_quotes_per_interview": cross_theme_quotes_per_interview,
         "interview_stats": {
             interview_id: {
                 "total_quotes": interview_stats[interview_id]["total_quotes"],
@@ -294,12 +289,26 @@ def generate_markdown_report(
 
     lines.append("# Stage 1 Aggregation Report\n")
 
-    # Summary
+    # Summary with total quotes and distinct codes
     lines.append("## Summary\n")
     num_included = len(aggregated["included_interviews"])
     num_excluded = len(aggregated["excluded_interviews"])
+    total_all_quotes = sum(aggregated["interview_stats"][iid]["total_quotes"] 
+                           for iid in aggregated["interview_stats"])
+    distinct_codes_overall = set()
+    for interview_id, stats in aggregated["interview_stats"].items():
+        # Determine which codes have quotes in this interview
+        codes_with_quotes = set()
+        for code in all_codes:
+            count = aggregated["code_interview_matrix"][code].get(interview_id, 0)
+            if count > 0:
+                codes_with_quotes.add(code)
+        distinct_codes_overall.update(codes_with_quotes)
+    
     lines.append(f"- **Included interviews:** {num_included}")
-    lines.append(f"- **Excluded interviews:** {num_excluded}\n")
+    lines.append(f"- **Excluded interviews:** {num_excluded}")
+    lines.append(f"- **Total quotes across all interviews:** {total_all_quotes}")
+    lines.append(f"- **Distinct codes with quotes:** {len(distinct_codes_overall)}/{len(all_codes)}\n")
 
     # Excluded interviews with reasons
     if aggregated["excluded_interviews"]:
@@ -310,16 +319,17 @@ def generate_markdown_report(
                 lines.append(f"- {issue}")
             lines.append("")
 
-    # Interview stats
+    # Interview stats with all codes (including empty)
     lines.append("## Interview Statistics\n")
-    lines.append("| Interview | Total Quotes | Distinct Codes | % of Codebook |")
-    lines.append("|-----------|--------------|----------------|---------------|")
+    lines.append("| Interview | Total Quotes | Distinct Codes | Empty Codes | % of Codebook |")
+    lines.append("|-----------|--------------|----------------|-------------|---------------|")
     for interview_id, stats in aggregated["interview_stats"].items():
         total_quotes = stats["total_quotes"]
         distinct = stats["num_distinct_codes"]
         total = stats["total_codes_in_codebook"]
+        empty = total - distinct
         pct = (distinct / total * 100) if total > 0 else 0
-        lines.append(f"| {interview_id} | {total_quotes} | {distinct} | {pct:.1f}% |")
+        lines.append(f"| {interview_id} | {total_quotes} | {distinct} | {empty} | {pct:.1f}% |")
     lines.append("")
 
     # Code x Interview matrix
@@ -336,57 +346,41 @@ def generate_markdown_report(
         lines.append("| " + " | ".join(row) + " |")
     lines.append("")
 
-    # Theme x Interview matrix
-    lines.append("## Theme × Interview Matrix\n")
-    header = ["Theme"] + aggregated["included_interviews"]
-    lines.append("| " + " | ".join(header) + " |")
-    lines.append("|" + "|".join(["-" * max(len(h), 8) for h in header]) + "|")
+    lines.append("")
 
-    for theme_id in get_all_themes_in_order(codebook):
-        row = [theme_id]
+    # Within-Interview Duplicates
+    if any(aggregated["within_interview_duplicates"].values()):
+        lines.append("## Within-Interview Duplicate Citations (same text, different codes)\n")
         for interview_id in aggregated["included_interviews"]:
-            count = aggregated["theme_interview_matrix"][theme_id].get(interview_id, 0)
-            row.append(str(count))
-        lines.append("| " + " | ".join(row) + " |")
-    lines.append("")
-
-    # Grounding type breakdown per code
-    lines.append("## Grounding Type Breakdown (per Code)\n")
-    header = ["Code", "Quote-Only", "Quote+Inference", "Total"]
-    lines.append("| " + " | ".join(header) + " |")
-    lines.append("|" + "|".join(["-" * max(len(h), 8) for h in header]) + "|")
-
-    for code in all_codes:
-        grounding = aggregated["grounding_totals"].get(code, {})
-        quote_only = grounding.get("quote_text_only", 0)
-        quote_plus = grounding.get("quote_plus_inference", 0)
-        total = quote_only + quote_plus
-        lines.append(f"| {code} | {quote_only} | {quote_plus} | {total} |")
-    lines.append("")
-
-    # Duplicate citations (co-occurrences)
-    if aggregated["duplicate_citations_by_pair"]:
-        lines.append("## Duplicate Citations (same text, different codes)\n")
-        lines.append("| Code Pair | Co-occurrence Count |")
-        lines.append("|-----------|---------------------|")
-        for item in aggregated["duplicate_citations_by_pair"]:
-            pair = item["code_pair"]
-            count = item["co_occurrence_count"]
-            pair_str = " ↔ ".join(pair)
-            lines.append(f"| {pair_str} | {count} |")
-        lines.append("")
-
-    # Speakers per code
-    lines.append("## Unique Speakers per Code\n")
-    lines.append("| Code | Speakers |")
-    lines.append("|------|----------|")
-    for code in all_codes:
-        speakers = aggregated["speakers_per_code"].get(code, [])
-        if speakers:
-            speaker_str = ", ".join(speakers)
-            lines.append(f"| {code} | {speaker_str} |")
-        else:
-            lines.append(f"| {code} | (none) |")
+            duplicates = aggregated["within_interview_duplicates"].get(interview_id, [])
+            if duplicates:
+                lines.append(f"### {interview_id}\n")
+                for dup in duplicates:
+                    codes_str = ", ".join(dup["codes"])
+                    quote_ids_str = ", ".join(dup["quote_ids"])
+                    lines.append(f"**Codes:** {codes_str} | **Count:** {dup['count']}")
+                    lines.append(f"**Quote IDs:** {quote_ids_str}")
+                    lines.append(f"**Full Text:** {dup['full_text']}")
+                    lines.append("")
+    
+    # Cross-Interview Duplicates
+    if aggregated["cross_interview_duplicates"]:
+        lines.append("## Cross-Interview Duplicate Citations (same text across interviews)\n")
+        for dup in aggregated["cross_interview_duplicates"]:
+            interviews_str = ", ".join(dup["interviews"])
+            quote_ids_str = ", ".join(dup["quote_ids"])
+            lines.append(f"**Interviews:** {interviews_str} | **Total Occurrences:** {dup['occurrences']}")
+            lines.append(f"**Quote IDs:** {quote_ids_str}")
+            lines.append(f"**Full Text:** {dup['full_text']}")
+            lines.append("")
+    
+    # Per-Interview Cross-Theme Quotes
+    lines.append("## Quotes Appearing Across Distinct Themes (per interview)\n")
+    lines.append("| Interview | Shared Text Count |")
+    lines.append("|-----------|-------------------|")
+    for interview_id in sorted(aggregated["cross_theme_quotes_per_interview"].keys()):
+        count = aggregated["cross_theme_quotes_per_interview"][interview_id]
+        lines.append(f"| {interview_id} | {count} |")
     lines.append("")
 
     # Zero-quote codes
