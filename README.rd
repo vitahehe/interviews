@@ -52,6 +52,14 @@ python pipeline/pipeline.py \
   --codebook codebook.yaml \
   --prompts-dir prompts \
   --outdir output/stage_1/I01
+
+
+  python pipeline/pipeline.py \
+  --interview-id I02 \
+  --processed data/processed/Wednesday_20260225_Kvant1_lab_transcript.json \
+  --codebook codebook.yaml \
+  --prompts-dir prompts \
+  --outdir output/stage_1/I02
 ```
 
 Use the interview ID values I01 and I02 to match the folders under [output/stage_1](output/stage_1).

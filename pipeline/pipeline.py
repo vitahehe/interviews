@@ -47,26 +47,33 @@ def codes_block_for_theme(theme: dict) -> str:
     return "\n".join(lines)
 
 
-def build_custom_content_document(sentences: list[dict]) -> dict:
-    """One content block per sentence -> citation start/end block index maps
-    directly onto a sentence index. A trailing space is added to each
-    block's text so adjacent cited blocks never visually run together
-    (e.g. "precise.student 2:") when concatenated in cited_text."""
+def is_student_speaker(speaker: str) -> bool:
+    return speaker.lower().startswith("student ")
+
+
+def build_custom_content_document(turns: list[dict]) -> tuple[dict, list[dict]]:
+    """Build one citable content block per student turn.
+
+    Interviewer turns remain in the processed transcript but are excluded
+    from the citation document, making full student turns the quote units.
+    """
+    student_turns = [turn for turn in turns if is_student_speaker(turn["speaker"])]
     return {
         "type": "document",
         "source": {
             "type": "content",
             "content": [
-                {"type": "text", "text": f"{s['speaker']}: {s['text']} "} for s in sentences
+                {"type": "text", "text": f"{turn['speaker']}: {turn['text']} "}
+                for turn in student_turns
             ],
         },
         "title": "Interview transcript",
-        "context": "Speaker-labeled physics-lab student interview transcript, one content block per sentence.",
+        "context": "Student interview transcript, one content block per complete student turn.",
         "citations": {"enabled": True},
-    }
+    }, student_turns
 
 
-def parse_pass1_response(content_blocks, sentences: list[dict], theme_id: str) -> list[dict]:
+def parse_pass1_response(content_blocks, turns: list[dict], theme_id: str) -> list[dict]:
     quotes = []
     current_code = None
     for block in content_blocks:
@@ -80,25 +87,20 @@ def parse_pass1_response(content_blocks, sentences: list[dict], theme_id: str) -
             for c in citations:
                 start = getattr(c, "start_block_index", None)
                 end = getattr(c, "end_block_index", None)
-                # end_block_index is exclusive (matches Anthropic's char-offset
-                # citation convention) -- range(start, end), NOT range(start, end+1).
-                # Using end+1 here previously pulled in one spurious adjacent
-                # block (visible as an extra, unrelated speaker/turn in the
-                # metadata that never actually appeared in cited_text).
+                # end_block_index is exclusive, so the range maps directly to
+                # the student-turn citation blocks.
                 cited_sentences = (
-                    [sentences[i] for i in range(start, end)]
-                    if start is not None and end is not None
+                    [turns[i] for i in range(start, end)]
+                    if start is not None and end is not None and 0 <= start <= end <= len(turns)
                     else []
                 )
-                sentence_ids = [s["sentence_id"] for s in cited_sentences]
-                turn_ids = list(dict.fromkeys(s["turn_id"] for s in cited_sentences))
-                speakers = sorted({s["speaker"] for s in cited_sentences})
+                turn_ids = [turn["turn_id"] for turn in cited_sentences]
+                speakers = sorted({turn["speaker"] for turn in cited_sentences})
                 quotes.append(
                     {
                         "theme_id": theme_id,
                         "code": current_code,
                         "cited_text": getattr(c, "cited_text", None),
-                        "sentence_ids": sentence_ids,
                         "turn_ids": turn_ids,
                         "speakers": speakers,
                     }
@@ -106,8 +108,8 @@ def parse_pass1_response(content_blocks, sentences: list[dict], theme_id: str) -
     return quotes
 
 
-def run_pass1(client, model, sentences, theme, system_prompt, pass1_template):
-    doc = build_custom_content_document(sentences)
+def run_pass1(client, model, turns, theme, system_prompt, pass1_template):
+    doc, student_turns = build_custom_content_document(turns)
     user_text = render(
         pass1_template,
         theme_name=theme["name"],
@@ -123,7 +125,7 @@ def run_pass1(client, model, sentences, theme, system_prompt, pass1_template):
             {"role": "user", "content": [doc, {"type": "text", "text": user_text}]}
         ],
     )
-    quotes = parse_pass1_response(response.content, sentences, theme["id"])
+    quotes = parse_pass1_response(response.content, student_turns, theme["id"])
     return quotes, response.usage, response.stop_reason
 
 
@@ -205,7 +207,7 @@ def main():
     outdir = Path(args.outdir)
     outdir.mkdir(parents=True, exist_ok=True)
 
-    sentences = json.loads(Path(args.processed).read_text(encoding="utf-8"))["sentences"]
+    turns = json.loads(Path(args.processed).read_text(encoding="utf-8"))["turns"]
     codebook = load_codebook(args.codebook)
 
     prompts_dir = Path(args.prompts_dir)
@@ -219,7 +221,7 @@ def main():
     pass1_usage_log = []
     t0 = time.time()
     for theme in codebook["themes"]:
-        quotes, usage, stop_reason = run_pass1(client, args.model, sentences, theme, system_prompt, pass1_template)
+        quotes, usage, stop_reason = run_pass1(client, args.model, turns, theme, system_prompt, pass1_template)
         all_quotes.extend(quotes)
         pass1_usage_log.append({"theme_id": theme["id"], "usage": make_json_safe(usage), "stop_reason": stop_reason})
 

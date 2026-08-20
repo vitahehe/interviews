@@ -1,29 +1,13 @@
 {
-  "interview_id": "Monday_20260223_Kvant1_lab_transcript",
+  "interview_id": "I01",
   "interpretations": [
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q001",
-      "rationale": "The student directly characterizes the lab as 'more technical', framing it as a source of expected difficulty compared to prior labs.",
-      "why_interesting": "The brevity of the response suggests the student is still forming their assessment, possibly prompted to elaborate further by the interviewer.",
-      "teaching_implication": "Speculative: instructors might ask follow-up probes when students give short characterizations like 'technical' to uncover what specific aspects felt difficult.",
+      "quote_id": "I01-Q001",
+      "rationale": "The student explicitly contrasts the expected need for precision ('had to be more precise') with the looser, hands-on reality ('felt more freely'), indicating the task was harder to pin down than anticipated.",
+      "why_interesting": "It reveals a mismatch between the student's mental model of lab precision and the actual improvisational nature of the setup, which may cause uncertainty about whether they are doing it 'right'.",
+      "teaching_implication": "Instructors could clarify upfront which parts of the setup require precision versus which allow flexibility, to reduce ambiguity about expected rigor (speculative).",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 2: More technical, I think. ",
-      "code": "1.b",
-      "theme_id": "1",
-      "speakers": [
-        "student 2"
-      ],
-      "turn_ids": [
-        "I01-T024"
-      ]
-    },
-    {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q002",
-      "rationale": "The student explicitly states an expectation that adjusting mirrors 'had to be more precise', indicating anticipated technical difficulty with equipment handling.",
-      "why_interesting": "This reveals a specific point of anticipated difficulty tied to physical apparatus manipulation rather than conceptual content.",
-      "teaching_implication": "Labs could include a brief practice or demonstration segment on precise mirror alignment before students are expected to perform it independently.",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 2: More technical in terms of that I thought, like changing the mirrors and stuff like that had to be more precise. ",
+      "cited_text": "student 2: More technical in terms of that I thought, like changing the mirrors and stuff like that had to be more precise. Where this felt more freely like holding the filters up by hand and stuff like that. And placing paper down to block the... I thought that it would more defined what the places has to be. ",
       "code": "1.b",
       "theme_id": "1",
       "speakers": [
@@ -34,26 +18,58 @@
       ]
     },
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q003",
-      "rationale": "The student expresses a mismatch between expectation and reality, expecting 'more defined' placement instructions, which reflects anticipated difficulty due to lack of clear guidance.",
-      "why_interesting": "This suggests students may expect highly structured, well-defined procedures from prior lab experiences, and open-ended setups can feel destabilizing.",
-      "teaching_implication": "Speculative: providing a rationale for open-ended experimental design upfront might help students recalibrate expectations about precision and structure.",
+      "quote_id": "I01-Q002",
+      "rationale": "The student states that focusing on one part of the problem leads to not understanding everything, directly describing a problem-solving trade-off.",
+      "why_interesting": "It highlights a tension between task completion and conceptual understanding that students navigate during problem-solving.",
+      "teaching_implication": "Labs could build in checkpoints where students pause to connect their specific task back to the overall conceptual picture (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 1: Then you don't necessarily understand everything that's going on because you focus on that part of it. ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I01-T011"
+      ]
+    },
+    {
+      "quote_id": "I01-Q003",
+      "rationale": "The student describes the process of taking many measurements across setups as time-consuming, which reflects a practical challenge encountered while solving the lab problem.",
+      "why_interesting": "It shows how time pressure from repeated measurements can become a defining feature of the problem-solving experience.",
+      "teaching_implication": "Consider whether the number of required measurements could be streamlined without sacrificing learning goals (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 2: Well, sometimes I take like 10 measurements of different set-ups and then it takes a really long time. ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "student 2"
+      ],
+      "turn_ids": [
+        "I01-T013"
+      ]
+    },
+    {
+      "quote_id": "I01-Q004",
+      "rationale": "The student directly links insufficient preparation to a shift in focus from understanding to merely executing and recording data, describing their problem-solving approach under those conditions.",
+      "why_interesting": "It suggests preparation level directly changes how students engage cognitively with the lab task, sometimes reducing it to procedural execution.",
+      "teaching_implication": "Providing clearer pre-lab expectations or brief preparatory materials might help students engage more conceptually rather than just procedurally (speculative).",
       "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "student 2: I thought that it would more defined what the places has to be. ",
-      "code": "1.b",
+      "cited_text": "student 1: So if you haven't come really prepared to the lab, you don't necessarily have the time to really understand what you're doing. And you're just kind of going on. You're more focusing on taking the data. And logging it and making sure to see it correctly.[agreement] ",
+      "code": "1.c",
       "theme_id": "1",
       "speakers": [
-        "student 2"
+        "student 1"
       ],
       "turn_ids": [
-        "I01-T026"
+        "I01-T014"
       ]
     },
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q004",
-      "rationale": "The student describes the challenge of interpreting data ('is this actually correct or what can we use this data for'), which is a direct account of problem-solving experience during the lab.",
-      "why_interesting": "It highlights that the cognitive struggle was less about mechanical difficulty and more about interpretive/epistemic uncertainty regarding data validity.",
-      "teaching_implication": "Consider building in guided checkpoints where students discuss with instructors whether their data interpretation is on the right track.",
+      "quote_id": "I01-Q005",
+      "rationale": "The student describes struggling to determine if the data they see is 'correct' and what it can be used for, which is a direct account of the interpretive problem-solving process.",
+      "why_interesting": "It shows the student's uncertainty extends beyond execution into interpreting whether their results are meaningful.",
+      "teaching_implication": "Instructors might provide reference examples of 'correct' data patterns to help students calibrate their interpretations (speculative).",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "student 2: I think for my part, actually understanding like polarization, what we see on the screens for because it is the same when we get data like oh is this actually correct or what can we use this data for whether this is I think it's it's easier to look at and maybe try understand it but it's still get more to understanding parts. ",
       "code": "1.c",
@@ -66,10 +82,10 @@
       ]
     },
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q005",
-      "rationale": "The student explains that without prior optics background they would have had 'no idea' what they were doing, directly describing the problem-solving challenge tied to missing theoretical background.",
-      "why_interesting": "It shows how prior coursework strongly shapes students' capacity to engage in lab problem-solving, revealing an equity/preparation issue across student groups.",
-      "teaching_implication": "Providing a short theoretical primer before the lab could help students without an optics background solve problems independently rather than relying on peers with prior knowledge.",
+      "quote_id": "I01-Q006",
+      "rationale": "The student explains that without prior optics background they would have had no idea what they were doing, illustrating how background knowledge shapes the problem-solving process.",
+      "why_interesting": "It underscores how uneven prior coursework among group members can create disparities in how well students can engage with the lab's conceptual demands.",
+      "teaching_implication": "A short theoretical primer before the lab, as the student suggests, could level the playing field for students without relevant coursework.",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "student 1: I also think considering me and student 1 we both have optics as student 2 said if we didn't have that we would have [emphasis] no idea what we're doing because like we've been explained polarization and basically everything we did today but we would have no idea about it if we didn't do that so maybe just kind of tiny bit of theoretical background for it would be nice. ",
       "code": "1.c",
@@ -82,12 +98,12 @@
       ]
     },
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q006",
-      "rationale": "The student describes the pre-lab explanation as too fast to fully grasp ('I didn't really get it totally'), directly relating to difficulties encountered in the problem-solving process.",
-      "why_interesting": "It shows reliance on informal peer knowledge ('some of my friends had optics') to compensate for gaps left by rushed instruction, highlighting uneven preparation among students.",
-      "teaching_implication": "Slowing down or repeating key conceptual explanations, or providing written materials to review at their own pace, could reduce reliance on peer-transmitted knowledge.",
+      "quote_id": "I01-Q007",
+      "rationale": "The student describes the instructional pace as fast and admits not fully grasping the material, reflecting how they approached the problem-solving task with incomplete understanding.",
+      "why_interesting": "It shows reliance on peer knowledge ('friends had optics') to compensate for gaps left by rapid instruction.",
+      "teaching_implication": "Slowing down key explanations or providing recorded materials for review could help students who lack relevant background (speculative).",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 3: I think it was okay, but it was kind of fast that he went through it. student 3: So I didn't really get it totally but then it was also one of my some of my friends had optics so i was playing around yeah. ",
+      "cited_text": "student 3: I think it was okay, but it was kind of fast that he went through it. So I didn't really get it totally but then it was also one of my some of my friends had optics so i was playing around yeah. ",
       "code": "1.c",
       "theme_id": "1",
       "speakers": [
@@ -98,10 +114,42 @@
       ]
     },
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q007",
-      "rationale": "The student states they found it 'nice' to talk more freely about results and physics, expressing a clear preference for open discussion over predetermined outcomes.",
-      "why_interesting": "It contrasts this lab's open-ended nature favorably against earlier labs where 'the results were almost there... before actually doing the experiment,' revealing a preference for authentic inquiry.",
-      "teaching_implication": "Speculative: labs could be intentionally designed with more ambiguous or open-ended results to foster this kind of collaborative reasoning about underlying physics.",
+      "quote_id": "I01-Q008",
+      "rationale": "The student narrates their expectation of seeing more defined interference and their process of reconciling that expectation with the less distinct result they actually observed, which is part of their problem-solving experience.",
+      "why_interesting": "It captures the gap between anticipated and actual experimental outcomes and how that affects the student's sense of accomplishment.",
+      "teaching_implication": "Setting realistic expectations beforehand about the subtlety of certain phenomena might reduce disappointment (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 1: I kind of expected to see more interference. Same way. I thought it was gonna be a bit more obvious than it was. Yeah. All right. So that's my expectation. Then I was like, oh okay, I can see it. But it's not like as... Not as fun. Yeah, not as like definite, like as defined as I expected it to be. ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I01-T032"
+      ]
+    },
+    {
+      "quote_id": "I01-Q009",
+      "rationale": "The student contrasts the rigid first-year lab structure with the open-ended nature of this lab, expressing a preference for the freer approach ('very free').",
+      "why_interesting": "It reveals a developmental shift in what students value in lab design as they progress through their studies.",
+      "teaching_implication": "Consider progressively increasing lab openness as students advance, matching autonomy to experience level (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "student 1: Well, compared to maybe when we look back at our first year, we kind of like, you need to do this and do this and hand in this, so you need to get this data. While here, it was just, we encourage you to do this, and we do need you to make a video about it, but there was nothing like, you need to do this, and you need to have the angles like this and the filters like this so mess around in the sense that it was very free. ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I01-T006"
+      ]
+    },
+    {
+      "quote_id": "I01-Q010",
+      "rationale": "The student explicitly states they 'found it kind of nice' to talk freely rather than have results predetermined, indicating a stated preference for open discussion-based labs.",
+      "why_interesting": "It suggests that removing predetermined answers encourages genuine discussion about underlying physics rather than rote confirmation.",
+      "teaching_implication": "Lab design could intentionally withhold expected results to prompt more authentic peer discussion (speculative).",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do this like the results were almost there for us before actually doing the experiment where here we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it yeah so yeah What is the physics behind it? ",
       "code": "2.a",
@@ -114,12 +162,12 @@
       ]
     },
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q008",
-      "rationale": "The student expresses a preference for this lab because it avoided the stress of extensive data collection required in other labs, directly stating this as 'kind of nice'.",
-      "why_interesting": "It reveals that heavy data-collection demands in other labs are a source of stress, suggesting data volume/pace may weigh on student experience more than conceptual difficulty.",
-      "teaching_implication": "Speculative: instructors might reconsider the volume of required data points in other labs to reduce student stress while still meeting learning objectives.",
+      "quote_id": "I01-Q011",
+      "rationale": "The student states it was 'kind of nice' not to take extensive data, directly expressing a preference tied to reduced stress.",
+      "why_interesting": "It highlights how data-collection burden in other labs is a source of stress that colors students' preferences for lab format.",
+      "teaching_implication": "Reducing required data volume in some labs might lower stress while preserving learning objectives (speculative).",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. student 3: Having to take so much data in some of the labs. student 3: Getting stressed about it.[overlap] Yeah, getting stressed about it. ",
+      "cited_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. Having to take so much data in some of the labs. Getting stressed about it.[overlap] Yeah, getting stressed about it. ",
       "code": "2.a",
       "theme_id": "2",
       "speakers": [
@@ -130,12 +178,28 @@
       ]
     },
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q009",
-      "rationale": "The student states the experience was 'not as fun' and less 'defined' than expected, directly expressing a preference judgment relative to expectations.",
-      "why_interesting": "This is a rare negative preference statement that ties enjoyment directly to the degree of structure/definition in the lab, suggesting some students value clearer procedural expectations.",
-      "teaching_implication": "Speculative: balancing open-ended inquiry with some clearly defined milestones might help students who prefer more structure feel more engaged.",
+      "quote_id": "I01-Q012",
+      "rationale": "The student expresses a preference for having 'a tiny bit of theoretical background' provided beforehand, framing it as something that 'would be nice.'",
+      "why_interesting": "It shows students actively wishing for scaffolding rather than assuming they should already know the material.",
+      "teaching_implication": "A brief theory handout or short lecture before the lab could address this expressed preference.",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 1: Not as fun. student 1: Yeah, not as like definite, like as defined as I expected it to be. ",
+      "cited_text": "student 1: I also think considering me and student 1 we both have optics as student 2 said if we didn't have that we would have [emphasis] no idea what we're doing because like we've been explained polarization and basically everything we did today but we would have no idea about it if we didn't do that so maybe just kind of tiny bit of theoretical background for it would be nice. ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I01-T018"
+      ]
+    },
+    {
+      "quote_id": "I01-Q013",
+      "rationale": "The student's comment that the result was 'not as fun' as expected reflects a preference judgment about the experience relative to their expectations.",
+      "why_interesting": "It shows that enjoyment is tied to how well the phenomenon matches expectations, not just to successful completion.",
+      "teaching_implication": "Framing the phenomenon's subtlety as itself scientifically interesting beforehand might reshape expectations (speculative).",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "student 1: I kind of expected to see more interference. Same way. I thought it was gonna be a bit more obvious than it was. Yeah. All right. So that's my expectation. Then I was like, oh okay, I can see it. But it's not like as... Not as fun. Yeah, not as like definite, like as defined as I expected it to be. ",
       "code": "2.a",
       "theme_id": "2",
       "speakers": [
@@ -146,60 +210,42 @@
       ]
     },
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q010",
-      "rationale": "The short statement 'a bit more wow' directly expresses a positive preference/reaction to some aspect of the lab.",
-      "why_interesting": "The informal, exclamatory phrasing suggests a genuine affective response, possibly to visual or experiential aspects of the experiment.",
-      "teaching_implication": "Speculative: identifying and amplifying whatever produced this 'wow' reaction (e.g., visual demonstrations) could be leveraged in other labs to boost engagement.",
+      "quote_id": "I01-Q014",
+      "rationale": "The student compares the pre-lab framing ('quantum eraser sounds more spectacular') to the actual experience, expressing a preference shaped by anticipatory framing.",
+      "why_interesting": "It suggests that the naming or framing of an experiment can set up expectations that affect student satisfaction with the actual outcome.",
+      "teaching_implication": "Pre-lab materials could better calibrate the described 'spectacle' of an experiment to what students will actually observe (speculative).",
       "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "student 2: So there's a bit more wow. ",
+      "cited_text": "student 2: I don't know. As then as soon as seeing pre-lab and then coming here, like, okay, I know what it's like. It was like a written pre-lab and it was like...Quantum eraser sounds more spectacular than seeing interference. Yeah. I feel like... ",
       "code": "2.a",
       "theme_id": "2",
       "speakers": [
         "student 2"
       ],
       "turn_ids": [
-        "I01-T034"
+        "I01-T039"
       ]
     },
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q011",
-      "rationale": "The student explicitly frames their view as 'both positive and negative', directly expressing an ambivalent preference about the lab experience.",
-      "why_interesting": "This ambivalence captures the nuanced, mixed nature of student reactions to open-ended labs rather than a simple like/dislike.",
-      "teaching_implication": "Speculative: follow-up questions probing what specifically felt positive vs negative could help refine lab design to preserve strengths while addressing drawbacks.",
+      "quote_id": "I01-Q015",
+      "rationale": "The student describes finding it 'easier to look at and maybe try understand' the polarization data, indicating a positive experience of grasping the concept.",
+      "why_interesting": "It shows a moment of the student building confidence in interpreting data despite earlier described uncertainty.",
+      "teaching_implication": "Highlighting accessible visual representations (like screen outputs) may support conceptual understanding (speculative).",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 2: Which is both positive and negative I think. ",
-      "code": "2.a",
-      "theme_id": "2",
-      "speakers": [
-        "student 2"
-      ],
-      "turn_ids": [
-        "I01-T030"
-      ]
-    },
-    {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q012",
-      "rationale": "The student affirms Bjarke's summary that their conceptual understanding 'somehow got improved through the experiment', directly confirming a positive learning outcome.",
-      "why_interesting": "The brief, direct confirmation suggests the student agrees without elaboration, which may indicate either strong confidence or a lack of deeper reflection prompted at that moment.",
-      "teaching_implication": "Speculative: interviewers could ask a follow-up probe to have students specify what concept improved, yielding more actionable feedback for lab design.",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Bjarke: All right, so some conceptual understanding that you somehow got improved through the experiment. student 3: Yeah. ",
+      "cited_text": "student 2: I think for my part, actually understanding like polarization, what we see on the screens for because it is the same when we get data like oh is this actually correct or what can we use this data for whether this is I think it's it's easier to look at and maybe try understand it but it's still get more to understanding parts. ",
       "code": "3.a",
       "theme_id": "3",
       "speakers": [
-        "Bjarke",
-        "student 3"
+        "student 2"
       ],
       "turn_ids": [
-        "I01-T042",
-        "I01-T043"
+        "I01-T017"
       ]
     },
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q013",
-      "rationale": "The student describes finding it 'nice' to talk freely and engage in figuring out the physics together, directly expressing enjoyment and active engagement with the material.",
-      "why_interesting": "It shows engagement arising specifically from collaborative sense-making rather than from following a fixed procedure.",
-      "teaching_implication": "Speculative: structuring lab time to explicitly encourage peer discussion of results before revealing 'answers' may enhance engagement.",
+      "quote_id": "I01-Q016",
+      "rationale": "The student says they 'found it kind of nice' to talk freely about results and physics, expressing enjoyment tied to engagement in discussion.",
+      "why_interesting": "It links enjoyment directly to the process of collaborative sense-making rather than just completing a task.",
+      "teaching_implication": "Encouraging structured discussion time in labs might enhance engagement (speculative).",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do this like the results were almost there for us before actually doing the experiment where here we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it yeah so yeah What is the physics behind it? ",
       "code": "3.b",
@@ -212,12 +258,12 @@
       ]
     },
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q014",
-      "rationale": "The student states it was 'kind of nice' not having to take extensive data, directly expressing enjoyment tied to reduced data-collection burden.",
-      "why_interesting": "This suggests enjoyment can stem from the absence of a stressor (heavy data collection) rather than the presence of a particular exciting task.",
-      "teaching_implication": "Speculative: reducing repetitive data-collection tasks in some labs, while preserving core learning goals, might increase enjoyment across the course.",
+      "quote_id": "I01-Q017",
+      "rationale": "The student's description of it being 'kind of nice' not to take much data, avoiding stress, reflects a positive engagement contrasted with stress in other labs.",
+      "why_interesting": "It suggests that reduced procedural burden can itself be a source of enjoyment in the lab experience.",
+      "teaching_implication": "Balancing data collection demands with opportunities for relaxed engagement could improve overall lab enjoyment (speculative).",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. ",
+      "cited_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. Having to take so much data in some of the labs. Getting stressed about it.[overlap] Yeah, getting stressed about it. ",
       "code": "3.b",
       "theme_id": "3",
       "speakers": [
@@ -228,12 +274,12 @@
       ]
     },
     {
-      "quote_id": "Monday_20260223_Kvant1_lab_transcript-Q015",
-      "rationale": "The student states plainly that quantum content is 'not really our area' for most of the group, directly expressing perceived lack of relevance/usefulness of the lab topic to their studies.",
-      "why_interesting": "The student is careful to caveat that this is not a universal view ('I know people who want to do quantum'), showing awareness that perceived unusefulness may be specific to this group's composition rather than the lab itself.",
-      "teaching_implication": "Speculative: lab placement or elective tracks could be adjusted so that quantum-related labs are directed toward students whose study track aligns with the topic, or the lab's relevance to astrophysics could be made more explicit.",
+      "quote_id": "I01-Q018",
+      "rationale": "The student states plainly that the topic 'is not really our area' for most of the group, directly expressing a perceived lack of relevance/usefulness of the lab to their specific field of study.",
+      "why_interesting": "It shows that perceived usefulness is tied not to the quality of the lab itself but to alignment with students' chosen specialization (astrophysics vs. quantum).",
+      "teaching_implication": "Offering some lab electives aligned with different specializations (e.g., astrophysics vs. quantum) might increase perceived relevance (speculative).",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 1: I think you might have the wrong group for this, because everyone except for student 3 does astrophysics. student 1: Yeah. student 1: So it's not really our area. student 1: But I guess, presumably, now it's not personal, now I'm speaking for others, but I know people who want to do quantum, who are excited to do this. student 1: So I think it's just not the group here that should bring it. ",
+      "cited_text": "student 1: I think you might have the wrong group for this, because everyone except for student 3 does astrophysics. Yeah. So it's not really our area. But I guess, presumably, now it's not personal, now I'm speaking for others, but I know people who want to do quantum, who are excited to do this. So I think it's just not the group here that should bring it. ",
       "code": "3.d",
       "theme_id": "3",
       "speakers": [
