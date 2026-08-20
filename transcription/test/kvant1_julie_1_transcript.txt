@@ -1,0 +1,224 @@
+20260225 1 Kvant1 lab_Julie.m4a, Student 1: , Student 2: 
+level: bachelors
+
+Interviewer
+Okay. Jeg hedder Julie og jeg arbejder sammen med NQCP og vi er i gang med at lave. NQCP, det er dem der sidder her som har et laboratorium der nedenunder. Yes og vi vil bare gerne høre om jeres lab oplevelse. Og vi vil måske bruge det til sådan en undersøgelse, men jeres citater kommer til at være anonymiseret, og så en del af et meget større datasæt. Yes, så først og fremmest så vil jeg bare gerne høre hvad i har lavet i dag.
+
+Student 1
+Ja vi har lavet et eksperiment om Quantum Eraser. Altså hvordan den virker.
+
+Interviewer
+Så hvad er en Quantum Eraser? Har i styr på denne?
+
+Student 1
+Øh, Jeg tror Vi har en ide om det hele. Vi skal lige have kigget på det lidt mere. Altså den dybdegående teori, fordi den fik vi heller ikke så meget af. Det fungerer meget godt. Vi har Sådan nogle prelab vi får, og det synes jeg faktisk fungerer rigtig godt. I forhold til... Det har jeg ikke prøvet før.
+
+Student 2
+Nej heller ikke mig. Ja, det giver ret god mening.
+
+Student 1
+Ja at man lige sætter sig ind i det på den måde før øh, udover bare at lab vejledningen, som man kan læse før, ikke?
+
+Interviewer
+Så, hvad indeholder den her prelab? 
+
+Student 1
+Jeg synes det var lidt forskelligt, fordi altså vi lavede også lidt noget sidste gang. Der synes jeg der var lidt mere teori i den her gang.
+
+Student 2
+Der var det sådan lidt om nogle konceptuelle spørgsmål. Sådan at sætte sig ind i opsætningen og ligesom prøve og tænke sig til nogen forskellige ting, der kunne ske, hvis man ændrede lidt på nogle småting i opstillingen hvor det sådan blev gradvist mere komplekst.[agreement]
+
+Student 1
+Ja så man kunne lige kunne finde ud af hvad man regnede med. Altså sådan... Tror jeg også...
+
+Interviewer
+Så, at opstiller vi hypoteser?
+
+Student 1
+Ja lige præcis altså sådan at man l er inde i det før man går i gang Sådan på en. 2 måden bare og læse en vejledning. Ja.
+
+Interviewer
+Så i kendte faktisk opstillingen inden i mødte op i lab i dag.
+
+Student 2
+Ja sådan altså, der var diagrammer og sådan noget der. Ja, så man kunne se hvordan det kom til at se ud.
+
+Interviewer
+Hvad fik jeg så ud af at være i lab i dag? Modsat, hvis det hele bare havde været inde i lab øvelser.
+
+Student 2
+Ja, det er jo altid det der med at sådan få fingrene i det selv og stå og stå og dreje på filtre og sådan. Det var meget let for dem og lave fine tegninger og bare sige sådan: "nå men der interferens der og der er ikke interferens der", men i virkeligheden var det jo lidt mere bare sådan: "Er det en stribe? Jeg kan ikke rigtig se om Det er en stribe." Ja ja. [laughs]
+
+Student 1
+Så man kan prøve mange forskellige opstillinger og selv du ved sidde og ja. Når man sidder og drejer på det og sådan altså. Det er sådan nogle polariserings øhm... filtre! Ja Det er det de hedder.[laughs] Man kan prøve nogle forskellige ting af ja. Der er jo også kun så meget af det man ligesom kan skrive om. Altså man kan jo ikke komme igennem alt hvad man kan på sådan en prelab.
+
+Interviewer
+Nej selvfølgeligt. Så fik i de resultater i forventede nede i laboratoriet ud fra jeres prelab eller jeres intuition.
+
+Student 1
+Ja altså det synes jeg, [agreement] sådan altid taget i betragtning at det ikke kan være fuldstændig ideelt system. Så synes jeg altså det er altid var indenfor en god ramme at det ligesom... Eller inden for en sådan usikkerhed agtigt, hvad man kan sige, ja og ligesom var godt. 
+
+Interviewer
+Mødte i nogle udfordringer i laboratoriet? 
+
+Student 1
+Jeg tror nogle gange at være helt sikker på at det man havde fundet faktisk var rigtigt, eller om det bare var sådan en glitch.
+
+Student 2
+Ja om det bare var sådan en fluke af et eller andet man havde rykket til og så var det forkert så. Så vidste man ikke helt om det om det gav mening, eller om det var et eller andet der var galt.
+
+Interviewer
+Oplevede i på noget tidspunkt, at Det var noget, der var galt?
+
+Student 1
+Ja altså der var en gang hvor et polariseringsfilter vi havde opstillet hvor vi synes at det så godt nok ud ved det antal grader. Øhm og så viste det sig at det var lidt mere man skulle dreje på dem tror jeg... øhm hvor det sådan lidt jamen, hvorfor virkede det så også eller så ud som om det virkede. Ja altså for den der er anden vinkel. Det sådan lidt det der hvor man ligesom har det altså, man har ikke, det kan man så observere i lab og så er det måske rart. Du ved når man så laver en rapport eller whatever man nu laver bagefter sådan at finde ud af hvorfor at man så det.
+
+Interviewer
+Så det fandt i faktisk ikke ud af i laboratoriet i dag, hvorfor det var?
+
+Student 1
+Nå men ikke sådan rigtig nøjagtig andet end måske et gæt på, hvorfor man ikke fuldstændig sådan var: "Det var derfor agtigt".
+
+Interviewer
+Hvordan føles det at i måske har fundet noget af noget, men ikke er helt sikker på det?
+
+Student 1
+Det er altid sjovt at se noget andet eller ikke noget andet, det er også sjovt at se at det der sker faktisk er det som vil man ligesom kunne forvente. Men Det er også sjovt, nu hvor man ikke er mega meget inde i øh kvante optik endnu, at ligesom se nogle andre effekter også, og så tænke: "nå, men hvad kunne det så være?" Altså sådan at der er mere at tænke over end bare det man havde læst før. Og det sker så og også færdig. Ja ja.
+
+Interviewer
+Det er god mening ja. Hvordan synes i tiden var altså hvad i har været nede i 3 timer? Gå jeg ud fra.
+
+Student 2
+Ja, jeg tror, ja altså vi gik jo da der var en halv time tilbage af tiden. Ja øhm. Men Jeg synes det plejer og passe ret godt med 3 timer egentlig. I dag var det jo også sådan, Det var ikke meningen man skulle bruge al tiden på at man skulle stå og lege og pille, men også at man kunne bruge tiden på at gå i gang med det der video noget [agreement] også. Så i dag havde man måske ikke behøvet 3 timer, men det plejer og passe ret godt.
+
+Interviewer
+Ja så jeg så i havde faktisk 1,5 time til lab tingene og så 1,5 time til video eller Sådan noget lignende tror jeg. Ja og opgaver og sådan noget.
+
+Student 1
+De havde planlagt det faktisk. Ja, ja.
+
+Interviewer
+Hvordan var det at have struktureret det på den måde?
+
+Student 1
+Det synes jeg. Det er en meget god Sådan øh...
+
+Student 2
+Guideline. Jeg tror vi har brugt længere end 1,5 time på at pille og lege og prøve os frem med tingene. Men det.
+
+Student 1
+Det er meget rart at have sådan, ja nogen der ligesom har lavet det før ikke? Der ved hvor lang tid man sådan cirka tager. Sådan at man ikke ja... Så man er god til at strukturere tiden, tror jeg.
+
+Interviewer
+Hvis i havde længere tid for eksempel hele 3 timer til kun at kigge på selve det her Mach-Zhender interferometer, ville det have været for meget eller hvad ville i have brugt tiden på?
+
+Student 2
+Jeg tror man ville have været nødt til og indlægge en ekstra opgave, et eller andet. Nå, men så sætter vi et spejl mere op eller et eller andet for at gøre det mere komplekst for at få så meget ud af tiden som muligt. Eller at der så bliver indlagt at vi alle sammen snakker sammen om et eller andet teoretisk, fordi lige nu var det jo bare sådan lidt: Nå men så står TA ovre og snakker med en eller to grupper om et eller andet og så kan de gå over og snakke med en anden gruppe om det samme måske eller noget helt andet.
+
+Student 1
+Ja det er rigtigt. Nogle gange er der lidt meget ventetid. Sådan fordi TAen selvfølgelig gerne vil forklare det godt til alle. Øhm, så måske kunne det være en god ide og tage noget af det måske eller skære i hvis man skal have mere tid eller et eller andet? Øhm ja ellers så kunne man jo også selv bruge tid på at stille forsøget op, men det skulle tage ret meget tid. Det virkede ikke som om, at det var noget, der gav mening...
+
+Student 2
+At sætte os til at stå og kalibrere teknisk ting og sådan noget. Det ja det. Men selvfølgelig, hvis Det var meningen at vi skulle bruge 3 timer på at pille og lege så kunne det måske give mening og sige:" nå, men så får jeg lov til bare sætte det op fra bunden af og se hvor lang tid det tager. [laughs]
+
+Interviewer
+Er der noget i Sådan skulle have været bedre ved labforløbet i dag?
+
+Student 1
+Jeg synes lidt mere... Altså Sådan teori agtig om hvordan og hvorfor det her sker som det gør i den der prelab for eksempel. Fordi det synes jeg fungerede ret godt forrige gang. Jeg ved ikke... men altså der synes jeg da var lidt mere [uncertain] hvor man kunne sætte sig ind i, hvorfor tingene sker agtigt. Og ikke bare hvordan man sætter det op rigtig og sådan. Og hvad der så sker agtigt. Men sådan.
+
+Interviewer
+Ja, så hvornår vil du gerne have haft teorien?
+
+Student 1
+Altså. Man har jo selvfølgelig teori hele tiden, ikke? Som man ligesom trækker på, når man har om det her med lidt mere måske specifikt om... Øh jamen altså hende der prelab kunne man godt have gået lidt... Bare en lille smule... Den skal jo heller ikke være mega lang og øh alt muligt. 
+
+Interviewer
+Det giver god mening. 
+
+Student 1
+Men på den anden side så er der også mere sådan at man så selv du ved kan have lyst til og undersøge det sådan.
+
+Student 2
+Eller ja det ligger meget sådan... Øh ansvaret hen på os, hvilket jo også er ja, er fedt nok [agreement]. At det Sådan nå okay nu går i ned og kigger på noget og så kan i gå hjem og læse om det og prøve og få det til og give mening bagefter. Og så hvis der er et eller andet der overhovedet giver mening, så må man jo spørge en voksen.
+
+Interviewer
+Det kan også være jeg faktisk bare er for tidligt, altså kommer i til at gå hjem nu og undersøge de ting I ikke sådan rigtigt...
+
+Student 1
+Ja, jeg synes altid man kommer ret godt ind i det når man så har skrevet en rapport om det. Så det er jo en eller anden måde... Det fungerer også meget godt at man ikke ja får et eller andet mega langt og tungt til at starte med og så sådan helt ja... At det kommer sådan stille og roligt, men vi kan ligesom komme ovenpå de ting man ligesom har hørt om.
+
+Interviewer
+Er der noget du synes kunne have været bedre?
+
+Student 2
+Altså i øh jeg plejer godt og kunne lide sådan en sandwich i forhold til teori og praksis, at så noget teori og så noget praksis og så noget mere teori der er sådan konkret i forhold til: "nå, men hi har lige kigget på et eller andet, som vi havde en lille smule sådan baggrundsteori for, det kan vi så dybere forklare nu hvor vi har kigget på det i virkeligheden. Men det er jo altså sådan et valg, man kan tage som tilrettelægger af sådan et kursus her, at sige: nå, men okay, nu kaster vi jer bare ud i det, og så må i sådan prøve og få det til at give mening. Og så kan vi forklare jer det senere, hvis det er, men...
+
+Interviewer
+Tror i at i har fået noget ud af den her måde og gøre det på, modsat på den måde i for eksempel foreslår, hvor man får noget mere teori inden?
+
+Student 1
+Altså måske kommer man ind med sådan lidt mere, altså når man ikke ved det hele i forvejen og sådan har fået det hele serveret agtig. Altså man er er lidt mere åben overfor, whatever der nu kan ske altså med at vi fandt for eksempel en lidt forkert vinkel. Sådan at vi ikke bare havde sagt: Nåh, men den skal sættes på 90 grader og den altså sådan at man ved hvordan det skal sættes op og så ser man det sker så er man sådan lidt: Nå, det var det agtigt. Men at man er lidt mere undersøgende måske, og det foregår lidt mere som måske et rigtigt altså eksperiment, hvor man ja skal øh beskrive hvad man ser i virkeligheden bagefter, men ligesom har set det så. På den måde er det også godt.
+
+Student 2
+Ja ja enig. At det man som... Det bliver lidt mere bare sådan nysgerrigt og bare sådan: nå men så prøver vi og dreje på et eller andet og se, nå det gjorde ikke nogen forskel. Hvad hvis vi gør det herover? Så nå, men det det gjorde en forskel. Hvad hvis vi gør mere af det eller et eller andet. Ja Det er jo, det er jo også sjovt. Noget af det der er det sjove ved at vi får lov til at lave eksperimenter og sådan noget. At man bare sådan kan lege lidt. Og prøve sig frem med nogle forskellige ting, der måske ikke giver mening, men set kan man jo så finde ud af om det gør, ved at prøve at gøre det.
+
+Student 1
+Ja, men alligevel. Der har man jo også brug for noget forhåndsviden for at kunne have den nysgerrighed, fordi hvis du bare... hvis man siger der slet ikke var nogen prelab eller man ved slet ikke hvad en laser er... Ja OK, men du ved altså, sådan konceptet i det agtigt sådan. Der skal også være noget måske, men mere, altså lidt om hvordan tingene virker og ikke så meget om hvordan man kan få det til at virke agtigt. Men mere om sådan så man har lyst til at undersøge: nåh, det virker cirka på den måde. Det sådan lidt mere det. Åh jeg ved 
+
+Interviewer:
+Det giver også god mening i forhold til det du snakker om med prelabben. 
+
+Student 1
+Altså måske bare at man ved hvordan en bølge virker agtigt og så kan man selv finde ud af nå, men så må de jo interferere. Sådan lidt på den måde. 
+
+Interviewer
+Ja, hvis man har den forhåndsviden ja. Følte i så at i havde den altså forholdsviden i har brug for eller hvad?
+
+Student 2
+Altså på nogen punkter ja. Nogenlunde ja. Vi brugte lidt lang tid på at prøve at finde ud af hvordan nogle af de der komponenter virkede. For eksempel den der beamsplitter boks, der stod vi i lang tid og var sådan: hvordan fungerer det overhovedet? 
+
+Student 1
+Altså ja, lige præcis men. 
+
+Student 2
+Men Jeg tror, vi fandt ud af... sådan cirka... Fik regnet og eller logikket os frem til hvordan det må hænge sammen. Øh, uden at sådan specifikt at have fået at vide den fungerer sådan her.
+
+Interviewer
+Så er det noget i selv fandt frem til? 
+
+Student 1
+Ja ja, det er vel også meget, altså lige at, få den blive sikker på. Ja, det var sådan lidt det vi sådan tænkte at det kunne være her, lidt en hypotese ud fra det man ligesom ser. Man sørger så for det, ja at være sikker på det bagefter, men ja måske lidt om... En lille smule om hvordan komponenterne virker. Ja altså det er sådan en balance ikke? Altså, man skal heller ikke vide for meget fordi så kan jeg heller ikke spændende altså. Sådan ja. Jeg synes det er meget altså sådan rent teknisk også hvordan det faktisk virker sådan. Når man ved hvordan man lidt har kommet på at lave et eksperiment på den her måde. 
+
+Interviewer
+Er det her med komponenterne hvordan de virker og hvorfor man overhovedet kigger på det her eksperiment. Er det noget i føler i har fået svar på nu efter at have været i lab? 
+
+Student 1
+Altså jeg synes det giver mening hele tiden. Altså hvorfor man laver eksperimenterne. Men nogen gange måske hvordan de er blevet sat op. Altså det kunne jeg da ikke finde ud af, før at jeg startede med at lave noget fysik agtig. Altså Sådan eller...
+
+Student 2
+Jeg synes i hvert fald også det er sjovt at høre sådan: Nå men hvordan er man kommet på at sætte det op på den her måde, at man bare Sådan... Nå men der er en der tilfældigvis har sat en laser op med 3 spejle og 3 filtre og så kigget på en plet på væggen og sådan. Jeg synes i hvert fald det er interessant at høre sådan, hvad er det for en tankegang der er gået for sig for at finde på den her opstilling? 
+
+Interviewer
+Ja, hvad med det har man komponenterne? Forstår i dem nu efter i har været i lab?
+
+Student 1
+Øh nogenlunde ja tror jeg. Altså man har jo haft om hvad en laser det er for noget. Jamen jeg tror bare det der beamsplitter jeg stadigvæk, ja kan være sådan lidt, jeg kan godt forstå hvad den gør agtig. Men sådan hvordan gør den det? Det kunne jeg godt tænke mig at vide ja.
+
+Interviewer
+Det forstår jeg godt. Hvordan tror i det har lab det hænger sammen med jeres fremtidige uddannelser eller fremtid inden for fysik? Altså tror i at i kommer til at bruge det her igen udenfor det her kursus?
+
+Student 1
+Altså man lærer vel hele tiden, hvordan man kan sætte et godt eksperiment op. Sådan at man ja, hvis du har, enten hvis du har en teori om noget og du så gerne vil kunne eftervise det eller kunne undersøge hvordan det så hænger sammen, så er det jo altid godt at se hvordan man gør det på en god måde. Og ligesom får noget måske sådan intuition om hvordan man kan stille et godt eksperiment op og gøre det på en ordentlig måde sådan at man kan stole på de resultater man får, ikke? Det synes jeg er meget vigtigt. Altså hvis man gerne vil det altså undersøge ting. Men Det er vel altid vigtigt at kunne undersøge noget man gerne vil vide på en fornuftig måde. Altså uanset hvad man skal, tænker jeg ja.
+
+Student 2
+Jeg ved det ikke altså. Jeg er måske lidt i en speciel situation, fordi at jeg er sidefagsstuderende, så jeg er ikke fysiker, så jeg tror ikke jeg kommer til at bruge det her specifikt til særlig meget senere. Men altså gymnasieelever synes også, at lasere er seje. Og da er sådan et eksperiment som det her, det er jo sådan relativt simpelt, så det ville man jo også godt kunne, på en eller anden måde i hvert fald noget med læsere og spejle og sådan noget, sætte op i en gymnasieklasse. Og der er det jo fedt, selv at have stået og leget med det først. Ja helt sikkert ja.
+
+Interviewer
+Okay jeg tror ikke jeg har mere. Er der mere? Var der andet? Er der noget i har tænkt på? Noget der kunne være relevant at nævne?
+
+Student 1
+Næh, jeg synes Vi er kommet godt rundt om det. 
+
+Interviewer
+Ja, tak fordi i ville blive interviewet.
