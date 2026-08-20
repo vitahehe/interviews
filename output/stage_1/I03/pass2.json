@@ -1,0 +1,389 @@
+{
+  "interview_id": "I03",
+  "interpretations": [
+    {
+      "quote_id": "I03-Q001",
+      "rationale": "The student describes uncertainty about whether a result found in the lab was genuinely correct or just a fluke/glitch, which reflects the problem-solving challenge of judging data validity in real time.",
+      "why_interesting": "It reveals a common epistemic struggle in experimental work: distinguishing signal from artifact without immediate external confirmation.",
+      "teaching_implication": "Labs could build in checkpoints or simple validity checks (e.g., repeat measurements, sanity-check calculations) so students have tools to resolve this uncertainty in the moment. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Jeg tror nogle gange at være helt sikker på at det man havde fundet faktisk var rigtigt, eller om det bare var sådan en glitch. ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T013"
+      ]
+    },
+    {
+      "quote_id": "I03-Q002",
+      "rationale": "The student echoes the same problem-solving dilemma, questioning whether an unexpected data point was a fluke or a genuine error, showing active reasoning about data quality.",
+      "why_interesting": "It shows how students co-construct uncertainty together, verbally negotiating whether anomalies are meaningful or not.",
+      "teaching_implication": "Encouraging pairs to explicitly document and discuss anomalies during the experiment could turn this uncertainty into a structured reflection exercise. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Ja om det bare var sådan en fluke af et eller andet man havde rykket til og så var det forkert så. Så vidste man ikke helt om det om det gav mening, eller om det var et eller andet der var galt.\n\nInterviewer\nOplevede i på noget tidspunkt, at Det var noget, der var galt? ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T014"
+      ]
+    },
+    {
+      "quote_id": "I03-Q003",
+      "rationale": "The student recounts a specific troubleshooting episode with a polarization filter where the setup looked correct at the wrong angle, illustrating hands-on problem-solving during the lab.",
+      "why_interesting": "It highlights that some problem-solving resolution happens after the lab (e.g., during report writing) rather than in real time, showing a gap between doing and understanding.",
+      "teaching_implication": "Providing brief in-lab discussion time or TA check-ins when odd results appear might help students resolve confusion before it becomes a post-hoc mystery. (Speculative)",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "Student 1: Ja altså der var en gang hvor et polariseringsfilter vi havde opstillet hvor vi synes at det så godt nok ud ved det antal grader. Øhm og så viste det sig at det var lidt mere man skulle dreje på dem tror jeg... øhm hvor det sådan lidt jamen, hvorfor virkede det så også eller så ud som om det virkede. Ja altså for den der er anden vinkel. Det sådan lidt det der hvor man ligesom har det altså, man har ikke, det kan man så observere i lab og så er det måske rart. Du ved når man så laver en rapport eller whatever man nu laver bagefter sådan at finde ud af hvorfor at man så det.\n\nInterviewer\nSå det fandt i faktisk ikke ud af i laboratoriet i dag, hvorfor det var? ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T015"
+      ]
+    },
+    {
+      "quote_id": "I03-Q004",
+      "rationale": "The student explicitly states they spent a long time trying to figure out how a component (the beamsplitter box) worked, directly describing a problem-solving process.",
+      "why_interesting": "It shows that significant lab time can be consumed by understanding equipment rather than the core physics concept being tested.",
+      "teaching_implication": "Brief equipment orientation materials or short demonstrations of key components could reduce time lost to figuring out how devices work. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Altså på nogen punkter ja. Nogenlunde ja. Vi brugte lidt lang tid på at prøve at finde ud af hvordan nogle af de der komponenter virkede. For eksempel den der beamsplitter boks, der stod vi i lang tid og var sådan: hvordan fungerer det overhovedet? ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T036"
+      ]
+    },
+    {
+      "quote_id": "I03-Q005",
+      "rationale": "The student describes reasoning and calculating their way to an understanding of how the component worked without being told directly, which is a clear instance of independent problem-solving.",
+      "why_interesting": "It suggests students value and can achieve conceptual understanding through self-directed reasoning rather than being given answers.",
+      "teaching_implication": "Labs might intentionally leave some equipment functioning unexplained to encourage this kind of self-directed inferential reasoning, provided support is available if students get stuck. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Men Jeg tror, vi fandt ud af... sådan cirka... Fik regnet og eller logikket os frem til hvordan det må hænge sammen. Øh, uden at sådan specifikt at have fået at vide den fungerer sådan her.\n\nInterviewer\nSå er det noget i selv fandt frem til? ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T038"
+      ]
+    },
+    {
+      "quote_id": "I03-Q006",
+      "rationale": "The student reflects on partial understanding of the beamsplitter, admitting they understand its function but not the underlying mechanism, showing an unresolved problem-solving gap.",
+      "why_interesting": "It shows a distinction students draw between knowing what something does versus how it works, which may not be surfaced by standard lab assessments.",
+      "teaching_implication": "Debrief sessions could explicitly probe for this what-vs-how gap and offer follow-up explanations or resources. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Øh nogenlunde ja tror jeg. Altså man har jo haft om hvad en laser det er for noget. Jamen jeg tror bare det der beamsplitter jeg stadigvæk, ja kan være sådan lidt, jeg kan godt forstå hvad den gør agtig. Men sådan hvordan gør den det? Det kunne jeg godt tænke mig at vide ja.\n\nInterviewer\nDet forstår jeg godt. Hvordan tror i det har lab det hænger sammen med jeres fremtidige uddannelser eller fremtid inden for fysik? Altså tror i at i kommer til at bruge det her igen udenfor det her kursus? ",
+      "code": "1.c",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T042"
+      ]
+    },
+    {
+      "quote_id": "I03-Q007",
+      "rationale": "The student expresses a preference for more in-depth theory while also praising the prelab structure, directly stating what worked well and what they wanted more of.",
+      "why_interesting": "It shows students can appreciate a pedagogical structure (prelabs) while still identifying gaps in depth of theoretical coverage.",
+      "teaching_implication": "Prelab materials could be retained but supplemented with optional deeper theoretical readings for students who want more depth. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Øh, Jeg tror Vi har en ide om det hele. Vi skal lige have kigget på det lidt mere. Altså den dybdegående teori, fordi den fik vi heller ikke så meget af. Det fungerer meget godt. Vi har Sådan nogle prelab vi får, og det synes jeg faktisk fungerer rigtig godt. I forhold til... Det har jeg ikke prøvet før. ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T002"
+      ]
+    },
+    {
+      "quote_id": "I03-Q008",
+      "rationale": "The student contrasts the neat theoretical diagrams from lectures with the messier hands-on reality of adjusting filters and observing faint interference patterns, expressing a preference for grappling with the real, less-clean experience.",
+      "why_interesting": "It captures a vivid contrast between idealized theory and the ambiguity of real observation, which students seem to find both frustrating and authentic.",
+      "teaching_implication": "Instructors could explicitly prepare students for this theory-practice gap by discussing beforehand that real observations are often ambiguous and require judgment calls. (Speculative)",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "Student 2: Ja, det er jo altid det der med at sådan få fingrene i det selv og stå og stå og dreje på filtre og sådan. Det var meget let for dem og lave fine tegninger og bare sige sådan: \"nå men der interferens der og der er ikke interferens der\", men i virkeligheden var det jo lidt mere bare sådan: \"Er det en stribe? Jeg kan ikke rigtig se om Det er en stribe.\" Ja ja. [laughs] ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T010"
+      ]
+    },
+    {
+      "quote_id": "I03-Q009",
+      "rationale": "The student states a preference for more theoretical grounding on why phenomena occur, referencing the prelab as an example of when this worked well.",
+      "why_interesting": "It suggests students distinguish between procedural instructions (how to set up) and conceptual explanations (why things happen), valuing the latter more.",
+      "teaching_implication": "Prelab content could be structured to explicitly separate 'why' explanations from 'how-to' setup instructions to meet this preference. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Jeg synes lidt mere... Altså Sådan teori agtig om hvordan og hvorfor det her sker som det gør i den der prelab for eksempel. Fordi det synes jeg fungerede ret godt forrige gang. Jeg ved ikke... men altså der synes jeg da var lidt mere [uncertain] hvor man kunne sætte sig ind i, hvorfor tingene sker agtigt. Og ikke bare hvordan man sætter det op rigtig og sådan. Og hvad der så sker agtigt. Men sådan.\n\nInterviewer\nJa, så hvornår vil du gerne have haft teorien? ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T026"
+      ]
+    },
+    {
+      "quote_id": "I03-Q010",
+      "rationale": "The student explicitly describes a preferred pedagogical structure, a 'sandwich' of theory-practice-theory, as their favored way of learning, directly stating this preference.",
+      "why_interesting": "It offers a concrete alternative pedagogical model articulated by the student themselves, contrasting with the current 'dive in first' approach.",
+      "teaching_implication": "Course designers could pilot a theory-practice-theory sandwich structure in a lab module and compare student outcomes/experience to the current approach. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Altså i øh jeg plejer godt og kunne lide sådan en sandwich i forhold til teori og praksis, at så noget teori og så noget praksis og så noget mere teori der er sådan konkret i forhold til: \"nå, men hi har lige kigget på et eller andet, som vi havde en lille smule sådan baggrundsteori for, det kan vi så dybere forklare nu hvor vi har kigget på det i virkeligheden. Men det er jo altså sådan et valg, man kan tage som tilrettelægger af sådan et kursus her, at sige: nå, men okay, nu kaster vi jer bare ud i det, og så må i sådan prøve og få det til at give mening. Og så kan vi forklare jer det senere, hvis det er, men...\n\nInterviewer\nTror i at i har fået noget ud af den her måde og gøre det på, modsat på den måde i for eksempel foreslår, hvor man får noget mere teori inden? ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T031"
+      ]
+    },
+    {
+      "quote_id": "I03-Q011",
+      "rationale": "The student describes preferring to explore curiously by trying different manipulations and observing effects, indicating a preference for exploratory, trial-and-error engagement.",
+      "why_interesting": "It shows that some students find open-ended experimentation intrinsically enjoyable, suggesting variety in preferred learning styles among students.",
+      "teaching_implication": "Building in unstructured 'play' time alongside guided procedures could accommodate students who prefer this exploratory approach. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Ja ja enig. At det man som... Det bliver lidt mere bare sådan nysgerrigt og bare sådan: nå men så prøver vi og dreje på et eller andet og se, nå det gjorde ikke nogen forskel. Hvad hvis vi gør det herover? Så nå, men det det gjorde en forskel. Hvad hvis vi gør mere af det eller et eller andet. Ja Det er jo, det er jo også sjovt. Noget af det der er det sjove ved at vi får lov til at lave eksperimenter og sådan noget. At man bare sådan kan lege lidt. Og prøve sig frem med nogle forskellige ting, der måske ikke giver mening, men set kan man jo så finde ud af om det gør, ved at prøve at gøre det. ",
+      "code": "2.a",
+      "theme_id": "2",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T033"
+      ]
+    },
+    {
+      "quote_id": "I03-Q012",
+      "rationale": "The student emphasizes the value of physically manipulating equipment ('få fingrene i det selv') as opposed to just seeing clean diagrams, reflecting an identity oriented toward hands-on practical work.",
+      "why_interesting": "It highlights a tension between idealized theoretical illustrations and the practical, hands-on identity the student values in themselves as an experimentalist.",
+      "teaching_implication": "Emphasizing hands-on components of the curriculum and reducing reliance on idealized diagrams alone may better serve students with this practical orientation. (Speculative)",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "Student 2: Ja, det er jo altid det der med at sådan få fingrene i det selv og stå og stå og dreje på filtre og sådan. Det var meget let for dem og lave fine tegninger og bare sige sådan: \"nå men der interferens der og der er ikke interferens der\", men i virkeligheden var det jo lidt mere bare sådan: \"Er det en stribe? Jeg kan ikke rigtig se om Det er en stribe.\" Ja ja. [laughs] ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T010"
+      ]
+    },
+    {
+      "quote_id": "I03-Q013",
+      "rationale": "The student describes trying out different setups and manipulating polarization filters directly, reflecting a hands-on, exploratory approach to experimentation.",
+      "why_interesting": "It shows the student values direct manipulation and experimentation over just following a prescribed procedure from the prelab.",
+      "teaching_implication": "Allowing time for free exploration with equipment beyond the prescribed prelab tasks could support this practical, exploratory identity. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Så man kan prøve mange forskellige opstillinger og selv du ved sidde og ja. Når man sidder og drejer på det og sådan altså. Det er sådan nogle polariserings øhm... filtre! Ja Det er det de hedder.[laughs] Man kan prøve nogle forskellige ting af ja. Der er jo også kun så meget af det man ligesom kan skrive om. Altså man kan jo ikke komme igennem alt hvad man kan på sådan en prelab.\n\nInterviewer\nNej selvfølgeligt. Så fik i de resultater i forventede nede i laboratoriet ud fra jeres prelab eller jeres intuition. ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T011"
+      ]
+    },
+    {
+      "quote_id": "I03-Q014",
+      "rationale": "The student frames experimentation as playful trial-and-error ('lege lidt'), directly expressing enjoyment of hands-on practical exploration as part of their identity as a lab learner.",
+      "why_interesting": "It reveals that a practical, playful stance toward experimentation is a source of both learning and enjoyment for this student.",
+      "teaching_implication": "Framing lab exercises explicitly as opportunities for playful exploration rather than strict result-verification tasks may enhance engagement. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Ja ja enig. At det man som... Det bliver lidt mere bare sådan nysgerrigt og bare sådan: nå men så prøver vi og dreje på et eller andet og se, nå det gjorde ikke nogen forskel. Hvad hvis vi gør det herover? Så nå, men det det gjorde en forskel. Hvad hvis vi gør mere af det eller et eller andet. Ja Det er jo, det er jo også sjovt. Noget af det der er det sjove ved at vi får lov til at lave eksperimenter og sådan noget. At man bare sådan kan lege lidt. Og prøve sig frem med nogle forskellige ting, der måske ikke giver mening, men set kan man jo så finde ud af om det gør, ved at prøve at gøre det. ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T033"
+      ]
+    },
+    {
+      "quote_id": "I03-Q015",
+      "rationale": "The student articulates a positive takeaway from the lab about learning how to set up a good experiment and trust the resulting data, framing this as valuable learning.",
+      "why_interesting": "It shows the student generalizing a specific lab experience into a broader transferable skill (designing trustworthy experiments).",
+      "teaching_implication": "Explicitly highlighting the generalizable experimental design skills being practiced in each lab could help students recognize and value this transferable learning. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Altså man lærer vel hele tiden, hvordan man kan sætte et godt eksperiment op. Sådan at man ja, hvis du har, enten hvis du har en teori om noget og du så gerne vil kunne eftervise det eller kunne undersøge hvordan det så hænger sammen, så er det jo altid godt at se hvordan man gør det på en god måde. Og ligesom får noget måske sådan intuition om hvordan man kan stille et godt eksperiment op og gøre det på en ordentlig måde sådan at man kan stole på de resultater man får, ikke? Det synes jeg er meget vigtigt. Altså hvis man gerne vil det altså undersøge ting. Men Det er vel altid vigtigt at kunne undersøge noget man gerne vil vide på en fornuftig måde. Altså uanset hvad man skal, tænker jeg ja. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T043"
+      ]
+    },
+    {
+      "quote_id": "I03-Q016",
+      "rationale": "The student positively describes figuring out how the component worked through their own reasoning and calculation, framing this as a successful learning outcome.",
+      "why_interesting": "It suggests self-derived understanding is experienced positively and perhaps more memorably than being told an answer directly.",
+      "teaching_implication": "Labs could be designed to intentionally allow room for self-derivation of certain component functions before providing direct explanations. (Speculative)",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "Student 2: Men Jeg tror, vi fandt ud af... sådan cirka... Fik regnet og eller logikket os frem til hvordan det må hænge sammen. Øh, uden at sådan specifikt at have fået at vide den fungerer sådan her.\n\nInterviewer\nSå er det noget i selv fandt frem til? ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T038"
+      ]
+    },
+    {
+      "quote_id": "I03-Q017",
+      "rationale": "The student reflects positively on partial understanding of the beamsplitter while expressing a genuine desire to learn more, indicating an ongoing positive learning trajectory.",
+      "why_interesting": "It shows how even incomplete understanding can be framed as a positive marker of learning progress and curiosity rather than failure.",
+      "teaching_implication": "Follow-up resources addressing common lingering questions (like beamsplitter mechanism) could be offered to build on this positive momentum. (Speculative)",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "Student 1: Øh nogenlunde ja tror jeg. Altså man har jo haft om hvad en laser det er for noget. Jamen jeg tror bare det der beamsplitter jeg stadigvæk, ja kan være sådan lidt, jeg kan godt forstå hvad den gør agtig. Men sådan hvordan gør den det? Det kunne jeg godt tænke mig at vide ja.\n\nInterviewer\nDet forstår jeg godt. Hvordan tror i det har lab det hænger sammen med jeres fremtidige uddannelser eller fremtid inden for fysik? Altså tror i at i kommer til at bruge det her igen udenfor det her kursus? ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T042"
+      ]
+    },
+    {
+      "quote_id": "I03-Q018",
+      "rationale": "The student says it is 'sjovt' (fun) to see both expected and unexpected effects in the lab, directly expressing enjoyment tied to novel observations beyond prior reading.",
+      "why_interesting": "It suggests curiosity-driven surprise, rather than just confirmation of expected results, is a key source of enjoyment for students.",
+      "teaching_implication": "Incorporating open-ended observation opportunities where unexpected phenomena can emerge might enhance student engagement beyond confirmatory experiments. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Det er altid sjovt at se noget andet eller ikke noget andet, det er også sjovt at se at det der sker faktisk er det som vil man ligesom kunne forvente. Men Det er også sjovt, nu hvor man ikke er mega meget inde i øh kvante optik endnu, at ligesom se nogle andre effekter også, og så tænke: \"nå, men hvad kunne det så være?\" Altså sådan at der er mere at tænke over end bare det man havde læst før. Og det sker så og også færdig. Ja ja.\n\nInterviewer\nDet er god mening ja. Hvordan synes i tiden var altså hvad i har været nede i 3 timer? Gå jeg ud fra. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T017"
+      ]
+    },
+    {
+      "quote_id": "I03-Q019",
+      "rationale": "The student directly states 'det er jo også sjovt' (it's also fun) when describing curiosity-driven trial-and-error experimentation, indicating enjoyment tied to exploratory engagement.",
+      "why_interesting": "It reinforces that playful, low-stakes experimentation is a source of engagement distinct from achieving a specific 'correct' result.",
+      "teaching_implication": "Lab assessment could deemphasize getting a single correct answer and instead reward documented exploration and reasoning process. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Ja ja enig. At det man som... Det bliver lidt mere bare sådan nysgerrigt og bare sådan: nå men så prøver vi og dreje på et eller andet og se, nå det gjorde ikke nogen forskel. Hvad hvis vi gør det herover? Så nå, men det det gjorde en forskel. Hvad hvis vi gør mere af det eller et eller andet. Ja Det er jo, det er jo også sjovt. Noget af det der er det sjove ved at vi får lov til at lave eksperimenter og sådan noget. At man bare sådan kan lege lidt. Og prøve sig frem med nogle forskellige ting, der måske ikke giver mening, men set kan man jo så finde ud af om det gør, ved at prøve at gøre det. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T033"
+      ]
+    },
+    {
+      "quote_id": "I03-Q020",
+      "rationale": "The student expresses interest ('jeg synes... det er sjovt') in learning the history and reasoning behind how an experimental setup was originally devised, showing engagement beyond just executing the procedure.",
+      "why_interesting": "It reveals curiosity about the human, creative process behind experimental design, not just the physics content itself.",
+      "teaching_implication": "Including brief historical or design-rationale context for classic experimental setups could tap into this type of curiosity. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Jeg synes i hvert fald også det er sjovt at høre sådan: Nå men hvordan er man kommet på at sætte det op på den her måde, at man bare Sådan... Nå men der er en der tilfældigvis har sat en laser op med 3 spejle og 3 filtre og så kigget på en plet på væggen og sådan. Jeg synes i hvert fald det er interessant at høre sådan, hvad er det for en tankegang der er gået for sig for at finde på den her opstilling? \n\nInterviewer\nJa, hvad med det har man komponenterne? Forstår i dem nu efter i har været i lab? ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T041"
+      ]
+    },
+    {
+      "quote_id": "I03-Q021",
+      "rationale": "The student expresses enjoyment and engagement by connecting the lab experience to a future possibility of recreating it for high schoolers, emphasizing that having personally played with it first was 'fedt' (great).",
+      "why_interesting": "It shows enjoyment being linked not just to immediate learning but to imagined future use and sharing of the experience with others.",
+      "teaching_implication": "Highlighting potential outreach or teaching applications of lab experiments might increase engagement for students considering teaching careers. (Speculative)",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "Student 2: Jeg ved det ikke altså. Jeg er måske lidt i en speciel situation, fordi at jeg er sidefagsstuderende, så jeg er ikke fysiker, så jeg tror ikke jeg kommer til at bruge det her specifikt til særlig meget senere. Men altså gymnasieelever synes også, at lasere er seje. Og da er sådan et eksperiment som det her, det er jo sådan relativt simpelt, så det ville man jo også godt kunne, på en eller anden måde i hvert fald noget med læsere og spejle og sådan noget, sætte op i en gymnasieklasse. Og der er det jo fedt, selv at have stået og leget med det først. Ja helt sikkert ja.\n\nInterviewer\nOkay jeg tror ikke jeg har mere. Er der mere? Var der andet? Er der noget i har tænkt på? Noget der kunne være relevant at nævne? ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T044"
+      ]
+    },
+    {
+      "quote_id": "I03-Q022",
+      "rationale": "The student describes the lab as useful for developing a generalizable skill: learning to set up trustworthy experiments, directly framing this as broadly important regardless of one's specific path.",
+      "why_interesting": "It shows the student perceiving usefulness at the level of general scientific practice rather than specific content knowledge.",
+      "teaching_implication": "Course framing could explicitly connect lab tasks to the broader, transferable skill of designing reliable experiments to reinforce perceived usefulness. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Altså man lærer vel hele tiden, hvordan man kan sætte et godt eksperiment op. Sådan at man ja, hvis du har, enten hvis du har en teori om noget og du så gerne vil kunne eftervise det eller kunne undersøge hvordan det så hænger sammen, så er det jo altid godt at se hvordan man gør det på en god måde. Og ligesom får noget måske sådan intuition om hvordan man kan stille et godt eksperiment op og gøre det på en ordentlig måde sådan at man kan stole på de resultater man får, ikke? Det synes jeg er meget vigtigt. Altså hvis man gerne vil det altså undersøge ting. Men Det er vel altid vigtigt at kunne undersøge noget man gerne vil vide på en fornuftig måde. Altså uanset hvad man skal, tænker jeg ja. ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T043"
+      ]
+    },
+    {
+      "quote_id": "I03-Q023",
+      "rationale": "The student states they see usefulness in the lab experience for a future non-physics purpose, specifically imagining using a similar simple laser/mirror setup while teaching high school students.",
+      "why_interesting": "It shows that perceived usefulness can extend beyond the immediate physics degree into imagined future professional (teaching) contexts.",
+      "teaching_implication": "Explicitly discussing how lab experiments could be adapted for outreach or teaching contexts might help non-specialist students see clearer personal relevance. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Jeg ved det ikke altså. Jeg er måske lidt i en speciel situation, fordi at jeg er sidefagsstuderende, så jeg er ikke fysiker, så jeg tror ikke jeg kommer til at bruge det her specifikt til særlig meget senere. Men altså gymnasieelever synes også, at lasere er seje. Og da er sådan et eksperiment som det her, det er jo sådan relativt simpelt, så det ville man jo også godt kunne, på en eller anden måde i hvert fald noget med læsere og spejle og sådan noget, sætte op i en gymnasieklasse. Og der er det jo fedt, selv at have stået og leget med det først. Ja helt sikkert ja.\n\nInterviewer\nOkay jeg tror ikke jeg har mere. Er der mere? Var der andet? Er der noget i har tænkt på? Noget der kunne være relevant at nævne? ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T044"
+      ]
+    },
+    {
+      "quote_id": "I03-Q024",
+      "rationale": "The student states they don't think they will use this specific lab content much later since they are not a physics major ('sidefagsstuderende'), directly expressing a perceived lack of direct usefulness for their own path.",
+      "why_interesting": "It shows perceived unusefulness and perceived usefulness can coexist in the same reflection, as the student pairs this doubt with an alternative use case (teaching).",
+      "teaching_implication": "Instructors might tailor framing for non-major students by explicitly discussing alternate relevance (e.g., teaching, general scientific literacy) to offset perceived lack of direct usefulness. (Speculative)",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Jeg ved det ikke altså. Jeg er måske lidt i en speciel situation, fordi at jeg er sidefagsstuderende, så jeg er ikke fysiker, så jeg tror ikke jeg kommer til at bruge det her specifikt til særlig meget senere. Men altså gymnasieelever synes også, at lasere er seje. Og da er sådan et eksperiment som det her, det er jo sådan relativt simpelt, så det ville man jo også godt kunne, på en eller anden måde i hvert fald noget med læsere og spejle og sådan noget, sætte op i en gymnasieklasse. Og der er det jo fedt, selv at have stået og leget med det først. Ja helt sikkert ja.\n\nInterviewer\nOkay jeg tror ikke jeg har mere. Er der mere? Var der andet? Er der noget i har tænkt på? Noget der kunne være relevant at nævne? ",
+      "code": "3.d",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T044"
+      ]
+    }
+  ]
+}

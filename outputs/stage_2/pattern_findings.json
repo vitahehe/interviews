@@ -2,14 +2,16 @@
   "findings": [
     {
       "finding_type": "alignment",
-      "title": "Open-ended, freer lab structure preferred over rigid, result-oriented labs",
-      "description": "Students in both interviews explicitly contrast this open-ended, understanding-focused lab with more rigid, prescriptive or result-oriented labs from other courses/years, and express a clear preference for the freer format that allows discussion and exploration.",
+      "title": "Open-ended, freedom-based lab structure is consistently preferred over rigid, result-oriented labs",
+      "description": "Across all three interviews, students explicitly contrast this lab's open-ended, understanding-focused, exploratory format with more rigid, result-oriented labs from earlier in their studies, and express a clear preference for the freer format. This appears repeatedly and independently across I01, I02, and I03.",
       "quote_ids": [
         "I01-Q009",
         "I01-Q010",
         "I02-Q006",
         "I02-Q007",
-        "I02-Q008"
+        "I02-Q008",
+        "I03-Q010",
+        "I03-Q011"
       ],
       "themes_involved": [
         "2"
@@ -48,6 +50,18 @@
           "cited_text": "student 2: Ja, altså jeg synes, at det har fungeret til to halve gange fint. Til den her gang, så synes jeg, at spørgsmålet var mere åbne. Det var mere bare at læse og så prøve at bearbejde det i hovedet gennem hele, hvad der sker. Men jeg synes, det er... Det er mere konstruktivt end at have et lab. Lab kan jeg også læse igennem, inden vi kom herind. Men til de fleste andre lab, jeg har prøvet igennem min tid ved universitetet, så er det bare, at du læser lab-instruktionen, inden du kommer ind. Der kan jeg være mindre eller mere forstående med teorien. Det er ikke helt fanget, hvad det er... I elektromagnetisme kan der være lidt tunge udregninger. Der er nogle opgaver meget lavet på at forstå, hvad det er. ",
           "interview_id": "I02",
           "code": "2.a"
+        },
+        {
+          "quote_id": "I03-Q010",
+          "cited_text": "Student 2: Altså i øh jeg plejer godt og kunne lide sådan en sandwich i forhold til teori og praksis, at så noget teori og så noget praksis og så noget mere teori der er sådan konkret i forhold til: \"nå, men hi har lige kigget på et eller andet, som vi havde en lille smule sådan baggrundsteori for, det kan vi så dybere forklare nu hvor vi har kigget på det i virkeligheden. Men det er jo altså sådan et valg, man kan tage som tilrettelægger af sådan et kursus her, at sige: nå, men okay, nu kaster vi jer bare ud i det, og så må i sådan prøve og få det til at give mening. Og så kan vi forklare jer det senere, hvis det er, men...\n\nInterviewer\nTror i at i har fået noget ud af den her måde og gøre det på, modsat på den måde i for eksempel foreslår, hvor man får noget mere teori inden? ",
+          "interview_id": "I03",
+          "code": "2.a"
+        },
+        {
+          "quote_id": "I03-Q011",
+          "cited_text": "Student 2: Ja ja enig. At det man som... Det bliver lidt mere bare sådan nysgerrigt og bare sådan: nå men så prøver vi og dreje på et eller andet og se, nå det gjorde ikke nogen forskel. Hvad hvis vi gør det herover? Så nå, men det det gjorde en forskel. Hvad hvis vi gør mere af det eller et eller andet. Ja Det er jo, det er jo også sjovt. Noget af det der er det sjove ved at vi får lov til at lave eksperimenter og sådan noget. At man bare sådan kan lege lidt. Og prøve sig frem med nogle forskellige ting, der måske ikke giver mening, men set kan man jo så finde ud af om det gør, ved at prøve at gøre det. ",
+          "interview_id": "I03",
+          "code": "2.a"
         }
       ],
       "codes_involved_consistent": true,
@@ -55,84 +69,59 @@
     },
     {
       "finding_type": "alignment",
-      "title": "Reduced data-collection burden framed positively across both interviews",
-      "description": "Students in I01 describe not having to take extensive data as 'kind of nice' and stress-reducing, while I02 students similarly frame the open, understanding-based questions as more constructive than typical result/data-heavy labs, suggesting a shared preference for lighter data demands paired with conceptual engagement.",
+      "title": "Hands-on troubleshooting is a dominant mode of problem-solving across all interviews",
+      "description": "In every interview, students describe extended, concrete episodes of troubleshooting hardware/setup issues (mirrors sensitive to touch, table stability, beamsplitter function, polarization filter angles) through trial-and-error and self-reasoning rather than formal instruction. This is a recurring pattern coded 1.c that appears with similar frequency (7,5,6) in all three interviews.",
       "quote_ids": [
-        "I01-Q011",
-        "I02-Q008"
+        "I01-Q003",
+        "I02-Q001",
+        "I02-Q003",
+        "I03-Q003",
+        "I03-Q004",
+        "I03-Q005"
       ],
       "themes_involved": [
-        "2",
-        "3"
+        "1"
       ],
       "codes_involved": [
-        "2.a",
-        "3.b"
+        "1.c"
       ],
-      "confidence": "moderate",
+      "confidence": "strong",
       "quotes": [
         {
-          "quote_id": "I01-Q011",
-          "cited_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. Having to take so much data in some of the labs. Getting stressed about it.[overlap] Yeah, getting stressed about it. ",
+          "quote_id": "I01-Q003",
+          "cited_text": "student 2: Well, sometimes I take like 10 measurements of different set-ups and then it takes a really long time. ",
           "interview_id": "I01",
-          "code": "2.a"
+          "code": "1.c"
         },
         {
-          "quote_id": "I02-Q008",
-          "cited_text": "student 2: Ja, altså jeg synes, at det har fungeret til to halve gange fint. Til den her gang, så synes jeg, at spørgsmålet var mere åbne. Det var mere bare at læse og så prøve at bearbejde det i hovedet gennem hele, hvad der sker. Men jeg synes, det er... Det er mere konstruktivt end at have et lab. Lab kan jeg også læse igennem, inden vi kom herind. Men til de fleste andre lab, jeg har prøvet igennem min tid ved universitetet, så er det bare, at du læser lab-instruktionen, inden du kommer ind. Der kan jeg være mindre eller mere forstående med teorien. Det er ikke helt fanget, hvad det er... I elektromagnetisme kan der være lidt tunge udregninger. Der er nogle opgaver meget lavet på at forstå, hvad det er. ",
+          "quote_id": "I02-Q001",
+          "cited_text": "student 3: Det var mere det med, at man ændrede det en grad, og så tænkte man, det gør jo ikke noget som helst. Og så var der interferens. Og så var det sådan, at når man lige vil have interferens, så lad os lige gå en grad længere ned. Så det var meget... mere det med. Det går meget hurtigt, og hvis man kom til at røre ved spejlen, så wobblede lyset på pladen, fordi det gør jo meget for selv i lyset. ",
           "interview_id": "I02",
-          "code": "2.a"
-        }
-      ],
-      "codes_involved_consistent": false,
-      "codes_involved_actual": [
-        "2.a"
-      ],
-      "single_interview_only": false
-    },
-    {
-      "finding_type": "alignment",
-      "title": "Hands-on, visual/intuitive engagement drives understanding and enjoyment",
-      "description": "Both interviews feature students describing the tactile, visual, 'play'-like nature of manipulating the apparatus (turning knobs, seeing light behavior directly) as central to both their learning process and their enjoyment, likening it to intuitive discovery.",
-      "quote_ids": [
-        "I02-Q012",
-        "I02-Q016",
-        "I02-Q017",
-        "I01-Q015"
-      ],
-      "themes_involved": [
-        "2",
-        "3"
-      ],
-      "codes_involved": [
-        "2.c",
-        "3.a"
-      ],
-      "confidence": "moderate",
-      "quotes": [
-        {
-          "quote_id": "I02-Q012",
-          "cited_text": "student 1: Jeg synes bare, at det er sådan... Lidt som han også sagde, det bliver sådan lidt mere sådan, du sidder med det i hånden, lidt ligesom sådan en lille barn, der opdager, hvis du blander kartoffelmel og vand. Altså sådan, det bliver meget sådan... [uncertain] Intuitivt, du sidder og drejer på det. Du kan se, hvad der sker, når du sidder og drejer. ",
-          "interview_id": "I02",
-          "code": "2.c"
+          "code": "1.c"
         },
         {
-          "quote_id": "I02-Q016",
-          "cited_text": "student 2: Ja, et kode program. Så ser du det ind i din picoskop og sætter dem ind og husker hvad akserne betyder og så giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. Det gør jo både at man kan hurtigt, og så kan man forstå det... Det kan også gøre, at hvis man ikke forstår det, så tænker man lige pludselig, hvad der skete, og det er selvfølgelig fint. De linser er ikke 100% perfekte og sådan noget... ",
+          "quote_id": "I02-Q003",
+          "cited_text": "student 1: Ja, fordi vi startede med det der lille bord, og der var det sådan noget, så skulle vi lige sidde og vente lidt, fordi bordet skulle lige stå stille, så vi kunne se det. Ja, og så rykkede vi over til det andet, og så kunne man bare se det, hvad det så var. ",
           "interview_id": "I02",
-          "code": "3.a"
+          "code": "1.c"
         },
         {
-          "quote_id": "I02-Q017",
-          "cited_text": "student 1: Jeg synes bare, at det er sådan... Lidt som han også sagde, det bliver sådan lidt mere sådan, du sidder med det i hånden, lidt ligesom sådan en lille barn, der opdager, hvis du blander kartoffelmel og vand. Altså sådan, det bliver meget sådan... [uncertain] Intuitivt, du sidder og drejer på det. Du kan se, hvad der sker, når du sidder og drejer. ",
-          "interview_id": "I02",
-          "code": "3.a"
+          "quote_id": "I03-Q003",
+          "cited_text": "Student 1: Ja altså der var en gang hvor et polariseringsfilter vi havde opstillet hvor vi synes at det så godt nok ud ved det antal grader. Øhm og så viste det sig at det var lidt mere man skulle dreje på dem tror jeg... øhm hvor det sådan lidt jamen, hvorfor virkede det så også eller så ud som om det virkede. Ja altså for den der er anden vinkel. Det sådan lidt det der hvor man ligesom har det altså, man har ikke, det kan man så observere i lab og så er det måske rart. Du ved når man så laver en rapport eller whatever man nu laver bagefter sådan at finde ud af hvorfor at man så det.\n\nInterviewer\nSå det fandt i faktisk ikke ud af i laboratoriet i dag, hvorfor det var? ",
+          "interview_id": "I03",
+          "code": "1.c"
         },
         {
-          "quote_id": "I01-Q015",
-          "cited_text": "student 2: I think for my part, actually understanding like polarization, what we see on the screens for because it is the same when we get data like oh is this actually correct or what can we use this data for whether this is I think it's it's easier to look at and maybe try understand it but it's still get more to understanding parts. ",
-          "interview_id": "I01",
-          "code": "3.a"
+          "quote_id": "I03-Q004",
+          "cited_text": "Student 2: Altså på nogen punkter ja. Nogenlunde ja. Vi brugte lidt lang tid på at prøve at finde ud af hvordan nogle af de der komponenter virkede. For eksempel den der beamsplitter boks, der stod vi i lang tid og var sådan: hvordan fungerer det overhovedet? ",
+          "interview_id": "I03",
+          "code": "1.c"
+        },
+        {
+          "quote_id": "I03-Q005",
+          "cited_text": "Student 2: Men Jeg tror, vi fandt ud af... sådan cirka... Fik regnet og eller logikket os frem til hvordan det må hænge sammen. Øh, uden at sådan specifikt at have fået at vide den fungerer sådan her.\n\nInterviewer\nSå er det noget i selv fandt frem til? ",
+          "interview_id": "I03",
+          "code": "1.c"
         }
       ],
       "codes_involved_consistent": true,
@@ -140,24 +129,22 @@
     },
     {
       "finding_type": "tension",
-      "title": "Freedom valued but also linked to confusion and incomplete understanding",
-      "description": "While students praise the free, unstructured nature of the lab (2.a) as enjoyable and conducive to discussion, multiple 1.c quotes reveal that this same openness is associated with reduced precision, confusion, and not fully grasping the underlying physics, indicating a real trade-off between freedom and clarity.",
+      "title": "Tension between enjoying open freedom and wanting more theoretical grounding beforehand",
+      "description": "Students in I01 and I03 express appreciation for the free, exploratory nature of the lab, yet simultaneously express a desire for more theoretical background beforehand to understand what they were doing. This creates a tension between valuing autonomy/discovery and wanting more scaffolding to reduce confusion.",
       "quote_ids": [
         "I01-Q009",
-        "I01-Q010",
-        "I01-Q001",
-        "I01-Q007",
-        "I02-Q005",
-        "I02-Q004"
+        "I01-Q012",
+        "I03-Q007",
+        "I03-Q009",
+        "I03-Q010"
       ],
       "themes_involved": [
-        "1",
-        "2"
+        "2",
+        "1"
       ],
       "codes_involved": [
-        "1.b",
-        "1.c",
-        "2.a"
+        "2.a",
+        "1.c"
       ],
       "confidence": "moderate",
       "quotes": [
@@ -168,95 +155,46 @@
           "code": "2.a"
         },
         {
-          "quote_id": "I01-Q010",
-          "cited_text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do this like the results were almost there for us before actually doing the experiment where here we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it yeah so yeah What is the physics behind it? ",
-          "interview_id": "I01",
-          "code": "2.a"
-        },
-        {
-          "quote_id": "I01-Q001",
-          "cited_text": "student 2: More technical in terms of that I thought, like changing the mirrors and stuff like that had to be more precise. Where this felt more freely like holding the filters up by hand and stuff like that. And placing paper down to block the... I thought that it would more defined what the places has to be. ",
-          "interview_id": "I01",
-          "code": "1.b"
-        },
-        {
-          "quote_id": "I01-Q007",
-          "cited_text": "student 3: I think it was okay, but it was kind of fast that he went through it. So I didn't really get it totally but then it was also one of my some of my friends had optics so i was playing around yeah. ",
-          "interview_id": "I01",
-          "code": "1.c"
-        },
-        {
-          "quote_id": "I02-Q005",
-          "cited_text": "student 3: Nå ja, det var bare fordi, hvad er det nu det hedder... Jeg kom bare lidt for set af. Jeg var også lidt småsyg, og så blev jeg smidt ind i, at vi var i gang, så jeg fattede ikke rigtigt, hvad der foregik. Så det var bare, hvordan man lavede forsøget, og hvorfor de var ude af vinklen. Hvorfor kunne man ikke bare stole på dem? Det var det, jeg var meget forvirret over. ",
-          "interview_id": "I02",
-          "code": "1.c"
-        },
-        {
-          "quote_id": "I02-Q004",
-          "cited_text": "student 2: Ja, et kode program. Så ser du det ind i din picoskop og sætter dem ind og husker hvad akserne betyder og så giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. Det gør jo både at man kan hurtigt, og så kan man forstå det... Det kan også gøre, at hvis man ikke forstår det, så tænker man lige pludselig, hvad der skete, og det er selvfølgelig fint. De linser er ikke 100% perfekte og sådan noget... ",
-          "interview_id": "I02",
-          "code": "1.c"
-        }
-      ],
-      "codes_involved_consistent": true,
-      "single_interview_only": false
-    },
-    {
-      "finding_type": "subtlety",
-      "title": "Prior background knowledge as a hidden precondition for benefiting from open-ended exploration",
-      "description": "Students who enjoyed the free-form exploration (2.a) often had prior optics background (I01-Q012, I01-Q006), while those without such background (I01-Q007, I02-Q005) reported confusion, suggesting the positive experience of open-ended labs may depend on students' incoming preparation rather than the format alone.",
-      "quote_ids": [
-        "I01-Q006",
-        "I01-Q012",
-        "I01-Q007",
-        "I02-Q005"
-      ],
-      "themes_involved": [
-        "1",
-        "2"
-      ],
-      "codes_involved": [
-        "1.c",
-        "2.a"
-      ],
-      "confidence": "moderate",
-      "quotes": [
-        {
-          "quote_id": "I01-Q006",
-          "cited_text": "student 1: I also think considering me and student 1 we both have optics as student 2 said if we didn't have that we would have [emphasis] no idea what we're doing because like we've been explained polarization and basically everything we did today but we would have no idea about it if we didn't do that so maybe just kind of tiny bit of theoretical background for it would be nice. ",
-          "interview_id": "I01",
-          "code": "1.c"
-        },
-        {
           "quote_id": "I01-Q012",
           "cited_text": "student 1: I also think considering me and student 1 we both have optics as student 2 said if we didn't have that we would have [emphasis] no idea what we're doing because like we've been explained polarization and basically everything we did today but we would have no idea about it if we didn't do that so maybe just kind of tiny bit of theoretical background for it would be nice. ",
           "interview_id": "I01",
           "code": "2.a"
         },
         {
-          "quote_id": "I01-Q007",
-          "cited_text": "student 3: I think it was okay, but it was kind of fast that he went through it. So I didn't really get it totally but then it was also one of my some of my friends had optics so i was playing around yeah. ",
-          "interview_id": "I01",
-          "code": "1.c"
+          "quote_id": "I03-Q007",
+          "cited_text": "Student 1: Øh, Jeg tror Vi har en ide om det hele. Vi skal lige have kigget på det lidt mere. Altså den dybdegående teori, fordi den fik vi heller ikke så meget af. Det fungerer meget godt. Vi har Sådan nogle prelab vi får, og det synes jeg faktisk fungerer rigtig godt. I forhold til... Det har jeg ikke prøvet før. ",
+          "interview_id": "I03",
+          "code": "2.a"
         },
         {
-          "quote_id": "I02-Q005",
-          "cited_text": "student 3: Nå ja, det var bare fordi, hvad er det nu det hedder... Jeg kom bare lidt for set af. Jeg var også lidt småsyg, og så blev jeg smidt ind i, at vi var i gang, så jeg fattede ikke rigtigt, hvad der foregik. Så det var bare, hvordan man lavede forsøget, og hvorfor de var ude af vinklen. Hvorfor kunne man ikke bare stole på dem? Det var det, jeg var meget forvirret over. ",
-          "interview_id": "I02",
-          "code": "1.c"
+          "quote_id": "I03-Q009",
+          "cited_text": "Student 1: Jeg synes lidt mere... Altså Sådan teori agtig om hvordan og hvorfor det her sker som det gør i den der prelab for eksempel. Fordi det synes jeg fungerede ret godt forrige gang. Jeg ved ikke... men altså der synes jeg da var lidt mere [uncertain] hvor man kunne sætte sig ind i, hvorfor tingene sker agtigt. Og ikke bare hvordan man sætter det op rigtig og sådan. Og hvad der så sker agtigt. Men sådan.\n\nInterviewer\nJa, så hvornår vil du gerne have haft teorien? ",
+          "interview_id": "I03",
+          "code": "2.a"
+        },
+        {
+          "quote_id": "I03-Q010",
+          "cited_text": "Student 2: Altså i øh jeg plejer godt og kunne lide sådan en sandwich i forhold til teori og praksis, at så noget teori og så noget praksis og så noget mere teori der er sådan konkret i forhold til: \"nå, men hi har lige kigget på et eller andet, som vi havde en lille smule sådan baggrundsteori for, det kan vi så dybere forklare nu hvor vi har kigget på det i virkeligheden. Men det er jo altså sådan et valg, man kan tage som tilrettelægger af sådan et kursus her, at sige: nå, men okay, nu kaster vi jer bare ud i det, og så må i sådan prøve og få det til at give mening. Og så kan vi forklare jer det senere, hvis det er, men...\n\nInterviewer\nTror i at i har fået noget ud af den her måde og gøre det på, modsat på den måde i for eksempel foreslår, hvor man får noget mere teori inden? ",
+          "interview_id": "I03",
+          "code": "2.a"
         }
       ],
-      "codes_involved_consistent": true,
+      "codes_involved_consistent": false,
+      "codes_involved_actual": [
+        "2.a"
+      ],
       "single_interview_only": false
     },
     {
-      "finding_type": "tension",
-      "title": "Perceived relevance/usefulness of lab content varies by field of study",
-      "description": "I01-Q018 explicitly states the quantum/optics topic is 'not really our area' for astrophysics-focused students, while I02 students (3.c) find clear connections to future specialization and real-world applications (signal transmission, quantum computing), suggesting perceived usefulness is contingent on students' disciplinary alignment with the topic.",
+      "finding_type": "subtlety",
+      "title": "Perceived relevance/usefulness of the lab is contingent on disciplinary identity",
+      "description": "Across interviews, students who identify with a related field (optics, quantum) express positive engagement and future relevance (3.a/3.c), while students who identify as outside the core discipline (astrophysics in I01, side-subject/non-physics-major in I03) explicitly state the lab is 'not really our area' or that they won't use it much later, despite still finding parts of it enjoyable or 'cool'. This nuance is only visible by comparing quotes about identity/major across interviews.",
       "quote_ids": [
         "I01-Q018",
-        "I02-Q023",
-        "I02-Q024"
+        "I03-Q024",
+        "I03-Q023",
+        "I02-Q025",
+        "I02-Q010"
       ],
       "themes_involved": [
         "3"
@@ -274,41 +212,253 @@
           "code": "3.d"
         },
         {
-          "quote_id": "I02-Q023",
-          "cited_text": "student 2: Hvis man hører et eller andet fra de ældre studerende, der også sidder og leger med laser, når de præsenterer, når de kommer videre. Jeg tænker, at det er meget med [uncertain] informatic, hvordan signalerne bliver sendt rundt. Det er jo bare, hvordan man skalerer helt op, hvad der kan sker i de mindre komponenter, så det bliver meget tydeligt, hvad der sker. Og så i den forståelse gå videre med det. Jeg kan jo godt være vi ikke kan se det, men det er altså også sådan nogle komponenter her. ",
-          "interview_id": "I02",
+          "quote_id": "I03-Q024",
+          "cited_text": "Student 2: Jeg ved det ikke altså. Jeg er måske lidt i en speciel situation, fordi at jeg er sidefagsstuderende, så jeg er ikke fysiker, så jeg tror ikke jeg kommer til at bruge det her specifikt til særlig meget senere. Men altså gymnasieelever synes også, at lasere er seje. Og da er sådan et eksperiment som det her, det er jo sådan relativt simpelt, så det ville man jo også godt kunne, på en eller anden måde i hvert fald noget med læsere og spejle og sådan noget, sætte op i en gymnasieklasse. Og der er det jo fedt, selv at have stået og leget med det først. Ja helt sikkert ja.\n\nInterviewer\nOkay jeg tror ikke jeg har mere. Er der mere? Var der andet? Er der noget i har tænkt på? Noget der kunne være relevant at nævne? ",
+          "interview_id": "I03",
+          "code": "3.d"
+        },
+        {
+          "quote_id": "I03-Q023",
+          "cited_text": "Student 2: Jeg ved det ikke altså. Jeg er måske lidt i en speciel situation, fordi at jeg er sidefagsstuderende, så jeg er ikke fysiker, så jeg tror ikke jeg kommer til at bruge det her specifikt til særlig meget senere. Men altså gymnasieelever synes også, at lasere er seje. Og da er sådan et eksperiment som det her, det er jo sådan relativt simpelt, så det ville man jo også godt kunne, på en eller anden måde i hvert fald noget med læsere og spejle og sådan noget, sætte op i en gymnasieklasse. Og der er det jo fedt, selv at have stået og leget med det først. Ja helt sikkert ja.\n\nInterviewer\nOkay jeg tror ikke jeg har mere. Er der mere? Var der andet? Er der noget i har tænkt på? Noget der kunne være relevant at nævne? ",
+          "interview_id": "I03",
           "code": "3.c"
         },
         {
-          "quote_id": "I02-Q024",
+          "quote_id": "I02-Q025",
+          "cited_text": "student 3: Det var overvældende i forhold til mit nuværende viden, men jeg anerkender også, at i den længere vej, så var det ikke så specielt. ",
+          "interview_id": "I02",
+          "code": "3.d"
+        },
+        {
+          "quote_id": "I02-Q010",
           "cited_text": "student 3: Jeg stod lidt mest, da vi var derinde, og så kiggede jeg på en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men så sad jeg og så var jeg sådan lidt, jeg synes allerede det er meget besværligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men så ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. Nå, det var den kvantekomputer, tror jeg. Så det virkede ret sejt. Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
           "interview_id": "I02",
-          "code": "3.c"
+          "code": "2.a"
         }
       ],
-      "codes_involved_consistent": true,
+      "codes_involved_consistent": false,
+      "codes_involved_actual": [
+        "2.a",
+        "3.c",
+        "3.d"
+      ],
       "single_interview_only": false
     },
     {
-      "finding_type": "emerging_pattern",
-      "title": "Comparison with other groups' more advanced/complex setups sparks curiosity and future orientation",
-      "description": "Student 3 in I02 repeatedly references observing another group's more complex quantum computer setup, framing it as 'sejt' (cool) and as informing future specialization choices—a recurring motif of peer-comparison driving motivation that is not directly captured by a single codebook code but recurs across multiple quotes.",
+      "finding_type": "alignment",
+      "title": "Fun/enjoyment is repeatedly tied to hands-on, exploratory manipulation of equipment",
+      "description": "Across I02 and I03, students consistently describe enjoyment ('sjovt', 'fedt') specifically in relation to physically manipulating apparatus (turning filters, being a 'laser', playing with mirrors) and curiosity-driven trial and error, linking positive affect (3.b) directly to hands-on identity (2.c).",
       "quote_ids": [
-        "I02-Q010",
-        "I02-Q011",
-        "I02-Q021",
-        "I02-Q022",
-        "I02-Q024"
+        "I02-Q009",
+        "I02-Q012",
+        "I02-Q019",
+        "I03-Q011",
+        "I03-Q014",
+        "I03-Q019",
+        "I03-Q021"
       ],
       "themes_involved": [
         "2",
         "3"
       ],
       "codes_involved": [
+        "2.c",
+        "3.b"
+      ],
+      "confidence": "strong",
+      "quotes": [
+        {
+          "quote_id": "I02-Q009",
+          "cited_text": "student 1: Jeg synes, det var fedt at være en laser. ",
+          "interview_id": "I02",
+          "code": "2.a"
+        },
+        {
+          "quote_id": "I02-Q012",
+          "cited_text": "student 1: Jeg synes bare, at det er sådan... Lidt som han også sagde, det bliver sådan lidt mere sådan, du sidder med det i hånden, lidt ligesom sådan en lille barn, der opdager, hvis du blander kartoffelmel og vand. Altså sådan, det bliver meget sådan... [uncertain] Intuitivt, du sidder og drejer på det. Du kan se, hvad der sker, når du sidder og drejer. ",
+          "interview_id": "I02",
+          "code": "2.c"
+        },
+        {
+          "quote_id": "I02-Q019",
+          "cited_text": "student 1: Jeg synes, det var fedt at være en laser. ",
+          "interview_id": "I02",
+          "code": "3.b"
+        },
+        {
+          "quote_id": "I03-Q011",
+          "cited_text": "Student 2: Ja ja enig. At det man som... Det bliver lidt mere bare sådan nysgerrigt og bare sådan: nå men så prøver vi og dreje på et eller andet og se, nå det gjorde ikke nogen forskel. Hvad hvis vi gør det herover? Så nå, men det det gjorde en forskel. Hvad hvis vi gør mere af det eller et eller andet. Ja Det er jo, det er jo også sjovt. Noget af det der er det sjove ved at vi får lov til at lave eksperimenter og sådan noget. At man bare sådan kan lege lidt. Og prøve sig frem med nogle forskellige ting, der måske ikke giver mening, men set kan man jo så finde ud af om det gør, ved at prøve at gøre det. ",
+          "interview_id": "I03",
+          "code": "2.a"
+        },
+        {
+          "quote_id": "I03-Q014",
+          "cited_text": "Student 2: Ja ja enig. At det man som... Det bliver lidt mere bare sådan nysgerrigt og bare sådan: nå men så prøver vi og dreje på et eller andet og se, nå det gjorde ikke nogen forskel. Hvad hvis vi gør det herover? Så nå, men det det gjorde en forskel. Hvad hvis vi gør mere af det eller et eller andet. Ja Det er jo, det er jo også sjovt. Noget af det der er det sjove ved at vi får lov til at lave eksperimenter og sådan noget. At man bare sådan kan lege lidt. Og prøve sig frem med nogle forskellige ting, der måske ikke giver mening, men set kan man jo så finde ud af om det gør, ved at prøve at gøre det. ",
+          "interview_id": "I03",
+          "code": "2.c"
+        },
+        {
+          "quote_id": "I03-Q019",
+          "cited_text": "Student 2: Ja ja enig. At det man som... Det bliver lidt mere bare sådan nysgerrigt og bare sådan: nå men så prøver vi og dreje på et eller andet og se, nå det gjorde ikke nogen forskel. Hvad hvis vi gør det herover? Så nå, men det det gjorde en forskel. Hvad hvis vi gør mere af det eller et eller andet. Ja Det er jo, det er jo også sjovt. Noget af det der er det sjove ved at vi får lov til at lave eksperimenter og sådan noget. At man bare sådan kan lege lidt. Og prøve sig frem med nogle forskellige ting, der måske ikke giver mening, men set kan man jo så finde ud af om det gør, ved at prøve at gøre det. ",
+          "interview_id": "I03",
+          "code": "3.b"
+        },
+        {
+          "quote_id": "I03-Q021",
+          "cited_text": "Student 2: Jeg ved det ikke altså. Jeg er måske lidt i en speciel situation, fordi at jeg er sidefagsstuderende, så jeg er ikke fysiker, så jeg tror ikke jeg kommer til at bruge det her specifikt til særlig meget senere. Men altså gymnasieelever synes også, at lasere er seje. Og da er sådan et eksperiment som det her, det er jo sådan relativt simpelt, så det ville man jo også godt kunne, på en eller anden måde i hvert fald noget med læsere og spejle og sådan noget, sætte op i en gymnasieklasse. Og der er det jo fedt, selv at have stået og leget med det først. Ja helt sikkert ja.\n\nInterviewer\nOkay jeg tror ikke jeg har mere. Er der mere? Var der andet? Er der noget i har tænkt på? Noget der kunne være relevant at nævne? ",
+          "interview_id": "I03",
+          "code": "3.b"
+        }
+      ],
+      "codes_involved_consistent": false,
+      "codes_involved_actual": [
         "2.a",
+        "2.c",
+        "3.b"
+      ],
+      "single_interview_only": false
+    },
+    {
+      "finding_type": "subtlety",
+      "title": "Comparing own simple setup to peers' more complex setups produces mixed feelings of inadequacy and inspiration",
+      "description": "In I02, student 3 describes seeing another group's more complex quantum computer setup as making their own experiment seem 'besværligt'/difficult by comparison, yet simultaneously frames it positively as 'sejt' and a good introduction for future specialization decisions. This shows a nuanced mixture of comparative insecurity and motivational inspiration that only appears when reading the full sequence together.",
+      "quote_ids": [
+        "I02-Q010",
+        "I02-Q011",
+        "I02-Q021"
+      ],
+      "themes_involved": [
+        "3"
+      ],
+      "codes_involved": [
         "3.b",
         "3.c"
       ],
+      "confidence": "moderate",
+      "quotes": [
+        {
+          "quote_id": "I02-Q010",
+          "cited_text": "student 3: Jeg stod lidt mest, da vi var derinde, og så kiggede jeg på en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men så sad jeg og så var jeg sådan lidt, jeg synes allerede det er meget besværligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men så ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. Nå, det var den kvantekomputer, tror jeg. Så det virkede ret sejt. Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
+          "interview_id": "I02",
+          "code": "2.a"
+        },
+        {
+          "quote_id": "I02-Q011",
+          "cited_text": "student 3: Ja, og så kiggede jeg over, og så var jeg sådan lidt, wow, det er meget mere kompleks agtigt. Det er jo bare sejt. Og jeg synes allerede mere, at det er lidt svært. Det er jo lidt ligesom, man står, når man laver en skrå bold, og så kigger man på nogle, der laver et meget mere avanceret... Det var et ret sejt forsøg. Jeg står bare med min skrå bold (skråt kast) her. Så har man ligesom noget man kan se frem til. ",
+          "interview_id": "I02",
+          "code": "2.a"
+        },
+        {
+          "quote_id": "I02-Q021",
+          "cited_text": "student 3: Jeg stod lidt mest, da vi var derinde, og så kiggede jeg på en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men så sad jeg og så var jeg sådan lidt, jeg synes allerede det er meget besværligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men så ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. Nå, det var den kvantekomputer, tror jeg. Så det virkede ret sejt. Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
+          "interview_id": "I02",
+          "code": "3.b"
+        }
+      ],
+      "codes_involved_consistent": false,
+      "codes_involved_actual": [
+        "2.a",
+        "3.b"
+      ],
+      "single_interview_only": false
+    },
+    {
+      "finding_type": "emerging_pattern",
+      "title": "Recurring theme of data validity uncertainty ('was this real or a fluke?')",
+      "description": "Students in I01, I02, and I03 repeatedly raise the specific question of whether an observed result/measurement was genuine physics or an artifact/fluke/mistake. This specific epistemic concern about data validity recurs across interviews but is not distinctly separated out in the codebook (currently folded into 1.c problem-solving), suggesting it could be its own emergent category about scientific epistemic uncertainty.",
+      "quote_ids": [
+        "I01-Q005",
+        "I02-Q005",
+        "I03-Q001",
+        "I03-Q002",
+        "I03-Q003"
+      ],
+      "themes_involved": [
+        "1"
+      ],
+      "codes_involved": [
+        "1.c"
+      ],
+      "confidence": "moderate",
+      "quotes": [
+        {
+          "quote_id": "I01-Q005",
+          "cited_text": "student 2: I think for my part, actually understanding like polarization, what we see on the screens for because it is the same when we get data like oh is this actually correct or what can we use this data for whether this is I think it's it's easier to look at and maybe try understand it but it's still get more to understanding parts. ",
+          "interview_id": "I01",
+          "code": "1.c"
+        },
+        {
+          "quote_id": "I02-Q005",
+          "cited_text": "student 3: Nå ja, det var bare fordi, hvad er det nu det hedder... Jeg kom bare lidt for set af. Jeg var også lidt småsyg, og så blev jeg smidt ind i, at vi var i gang, så jeg fattede ikke rigtigt, hvad der foregik. Så det var bare, hvordan man lavede forsøget, og hvorfor de var ude af vinklen. Hvorfor kunne man ikke bare stole på dem? Det var det, jeg var meget forvirret over. ",
+          "interview_id": "I02",
+          "code": "1.c"
+        },
+        {
+          "quote_id": "I03-Q001",
+          "cited_text": "Student 1: Jeg tror nogle gange at være helt sikker på at det man havde fundet faktisk var rigtigt, eller om det bare var sådan en glitch. ",
+          "interview_id": "I03",
+          "code": "1.c"
+        },
+        {
+          "quote_id": "I03-Q002",
+          "cited_text": "Student 2: Ja om det bare var sådan en fluke af et eller andet man havde rykket til og så var det forkert så. Så vidste man ikke helt om det om det gav mening, eller om det var et eller andet der var galt.\n\nInterviewer\nOplevede i på noget tidspunkt, at Det var noget, der var galt? ",
+          "interview_id": "I03",
+          "code": "1.c"
+        },
+        {
+          "quote_id": "I03-Q003",
+          "cited_text": "Student 1: Ja altså der var en gang hvor et polariseringsfilter vi havde opstillet hvor vi synes at det så godt nok ud ved det antal grader. Øhm og så viste det sig at det var lidt mere man skulle dreje på dem tror jeg... øhm hvor det sådan lidt jamen, hvorfor virkede det så også eller så ud som om det virkede. Ja altså for den der er anden vinkel. Det sådan lidt det der hvor man ligesom har det altså, man har ikke, det kan man så observere i lab og så er det måske rart. Du ved når man så laver en rapport eller whatever man nu laver bagefter sådan at finde ud af hvorfor at man så det.\n\nInterviewer\nSå det fandt i faktisk ikke ud af i laboratoriet i dag, hvorfor det var? ",
+          "interview_id": "I03",
+          "code": "1.c"
+        }
+      ],
+      "codes_involved_consistent": true,
+      "single_interview_only": false
+    },
+    {
+      "finding_type": "irrelevant_pattern",
+      "title": "Stress/time-pressure relief as a recurring peripheral theme",
+      "description": "Students in I01 explicitly discuss reduced stress from not having to take extensive data ('getting stressed about it'), and other students describe time pressure from taking many measurements. This theme of stress/workload relief is not directly captured by the codebook's thematic codes but recurs as an emotional undercurrent.",
+      "quote_ids": [
+        "I01-Q011",
+        "I01-Q003"
+      ],
+      "themes_involved": [],
+      "codes_involved": [],
+      "confidence": "moderate",
+      "quotes": [
+        {
+          "quote_id": "I01-Q011",
+          "cited_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. Having to take so much data in some of the labs. Getting stressed about it.[overlap] Yeah, getting stressed about it. ",
+          "interview_id": "I01",
+          "code": "2.a"
+        },
+        {
+          "quote_id": "I01-Q003",
+          "cited_text": "student 2: Well, sometimes I take like 10 measurements of different set-ups and then it takes a really long time. ",
+          "interview_id": "I01",
+          "code": "1.c"
+        }
+      ],
+      "codes_involved_consistent": false,
+      "codes_involved_actual": [
+        "1.c",
+        "2.a"
+      ],
+      "single_interview_only": false
+    },
+    {
+      "finding_type": "irrelevant_pattern",
+      "title": "Peer comparison and social dynamics around observing other groups' experiments",
+      "description": "In I02, student 3 repeatedly references watching and comparing their experiment to other groups' more advanced setups (quantum computer), revealing a social/competitive undercurrent of peer comparison that shapes engagement and self-perception, which is not a codebook code itself.",
+      "quote_ids": [
+        "I02-Q010",
+        "I02-Q011",
+        "I02-Q021",
+        "I02-Q022"
+      ],
+      "themes_involved": [],
+      "codes_involved": [],
       "confidence": "moderate",
       "quotes": [
         {
@@ -334,151 +484,24 @@
           "cited_text": "student 3: Ja, og så kiggede jeg over, og så var jeg sådan lidt, wow, det er meget mere kompleks agtigt. Det er jo bare sejt. Og jeg synes allerede mere, at det er lidt svært. Det er jo lidt ligesom, man står, når man laver en skrå bold, og så kigger man på nogle, der laver et meget mere avanceret... Det var et ret sejt forsøg. Jeg står bare med min skrå bold (skråt kast) her. Så har man ligesom noget man kan se frem til. ",
           "interview_id": "I02",
           "code": "3.b"
-        },
-        {
-          "quote_id": "I02-Q024",
-          "cited_text": "student 3: Jeg stod lidt mest, da vi var derinde, og så kiggede jeg på en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men så sad jeg og så var jeg sådan lidt, jeg synes allerede det er meget besværligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men så ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. Nå, det var den kvantekomputer, tror jeg. Så det virkede ret sejt. Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
-          "interview_id": "I02",
-          "code": "3.c"
         }
       ],
-      "codes_involved_consistent": true,
-      "single_interview_only": false
-    },
-    {
-      "finding_type": "emerging_pattern",
-      "title": "Surprise as a recurring emotional marker of unexpected experimental sensitivity",
-      "description": "Both interviews contain moments where students express surprise at how sensitive or unpredictable the experimental setup was (touching mirrors causing wobble, moving a table changing results dramatically, interference appearing/disappearing unexpectedly), a recurring affective response to hands-on unpredictability not explicitly named in the codebook.",
-      "quote_ids": [
-        "I02-Q001",
-        "I02-Q002",
-        "I02-Q003",
-        "I02-Q013",
-        "I01-Q008"
-      ],
-      "themes_involved": [
-        "1",
-        "3"
-      ],
-      "codes_involved": [
-        "1.c",
-        "3.a"
-      ],
-      "confidence": "moderate",
-      "quotes": [
-        {
-          "quote_id": "I02-Q001",
-          "cited_text": "student 3: Det var mere det med, at man ændrede det en grad, og så tænkte man, det gør jo ikke noget som helst. Og så var der interferens. Og så var det sådan, at når man lige vil have interferens, så lad os lige gå en grad længere ned. Så det var meget... mere det med. Det går meget hurtigt, og hvis man kom til at røre ved spejlen, så wobblede lyset på pladen, fordi det gør jo meget for selv i lyset. ",
-          "interview_id": "I02",
-          "code": "1.c"
-        },
-        {
-          "quote_id": "I02-Q002",
-          "cited_text": "student 1: Jeg tror, jeg er overrasket over, hvor stor forskel det gjorde at rykke bord. [laughs] ",
-          "interview_id": "I02",
-          "code": "1.c"
-        },
-        {
-          "quote_id": "I02-Q003",
-          "cited_text": "student 1: Ja, fordi vi startede med det der lille bord, og der var det sådan noget, så skulle vi lige sidde og vente lidt, fordi bordet skulle lige stå stille, så vi kunne se det. Ja, og så rykkede vi over til det andet, og så kunne man bare se det, hvad det så var. ",
-          "interview_id": "I02",
-          "code": "1.c"
-        },
-        {
-          "quote_id": "I02-Q013",
-          "cited_text": "student 3: Mere det visuelle med lys, der faktisk begyndte at interferere. Og så lige pludselig gjorde den det ikke. Og så lige pludselig forsvandt det bare. Det var meget kaotisk på en eller anden måde. Så tænkte man meget mere over, at det faktisk var de der to bølger. ",
-          "interview_id": "I02",
-          "code": "3.a"
-        },
-        {
-          "quote_id": "I01-Q008",
-          "cited_text": "student 1: I kind of expected to see more interference. Same way. I thought it was gonna be a bit more obvious than it was. Yeah. All right. So that's my expectation. Then I was like, oh okay, I can see it. But it's not like as... Not as fun. Yeah, not as like definite, like as defined as I expected it to be. ",
-          "interview_id": "I01",
-          "code": "1.c"
-        }
-      ],
-      "codes_involved_consistent": true,
-      "single_interview_only": false
-    },
-    {
-      "finding_type": "irrelevant_pattern",
-      "title": "Stress/anxiety related to data collection volume in other labs",
-      "description": "Students explicitly mention getting 'stressed' about having to take large amounts of data in other labs, a recurrent affective/workload theme not directly tied to a specific codebook code but relevant to student wellbeing and lab design.",
-      "quote_ids": [
-        "I01-Q011"
-      ],
-      "themes_involved": [
-        "2"
-      ],
-      "codes_involved": [
-        "2.a"
-      ],
-      "confidence": "moderate",
-      "quotes": [
-        {
-          "quote_id": "I01-Q011",
-          "cited_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. Having to take so much data in some of the labs. Getting stressed about it.[overlap] Yeah, getting stressed about it. ",
-          "interview_id": "I01",
-          "code": "2.a"
-        }
-      ],
-      "codes_involved_consistent": true,
-      "single_interview_only": false
-    },
-    {
-      "finding_type": "irrelevant_pattern",
-      "title": "Peer/social comparison and confidence about specialization",
-      "description": "Student 3 in I02 describes feeling that their own simple experiment is 'besværligt' compared to another group's complex one, alongside a growing sense of curiosity about specialization; this reflects social comparison and identity-forming dynamics among peers not directly captured by the codebook.",
-      "quote_ids": [
-        "I02-Q010",
-        "I02-Q011",
-        "I02-Q021"
-      ],
-      "themes_involved": [
-        "2",
-        "3"
-      ],
-      "codes_involved": [
+      "codes_involved_consistent": false,
+      "codes_involved_actual": [
         "2.a",
         "3.b"
       ],
-      "confidence": "speculative",
-      "quotes": [
-        {
-          "quote_id": "I02-Q010",
-          "cited_text": "student 3: Jeg stod lidt mest, da vi var derinde, og så kiggede jeg på en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men så sad jeg og så var jeg sådan lidt, jeg synes allerede det er meget besværligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men så ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. Nå, det var den kvantekomputer, tror jeg. Så det virkede ret sejt. Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
-          "interview_id": "I02",
-          "code": "2.a"
-        },
-        {
-          "quote_id": "I02-Q011",
-          "cited_text": "student 3: Ja, og så kiggede jeg over, og så var jeg sådan lidt, wow, det er meget mere kompleks agtigt. Det er jo bare sejt. Og jeg synes allerede mere, at det er lidt svært. Det er jo lidt ligesom, man står, når man laver en skrå bold, og så kigger man på nogle, der laver et meget mere avanceret... Det var et ret sejt forsøg. Jeg står bare med min skrå bold (skråt kast) her. Så har man ligesom noget man kan se frem til. ",
-          "interview_id": "I02",
-          "code": "2.a"
-        },
-        {
-          "quote_id": "I02-Q021",
-          "cited_text": "student 3: Jeg stod lidt mest, da vi var derinde, og så kiggede jeg på en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men så sad jeg og så var jeg sådan lidt, jeg synes allerede det er meget besværligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men så ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. Nå, det var den kvantekomputer, tror jeg. Så det virkede ret sejt. Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
-          "interview_id": "I02",
-          "code": "3.b"
-        }
-      ],
-      "codes_involved_consistent": true,
       "single_interview_only": false
     },
     {
       "finding_type": "irrelevant_pattern",
       "title": "Illness/personal circumstance affecting engagement",
-      "description": "Student 3 in I02 mentions feeling 'lidt småsyg' (a bit unwell) and being thrown into the activity already in progress, which contributed to confusion — a personal/contextual factor affecting the lab experience that falls outside the codebook's scope.",
+      "description": "In I02, student 3 mentions being 'lidt småsyg' (a bit sick) and feeling thrown into the experiment without understanding what was going on, a personal/circumstantial factor affecting comprehension that is peripheral to the codebook's conceptual codes.",
       "quote_ids": [
         "I02-Q005"
       ],
-      "themes_involved": [
-        "1"
-      ],
-      "codes_involved": [
-        "1.c"
-      ],
+      "themes_involved": [],
+      "codes_involved": [],
       "confidence": "speculative",
       "quotes": [
         {
@@ -488,7 +511,64 @@
           "code": "1.c"
         }
       ],
-      "codes_involved_consistent": true,
+      "codes_involved_consistent": false,
+      "codes_involved_actual": [
+        "1.c"
+      ],
+      "single_interview_only": false
+    },
+    {
+      "finding_type": "contradiction",
+      "title": "Conflicting characterizations of whether the lab experience matched expectations",
+      "description": "Student 1 in I01 describes disappointment that the interference pattern was less defined/fun than expected, while in I02 and I03 students describe more purely positive framings of unexpected/chaotic observations (light being 'more chaotic than expected') as interesting rather than disappointing. This suggests a contradiction in how deviation from expectation is emotionally received across interviews.",
+      "quote_ids": [
+        "I01-Q008",
+        "I02-Q013",
+        "I02-Q014",
+        "I03-Q018"
+      ],
+      "themes_involved": [
+        "2",
+        "3"
+      ],
+      "codes_involved": [
+        "2.a",
+        "3.a",
+        "3.b"
+      ],
+      "confidence": "moderate",
+      "quotes": [
+        {
+          "quote_id": "I01-Q008",
+          "cited_text": "student 1: I kind of expected to see more interference. Same way. I thought it was gonna be a bit more obvious than it was. Yeah. All right. So that's my expectation. Then I was like, oh okay, I can see it. But it's not like as... Not as fun. Yeah, not as like definite, like as defined as I expected it to be. ",
+          "interview_id": "I01",
+          "code": "1.c"
+        },
+        {
+          "quote_id": "I02-Q013",
+          "cited_text": "student 3: Mere det visuelle med lys, der faktisk begyndte at interferere. Og så lige pludselig gjorde den det ikke. Og så lige pludselig forsvandt det bare. Det var meget kaotisk på en eller anden måde. Så tænkte man meget mere over, at det faktisk var de der to bølger. ",
+          "interview_id": "I02",
+          "code": "3.a"
+        },
+        {
+          "quote_id": "I02-Q014",
+          "cited_text": "student 3: Ja, at lys faktisk er mere kaotisk, end man lige troede det, at der var. ",
+          "interview_id": "I02",
+          "code": "3.a"
+        },
+        {
+          "quote_id": "I03-Q018",
+          "cited_text": "Student 1: Det er altid sjovt at se noget andet eller ikke noget andet, det er også sjovt at se at det der sker faktisk er det som vil man ligesom kunne forvente. Men Det er også sjovt, nu hvor man ikke er mega meget inde i øh kvante optik endnu, at ligesom se nogle andre effekter også, og så tænke: \"nå, men hvad kunne det så være?\" Altså sådan at der er mere at tænke over end bare det man havde læst før. Og det sker så og også færdig. Ja ja.\n\nInterviewer\nDet er god mening ja. Hvordan synes i tiden var altså hvad i har været nede i 3 timer? Gå jeg ud fra. ",
+          "interview_id": "I03",
+          "code": "3.b"
+        }
+      ],
+      "codes_involved_consistent": false,
+      "codes_involved_actual": [
+        "1.c",
+        "3.a",
+        "3.b"
+      ],
       "single_interview_only": false
     }
   ],
