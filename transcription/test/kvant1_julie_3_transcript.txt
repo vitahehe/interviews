@@ -1,0 +1,214 @@
+20260305_1 Kvant1 lab_Julie.m4a Student 1: female, Student 2: female
+level: bachelors
+
+Interviewer
+OK, så tak fordi i vil være med til interviewet. Det handler som sagt ikke om jer, men om labforløbet og hvordan jeres oplevelse er med det og jeg optager fordi i vil gerne bruge anonyme citater senere. Yes, vi kan starte med at sætte et ord på hvad i har lavet i dag.
+
+Student 1
+I dag har vi brugt, altså ja vi har lavet eller kigget på hvad hedder det? Mach Zehnder interferometer. Kiggede på vi. Vi startede jo til prelab med at lave nogle regnestykker hvor vi kunne se entanglement og hvad? Hvad hed det? 
+
+Student 2
+Interferens 
+
+Student 1
+Ja interferens og hvad vi forventede og også. Ja og om polarisering og det kunne vi bare se i praksis nu.
+
+Student 2
+Ja.
+
+Student 1
+Ja.
+
+Interviewer
+Ja dejligt og oplevede i nogle udfordringer i laboratoriet?
+
+Student 2
+Vi var lidt i tvivl om i forhold til... Jeg havde ikke lige tænkt over at de der 45 grader var relativt til den anden. Skal jeg lige tænke mig: Nej der står 45, det var så ikke rigtigt, men udover det var det rimelig ligetil følte jeg og det var bare lidt med det der fine tuning der var lidt besværligt, men sådan logisk gav det meget god mening.
+
+Student 1
+Så det fik vi lært.
+
+Student 2
+Ja.
+
+Student 1
+Og hvordan vi skulle kalibrere det.
+
+Interviewer
+Det lyder også godt.
+
+Student 1
+Ja.
+
+Interviewer
+Fik i så de resultater, som vi forventede? Måske ud fra jeres prelab eller ud fra intuitionen? Var der mønstre?
+
+Student 1
+Ja, der var nogle gange hvor vi sådan teoretisk ikke forventede interferens, men vi så det alligevel. Så spurgte vi ind til det.
+
+Student 2
+Men jeg tror også det havde at gøre med netop at fange lige at få den kalibreret og justeret rigtigt.
+
+Student 1
+I forhold til hinanden ja. Det var noget med udstyret. Det fik vi at vide.
+
+Interviewer
+Spændende. Føler i at i har lært noget? Har i fået noget ud af det?
+
+Student 1
+Ja, det føler jeg faktisk. Jeg synes det var lidt sejt at kunne se det.
+
+Student 2
+Det er meget nemmere at forstå når man ser det ske. Så giver det lidt bedre mening.
+
+Student 1
+Ja.
+
+Interviewer
+Fedt, så føler i at i også kan tage noget med til måske fremtidige kurser eller hvad end i nu har for jer i fremtiden?
+
+Student 1
+Ja, jeg synes kvantefysik er meget flot og det har jeg synes i lang tid, men jeg synes det bliver bestemt ikke kedeligere det her, det bliver sjovere.
+
+Interviewer
+Ja, skidegodt.
+
+[silence]
+
+Student 2
+Og så har vi også lært, det bliver vi ved med at lære, at vi skal være lidt mere ordentlige, når vi læser labvejledningen. Fordi det er tit vi kommer til at spørge om nogle ting, som egentlig står i vejledningen.
+
+Student 1
+Ja.
+
+Student 2
+Det sker også til andre labgange.
+
+Student 1
+Det lærer vi igen. Jeg føler der var en meget god pædagogisk prelab.
+
+Student 2
+Meget pædagogisk og grundig, så man var helt med på det hele.
+
+Student 1
+Selvom vi ikke har haft det i faget eller til forelæsning endnu, så synes jeg det giver mening. Og det var også en god labvejledning. Vi skal bare læse den lidt bedre, lidt grundigt.
+
+Student 2
+Den var også meget pædagogisk, den starter med det mest basic og så tilføjer den mere og mere.
+
+Student 1
+Og det er sjovt det er en video.
+
+Interviewer
+Ja det synes i er en fed måde at gøre det på?
+
+Student 1
+Ja, det er sådan lidt med interaktivt og det gør det også lidt sjovere på en måde så det ikke sådan stresser. Det klarer man jo, men sådan er det bare sjovere. Og man får den samme ud af det.
+
+Student 2
+For man skal alligevel forstå materialet nok til at kunne forklare det. Det skal man jo uanset.
+
+Interviewer
+Jeg føler i at i gør det? Forstår materialet?
+
+Student 2
+Ja, og så tænker jeg også vi får de sidste ting helt på plads når vi lige sidder og laver videoer.
+
+Student 1
+Ja.
+
+Interviewer
+Nu sagde du, at i jeg lavede det her, inden i måske havde haft nogle af tingene til forelæsningerne? Hvordan fungerer det at have det i den rækkefølge?
+
+Student 1
+Jeg føler det her er nok det første kursus, hvor jeg føler at... Jeg føler det er sådan det plejer at være, men det her er det kursus hvor det virker, eller hvor det fungerer bedst. [agreement] Fordi det er så gode prelabs. Til tidligere fag har der været sådan lidt: Nå jamen det er okay at man ikke sådan helt forstår det nu fordi det kommer først senere, når jeg får læsningen. Men gør det alligevel og det er nok to get by, men det har jeg...
+
+Student 2
+Måske har det også lidt at gøre med at der er meget færre labgange end de andre kurser med lab. [agreement] Så man har bedre tid til at lige at kunne sætte sig ind i det og forstå det før man går ind.
+
+Interviewer
+Ja, så det der gjorde det der prelab bedre end hvad i før har oplevet, var det at den var meget pædagogisk, som vi nævnte før, eller er der også andet?
+
+Student 2
+Ja både at den er meget pædagogisk og så også at der ikke er lige så mange labgange som man kan noget bedre sætte tid af til at forstå det. Men Jeg tror primært at det er at den er meget pædagogisk og grundig med at den tager det helt fra toppen.
+
+Student 1
+Det synes jeg var godt. Og også at den var så interaktiv, så man kunne lære noget. Så var der nogle spørgsmål. Og så læse lidt mere. [agreement]
+
+Student 2
+Ja, jeg føler også med labvejledningen, at der også var nogle spørgsmål, som man skulle tænke over undervejs og sådan noget. Det føler jeg også er meget godt til, at man forstår det bedre.
+
+Student 1
+Ja.
+
+Interviewer
+Så hvordan passede det med tiden i havde nede i laboratorium? Var det for lidt, for meget, perfekt?
+
+Student 2
+Jeg følte det passer meget godt i forhold til, så havde vi lige tid til at lave videoen også, så det passer meget perfekt.
+
+Student 1
+Det var godt synes jeg.
+
+Interviewer
+Hvis i havde mere tid, så hvis i for eksempel havde, nu er i gået efter 2 timer og vil lave videoen derhjemme, hvad hvis i nu havde 3 timer kun til laboratoriet og så skulle lave videoen bagefter? Ville det være for meget?
+
+Student 2
+Det tror jeg, for jeg føler vi nåede alt det vi skulle, altså vi kunne ikke rigtig komme i tanke om mere med det udstyr der var, som kunne have lavet agtigt.
+
+Student 1
+Nej og det er også meget rart at få tid til at lave videoen her, eller når vi er på uni. Fordi labvejlederen er der jo stadigvæk, så hvis vi nu starter med vores video og Vi har et spørgsmål så kan vi jo stadigvæk gå og spørge. Så det er også rart synes jeg. At have den mulighed.
+
+Interviewer
+Er der mere i gerne vil finde ud af om det her eksperiment?
+
+Student 2
+Ikke umiddelbart.
+
+Student 1
+Nej, der stod jo oppe i hjørnet Sådan real life examples. Det var godt. Nej egentlig ikke.
+
+Interviewer
+Ja og jeg tænker lige om der er mere jeg vil spørge om. Har i nogle forslag til forbedringer, er der noget der kunne have været bedre?
+
+Student 1
+I forhold til den her lab eller generelt?
+
+Interviewer
+Bare den her lab.
+
+Student 2
+Jeg føler det ikke lige umiddelbart.
+
+Student 1
+Nej, Sådan nogle gange var det måske lidt svært at få hjælp. Fordi der kun var en TA så man måtte vente nogle gange.
+
+Interviewer
+Hvad var det for eksempel i ville have hjælp til?
+
+Student 2
+Det var til det der med at dreje. Vi forstod ikke lige, hvorfor vi fik de forskellige, ikke de resultater vi havde forventet, men det var så på grund af, at vi ikke har kalibreret dem i forhold til hinanden rigtigt. Ja, så det kunne måske være forklaret tidligere, men jeg tror måske også at det er os. [laughs]
+
+Interviewer
+Men det er måske fint nok at finde ud af det.
+
+Student 2
+Ja. Det er en del af oplevelsen.
+
+Student 2
+Yes Jeg synes ikke rigtigt der er så meget.
+
+Interviewer
+Er der noget andet jeg skal vide?
+
+Student 1
+Næ.
+
+Interviewer
+Cool mange tak .
+
+Student 2:
+Selv tak.
+
+Student 1
+Hvad er det til?
