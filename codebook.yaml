@@ -3,52 +3,25 @@
 themes:
   - id: "1"
     name: "Students' self-efficacy"
-    note: "Related to competence."
+    note: "Grounded in Bandura's (1977) social cognitive theory of self-efficacy. Bandura proposes a person's judgment of their own capability to execute the actions needed to produce a given outcome are built primarily from four sources, of which enactive mastery experience (direct personal experience of succeeding or struggling at a task) is the most influential. This theme captures moments where a student, in describing the lab experiment, reveals such mastery experiences and how they interpreted them."
     codes:
       - id: "1.a"
-        name: "Expected difficulty - easy"
-        description: >
-          The student says they had an expectation before the course/lab about
-          the course/subject/experiment being easy.
-        motivation: >
-          Would give a view of how many students expect the course to be easy
-          vs difficult and could be compared to who had a positive experience
-          and learning outcome.
-      - id: "1.b"
-        name: "Expected difficulty - difficult"
-        description: >
-          The student says they had an expectation before the course/lab about
-          the course/subject/experiment being difficult.
-        motivation: >
-          Would give a view of how many students expect the course to be easy
-          vs difficult and could be compared to who had a positive experience
-          and learning outcome.
-      - id: "1.c"
         name: "Problem-solving experience"
         description: >
-          The student says they met a challenge during the experiment, e.g. by
-          saying that there was something that didn't work, or that they found
-          difficult, or something they learned how to do.
+          Code any instance where the student describes encountering a specific difficulty, obstacle, or unfamiliar task during the experiment, and how they engaged with, worked through, or resolved it (successfully or not). Includes explicit mentions of struggle, uncertainty, confusion, or of learning to do something new procedurally.
         motivation: >
-          Could be compared to who had a positive experience and learning
-          outcome.
+          How a student narrates overcoming (or failing to overcome) a challenge is diagnostic of how the experience shaped their perceived competence.
 
   - id: "2"
-    name: "Autonomy and ownership"
-    note: >
-      We focus only on a sub-part of self-determination theory, as competence
-      is covered by self-efficacy and we have not had focus on relatedness in
-      the interviews.
+    name: "Student Identity"
+    note: "Identity is not a fixed trait but is negotiated through participation in the practices, tools, discourse, and social configurations of a domain. Becoming a member of a community is by doing what its members do (legitimate peripheral participation). Identifying with a role (scientist, theorist, experimentalist) reflects both a competence judgment and a personal valuing of that role."
     codes:
       - id: "2.a"
-        name: "Preferences"
+        name: "Quantum scientist identity"
         description: >
-          The student says that they like/dislike/prefer something, voicing a
-          personal opinion.
+          Code statements where the student positions themselves as a scientist or researcher during the experiment, or frames the activity as matching professional practice. When student feels like a reasercher, not someone following protocol.
         motivation: >
-          Would give a view of how many students take ownership and share
-          their opinions during the interview. Could be compared to how
-          engaged the student felt during the experiment.
+          Tests whether use of research-grade equipment and realistic procedures fosters student identification with the professional/disciplinary community.
       - id: "2.b"
         name: "Theorist identity"
         description: >
@@ -56,10 +29,7 @@ themes:
           at, theoretical physics or theory in general. This could also be by
           mentioning them preferring to solve equations or attending lectures.
         motivation: >
-          Would give a view of how many students identify themselves as
-          theorists and think of mentioning it, when talking about the
-          experiment. Could be compared to the student's expected difficulty
-          and their engagement and learning outcome.
+          Reflects the subjective task value component and notion that a learner can identify more strongly with one sub-community (theory) than another (experimental lab work).
       - id: "2.c"
         name: "Experimentalist / practical identity"
         description: >
@@ -75,38 +45,31 @@ themes:
 
   - id: "3"
     name: "Apparent takeaway of students"
+    note: "Grounded in Expectancy-Value Theory of Achievement Motivation, which explains engagement and persistence as a joint function of expectancy of success (competence/ability beliefs) and subjective task value (intrinsic/interest value, attainment value, utility value, cost)."
     codes:
       - id: "3.a"
+        name: "Laboratory equipment"
+        description: >
+          Code any mention, in any context, of the physical laboratory equipment used during the experiment.
+        motivation: >
+          Would give a view of how students perceive the high-level equipment and how does it add to their experience. 
+
+      - id: "3.b"
         name: "Positive learning experience"
         description: >
-          The student says they learned something or became better at
-          something during the experiment.
+          Code statements where the student says they learned something or became more capable at something as a result of doing the experiment.
         motivation: >
-          Would give a view of how many students experienced a positive
-          learning outcome, and could be compared to many of the other codes.
-      - id: "3.b"
+          Would give a view of how many students experienced a positive learning outcome.
+      - id: "3.c"
         name: "Enjoyment and engagement"
         description: >
-          The student uses words such as "nice", "fun" and "interesting" to
-          describe their experience in lab.
+          Code instances where the student uses affective/evaluative language (e.g., "nice", "fun", "interesting") to describe their experience in the lab.
         motivation: >
-          Would give a view of how engaged the students were during the lab,
-          and could be compared to many of the other codes.
-      - id: "3.c"
+          Would give a view of how engaged the students were, and how they were feeling during the lab.
+      - id: "3.d"
         name: "Perceived usefulness"
         description: >
-          The student says they got something out of doing the lab, e.g.
-          something related to future work, thesis, exams etc.
+          Code instances where the student says they got something concrete out of doing the lab in relation to future goals — e.g., future coursework, thesis work, exams, or career direction.
         motivation: >
           Would give a view of how much the students feel like they get out
-          of the experiment, and could be compared to the ILOs, and the
-          students' identities.
-      - id: "3.d"
-        name: "Perceived unusefulness"
-        description: >
-          The student says they did not get much out of doing the lab, e.g.
-          in relation to future work, thesis, exams etc.
-        motivation: >
-          Would give a view of how much the students feel like they get out
-          of the experiment, and could be compared to the ILOs, and the
-          students' identities.
+          of the experiment, and how it relates to their peronal paths. 

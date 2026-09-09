@@ -3,10 +3,10 @@
   "quotes": [
     {
       "theme_id": "1",
-      "code": "1.b",
-      "cited_text": "student 2: More technical in terms of that I thought, like changing the mirrors and stuff like that had to be more precise. Where this felt more freely like holding the filters up by hand and stuff like that. And placing paper down to block the... I thought that it would more defined what the places has to be. ",
+      "code": "1.a",
+      "cited_text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do this like the results were almost there for us before actually doing the experiment where here we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it yeah so yeah What is the physics behind it? ",
       "turn_ids": [
-        "I01-T026"
+        "I01-T008"
       ],
       "speakers": [
         "student 2"
@@ -15,43 +15,7 @@
     },
     {
       "theme_id": "1",
-      "code": "1.c",
-      "cited_text": "student 1: Then you don't necessarily understand everything that's going on because you focus on that part of it. ",
-      "turn_ids": [
-        "I01-T011"
-      ],
-      "speakers": [
-        "student 1"
-      ],
-      "quote_id": "I01-Q002"
-    },
-    {
-      "theme_id": "1",
-      "code": "1.c",
-      "cited_text": "student 2: Well, sometimes I take like 10 measurements of different set-ups and then it takes a really long time. ",
-      "turn_ids": [
-        "I01-T013"
-      ],
-      "speakers": [
-        "student 2"
-      ],
-      "quote_id": "I01-Q003"
-    },
-    {
-      "theme_id": "1",
-      "code": "1.c",
-      "cited_text": "student 1: So if you haven't come really prepared to the lab, you don't necessarily have the time to really understand what you're doing. And you're just kind of going on. You're more focusing on taking the data. And logging it and making sure to see it correctly.[agreement] ",
-      "turn_ids": [
-        "I01-T014"
-      ],
-      "speakers": [
-        "student 1"
-      ],
-      "quote_id": "I01-Q004"
-    },
-    {
-      "theme_id": "1",
-      "code": "1.c",
+      "code": "1.a",
       "cited_text": "student 2: I think for my part, actually understanding like polarization, what we see on the screens for because it is the same when we get data like oh is this actually correct or what can we use this data for whether this is I think it's it's easier to look at and maybe try understand it but it's still get more to understanding parts. ",
       "turn_ids": [
         "I01-T017"
@@ -59,11 +23,11 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I01-Q005"
+      "quote_id": "I01-Q002"
     },
     {
       "theme_id": "1",
-      "code": "1.c",
+      "code": "1.a",
       "cited_text": "student 1: I also think considering me and student 1 we both have optics as student 2 said if we didn't have that we would have [emphasis] no idea what we're doing because like we've been explained polarization and basically everything we did today but we would have no idea about it if we didn't do that so maybe just kind of tiny bit of theoretical background for it would be nice. ",
       "turn_ids": [
         "I01-T018"
@@ -71,11 +35,11 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I01-Q006"
+      "quote_id": "I01-Q003"
     },
     {
       "theme_id": "1",
-      "code": "1.c",
+      "code": "1.a",
       "cited_text": "student 3: I think it was okay, but it was kind of fast that he went through it. So I didn't really get it totally but then it was also one of my some of my friends had optics so i was playing around yeah. ",
       "turn_ids": [
         "I01-T020"
@@ -83,19 +47,7 @@
       "speakers": [
         "student 3"
       ],
-      "quote_id": "I01-Q007"
-    },
-    {
-      "theme_id": "1",
-      "code": "1.c",
-      "cited_text": "student 1: I kind of expected to see more interference. Same way. I thought it was gonna be a bit more obvious than it was. Yeah. All right. So that's my expectation. Then I was like, oh okay, I can see it. But it's not like as... Not as fun. Yeah, not as like definite, like as defined as I expected it to be. ",
-      "turn_ids": [
-        "I01-T032"
-      ],
-      "speakers": [
-        "student 1"
-      ],
-      "quote_id": "I01-Q008"
+      "quote_id": "I01-Q004"
     },
     {
       "theme_id": "2",
@@ -107,7 +59,7 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I01-Q009"
+      "quote_id": "I01-Q005"
     },
     {
       "theme_id": "2",
@@ -119,11 +71,71 @@
       "speakers": [
         "student 2"
       ],
+      "quote_id": "I01-Q006"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "student 1: Okay. Well, I'll do it in English. We were introduced to the quantum eraser experiment so we got a set up with a bunch of mirrors and the mirrors and the beam splitters and lasers and we kind of were allowed to do some free play with that and mess around with it to do a hand in for the quantum mechanics course. ",
+      "turn_ids": [
+        "I01-T004"
+      ],
+      "speakers": [
+        "student 1"
+      ],
+      "quote_id": "I01-Q007"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "student 2: More technical in terms of that I thought, like changing the mirrors and stuff like that had to be more precise. Where this felt more freely like holding the filters up by hand and stuff like that. And placing paper down to block the... I thought that it would more defined what the places has to be. ",
+      "turn_ids": [
+        "I01-T026"
+      ],
+      "speakers": [
+        "student 2"
+      ],
+      "quote_id": "I01-Q008"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "student 2: More... Not necessarily not precise. Like it was still... It was just like having the filters in hand and placing them down didn't feel like... they had to be there and stuff like that. Which is both positive and negative I think. Alright. In some way. ",
+      "turn_ids": [
+        "I01-T030"
+      ],
+      "speakers": [
+        "student 2"
+      ],
+      "quote_id": "I01-Q009"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "student 1: Well, compared to maybe when we look back at our first year, we kind of like, you need to do this and do this and hand in this, so you need to get this data. While here, it was just, we encourage you to do this, and we do need you to make a video about it, but there was nothing like, you need to do this, and you need to have the angles like this and the filters like this so mess around in the sense that it was very free. ",
+      "turn_ids": [
+        "I01-T006"
+      ],
+      "speakers": [
+        "student 1"
+      ],
       "quote_id": "I01-Q010"
     },
     {
-      "theme_id": "2",
-      "code": "2.a",
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do this like the results were almost there for us before actually doing the experiment where here we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it yeah so yeah What is the physics behind it? ",
+      "turn_ids": [
+        "I01-T008"
+      ],
+      "speakers": [
+        "student 2"
+      ],
+      "quote_id": "I01-Q011"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
       "cited_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. Having to take so much data in some of the labs. Getting stressed about it.[overlap] Yeah, getting stressed about it. ",
       "turn_ids": [
         "I01-T010"
@@ -131,23 +143,11 @@
       "speakers": [
         "student 3"
       ],
-      "quote_id": "I01-Q011"
-    },
-    {
-      "theme_id": "2",
-      "code": "2.a",
-      "cited_text": "student 1: I also think considering me and student 1 we both have optics as student 2 said if we didn't have that we would have [emphasis] no idea what we're doing because like we've been explained polarization and basically everything we did today but we would have no idea about it if we didn't do that so maybe just kind of tiny bit of theoretical background for it would be nice. ",
-      "turn_ids": [
-        "I01-T018"
-      ],
-      "speakers": [
-        "student 1"
-      ],
       "quote_id": "I01-Q012"
     },
     {
-      "theme_id": "2",
-      "code": "2.a",
+      "theme_id": "3",
+      "code": "3.c",
       "cited_text": "student 1: I kind of expected to see more interference. Same way. I thought it was gonna be a bit more obvious than it was. Yeah. All right. So that's my expectation. Then I was like, oh okay, I can see it. But it's not like as... Not as fun. Yeah, not as like definite, like as defined as I expected it to be. ",
       "turn_ids": [
         "I01-T032"
@@ -158,11 +158,11 @@
       "quote_id": "I01-Q013"
     },
     {
-      "theme_id": "2",
-      "code": "2.a",
-      "cited_text": "student 2: I don't know. As then as soon as seeing pre-lab and then coming here, like, okay, I know what it's like. It was like a written pre-lab and it was like...Quantum eraser sounds more spectacular than seeing interference. Yeah. I feel like... ",
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "student 2: Yeah, I guess. So there's a bit more wow. [laughs] ",
       "turn_ids": [
-        "I01-T039"
+        "I01-T034"
       ],
       "speakers": [
         "student 2"
@@ -171,57 +171,33 @@
     },
     {
       "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "student 2: I think for my part, actually understanding like polarization, what we see on the screens for because it is the same when we get data like oh is this actually correct or what can we use this data for whether this is I think it's it's easier to look at and maybe try understand it but it's still get more to understanding parts. ",
+      "code": "3.c",
+      "cited_text": "Student 1: It just is quantum memories, so it sounds like something would have found factor. Sounds like it's really cool. [laughs] ",
       "turn_ids": [
-        "I01-T017"
+        "I01-T037"
       ],
       "speakers": [
-        "student 2"
+        "Student 1"
       ],
       "quote_id": "I01-Q015"
     },
     {
       "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do this like the results were almost there for us before actually doing the experiment where here we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it yeah so yeah What is the physics behind it? ",
+      "code": "3.c",
+      "cited_text": "student 2: I don't know. As then as soon as seeing pre-lab and then coming here, like, okay, I know what it's like. It was like a written pre-lab and it was like...Quantum eraser sounds more spectacular than seeing interference. Yeah. I feel like... ",
       "turn_ids": [
-        "I01-T008"
+        "I01-T039"
       ],
       "speakers": [
         "student 2"
       ],
       "quote_id": "I01-Q016"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. Having to take so much data in some of the labs. Getting stressed about it.[overlap] Yeah, getting stressed about it. ",
-      "turn_ids": [
-        "I01-T010"
-      ],
-      "speakers": [
-        "student 3"
-      ],
-      "quote_id": "I01-Q017"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.d",
-      "cited_text": "student 1: I think you might have the wrong group for this, because everyone except for student 3 does astrophysics. Yeah. So it's not really our area. But I guess, presumably, now it's not personal, now I'm speaking for others, but I know people who want to do quantum, who are excited to do this. So I think it's just not the group here that should bring it. ",
-      "turn_ids": [
-        "I01-T044"
-      ],
-      "speakers": [
-        "student 1"
-      ],
-      "quote_id": "I01-Q018"
     }
   ],
   "codes_with_no_quotes": [
-    "1.a",
     "2.b",
     "2.c",
-    "3.c"
+    "3.b",
+    "3.d"
   ]
 }

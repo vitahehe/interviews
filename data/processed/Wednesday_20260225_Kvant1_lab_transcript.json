@@ -1,283 +1,283 @@
 {
-  "interview_id": "I02",
+  "interview_id": "I03",
   "turns": [
     {
-      "turn_id": "I02-T001",
+      "turn_id": "I03-T001",
       "speaker": "Bjarke",
       "text": "Så jeg optager mine spørgsmål, men jeg præsenterer det selvfølgelig ikke som et citat et eller andet sted eller sådan noget. Det er totalt anonymt, det er bare så jeg ikke behøver at taste tingene. Okay fedt. Så går jeg lige over til jer, sådan der. Yes, fedt. Tak fordi jeg måtte stille dig en spørgsmål. Kan jeg bede en af jer om lige at forklare, hvad I lige har oplevet? Hvis I skal sige det til en af de andre i kurset, der ikke har haft det endnu."
     },
     {
-      "turn_id": "I02-T002",
+      "turn_id": "I03-T002",
       "speaker": "student 1",
       "text": "Vi skulle lege med lasere. [laughs]"
     },
     {
-      "turn_id": "I02-T003",
+      "turn_id": "I03-T003",
       "speaker": "student 2",
       "text": "Ja, og prøve at se, hvad der sker, når man ændrer polarseringen med nogle filtre, og læse noget igennem, og se på interferens, patterns af læsere. Og for at forstå, de elementer, der ligger bag den teori indenfor det."
     },
     {
-      "turn_id": "I02-T004",
+      "turn_id": "I03-T004",
       "speaker": "Bjarke",
       "text": "Kan jeg få jer til at sætte ord på, hvad der måske var nyt for jer?"
     },
     {
-      "turn_id": "I02-T005",
+      "turn_id": "I03-T005",
       "speaker": "student 3",
       "text": "Mere det visuelle med lys, der faktisk begyndte at interferere. Og så lige pludselig gjorde den det ikke. Og så lige pludselig forsvandt det bare. Det var meget kaotisk på en eller anden måde. Så tænkte man meget mere over, at det faktisk var de der to bølger."
     },
     {
-      "turn_id": "I02-T006",
+      "turn_id": "I03-T006",
       "speaker": "Bjarke",
       "text": "Jeg er lidt nysgerrig på ordet kaos, eller kaotisk. Kan jeg få dig til at sætte lidt flere ord på, hvad der gjorde det kaotisk?"
     },
     {
-      "turn_id": "I02-T007",
+      "turn_id": "I03-T007",
       "speaker": "student 3",
       "text": "Det var mere det med, at man ændrede det en grad, og så tænkte man, det gør jo ikke noget som helst. Og så var der interferens. Og så var det sådan, at når man lige vil have interferens, så lad os lige gå en grad længere ned. Så det var meget... mere det med. Det går meget hurtigt, og hvis man kom til at røre ved spejlen, så wobblede lyset på pladen, fordi det gør jo meget for selv i lyset."
     },
     {
-      "turn_id": "I02-T008",
+      "turn_id": "I03-T008",
       "speaker": "Bjarke",
       "text": "Så for mig lyder det, som om der var nogle ting, der ikke var, som du forventede det."
     },
     {
-      "turn_id": "I02-T009",
+      "turn_id": "I03-T009",
       "speaker": "student 3",
       "text": "Ja, at lys faktisk er mere kaotisk, end man lige troede det, at der var."
     },
     {
-      "turn_id": "I02-T010",
+      "turn_id": "I03-T010",
       "speaker": "Bjarke",
       "text": "Så når du siger kaotisk, så lyder det sådan, at der er noget med, at du havde forventet, at du skulle dreje flere grader for et eller andet forskel? Ja, faktisk. Er der noget, I er enige om, eller er der noget, som I oplevede på samme måde eller anderledes?"
     },
     {
-      "turn_id": "I02-T011",
+      "turn_id": "I03-T011",
       "speaker": "student 1",
       "text": "Jeg tror, jeg er overrasket over, hvor stor forskel det gjorde at rykke bord. [laughs]"
     },
     {
-      "turn_id": "I02-T012",
+      "turn_id": "I03-T012",
       "speaker": "Bjarke",
       "text": "Ja, okay. Når jeg siger rykket i et setup."
     },
     {
-      "turn_id": "I02-T013",
+      "turn_id": "I03-T013",
       "speaker": "student 1",
       "text": "Ja, fordi vi startede med det der lille bord, og der var det sådan noget, så skulle vi lige sidde og vente lidt, fordi bordet skulle lige stå stille, så vi kunne se det. Ja, og så rykkede vi over til det andet, og så kunne man bare se det, hvad det så var."
     },
     {
-      "turn_id": "I02-T014",
+      "turn_id": "I03-T014",
       "speaker": "Bjarke",
       "text": "Ja, okay. Så der var noget med stabiliteten måske? Ja. Ja. Selvom opstillingen jo mere eller mindre var ens. Ja. Ja, fedt. Okay, så nu afbryder jeg lidt her, men er der nogle ting, I gerne vil have væspet i forvejen, inden I gik i gang med den der øvelse?"
     },
     {
-      "turn_id": "I02-T015",
+      "turn_id": "I03-T015",
       "speaker": "student 1",
       "text": "Jeg tror, det var meget rart at vide, at det var på NBI. [laughs]"
     },
     {
-      "turn_id": "I02-T016",
+      "turn_id": "I03-T016",
       "speaker": "student 3",
       "text": "[overlaps] Ja, og hvordan man kommer herhen,"
     },
     {
-      "turn_id": "I02-T017",
+      "turn_id": "I03-T017",
       "speaker": "student 1",
       "text": "fordi under kantinen er det ret vagt."
     },
     {
-      "turn_id": "I02-T018",
+      "turn_id": "I03-T018",
       "speaker": "Bjarke",
       "text": "Når man ikke har været i kantinen før."
     },
     {
-      "turn_id": "I02-T019",
+      "turn_id": "I03-T019",
       "speaker": "student 1",
       "text": "Nej, vi har aldrig været der før. Så det var lidt svært at finde herhenne."
     },
     {
-      "turn_id": "I02-T020",
+      "turn_id": "I03-T020",
       "speaker": "student 2",
       "text": "Det stod selvfølgelig på under lab."
     },
     {
-      "turn_id": "I02-T021",
+      "turn_id": "I03-T021",
       "speaker": "student 1",
       "text": "Men vi har jo altid haft lab over på NBB, så jeg har jo ikke tænkt, at jeg skulle tjekke."
     },
     {
-      "turn_id": "I02-T022",
+      "turn_id": "I03-T022",
       "speaker": "Bjarke",
       "text": "Det er ret konkret feedback, vi selvfølgelig tager med os. I må gerne sige lidt til de andre, når I møder dem. Det er selvfølgelig ærgerligt, at jeg sagde det, fordi vi var hold nummer to ud af 12 eller sådan noget. [agreement] Men rigtig vigtig info for os. Øhm..."
     },
     {
-      "turn_id": "I02-T023",
+      "turn_id": "I03-T023",
       "speaker": "student 2",
       "text": "Det var ikke sådan, at man kommer ind og tænker, [emphasis] what? Jeg har prøvet andre labgange hvor man sidder og tænker ok, hvordan skal jeg sætte det her op? Setuppet sidder der jo allerede. Så ma er meget fri til at sidde der og lege med det og på den måde få en forståelse for lys."
     },
     {
-      "turn_id": "I02-T024",
+      "turn_id": "I03-T024",
       "speaker": "student 1",
       "text": "Jeg synes i hvert fald at det er fedt at det handler meget om forståelse. Fordi så er det meget sådan, så kan du bare starte at lege lidt med det, og så er det ret frit, og så er det sådan lidt mere sådan, hov, hvorfor gør det det? Og så kan du finde ud af, hvorfor det gør det."
     },
     {
-      "turn_id": "I02-T025",
+      "turn_id": "I03-T025",
       "speaker": "Bjarke",
       "text": "Når du siger, at det er fedt det der med, at det er forståelse, så lyder det, som om der er noget, du sammenligner med. Kan jeg få dig til at sætte flere ord på, hvordan du plejer at opleve det her?"
     },
     {
-      "turn_id": "I02-T026",
+      "turn_id": "I03-T026",
       "speaker": "student 1",
       "text": "Jeg tror måske, at i lab nogle gange, så kan det være meget resultatorienteret, og så er det lidt ligegyldigt, om du forstår, hvad det er, du laver. Det vigtigste er bare, at du får noget, der ser godt ud."
     },
     {
-      "turn_id": "I02-T027",
+      "turn_id": "I03-T027",
       "speaker": "Bjarke",
       "text": "Ja, så når du siger resultat, hvad kunne et resultat være?"
     },
     {
-      "turn_id": "I02-T028",
+      "turn_id": "I03-T028",
       "speaker": "student 1",
       "text": "Altså sådan en graf eller noget, du ville gerne have lavet den, inden vi skal være færdige, så det er det, der er hovedfokus."
     },
     {
-      "turn_id": "I02-T029",
+      "turn_id": "I03-T029",
       "speaker": "Bjarke",
       "text": "Ja, okay. Og en efterfølgende rapport måske også. Ja. Ja, okay... Kan jeg få dig til at sige, at du sagde, at pre-lab egentlig fungerer meget godt. Kan jeg få dig til at sætte flere ord på, hvorfor det var den, der matchede godt til den øvelse, du lige har lavet?"
     },
     {
-      "turn_id": "I02-T030",
+      "turn_id": "I03-T030",
       "speaker": "student 2",
       "text": "Ja, altså jeg synes, at det har fungeret til to halve gange fint. Til den her gang, så synes jeg, at spørgsmålet var mere åbne. Det var mere bare at læse og så prøve at bearbejde det i hovedet gennem hele, hvad der sker. Men jeg synes, det er... Det er mere konstruktivt end at have et lab. Lab kan jeg også læse igennem, inden vi kom herind. Men til de fleste andre lab, jeg har prøvet igennem min tid ved universitetet, så er det bare, at du læser lab-instruktionen, inden du kommer ind. Der kan jeg være mindre eller mere forstående med teorien. Det er ikke helt fanget, hvad det er... I elektromagnetisme kan der være lidt tunge udregninger. Der er nogle opgaver meget lavet på at forstå, hvad det er."
     },
     {
-      "turn_id": "I02-T031",
+      "turn_id": "I03-T031",
       "speaker": "Bjarke",
       "text": "Er det første gang, I rørte optiske eksperimenter?"
     },
     {
-      "turn_id": "I02-T032",
+      "turn_id": "I03-T032",
       "speaker": "student 3",
       "text": "Nej. Der var lige et enkelt, i MekRel. Hvor vi skullemåle lysets hastighed til noget."
     },
     {
-      "turn_id": "I02-T033",
+      "turn_id": "I03-T033",
       "speaker": "Bjarke",
       "text": "Og du sagde nej?"
     },
     {
-      "turn_id": "I02-T034",
+      "turn_id": "I03-T034",
       "speaker": "student 1",
       "text": "Ja, altså jeg havde det også i gymnasiet, og så var jeg også... Sådan besøgsdage og sådan noget."
     },
     {
-      "turn_id": "I02-T035",
+      "turn_id": "I03-T035",
       "speaker": "Bjarke",
       "text": "Ja, okay. Fedt. Kan jeg prøve at fortælle mig, hvordan I oplevede det at arbejde med den her slags udstilling for første gang, eller næsten første gang? Ja. I var jo ikke opdigte nogle følelser, det er mere sådan, hvordan oplevede I det?"
     },
     {
-      "turn_id": "I02-T036",
+      "turn_id": "I03-T036",
       "speaker": "student 2",
       "text": "Jeg tror, det var sådan... Det er meget en direkte forståelse for, hvad du gør. Altså i forhold til, hvordan en gang skal du sætte dig ind i et program, så skal du se, hvad det program fortæller dig."
     },
     {
-      "turn_id": "I02-T037",
+      "turn_id": "I03-T037",
       "speaker": "Bjarke",
       "text": "Altså en kode program?"
     },
     {
-      "turn_id": "I02-T038",
+      "turn_id": "I03-T038",
       "speaker": "student 2",
       "text": "Ja, et kode program. Så ser du det ind i din picoskop og sætter dem ind og husker hvad akserne betyder og så giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. Det gør jo både at man kan hurtigt, og så kan man forstå det... Det kan også gøre, at hvis man ikke forstår det, så tænker man lige pludselig, hvad der skete, og det er selvfølgelig fint. De linser er ikke 100% perfekte og sådan noget..."
     },
     {
-      "turn_id": "I02-T039",
+      "turn_id": "I03-T039",
       "speaker": "Bjarke",
       "text": "Ja. Ja, men det er jo ikke det meste."
     },
     {
-      "turn_id": "I02-T040",
+      "turn_id": "I03-T040",
       "speaker": "student 1",
       "text": "Jeg synes, det var fedt at være en laser."
     },
     {
-      "turn_id": "I02-T041",
+      "turn_id": "I03-T041",
       "speaker": "student 3",
       "text": "Ja, det var sjovt nok. Jeg har ikke nogen specielle holdninger til lasere. Noget med, at man ikke rigtig bukke sig ned fordi så får man lasere i øjnene, og så bliver ens syn værre. Og så skulle man stå op."
     },
     {
-      "turn_id": "I02-T042",
+      "turn_id": "I03-T042",
       "speaker": "Bjarke",
       "text": "Så farlig er det her ikke, men det er fordi, man kan godt komme ud i et farligt eksperiment en anden gang. Det eren vane ting."
     },
     {
-      "turn_id": "I02-T043",
+      "turn_id": "I03-T043",
       "speaker": "student 3",
       "text": "ja, dårlige vaner."
     },
     {
-      "turn_id": "I02-T044",
+      "turn_id": "I03-T044",
       "speaker": "Bjarke",
       "text": "Hvorfor synes du, at læsere er fede?"
     },
     {
-      "turn_id": "I02-T045",
+      "turn_id": "I03-T045",
       "speaker": "student 1",
       "text": "Jeg synes bare, at det er sådan... Lidt som han også sagde, det bliver sådan lidt mere sådan, du sidder med det i hånden, lidt ligesom sådan en lille barn, der opdager, hvis du blander kartoffelmel og vand. Altså sådan, det bliver meget sådan... [uncertain] Intuitivt, du sidder og drejer på det. Du kan se, hvad der sker, når du sidder og drejer."
     },
     {
-      "turn_id": "I02-T046",
+      "turn_id": "I03-T046",
       "speaker": "Bjarke",
       "text": "Og det oplever du som en positiv ting? Ja. Fedt. Det sidste jeg gerne vil spørge er, jeg kender overhovedet ikke jeres forestillinger om specialiseringer. Men hvordan tror I, det her eksperiment vil være relevant for jeres videre studier?"
     },
     {
-      "turn_id": "I02-T047",
+      "turn_id": "I03-T047",
       "speaker": "student 2",
       "text": "Hvis man hører et eller andet fra de ældre studerende, der også sidder og leger med laser, når de præsenterer, når de kommer videre. Jeg tænker, at det er meget med [uncertain] informatic, hvordan signalerne bliver sendt rundt. Det er jo bare, hvordan man skalerer helt op, hvad der kan sker i de mindre komponenter, så det bliver meget tydeligt, hvad der sker. Og så i den forståelse gå videre med det. Jeg kan jo godt være vi ikke kan se det, men det er altså også sådan nogle komponenter her."
     },
     {
-      "turn_id": "I02-T048",
+      "turn_id": "I03-T048",
       "speaker": "Bjarke",
       "text": "Så har du i hvert fald set en stor udgave en gang. [agreement] Hvad med jer andre? Hvordan tror I det her? Altså det kan også godt være helt irrelevant for jer."
     },
     {
-      "turn_id": "I02-T049",
+      "turn_id": "I03-T049",
       "speaker": "student 3",
       "text": "Jeg stod lidt mest, da vi var derinde, og så kiggede jeg på en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men så sad jeg og så var jeg sådan lidt, jeg synes allerede det er meget besværligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men så ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. Nå, det var den kvantekomputer, tror jeg. Så det virkede ret sejt. Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i."
     },
     {
-      "turn_id": "I02-T050",
+      "turn_id": "I03-T050",
       "speaker": "Bjarke",
       "text": "Måske er det bare mig, jeg fik ikke lige færdigt fat i, hvad det var, du synes var uoverskueligt. Det første, du..."
     },
     {
-      "turn_id": "I02-T051",
+      "turn_id": "I03-T051",
       "speaker": "student 3",
       "text": "Nå ja, det var bare fordi, hvad er det nu det hedder... Jeg kom bare lidt for set af. Jeg var også lidt småsyg, og så blev jeg smidt ind i, at vi var i gang, så jeg fattede ikke rigtigt, hvad der foregik. Så det var bare, hvordan man lavede forsøget, og hvorfor de var ude af vinklen. Hvorfor kunne man ikke bare stole på dem? Det var det, jeg var meget forvirret over."
     },
     {
-      "turn_id": "I02-T052",
+      "turn_id": "I03-T052",
       "speaker": "Bjarke",
       "text": "Okay, så du kiggede lidt på nogle af de andre figurer og var lidt..."
     },
     {
-      "turn_id": "I02-T053",
+      "turn_id": "I03-T053",
       "speaker": "student 3",
       "text": "Ja, og så kiggede jeg over, og så var jeg sådan lidt, wow, det er meget mere kompleks agtigt. Det er jo bare sejt. Og jeg synes allerede mere, at det er lidt svært. Det er jo lidt ligesom, man står, når man laver en skrå bold, og så kigger man på nogle, der laver et meget mere avanceret... Det var et ret sejt forsøg. Jeg står bare med min skrå bold (skråt kast) her. Så har man ligesom noget man kan se frem til."
     },
     {
-      "turn_id": "I02-T054",
+      "turn_id": "I03-T054",
       "speaker": "Bjarke",
       "text": "Så oplevede du det du lavede nu som noget der var overvældende eller som noget der faktisk var simpelt? Eller næsten skrå boldt, ikke helt sejt."
     },
     {
-      "turn_id": "I02-T055",
+      "turn_id": "I03-T055",
       "speaker": "student 3",
       "text": "Det var overvældende i forhold til mit nuværende viden, men jeg anerkender også, at i den længere vej, så var det ikke så specielt."
     },
     {
-      "turn_id": "I02-T056",
+      "turn_id": "I03-T056",
       "speaker": "Bjarke",
       "text": "Fedt. Jeg beklager, at det blev en lang snak, men tak for jeres input. Det er noget, vi tager meget seriøst forat forbedre kurset. Så tak for jeres tid."
     }

@@ -24,7 +24,6 @@ Cross-Interview Findings (pattern_findings.json, pattern_findings.md)
 
 See [PIPELINE_DETAILS.md](PIPELINE_DETAILS.md) for comprehensive technical documentation of every component, constraint, and design decision.
 
-## Quick Start
 
 ### 1. Set up environment
 
@@ -145,3 +144,55 @@ python pipeline/analyze_patterens.py \
 - **[transcription/test/](transcription/test/)** — Raw interview transcripts
 
 For detailed documentation of how each component works, design constraints, and how the model is guided at every stage, see [PIPELINE_DETAILS.md](PIPELINE_DETAILS.md).
+
+---
+
+## Quick Start: Stage 1 Only (Segment & Analyze All Interviews)
+
+Process all transcripts in `transcription/test/` automatically without typing filenames:
+
+```bash
+counter=0; for file in transcription/test/*.txt; do \
+  counter=$((counter + 1)); \
+  interview_id=$(printf "I%02d" $counter); \
+  filename=$(basename "$file" .txt); \
+  echo "Processing $interview_id: $file"; \
+  python pipeline/segment_transcript.py \
+    --input "$file" \
+    --interview-id "$interview_id" \
+    --output "data/processed/${filename}.json" && \
+  python pipeline/pipeline.py \
+    --interview-id "$interview_id" \
+    --processed "data/processed/${filename}.json" \
+    --codebook codebook.yaml \
+    --prompts-dir prompts \
+    --outdir "output/stage_1/${interview_id}" \
+    --model claude-sonnet-5 || break; \
+done && echo "✓ Stage 1 complete!"
+```
+
+**What this does:**
+- Finds all `.txt` files in `transcription/test/`
+- Assigns interview IDs: I01, I02, I03, etc.
+- Segments each transcript
+- Runs Stage 1 analysis (Pass 1 + Pass 2) for each
+- Stops on error (safe mode)
+
+---
+
+## Complete End-to-End (All Stages, All Interviews)
+
+After Stage 1 completes, run Stage 2 (aggregation + pattern finding):
+
+```bash
+python aggregate_stage1.py output/stage_1 codebook.yaml && \
+python pipeline/analyze_patterens.py \
+  --stage1-dir output/stage_1 \
+  --aggregate-data output/stage_1/aggregate_data.json \
+  --codebook codebook.yaml \
+  --prompts-dir prompts \
+  --outdir outputs/stage_2 \
+  --model claude-sonnet-5 && \
+echo "✓ All stages complete! Results in output/stage_1/ and outputs/stage_2/"
+```
+

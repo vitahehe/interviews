@@ -1,0 +1,190 @@
+{
+  "interview_id": "I02",
+  "turns": [
+    {
+      "turn_id": "I02-T001",
+      "speaker": "Student 1",
+      "text": "I think it was good. It gave us a good intuitive understanding. The only thing I think will... That I would have liked is that they prepared us a little bit more with the theory. There's a lot of the stuff that we haven't had yet. Some of it were, but because there was some stuff I didn't understand, I was kind of tracking behind, I felt like. So even the stuff I understood became a little bit more confusing. So I think it's okay we didn't have it in class, but it would have been nice to have some papers to read or some material to have read over beforehand. I would have been more prepared to understand.\n\n[inaudible]\n\nInterviewer\nSorry."
+    },
+    {
+      "turn_id": "I02-T002",
+      "speaker": "Student 2",
+      "text": "Yeah. Like a lab tutorial. Yeah."
+    },
+    {
+      "turn_id": "I02-T003",
+      "speaker": "Student 1",
+      "text": "Yes, if you'd had that before and there where like... You had to read like a few pages. Yeah."
+    },
+    {
+      "turn_id": "I02-T004",
+      "speaker": "Student 2",
+      "text": "Actually, I thought it was, I mean, I think it could have been nice to have some more theory behind it, like some more readings to do that would help us with understanding what we're doing today. But I felt like this was one of the better labs for me in the sense that everything was very straightforward and the questions that we were asked, we were able to get immediate feedback on from the TA, which was super nice. And I'm very used to not understanding what is going on in lab classes. So to an extent, I almost feel like the fact that we were working with the TA who could help us, even if we didn't have so much background, maybe. It was a really nice learning experience. [agreement]"
+    },
+    {
+      "turn_id": "I02-T005",
+      "speaker": "Student 1",
+      "text": "It was very one-to-one, which was nice.\n\nInterviewer\nSo you mentioned that it was a good experience, and those of you also had some positive words about it. I'm getting a bit interested. Can I also maybe let you two put some words on how you experienced the actual exercises?"
+    },
+    {
+      "turn_id": "I02-T006",
+      "speaker": "Student 3",
+      "text": "I mean, it's understandable that we don't really understand the superconducting qubit theory because we have so many teams that need to go through this, so we need to separate it out throughout the course. So it makes sense that not everybody has gotten to the theory part yet. But at least for the theory on the Bloch-sphere for the different decoherence times and all that, in the first few weeks of the course, I felt that was covered very lightly. Especially the Ramsey part, right? That was never even really touched upon. We had, it was mentioned in a single lecture that: Okay, there's this echo time, this spin echo experiment. And that was that in my experience, right? So a bit more time dedicated to just decoherence processes would have been nice.\n\nInterviewer\nYeah, all right. So you mentioned you could have had some literature to read before or have a lecture or something. So I suppose you suggest things that you've experienced before. Do you have any other suggestions for how you could have been differently prepared before this?"
+    },
+    {
+      "turn_id": "I02-T007",
+      "speaker": "Student 1",
+      "text": "I don't think so. I think it was pretty, I think I like it because it was very straightforward. I think the whole mechanism with the website and everything made it fairly easy to... Before in classes we would often get these long papers where you step in and it's super confusing, there was a lot of text and you had to figure out what to do. Here it was very, like: Think about this. Okay, now you thought about this, go into the website and then what you just thought about, apply that with these parameters. She explained the parameters. I think it was..."
+    },
+    {
+      "turn_id": "I02-T008",
+      "speaker": "Student 3",
+      "text": "The fact that you can focus on the physics instead of having to learn about the setup."
+    },
+    {
+      "turn_id": "I02-T009",
+      "speaker": "Student 1",
+      "text": "Yeah, exactly. [agreement]"
+    },
+    {
+      "turn_id": "I02-T010",
+      "speaker": "Student 3",
+      "text": "It would be nice to learn about, of course, but for a single app that's not possible.\n\nInterviewer\nSo you did not have any specific preparation before this exercise and you are also the first ones, so in the beginning of the course. No, you're in the beginning, the first one this week."
+    },
+    {
+      "turn_id": "I02-T011",
+      "speaker": "Student 3",
+      "text": "Ah yeah.\n\nInterviewer\nYeah. And but so were there anything in the exercise where you felt that you didn't get the answers you wanted or needed from the TA?"
+    },
+    {
+      "turn_id": "I02-T012",
+      "speaker": "Student 1",
+      "text": "[uncertain] No, we had very few ones, but those were almost outside of the curriculum."
+    },
+    {
+      "turn_id": "I02-T013",
+      "speaker": "Student 3",
+      "text": "Not specific to the lab, I would say. There's this difference between the T2* and T2, right? On a theoretical level. How do they enter into the master question? But that's not something I would expect to get covered in a lab session anyways, right? That's more.\n\nInterviewer\nSo can you walk me through, so I know the exercise and there's a progression, but can you walk us through some of the challenges you faced during the exercise? What was challenging?"
+    },
+    {
+      "turn_id": "I02-T014",
+      "speaker": "Student 1",
+      "text": "I think sometimes the visualization of like, oh, think about how would this graph look for some given, like we had to do one for omega where we thought one thing because this made sense to us, but then she kind of explained it and I'm like, okay, it makes sense. I think sometimes it's like, because there's a lot of parameters suddenly, right? Each part of the exercise, you have to sort of think of like another aspect of this experiment. So I think for me, at least I have a hard time sometimes remembering what I'm looking at right now or like visualizing it in a good way. I think that was hard, but I mean, that's the good thing about being multiple people. You can talk and then someone usually has a good idea."
+    },
+    {
+      "turn_id": "I02-T015",
+      "speaker": "Student 3",
+      "text": "Don't know if this is maybe a bad idea, but a bit more of the sort of Hamiltonian math could be nice, just so because we say: Oh, the detuning, if we do this, then we drive this in this position, or we do A, we get this superposition. I would like to see it if you're used to think in terms of a Hamiltonian acting on some kind of or a unitary acting on a qubit, right?"
+    },
+    {
+      "turn_id": "I02-T016",
+      "speaker": "Student 1",
+      "text": "It's very practical.\n\nInterviewer\nSo you mentioned the detuning, you mentioned a lot of different parameters. So how about you two? Do you think, did you have the same experience about the number of frequencies and parameters that could be overwhelming?"
+    },
+    {
+      "turn_id": "I02-T017",
+      "speaker": "Student 2",
+      "text": "I felt like it was pretty straightforward. There was one question that confused me and maybe the rest of the group about what happens as you increase the Rabi frequency strength. And I still feel a little bit shaky on the explanation there, how you get these oscillations actually that go with increasing Rabi strength. that I would like to talk about a bit more with the group members. That was, I think, the only big point of confusion for me directly related to the lab exercise.\n\nInterviewer\nYeah. How about you?"
+    },
+    {
+      "turn_id": "I02-T018",
+      "speaker": "Student 4",
+      "text": "I'm fine. \n\nInterviewer\nYeah. All right. So it sounds like there were also things, maybe more things that you could have done. So imagine if you had, let's say, three more hours tomorrow in cryostat lab, less time than now maybe. What would you like to do there then?"
+    },
+    {
+      "turn_id": "I02-T019",
+      "speaker": "Student 3",
+      "text": "I think honestly I don't know if I would add anything extra to the exercise. Instead just use more time on what was the tasks we got. Really sit down and understand step by step the theory."
+    },
+    {
+      "turn_id": "I02-T020",
+      "speaker": "Student 2",
+      "text": "But I almost feel like the amount of time we were in the lab today is really good. Now it will be good for us to meet and kind of Talk about what we have done."
+    },
+    {
+      "turn_id": "I02-T021",
+      "speaker": "Student 3",
+      "text": "And better to split it up in several small sessions, maybe instead of having one big long marathon session. You do get a bit sort of dizzy by standing in there for four hours."
+    },
+    {
+      "turn_id": "I02-T022",
+      "speaker": "Student 1",
+      "text": "I don't think I would do more lab time. I think that was good. I think now it's more understanding what you did in the lab is more important, than doing more lab time, I think."
+    },
+    {
+      "turn_id": "I02-T023",
+      "speaker": "Student 2",
+      "text": "And that can come from stuff you got before, maybe some background videos, or basic literature, or talking afterwards. [agreement]\n\nInterviewer\nWell, you do have other exercises next week, I know, different exercises. Are you all from the QIS Masters program?"
+    },
+    {
+      "turn_id": "I02-T024",
+      "speaker": "Student 2",
+      "text": "No.\n\nInterviewer\nNone of you?"
+    },
+    {
+      "turn_id": "I02-T025",
+      "speaker": "Student 1",
+      "text": "What is this?\n\nInterviewer\nThe quantum information science..."
+    },
+    {
+      "turn_id": "I02-T026",
+      "speaker": "Student 1",
+      "text": "Oh, no.\n\nInterviewer\nSo none of you are? So from just regular physics?"
+    },
+    {
+      "turn_id": "I02-T027",
+      "speaker": "Student 3",
+      "text": "Physics, yeah.\n\nInterviewer\nAll right. You haven't experienced the other exercise next week, but how do you think that experience in Quantum Training Lab like this will relate to your plans after the course?"
+    },
+    {
+      "turn_id": "I02-T028",
+      "speaker": "Student 3",
+      "text": "In what sense do you think, like what thesis you write and all that?\n\nInterviewer\nCould be interesting for me to hear about that also, yeah."
+    },
+    {
+      "turn_id": "I02-T029",
+      "speaker": "Student 3",
+      "text": "I don't think my experience there is so useful because I've already decided I want to do spin qubits."
+    },
+    {
+      "turn_id": "I02-T030",
+      "speaker": "Student 1",
+      "text": "I mean, I'm also in the quantum computing way. I think I'm a little bit more in fabrication, like crystal growth direction, but it's definitely interesting. Like, yeah, it's definitely persuading me a little bit, so...\n\nInterviewer\nIn what's in persuading you in what sense?"
+    },
+    {
+      "turn_id": "I02-T031",
+      "speaker": "Student 1",
+      "text": "Like, because I've always been very interested in like computing in general. And then I got very interested in crystal growth. So that's also what I worked with a little bit. But now it's like it's kind of the bridge between the two, which is kind of what we're doing here, where you kind of start to bridge between computing and fabrication of these quantum chips.\n\nInterviewer\nSo I mean, semiconducting spin qubits, that was what you mentioned. These can also be put in the exactly same cryostat for doing similar experiments. So how about the experimental setup? Was it this novel for you or do you know it from other places in NQCP?"
+    },
+    {
+      "turn_id": "I02-T032",
+      "speaker": "Student 3",
+      "text": "I mean, I haven't done a Ramsey experiment before exactly, but I've seen the setup quite a few times before.\n\nInterviewer\nWhen you say setup, have you seen the hardware or have you seen just this theory and the schemes and stuff like that?"
+    },
+    {
+      "turn_id": "I02-T033",
+      "speaker": "Student 3",
+      "text": "Cryostats and control stacks and all that relatively used to that.\n\nInterviewer\nJust give me a moment to see if I covered what I want to cover... Yeah. So, you always told me that you're interested in the computing part and using the semiconducting thing. So, and some of you mentioned that you're not really interested in, let's say, having one more session in the lab. So how are you general ideas of working in a lab maybe also for your thesis or even after the thesis?"
+    },
+    {
+      "turn_id": "I02-T034",
+      "speaker": "Student 2",
+      "text": "I would say with this exercise, it was a fun exercise that I think directly relates to the content that we're studying in class, which is good. For myself, I'm really hoping that I can also see, instead of these cool toy demonstrations of whatever we just did, the Ramsey full sequence. It would be nice to see some of the active research that is going on at the NQCP, especially with where this course is in the course structure. I'm trying to think about who I might want to work with as my supervisor. I'm not so sure if I'm even going to do it in the quantum computing area. So it's fun to see these cool applied demonstrations of knowledge in class, but I'm also hoping that maybe in the future exercise section we can see or maybe hopefully contribute to something that's a bit more substantial in some sense.\n\nInterviewer\nIt's fun for me that you call it a toy demonstration because this is, in my opinion, pretty close to the real life. [laugs] I mean, so the characterization of qubits like you did, that's of course, that's done with an algorithm in the real research lab, so it's done in a moment. But the actual steps, it's pretty close, I would say, to what is done."
+    },
+    {
+      "turn_id": "I02-T035",
+      "speaker": "Student 3",
+      "text": "Isn't there, I mean, when you go into a lab experiment like this, there's sort of a, you have to do this, and this, and this, right? Is there a bit more tinkering around when you do research?"
+    },
+    {
+      "turn_id": "I02-T036",
+      "speaker": "Student 2",
+      "text": "Maybe that's kind of what I'm hoping for. Like this is so straightforward, which is good..."
+    },
+    {
+      "turn_id": "I02-T037",
+      "speaker": "Student 3",
+      "text": "We get like a recipe: now execut it, right? Instead of just going in there and sort of spending weeks and weeks to **** around and find out. And then maybe after a certain amount of time you have an idea of, okay, this is the Recipe we want to execute, and then you do it after having really learned the setup.\n\nInterviewer\nWe'll see if we can do some tinkering next week, but yes, I'll just stop the recording now. Thank you for your..."
+    }
+  ]
+}
