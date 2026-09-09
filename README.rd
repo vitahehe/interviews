@@ -1,40 +1,48 @@
-# Interview analysis workflow
+# Interview Qualitative Analysis Pipeline
 
-This repository contains a small pipeline for turning raw interview transcripts into structured qualitative-analysis output. The current workflow is:
+A two-stage pipeline for automated qualitative coding of physics-lab student interviews. Transcripts are segmented, coded against a predefined codebook using Claude's API with citations-enabled retrieval, interpreted with structured reasoning, aggregated across multiple interviews, and analyzed for cross-interview patterns.
 
-1. Segment a raw transcript into turns and sentence-level units.
-2. Run a two-pass analysis with the Anthropic API using a codebook and prompt templates.
-3. Write JSON outputs for each interview under the output directory.
+## Pipeline Overview
 
-## Repository contents
+```
+Raw Transcript
+    ↓
+[Stage 1: Per-Interview Analysis]
+    ├─ Segment: raw transcript → turns
+    ├─ Pass 1: find evidence in student turns (citations-enabled)
+    └─ Pass 2: interpret each quote (forced tool use)
+    ↓
+Per-Interview Outputs (pass1.json, pass2.json, metadata.json)
+    ↓
+[Stage 2: Cross-Interview Aggregation & Analysis]
+    ├─ Aggregate: validate + consolidate all interviews
+    └─ Pattern Finding: identify cross-interview themes (forced tool use)
+    ↓
+Aggregated Reports (aggregate_data.json, aggregate_report.md)
+Cross-Interview Findings (pattern_findings.json, pattern_findings.md)
+```
 
-- [transcription/test](transcription/test): raw interview transcripts used as input.
-- [pipeline/segment_transcript.py](pipeline/segment_transcript.py): converts a plain transcript into turn-level and sentence-level JSON structures.
-- [pipeline/pipeline.py](pipeline/pipeline.py): runs Pass 1 and Pass 2 analysis and writes the result files.
-- [pipeline/requirements.txt](pipeline/requirements.txt): Python dependencies for the pipeline.
-- [codebook.yaml](codebook.yaml): the coding scheme used by the analysis.
-- [prompts](prompts): system and pass-specific prompt templates.
-- [data/processed](data/processed): processed interview JSON files produced by segmentation.
-- [output/stage_1](output/stage_1): per-interview analysis outputs, including pass1.json, pass2.json, and metadata.json.
+See [PIPELINE_DETAILS.md](PIPELINE_DETAILS.md) for comprehensive technical documentation of every component, constraint, and design decision.
 
-## How to run
+## Quick Start
 
-1. Create and activate a Python environment.
+### 1. Set up environment
 
 ```bash
 cd /home/vita/projects/interviews
 python -m venv .venv
 source .venv/bin/activate
 pip install -r pipeline/requirements.txt
-```
-
-2. Set your API key.
-
-```bash
 export ANTHROPIC_API_KEY=your_key_here
 ```
 
-3. Segment one interview.
+## Processing One Interview (I01)
+
+This section walks through the complete pipeline for interview I01, from raw transcript to final outputs.
+
+### Step 1: Segment the raw transcript
+
+Converts raw speaker-labeled transcript into structured turns (each with turn_id, speaker type, and text).
 
 ```bash
 python pipeline/segment_transcript.py \
@@ -43,7 +51,11 @@ python pipeline/segment_transcript.py \
   --output data/processed/Monday_20260223_Kvant1_lab_transcript.json
 ```
 
-4. Run the analysis pipeline.
+**Output:** `data/processed/Monday_20260223_Kvant1_lab_transcript.json`
+
+### Step 2: Run Stage 1 analysis (Pass 1 + Pass 2)
+
+Finds evidence for each code in the codebook (Pass 1, citations-enabled), then interprets each quote (Pass 2, forced tool use). Produces three files per interview.
 
 ```bash
 python pipeline/pipeline.py \
@@ -51,122 +63,85 @@ python pipeline/pipeline.py \
   --processed data/processed/Monday_20260223_Kvant1_lab_transcript.json \
   --codebook codebook.yaml \
   --prompts-dir prompts \
-  --outdir output/stage_1/I01
-
-
-  python pipeline/pipeline.py \
-  --interview-id I02 \
-  --processed data/processed/Wednesday_20260225_Kvant1_lab_transcript.json \
-  --codebook codebook.yaml \
-  --prompts-dir prompts \
-  --outdir output/stage_1/I02
+  --outdir output/stage_1/I01 \
+  --model claude-sonnet-5
 ```
 
-Use the interview ID values I01 and I02 to match the folders under [output/stage_1](output/stage_1).
+**Outputs:**
+- `output/stage_1/I01/pass1.json` — all evidence found (quotes + turn IDs)
+- `output/stage_1/I01/pass2.json` — all interpretations (rationale + teaching implications)
+- `output/stage_1/I01/metadata.json` — timing, usage, hashes, validation info
 
+## Processing Additional Interviews
 
+To run the same pipeline for a different interview, repeat Steps 1–2 with a different input file and interview ID. Example for interview I03:
 
-STAGE TWO, TRANS INTERVIEW ANALYSIS:
-
-# Stage 1 Aggregator
-
-Aggregates outputs from the Stage 1 pipeline across multiple interview folders, producing a comprehensive summary of coding patterns, themes, and speaker engagement.
-
-## Usage
+### Step 1: Segment I03
 
 ```bash
-python aggregate_stage1.py <path_to_output_stage_1_dir> <path_to_codebook.yaml>
+python pipeline/segment_transcript.py \
+  --input transcription/test/kvant1_julie_1_transcript.txt \
+  --interview-id I03 \
+  --output data/processed/kvant1_julie_1_transcript.json
 ```
 
-**Example:**
+### Step 2: Analyze I03
+
+```bash
+python pipeline/pipeline.py \
+  --interview-id I03 \
+  --processed data/processed/kvant1_julie_1_transcript.json \
+  --codebook codebook.yaml \
+  --prompts-dir prompts \
+  --outdir output/stage_1/I03 \
+  --model claude-sonnet-5
+```
+
+## Stage 2: Cross-Interview Aggregation & Pattern Finding
+
+Run these after processing at least one interview (or multiple for meaningful aggregation).
+
+### Step 1: Aggregate all valid interviews
+
+Validates all interviews in `output/stage_1/`, creates consolidated code × interview matrices, detects duplicate citations, and generates summary statistics.
+
 ```bash
 python aggregate_stage1.py output/stage_1 codebook.yaml
 ```
 
-## Output Files
+**Outputs:**
+- `output/stage_1/aggregate_data.json` — machine-readable metrics (matrices, counts, exclusion reasons)
+- `output/stage_1/aggregate_report.md` — human-readable summary tables
 
-Two files are written to the `output/stage_1` directory:
+### Step 2: Find cross-interview patterns
 
-### 1. `aggregate_data.json`
-Machine-readable JSON file containing all aggregated metrics, suitable for downstream AI-assisted analysis. Includes:
-- List of included and excluded interviews (with exclusion reasons)
-- Code × interview count matrix
-- Theme × interview count matrix
-- Grounding type breakdown per code (quote-only vs. quote+inference)
-- Duplicate citation pairs and co-occurrence counts
-- Unique speakers per code
-- Per-interview statistics
+Uses aggregate metrics and all verified quotes to surface tensions, contradictions, alignments, and emerging patterns via AI-assisted analysis.
 
-### 2. `aggregate_report.md`
-Human-readable markdown report with formatted tables showing:
-- Summary statistics
-- Interview-level quote and code counts
-- Code × interview matrix
-- Theme × interview matrix
-- Grounding type breakdown table
-- Duplicate citations sorted by frequency
-- Unique speakers per code
-- Codes with zero quotes across all interviews
-
-
-Algorithm Overview
-
-### Phase 1: Discovery & Validation
-1. Scan `output/stage_1/` for interview subdirectories (e.g., I01, I02, ...)
-2. For each directory, run 5 health checks:
-   - `pass2.json` exists with non-empty `interpretations` array
-   - `metadata.json` exists and is valid JSON
-   - `pass1_calls == len(codebook.themes)`
-   - All entries in `pass1_usage_per_theme` have `stop_reason == "end_turn"`
-   - `pass2_stop_reason == "end_turn"` (if field exists; absent = pass)
-3. Separate interviews into `included` (passed all checks) and `excluded` (with reasons)
-
-### Phase 2: Data Extraction & Aggregation
-For each **included** interview, process `pass2.json` interpretations:
-
-1. **Code × Interview Matrix**
-   - Rows: all codes from codebook (in order), including those with 0 quotes
-   - Columns: included interview IDs
-   - Cell values: count of interpretations per code per interview
-
-2. **Theme × Interview Matrix**
-   - Rows: all themes from codebook (in order)
-   - Columns: included interview IDs
-   - Cell values: sum of counts for all codes under that theme
-
-3. **Grounding Type Breakdown** (per code)
-   - Track `interpretation_grounded_in` field: "quote_text_only" or "quote_plus_inference"
-   - Aggregate per code per interview
-   - Calculate totals across all included interviews
-
-4. **Duplicate Citation Detection**
-   - Normalize whitespace in each `cited_text`
-   - Group interpretations by normalized text within each interview
-   - When same text appears under multiple codes, record the code pair
-   - Aggregate co-occurrence counts across all interviews
-   - Sort pairs by frequency (descending)
-
-5. **Unique Speakers per Code**
-   - For each code, collect unique speaker names from all associated interpretations
-   - Sort alphabetically
-
-6. **Interview Statistics**
-   - Total quote count (size of interpretations array)
-   - Distinct codes triggered (unique codes with at least 1 quote)
-   - Percentage of codebook covered
-
-7. **Zero-Quote Codes**
-   - Identify codes with 0 appearances across ALL included interviews
-   - List separately for visibility
-
-
-RUN AI PROMPT STAGE 2
-
-
-   python pipeline/analyze_patterens.py \
+```bash
+python pipeline/analyze_patterens.py \
   --stage1-dir output/stage_1 \
   --aggregate-data output/stage_1/aggregate_data.json \
   --codebook codebook.yaml \
   --prompts-dir prompts \
   --outdir outputs/stage_2 \
   --model claude-sonnet-5
+```
+
+**Outputs:**
+- `outputs/stage_2/pattern_findings.json` — structured findings (tensions, contradictions, alignments, etc.)
+- `outputs/stage_2/pattern_findings.md` — human-readable report with supporting quotes
+
+## File Structure
+
+- **[pipeline/segment_transcript.py](pipeline/segment_transcript.py)** — Turn-level segmentation
+- **[pipeline/pipeline.py](pipeline/pipeline.py)** — Stage 1: Pass 1 + Pass 2 analysis
+- **[aggregate_stage1.py](aggregate_stage1.py)** — Stage 2, Step 1: validation & aggregation
+- **[pipeline/analyze_patterens.py](pipeline/analyze_patterens.py)** — Stage 2, Step 2: pattern finding
+- **[codebook.yaml](codebook.yaml)** — Coding scheme (themes and codes)
+- **[prompts/](prompts/)** — Prompt templates (system, pass1, pass2, stage2)
+- **[data/processed/](data/processed/)** — Segmented interviews (input to Stage 1)
+- **[output/stage_1/](output/stage_1/)** — Per-interview and aggregate outputs
+- **[outputs/stage_2/](outputs/stage_2/)** — Cross-interview pattern findings
+- **[transcription/test/](transcription/test/)** — Raw interview transcripts
+
+For detailed documentation of how each component works, design constraints, and how the model is guided at every stage, see [PIPELINE_DETAILS.md](PIPELINE_DETAILS.md).
