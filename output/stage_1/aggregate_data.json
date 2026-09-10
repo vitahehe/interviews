@@ -2,140 +2,245 @@
   "included_interviews": [
     "I01",
     "I02",
-    "I03"
+    "I03",
+    "I04",
+    "I05",
+    "I07"
   ],
-  "excluded_interviews": {},
+  "excluded_interviews": {
+    "I06": [
+      "Theme 1 pass1 stop_reason is 'max_tokens', not 'end_turn'"
+    ]
+  },
   "code_interview_matrix": {
     "1.a": {
-      "I01": 0,
-      "I02": 0,
-      "I03": 0
-    },
-    "1.b": {
-      "I01": 1,
-      "I02": 0,
-      "I03": 0
-    },
-    "1.c": {
-      "I01": 7,
-      "I02": 5,
-      "I03": 6
+      "I01": 4,
+      "I02": 2,
+      "I03": 4,
+      "I04": 6,
+      "I05": 8,
+      "I07": 9
     },
     "2.a": {
-      "I01": 6,
-      "I02": 6,
-      "I03": 5
+      "I01": 2,
+      "I02": 0,
+      "I03": 0,
+      "I04": 2,
+      "I05": 2,
+      "I07": 0
     },
     "2.b": {
       "I01": 0,
-      "I02": 0,
-      "I03": 0
+      "I02": 1,
+      "I03": 0,
+      "I04": 0,
+      "I05": 0,
+      "I07": 0
     },
     "2.c": {
       "I01": 0,
-      "I02": 1,
-      "I03": 3
+      "I02": 2,
+      "I03": 3,
+      "I04": 1,
+      "I05": 3,
+      "I07": 0
     },
     "3.a": {
-      "I01": 1,
+      "I01": 3,
       "I02": 5,
-      "I03": 3
+      "I03": 6,
+      "I04": 5,
+      "I05": 5,
+      "I07": 3
     },
     "3.b": {
-      "I01": 2,
-      "I02": 5,
-      "I03": 4
-    },
-    "3.c": {
       "I01": 0,
       "I02": 2,
-      "I03": 2
+      "I03": 5,
+      "I04": 2,
+      "I05": 4,
+      "I07": 6
+    },
+    "3.c": {
+      "I01": 7,
+      "I02": 6,
+      "I03": 6,
+      "I04": 4,
+      "I05": 4,
+      "I07": 4
     },
     "3.d": {
-      "I01": 1,
-      "I02": 1,
-      "I03": 1
+      "I01": 0,
+      "I02": 3,
+      "I03": 2,
+      "I04": 1,
+      "I05": 1,
+      "I07": 1
     }
   },
   "within_interview_duplicates": {
     "I01": [
       {
-        "text": "student 2: I think for my part, actually understanding like polarization, what we see on the screens for because it is the same when we get data like oh is this actually correct or what can we use thi",
-        "full_text": "student 2: I think for my part, actually understanding like polarization, what we see on the screens for because it is the same when we get data like oh is this actually correct or what can we use this data for whether this is I think it's it's easier to look at and maybe try understand it but it's still get more to understanding parts. ",
-        "codes": [
-          "1.c",
-          "3.a"
-        ],
-        "quote_ids": [
-          "I01-Q005",
-          "I01-Q015"
-        ],
-        "count": 2
-      },
-      {
-        "text": "student 1: I also think considering me and student 1 we both have optics as student 2 said if we didn't have that we would have [emphasis] no idea what we're doing because like we've been explained po",
-        "full_text": "student 1: I also think considering me and student 1 we both have optics as student 2 said if we didn't have that we would have [emphasis] no idea what we're doing because like we've been explained polarization and basically everything we did today but we would have no idea about it if we didn't do that so maybe just kind of tiny bit of theoretical background for it would be nice. ",
-        "codes": [
-          "1.c",
-          "2.a"
-        ],
-        "quote_ids": [
-          "I01-Q006",
-          "I01-Q012"
-        ],
-        "count": 2
-      },
-      {
-        "text": "student 1: I kind of expected to see more interference. Same way. I thought it was gonna be a bit more obvious than it was. Yeah. All right. So that's my expectation. Then I was like, oh okay, I can s",
-        "full_text": "student 1: I kind of expected to see more interference. Same way. I thought it was gonna be a bit more obvious than it was. Yeah. All right. So that's my expectation. Then I was like, oh okay, I can see it. But it's not like as... Not as fun. Yeah, not as like definite, like as defined as I expected it to be. ",
-        "codes": [
-          "1.c",
-          "2.a"
-        ],
-        "quote_ids": [
-          "I01-Q008",
-          "I01-Q013"
-        ],
-        "count": 2
-      },
-      {
         "text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do",
         "full_text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do this like the results were almost there for us before actually doing the experiment where here we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it yeah so yeah What is the physics behind it? ",
         "codes": [
+          "1.a",
           "2.a",
-          "3.b"
+          "3.c"
         ],
         "quote_ids": [
-          "I01-Q010",
-          "I01-Q016"
+          "I01-Q001",
+          "I01-Q006",
+          "I01-Q011"
         ],
-        "count": 2
+        "count": 3
       },
       {
-        "text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. Having to take so much data in some of the labs. Getting stressed about it.[overlap] Yeah, getting stre",
-        "full_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. Having to take so much data in some of the labs. Getting stressed about it.[overlap] Yeah, getting stressed about it. ",
+        "text": "student 1: Well, compared to maybe when we look back at our first year, we kind of like, you need to do this and do this and hand in this, so you need to get this data. While here, it was just, we enc",
+        "full_text": "student 1: Well, compared to maybe when we look back at our first year, we kind of like, you need to do this and do this and hand in this, so you need to get this data. While here, it was just, we encourage you to do this, and we do need you to make a video about it, but there was nothing like, you need to do this, and you need to have the angles like this and the filters like this so mess around in the sense that it was very free. ",
         "codes": [
           "2.a",
-          "3.b"
+          "3.c"
         ],
         "quote_ids": [
-          "I01-Q011",
-          "I01-Q017"
+          "I01-Q005",
+          "I01-Q010"
         ],
         "count": 2
       }
     ],
     "I02": [
       {
-        "text": "student 2: Ja, et kode program. S\u00e5 ser du det ind i din picoskop og s\u00e6tter dem ind og husker hvad akserne betyder og s\u00e5 giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resoner",
-        "full_text": "student 2: Ja, et kode program. S\u00e5 ser du det ind i din picoskop og s\u00e6tter dem ind og husker hvad akserne betyder og s\u00e5 giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. Det g\u00f8r jo b\u00e5de at man kan hurtigt, og s\u00e5 kan man forst\u00e5 det... Det kan ogs\u00e5 g\u00f8re, at hvis man ikke forst\u00e5r det, s\u00e5 t\u00e6nker man lige pludselig, hvad der skete, og det er selvf\u00f8lgelig fint. De linser er ikke 100% perfekte og s\u00e5dan noget... ",
+        "text": "Student 1: I mean, I'm also in the quantum computing way. I think I'm a little bit more in fabrication, like crystal growth direction, but it's definitely interesting. Like, yeah, it's definitely pers",
+        "full_text": "Student 1: I mean, I'm also in the quantum computing way. I think I'm a little bit more in fabrication, like crystal growth direction, but it's definitely interesting. Like, yeah, it's definitely persuading me a little bit, so...\n\nInterviewer\nIn what's in persuading you in what sense? ",
         "codes": [
-          "1.c",
+          "2.c",
+          "3.c"
+        ],
+        "quote_ids": [
+          "I02-Q005",
+          "I02-Q017"
+        ],
+        "count": 2
+      },
+      {
+        "text": "Student 1: I think it was good. It gave us a good intuitive understanding. The only thing I think will... That I would have liked is that they prepared us a little bit more with the theory. There's a ",
+        "full_text": "Student 1: I think it was good. It gave us a good intuitive understanding. The only thing I think will... That I would have liked is that they prepared us a little bit more with the theory. There's a lot of the stuff that we haven't had yet. Some of it were, but because there was some stuff I didn't understand, I was kind of tracking behind, I felt like. So even the stuff I understood became a little bit more confusing. So I think it's okay we didn't have it in class, but it would have been nice to have some papers to read or some material to have read over beforehand. I would have been more prepared to understand.\n\n[inaudible]\n\nInterviewer\nSorry. ",
+        "codes": [
+          "3.b",
+          "3.c"
+        ],
+        "quote_ids": [
+          "I02-Q011",
+          "I02-Q013"
+        ],
+        "count": 2
+      },
+      {
+        "text": "Student 2: I would say with this exercise, it was a fun exercise that I think directly relates to the content that we're studying in class, which is good. For myself, I'm really hoping that I can also",
+        "full_text": "Student 2: I would say with this exercise, it was a fun exercise that I think directly relates to the content that we're studying in class, which is good. For myself, I'm really hoping that I can also see, instead of these cool toy demonstrations of whatever we just did, the Ramsey full sequence. It would be nice to see some of the active research that is going on at the NQCP, especially with where this course is in the course structure. I'm trying to think about who I might want to work with as my supervisor. I'm not so sure if I'm even going to do it in the quantum computing area. So it's fun to see these cool applied demonstrations of knowledge in class, but I'm also hoping that maybe in the future exercise section we can see or maybe hopefully contribute to something that's a bit more substantial in some sense.\n\nInterviewer\nIt's fun for me that you call it a toy demonstration because this is, in my opinion, pretty close to the real life. [laugs] I mean, so the characterization of qubits like you did, that's of course, that's done with an algorithm in the real research lab, so it's done in a moment. But the actual steps, it's pretty close, I would say, to what is done. ",
+        "codes": [
+          "3.c",
+          "3.d"
+        ],
+        "quote_ids": [
+          "I02-Q018",
+          "I02-Q021"
+        ],
+        "count": 2
+      }
+    ],
+    "I03": [
+      {
+        "text": "student 3: Mere det visuelle med lys, der faktisk begyndte at interferere. Og s\u00e5 lige pludselig gjorde den det ikke. Og s\u00e5 lige pludselig forsvandt det bare. Det var meget kaotisk p\u00e5 en eller anden m\u00e5",
+        "full_text": "student 3: Mere det visuelle med lys, der faktisk begyndte at interferere. Og s\u00e5 lige pludselig gjorde den det ikke. Og s\u00e5 lige pludselig forsvandt det bare. Det var meget kaotisk p\u00e5 en eller anden m\u00e5de. S\u00e5 t\u00e6nkte man meget mere over, at det faktisk var de der to b\u00f8lger. ",
+        "codes": [
+          "1.a",
+          "3.b"
+        ],
+        "quote_ids": [
+          "I03-Q001",
+          "I03-Q014"
+        ],
+        "count": 2
+      },
+      {
+        "text": "student 3: Det var mere det med, at man \u00e6ndrede det en grad, og s\u00e5 t\u00e6nkte man, det g\u00f8r jo ikke noget som helst. Og s\u00e5 var der interferens. Og s\u00e5 var det s\u00e5dan, at n\u00e5r man lige vil have interferens, s\u00e5",
+        "full_text": "student 3: Det var mere det med, at man \u00e6ndrede det en grad, og s\u00e5 t\u00e6nkte man, det g\u00f8r jo ikke noget som helst. Og s\u00e5 var der interferens. Og s\u00e5 var det s\u00e5dan, at n\u00e5r man lige vil have interferens, s\u00e5 lad os lige g\u00e5 en grad l\u00e6ngere ned. S\u00e5 det var meget... mere det med. Det g\u00e5r meget hurtigt, og hvis man kom til at r\u00f8re ved spejlen, s\u00e5 wobblede lyset p\u00e5 pladen, fordi det g\u00f8r jo meget for selv i lyset. ",
+        "codes": [
+          "1.a",
           "3.a"
         ],
         "quote_ids": [
-          "I02-Q004",
-          "I02-Q016"
+          "I03-Q002",
+          "I03-Q009"
+        ],
+        "count": 2
+      },
+      {
+        "text": "student 1: Ja, fordi vi startede med det der lille bord, og der var det s\u00e5dan noget, s\u00e5 skulle vi lige sidde og vente lidt, fordi bordet skulle lige st\u00e5 stille, s\u00e5 vi kunne se det. Ja, og s\u00e5 rykkede v",
+        "full_text": "student 1: Ja, fordi vi startede med det der lille bord, og der var det s\u00e5dan noget, s\u00e5 skulle vi lige sidde og vente lidt, fordi bordet skulle lige st\u00e5 stille, s\u00e5 vi kunne se det. Ja, og s\u00e5 rykkede vi over til det andet, og s\u00e5 kunne man bare se det, hvad det s\u00e5 var. ",
+        "codes": [
+          "1.a",
+          "3.a"
+        ],
+        "quote_ids": [
+          "I03-Q003",
+          "I03-Q011"
+        ],
+        "count": 2
+      },
+      {
+        "text": "student 2: Ja, et kode program. S\u00e5 ser du det ind i din picoskop og s\u00e6tter dem ind og husker hvad akserne betyder og s\u00e5 giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resoner",
+        "full_text": "student 2: Ja, et kode program. S\u00e5 ser du det ind i din picoskop og s\u00e6tter dem ind og husker hvad akserne betyder og s\u00e5 giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. Det g\u00f8r jo b\u00e5de at man kan hurtigt, og s\u00e5 kan man forst\u00e5 det... Det kan ogs\u00e5 g\u00f8re, at hvis man ikke forst\u00e5r det, s\u00e5 t\u00e6nker man lige pludselig, hvad der skete, og det er selvf\u00f8lgelig fint. De linser er ikke 100% perfekte og s\u00e5dan noget... ",
+        "codes": [
+          "2.c",
+          "3.a",
+          "3.b"
+        ],
+        "quote_ids": [
+          "I03-Q006",
+          "I03-Q013",
+          "I03-Q017"
+        ],
+        "count": 3
+      },
+      {
+        "text": "student 1: Jeg synes bare, at det er s\u00e5dan... Lidt som han ogs\u00e5 sagde, det bliver s\u00e5dan lidt mere s\u00e5dan, du sidder med det i h\u00e5nden, lidt ligesom s\u00e5dan en lille barn, der opdager, hvis du blander kart",
+        "full_text": "student 1: Jeg synes bare, at det er s\u00e5dan... Lidt som han ogs\u00e5 sagde, det bliver s\u00e5dan lidt mere s\u00e5dan, du sidder med det i h\u00e5nden, lidt ligesom s\u00e5dan en lille barn, der opdager, hvis du blander kartoffelmel og vand. Alts\u00e5 s\u00e5dan, det bliver meget s\u00e5dan... [uncertain] Intuitivt, du sidder og drejer p\u00e5 det. Du kan se, hvad der sker, n\u00e5r du sidder og drejer. ",
+        "codes": [
+          "2.c",
+          "3.b"
+        ],
+        "quote_ids": [
+          "I03-Q007",
+          "I03-Q018"
+        ],
+        "count": 2
+      },
+      {
+        "text": "student 1: Vi skulle lege med lasere. [laughs]",
+        "full_text": "student 1: Vi skulle lege med lasere. [laughs] ",
+        "codes": [
+          "3.a",
+          "3.c"
+        ],
+        "quote_ids": [
+          "I03-Q008",
+          "I03-Q019"
+        ],
+        "count": 2
+      },
+      {
+        "text": "student 2: Det var ikke s\u00e5dan, at man kommer ind og t\u00e6nker, [emphasis] what? Jeg har pr\u00f8vet andre labgange hvor man sidder og t\u00e6nker ok, hvordan skal jeg s\u00e6tte det her op? Setuppet sidder der jo aller",
+        "full_text": "student 2: Det var ikke s\u00e5dan, at man kommer ind og t\u00e6nker, [emphasis] what? Jeg har pr\u00f8vet andre labgange hvor man sidder og t\u00e6nker ok, hvordan skal jeg s\u00e6tte det her op? Setuppet sidder der jo allerede. S\u00e5 ma er meget fri til at sidde der og lege med det og p\u00e5 den m\u00e5de f\u00e5 en forst\u00e5else for lys. ",
+        "codes": [
+          "3.a",
+          "3.c"
+        ],
+        "quote_ids": [
+          "I03-Q012",
+          "I03-Q020"
         ],
         "count": 2
       },
@@ -143,109 +248,189 @@
         "text": "student 1: Jeg synes i hvert fald at det er fedt at det handler meget om forst\u00e5else. Fordi s\u00e5 er det meget s\u00e5dan, s\u00e5 kan du bare starte at lege lidt med det, og s\u00e5 er det ret frit, og s\u00e5 er det s\u00e5dan ",
         "full_text": "student 1: Jeg synes i hvert fald at det er fedt at det handler meget om forst\u00e5else. Fordi s\u00e5 er det meget s\u00e5dan, s\u00e5 kan du bare starte at lege lidt med det, og s\u00e5 er det ret frit, og s\u00e5 er det s\u00e5dan lidt mere s\u00e5dan, hov, hvorfor g\u00f8r det det? Og s\u00e5 kan du finde ud af, hvorfor det g\u00f8r det. ",
         "codes": [
-          "2.a",
-          "3.a",
-          "3.b"
+          "3.b",
+          "3.c"
         ],
         "quote_ids": [
-          "I02-Q006",
-          "I02-Q015",
-          "I02-Q018"
+          "I03-Q016",
+          "I03-Q021"
         ],
-        "count": 3
-      },
+        "count": 2
+      }
+    ],
+    "I04": [
       {
-        "text": "student 1: Jeg synes, det var fedt at v\u00e6re en laser.",
-        "full_text": "student 1: Jeg synes, det var fedt at v\u00e6re en laser. ",
+        "text": "Student 1: I mean, it's using instruments I personally haven't used before. So getting used to using the new polarizers and working with lasers. Also making sure that, I mean, it's safe has been what'",
+        "full_text": "Student 1: I mean, it's using instruments I personally haven't used before. So getting used to using the new polarizers and working with lasers. Also making sure that, I mean, it's safe has been what's filled up most of my mind at least.\n\nInterviewer\nAll right. So was it something that, was it, were you worried? ",
         "codes": [
-          "2.a",
-          "3.b"
+          "1.a",
+          "3.a"
         ],
         "quote_ids": [
-          "I02-Q009",
-          "I02-Q019"
+          "I04-Q002",
+          "I04-Q010"
         ],
         "count": 2
       },
       {
-        "text": "student 3: Jeg stod lidt mest, da vi var derinde, og s\u00e5 kiggede jeg p\u00e5 en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men s\u00e5 sad jeg og s\u00e5 var jeg s\u00e5d",
-        "full_text": "student 3: Jeg stod lidt mest, da vi var derinde, og s\u00e5 kiggede jeg p\u00e5 en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men s\u00e5 sad jeg og s\u00e5 var jeg s\u00e5dan lidt, jeg synes allerede det er meget besv\u00e6rligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men s\u00e5 ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. N\u00e5, det var den kvantekomputer, tror jeg. S\u00e5 det virkede ret sejt. Det er jo en god introduktion til at f\u00e5 smag for, at det kommer til at v\u00e6re, hvis man s\u00e5 g\u00e5r den her retning. Og s\u00e5 tager jeg det i minde, n\u00e5r jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
+        "text": "Student 3: Not like high, but like more like components that are dedicated for this sort of experiment, like the beam splitter or the more accurate degree polarizers. Even though I didn't, the problem",
+        "full_text": "Student 3: Not like high, but like more like components that are dedicated for this sort of experiment, like the beam splitter or the more accurate degree polarizers. Even though I didn't, the problem with the polarizers not being fully calibrated was a bit confusing at start. So it could be good to have some better knowledge on that beforehand, at least to find a way to actually calibrate them properly.\n\nInterviewer\nSo did you do the pre-lab exercise before? How did you experience the connection between the prelab and the experiment? ",
+        "codes": [
+          "1.a",
+          "3.a"
+        ],
+        "quote_ids": [
+          "I04-Q003",
+          "I04-Q013"
+        ],
+        "count": 2
+      },
+      {
+        "text": "Student 2: Yes, it did. When we got up to this table, it was much easier. But I think the polarization was still difficult to get right because we had to use these other polarizers to make them, you k",
+        "full_text": "Student 2: Yes, it did. When we got up to this table, it was much easier. But I think the polarization was still difficult to get right because we had to use these other polarizers to make them, you know, talk together. So I think it would be nice for the future to have the polarizers be aligned well so that if you're, for example, at 0 degrees, it means it's X-polarized. if it's at 90 degrees, it would be bipolarizing. That would make the experiment much easier. Also because it was not something that was very much focused on in the pre-lab. It was sort of very conceptual with 0 and 90 degrees. But even though that was like the entire problem of our session. So I think it would be, I think, easier for us if the polarizers worked from the beginning.\n\nInterviewer\nAll right. So maybe one last thing is that I don't know you, so I don't know what kind of interest you have and what kind of specialization you are aiming for. But this experiment, how does it relate to what you want to study further on? ",
+        "codes": [
+          "1.a",
+          "3.a"
+        ],
+        "quote_ids": [
+          "I04-Q006",
+          "I04-Q014"
+        ],
+        "count": 2
+      },
+      {
+        "text": "Student 1: I mean, I think the prelab kind of like, it feels like it expects you to actually know what's going on, I think. I feel like I didn't really get surprised by anything in this lab right here",
+        "full_text": "Student 1: I mean, I think the prelab kind of like, it feels like it expects you to actually know what's going on, I think. I feel like I didn't really get surprised by anything in this lab right here because the prelab was so like extensive. But on the other hand, it like feels really nice to actually like know what you're doing and what can we expect when we do this and actually see it happen and try to troubleshoot it when it's not what we just learned should happen?\n\nInterviewer\nAnd this lack of surprise, how did you, what do you think about that? ",
         "codes": [
           "2.a",
           "3.b",
           "3.c"
         ],
         "quote_ids": [
-          "I02-Q010",
-          "I02-Q021",
-          "I02-Q024"
+          "I04-Q007",
+          "I04-Q015",
+          "I04-Q017"
         ],
         "count": 3
       },
       {
-        "text": "student 3: Ja, og s\u00e5 kiggede jeg over, og s\u00e5 var jeg s\u00e5dan lidt, wow, det er meget mere kompleks agtigt. Det er jo bare sejt. Og jeg synes allerede mere, at det er lidt sv\u00e6rt. Det er jo lidt ligesom, ",
-        "full_text": "student 3: Ja, og s\u00e5 kiggede jeg over, og s\u00e5 var jeg s\u00e5dan lidt, wow, det er meget mere kompleks agtigt. Det er jo bare sejt. Og jeg synes allerede mere, at det er lidt sv\u00e6rt. Det er jo lidt ligesom, man st\u00e5r, n\u00e5r man laver en skr\u00e5 bold, og s\u00e5 kigger man p\u00e5 nogle, der laver et meget mere avanceret... Det var et ret sejt fors\u00f8g. Jeg st\u00e5r bare med min skr\u00e5 bold (skr\u00e5t kast) her. S\u00e5 har man ligesom noget man kan se frem til. ",
+        "text": "Student 1: I mean, now I don't know how much further on it is, but it really feels like a quantum experiment. So like I was kind of curious, like personally I haven't really looked into quantum before",
+        "full_text": "Student 1: I mean, now I don't know how much further on it is, but it really feels like a quantum experiment. So like I was kind of curious, like personally I haven't really looked into quantum before the quantum course. So it feels like very great to actually see now it's quantum, now it's not, right? Where the lab for quantum we did before this, it just like felt like something that was just there to be there.\n\nInterviewer\nI'm sorry, as I said, it was my last question, but that makes me curious. So, what, so it's the photoelectric effect you were mentioning the first time? So, what, why did you experience these two things differently? ",
         "codes": [
           "2.a",
-          "3.b"
+          "3.c"
         ],
         "quote_ids": [
-          "I02-Q011",
-          "I02-Q022"
+          "I04-Q008",
+          "I04-Q018"
         ],
         "count": 2
       },
       {
-        "text": "student 1: Jeg synes bare, at det er s\u00e5dan... Lidt som han ogs\u00e5 sagde, det bliver s\u00e5dan lidt mere s\u00e5dan, du sidder med det i h\u00e5nden, lidt ligesom s\u00e5dan en lille barn, der opdager, hvis du blander kart",
-        "full_text": "student 1: Jeg synes bare, at det er s\u00e5dan... Lidt som han ogs\u00e5 sagde, det bliver s\u00e5dan lidt mere s\u00e5dan, du sidder med det i h\u00e5nden, lidt ligesom s\u00e5dan en lille barn, der opdager, hvis du blander kartoffelmel og vand. Alts\u00e5 s\u00e5dan, det bliver meget s\u00e5dan... [uncertain] Intuitivt, du sidder og drejer p\u00e5 det. Du kan se, hvad der sker, n\u00e5r du sidder og drejer. ",
+        "text": "Student 1: I mean, maybe it's because here it's visual, right? It's with lasers you can actually see what is happening, where the photoelectric effect, it's like, I mean, you can maybe say it's just a",
+        "full_text": "Student 1: I mean, maybe it's because here it's visual, right? It's with lasers you can actually see what is happening, where the photoelectric effect, it's like, I mean, you can maybe say it's just another number you're measuring, right? And you do some theory behind it and you find out your results where here you're like, either you actually get interference or not.\n\nInterviewer\nYeah. So you mentioned all the numbers. So this experiment is super conceptual and qualitative in nature. And how did you experience that? I suppose it's different at least from the previous experiment. ",
         "codes": [
           "2.c",
-          "3.a"
+          "3.c"
         ],
         "quote_ids": [
-          "I02-Q012",
-          "I02-Q017"
+          "I04-Q009",
+          "I04-Q019"
+        ],
+        "count": 2
+      },
+      {
+        "text": "Student 2: I thought it was nice because it's, at least in the lectures, it's very much about math and linear algebra. And here it was more conceptual, so I think it works nice together to have a very",
+        "full_text": "Student 2: I thought it was nice because it's, at least in the lectures, it's very much about math and linear algebra. And here it was more conceptual, so I think it works nice together to have a very conceptual lab and then a very theoretical and mathematical lectures.\n\nInterviewer\nSuper. Thank you so much. I disturbed you, so I will stop here. But thank you. It's really valuable for us and we take your input very seriously for our work. So thank you. ",
+        "codes": [
+          "3.c",
+          "3.d"
+        ],
+        "quote_ids": [
+          "I04-Q020",
+          "I04-Q021"
         ],
         "count": 2
       }
     ],
-    "I03": [
+    "I05": [
+      {
+        "text": "Student 1: Ja alts\u00e5 der var en gang hvor et polariseringsfilter vi havde opstillet hvor vi synes at det s\u00e5 godt nok ud ved det antal grader. \u00d8hm og s\u00e5 viste det sig at det var lidt mere man skulle dre",
+        "full_text": "Student 1: Ja alts\u00e5 der var en gang hvor et polariseringsfilter vi havde opstillet hvor vi synes at det s\u00e5 godt nok ud ved det antal grader. \u00d8hm og s\u00e5 viste det sig at det var lidt mere man skulle dreje p\u00e5 dem tror jeg... \u00f8hm hvor det s\u00e5dan lidt jamen, hvorfor virkede det s\u00e5 ogs\u00e5 eller s\u00e5 ud som om det virkede. Ja alts\u00e5 for den der er anden vinkel. Det s\u00e5dan lidt det der hvor man ligesom har det alts\u00e5, man har ikke, det kan man s\u00e5 observere i lab og s\u00e5 er det m\u00e5ske rart. Du ved n\u00e5r man s\u00e5 laver en rapport eller whatever man nu laver bagefter s\u00e5dan at finde ud af hvorfor at man s\u00e5 det.\n\nInterviewer\nS\u00e5 det fandt i faktisk ikke ud af i laboratoriet i dag, hvorfor det var? ",
+        "codes": [
+          "1.a",
+          "3.a"
+        ],
+        "quote_ids": [
+          "I05-Q003",
+          "I05-Q015"
+        ],
+        "count": 2
+      },
+      {
+        "text": "Student 2: Alts\u00e5 p\u00e5 nogen punkter ja. Nogenlunde ja. Vi brugte lidt lang tid p\u00e5 at pr\u00f8ve at finde ud af hvordan nogle af de der komponenter virkede. For eksempel den der beamsplitter boks, der stod vi",
+        "full_text": "Student 2: Alts\u00e5 p\u00e5 nogen punkter ja. Nogenlunde ja. Vi brugte lidt lang tid p\u00e5 at pr\u00f8ve at finde ud af hvordan nogle af de der komponenter virkede. For eksempel den der beamsplitter boks, der stod vi i lang tid og var s\u00e5dan: hvordan fungerer det overhovedet? ",
+        "codes": [
+          "1.a",
+          "3.a"
+        ],
+        "quote_ids": [
+          "I05-Q005",
+          "I05-Q017"
+        ],
+        "count": 2
+      },
       {
         "text": "Student 2: Men Jeg tror, vi fandt ud af... s\u00e5dan cirka... Fik regnet og eller logikket os frem til hvordan det m\u00e5 h\u00e6nge sammen. \u00d8h, uden at s\u00e5dan specifikt at have f\u00e5et at vide den fungerer s\u00e5dan her.",
         "full_text": "Student 2: Men Jeg tror, vi fandt ud af... s\u00e5dan cirka... Fik regnet og eller logikket os frem til hvordan det m\u00e5 h\u00e6nge sammen. \u00d8h, uden at s\u00e5dan specifikt at have f\u00e5et at vide den fungerer s\u00e5dan her.\n\nInterviewer\nS\u00e5 er det noget i selv fandt frem til? ",
         "codes": [
-          "1.c",
-          "3.a"
+          "1.a",
+          "3.b"
         ],
         "quote_ids": [
-          "I03-Q005",
-          "I03-Q016"
+          "I05-Q006",
+          "I05-Q019"
         ],
         "count": 2
+      },
+      {
+        "text": "Student 1: Ja ja, det er vel ogs\u00e5 meget, alts\u00e5 lige at, f\u00e5 den blive sikker p\u00e5. Ja, det var s\u00e5dan lidt det vi s\u00e5dan t\u00e6nkte at det kunne v\u00e6re her, lidt en hypotese ud fra det man ligesom ser. Man s\u00f8rge",
+        "full_text": "Student 1: Ja ja, det er vel ogs\u00e5 meget, alts\u00e5 lige at, f\u00e5 den blive sikker p\u00e5. Ja, det var s\u00e5dan lidt det vi s\u00e5dan t\u00e6nkte at det kunne v\u00e6re her, lidt en hypotese ud fra det man ligesom ser. Man s\u00f8rger s\u00e5 for det, ja at v\u00e6re sikker p\u00e5 det bagefter, men ja m\u00e5ske lidt om... En lille smule om hvordan komponenterne virker. Ja alts\u00e5 det er s\u00e5dan en balance ikke? Alts\u00e5, man skal heller ikke vide for meget fordi s\u00e5 kan jeg heller ikke sp\u00e6ndende alts\u00e5. S\u00e5dan ja. Jeg synes det er meget alts\u00e5 s\u00e5dan rent teknisk ogs\u00e5 hvordan det faktisk virker s\u00e5dan. N\u00e5r man ved hvordan man lidt har kommet p\u00e5 at lave et eksperiment p\u00e5 den her m\u00e5de. \n\nInterviewer\nEr det her med komponenterne hvordan de virker og hvorfor man overhovedet kigger p\u00e5 det her eksperiment. Er det noget i f\u00f8ler i har f\u00e5et svar p\u00e5 nu efter at have v\u00e6ret i lab? ",
+        "codes": [
+          "1.a",
+          "2.a",
+          "3.b"
+        ],
+        "quote_ids": [
+          "I05-Q007",
+          "I05-Q010",
+          "I05-Q020"
+        ],
+        "count": 3
       },
       {
         "text": "Student 1: \u00d8h nogenlunde ja tror jeg. Alts\u00e5 man har jo haft om hvad en laser det er for noget. Jamen jeg tror bare det der beamsplitter jeg stadigv\u00e6k, ja kan v\u00e6re s\u00e5dan lidt, jeg kan godt forst\u00e5 hvad ",
         "full_text": "Student 1: \u00d8h nogenlunde ja tror jeg. Alts\u00e5 man har jo haft om hvad en laser det er for noget. Jamen jeg tror bare det der beamsplitter jeg stadigv\u00e6k, ja kan v\u00e6re s\u00e5dan lidt, jeg kan godt forst\u00e5 hvad den g\u00f8r agtig. Men s\u00e5dan hvordan g\u00f8r den det? Det kunne jeg godt t\u00e6nke mig at vide ja.\n\nInterviewer\nDet forst\u00e5r jeg godt. Hvordan tror i det har lab det h\u00e6nger sammen med jeres fremtidige uddannelser eller fremtid inden for fysik? Alts\u00e5 tror i at i kommer til at bruge det her igen udenfor det her kursus? ",
         "codes": [
-          "1.c",
+          "1.a",
           "3.a"
         ],
         "quote_ids": [
-          "I03-Q006",
-          "I03-Q017"
+          "I05-Q008",
+          "I05-Q018"
         ],
         "count": 2
       },
       {
-        "text": "Student 2: Ja, det er jo altid det der med at s\u00e5dan f\u00e5 fingrene i det selv og st\u00e5 og st\u00e5 og dreje p\u00e5 filtre og s\u00e5dan. Det var meget let for dem og lave fine tegninger og bare sige s\u00e5dan: \"n\u00e5 men der i",
-        "full_text": "Student 2: Ja, det er jo altid det der med at s\u00e5dan f\u00e5 fingrene i det selv og st\u00e5 og st\u00e5 og dreje p\u00e5 filtre og s\u00e5dan. Det var meget let for dem og lave fine tegninger og bare sige s\u00e5dan: \"n\u00e5 men der interferens der og der er ikke interferens der\", men i virkeligheden var det jo lidt mere bare s\u00e5dan: \"Er det en stribe? Jeg kan ikke rigtig se om Det er en stribe.\" Ja ja. [laughs] ",
+        "text": "Student 1: S\u00e5 man kan pr\u00f8ve mange forskellige opstillinger og selv du ved sidde og ja. N\u00e5r man sidder og drejer p\u00e5 det og s\u00e5dan alts\u00e5. Det er s\u00e5dan nogle polariserings \u00f8hm... filtre! Ja Det er det de ",
+        "full_text": "Student 1: S\u00e5 man kan pr\u00f8ve mange forskellige opstillinger og selv du ved sidde og ja. N\u00e5r man sidder og drejer p\u00e5 det og s\u00e5dan alts\u00e5. Det er s\u00e5dan nogle polariserings \u00f8hm... filtre! Ja Det er det de hedder.[laughs] Man kan pr\u00f8ve nogle forskellige ting af ja. Der er jo ogs\u00e5 kun s\u00e5 meget af det man ligesom kan skrive om. Alts\u00e5 man kan jo ikke komme igennem alt hvad man kan p\u00e5 s\u00e5dan en prelab.\n\nInterviewer\nNej selvf\u00f8lgeligt. S\u00e5 fik i de resultater i forventede nede i laboratoriet ud fra jeres prelab eller jeres intuition. ",
         "codes": [
-          "2.a",
-          "2.c"
+          "2.c",
+          "3.a"
         ],
         "quote_ids": [
-          "I03-Q008",
-          "I03-Q012"
+          "I05-Q012",
+          "I05-Q014"
         ],
         "count": 2
       },
@@ -253,27 +438,12 @@
         "text": "Student 2: Ja ja enig. At det man som... Det bliver lidt mere bare s\u00e5dan nysgerrigt og bare s\u00e5dan: n\u00e5 men s\u00e5 pr\u00f8ver vi og dreje p\u00e5 et eller andet og se, n\u00e5 det gjorde ikke nogen forskel. Hvad hvis vi ",
         "full_text": "Student 2: Ja ja enig. At det man som... Det bliver lidt mere bare s\u00e5dan nysgerrigt og bare s\u00e5dan: n\u00e5 men s\u00e5 pr\u00f8ver vi og dreje p\u00e5 et eller andet og se, n\u00e5 det gjorde ikke nogen forskel. Hvad hvis vi g\u00f8r det herover? S\u00e5 n\u00e5, men det det gjorde en forskel. Hvad hvis vi g\u00f8r mere af det eller et eller andet. Ja Det er jo, det er jo ogs\u00e5 sjovt. Noget af det der er det sjove ved at vi f\u00e5r lov til at lave eksperimenter og s\u00e5dan noget. At man bare s\u00e5dan kan lege lidt. Og pr\u00f8ve sig frem med nogle forskellige ting, der m\u00e5ske ikke giver mening, men set kan man jo s\u00e5 finde ud af om det g\u00f8r, ved at pr\u00f8ve at g\u00f8re det. ",
         "codes": [
-          "2.a",
           "2.c",
-          "3.b"
-        ],
-        "quote_ids": [
-          "I03-Q011",
-          "I03-Q014",
-          "I03-Q019"
-        ],
-        "count": 3
-      },
-      {
-        "text": "Student 1: Alts\u00e5 man l\u00e6rer vel hele tiden, hvordan man kan s\u00e6tte et godt eksperiment op. S\u00e5dan at man ja, hvis du har, enten hvis du har en teori om noget og du s\u00e5 gerne vil kunne eftervise det eller ",
-        "full_text": "Student 1: Alts\u00e5 man l\u00e6rer vel hele tiden, hvordan man kan s\u00e6tte et godt eksperiment op. S\u00e5dan at man ja, hvis du har, enten hvis du har en teori om noget og du s\u00e5 gerne vil kunne eftervise det eller kunne unders\u00f8ge hvordan det s\u00e5 h\u00e6nger sammen, s\u00e5 er det jo altid godt at se hvordan man g\u00f8r det p\u00e5 en god m\u00e5de. Og ligesom f\u00e5r noget m\u00e5ske s\u00e5dan intuition om hvordan man kan stille et godt eksperiment op og g\u00f8re det p\u00e5 en ordentlig m\u00e5de s\u00e5dan at man kan stole p\u00e5 de resultater man f\u00e5r, ikke? Det synes jeg er meget vigtigt. Alts\u00e5 hvis man gerne vil det alts\u00e5 unders\u00f8ge ting. Men Det er vel altid vigtigt at kunne unders\u00f8ge noget man gerne vil vide p\u00e5 en fornuftig m\u00e5de. Alts\u00e5 uanset hvad man skal, t\u00e6nker jeg ja. ",
-        "codes": [
-          "3.a",
           "3.c"
         ],
         "quote_ids": [
-          "I03-Q015",
-          "I03-Q022"
+          "I05-Q013",
+          "I05-Q024"
         ],
         "count": 2
       },
@@ -281,44 +451,137 @@
         "text": "Student 2: Jeg ved det ikke alts\u00e5. Jeg er m\u00e5ske lidt i en speciel situation, fordi at jeg er sidefagsstuderende, s\u00e5 jeg er ikke fysiker, s\u00e5 jeg tror ikke jeg kommer til at bruge det her specifikt til ",
         "full_text": "Student 2: Jeg ved det ikke alts\u00e5. Jeg er m\u00e5ske lidt i en speciel situation, fordi at jeg er sidefagsstuderende, s\u00e5 jeg er ikke fysiker, s\u00e5 jeg tror ikke jeg kommer til at bruge det her specifikt til s\u00e6rlig meget senere. Men alts\u00e5 gymnasieelever synes ogs\u00e5, at lasere er seje. Og da er s\u00e5dan et eksperiment som det her, det er jo s\u00e5dan relativt simpelt, s\u00e5 det ville man jo ogs\u00e5 godt kunne, p\u00e5 en eller anden m\u00e5de i hvert fald noget med l\u00e6sere og spejle og s\u00e5dan noget, s\u00e6tte op i en gymnasieklasse. Og der er det jo fedt, selv at have st\u00e5et og leget med det f\u00f8rst. Ja helt sikkert ja.\n\nInterviewer\nOkay jeg tror ikke jeg har mere. Er der mere? Var der andet? Er der noget i har t\u00e6nkt p\u00e5? Noget der kunne v\u00e6re relevant at n\u00e6vne? ",
         "codes": [
-          "3.b",
           "3.c",
           "3.d"
         ],
         "quote_ids": [
-          "I03-Q021",
-          "I03-Q023",
-          "I03-Q024"
+          "I05-Q026",
+          "I05-Q027"
         ],
-        "count": 3
+        "count": 2
+      }
+    ],
+    "I07": [
+      {
+        "text": "Student 1: S\u00e5 det fik vi l\u00e6rt.",
+        "full_text": "Student 1: S\u00e5 det fik vi l\u00e6rt. ",
+        "codes": [
+          "1.a",
+          "3.b"
+        ],
+        "quote_ids": [
+          "I07-Q002",
+          "I07-Q013"
+        ],
+        "count": 2
+      },
+      {
+        "text": "Student 1: Og hvordan vi skulle kalibrere det. Interviewer Det lyder ogs\u00e5 godt.",
+        "full_text": "Student 1: Og hvordan vi skulle kalibrere det.\n\nInterviewer\nDet lyder ogs\u00e5 godt. ",
+        "codes": [
+          "1.a",
+          "3.b"
+        ],
+        "quote_ids": [
+          "I07-Q003",
+          "I07-Q014"
+        ],
+        "count": 2
+      },
+      {
+        "text": "Student 1: I forhold til hinanden ja. Det var noget med udstyret. Det fik vi at vide. Interviewer Sp\u00e6ndende. F\u00f8ler i at i har l\u00e6rt noget? Har i f\u00e5et noget ud af det?",
+        "full_text": "Student 1: I forhold til hinanden ja. Det var noget med udstyret. Det fik vi at vide.\n\nInterviewer\nSp\u00e6ndende. F\u00f8ler i at i har l\u00e6rt noget? Har i f\u00e5et noget ud af det? ",
+        "codes": [
+          "1.a",
+          "3.a"
+        ],
+        "quote_ids": [
+          "I07-Q006",
+          "I07-Q010"
+        ],
+        "count": 2
+      },
+      {
+        "text": "Student 1: Nej, S\u00e5dan nogle gange var det m\u00e5ske lidt sv\u00e6rt at f\u00e5 hj\u00e6lp. Fordi der kun var en TA s\u00e5 man m\u00e5tte vente nogle gange. Interviewer Hvad var det for eksempel i ville have hj\u00e6lp til?",
+        "full_text": "Student 1: Nej, S\u00e5dan nogle gange var det m\u00e5ske lidt sv\u00e6rt at f\u00e5 hj\u00e6lp. Fordi der kun var en TA s\u00e5 man m\u00e5tte vente nogle gange.\n\nInterviewer\nHvad var det for eksempel i ville have hj\u00e6lp til? ",
+        "codes": [
+          "1.a",
+          "3.a"
+        ],
+        "quote_ids": [
+          "I07-Q007",
+          "I07-Q012"
+        ],
+        "count": 2
+      },
+      {
+        "text": "Student 1: Ja, det f\u00f8ler jeg faktisk. Jeg synes det var lidt sejt at kunne se det.",
+        "full_text": "Student 1: Ja, det f\u00f8ler jeg faktisk. Jeg synes det var lidt sejt at kunne se det. ",
+        "codes": [
+          "3.b",
+          "3.c"
+        ],
+        "quote_ids": [
+          "I07-Q015",
+          "I07-Q019"
+        ],
+        "count": 2
+      },
+      {
+        "text": "Student 1: Ja, jeg synes kvantefysik er meget flot og det har jeg synes i lang tid, men jeg synes det bliver bestemt ikke kedeligere det her, det bliver sjovere. Interviewer Ja, skidegodt. [silence]",
+        "full_text": "Student 1: Ja, jeg synes kvantefysik er meget flot og det har jeg synes i lang tid, men jeg synes det bliver bestemt ikke kedeligere det her, det bliver sjovere.\n\nInterviewer\nJa, skidegodt.\n\n[silence] ",
+        "codes": [
+          "3.c",
+          "3.d"
+        ],
+        "quote_ids": [
+          "I07-Q020",
+          "I07-Q023"
+        ],
+        "count": 2
       }
     ]
   },
   "cross_interview_duplicates": [],
   "cross_theme_quotes_per_interview": {
-    "I01": 5,
-    "I02": 6,
-    "I03": 3
+    "I01": 2,
+    "I02": 1,
+    "I03": 5,
+    "I04": 6,
+    "I05": 7,
+    "I07": 4
   },
   "interview_stats": {
     "I01": {
-      "total_quotes": 18,
-      "num_distinct_codes": 6,
-      "total_codes_in_codebook": 10
+      "total_quotes": 16,
+      "num_distinct_codes": 4,
+      "total_codes_in_codebook": 8
     },
     "I02": {
-      "total_quotes": 25,
+      "total_quotes": 21,
       "num_distinct_codes": 7,
-      "total_codes_in_codebook": 10
+      "total_codes_in_codebook": 8
     },
     "I03": {
-      "total_quotes": 24,
+      "total_quotes": 26,
+      "num_distinct_codes": 6,
+      "total_codes_in_codebook": 8
+    },
+    "I04": {
+      "total_quotes": 21,
       "num_distinct_codes": 7,
-      "total_codes_in_codebook": 10
+      "total_codes_in_codebook": 8
+    },
+    "I05": {
+      "total_quotes": 27,
+      "num_distinct_codes": 7,
+      "total_codes_in_codebook": 8
+    },
+    "I07": {
+      "total_quotes": 23,
+      "num_distinct_codes": 5,
+      "total_codes_in_codebook": 8
     }
   },
-  "zero_quote_codes": [
-    "1.a",
-    "2.b"
-  ]
+  "zero_quote_codes": []
 }

@@ -119,7 +119,7 @@ def run_pass1(client, model, turns, theme, system_prompt, pass1_template):
     )
     response = client.messages.create(
         model=model,
-        max_tokens=8000,
+        max_tokens=10000,
         system=system_prompt,
         messages=[
             {"role": "user", "content": [doc, {"type": "text", "text": user_text}]}

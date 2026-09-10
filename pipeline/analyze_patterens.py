@@ -124,7 +124,7 @@ def run_pattern_analysis(client, model, system_prompt, prompt_template, aggregat
     )
     response = client.messages.create(
         model=model,
-        max_tokens=16000,
+        max_tokens=20000,
         system=system_prompt,
         tools=[FINDINGS_TOOL],
         tool_choice={"type": "tool", "name": "record_pattern_findings"},
