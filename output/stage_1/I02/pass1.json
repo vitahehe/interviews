@@ -26,6 +26,18 @@
       "quote_id": "I02-Q002"
     },
     {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: Not specific to the lab, I would say. There's this difference between the T2* and T2, right? On a theoretical level. How do they enter into the master question? But that's not something I would expect to get covered in a lab session anyways, right? That's more.\n\nInterviewer\nSo can you walk me through, so I know the exercise and there's a progression, but can you walk us through some of the challenges you faced during the exercise? What was challenging? ",
+      "turn_ids": [
+        "I02-T013"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I02-Q003"
+    },
+    {
       "theme_id": "2",
       "code": "2.b",
       "cited_text": "Student 3: Don't know if this is maybe a bad idea, but a bit more of the sort of Hamiltonian math could be nice, just so because we say: Oh, the detuning, if we do this, then we drive this in this position, or we do A, we get this superposition. I would like to see it if you're used to think in terms of a Hamiltonian acting on some kind of or a unitary acting on a qubit, right? ",
@@ -35,55 +47,7 @@
       "speakers": [
         "Student 3"
       ],
-      "quote_id": "I02-Q003"
-    },
-    {
-      "theme_id": "2",
-      "code": "2.c",
-      "cited_text": "Student 1: It's very practical.\n\nInterviewer\nSo you mentioned the detuning, you mentioned a lot of different parameters. So how about you two? Do you think, did you have the same experience about the number of frequencies and parameters that could be overwhelming? ",
-      "turn_ids": [
-        "I02-T016"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
       "quote_id": "I02-Q004"
-    },
-    {
-      "theme_id": "2",
-      "code": "2.c",
-      "cited_text": "Student 1: I mean, I'm also in the quantum computing way. I think I'm a little bit more in fabrication, like crystal growth direction, but it's definitely interesting. Like, yeah, it's definitely persuading me a little bit, so...\n\nInterviewer\nIn what's in persuading you in what sense? ",
-      "turn_ids": [
-        "I02-T030"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
-      "quote_id": "I02-Q005"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "Student 3: The fact that you can focus on the physics instead of having to learn about the setup. ",
-      "turn_ids": [
-        "I02-T008"
-      ],
-      "speakers": [
-        "Student 3"
-      ],
-      "quote_id": "I02-Q006"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "Student 3: It would be nice to learn about, of course, but for a single app that's not possible.\n\nInterviewer\nSo you did not have any specific preparation before this exercise and you are also the first ones, so in the beginning of the course. No, you're in the beginning, the first one this week. ",
-      "turn_ids": [
-        "I02-T010"
-      ],
-      "speakers": [
-        "Student 3"
-      ],
-      "quote_id": "I02-Q007"
     },
     {
       "theme_id": "3",
@@ -95,7 +59,7 @@
       "speakers": [
         "Student 3"
       ],
-      "quote_id": "I02-Q008"
+      "quote_id": "I02-Q005"
     },
     {
       "theme_id": "3",
@@ -107,19 +71,19 @@
       "speakers": [
         "Student 3"
       ],
-      "quote_id": "I02-Q009"
+      "quote_id": "I02-Q006"
     },
     {
       "theme_id": "3",
       "code": "3.a",
-      "cited_text": "Student 3: And better to split it up in several small sessions, maybe instead of having one big long marathon session. You do get a bit sort of dizzy by standing in there for four hours. ",
+      "cited_text": "Student 1: I don't think so. I think it was pretty, I think I like it because it was very straightforward. I think the whole mechanism with the website and everything made it fairly easy to... Before in classes we would often get these long papers where you step in and it's super confusing, there was a lot of text and you had to figure out what to do. Here it was very, like: Think about this. Okay, now you thought about this, go into the website and then what you just thought about, apply that with these parameters. She explained the parameters. I think it was... ",
       "turn_ids": [
-        "I02-T021"
+        "I02-T007"
       ],
       "speakers": [
-        "Student 3"
+        "Student 1"
       ],
-      "quote_id": "I02-Q010"
+      "quote_id": "I02-Q007"
     },
     {
       "theme_id": "3",
@@ -131,7 +95,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I02-Q011"
+      "quote_id": "I02-Q008"
     },
     {
       "theme_id": "3",
@@ -143,7 +107,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I02-Q012"
+      "quote_id": "I02-Q009"
     },
     {
       "theme_id": "3",
@@ -155,7 +119,19 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I02-Q013"
+      "quote_id": "I02-Q010"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: Actually, I thought it was, I mean, I think it could have been nice to have some more theory behind it, like some more readings to do that would help us with understanding what we're doing today. But I felt like this was one of the better labs for me in the sense that everything was very straightforward and the questions that we were asked, we were able to get immediate feedback on from the TA, which was super nice. And I'm very used to not understanding what is going on in lab classes. So to an extent, I almost feel like the fact that we were working with the TA who could help us, even if we didn't have so much background, maybe. It was a really nice learning experience. [agreement] ",
+      "turn_ids": [
+        "I02-T004"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I02-Q011"
     },
     {
       "theme_id": "3",
@@ -167,31 +143,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I02-Q014"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 1: I don't think so. I think it was pretty, I think I like it because it was very straightforward. I think the whole mechanism with the website and everything made it fairly easy to... Before in classes we would often get these long papers where you step in and it's super confusing, there was a lot of text and you had to figure out what to do. Here it was very, like: Think about this. Okay, now you thought about this, go into the website and then what you just thought about, apply that with these parameters. She explained the parameters. I think it was... ",
-      "turn_ids": [
-        "I02-T007"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
-      "quote_id": "I02-Q015"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 2: But I almost feel like the amount of time we were in the lab today is really good. Now it will be good for us to meet and kind of Talk about what we have done. ",
-      "turn_ids": [
-        "I02-T020"
-      ],
-      "speakers": [
-        "Student 2"
-      ],
-      "quote_id": "I02-Q016"
+      "quote_id": "I02-Q012"
     },
     {
       "theme_id": "3",
@@ -203,7 +155,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I02-Q017"
+      "quote_id": "I02-Q013"
     },
     {
       "theme_id": "3",
@@ -215,7 +167,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I02-Q018"
+      "quote_id": "I02-Q014"
     },
     {
       "theme_id": "3",
@@ -227,7 +179,19 @@
       "speakers": [
         "Student 3"
       ],
-      "quote_id": "I02-Q019"
+      "quote_id": "I02-Q015"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 1: I mean, I'm also in the quantum computing way. I think I'm a little bit more in fabrication, like crystal growth direction, but it's definitely interesting. Like, yeah, it's definitely persuading me a little bit, so...\n\nInterviewer\nIn what's in persuading you in what sense? ",
+      "turn_ids": [
+        "I02-T030"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I02-Q016"
     },
     {
       "theme_id": "3",
@@ -239,7 +203,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I02-Q020"
+      "quote_id": "I02-Q017"
     },
     {
       "theme_id": "3",
@@ -251,10 +215,11 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I02-Q021"
+      "quote_id": "I02-Q018"
     }
   ],
   "codes_with_no_quotes": [
-    "2.a"
+    "2.a",
+    "2.c"
   ]
 }

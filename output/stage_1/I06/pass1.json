@@ -2,6 +2,114 @@
   "interview_id": "I06",
   "quotes": [
     {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Filtrene. Altså det der med at filtrene ikke... Der står hvad for en vinkel det skal forestille og være på, og så kan man justere den, men det er den forkerte vinkel. Så det bliver nødt til ligesom at finde ud af. Vi blev jo nødt til sådan at lege os lidt frem til at finde ud af, hvilken vinkel er egentlig nul grader og så endte det jo med altså... Og så står det på filtret som sådan 140 eller et eller andet ikke? Altså det det var en... Det ja... Det var lidt frustrerende, men øh. ",
+      "turn_ids": [
+        "I06-T014"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I06-Q001"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Lige så snart vi fangede den, så var det okay, ikke? ",
+      "turn_ids": [
+        "I06-T015"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I06-Q002"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Men jo jeg alle vores vinkler hvor vi ligesom havde: okay her er den rent faktisk. Øh hvor der er 0 eller 45 eller 90 grader. Det var sådan lidt hvor jeg sad sådan: her bliver den lavere, her bliver den lavere cirka her ikke? Lidt irriterende så ja. ",
+      "turn_ids": [
+        "I06-T017"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I06-Q003"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Det var nok ja, Det var nok det værste forhindring [oversat] tror jeg. Det tog altså også lidt tid at fange at det var det vi skulle gøre, ikke? For at finde vinklen, at vi ikke Sådan jamen... Vi er kom ned af et par veje der var forkerte ikke? Inden vi fandt ud af, hvordan vi skulle gøre med det, så.\n\nInterviewer\nMen er det noget jeg selv kom frem til, eller var det sammen med jeres TA? ",
+      "turn_ids": [
+        "I06-T018"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I06-Q004"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Det var sammen med vores TA ja. Helt klart. ",
+      "turn_ids": [
+        "I06-T019"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I06-Q005"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Og du, du vidste det? Det tror. Mig og Student 1, vi var forvirret. ",
+      "turn_ids": [
+        "I06-T020"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I06-Q006"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: Ja. Jeg havde en Sådan snert af en fornemmelse af fra, den tid, de tidligere forklaringer, at det her offset der var i de her filtre på samme måde som mange andre forsøg, som vi har lavet, i bund og grund ikke har været sat sammen med sådan rimelig meget tankegang. Hvor det er sådan lidt en: Vi sætter det ind for at gøre det færdig hurtigt, og så tager vi bare og regner med det senere, fordi vi gider ikke rigtig... Vi gider egentlig ikke rigtig tage tiden i det til at sørge for det er justeret korrekt. ",
+      "turn_ids": [
+        "I06-T021"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I06-Q007"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: jamen vi har lejet rigtig meget med interferensen af de der fotoner, som vi skød ud med laseren og især også matematikken, har vi skulle ja arbejdet os lidt langsomt igennem, fordi at det nok også er det som er den store hurdle. Om hvorfor der lige pludselig er interferens og hvorfor der ikke er interferens i den anden... Ja.\n\nInterviewer\nSå fandt de ud af det. Giver det mening nu? ",
+      "turn_ids": [
+        "I06-T010"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I06-Q008"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: Ja. Altså Sådan indenfor rigelighedens grænser. Vi havde lige et øjeblik i sidste øjeblik, hvor at interferensen i quantum eraseren, den lige pludselig den skiftede tidsafhængigt med at vise interferens og ikke vise interferens. Og Det var vi lidt forvirrede over, og det var vores TA også lidt forvirret over. Men det det var sådan nok den største del som vi helt ikke rigtigt har fået svar på efter i dag. ",
+      "turn_ids": [
+        "I06-T067"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I06-Q009"
+    },
+    {
       "theme_id": "2",
       "code": "2.b",
       "cited_text": "Student 2: Jeg er lidt mere teoretisk anlagt. Jeg er faktisk... Altså mig eksperimenter er ikke super gode venner og jeg tror det er en individuel ting hvis jeg skal være ærligt. Der var andre mennesker der altså synes de er super fede ikke? Altså jeg er mere teoretisk anlagt, så eksperimenterne forvirrer mig mere, end de gør godt. Som regel.\n\nInterviewer\nSå er det måske et særligt vigtigt spørgsmål til dig. Altså har det her eksperiment bare været Sådan en lille: Det skal sgu bare overstås. Eller har du fået noget ud af det i det store billede? ",
@@ -11,7 +119,19 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I06-Q001"
+      "quote_id": "I06-Q010"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.b",
+      "cited_text": "Student 2: Det er et godt spørgsmål ikke? Men jeg tror altid eksperimentet er lidt noget der skal overstås fra min side. ",
+      "turn_ids": [
+        "I06-T063"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I06-Q011"
     },
     {
       "theme_id": "2",
@@ -23,7 +143,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I06-Q002"
+      "quote_id": "I06-Q012"
     },
     {
       "theme_id": "3",
@@ -35,7 +155,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I06-Q003"
+      "quote_id": "I06-Q013"
     },
     {
       "theme_id": "3",
@@ -47,7 +167,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I06-Q004"
+      "quote_id": "I06-Q014"
     },
     {
       "theme_id": "3",
@@ -59,7 +179,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I06-Q005"
+      "quote_id": "I06-Q015"
     },
     {
       "theme_id": "3",
@@ -71,7 +191,19 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I06-Q006"
+      "quote_id": "I06-Q016"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Det var nok ja, Det var nok det værste forhindring [oversat] tror jeg. Det tog altså også lidt tid at fange at det var det vi skulle gøre, ikke? For at finde vinklen, at vi ikke Sådan jamen... Vi er kom ned af et par veje der var forkerte ikke? Inden vi fandt ud af, hvordan vi skulle gøre med det, så.\n\nInterviewer\nMen er det noget jeg selv kom frem til, eller var det sammen med jeres TA? ",
+      "turn_ids": [
+        "I06-T018"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I06-Q017"
     },
     {
       "theme_id": "3",
@@ -83,7 +215,7 @@
       "speakers": [
         "Student 3"
       ],
-      "quote_id": "I06-Q007"
+      "quote_id": "I06-Q018"
     },
     {
       "theme_id": "3",
@@ -95,19 +227,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I06-Q008"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "Student 2: Om det giver mening? Vi kan regne os frem til hvad der sådan skal ske men om det giver mening? Det ved jeg ikke helt, men det er måske også mere bare at det er et svært koncept end at det egentlig er sådan... Altså for jeg synes jo ja, det var jo meget fint at kunne se sådan hvornår der blev skabt en til interferens, hvornår der ikke gjorde og sådan. [uncertain] Jeg ved ikke om det nogensinde kommer til og give helt mening. ",
-      "turn_ids": [
-        "I06-T011"
-      ],
-      "speakers": [
-        "Student 2"
-      ],
-      "quote_id": "I06-Q009"
+      "quote_id": "I06-Q019"
     },
     {
       "theme_id": "3",
@@ -119,7 +239,31 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I06-Q010"
+      "quote_id": "I06-Q020"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Og Det var især det, som Jeg synes at Student 4 han hjalp os rigtig meget med i dag. ",
+      "turn_ids": [
+        "I06-T032"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I06-Q021"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Han fik sat det på plads for os. Ja. ",
+      "turn_ids": [
+        "I06-T034"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I06-Q022"
     },
     {
       "theme_id": "3",
@@ -131,7 +275,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I06-Q011"
+      "quote_id": "I06-Q023"
     },
     {
       "theme_id": "3",
@@ -143,7 +287,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I06-Q012"
+      "quote_id": "I06-Q024"
     },
     {
       "theme_id": "3",
@@ -155,7 +299,19 @@
       "speakers": [
         "Student 3"
       ],
-      "quote_id": "I06-Q013"
+      "quote_id": "I06-Q025"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Det ved jeg ikke rigtigt. Altså jeg synes det at snakke med TA har givet mig meget af det jeg synes jeg manglede, men selve eksperimentet synes jeg måske bare lidt viste hvad vi allerede havde regnet på. Men... Når det så er sagt, så kan jeg heller ikke lide eksperimentet, så jeg er nok tilbøjelig til at være temmelig kritisk overfor dem.\n\nInterviewer\nJa. jamen der er så godt med lidt input. så fik i altid de resultater i forventede at få? ",
+      "turn_ids": [
+        "I06-T065"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I06-Q026"
     },
     {
       "theme_id": "3",
@@ -167,7 +323,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I06-Q014"
+      "quote_id": "I06-Q027"
     },
     {
       "theme_id": "3",
@@ -179,7 +335,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I06-Q015"
+      "quote_id": "I06-Q028"
     },
     {
       "theme_id": "3",
@@ -191,7 +347,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I06-Q016"
+      "quote_id": "I06-Q029"
     },
     {
       "theme_id": "3",
@@ -203,19 +359,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I06-Q017"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 1: Ja. Det er et godt svar. [laughs] Ja Jeg synes vi fik gjort alt det der ligesom var at gøre. Altså den største ting var rent faktisk at lave setuppet for den der quantum eraser der stod der som sådan en challenge. At få den der: Det ene var interferens og det andet ikke var, og nu var det omvendt. Men ja og efter det ligesom var gjort, så var det som om at man ligesom var: OK der er kun så mange måder man ligesom kan blokere lys eller bare sætte sådan en polarizer op på, når det er et simpelt setup. Så vi gjorde basically alt det vi lige tænkte, der var vigtigt at gøre med det. Ret så hurtigt i hvert fald. ",
-      "turn_ids": [
-        "I06-T053"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
-      "quote_id": "I06-Q018"
+      "quote_id": "I06-Q030"
     },
     {
       "theme_id": "3",
@@ -227,7 +371,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I06-Q019"
+      "quote_id": "I06-Q031"
     },
     {
       "theme_id": "3",
@@ -239,7 +383,19 @@
       "speakers": [
         "Student 3"
       ],
-      "quote_id": "I06-Q020"
+      "quote_id": "I06-Q032"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: Men Det var rigtig godt at der var de der prelab synes jeg helt klart. Det synes jeg måske godt er noget man kunne gøre i andre kurser også fordi det at forstå alt teorien inden, det hjælper altså rimelig meget på når du er i lab. Måske i EM ikke altså? Der kunne det have været rart. Men ja, så jeg synes det er rigtig godt at der er de der prelab. ",
+      "turn_ids": [
+        "I06-T037"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I06-Q033"
     },
     {
       "theme_id": "3",
@@ -251,35 +407,10 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I06-Q021"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.d",
-      "cited_text": "Student 3: Ja jeg især bestemt selv lidt ubestemt, men også nu her specielt efter vi er cirka halvvejs i kurset, så vil jeg generelt set sige at jeg synes, at jeg har sådan lidt afmystificeret begrebet kantemekanik, og hvor jeg er lidt ærgerlig over, at jeg har fået afmystificeret det, så er jeg egentlig også ret glad for at jeg nu ved lidt mere og et nyt emne, som jeg faktisk synes er rimelig interessant, som jeg gerne vil vide mere om.\n\nInterviewer\nHvordan tror du det her eksperiment passer ind i din fremtid? ",
-      "turn_ids": [
-        "I06-T061"
-      ],
-      "speakers": [
-        "Student 3"
-      ],
-      "quote_id": "I06-Q022"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.d",
-      "cited_text": "Student 2: Det ved jeg ikke rigtigt. Altså jeg synes det at snakke med TA har givet mig meget af det jeg synes jeg manglede, men selve eksperimentet synes jeg måske bare lidt viste hvad vi allerede havde regnet på. Men... Når det så er sagt, så kan jeg heller ikke lide eksperimentet, så jeg er nok tilbøjelig til at være temmelig kritisk overfor dem.\n\nInterviewer\nJa. jamen der er så godt med lidt input. så fik i altid de resultater i forventede at få? ",
-      "turn_ids": [
-        "I06-T065"
-      ],
-      "speakers": [
-        "Student 2"
-      ],
-      "quote_id": "I06-Q023"
+      "quote_id": "I06-Q034"
     }
   ],
   "codes_with_no_quotes": [
-    "1.a",
     "2.a",
     "2.c"
   ]

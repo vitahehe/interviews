@@ -28,6 +28,18 @@
     {
       "theme_id": "1",
       "code": "1.a",
+      "cited_text": "Student 1: No, I don't think I was worried, but I think I was very aware not to do any of the things we talked about in the safety like wrong.\n\nInterviewer\nYeah. How about you? Was it also new for you and was it something that you made you somehow more cautious or aware than usually? ",
+      "turn_ids": [
+        "I04-T003"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I04-Q003"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
       "cited_text": "Student 3: Not like high, but like more like components that are dedicated for this sort of experiment, like the beam splitter or the more accurate degree polarizers. Even though I didn't, the problem with the polarizers not being fully calibrated was a bit confusing at start. So it could be good to have some better knowledge on that beforehand, at least to find a way to actually calibrate them properly.\n\nInterviewer\nSo did you do the pre-lab exercise before? How did you experience the connection between the prelab and the experiment? ",
       "turn_ids": [
         "I04-T007"
@@ -35,7 +47,7 @@
       "speakers": [
         "Student 3"
       ],
-      "quote_id": "I04-Q003"
+      "quote_id": "I04-Q004"
     },
     {
       "theme_id": "1",
@@ -47,7 +59,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I04-Q004"
+      "quote_id": "I04-Q005"
     },
     {
       "theme_id": "1",
@@ -59,7 +71,7 @@
       "speakers": [
         "Student 3"
       ],
-      "quote_id": "I04-Q005"
+      "quote_id": "I04-Q006"
     },
     {
       "theme_id": "1",
@@ -71,41 +83,29 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I04-Q006"
-    },
-    {
-      "theme_id": "2",
-      "code": "2.a",
-      "cited_text": "Student 1: I mean, I think the prelab kind of like, it feels like it expects you to actually know what's going on, I think. I feel like I didn't really get surprised by anything in this lab right here because the prelab was so like extensive. But on the other hand, it like feels really nice to actually like know what you're doing and what can we expect when we do this and actually see it happen and try to troubleshoot it when it's not what we just learned should happen?\n\nInterviewer\nAnd this lack of surprise, how did you, what do you think about that? ",
-      "turn_ids": [
-        "I04-T008"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
       "quote_id": "I04-Q007"
     },
     {
       "theme_id": "2",
-      "code": "2.a",
-      "cited_text": "Student 1: I mean, now I don't know how much further on it is, but it really feels like a quantum experiment. So like I was kind of curious, like personally I haven't really looked into quantum before the quantum course. So it feels like very great to actually see now it's quantum, now it's not, right? Where the lab for quantum we did before this, it just like felt like something that was just there to be there.\n\nInterviewer\nI'm sorry, as I said, it was my last question, but that makes me curious. So, what, so it's the photoelectric effect you were mentioning the first time? So, what, why did you experience these two things differently? ",
+      "code": "2.c",
+      "cited_text": "Student 2: I worked in an optical lab as a student operator in an engineering company, so I'm pretty used to working with lasers, so I don't feel that I probably don't have that much awareness of it because I'm used to it.\n\nInterviewer\nHow about you? ",
       "turn_ids": [
-        "I04-T014"
+        "I04-T004"
       ],
       "speakers": [
-        "Student 1"
+        "Student 2"
       ],
       "quote_id": "I04-Q008"
     },
     {
       "theme_id": "2",
       "code": "2.c",
-      "cited_text": "Student 1: I mean, maybe it's because here it's visual, right? It's with lasers you can actually see what is happening, where the photoelectric effect, it's like, I mean, you can maybe say it's just another number you're measuring, right? And you do some theory behind it and you find out your results where here you're like, either you actually get interference or not.\n\nInterviewer\nYeah. So you mentioned all the numbers. So this experiment is super conceptual and qualitative in nature. And how did you experience that? I suppose it's different at least from the previous experiment. ",
+      "cited_text": "Student 3: I've worked with some optical equipment before. I mean, this is more high-tech, but I've worked with the lasers before, so it's not, I know that my general way around how to handle them.\n\nInterviewer\nSo I'm getting a bit curious about what part of this you consider as high-tech. Because I don't know what you experienced before. ",
       "turn_ids": [
-        "I04-T015"
+        "I04-T006"
       ],
       "speakers": [
-        "Student 1"
+        "Student 3"
       ],
       "quote_id": "I04-Q009"
     },
@@ -124,18 +124,6 @@
     {
       "theme_id": "3",
       "code": "3.a",
-      "cited_text": "Student 2: I worked in an optical lab as a student operator in an engineering company, so I'm pretty used to working with lasers, so I don't feel that I probably don't have that much awareness of it because I'm used to it.\n\nInterviewer\nHow about you? ",
-      "turn_ids": [
-        "I04-T004"
-      ],
-      "speakers": [
-        "Student 2"
-      ],
-      "quote_id": "I04-Q011"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.a",
       "cited_text": "Student 3: I've worked with some optical equipment before. I mean, this is more high-tech, but I've worked with the lasers before, so it's not, I know that my general way around how to handle them.\n\nInterviewer\nSo I'm getting a bit curious about what part of this you consider as high-tech. Because I don't know what you experienced before. ",
       "turn_ids": [
         "I04-T006"
@@ -143,7 +131,7 @@
       "speakers": [
         "Student 3"
       ],
-      "quote_id": "I04-Q012"
+      "quote_id": "I04-Q011"
     },
     {
       "theme_id": "3",
@@ -155,7 +143,7 @@
       "speakers": [
         "Student 3"
       ],
-      "quote_id": "I04-Q013"
+      "quote_id": "I04-Q012"
     },
     {
       "theme_id": "3",
@@ -167,19 +155,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I04-Q014"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "Student 1: I mean, I think the prelab kind of like, it feels like it expects you to actually know what's going on, I think. I feel like I didn't really get surprised by anything in this lab right here because the prelab was so like extensive. But on the other hand, it like feels really nice to actually like know what you're doing and what can we expect when we do this and actually see it happen and try to troubleshoot it when it's not what we just learned should happen?\n\nInterviewer\nAnd this lack of surprise, how did you, what do you think about that? ",
-      "turn_ids": [
-        "I04-T008"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
-      "quote_id": "I04-Q015"
+      "quote_id": "I04-Q013"
     },
     {
       "theme_id": "3",
@@ -191,19 +167,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I04-Q016"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 1: I mean, I think the prelab kind of like, it feels like it expects you to actually know what's going on, I think. I feel like I didn't really get surprised by anything in this lab right here because the prelab was so like extensive. But on the other hand, it like feels really nice to actually like know what you're doing and what can we expect when we do this and actually see it happen and try to troubleshoot it when it's not what we just learned should happen?\n\nInterviewer\nAnd this lack of surprise, how did you, what do you think about that? ",
-      "turn_ids": [
-        "I04-T008"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
-      "quote_id": "I04-Q017"
+      "quote_id": "I04-Q014"
     },
     {
       "theme_id": "3",
@@ -215,19 +179,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I04-Q018"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 1: I mean, maybe it's because here it's visual, right? It's with lasers you can actually see what is happening, where the photoelectric effect, it's like, I mean, you can maybe say it's just another number you're measuring, right? And you do some theory behind it and you find out your results where here you're like, either you actually get interference or not.\n\nInterviewer\nYeah. So you mentioned all the numbers. So this experiment is super conceptual and qualitative in nature. And how did you experience that? I suppose it's different at least from the previous experiment. ",
-      "turn_ids": [
-        "I04-T015"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
-      "quote_id": "I04-Q019"
+      "quote_id": "I04-Q015"
     },
     {
       "theme_id": "3",
@@ -239,7 +191,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I04-Q020"
+      "quote_id": "I04-Q016"
     },
     {
       "theme_id": "3",
@@ -251,10 +203,11 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I04-Q021"
+      "quote_id": "I04-Q017"
     }
   ],
   "codes_with_no_quotes": [
+    "2.a",
     "2.b"
   ]
 }

@@ -37,9 +37,6 @@ export ANTHROPIC_API_KEY=your_key_here
 
 ## Processing One Interview (I01)
 
-This section walks through the complete pipeline for interview I01, from raw transcript to final outputs.
-
-### Step 1: Segment the raw transcript
 
 Converts raw speaker-labeled transcript into structured turns (each with turn_id, speaker type, and text).
 
@@ -52,9 +49,7 @@ python pipeline/segment_transcript.py \
 
 **Output:** `data/processed/Monday_20260223_Kvant1_lab_transcript.json`
 
-### Step 2: Run Stage 1 analysis (Pass 1 + Pass 2)
-
-Finds evidence for each code in the codebook (Pass 1, citations-enabled), then interprets each quote (Pass 2, forced tool use). Produces three files per interview.
+Than, find evidence for each code in the codebook (Pass 1, citations-enabled), then interprets each quote (Pass 2, forced tool use). Produces three files per interview.
 
 ```bash
 python pipeline/pipeline.py \
@@ -70,31 +65,6 @@ python pipeline/pipeline.py \
 - `output/stage_1/I01/pass1.json` — all evidence found (quotes + turn IDs)
 - `output/stage_1/I01/pass2.json` — all interpretations (rationale + teaching implications)
 - `output/stage_1/I01/metadata.json` — timing, usage, hashes, validation info
-
-## Processing Additional Interviews
-
-To run the same pipeline for a different interview, repeat Steps 1–2 with a different input file and interview ID. Example for interview I03:
-
-### Step 1: Segment I03
-
-```bash
-python pipeline/segment_transcript.py \
-  --input transcription/test/kvant1_julie_1_transcript.txt \
-  --interview-id I03 \
-  --output data/processed/kvant1_julie_1_transcript.json
-```
-
-### Step 2: Analyze I03
-
-```bash
-python pipeline/pipeline.py \
-  --interview-id I03 \
-  --processed data/processed/kvant1_julie_1_transcript.json \
-  --codebook codebook.yaml \
-  --prompts-dir prompts \
-  --outdir output/stage_1/I03 \
-  --model claude-sonnet-5
-```
 
 ## Stage 2: Cross-Interview Aggregation & Pattern Finding
 
@@ -149,27 +119,9 @@ For detailed documentation of how each component works, design constraints, and 
 
 ## Quick Start: Stage 1 Only (Segment & Analyze All Interviews)
 
-Process all transcripts in `transcription/test/` automatically without typing filenames:
+counter=0; for file in transcription/test/*.txt; do counter=$((counter + 1)); interview_id=$(printf "I%02d" "$counter"); filename=$(basename "$file" .txt); echo "Segmenting $interview_id: $file"; python pipeline/segment_transcript.py --input "$file" --interview-id "$interview_id" --output "data/processed/${filename}.json" || break; done && echo "✓ All interviews segmented!"
 
-```bash
-counter=0; for file in transcription/test/*.txt; do \
-  counter=$((counter + 1)); \
-  interview_id=$(printf "I%02d" $counter); \
-  filename=$(basename "$file" .txt); \
-  echo "Processing $interview_id: $file"; \
-  python pipeline/segment_transcript.py \
-    --input "$file" \
-    --interview-id "$interview_id" \
-    --output "data/processed/${filename}.json" && \
-  python pipeline/pipeline.py \
-    --interview-id "$interview_id" \
-    --processed "data/processed/${filename}.json" \
-    --codebook codebook.yaml \
-    --prompts-dir prompts \
-    --outdir "output/stage_1/${interview_id}" \
-    --model claude-sonnet-5 || break; \
-done && echo "✓ Stage 1 complete!"
-```
+counter=0; for file in transcription/test/*.txt; do counter=$((counter + 1)); interview_id=$(printf "I%02d" "$counter"); filename=$(basename "$file" .txt); echo "Running pipeline for $interview_id: $file"; python pipeline/pipeline.py --interview-id "$interview_id" --processed "data/processed/${filename}.json" --codebook codebook.yaml --prompts-dir prompts --outdir "output/stage_1/${interview_id}" --model claude-sonnet-5 || break; done && echo "✓ Stage 1 complete!"
 
 **What this does:**
 - Finds all `.txt` files in `transcription/test/`
@@ -179,8 +131,6 @@ done && echo "✓ Stage 1 complete!"
 - Stops on error (safe mode)
 
 ---
-
-## Complete End-to-End (All Stages, All Interviews)
 
 After Stage 1 completes, run Stage 2 (aggregation + pattern finding):
 
@@ -196,3 +146,19 @@ python pipeline/analyze_patterens.py \
 echo "✓ All stages complete! Results in output/stage_1/ and outputs/stage_2/"
 ```
 
+
+
+FOR NOW Æ Segmenting I01: transcription/test/Monday_20260223_Kvant1_lab_transcript.txt
+Wrote 45 turns (25 student quote units) to data/processed/Monday_20260223_Kvant1_lab_transcript.json
+Segmenting I02: transcription/test/PIQIP_Qinu_lab_bjarke_1.txt
+Wrote 37 turns (37 student quote units) to data/processed/PIQIP_Qinu_lab_bjarke_1.json
+Segmenting I03: transcription/test/Wednesday_20260225_Kvant1_lab_transcript.txt
+Wrote 56 turns (31 student quote units) to data/processed/Wednesday_20260225_Kvant1_lab_transcript.json
+Segmenting I04: transcription/test/kvant1_bjarke_3_transcript.txt
+Wrote 16 turns (16 student quote units) to data/processed/kvant1_bjarke_3_transcript.json
+Segmenting I05: transcription/test/kvant1_julie_1_transcript.txt
+Wrote 45 turns (45 student quote units) to data/processed/kvant1_julie_1_transcript.json
+Segmenting I06: transcription/test/kvant1_julie_2_transcript.txt
+Wrote 79 turns (79 student quote units) to data/processed/kvant1_julie_2_transcript.json
+Segmenting I07: transcription/test/kvant1_julie_3_transcript.txt
+Wrote 49 turns (49 student quote units) to data/processed/kvant1_julie_3_transcript.json

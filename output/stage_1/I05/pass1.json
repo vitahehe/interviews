@@ -146,18 +146,6 @@
       "quote_id": "I05-Q012"
     },
     {
-      "theme_id": "2",
-      "code": "2.c",
-      "cited_text": "Student 2: Ja ja enig. At det man som... Det bliver lidt mere bare sådan nysgerrigt og bare sådan: nå men så prøver vi og dreje på et eller andet og se, nå det gjorde ikke nogen forskel. Hvad hvis vi gør det herover? Så nå, men det det gjorde en forskel. Hvad hvis vi gør mere af det eller et eller andet. Ja Det er jo, det er jo også sjovt. Noget af det der er det sjove ved at vi får lov til at lave eksperimenter og sådan noget. At man bare sådan kan lege lidt. Og prøve sig frem med nogle forskellige ting, der måske ikke giver mening, men set kan man jo så finde ud af om det gør, ved at prøve at gøre det. ",
-      "turn_ids": [
-        "I05-T033"
-      ],
-      "speakers": [
-        "Student 2"
-      ],
-      "quote_id": "I05-Q013"
-    },
-    {
       "theme_id": "3",
       "code": "3.a",
       "cited_text": "Student 1: Så man kan prøve mange forskellige opstillinger og selv du ved sidde og ja. Når man sidder og drejer på det og sådan altså. Det er sådan nogle polariserings øhm... filtre! Ja Det er det de hedder.[laughs] Man kan prøve nogle forskellige ting af ja. Der er jo også kun så meget af det man ligesom kan skrive om. Altså man kan jo ikke komme igennem alt hvad man kan på sådan en prelab.\n\nInterviewer\nNej selvfølgeligt. Så fik i de resultater i forventede nede i laboratoriet ud fra jeres prelab eller jeres intuition. ",
@@ -167,7 +155,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I05-Q014"
+      "quote_id": "I05-Q013"
     },
     {
       "theme_id": "3",
@@ -179,7 +167,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I05-Q015"
+      "quote_id": "I05-Q014"
     },
     {
       "theme_id": "3",
@@ -191,7 +179,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I05-Q016"
+      "quote_id": "I05-Q015"
     },
     {
       "theme_id": "3",
@@ -199,6 +187,18 @@
       "cited_text": "Student 2: Altså på nogen punkter ja. Nogenlunde ja. Vi brugte lidt lang tid på at prøve at finde ud af hvordan nogle af de der komponenter virkede. For eksempel den der beamsplitter boks, der stod vi i lang tid og var sådan: hvordan fungerer det overhovedet? ",
       "turn_ids": [
         "I05-T036"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I05-Q016"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Men Jeg tror, vi fandt ud af... sådan cirka... Fik regnet og eller logikket os frem til hvordan det må hænge sammen. Øh, uden at sådan specifikt at have fået at vide den fungerer sådan her.\n\nInterviewer\nSå er det noget i selv fandt frem til? ",
+      "turn_ids": [
+        "I05-T038"
       ],
       "speakers": [
         "Student 2"
@@ -219,6 +219,30 @@
     },
     {
       "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Jeg ved det ikke altså. Jeg er måske lidt i en speciel situation, fordi at jeg er sidefagsstuderende, så jeg er ikke fysiker, så jeg tror ikke jeg kommer til at bruge det her specifikt til særlig meget senere. Men altså gymnasieelever synes også, at lasere er seje. Og da er sådan et eksperiment som det her, det er jo sådan relativt simpelt, så det ville man jo også godt kunne, på en eller anden måde i hvert fald noget med læsere og spejle og sådan noget, sætte op i en gymnasieklasse. Og der er det jo fedt, selv at have stået og leget med det først. Ja helt sikkert ja.\n\nInterviewer\nOkay jeg tror ikke jeg har mere. Er der mere? Var der andet? Er der noget i har tænkt på? Noget der kunne være relevant at nævne? ",
+      "turn_ids": [
+        "I05-T044"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I05-Q019"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Det er altid sjovt at se noget andet eller ikke noget andet, det er også sjovt at se at det der sker faktisk er det som vil man ligesom kunne forvente. Men Det er også sjovt, nu hvor man ikke er mega meget inde i øh kvante optik endnu, at ligesom se nogle andre effekter også, og så tænke: \"nå, men hvad kunne det så være?\" Altså sådan at der er mere at tænke over end bare det man havde læst før. Og det sker så og også færdig. Ja ja.\n\nInterviewer\nDet er god mening ja. Hvordan synes i tiden var altså hvad i har været nede i 3 timer? Gå jeg ud fra. ",
+      "turn_ids": [
+        "I05-T017"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I05-Q020"
+    },
+    {
+      "theme_id": "3",
       "code": "3.b",
       "cited_text": "Student 2: Men Jeg tror, vi fandt ud af... sådan cirka... Fik regnet og eller logikket os frem til hvordan det må hænge sammen. Øh, uden at sådan specifikt at have fået at vide den fungerer sådan her.\n\nInterviewer\nSå er det noget i selv fandt frem til? ",
       "turn_ids": [
@@ -227,7 +251,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I05-Q019"
+      "quote_id": "I05-Q021"
     },
     {
       "theme_id": "3",
@@ -239,19 +263,19 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I05-Q020"
+      "quote_id": "I05-Q022"
     },
     {
       "theme_id": "3",
       "code": "3.b",
-      "cited_text": "Student 1: Altså jeg synes det giver mening hele tiden. Altså hvorfor man laver eksperimenterne. Men nogen gange måske hvordan de er blevet sat op. Altså det kunne jeg da ikke finde ud af, før at jeg startede med at lave noget fysik agtig. Altså Sådan eller... ",
+      "cited_text": "Student 1: Øh nogenlunde ja tror jeg. Altså man har jo haft om hvad en laser det er for noget. Jamen jeg tror bare det der beamsplitter jeg stadigvæk, ja kan være sådan lidt, jeg kan godt forstå hvad den gør agtig. Men sådan hvordan gør den det? Det kunne jeg godt tænke mig at vide ja.\n\nInterviewer\nDet forstår jeg godt. Hvordan tror i det har lab det hænger sammen med jeres fremtidige uddannelser eller fremtid inden for fysik? Altså tror i at i kommer til at bruge det her igen udenfor det her kursus? ",
       "turn_ids": [
-        "I05-T040"
+        "I05-T042"
       ],
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I05-Q021"
+      "quote_id": "I05-Q023"
     },
     {
       "theme_id": "3",
@@ -263,7 +287,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I05-Q022"
+      "quote_id": "I05-Q024"
     },
     {
       "theme_id": "3",
@@ -275,7 +299,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I05-Q023"
+      "quote_id": "I05-Q025"
     },
     {
       "theme_id": "3",
@@ -287,7 +311,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I05-Q024"
+      "quote_id": "I05-Q026"
     },
     {
       "theme_id": "3",
@@ -299,19 +323,19 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I05-Q025"
+      "quote_id": "I05-Q027"
     },
     {
       "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 2: Jeg ved det ikke altså. Jeg er måske lidt i en speciel situation, fordi at jeg er sidefagsstuderende, så jeg er ikke fysiker, så jeg tror ikke jeg kommer til at bruge det her specifikt til særlig meget senere. Men altså gymnasieelever synes også, at lasere er seje. Og da er sådan et eksperiment som det her, det er jo sådan relativt simpelt, så det ville man jo også godt kunne, på en eller anden måde i hvert fald noget med læsere og spejle og sådan noget, sætte op i en gymnasieklasse. Og der er det jo fedt, selv at have stået og leget med det først. Ja helt sikkert ja.\n\nInterviewer\nOkay jeg tror ikke jeg har mere. Er der mere? Var der andet? Er der noget i har tænkt på? Noget der kunne være relevant at nævne? ",
+      "code": "3.d",
+      "cited_text": "Student 1: Altså man lærer vel hele tiden, hvordan man kan sætte et godt eksperiment op. Sådan at man ja, hvis du har, enten hvis du har en teori om noget og du så gerne vil kunne eftervise det eller kunne undersøge hvordan det så hænger sammen, så er det jo altid godt at se hvordan man gør det på en god måde. Og ligesom får noget måske sådan intuition om hvordan man kan stille et godt eksperiment op og gøre det på en ordentlig måde sådan at man kan stole på de resultater man får, ikke? Det synes jeg er meget vigtigt. Altså hvis man gerne vil det altså undersøge ting. Men Det er vel altid vigtigt at kunne undersøge noget man gerne vil vide på en fornuftig måde. Altså uanset hvad man skal, tænker jeg ja. ",
       "turn_ids": [
-        "I05-T044"
+        "I05-T043"
       ],
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
-      "quote_id": "I05-Q026"
+      "quote_id": "I05-Q028"
     },
     {
       "theme_id": "3",
@@ -323,7 +347,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I05-Q027"
+      "quote_id": "I05-Q029"
     }
   ],
   "codes_with_no_quotes": [

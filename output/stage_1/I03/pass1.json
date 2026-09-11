@@ -4,9 +4,9 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "student 3: Mere det visuelle med lys, der faktisk begyndte at interferere. Og så lige pludselig gjorde den det ikke. Og så lige pludselig forsvandt det bare. Det var meget kaotisk på en eller anden måde. Så tænkte man meget mere over, at det faktisk var de der to bølger. ",
+      "cited_text": "student 3: Det var mere det med, at man ændrede det en grad, og så tænkte man, det gør jo ikke noget som helst. Og så var der interferens. Og så var det sådan, at når man lige vil have interferens, så lad os lige gå en grad længere ned. Så det var meget... mere det med. Det går meget hurtigt, og hvis man kom til at røre ved spejlen, så wobblede lyset på pladen, fordi det gør jo meget for selv i lyset. ",
       "turn_ids": [
-        "I03-T005"
+        "I03-T007"
       ],
       "speakers": [
         "student 3"
@@ -16,12 +16,12 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "student 3: Det var mere det med, at man ændrede det en grad, og så tænkte man, det gør jo ikke noget som helst. Og så var der interferens. Og så var det sådan, at når man lige vil have interferens, så lad os lige gå en grad længere ned. Så det var meget... mere det med. Det går meget hurtigt, og hvis man kom til at røre ved spejlen, så wobblede lyset på pladen, fordi det gør jo meget for selv i lyset. ",
+      "cited_text": "student 1: Jeg tror, jeg er overrasket over, hvor stor forskel det gjorde at rykke bord. [laughs] ",
       "turn_ids": [
-        "I03-T007"
+        "I03-T011"
       ],
       "speakers": [
-        "student 3"
+        "student 1"
       ],
       "quote_id": "I03-Q002"
     },
@@ -40,30 +40,6 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "student 3: Nå ja, det var bare fordi, hvad er det nu det hedder... Jeg kom bare lidt for set af. Jeg var også lidt småsyg, og så blev jeg smidt ind i, at vi var i gang, så jeg fattede ikke rigtigt, hvad der foregik. Så det var bare, hvordan man lavede forsøget, og hvorfor de var ude af vinklen. Hvorfor kunne man ikke bare stole på dem? Det var det, jeg var meget forvirret over. ",
-      "turn_ids": [
-        "I03-T051"
-      ],
-      "speakers": [
-        "student 3"
-      ],
-      "quote_id": "I03-Q004"
-    },
-    {
-      "theme_id": "2",
-      "code": "2.c",
-      "cited_text": "student 2: Jeg tror, det var sådan... Det er meget en direkte forståelse for, hvad du gør. Altså i forhold til, hvordan en gang skal du sætte dig ind i et program, så skal du se, hvad det program fortæller dig. ",
-      "turn_ids": [
-        "I03-T036"
-      ],
-      "speakers": [
-        "student 2"
-      ],
-      "quote_id": "I03-Q005"
-    },
-    {
-      "theme_id": "2",
-      "code": "2.c",
       "cited_text": "student 2: Ja, et kode program. Så ser du det ind i din picoskop og sætter dem ind og husker hvad akserne betyder og så giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. Det gør jo både at man kan hurtigt, og så kan man forstå det... Det kan også gøre, at hvis man ikke forstår det, så tænker man lige pludselig, hvad der skete, og det er selvfølgelig fint. De linser er ikke 100% perfekte og sådan noget... ",
       "turn_ids": [
         "I03-T038"
@@ -71,7 +47,19 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I03-Q006"
+      "quote_id": "I03-Q004"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "student 3: Nå ja, det var bare fordi, hvad er det nu det hedder... Jeg kom bare lidt for set af. Jeg var også lidt småsyg, og så blev jeg smidt ind i, at vi var i gang, så jeg fattede ikke rigtigt, hvad der foregik. Så det var bare, hvordan man lavede forsøget, og hvorfor de var ude af vinklen. Hvorfor kunne man ikke bare stole på dem? Det var det, jeg var meget forvirret over. ",
+      "turn_ids": [
+        "I03-T051"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "I03-Q005"
     },
     {
       "theme_id": "2",
@@ -83,7 +71,7 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I03-Q007"
+      "quote_id": "I03-Q006"
     },
     {
       "theme_id": "3",
@@ -95,7 +83,7 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I03-Q008"
+      "quote_id": "I03-Q007"
     },
     {
       "theme_id": "3",
@@ -107,7 +95,7 @@
       "speakers": [
         "student 3"
       ],
-      "quote_id": "I03-Q009"
+      "quote_id": "I03-Q008"
     },
     {
       "theme_id": "3",
@@ -119,7 +107,7 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I03-Q010"
+      "quote_id": "I03-Q009"
     },
     {
       "theme_id": "3",
@@ -131,7 +119,7 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I03-Q011"
+      "quote_id": "I03-Q010"
     },
     {
       "theme_id": "3",
@@ -143,7 +131,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I03-Q012"
+      "quote_id": "I03-Q011"
     },
     {
       "theme_id": "3",
@@ -154,6 +142,18 @@
       ],
       "speakers": [
         "student 2"
+      ],
+      "quote_id": "I03-Q012"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "student 3: Ja, det var sjovt nok. Jeg har ikke nogen specielle holdninger til lasere. Noget med, at man ikke rigtig bukke sig ned fordi så får man lasere i øjnene, og så bliver ens syn værre. Og så skulle man stå op. ",
+      "turn_ids": [
+        "I03-T041"
+      ],
+      "speakers": [
+        "student 3"
       ],
       "quote_id": "I03-Q013"
     },
@@ -232,12 +232,12 @@
     {
       "theme_id": "3",
       "code": "3.c",
-      "cited_text": "student 2: Det var ikke sådan, at man kommer ind og tænker, [emphasis] what? Jeg har prøvet andre labgange hvor man sidder og tænker ok, hvordan skal jeg sætte det her op? Setuppet sidder der jo allerede. Så ma er meget fri til at sidde der og lege med det og på den måde få en forståelse for lys. ",
+      "cited_text": "student 1: Jeg tror, det var meget rart at vide, at det var på NBI. [laughs] ",
       "turn_ids": [
-        "I03-T023"
+        "I03-T015"
       ],
       "speakers": [
-        "student 2"
+        "student 1"
       ],
       "quote_id": "I03-Q020"
     },
@@ -280,6 +280,18 @@
     {
       "theme_id": "3",
       "code": "3.c",
+      "cited_text": "student 3: Jeg stod lidt mest, da vi var derinde, og så kiggede jeg på en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men så sad jeg og så var jeg sådan lidt, jeg synes allerede det er meget besværligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men så ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. Nå, det var den kvantekomputer, tror jeg. Så det virkede ret sejt. Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
+      "turn_ids": [
+        "I03-T049"
+      ],
+      "speakers": [
+        "student 3"
+      ],
+      "quote_id": "I03-Q024"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
       "cited_text": "student 3: Ja, og så kiggede jeg over, og så var jeg sådan lidt, wow, det er meget mere kompleks agtigt. Det er jo bare sejt. Og jeg synes allerede mere, at det er lidt svært. Det er jo lidt ligesom, man står, når man laver en skrå bold, og så kigger man på nogle, der laver et meget mere avanceret... Det var et ret sejt forsøg. Jeg står bare med min skrå bold (skråt kast) her. Så har man ligesom noget man kan se frem til. ",
       "turn_ids": [
         "I03-T053"
@@ -287,7 +299,7 @@
       "speakers": [
         "student 3"
       ],
-      "quote_id": "I03-Q024"
+      "quote_id": "I03-Q025"
     },
     {
       "theme_id": "3",
@@ -299,7 +311,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I03-Q025"
+      "quote_id": "I03-Q026"
     },
     {
       "theme_id": "3",
@@ -311,7 +323,7 @@
       "speakers": [
         "student 3"
       ],
-      "quote_id": "I03-Q026"
+      "quote_id": "I03-Q027"
     }
   ],
   "codes_with_no_quotes": [

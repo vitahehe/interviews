@@ -4,12 +4,12 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do this like the results were almost there for us before actually doing the experiment where here we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it yeah so yeah What is the physics behind it? ",
+      "cited_text": "student 1: So if you haven't come really prepared to the lab, you don't necessarily have the time to really understand what you're doing. And you're just kind of going on. You're more focusing on taking the data. And logging it and making sure to see it correctly.[agreement] ",
       "turn_ids": [
-        "I01-T008"
+        "I01-T014"
       ],
       "speakers": [
-        "student 2"
+        "student 1"
       ],
       "quote_id": "I01-Q001"
     },
@@ -50,6 +50,18 @@
       "quote_id": "I01-Q004"
     },
     {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "student 1: I kind of expected to see more interference. Same way. I thought it was gonna be a bit more obvious than it was. Yeah. All right. So that's my expectation. Then I was like, oh okay, I can see it. But it's not like as... Not as fun. Yeah, not as like definite, like as defined as I expected it to be. ",
+      "turn_ids": [
+        "I01-T032"
+      ],
+      "speakers": [
+        "student 1"
+      ],
+      "quote_id": "I01-Q005"
+    },
+    {
       "theme_id": "2",
       "code": "2.a",
       "cited_text": "student 1: Well, compared to maybe when we look back at our first year, we kind of like, you need to do this and do this and hand in this, so you need to get this data. While here, it was just, we encourage you to do this, and we do need you to make a video about it, but there was nothing like, you need to do this, and you need to have the angles like this and the filters like this so mess around in the sense that it was very free. ",
@@ -59,7 +71,7 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I01-Q005"
+      "quote_id": "I01-Q006"
     },
     {
       "theme_id": "2",
@@ -71,7 +83,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I01-Q006"
+      "quote_id": "I01-Q007"
     },
     {
       "theme_id": "3",
@@ -83,7 +95,19 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I01-Q007"
+      "quote_id": "I01-Q008"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "student 1: Well, compared to maybe when we look back at our first year, we kind of like, you need to do this and do this and hand in this, so you need to get this data. While here, it was just, we encourage you to do this, and we do need you to make a video about it, but there was nothing like, you need to do this, and you need to have the angles like this and the filters like this so mess around in the sense that it was very free. ",
+      "turn_ids": [
+        "I01-T006"
+      ],
+      "speakers": [
+        "student 1"
+      ],
+      "quote_id": "I01-Q009"
     },
     {
       "theme_id": "3",
@@ -95,7 +119,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I01-Q008"
+      "quote_id": "I01-Q010"
     },
     {
       "theme_id": "3",
@@ -107,19 +131,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I01-Q009"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "student 1: Well, compared to maybe when we look back at our first year, we kind of like, you need to do this and do this and hand in this, so you need to get this data. While here, it was just, we encourage you to do this, and we do need you to make a video about it, but there was nothing like, you need to do this, and you need to have the angles like this and the filters like this so mess around in the sense that it was very free. ",
-      "turn_ids": [
-        "I01-T006"
-      ],
-      "speakers": [
-        "student 1"
-      ],
-      "quote_id": "I01-Q010"
+      "quote_id": "I01-Q011"
     },
     {
       "theme_id": "3",
@@ -131,7 +143,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I01-Q011"
+      "quote_id": "I01-Q012"
     },
     {
       "theme_id": "3",
@@ -143,7 +155,7 @@
       "speakers": [
         "student 3"
       ],
-      "quote_id": "I01-Q012"
+      "quote_id": "I01-Q013"
     },
     {
       "theme_id": "3",
@@ -155,7 +167,7 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I01-Q013"
+      "quote_id": "I01-Q014"
     },
     {
       "theme_id": "3",
@@ -167,7 +179,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I01-Q014"
+      "quote_id": "I01-Q015"
     },
     {
       "theme_id": "3",
@@ -179,7 +191,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I01-Q015"
+      "quote_id": "I01-Q016"
     },
     {
       "theme_id": "3",
@@ -191,7 +203,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I01-Q016"
+      "quote_id": "I01-Q017"
     }
   ],
   "codes_with_no_quotes": [

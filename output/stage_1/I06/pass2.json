@@ -3,9 +3,153 @@
   "interpretations": [
     {
       "quote_id": "I06-Q001",
-      "rationale": "The student explicitly self-identifies as 'mere teoretisk anlagt' and states that experiments confuse rather than help, directly marking a theorist identity in contrast to an experimentalist one.",
-      "why_interesting": "It shows a student consciously framing their scientific identity as oppositional to hands-on experimental work, suggesting the lab may not align with how they see themselves as a physicist.",
-      "teaching_implication": "Labs could offer more explicit bridges between theory and procedure for theory-oriented students, e.g., annotating why each step matters conceptually (speculative).",
+      "rationale": "The student describes a concrete technical problem (filters not matching stated angles) and the trial-and-error process used to resolve it, which is a direct account of problem-solving experience.",
+      "why_interesting": "It shows how equipment labeling inconsistencies can force students into an unplanned discovery process, turning a calibration issue into an improvised problem-solving task.",
+      "teaching_implication": "Labs could pre-calibrate or clearly document the true zero-angle offset of filters to reduce time lost to trial-and-error (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Filtrene. Altså det der med at filtrene ikke... Der står hvad for en vinkel det skal forestille og være på, og så kan man justere den, men det er den forkerte vinkel. Så det bliver nødt til ligesom at finde ud af. Vi blev jo nødt til sådan at lege os lidt frem til at finde ud af, hvilken vinkel er egentlig nul grader og så endte det jo med altså... Og så står det på filtret som sådan 140 eller et eller andet ikke? Altså det det var en... Det ja... Det var lidt frustrerende, men øh. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I06-T014"
+      ]
+    },
+    {
+      "quote_id": "I06-Q002",
+      "rationale": "The quote directly states that once they 'caught' the right answer, the problem-solving process was resolved and things became fine.",
+      "why_interesting": "It captures the moment of relief/resolution after a struggle, which is a hallmark of the problem-solving experience students undergo in labs.",
+      "teaching_implication": "Recognizing that students often need a single breakthrough moment suggests TAs could watch for signs of stagnation and offer a small hint to trigger this moment sooner (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Lige så snart vi fangede den, så var det okay, ikke? ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I06-T015"
+      ]
+    },
+    {
+      "quote_id": "I06-Q003",
+      "rationale": "The student describes systematically checking angles (0, 45, 90 degrees) and finding inconsistent readings, illustrating an iterative problem-solving approach.",
+      "why_interesting": "It reveals the granular, repetitive nature of troubleshooting equipment discrepancies, showing frustration tied directly to the experimental process rather than concepts.",
+      "teaching_implication": "Providing students with a reference calibration chart for angles could reduce this repetitive troubleshooting burden (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Men jo jeg alle vores vinkler hvor vi ligesom havde: okay her er den rent faktisk. Øh hvor der er 0 eller 45 eller 90 grader. Det var sådan lidt hvor jeg sad sådan: her bliver den lavere, her bliver den lavere cirka her ikke? Lidt irriterende så ja. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I06-T017"
+      ]
+    },
+    {
+      "quote_id": "I06-Q004",
+      "rationale": "The student explicitly names the angle-finding issue as 'nok det værste forhindring' (probably the worst obstacle), directly describing a problem-solving challenge and the wrong paths taken before resolving it.",
+      "why_interesting": "It highlights that the biggest obstacle for the group was not conceptual but procedural/technical, suggesting a mismatch between intended learning goals and actual time expenditure.",
+      "teaching_implication": "Consider whether time spent on equipment troubleshooting could be redirected toward conceptual learning by simplifying the physical setup (speculative).",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "Student 2: Det var nok ja, Det var nok det værste forhindring [oversat] tror jeg. Det tog altså også lidt tid at fange at det var det vi skulle gøre, ikke? For at finde vinklen, at vi ikke Sådan jamen... Vi er kom ned af et par veje der var forkerte ikke? Inden vi fandt ud af, hvordan vi skulle gøre med det, så.\n\nInterviewer\nMen er det noget jeg selv kom frem til, eller var det sammen med jeres TA? ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I06-T018"
+      ]
+    },
+    {
+      "quote_id": "I06-Q005",
+      "rationale": "The quote directly confirms that solving the angle-finding problem was accomplished together with the TA, indicating the role of TA support in the problem-solving experience.",
+      "why_interesting": "It shows that problem-solving in this lab was not purely independent but scaffolded by TA involvement, which shapes how much struggle the students actually experienced.",
+      "teaching_implication": "This suggests TA availability is a key resource for resolving equipment-related obstacles quickly, and labs should ensure adequate TA-to-group ratios (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Det var sammen med vores TA ja. Helt klart. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I06-T019"
+      ]
+    },
+    {
+      "quote_id": "I06-Q006",
+      "rationale": "The quote reflects the student's uncertainty ('vi var forvirret') during the problem-solving process, indicating confusion as part of grappling with the equipment issue.",
+      "why_interesting": "It shows the emotional state of confusion that accompanied the technical troubleshooting, which is a common part of authentic problem-solving experiences in labs.",
+      "teaching_implication": "Explicitly normalizing confusion as part of the process in lab guides might reduce student anxiety around not immediately understanding equipment behavior (speculative).",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "Student 2: Og du, du vidste det? Det tror. Mig og Student 1, vi var forvirret. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I06-T020"
+      ]
+    },
+    {
+      "quote_id": "I06-Q007",
+      "rationale": "The student reflects on a suspicion that the filter offset issue stemmed from careless setup by prior lab preparers, framing this as part of diagnosing the source of their problem.",
+      "why_interesting": "It reveals a meta-level problem-solving insight: the student is not just fixing the immediate issue but hypothesizing about its systemic origin across multiple experiments.",
+      "teaching_implication": "Lab setup checklists or quality-control procedures before sessions could prevent recurring alignment issues that undermine student trust in the equipment (speculative).",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "Student 3: Ja. Jeg havde en Sådan snert af en fornemmelse af fra, den tid, de tidligere forklaringer, at det her offset der var i de her filtre på samme måde som mange andre forsøg, som vi har lavet, i bund og grund ikke har været sat sammen med sådan rimelig meget tankegang. Hvor det er sådan lidt en: Vi sætter det ind for at gøre det færdig hurtigt, og så tager vi bare og regner med det senere, fordi vi gider ikke rigtig... Vi gider egentlig ikke rigtig tage tiden i det til at sørge for det er justeret korrekt. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 3"
+      ],
+      "turn_ids": [
+        "I06-T021"
+      ]
+    },
+    {
+      "quote_id": "I06-Q008",
+      "rationale": "The student describes working slowly through the mathematics of interference as the 'store hurdle' (big hurdle), directly describing a conceptual problem-solving challenge.",
+      "why_interesting": "It shows a shift in problem-solving focus from equipment mechanics to conceptual/mathematical difficulty, indicating multiple layers of challenge in the same lab.",
+      "teaching_implication": "Providing supplementary worked examples on interference mathematics before lab could help students spend less time struggling with the math during the session (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: jamen vi har lejet rigtig meget med interferensen af de der fotoner, som vi skød ud med laseren og især også matematikken, har vi skulle ja arbejdet os lidt langsomt igennem, fordi at det nok også er det som er den store hurdle. Om hvorfor der lige pludselig er interferens og hvorfor der ikke er interferens i den anden... Ja.\n\nInterviewer\nSå fandt de ud af det. Giver det mening nu? ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I06-T010"
+      ]
+    },
+    {
+      "quote_id": "I06-Q009",
+      "rationale": "The student describes an unresolved anomaly (interference appearing and disappearing unpredictably) that even the TA could not explain, showing an ongoing problem-solving challenge.",
+      "why_interesting": "It highlights a case where problem-solving reached a limit, leaving both student and TA without an answer, which is notable for revealing gaps in scaffolding or equipment reliability.",
+      "teaching_implication": "Documenting known equipment quirks or anomalies for TAs to reference could help address unresolved issues in real time (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 3: Ja. Altså Sådan indenfor rigelighedens grænser. Vi havde lige et øjeblik i sidste øjeblik, hvor at interferensen i quantum eraseren, den lige pludselig den skiftede tidsafhængigt med at vise interferens og ikke vise interferens. Og Det var vi lidt forvirrede over, og det var vores TA også lidt forvirret over. Men det det var sådan nok den største del som vi helt ikke rigtigt har fået svar på efter i dag. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 3"
+      ],
+      "turn_ids": [
+        "I06-T067"
+      ]
+    },
+    {
+      "quote_id": "I06-Q010",
+      "rationale": "The student explicitly self-identifies as 'teoretisk anlagt' (theoretically inclined) and states that experiments confuse rather than help him, directly expressing a theorist identity.",
+      "why_interesting": "It reveals a clear self-categorization that shapes how the student engages with lab work, suggesting identity as a filter for experience of the same activity.",
+      "teaching_implication": "Lab design might benefit from explicitly connecting experimental results back to theoretical predictions to bridge the gap for theory-oriented students (speculative).",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "Student 2: Jeg er lidt mere teoretisk anlagt. Jeg er faktisk... Altså mig eksperimenter er ikke super gode venner og jeg tror det er en individuel ting hvis jeg skal være ærligt. Der var andre mennesker der altså synes de er super fede ikke? Altså jeg er mere teoretisk anlagt, så eksperimenterne forvirrer mig mere, end de gør godt. Som regel.\n\nInterviewer\nSå er det måske et særligt vigtigt spørgsmål til dig. Altså har det her eksperiment bare været Sådan en lille: Det skal sgu bare overstås. Eller har du fået noget ud af det i det store billede? ",
       "code": "2.b",
@@ -18,10 +162,26 @@
       ]
     },
     {
-      "quote_id": "I06-Q002",
-      "rationale": "The student again frames their critical stance toward the experiment through their own admitted bias ('jeg kan heller ikke lide eksperimentet, så jeg er nok tilbøjelig til at være temmelig kritisk'), reinforcing a theorist self-concept.",
-      "why_interesting": "It reveals how a student's disciplinary identity can color their evaluation of the lab activity itself, independent of its actual instructional design.",
-      "teaching_implication": "Instructors might solicit self-reported disciplinary orientation early to calibrate expectations or scaffolding for students who identify as theorists (speculative).",
+      "quote_id": "I06-Q011",
+      "rationale": "The student states that from his perspective, the experiment is always something that 'skal overstås' (has to be gotten through), reflecting a theorist's instrumental view of lab work.",
+      "why_interesting": "It shows how a theorist identity can translate into diminished intrinsic motivation for the experimental component of a course.",
+      "teaching_implication": "Framing experiments as tests or extensions of theoretical predictions (rather than standalone tasks) might increase engagement for theory-oriented students (speculative).",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "Student 2: Det er et godt spørgsmål ikke? Men jeg tror altid eksperimentet er lidt noget der skal overstås fra min side. ",
+      "code": "2.b",
+      "theme_id": "2",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I06-T063"
+      ]
+    },
+    {
+      "quote_id": "I06-Q012",
+      "rationale": "The student explains that the experiment mostly just showed what they had already calculated, and admits being critical of experiments in general, consistent with a theorist identity that values calculation over experimentation.",
+      "why_interesting": "It suggests that for some students the lab experience feels redundant relative to theoretical work already done, potentially reducing perceived value of the hands-on component.",
+      "teaching_implication": "Consider designing lab tasks that produce genuinely novel or unpredictable results relative to pre-lab calculations, to increase perceived value for theory-oriented students (speculative).",
       "interpretation_grounded_in": "quote_plus_inference",
       "cited_text": "Student 2: Det ved jeg ikke rigtigt. Altså jeg synes det at snakke med TA har givet mig meget af det jeg synes jeg manglede, men selve eksperimentet synes jeg måske bare lidt viste hvad vi allerede havde regnet på. Men... Når det så er sagt, så kan jeg heller ikke lide eksperimentet, så jeg er nok tilbøjelig til at være temmelig kritisk overfor dem.\n\nInterviewer\nJa. jamen der er så godt med lidt input. så fik i altid de resultater i forventede at få? ",
       "code": "2.b",
@@ -34,10 +194,10 @@
       ]
     },
     {
-      "quote_id": "I06-Q003",
-      "rationale": "The quote directly describes physical lab conditions and equipment access ('leget med lasere', lack of laptops, cramped space), which is squarely about laboratory equipment and setup.",
-      "why_interesting": "It highlights how logistical/equipment constraints (space, laptop shortage) shape the student's first impression of the lab experience.",
-      "teaching_implication": "Lab organizers could pre-assess room capacity and equipment needs relative to enrolled group size to avoid cramped conditions (speculative).",
+      "quote_id": "I06-Q013",
+      "rationale": "The student describes concrete physical conditions of the lab space and equipment access (crowding, printed handouts instead of laptops), directly describing the laboratory equipment and setting.",
+      "why_interesting": "It highlights how logistical/spatial constraints in the physical lab environment shape the first impression and experience of using the equipment.",
+      "teaching_implication": "Ensuring adequate space and laptop access for the expected number of groups could improve the initial experience of interacting with lab equipment (speculative).",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "Student 1: Jamen Vi har leget med lasere [laughs], men altså af oplevelser generelt, så det første indtryk var at der var ret crammed. Der var ikke særlig meget plads. Og nu havde vi godt nok også en seddel, så det var blevet lavet lidt rundt omkring at vi ikke kunne få en bærbar ud og sådan. Så der var blevet printet ud for os, så det var rart men ja der var ikke. Altså nu var vi heldige at der kun var 3 grupper der var mødt op fordi der ville ikke have været plads til flere. Så ja. ",
       "code": "3.a",
@@ -50,11 +210,11 @@
       ]
     },
     {
-      "quote_id": "I06-Q004",
-      "rationale": "The quote focuses on the equipment-based task of working with laser-generated photon interference and the mathematics behind it, directly referencing lab equipment use.",
-      "why_interesting": "It shows how equipment-driven exploration (laser interference) is tied to conceptual struggle, illustrating the interplay between hands-on work and theoretical understanding.",
-      "teaching_implication": "Providing a clearer conceptual walkthrough alongside equipment manipulation might reduce the 'hurdle' the student describes (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
+      "quote_id": "I06-Q014",
+      "rationale": "The student references working directly with lasers and the equipment producing photon interference, tying their equipment experience to the mathematical challenge of interpreting results.",
+      "why_interesting": "It shows how equipment interaction and conceptual difficulty are intertwined in the student's account of the lab experience.",
+      "teaching_implication": "Pairing equipment demonstrations with real-time conceptual explanation might help students connect what the laser setup shows to the underlying theory (speculative).",
+      "interpretation_grounded_in": "quote_plus_inference",
       "cited_text": "Student 1: jamen vi har lejet rigtig meget med interferensen af de der fotoner, som vi skød ud med laseren og især også matematikken, har vi skulle ja arbejdet os lidt langsomt igennem, fordi at det nok også er det som er den store hurdle. Om hvorfor der lige pludselig er interferens og hvorfor der ikke er interferens i den anden... Ja.\n\nInterviewer\nSå fandt de ud af det. Giver det mening nu? ",
       "code": "3.a",
       "theme_id": "3",
@@ -66,10 +226,10 @@
       ]
     },
     {
-      "quote_id": "I06-Q005",
-      "rationale": "The quote is specifically about calibrating filter angles ('filtrene', 'vinkel'), a concrete equipment issue encountered during the lab.",
-      "why_interesting": "It illustrates a very tangible frustration with equipment calibration that consumed cognitive effort disconnected from the physics concept being tested.",
-      "teaching_implication": "Pre-lab equipment calibration guides or clearer labeling of true zero-angle references could reduce this frustration (speculative).",
+      "quote_id": "I06-Q015",
+      "rationale": "The student describes a specific equipment flaw where filter angle labels do not match true angle settings, which is a direct account of laboratory equipment issues.",
+      "why_interesting": "It demonstrates how a mismatch between labeled and actual settings on lab equipment can create confusion that is unrelated to the physics concept being taught.",
+      "teaching_implication": "Recalibrating or relabeling filters accurately could remove an unnecessary source of frustration unrelated to the intended learning objective (speculative).",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "Student 2: Filtrene. Altså det der med at filtrene ikke... Der står hvad for en vinkel det skal forestille og være på, og så kan man justere den, men det er den forkerte vinkel. Så det bliver nødt til ligesom at finde ud af. Vi blev jo nødt til sådan at lege os lidt frem til at finde ud af, hvilken vinkel er egentlig nul grader og så endte det jo med altså... Og så står det på filtret som sådan 140 eller et eller andet ikke? Altså det det var en... Det ja... Det var lidt frustrerende, men øh. ",
       "code": "3.a",
@@ -82,10 +242,10 @@
       ]
     },
     {
-      "quote_id": "I06-Q006",
-      "rationale": "The quote describes the process of determining correct angle settings (0, 45, 90 degrees) on lab equipment, directly relating to equipment code.",
-      "why_interesting": "It shows a repeated theme (also seen in Q005) of angle calibration being a persistent source of minor frustration across students.",
-      "teaching_implication": "A standardized calibration procedure or checklist for angle settings could be introduced before the exercise begins (speculative).",
+      "quote_id": "I06-Q016",
+      "rationale": "The student describes physically adjusting a filter or polarizer to find true 0/45/90 degree positions, directly referencing interaction with lab equipment.",
+      "why_interesting": "It shows the fine-grained, sometimes tedious hands-on calibration work required by the equipment, which may not be anticipated by students beforehand.",
+      "teaching_implication": "Including a brief calibration tutorial or demonstration at the start of the session could reduce time spent on this equipment-specific issue (speculative).",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "Student 1: Men jo jeg alle vores vinkler hvor vi ligesom havde: okay her er den rent faktisk. Øh hvor der er 0 eller 45 eller 90 grader. Det var sådan lidt hvor jeg sad sådan: her bliver den lavere, her bliver den lavere cirka her ikke? Lidt irriterende så ja. ",
       "code": "3.a",
@@ -98,11 +258,27 @@
       ]
     },
     {
-      "quote_id": "I06-Q007",
-      "rationale": "The student explicitly discusses the equipment offset issue in filters and suggests it stems from setup not being carefully assembled, directly addressing laboratory equipment quality/preparation.",
-      "why_interesting": "It offers a critical, reflective assessment suggesting a systemic pattern across multiple experiments where equipment is not properly checked before use, not just an isolated incident.",
-      "teaching_implication": "Lab staff might build in a mandatory equipment verification step before experiments start, based on this repeated equipment offset issue (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
+      "quote_id": "I06-Q017",
+      "rationale": "The student explicitly names the angle-finding process as the worst obstacle, directly describing a struggle rooted in equipment characteristics (finding the correct angle).",
+      "why_interesting": "It reinforces that equipment-related issues, rather than conceptual ones, were the most memorable challenge for this group.",
+      "teaching_implication": "Standardizing equipment calibration procedures across groups could reduce variability in how much time is lost to this issue (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Det var nok ja, Det var nok det værste forhindring [oversat] tror jeg. Det tog altså også lidt tid at fange at det var det vi skulle gøre, ikke? For at finde vinklen, at vi ikke Sådan jamen... Vi er kom ned af et par veje der var forkerte ikke? Inden vi fandt ud af, hvordan vi skulle gøre med det, så.\n\nInterviewer\nMen er det noget jeg selv kom frem til, eller var det sammen med jeres TA? ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I06-T018"
+      ]
+    },
+    {
+      "quote_id": "I06-Q018",
+      "rationale": "The student attributes the filter offset problem to careless setup ('vi gider egentlig ikke rigtig tage tiden i det til at sørge for det er justeret korrekt'), directly discussing equipment maintenance quality.",
+      "why_interesting": "It reveals a student's broader critique of lab equipment upkeep across multiple experiments, suggesting a pattern rather than an isolated incident.",
+      "teaching_implication": "Implementing regular equipment calibration checks between lab sessions could address this recurring quality concern (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
       "cited_text": "Student 3: Ja. Jeg havde en Sådan snert af en fornemmelse af fra, den tid, de tidligere forklaringer, at det her offset der var i de her filtre på samme måde som mange andre forsøg, som vi har lavet, i bund og grund ikke har været sat sammen med sådan rimelig meget tankegang. Hvor det er sådan lidt en: Vi sætter det ind for at gøre det færdig hurtigt, og så tager vi bare og regner med det senere, fordi vi gider ikke rigtig... Vi gider egentlig ikke rigtig tage tiden i det til at sørge for det er justeret korrekt. ",
       "code": "3.a",
       "theme_id": "3",
@@ -114,10 +290,10 @@
       ]
     },
     {
-      "quote_id": "I06-Q008",
-      "rationale": "The quote describes physically constructing the quantum eraser setup with polarizers and blocking light, which is a direct description of lab equipment use and assembly.",
-      "why_interesting": "It shows the student's sense of accomplishment and efficient problem-solving once the equipment's limited configuration possibilities were understood.",
-      "teaching_implication": "Highlighting the finite set of equipment configurations early could help students approach the assembly task more systematically (speculative).",
+      "quote_id": "I06-Q019",
+      "rationale": "The student describes the main challenge as setting up the quantum eraser apparatus itself, directly referencing hands-on interaction with lab equipment components like polarizers.",
+      "why_interesting": "It shows that once the equipment setup challenge was understood, the students found the possible configurations of the equipment to be limited and quickly exhausted, suggesting the equipment's constraints shaped the pace of exploration.",
+      "teaching_implication": "Providing a broader range of configurable equipment components might allow for more extended experimental variation and inquiry (speculative).",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "Student 1: Ja. Det er et godt svar. [laughs] Ja Jeg synes vi fik gjort alt det der ligesom var at gøre. Altså den største ting var rent faktisk at lave setuppet for den der quantum eraser der stod der som sådan en challenge. At få den der: Det ene var interferens og det andet ikke var, og nu var det omvendt. Men ja og efter det ligesom var gjort, så var det som om at man ligesom var: OK der er kun så mange måder man ligesom kan blokere lys eller bare sætte sådan en polarizer op på, når det er et simpelt setup. Så vi gjorde basically alt det vi lige tænkte, der var vigtigt at gøre med det. Ret så hurtigt i hvert fald. ",
       "code": "3.a",
@@ -130,27 +306,11 @@
       ]
     },
     {
-      "quote_id": "I06-Q009",
-      "rationale": "The student describes being able to visually observe interference formation ('meget fint at kunne se sådan hvornår der blev skabt en til interferens'), indicating a positive learning moment despite lingering conceptual uncertainty.",
-      "why_interesting": "It captures the tension between visual/experiential confirmation and deeper conceptual sense-making, a nuanced form of partial learning.",
-      "teaching_implication": "Pairing visual observation with explicit conceptual debriefing afterward might help solidify the 'meaning' that the student says is still missing (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 2: Om det giver mening? Vi kan regne os frem til hvad der sådan skal ske men om det giver mening? Det ved jeg ikke helt, men det er måske også mere bare at det er et svært koncept end at det egentlig er sådan... Altså for jeg synes jo ja, det var jo meget fint at kunne se sådan hvornår der blev skabt en til interferens, hvornår der ikke gjorde og sådan. [uncertain] Jeg ved ikke om det nogensinde kommer til og give helt mening. ",
-      "code": "3.b",
-      "theme_id": "3",
-      "speakers": [
-        "Student 2"
-      ],
-      "turn_ids": [
-        "I06-T011"
-      ]
-    },
-    {
-      "quote_id": "I06-Q010",
-      "rationale": "The student credits the prelab with helping concepts 'falde på plads,' directly describing a positive learning experience tied to the prelab discussion.",
-      "why_interesting": "It shows how peer explanation (by 'Student 4') during prelab was a key facilitator of understanding, even though the student also expresses frustration about unfamiliar prerequisite content like entanglement.",
-      "teaching_implication": "Structured peer-teaching moments in prelab could be formalized, and prerequisite topics like entanglement could be flagged explicitly beforehand (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
+      "quote_id": "I06-Q020",
+      "rationale": "The student describes concepts 'falling into place' from the prelab and credits Student 4's explanations for clarifying material, directly describing a positive learning experience.",
+      "why_interesting": "It shows how peer explanation (not just instructor or TA) can be a significant driver of positive learning moments, alongside some frustration about assumed prior knowledge (entanglement).",
+      "teaching_implication": "Structuring prelab sessions to explicitly include peer-teaching opportunities could replicate this positive effect for other groups (speculative).",
+      "interpretation_grounded_in": "quote_plus_inference",
       "cited_text": "Student 1: Men for mig i hvert fald, så var der meget der faldt på plads fra prelab, fordi at vi sad i prelab og prøvede at få styr på nogle af de der koncepter. Og så synes jeg, at Student 4 han gjorde supergodt arbejde i at få fleshet nogle af de der forskellige ting lidt ud. Sådan så det gav bedre mening. Men Jeg er da lidt irriteret fordi at der bliver snakket om sådan entanglement og vi har ikke haft noget om det før. Vi har ikke haft lært noget om entanglement endnu, så vi skulle sådan lidt lære det on the go, hvilket selvfølgelig også er fint nok ikke, men det blev brugt som om at vi vidste præcis hvad Det var. Sådan der blev... Der blev ment ja... Det var lidt frustrerende.\n\nInterviewer\nDet forstår jeg godt. ",
       "code": "3.b",
       "theme_id": "3",
@@ -162,10 +322,42 @@
       ]
     },
     {
-      "quote_id": "I06-Q011",
-      "rationale": "The quote's description of difficulty easing and then suddenly spiking ('en lille smule nede her og så lige pludseligt whoosh') reflects a learning experience trajectory, coded as positive learning experience in context of the surrounding discussion.",
-      "why_interesting": "It vividly conveys the nonlinear nature of conceptual difficulty during the lab, useful for understanding where learning breakdowns occur.",
-      "teaching_implication": "Identifying the specific point where difficulty spikes ('whoosh') could help instructors add extra scaffolding right before that transition (speculative).",
+      "quote_id": "I06-Q021",
+      "rationale": "The student directly credits Student 4 with providing significant help that day, indicating a positive learning experience facilitated by a peer.",
+      "why_interesting": "It underscores the value peers can add to learning, sometimes more directly than formal instruction.",
+      "teaching_implication": "Encouraging designated peer-helper roles within lab groups might formalize and spread this kind of beneficial peer support (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Og Det var især det, som Jeg synes at Student 4 han hjalp os rigtig meget med i dag. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I06-T032"
+      ]
+    },
+    {
+      "quote_id": "I06-Q022",
+      "rationale": "The short affirmation that 'han fik sat det på plads for os' (he got it settled for us) directly indicates a positive learning outcome attributed to a peer's help.",
+      "why_interesting": "Its brevity and directness suggest a strong, memorable moment of clarity that stood out to the student.",
+      "teaching_implication": "Capturing and sharing effective peer explanations (e.g., via short video snippets) could help other groups benefit similarly (speculative).",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Han fik sat det på plads for os. Ja. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I06-T034"
+      ]
+    },
+    {
+      "quote_id": "I06-Q023",
+      "rationale": "The description of difficulty dropping and then suddenly resolving ('whoosh') directly reflects a positive shift in understanding during the lab.",
+      "why_interesting": "It captures the experiential feel of a breakthrough moment in learning, characteristic of many positive learning experiences in physics labs.",
+      "teaching_implication": "Identifying what specifically triggers these breakthrough moments (e.g., certain explanations or visualizations) could help design lab materials that induce them more reliably (speculative).",
       "interpretation_grounded_in": "quote_plus_inference",
       "cited_text": "Student 1: Ja, så sværhedsgraden var... en lille smule nede her og så lige pludseligt whoosh. [agreement] ",
       "code": "3.b",
@@ -178,10 +370,10 @@
       ]
     },
     {
-      "quote_id": "I06-Q012",
-      "rationale": "The student explicitly states the prelab prepared them for the setup and expectations, directly describing a well-calibrated positive learning experience ('det var der... vi var klar til at gå i gang').",
-      "why_interesting": "It provides a contrasting, unambiguously positive account of prelab effectiveness compared to other students' more mixed experiences.",
-      "teaching_implication": "This student's account could be used as a benchmark for what effective prelab pacing and content coverage looks like (speculative).",
+      "quote_id": "I06-Q024",
+      "rationale": "The student states the prelab set up expectations about the setup and made them feel 'klar til at gå i gang' (ready to start), directly describing a positive impact of prelab on learning readiness.",
+      "why_interesting": "It suggests that adequate prelab preparation directly translates into feeling well-prepared and confident entering the lab session.",
+      "teaching_implication": "Ensuring prelab materials cover both conceptual and setup expectations at the right depth (not too much, not too little) may replicate this well-calibrated preparation across labs (speculative).",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "Student 1: Altså prelabbet handlede om det der setup så jeg kom og tænkte: OK jamen nu har vi altså kigget en masse på det, vi har fået de forskellige dele forklaret og der står nogle hovedpointer og vi har snakket om det. Matematikken var måske ikke helt på plads, men... Selve hvordan at setuppet var og hvad vi forventede at se. Det var slået på plads af prelabbet, så det var der. Ja, så vi var klar til at gå i gang lige så snart vi kom basically.\n\nInterviewer\nJa så der var ikke for meget der ikke for lidt, det var bare helt tilpas? ",
       "code": "3.b",
@@ -194,10 +386,10 @@
       ]
     },
     {
-      "quote_id": "I06-Q013",
-      "rationale": "The student describes having 'afmystificeret' quantum mechanics and feeling glad to know more about an interesting new topic, reflecting a positive learning experience despite some ambivalence.",
-      "why_interesting": "It reveals a bittersweet framing of learning—demystification is valued but also slightly regretted, suggesting mystery itself had appeal.",
-      "teaching_implication": "Instructors might intentionally preserve some sense of wonder or open questions even while clarifying concepts, to sustain curiosity (speculative).",
+      "quote_id": "I06-Q025",
+      "rationale": "The student describes feeling that quantum mechanics has become less mysterious and expresses genuine interest in learning more, directly indicating a positive learning experience.",
+      "why_interesting": "It shows a nuanced emotional response—slight disappointment at losing mystery balanced against genuine intellectual satisfaction and curiosity.",
+      "teaching_implication": "Framing demystification as a step toward deeper, more advanced mysteries in the field might help preserve student excitement about the subject (speculative).",
       "interpretation_grounded_in": "quote_plus_inference",
       "cited_text": "Student 3: Ja jeg især bestemt selv lidt ubestemt, men også nu her specielt efter vi er cirka halvvejs i kurset, så vil jeg generelt set sige at jeg synes, at jeg har sådan lidt afmystificeret begrebet kantemekanik, og hvor jeg er lidt ærgerlig over, at jeg har fået afmystificeret det, så er jeg egentlig også ret glad for at jeg nu ved lidt mere og et nyt emne, som jeg faktisk synes er rimelig interessant, som jeg gerne vil vide mere om.\n\nInterviewer\nHvordan tror du det her eksperiment passer ind i din fremtid? ",
       "code": "3.b",
@@ -210,11 +402,27 @@
       ]
     },
     {
-      "quote_id": "I06-Q014",
-      "rationale": "The student describes understanding the phenomenon 'overfladisk' and theoretically, tying comprehension to mathematical reasoning, which reflects a learning experience code.",
-      "why_interesting": "It highlights a gap between theoretical/mathematical understanding and real-world/experiential confirmation, a recurring tension in the interview.",
-      "teaching_implication": "Lab design might explicitly address this theory-practice gap by discussing why real-world results differ from idealized predictions (speculative).",
+      "quote_id": "I06-Q026",
+      "rationale": "The student states that talking with the TA gave them what they felt they were missing, directly citing a positive aspect of the learning experience tied to TA interaction.",
+      "why_interesting": "It highlights that even a student critical of the experiment overall can still identify specific positive elements, such as TA discussion.",
+      "teaching_implication": "Ensuring TAs have dedicated time for one-on-one conceptual discussion with students could be a valuable investment regardless of overall experiment design (speculative).",
       "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Det ved jeg ikke rigtigt. Altså jeg synes det at snakke med TA har givet mig meget af det jeg synes jeg manglede, men selve eksperimentet synes jeg måske bare lidt viste hvad vi allerede havde regnet på. Men... Når det så er sagt, så kan jeg heller ikke lide eksperimentet, så jeg er nok tilbøjelig til at være temmelig kritisk overfor dem.\n\nInterviewer\nJa. jamen der er så godt med lidt input. så fik i altid de resultater i forventede at få? ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I06-T065"
+      ]
+    },
+    {
+      "quote_id": "I06-Q027",
+      "rationale": "The student describes understanding the concept 'overfladisk' (superficially) at a theoretical/mathematical level, reflecting on positive though partial learning gained from the experience.",
+      "why_interesting": "It shows a layered sense of understanding—confident in the math but aware of a gap between theory and the messier real-world observation, which is a nuanced learning outcome.",
+      "teaching_implication": "Explicitly addressing the gap between idealized theory and real experimental noise/complexity in class discussion could help students reconcile this tension (speculative).",
+      "interpretation_grounded_in": "quote_plus_inference",
       "cited_text": "Student 2: Jeg mener ligesom at jeg forstår den sådan overfladisk, men ikke, jeg har ikke set det og kommer nok ikke til at se det, men rent teoretisk, så forstår jeg i bund og grund godt hvorfor at det er tilfældet. Fordi det er jo rent matematikken bag at jeg ved godt det er hvad der skal ske, men i den virkelige verden er det lidt mere kompliceret og det er ikke... Det er jo ikke hvad vi ser. Desværre.\n\nInterviewer\nHvordan har i det med det, at det ikke er det så? ",
       "code": "3.b",
       "theme_id": "3",
@@ -226,11 +434,11 @@
       ]
     },
     {
-      "quote_id": "I06-Q015",
-      "rationale": "The playful phrase 'Vi har leget med lasere' ('we've played with lasers') expresses enjoyment/engagement with the hands-on activity, fitting the enjoyment code.",
-      "why_interesting": "The lighthearted framing contrasts with the subsequent complaints about cramped space, showing mixed emotional experience within a single response.",
-      "teaching_implication": "Preserving the playful, exploratory framing of equipment work while improving logistics could enhance overall enjoyment (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
+      "quote_id": "I06-Q028",
+      "rationale": "The student's opening remark 'Vi har leget med lasere' (we played with lasers) with laughter signals enjoyment, fitting the code for enjoyment and engagement despite subsequent complaints about space.",
+      "why_interesting": "It shows that even amid logistical complaints, the sheer novelty/fun of working with lasers stood out as a positive, playful aspect of the experience.",
+      "teaching_implication": "Leaning into the inherently engaging nature of hands-on tools like lasers could be highlighted more in lab framing to boost engagement (speculative).",
+      "interpretation_grounded_in": "quote_plus_inference",
       "cited_text": "Student 1: Jamen Vi har leget med lasere [laughs], men altså af oplevelser generelt, så det første indtryk var at der var ret crammed. Der var ikke særlig meget plads. Og nu havde vi godt nok også en seddel, så det var blevet lavet lidt rundt omkring at vi ikke kunne få en bærbar ud og sådan. Så der var blevet printet ud for os, så det var rart men ja der var ikke. Altså nu var vi heldige at der kun var 3 grupper der var mødt op fordi der ville ikke have været plads til flere. Så ja. ",
       "code": "3.c",
       "theme_id": "3",
@@ -242,10 +450,10 @@
       ]
     },
     {
-      "quote_id": "I06-Q016",
-      "rationale": "The student's comment that it was 'meget fint at kunne se' the interference forming reflects positive engagement with the visual/experiential aspect of the lab.",
-      "why_interesting": "It shows engagement rooted in visual/experiential satisfaction even when full conceptual understanding is not achieved.",
-      "teaching_implication": "Emphasizing visual demonstrations as engagement anchors, followed by conceptual discussion, could balance enjoyment and understanding (speculative).",
+      "quote_id": "I06-Q029",
+      "rationale": "The student expresses that it was 'meget fint' (quite nice) to visually observe when interference appeared or not, directly indicating enjoyment/engagement with the observable phenomenon.",
+      "why_interesting": "It shows that visual, observable phenomena can generate positive engagement even when the student is uncertain about full conceptual understanding.",
+      "teaching_implication": "Emphasizing visually striking or observable results in lab design could help sustain engagement even when full conceptual clarity is still developing (speculative).",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "Student 2: Om det giver mening? Vi kan regne os frem til hvad der sådan skal ske men om det giver mening? Det ved jeg ikke helt, men det er måske også mere bare at det er et svært koncept end at det egentlig er sådan... Altså for jeg synes jo ja, det var jo meget fint at kunne se sådan hvornår der blev skabt en til interferens, hvornår der ikke gjorde og sådan. [uncertain] Jeg ved ikke om det nogensinde kommer til og give helt mening. ",
       "code": "3.c",
@@ -258,10 +466,10 @@
       ]
     },
     {
-      "quote_id": "I06-Q017",
-      "rationale": "The student explicitly praises the prelab format as 'rigtig godt' and suggests it should be used in other courses, indicating strong positive engagement with this teaching element.",
-      "why_interesting": "It's a direct, enthusiastic endorsement transferring beyond this specific course, suggesting broad perceived value of prelabs.",
-      "teaching_implication": "This supports piloting prelab sessions in other lab courses like EM, as the student themselves suggests.",
+      "quote_id": "I06-Q030",
+      "rationale": "The student states clearly that the prelab was 'rigtig godt' (really good) and recommends it for other courses, directly expressing positive engagement with this teaching element.",
+      "why_interesting": "It shows a student proactively generalizing a positive experience to suggest broader curricular change, indicating strong engagement with the format.",
+      "teaching_implication": "Consider extending structured prelab sessions to other courses like EM, as directly suggested by the student.",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "Student 2: Men Det var rigtig godt at der var de der prelab synes jeg helt klart. Det synes jeg måske godt er noget man kunne gøre i andre kurser også fordi det at forstå alt teorien inden, det hjælper altså rimelig meget på når du er i lab. Måske i EM ikke altså? Der kunne det have været rart. Men ja, så jeg synes det er rigtig godt at der er de der prelab. ",
       "code": "3.c",
@@ -274,26 +482,10 @@
       ]
     },
     {
-      "quote_id": "I06-Q018",
-      "rationale": "The student's enthusiastic tone ('Ja. Det er et godt svar. [laughs]') and description of successfully completing the challenging quantum eraser setup reflect engaged satisfaction with the task.",
-      "why_interesting": "It shows engagement tied to a sense of challenge and mastery, moving from difficulty to a feeling of completion.",
-      "teaching_implication": "Framing lab tasks explicitly as 'challenges' to overcome, as done here, may boost engagement (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "Student 1: Ja. Det er et godt svar. [laughs] Ja Jeg synes vi fik gjort alt det der ligesom var at gøre. Altså den største ting var rent faktisk at lave setuppet for den der quantum eraser der stod der som sådan en challenge. At få den der: Det ene var interferens og det andet ikke var, og nu var det omvendt. Men ja og efter det ligesom var gjort, så var det som om at man ligesom var: OK der er kun så mange måder man ligesom kan blokere lys eller bare sætte sådan en polarizer op på, når det er et simpelt setup. Så vi gjorde basically alt det vi lige tænkte, der var vigtigt at gøre med det. Ret så hurtigt i hvert fald. ",
-      "code": "3.c",
-      "theme_id": "3",
-      "speakers": [
-        "Student 1"
-      ],
-      "turn_ids": [
-        "I06-T053"
-      ]
-    },
-    {
-      "quote_id": "I06-Q019",
-      "rationale": "The student states quantum mechanics is what they 'have glædet mig allermest til' because it is 'det der er mest underligt,' a direct expression of enjoyment and anticipation.",
-      "why_interesting": "It reveals that curiosity about the strange/counterintuitive nature of quantum mechanics is a primary motivator for engagement with this course topic.",
-      "teaching_implication": "Leaning into the 'strangeness' and counterintuitive aspects of quantum mechanics in lab framing could sustain student enthusiasm (speculative).",
+      "quote_id": "I06-Q031",
+      "rationale": "The student describes having most looked forward to quantum mechanics because it is 'det der er mest underligt' (the strangest), directly expressing enjoyment/engagement rooted in fascination with the subject.",
+      "why_interesting": "It reveals that a sense of strangeness or mystery itself functions as a source of motivation and enjoyment for some students.",
+      "teaching_implication": "Preserving and highlighting the conceptually strange aspects of quantum mechanics in lab framing could help sustain this kind of intrinsic engagement (speculative).",
       "interpretation_grounded_in": "quote_text_only",
       "cited_text": "Student 1: Det er et stort spørgsmål. Det er også et svært spørgsmål at svare på. Altså, jeg ved i hvert fald, da jeg startede her, var det jeg har glædet mig allermest til kvantemekanik, fordi jeg synes at det er det der er mest underligt. ",
       "code": "3.c",
@@ -306,10 +498,10 @@
       ]
     },
     {
-      "quote_id": "I06-Q020",
-      "rationale": "The student's expression of being 'ret glad' about learning a new, 'rimelig interessant' topic reflects enjoyment and engagement with the subject matter.",
-      "why_interesting": "It shows engagement intertwined with a nostalgic sense of loss for the mystery that existed before understanding.",
-      "teaching_implication": "Instructors could acknowledge this bittersweet transition explicitly, perhaps by discussing remaining open questions in quantum mechanics to maintain engagement (speculative).",
+      "quote_id": "I06-Q032",
+      "rationale": "The student's expression of being 'ret glad' (quite happy) despite some regret about demystification directly reflects enjoyment and engagement with the topic overall.",
+      "why_interesting": "It shows a mixed but ultimately positive emotional engagement, where the loss of mystery is outweighed by gained interest and curiosity about a new topic.",
+      "teaching_implication": "Course design might intentionally introduce new mysteries or open questions as older ones are resolved, sustaining engagement over time (speculative).",
       "interpretation_grounded_in": "quote_plus_inference",
       "cited_text": "Student 3: Ja jeg især bestemt selv lidt ubestemt, men også nu her specielt efter vi er cirka halvvejs i kurset, så vil jeg generelt set sige at jeg synes, at jeg har sådan lidt afmystificeret begrebet kantemekanik, og hvor jeg er lidt ærgerlig over, at jeg har fået afmystificeret det, så er jeg egentlig også ret glad for at jeg nu ved lidt mere og et nyt emne, som jeg faktisk synes er rimelig interessant, som jeg gerne vil vide mere om.\n\nInterviewer\nHvordan tror du det her eksperiment passer ind i din fremtid? ",
       "code": "3.c",
@@ -322,11 +514,27 @@
       ]
     },
     {
-      "quote_id": "I06-Q021",
-      "rationale": "The student directly argues quantum mechanics is 'voldsomt vigtigt' for future work involving atomic-scale phenomena or lasers, articulating a perceived usefulness of the material.",
-      "why_interesting": "It shows the student connecting course content to broad future applicability rather than just the specific lab exercise.",
-      "teaching_implication": "Explicitly linking lab content to potential career/research applications, as this student does spontaneously, could be reinforced in lab framing materials (speculative).",
+      "quote_id": "I06-Q033",
+      "rationale": "The student explicitly states the prelab 'hjælper altså rimelig meget' (helps quite a lot) when in the lab, directly indicating perceived usefulness of this teaching element.",
+      "why_interesting": "It shows a student actively recommending the extension of this specific pedagogical tool to other courses, indicating strong perceived value.",
+      "teaching_implication": "Consider adopting prelab theory sessions in courses like EM based on this student's explicit recommendation.",
       "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 2: Men Det var rigtig godt at der var de der prelab synes jeg helt klart. Det synes jeg måske godt er noget man kunne gøre i andre kurser også fordi det at forstå alt teorien inden, det hjælper altså rimelig meget på når du er i lab. Måske i EM ikke altså? Der kunne det have været rart. Men ja, så jeg synes det er rigtig godt at der er de der prelab. ",
+      "code": "3.d",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I06-T037"
+      ]
+    },
+    {
+      "quote_id": "I06-Q034",
+      "rationale": "The student states that quantum mechanics becomes 'voldsomt vigtigt' (immensely important) for future work involving lasers or atomic-scale systems, directly expressing perceived usefulness of the material.",
+      "why_interesting": "It shows the student connecting classroom/lab content to a broader sense of career relevance, even while uncertain about their specific future path.",
+      "teaching_implication": "Explicitly connecting lab content to potential career applications (e.g., laser technology, atomic-scale research) could help students see the perceived usefulness of the material (speculative).",
+      "interpretation_grounded_in": "quote_plus_inference",
       "cited_text": "Student 1: Og man kan tydeligt se, at lige så snart det kommer med nærmest alt man læsere der. Så er kvantemekanik lige pludselig hvor at, hvis man nogensinde har lyst til at arbejde med noget, som der sådan er atomisk eller man gerne vil skyde noget laser mod et eller andet altså, så er det jo et voldsomt vigtigt. Jeg ved ikke hvad jeres fremtid er men, jeg tror at man altid kan finde på et eller andet man lasere. ",
       "code": "3.d",
       "theme_id": "3",
@@ -335,38 +543,6 @@
       ],
       "turn_ids": [
         "I06-T060"
-      ]
-    },
-    {
-      "quote_id": "I06-Q022",
-      "rationale": "The student connects newly gained understanding to future interest ('et nyt emne, som jeg faktisk synes er rimelig interessant, som jeg gerne vil vide mere om'), suggesting perceived usefulness for future learning.",
-      "why_interesting": "It shows perceived usefulness framed not in career terms but in terms of motivating further personal intellectual pursuit.",
-      "teaching_implication": "Lab experiences that spark further curiosity could be paired with optional follow-up resources or reading suggestions (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "Student 3: Ja jeg især bestemt selv lidt ubestemt, men også nu her specielt efter vi er cirka halvvejs i kurset, så vil jeg generelt set sige at jeg synes, at jeg har sådan lidt afmystificeret begrebet kantemekanik, og hvor jeg er lidt ærgerlig over, at jeg har fået afmystificeret det, så er jeg egentlig også ret glad for at jeg nu ved lidt mere og et nyt emne, som jeg faktisk synes er rimelig interessant, som jeg gerne vil vide mere om.\n\nInterviewer\nHvordan tror du det her eksperiment passer ind i din fremtid? ",
-      "code": "3.d",
-      "theme_id": "3",
-      "speakers": [
-        "Student 3"
-      ],
-      "turn_ids": [
-        "I06-T061"
-      ]
-    },
-    {
-      "quote_id": "I06-Q023",
-      "rationale": "The student states the experiment 'viste hvad vi allerede havde regnet på,' implying limited perceived usefulness of the experiment beyond confirming pre-existing calculations.",
-      "why_interesting": "It reveals a critical view where the experiment's usefulness is seen as redundant with prior theoretical work, despite valuing TA discussion separately.",
-      "teaching_implication": "Lab design might aim to have experiments reveal something beyond what students already calculated, to enhance perceived value (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "Student 2: Det ved jeg ikke rigtigt. Altså jeg synes det at snakke med TA har givet mig meget af det jeg synes jeg manglede, men selve eksperimentet synes jeg måske bare lidt viste hvad vi allerede havde regnet på. Men... Når det så er sagt, så kan jeg heller ikke lide eksperimentet, så jeg er nok tilbøjelig til at være temmelig kritisk overfor dem.\n\nInterviewer\nJa. jamen der er så godt med lidt input. så fik i altid de resultater i forventede at få? ",
-      "code": "3.d",
-      "theme_id": "3",
-      "speakers": [
-        "Student 2"
-      ],
-      "turn_ids": [
-        "I06-T065"
       ]
     }
   ]

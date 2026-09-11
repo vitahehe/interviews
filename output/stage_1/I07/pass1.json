@@ -112,6 +112,54 @@
     {
       "theme_id": "3",
       "code": "3.a",
+      "cited_text": "Student 1: I dag har vi brugt, altså ja vi har lavet eller kigget på hvad hedder det? Mach Zehnder interferometer. Kiggede på vi. Vi startede jo til prelab med at lave nogle regnestykker hvor vi kunne se entanglement og hvad? Hvad hed det? ",
+      "turn_ids": [
+        "I07-T001"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I07-Q010"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Vi var lidt i tvivl om i forhold til... Jeg havde ikke lige tænkt over at de der 45 grader var relativt til den anden. Skal jeg lige tænke mig: Nej der står 45, det var så ikke rigtigt, men udover det var det rimelig ligetil følte jeg og det var bare lidt med det der fine tuning der var lidt besværligt, men sådan logisk gav det meget god mening. ",
+      "turn_ids": [
+        "I07-T006"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I07-Q011"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Og hvordan vi skulle kalibrere det.\n\nInterviewer\nDet lyder også godt. ",
+      "turn_ids": [
+        "I07-T009"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I07-Q012"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Men jeg tror også det havde at gøre med netop at fange lige at få den kalibreret og justeret rigtigt. ",
+      "turn_ids": [
+        "I07-T012"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I07-Q013"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
       "cited_text": "Student 1: I forhold til hinanden ja. Det var noget med udstyret. Det fik vi at vide.\n\nInterviewer\nSpændende. Føler i at i har lært noget? Har i fået noget ud af det? ",
       "turn_ids": [
         "I07-T013"
@@ -119,7 +167,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I07-Q010"
+      "quote_id": "I07-Q014"
     },
     {
       "theme_id": "3",
@@ -131,7 +179,7 @@
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I07-Q011"
+      "quote_id": "I07-Q015"
     },
     {
       "theme_id": "3",
@@ -143,7 +191,19 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I07-Q012"
+      "quote_id": "I07-Q016"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Det var til det der med at dreje. Vi forstod ikke lige, hvorfor vi fik de forskellige, ikke de resultater vi havde forventet, men det var så på grund af, at vi ikke har kalibreret dem i forhold til hinanden rigtigt. Ja, så det kunne måske være forklaret tidligere, men jeg tror måske også at det er os. [laughs]\n\nInterviewer\nMen det er måske fint nok at finde ud af det. ",
+      "turn_ids": [
+        "I07-T045"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I07-Q017"
     },
     {
       "theme_id": "3",
@@ -155,71 +215,11 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I07-Q013"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "Student 1: Og hvordan vi skulle kalibrere det.\n\nInterviewer\nDet lyder også godt. ",
-      "turn_ids": [
-        "I07-T009"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
-      "quote_id": "I07-Q014"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "Student 1: Ja, det føler jeg faktisk. Jeg synes det var lidt sejt at kunne se det. ",
-      "turn_ids": [
-        "I07-T014"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
-      "quote_id": "I07-Q015"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "Student 2: Og så har vi også lært, det bliver vi ved med at lære, at vi skal være lidt mere ordentlige, når vi læser labvejledningen. Fordi det er tit vi kommer til at spørge om nogle ting, som egentlig står i vejledningen. ",
-      "turn_ids": [
-        "I07-T018"
-      ],
-      "speakers": [
-        "Student 2"
-      ],
-      "quote_id": "I07-Q016"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "Student 2: Ja, og så tænker jeg også vi får de sidste ting helt på plads når vi lige sidder og laver videoer. ",
-      "turn_ids": [
-        "I07-T028"
-      ],
-      "speakers": [
-        "Student 2"
-      ],
-      "quote_id": "I07-Q017"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "Student 1: Jeg føler det her er nok det første kursus, hvor jeg føler at... Jeg føler det er sådan det plejer at være, men det her er det kursus hvor det virker, eller hvor det fungerer bedst. [agreement] Fordi det er så gode prelabs. Til tidligere fag har der været sådan lidt: Nå jamen det er okay at man ikke sådan helt forstår det nu fordi det kommer først senere, når jeg får læsningen. Men gør det alligevel og det er nok to get by, men det har jeg... ",
-      "turn_ids": [
-        "I07-T030"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
       "quote_id": "I07-Q018"
     },
     {
       "theme_id": "3",
-      "code": "3.c",
+      "code": "3.b",
       "cited_text": "Student 1: Ja, det føler jeg faktisk. Jeg synes det var lidt sejt at kunne se det. ",
       "turn_ids": [
         "I07-T014"
@@ -231,6 +231,102 @@
     },
     {
       "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Det er meget nemmere at forstå når man ser det ske. Så giver det lidt bedre mening. ",
+      "turn_ids": [
+        "I07-T015"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I07-Q020"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Og så har vi også lært, det bliver vi ved med at lære, at vi skal være lidt mere ordentlige, når vi læser labvejledningen. Fordi det er tit vi kommer til at spørge om nogle ting, som egentlig står i vejledningen. ",
+      "turn_ids": [
+        "I07-T018"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I07-Q021"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Det lærer vi igen. Jeg føler der var en meget god pædagogisk prelab. ",
+      "turn_ids": [
+        "I07-T021"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I07-Q022"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Ja, og så tænker jeg også vi får de sidste ting helt på plads når vi lige sidder og laver videoer. ",
+      "turn_ids": [
+        "I07-T028"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I07-Q023"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Jeg føler det her er nok det første kursus, hvor jeg føler at... Jeg føler det er sådan det plejer at være, men det her er det kursus hvor det virker, eller hvor det fungerer bedst. [agreement] Fordi det er så gode prelabs. Til tidligere fag har der været sådan lidt: Nå jamen det er okay at man ikke sådan helt forstår det nu fordi det kommer først senere, når jeg får læsningen. Men gør det alligevel og det er nok to get by, men det har jeg... ",
+      "turn_ids": [
+        "I07-T030"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I07-Q024"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Det synes jeg var godt. Og også at den var så interaktiv, så man kunne lære noget. Så var der nogle spørgsmål. Og så læse lidt mere. [agreement] ",
+      "turn_ids": [
+        "I07-T033"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I07-Q025"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Ja, jeg føler også med labvejledningen, at der også var nogle spørgsmål, som man skulle tænke over undervejs og sådan noget. Det føler jeg også er meget godt til, at man forstår det bedre. ",
+      "turn_ids": [
+        "I07-T034"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I07-Q026"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: Ja, det føler jeg faktisk. Jeg synes det var lidt sejt at kunne se det. ",
+      "turn_ids": [
+        "I07-T014"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I07-Q027"
+    },
+    {
+      "theme_id": "3",
       "code": "3.c",
       "cited_text": "Student 1: Ja, jeg synes kvantefysik er meget flot og det har jeg synes i lang tid, men jeg synes det bliver bestemt ikke kedeligere det her, det bliver sjovere.\n\nInterviewer\nJa, skidegodt.\n\n[silence] ",
       "turn_ids": [
@@ -239,7 +335,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I07-Q020"
+      "quote_id": "I07-Q028"
     },
     {
       "theme_id": "3",
@@ -251,7 +347,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I07-Q021"
+      "quote_id": "I07-Q029"
     },
     {
       "theme_id": "3",
@@ -263,24 +359,25 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I07-Q022"
+      "quote_id": "I07-Q030"
     },
     {
       "theme_id": "3",
-      "code": "3.d",
-      "cited_text": "Student 1: Ja, jeg synes kvantefysik er meget flot og det har jeg synes i lang tid, men jeg synes det bliver bestemt ikke kedeligere det her, det bliver sjovere.\n\nInterviewer\nJa, skidegodt.\n\n[silence] ",
+      "code": "3.c",
+      "cited_text": "Student 1: Det var godt synes jeg.\n\nInterviewer\nHvis i havde mere tid, så hvis i for eksempel havde, nu er i gået efter 2 timer og vil lave videoen derhjemme, hvad hvis i nu havde 3 timer kun til laboratoriet og så skulle lave videoen bagefter? Ville det være for meget? ",
       "turn_ids": [
-        "I07-T017"
+        "I07-T037"
       ],
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I07-Q023"
+      "quote_id": "I07-Q031"
     }
   ],
   "codes_with_no_quotes": [
     "2.a",
     "2.b",
-    "2.c"
+    "2.c",
+    "3.d"
   ]
 }
