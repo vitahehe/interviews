@@ -1,0 +1,332 @@
+20260305_2 Kvant1 lab_Julie.m4a Student 1: male, Student 2: female, Student 3: female
+level: bachelors
+
+Interviewer
+Tak fordi i ville blive interviewet. Det handler om lab og hvordan vi kan gøre det bedre, så det handler ikke om jer, men hvordan i har oplevet at lab var. så vil i starte med at sætte lidt et par ord på hvad i har lavet i dag?
+
+Student 1
+Vi har lavet kvantemekanik. [laughs]
+
+Student 2
+Vi har leget med lasere.
+
+Student 1
+Vi har lavet et quantum eraser forsøg.
+
+Student 2
+For at se hvornår der var inferens når vi splittede en laser op og så samlede den igen, hvor vi så ikke ved hvor den... Ja.
+
+Student 3
+Ja.
+
+Student 2
+Ja.
+
+Interviewer
+Oplevede i nogle udfordringer i laboratoriet?
+
+Student 2
+Ja vi havde nogen spejle som blev ved med og være dumme. Så skulle vi hele tiden have hjælp til at få dem sat op igen, så vi faktisk kunne lave forsøget. Så det brugte vi ret lang tid på.
+
+Student 1
+Selvom at man ikke vidste, hvordan man satte det op, ikke? Sådan noget sidder man og bruger lang tid på at finde ud af, at det var det der var galt og ikke noget med de andre ting vi lavede. Så lige at filtrere det ned til den havde vi svært ved at gøre. Altså til at problemet var at spejlene og ikke hvordan vi havde sat filtrene.
+
+Interviewer
+Så det var både teknisk svært og svært at finde ud af at det var teknikken?
+
+Student 1
+Ja.
+
+Interviewer
+Men i fik det løst med jeres TA?
+
+Student 3
+Ja. Han var meget sød, og hjalp også til skole. [laughs]
+
+Interviewer
+Hvordan fungerede det der med at have 3 timer til at lave både eksperiment og video?
+
+Student 2
+Det er jo Sådan set meget rart, at vi ikke følte os på den måde stressede i at skulle skynde sig igennem forsøget. Det synes jeg lidt vi følte i det forrige i hvert fald.
+
+Student 1
+Helt klart.
+
+Student 2
+Ja der var vi lidt pressede, så det er rart at kunne komme herop og så nu tale det igennem, sådan set.
+
+Student 1
+Ja.
+
+Student 3
+Ja.
+
+Interviewer
+Altså hvis i havde 3 timer mere. Ville i kunne finde noget at bruge de timer på eller var det her egentlig meget fint?
+
+Student 2
+Nej, det tror jeg ikke. Altså vi mangler lige det sidste og vi havde... Ja, det passer egentlig meget fornuftigt synes jeg. [agreement]
+
+Interviewer
+Så fik i de resultater, som vi forventede at få i dag?
+
+Student 2
+Altså i selve forsøget?
+
+Interviewer
+I selve forsøget. Ja.
+
+Student 2
+Ja det gjorde vi da ja.
+
+Student 1
+Ja.
+
+Student 3
+Ja.
+
+Interviewer
+Ja
+
+Student 1
+Det var lige at finde ud af det der med at man skulle gøre det relativt til, eller filterne ikke helt var sande til hvad der stod på dem, og efter at man ligesom havde regnet det i hovedet og kigget på det, så fik de vi selv havde snakket om at sådan er det, det her burde fungere. Så kom det rigtige ud, når man ligesom havde indsigt den del af det og den teoretiske del af den praktiske del af det og så kom det rigtigt.
+
+Interviewer
+Var det noget i selv skulle finde ud?
+
+Student 1
+Det der med polariseringsfiltrene, hvordan de var orienteret og sådan noget der, det skulle vi selv finde ud af eller snakke med de andre om, som havde fået det at vide.
+
+Student 2
+Vores TA havde lige glemt at sige det til os, men havde sagt det til de andre.
+
+Student 1
+Så ja så.
+
+Interviewer
+Ok.
+
+Student 2
+Det var en lille...
+
+Student 1
+Lille upsi tror jeg det hedder.
+
+Interviewer
+Men når man først vidste det, så var det fint nok at komme igennem?
+
+Student 1
+Ja.
+
+Interviewer
+Føler i at i har lært noget, som i også vil kunne bruge senere i studiet eller i livet?
+
+Student 2
+Jeg tror vi har været lidt frustreret over, at der er lidt et mismatch i forhold til hvad vi lavede her og nu i forhold til hvad vi faktisk har snakket om til undervisning. Så ja, altså vi har overhovedet ikke snakket om entanglement endnu. Vi har ikke snakket om noget quantum interference og det jeg ved godt, at det er så ideen med forsøget, at vi skal det, men der er... Der er de ting vi skal lave til prelab og herefter til videoen har vi ikke fået introduktion til, så det var sådan ja...
+
+Student 1
+Vi sidder også lidt i sådan noget som projektering og for eksempel at finde ud af, hvordan den operation fungerer, også hvordan man laver den algebra, når man har to stadier der er sat sammen. Hvorfor fungerer den på den ene og ikke på den anden eller sådan nogle ting og det var lidt alt sammen noget nyt, så da vi skulle forudsige tingene, kunne vi ikke helt se hvor det gik galt, eller hvad man kan sige.
+
+Student 2
+ja. Så det gjorde det lidt utilfredsstillende.
+
+Student 1
+Det gjorde det lidt sværere. Ja.
+
+Interviewer
+Utilfredsstillende? Hvordan det?
+
+Student 2
+Det der med, fordi vi ved ikke. Altså vi kan ikke se hvad der er går galt og hvornår det går galt. Ja.
+
+Student 1
+Ja, ikke?
+
+Student 2
+Og nu er vi nogen, der kommer til at regne timer, så ja.
+
+Interviewer
+Ja.
+
+Student 1
+Ja.
+
+Student 2
+Men altså ja på den anden side, så har vi nu slås med det, og så nu kan vi sikkert godt finde ud af det, tror jeg.
+
+Student 1
+Så jeg synes en opgave sådan at sidde og regne dem ud og finde ud af de der ting. Det var virkelig dejligt. Det havde bare været dejligt også lige at forstå de der projekteringsoperatorer eller sådan noget der, hvordan man lige sætter dem op i de her tilfælde for eksempel. Eller hvordan de der entanglements sat sammen fungerer når du putter et operator på den. Hvornår ser den på, eller hvornår gør den det ikke? Da vi snakkede om dem i hvert fald, der følte vi, at vi var lidt bare kyllinger hvor man tager hovedet af der rendte rundt og sagde: Ahhhhh. Sådan cirka det her nok.
+
+Interviewer
+Ja.
+
+Student 1
+Indtil vi fik spurgt om det. Så kan man måske lidt, men ja.
+
+Interviewer
+Kan i sætte lidt flere ord på det her? Altså hvordan det føles det her med at i har hørt om de her ting for første gang mens i skulle bruge dem?
+
+Student 2
+Det er jo lidt frustrerende.
+
+Student 1
+Ja.
+
+Student 2
+Men Det er jo også sådan man lærer hurtigt.
+
+Student 1
+Stirrer frustreret på tavlen, og sidder ud og regner det igennem.
+
+Student 2
+Og så kan man huske det mener jeg bare.
+
+Student 1
+Det er rigtigt.
+
+Student 2
+Når man har været frustreret. Ja Det er bare nederen at stå i det.
+
+Student 1
+Der er frustrationer at stå i det, og så når man er færdig med det, så er det måske rart, at ligesom have diskuteret det færdigt ja.
+
+Student 2
+Ja.
+
+Interviewer
+Så føler i nu, at i forstår hvad entanglement er og den der projektionsoperator og sådan nogle ting?
+
+Student 2
+Jeg vil ikke sige fuldt ud. Nej.
+
+Student 3
+Ikke rigtigt.
+
+Student 2
+Men det er måske også ok.
+
+Student 1
+Vi har taget nogle par skridt til at derhen af der er altså...
+
+Student 3
+Men Vi er der ikke endnu.
+
+Interviewer
+Så jeg skal bare lige vende tilbage til spørgsmålet med om i tror i har lært mig at bruge i andre kurser eller efter kurset?
+
+Student 1
+Hmmmm.
+
+Student 2
+Altså lige det her vi lavede i dag ja. Nu tager jeg optik lige nu, og det var er noget vi også lige har snakket om der. Så det er sådan set meget nice og det på den måde de tog kurser blev lige bundet rigtig meget sammen fordi vi har lige snakket om beamsplittere og sådan noget der. Så at der er de her forskellige sider af det samme er sådan set meget rart, så det giver lidt mere fuldendt billede af fysik synes jeg. Så det kan jeg godt lide.
+
+Student 1
+Jeg føler også det eneste jeg føler at fundet ud af, men det punkt er at nu forstår jeg hvordan man laver forsøg i kvantemekanik forstår, ok eller når det kommer til lys i hvert fald specifikt. Det der med at sige: ok, men du har en beamsplitter og det er sådan her du entangler ting sammen og det er sådan her du kan sådan undersøge hvordan entanglement fungerer, at du kan få den operator der kan. Hvad kalder man det Sådan? Lave en tåge??? over hvilken vej den har taget ikke og det synes jeg er fedt at forstå hvordan der fungerer. Som man i fremtiden måske ville, hvis man laver et forsøg eller Sådan noget, forstå den kontekst eller hvor ja. Hvad du sætter op for at få den her entanglement kørende. Men jeg ved ikke hvor meget det kommer til at have relevant i min fremtidige karriere. Det har jeg ikke rigtigt sådan...
+
+Interviewer
+Ej, det er så fair.
+
+Student 3
+Det tror jeg, at jeg er enig i. Det er meget cool ay have prøvet at lege med de der spejle og sådan noget. Så nu kan jeg måske sige mere med sikkerhed om jeg vil gå den vej eller den anden vej. Men ja tror jeg det er det.
+
+Interviewer
+Ved du så om du vil den her vej eller den anden vej?
+
+Student 3
+Ikke  umiddelbart. Det er i hvert fald ikke hvad jeg lige med det samme har tænkt mig at gøre. Så nok ikke. Men det var sjovt at prøve.
+
+Interviewer
+Er der noget, det kunne have været bedre ved lab forløbet i dag?
+
+Student 2
+Jeg tror egentlig bare jeg savnede lidt at der stod måske lidt mere egentlig i labvejledningen, så man altså fordi når man lige læser på forhånd der så... Ja, men det var måske også mest på grund af situationen med vores operator der.
+
+Student 1
+Ja.
+
+Student 2
+Maybe.
+
+Student 1
+Ja, Jeg tror at det ville være.. Altså jeg kan godt lide den måde de ligesom bygger det stille og roligt op altså setuppet og så videre. Jeg tror at det der med når vi sådan sidder foran det lige pludselig og så skal arbejde med det og sådan nogle der ting. Der tror jeg at der er en mismatch i, at specielt den der med polarisering føler jeg bare kunne stå i opgaveteksten også. Sådan så vi ikke behøver at have en TA der forklarer til os det her er relativt eller sådan de der udstyr ting, nogle generelle ting lige at vide om det ville måske være dejligt så man ikke bare står med totalt fremmede objekter foran en. Og så hvad skal jeg gøre her? Specielt med vores setup der var lidt løst og sådan noget der det tror jeg er mere specifikt med os har været et problem. Altså ligesom: Jamen nu skal vi have vores TA ind flere gange og rette de der spejle og sådan nogle her ting og det har jo sjovt nok været lidt irriterende, men det er jo også noget der kan undgås, hvis man måske havde en lidt mere forståelse for de setup komponenter, som vi havde at lege med.
+
+Interviewer
+Ja.
+
+Student 2
+Og så var det bare lidt udefinerbart hvad den der video skulle gå ud på lige præcis. Fordi der står igennem det hele at: Måske kunne det være i jeres hand-in, måske ikke. Måske kunne det altså og så var vi sådan lidt: Jeg ved ikke helt hvad de vil have. Nu har vi lavet noget, som vi synes var godt nok.
+
+Student 3
+Ja, haha.
+
+Student 2
+Men sådan er det jo ofte kan man sige. Idk.
+
+Interviewer
+Jeg kunne godt tænke mig at høre om i tror, at i ville have fået mere, mindre eller det samme ud af labløbet, hvis i havde fået alt den her information inden? Altså hvis i havde fået at vide hvad de her projektorer var og alle komponenterne og sådan noget.
+
+Student 2
+Jeg tror, vi ville have fået mere ud af det, idet at vi ville have fokuseret mere på og teste de forskellige, altså opstillingen i sig selv. Det kunne vi have brugt mere tid på, det vi gjorde nu, fordi vi ikke stod og undrede os over, hvorfor det ikke virkede i halvdelen af tiden. Så ja.
+
+Student 1
+Hvis jeg havde fået at vide hvordan det fungerede lidt bedre, så kunne vi jo også ud fra de der informationer bygge en mere sådan udvidelsen. Altså at sige: OK, men hvad så hvis vi gør det her eller sådan de der spørgsmål man nogle gange får. Som hvis vi havde vidst tidligere: Jamen ok, det er sådan verden ser ud og så sætter os nede i lab ved setuppet og leger med det. Så kan vi jo mere lege med det, fordi vi forstår hvad konsekvenserne vil være og så se at vi sådan set kan forudse det med de informationer vi har. Nu har vi på baggrund lidt forudset udover det sidste.
+
+Interviewer
+Ja.
+
+Student 1
+Men hvis vi havde nogle andre ideer om hvordan man kunne sætte ting op eller sådan noget der. Det kan vi ikke gøre nu, fordi det er først nu vi sådan forstår det bedre, hvis det giver mening.
+
+Interviewer
+Ja, helt sikkert.
+
+Student 1
+Jeg tror svaret er ja, jeg tror vi ville have fået mere ud af det, hvis vi vidste det før.
+
+Interviewer
+Tror i der var noget i har fået ud af den her måde, hvor i ikke vidste helt på forhånd, som i ikke ville have fået ud af det, hvis det er i havde vidst det på forhånd?
+
+Student 1
+Det største tror jeg er diskussionerne vi har haft med hinanden. At sidde og sige: OK men snak det igennem og få ligesom intuitivt bygget det op på en eller anden måde.
+
+Student 3
+Ja man får ikke diskuteret lige så meget, hvis det går nemt.
+
+Student 2
+Det er klart.
+
+Student 3
+Ja, så det skal jo også være lidt frustrerende ja.
+
+Student 2
+Det ved vi også godt. [emphasis]
+
+Student 1
+Skal ikke være nemt nej.
+
+Interviewer
+Det er helt fair at føle frustration. Jeg må lige se om der er mere jeg vil spørge jer om. [silence] Nej, det er mere bare om der er noget lige nu som i føler at i ikke har fået svar på?
+
+Student 1
+Ja.
+
+Student 2
+Vi har en faktor.
+
+Student 1
+Vi sidder lige nu med den der projektionsoperator vi snakke om tidligere og sådan hvordan fungerer det når vi ved hvor den kommer fra. Det mangler vi vel lidt, men det er sådan mere matematiksorienteret hvordan den fungerer i spørgsmål 11. Ja.
+
+Interviewer
+Så det i laboratoriet, det gav mening og i styr på det?
+
+Student 1
+Efter vi har snakket om og fået det forklaret, så gav det mening.
+
+Interviewer
+Ja.
+
+Student 1
+Det var ikke...
+
+Interviewer
+Cool. Det er jeg glad for at høre.
