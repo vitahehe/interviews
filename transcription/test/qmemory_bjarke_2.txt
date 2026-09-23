@@ -1,0 +1,224 @@
+20260107 Quantum Memory lab_Bjarke.m4a Student 1: male, Student 2: male, Student 3: male
+level: masters
+
+Interviewer
+All right, so I'm going to record this, and this is purely to support my memory, so I don't have to write things down. You can say your names. I will not use quotes in a way that you could be recognized, but I will use it for, and we will use it for improving teaching concepts and material. We might also use the quotes for publication. I mean, if you say something that is, I really want people to hear, I can use it, but I will never mention your names. So I hope it's all right. Great. So first of all, thank you for your time. Can I ask any of you to just try to put words on what you experienced today in our photonics lab?
+
+Student 1
+Yeah. So we had this memory experiment where we were trying to store quantum data in an ensemble of atoms. And we took the data was first in the form of light through photons. There were two laser pulses where one of them was a signal pulse that stored this information in the rubidium atoms. And there was another pulse which was keeping the process driven. Then we had a bunch of optical elements which control polarization and timing of when things would go in and so on. And we took some measurements on that.
+
+Interviewer
+And you are, by coincidence, one of the last groups, so there are not many students left who haven't done this. But if you should explain, tell another student who's going to experience this, what would you say? Maybe you?
+
+Student 2
+I would ask them to read about the experiment, right, the ensemble of atoms and how do you make a memory out of it. During the experiment, I would say, ask more questions, I think it is still a bit difficult for me to understand how do you retrieve the memory and How does that thing work right? But it was an interesting experience and it was good to see that how do you realize what we have studied in the class?
+
+Interviewer
+So there are many things that I'm very curious about. So the first thing that you, do I understand it correctly, so you have an advice for those students to read about it in advance or what did you mean with the... Can you please explain a bit more about the first thing you said?
+
+Student 2
+Yeah, it's an advice. Actually, someone also told me yesterday, read the the paper in the absalon page before you go to the lab, and we did that. And I think it helped at least me. Yeah, definitely.
+
+Student 3
+I didn't read it to the extent that I wanted to. I was quite tired last night. And so I think having put more time into understanding the article will tell me today. I'm definitely asking lots of questions.
+
+Interviewer
+And what article are you referring to the last one you discussed?
+
+Student 1
+It's the paper where they also demonstrate this rubidium storage.
+
+Interviewer
+It's the 2001 paper?
+
+Student 3
+The Harvard with Lukin.
+
+Interviewer
+Oh, there's another paper from the course.
+
+Student 2
+It's a 2001 paper, I think.
+
+Student 3
+I don't remember the year.
+
+Interviewer
+Yeah, all right. But so Can you try to put words on when in this exercise you felt the strongest?
+
+Student 3
+In the beginning.
+
+Interviewer
+So what went through your head in the beginning?
+
+Student 3
+Just that there was a lot going on and how to navigate that. But the more I asked questions, the more we discussed, and the more I understood and things fell into place.
+
+Interviewer
+So if we imagine a parallel world where you read the paper in advance as thoroughly as you wanted to, how do you think your experience would be different? So this is a thought experiment.
+
+Student 3
+Yeah. I think I would have better ideas of what data I would find meaningful to take. And I could kind of mess around more with, like, change more variables and test my intuition for the subject better. Because in the beginning of this, I didn't really have that intuition, whereas if I had an intuition, I could test myself in a way. I think that's often fun, is playing with something and trying to predict what's they're going to do to kind of test myself.
+
+Interviewer
+I'm sorry, I want to return to you. So you also mentioned that there were things that you struggled or you thought it was hard understanding. Can I ask you to put some more words on what was hard to understand?
+
+Student 2
+Yes. So in the experiment, I can understand how the setup is, and the lasers and the half wave plate correlations, and also the hyperfine structure. But then I can understand when you when you have two polarizations with mixture not mixture it coherent mixture of two this sigma plus and sigma minus then you get this state right, but then when you turn it off and turn it back on again with just sigma plus, how do you actually get your information back? I still don't really understand that, why and how is that happening?
+
+Interviewer
+So it's the detailed understanding of the scheme of the experiment and the dynamics of the stark state. Yeah. All right. And is this something you discussed in your classes in theory?
+
+Student 1
+Not specifically with rubidium. And I also feel like some of this with temperature and how atoms would fly around was not something we had mentioned at any point. So I have to say this experiment, undoubtedly for me, the hardest part was understanding what was going on inside of that big metal tube with all of these atoms in thermal equilibrium because we haven't discussed it. We haven't even discussed statistical physics in the course.
+
+Student 2
+And these stark states, I don't think we had that.
+
+Interviewer
+Right, so that's something that these are things that are some theoretical knowledge and conceptual understanding. A lot of the effort you put in this exercise was experimental investigation. So you had these half an hour or something, 20 minutes where you had to investigate without help. Can I ask you to just put some words on how you experienced that?
+
+Student 3
+I think it was nice. It was good that we at least had each other to kind of spar with. And often the time went quicker than I thought. We could have even had longer between ourselves, figure more out before we got outside help.
+
+Student 1
+I was feeling it was nice that we didn't have the option to take the easy route and ask the teacher. I think it's actually good to force yourself to not ask. And first just sit in your own thoughts and think, how could this be? How can we figure this out? So I think it's a good tool.
+
+Interviewer
+So when the time where you have to work on your own was done, then you could actually ask questions. So did you get the answers you needed when you had to dialogue with me and the TA.
+
+Student 1
+I would say so. I thought the answers were clear.
+
+Interviewer
+And so this combination of... individual investigation and then dialogue with your TA. How did you experience that?
+
+Student 2
+So during just our discussion, for some of the questions, one of us had answers and when we were not sure, then we would make some argument, okay, this must be like this. And then we ask the TA and we get more understanding of it, depending on how you were correct or not and why you were not correct. So, if you were sure that this is true, and if it's not true, then also we've done something like that.
+
+Student 3
+Yeah, so it's a good balance.
+
+Student 2
+Yeah.
+
+Interviewer
+Did you use internet or AI during your own investigation? No? that's unusual actually. Yeah, and we are encourage to do that because that's often how we work in the lab.
+
+Student 2
+But then I think the time for this that we had was just 40 minutes. So we were discussing amongst ourselves what should we do.
+
+Student 3
+Yeah, and still making progress without having to do something.
+
+Interviewer
+Can I ask you to mention just something, some specific experimental, some experimental thing that you learned today which was new for you?
+
+Student 1
+Okay, so the pocket cell was new.
+
+Interviewer
+Yeah.
+
+Student 3
+For me, the AOM.
+
+Student 1
+I have heard of that.
+
+Student 2
+Yeah, it was interesting to see how you turn on and off the lasers, right, without actually turning on and off that is.
+
+Interviewer
+How about the oscilloscope?
+
+Student 1
+I have seen that.
+
+Interviewer
+Yeah, I mean, I expect you've seen it. Did you experience anything new with the oscilloscope or anything you learned about that equipment?
+
+Student 3
+I don't think I've seen a way you can just plug a USB in.
+
+Interviewer
+That part of the technology.
+
+Student 3
+I have seen that you can pause, make it freeze.
+
+Interviewer
+I remember one of you commented that it was averaging, for example. Have you used that function before? [silence] I mean, it takes a lifetime to master them, so you're well on your way. So the last thing I want to ask you is to try to put words on how this experiment or the experiments in this course can be related to your plans after the course. I don't know, are you QIS students? All 3? One year are you? Second? 
+
+Student 1
+First.
+
+Interviewer
+All right. So you have still some time before your thesis, for example, but can you try to put, so how can this potentially be related to what you're going to do later?
+
+Student 3
+I think for me it's just an introduction to how it can be spending a lot of time in the lab and especially seeing the type of problems that you'll be dealing with in setting up experiments. Because before I was mostly interested in theory and I didn't find that that exciting, but I think this is somehow different. It's like I can more see the characterization of qubits, for example, is important and kind of makes progress in the field, whereas measuring some springs or something was never that exciting for me. [emphasis] Because it wasn't new. 
+
+Interviewer
+I get really interested in this because, so can I ask you to put some more words about what changed? How did you, what made it more important than before? For you specifically.
+
+Student 3
+Because I feel I can see that this is important for progress to building, for example, good quantum computers. And that doing all these characterizations, for example, is like building blocks to getting good single qubits and therefore good many qubit systems.
+
+Interviewer
+And how would you feel about the idea of, let's say, spending half a year making a thesis in a lab like this one or the one you experienced?
+
+Student 3
+I'm still not completely sold on the experimental stuff because I can see that it can be frustrating. But I'm definitely much closer than I was before in terms of willingness to...
+
+Interviewer
+And I'm sorry, I'm digging deeper, but What kind of frustrations are you thinking of here?
+
+Student 3
+Well, I just imagine if I was here on my own and I didn't have anyone who knew the experiment. I had to set it up on my own and learn all the little characteristics of how to use this equipment. This thing needs one pulse for on and one for off, and it's not just a pulse that it's listened to. Yeah, when something doesn't work and if I don't have someone to talk to. If I was just on my own, then it would be hard to do.
+
+Interviewer
+And how are your expectations to yourself about being able to solve these challenges in a theoretical work? I suppose there are other challenges.
+
+Student 3
+Yeah. I think in... There are different challenges though, like... in a theoretical way that you can kind of, I feel like you can more easily just search, for example, read on the internet. Whereas if you have this type of specific oscilloscope, which is this model and it's not this model, then even though you can look it up, the instructions aren't necessarily the same. And so it's much more specific to just what you have in the room than the theory that is kind of the same wherever you're thinking about that theory.
+
+Interviewer
+This is very interesting for me as an educator.
+
+Student 3
+At least that's how it is and how I imagine it.
+
+Interviewer
+How about you? Do you want to add something when you hear about this?
+
+Student 2
+I agree with the part that these experiments gave me some idea about how what kind of work that people do in physics instrumental life because I don't come from physics. And even though I mean I'm still I don't think I'll still go to an experimental thesis in future because of the one of the reasons that...
+
+Interviewer
+So the reasons that was mentioned about this experimental equipment and stuff like that?
+
+Student 2
+Yeah, that's true, but also because I think it needs a lot of patience and I don't think I have that.
+
+Student 1
+Yeah, I do want to do an experimental thesis and I also have the exact same feelings as Student 2 with that it's like I don't really feel as I'm not as good at solving the challenges as I am in theoretical work because we've had so many courses in our bachelor in theoretical work. But I just feel like it's because I'm not in the lab as much as I am by the paper so I just need to be there more and that's also why I want to do a thesis like this.
+
+Interviewer
+So it's something about routine?
+
+Student 1
+I would say so, but also just doing it a lot of times, yeah. Because then I'll be used to, okay, there's an issue here, what could I try to do? And then hopefully at some point I'll have 10 things I could try if there's something that goes wrong. Whereas right now we might have like one or two ideas, and if they don't work, we're a little bit lost.
+
+Interviewer
+So maybe the last thing, how would you feel about the idea of spending half a year, for example, in the lab?
+
+Student 1
+I would want to do it. I think it would be very challenging, but I think it would be good.
+
+Student 3
+That would be a good challenge that you overcome when you're in your lab.
+
+Interviewer
+All right. Thank you so much. I'll stop it here.

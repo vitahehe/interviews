@@ -1,0 +1,179 @@
+20251217 Quantum Memory lab_Vita.m4a Student 1: female, Student 2: male, Student 3: male, Student 4: male
+level: masters
+
+Interviewer
+Okay, I think we can start. Then, as I said, I'll start with your names. They're not going to be used for identification or anything, but just for the sake of the recording and processing. They're recording. Yeah. So my name is Interviewer.
+
+Student 1
+I'm Student 1.
+
+Student 2
+I'm Student 2
+
+Student 3
+I'm Student 3
+
+Student 4
+I'm Student 4
+
+Interviewer
+Okay, thanks for the time again. Could you guys maybe first describe a little bit what you did today for someone who wasn't here at the labs?
+
+Student 2
+We did a memory experiment. To see how you can store a qubit for some time.
+
+Student 1
+From a light beam.
+
+Interviewer
+Okay, were there any overall thoughts or challenges you have about the full lab?
+
+Student 1
+Yes, I thought it was very technical.
+
+Interviewer
+Very technical?
+
+Student 1
+Compared to the other one, especially.
+
+Student 2
+I don't know. Student 3, I say something. 
+
+Student 3
+I don't know.
+
+Interviewer
+Technical you said?
+
+Student 3
+No, I think it was fun and I think. Lots of the theory sort of spans over a lot of what we've done in the classes and in the exercise classes, not just like now, but throughout the whole course. So it contains a lot of the different aspects that we've been going through. So in that respect, it's been a very relevant lab exercise.
+
+Student 1
+But I think the technical part takes up a lot of time and energy. At least I uses on this lab, so I mean, yes, that was a little bit about the theory, but also a lot about just understanding the setup and what to do with memory.
+
+Interviewer
+But was it technical in the sense that you guys could connect it with theory from the lectures?
+
+Student 1
+Some of it, but some of it is not connected to theory from the lectures because it's just how the machine works or how the setup is, because we don't do that in the lectures.
+
+Interviewer
+Did you guys, what did you do when you didn't know something?
+
+Student 3
+We would ask and get help from the TA, I don't remember their name.
+
+Student 1
+We were not allowed to ask questions for some time for all of their tasks, which makes sense. But I mean, I don't know if it makes sense because we don't necessarily know anything about the experimental setup. It's not everyone who does that.
+
+Student 3
+It's really hard to understand the experiments and setup the 1st 20 minutes.
+
+Student 1
+Yeah, and it's been a long time since you've been in the lab.
+
+Interviewer
+It's a big chunk to take in.
+
+Student 3
+And just figuring out the oscilloscope, even though we've been working with it a lot early on, but like it's hard to figure out, so that takes some time as well, of course.
+
+Interviewer
+But did you guys have a feeling you could play around a little bit? Like, as in you see the machine, could you try things out?
+
+Student 3
+Yeah, but also sort of limited, actually. We didn't have a lot of things we could adjust on. Also, I don't didn't know what anything did, so. No, I think it was like our knowledge on the subject was sort of limited, which would limit our ability to adjust on different things.
+
+Interviewer
+Is there anything that would help you guys? I'm just looking for what could make understanding this easier for you.
+
+Student 1
+Yes, like a similar way as the previous lab. It's like a big screen and it was very easy. And also we could get something to read before.
+
+Interviewer
+So a little bit preparation of the setup beforehand for you guys to actually understand?
+
+Student 3
+Yeah.
+
+Interviewer
+Okay. If you guys would have like, let's say another hour or two here. Is there something you would want to do? Just out of curiosity or interest.
+
+Student 3
+We talked about varying in parameters that we didn't do right? We probably would have done that. What was it again? I don't remember. 
+
+Student 2
+Voltage. [agreement]
+
+Student 3
+Voltage. Over. F*** it. Yeah. Something. That's probably what we would've done. And then we probably have worked more with the data, which I guess...
+
+Interviewer
+Okay, but nothing grabbed your attention? That'd be interesting to see.
+
+Student 2
+And I don't think I know enough about it to know what's interesting. 
+
+Student 3
+Yeah. No, exactly. That's also how I feel. Like I'm not skilled enough to actually know what to do and not to do or to put your finger on: Ah! that's interesting. I'd like to explore that even more because...
+
+Interviewer
+So it was due to the lack of understanding that kept you from getting into the game here? Okay, I can understand that. Let me see if there's anything specific... Oh, was this something you really disliked? Or like any... Anything you would say, please improve this next time, besides the more material beforehand.
+
+Student 3
+If there was a specific thing we disliked?
+
+Interviewer
+Yeah.
+
+Student 3
+Well, of course, it's always a little boring in the end when we've gotten everything figured out and we just have to take data and, you know, do measurements over and over again. That's, you know, always that's just waiting time, basically. Of course, we could have spent that time more productively doing other things that we didn't today, and that's how it usually goes when we're in the lab, I guess.
+
+Interviewer
+Are you guys physicists without the approximate backgrounds?
+
+Student 2
+Yeah. 
+
+Interviewer
+Okay. Was it useful at least to come into a lab, like after this course? Did you find anything that you learned in this lab that you can apply later for stuff you want to do?
+
+Student 3
+I don't know. That's hard to say. 
+
+Student 2
+I think I understand the lecture material a little bit better. So, that way it helps, but I'm more from a theoretical physics background, so of course lab never really was my thing. 
+
+Student 3
+So, no, I'm sure it benefits in a different number of ways. It's just hard to put a finger exactly where and how, but that's usually something you will be able to answer that question later on, because then you're like: Ah, actually, that's what we did in lab, and so you can't really just have the lab, know exactly what's relevant and what to take from here and so on, I think… [unsure]
+
+Interviewer
+But as I see you're more of a theoretical physicist.
+
+Student 1
+[inaudible] But I don't know. I think it's difficult to, so I mean it's been a long time since I've been in the lab and I think it's difficult to come into a lab and we have an overview of everything and it just it takes more time and it's confusing and when you're 4 people it's even more confusing and yeah.
+
+Student 1
+But of course it's really like a nice thing about this lab is that we have one TA for one group, so of course also. We've never gotten to do that before, having a sort of a private lecture.
+
+Interviewer
+Private lecture. I see, I see. But just if I can catch you with the confusing, you know what do you mean? The theory? What exactly would you like to do?
+
+Student 1
+The machines and the setup, the technical stuff, it takes more time to get used to and to be comfortable with. For me, at least, it's like, and it's always been like that in all that's that that's like a big barrier, and you can't really, you don't pass it every three hours. I just don't like the short labs.
+
+Interviewer
+So the barrier was the fact that it was too many technicalities, in a sense that it was hard to play around and focus on what you're interested in?
+
+Student 1
+And know what you're interested in.
+
+Interviewer
+Of course you need to understand. Okay, I think that is most for my part. Thank you once again for your time and all of the answers.
+
+Student 3
+Yes, thank you.
+
+Interviewer
+Alright.

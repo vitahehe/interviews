@@ -1,0 +1,218 @@
+20251216 Quantum Memory lab_Vita.m4a Student 1: male, Student 2: male, Student 3: male, Student 4: male
+level: masters
+
+Interviewer
+Then I can start recording. Well, as I said, first please, your names will not be used for identification, but yeah.
+
+Student 1
+My name is Student 1.
+
+Interviewer
+Okay, thank you so much for the names. Can you maybe first catch me up with what you did today? Just for someone who wasn't at the laboratory, what did you do? What exercises?
+
+Student 2
+We did a memory experiment. So storing quantum information and light, storing a photon.
+
+Interviewer
+What setup did you work with?
+
+Student 2
+This setup [laughs], atomic ensemble of rubidium atoms.
+
+Interviewer
+Okay, Is there like any overall thoughts or how are you feeling now that you're done with it?
+
+Student 2
+It was pretty nice. It was fun.
+
+Interviewer
+Yeah, you found this fun?
+
+Student 2
+I liked it.
+
+Student 3
+Was easy to follow also. Like when we got here, it was pretty, it was like overwhelming of all the setup. But it was pretty easy to follow after the explanations.
+
+Interviewer
+So the explanations really helped.
+
+Student 1
+Yeah, we have a lot of task cards and we can follow the experiment step by step. And actually this paper is from Professor Lukin from Harvard in 2003, I think like 20 years ago. And that's very interesting because Professor Lukin come here three months before. I haven't gone to the lecture. Yeah, he's his first outstanding paper, and we can forward it. That's pretty interesting, meaningful, kind of meaningful for the first year student in quantum information science. Yeah, I think you can [inaudible] right? Yeah, we are quantum information science both, right?
+
+Interviewer
+Okay, but you said that the material was nicely made. You understood and you guys could follow what Awas on it?
+
+Student 4
+Actually, I think the task is quite difficult to follow. For example, the investigate part, he asked me to think, but don't give a lot of support. So it's quite hard for me to think, especially in this room. So when the task asked me to think, I'm almost not thinking.
+
+Interviewer
+Do you mean when you say thinking, do you mean like problem solve of spot or figure out things? What are you referring to?
+
+Student 4
+Maybe he will ask me to send me some function or some components, but I just don't know. So it's very hard to start to think.
+
+Interviewer
+Yeah, did you guys, what did you do when you didn't know something? Look it up? 
+
+Student 2
+Yeah, we could look it up. Yeah. 
+
+Interviewer
+Was there a specific part that was like really challenging of the lab that you found it's quite like hard to get through?
+
+Student 1
+Yeah, in task 2 and we set up the pocket cells voltage at 225 and both us and TA could not describe this weird phenomenon in our plot. We do that again. It's over there. You can see that.
+
+Interviewer
+Yeah.
+
+Student 1
+It's a very strange dip here. And we do it again. At first we think just maybe an error or the offset or the graphing, things like that. But we do that again. It still happens. So we do not have the idea of how to describe this result.
+
+Interviewer
+So you didn't quite arrive at the conclusion yet? Is it going to be after?
+
+Student 3
+Yeah, on this specific problem.
+
+Student 1
+Yeah, on this specific problem. We have 4 examples. For this example, we don't actually know what's going on in that dip.
+
+Interviewer
+And because the material you said, you didn't like it quite for this task. Was there anything else that made it hard to get over this?
+
+Student 3
+This problem.
+
+Interviewer
+Yeah.
+
+Student 3
+No, I think that sometimes like how the setup is made or the... some courses you can take into account when you're making an experiment and especially for three hours. You will arrive at some problems at some point, so yeah.
+
+Interviewer
+Of course.
+
+Student 3
+All the other values were on point, so there was no problem in that.
+
+Interviewer
+Okay, that's really nice. Did you guys have a little bit of like feeling that you could play around? Figure it out and have a problem solving experience?
+
+Student 2
+I think that was pretty nice. I think that worked well. To just get a couple of minutes to look at whatever you want and try and figure out what's going on before the TA takes over.
+
+Interviewer
+So the structure was well made in this sense? Like you have time to play around and then the explanations followed.
+
+Student 2
+Yeah, I think that was really nice.
+
+Student 1
+I think if we have the manner of the equipment, I can do better. Because usually we're not familiar with the new equipment. It takes some time to adjust it.
+
+Interviewer
+Yeah, of course. But did you find any use in this laboratory? Is this something that even after this course you will be encountering again?
+
+Student 3
+I don't know about that, but it's definitely something that It was nice to see either way, yeah. Relevant or not on further studies, it was nice to see. And we don't have any lab exercises on the masters. So it's cool.
+
+Interviewer
+Yeah, exactly. So there was a little bit like off. You can connect the theory to.
+
+Student 3
+And also getting to a lab itself, like, was okay.
+
+Interviewer
+Yeah. Okay, that's really nice to hear. Is there anything, yeah, I was also thinking about taking this course. Is there anything you would advise me before I do?
+
+Student 1
+We are in the same major, right? What's your bachelor background?
+
+Interviewer
+Physics.
+
+Student 1
+Yeah, you can apply for this first. For me, I have a computer science background. There are some people from the mathematics background, at first it's really really hard to understand the atomic physics, and a lot of background knowledge you need to have. So at first it's hard. For the experiment, I think the professor is pretty clear about the definition and what's going on there. It's good. It's really good.
+
+Interviewer
+That's really nice to hear that the explanations we did well. Okay. So did you get some skills, knowledge you're happy with?
+
+Student 3
+Yeah.
+
+Student 2
+It's a very fruitful course. I feel like I've learned a lot.
+
+Interviewer
+Yeah, do you have any specifics for me?
+
+Student 2
+Specific like stuff I've learned?
+
+Interviewer
+Yeah, skills, something that was like...
+
+Student 2
+I mean, no, I guess just a bunch of knowledge on quantum information. I don't know. Yeah.
+
+Student 4
+You mean about the course? So from this experiment?
+
+Interviewer
+I mean, for today. Yeah.
+
+Student 1
+I think today's experiment in general had some knowledge from the lecture, I think. Yeah, most of knowledge we covered in the lecture.
+
+Student 3
+Yeah, but it's nice to see, like, from the lecture to the real one.
+
+Interviewer
+The transition between, yeah, connecting it.. Because, as you said, if there is no master courses that train you in the lab.
+
+Student 1
+We will see this, but i am very happy to sit here.
+
+Student 3
+And also some lectures from this course are relevant to what we're doing here. So that was nice-
+
+Interviewer
+Okay, I think actually just one last question if I can get you guys. I don't know how we are on time. But was there something you really didn't like about the laboratory? Any critics?
+
+Student 1
+I have one funny thing, like we do not know our card can enter this building. The three of us were just stand in front of the building and waiting for somebody to pick us up. We were standing outside for 20 minutes.
+
+Interviewer
+Logistics, okay. Anything else?
+
+Student 4
+I think maybe they can give more support before we enter the lab.
+
+Interviewer
+Before entering the lab? Okay
+
+Student 4
+Yeah, before I can provide some pictures.
+
+Student 1
+Like: Then open this door and downstairs and then you will find something like that.
+
+Student 4
+Okay, or really explain this experiment before we enter the lab, so we can prepare.
+
+Interviewer
+Ah, preparation before. So material to actually know which…
+
+Student 3
+More material.
+
+Interviewer
+Yeah, for before the lab?
+
+Student 4
+Before the lab when we're still at home.
+
+Interviewer
+Okay, this is quite insightful. in that case, thank you. I think this should be most of the things I was interested in. Yeah, thank you.
