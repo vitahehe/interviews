@@ -1,0 +1,110 @@
+20251209 PIQIP Qinu lab_Andrea.m4a Student 1: male
+level: masters
+
+Interviewer
+All right, well, thank you so much for participating. To start off, can I ask you to say your name and tell us whether we could potentially contact you after the exam to ask more questions?
+
+Student 1
+Yes, so my name is Student 1. Good luck spelling that.
+
+Interviewer
+Thank you.
+
+Student 1
+But I can spell it for you at the end. And yes, of course, you can contact me after. I'm happy to help or be part of research.
+
+Interviewer
+Thank you. We may use the interview for external communication, but of course we will anonymize if we use anything you say. Is that okay?
+
+Student 1
+Yeah, sounds good. Great.
+
+Interviewer
+So first, can I ask you to just tell me broadly about your experience today in the Cryostat lab?
+
+Student 1
+Specifically about today's lab? Okay. Yeah, I found it really inspiring and somewhat intuitive. And I always find it really helpful when I get to do hands-on things that relate to the theory that I learn. And I also get to ask questions from somebody who actually knows the answers to them. I had that experience with a previous course at KU. It was actually a DTU course that had some labs with photonics. And it really helped me kind of get an intuitive understanding of what we were actually learning about before. And I've had a similar experience here. So overall, it was a very positive experience. I felt like I got a lot from it.
+
+Interviewer
+Have you been in the cryostat lab before?
+
+Student 1
+No.
+
+Interviewer
+And this was a good and fairly intuitive first experience with that?
+
+Student 1
+I would say so. I felt like our group didn't have a lot of experience with working with these types of machines before. And we managed. I would say it was quite intuitive.
+
+Interviewer
+Could you walk me through any challenges that you or your group felt like you faced in the exercise?
+
+Student 1
+[unsure] I mean, I felt like basically everything, like any issue that we encountered, we could mostly just ask questions or the helper would help us with it. So I don't recall any like major obstacles that we encountered. Like it took a bit to get the hang of like, for example, one thing that confused us: I feel like maybe the most confusing was relating, like essentially plotting, the probability of being the excited state for any particular qubit as a function of amplitude of the driving frequency, as opposed to the time. And that I personally found quite unintuitive and I think that was maybe a bit difficult to understand for the group. That instead of fixing the frequency and plotting it against time, we fix time and plot against amplitude and we get a similar looking function. But it's just how these machines usually work.
+
+Interviewer
+So what did you do when you faced something that you thought was unintuitive or you had a hard time understanding?
+
+Student 1
+We could ask. And the TA was also very helpful and they also acknowledged that this is a bit unintuitive for them as well. And so they just walked us through how to think about it and then from that point on we understood. We also actually, it was very helpful to have the Bloch-sphere animation, like this interactive tool where we could see how different pulses rotate around the Bloch-sphere. Right. That was definitely helpful.
+
+Interviewer
+Yeah, sure. If you had another three hours in the cryostat lab tomorrow, do you have any ideas of what you would do with that time?
+
+Student 1
+We did not have time to do the last two optional experiments, which is to test... I think it's... I didn't fully get whether it's to test whether we're coupled to a state or whether it is to couple to a state. I didn't get if it's just a test or if it's to actually do the action of coupling. But that's something we didn't have time for. And I would have really enjoyed doing that because I'm just interested in it. So if I had more time, then I would probably do that first.
+
+Interviewer
+Right. Anything that wasn't listed in the lab manual that you were just curious about or that you would have liked to just, out of curiosity, play around with?
+
+Student 1
+Yeah, I mean, I'm not sure if we would have had access to multiple qubits. I know the experiments that were set up for us only worked on Q5. But I guess if we had access to multiple qubits, then I would have loved to try and create like Bell states or do some multi-qubit gates, multi-qubit operations in general. But other than that, I mean, maybe you try to do try to do a Hadamard gate or something.
+
+Interviewer
+Cool. How do you think that the experiments you did today may relate to any plans you have going forward from this course?
+
+Student 1
+I have not settled on a specialization yet for my program, for my studies, but I think my number one thing that I'm interested in would be maybe distributed quantum computing systems. And so that maybe works with photonics a little bit more than superconducting qubits. But it also requires relatively good quantum memory, for example, for long distance communications. So I would say that Getting some lab experience, working with superconducting qubits is definitely going to be useful for me because I do want to work rather close to hardware. I do like theory, but I definitely want to be involved with the experiments as well. Right.
+
+Interviewer
+That's going to be my next question, how your general relation to being in the lab is?
+
+Student 1
+I love being in the lab. So my background is actually in mechatronics engineering, so I'm not a physicist.
+
+Interviewer
+Are you in the QIS masters?
+
+Student 1
+Yes, which is where we are coming from all sorts of backgrounds. Some people are from computer science. I'm actually closer to computer science as well because I specialize in computer science, so that's how I qualify for this program as well. But because of my, well, not because of my mechatronics background, but related to my mechatronics background, I also really like working with hardware. And as much as I love the theory and as much as I want to understand it, I feel like it might be a little too dry to just always work in theory and work at a whiteboard and never actually see things in action. I mean I know most of the time you're just staring at the outer wall of a refrigerator or like a cryostat, but still the fact that I know that there's something happening in there that I manipulate is, I find that inspiring.
+
+Interviewer
+Sure. And yes, what would you say is like your main takeaway from this exercise that you did today? If you could point to something.
+
+Student 1
+I think the most useful thing that I will remember is probably characterizing T1 and T2 decay or T1 and T2 decoherence. Sorry, I always say decay. I know one of them is dephasing, but like decoherence, characterizing decoherence. I think that might be the most useful that I learned, like the useful thing that I learned today. And also maybe executing T2 echo, like actually using echo to get better performance in terms of dephasing.
+
+Interviewer
+And last, do you have any recommendations or ideas for how this exercise could be improved for future students?
+
+Student 1
+Honestly, I found it pretty flawless.
+
+Interviewer
+That's good to hear.
+
+Student 1
+Yeah, maybe. I mean, for some of the, for some of the planning fields, like we had the always like the red questions for every exercise. For some of them, like for all of them, it was like a whiteboard type of input field. I felt like some of them might have been more intuitive with just a text field, because for some of them, it's like, what are the steps that you should take here? And then Either we write it out by hand or we draw something, but I felt like maybe we took a bit too much time on these little things. We also took quite a bit of time on selecting the numbers and saving the files and everything. And I don't really know how to streamline that better, but I guess it's just as feedback, we did lose a bit of time on that. But otherwise, I think it was pretty flawless. I found it intuitive and I found it enjoyable.
+
+Interviewer
+Great. Yeah. Okay. Thank you so much.
+
+Student 1
+No worries.
+
+Interviewer
+That was all.
+
+
+

@@ -1,0 +1,284 @@
+20251212_2 PIQIP Qinu lab_Andrea.m4a Student 1: male, Student 2: male, Student 3: male, Student 4: male, Student 5: male
+level: masters
+
+interviewer
+All right, so first I would like you to just go around and tell me your name and if you're okay with anything you say maybe in use to over like external communication in anonymized form of course and if we can contact you after an exam if we have follow-up questions.
+
+Student 1
+Okay, so hello, my name is Student 1.
+
+interviewer
+I'm going to have to write that down. We can do it afterwards.
+
+Student 1
+Yeah, I'm a quantum information science student, doing my masters here. And this is my second block. Do I need anything else?
+
+interviewer
+Else? Is it okay for you to use anything you say?
+
+Student 1
+Yeah, of course. I agree.
+
+interviewer
+And can we contact you after an exam?
+
+Student 1
+Yeah.
+
+interviewer
+Great.
+
+Student 2
+I'm Student 2 and I agree to both parts.
+
+interviewer
+Great.
+
+Student 3
+I'm Student 3. I agree also, of course.
+
+Student 4
+My name is Student 4. I also agree.
+
+Student 5
+And my name is Student 5 and I also agree.
+
+interviewer
+Thank you. So the first general question that I have about the lab experience is to just like tell me generally about the experience you just had in the cryostat lab. If you were to explain, would you just, or to explain the exercise to someone who wasn't there, what would you say?
+
+Student 2
+It was about calibrating a qubit to make sure all the actions we would take afterwards were correct. So we were making sure the experiments actually work. And then we also took some characteristics of the qubit afterwards. And it was necessary to do it in that order because we needed to, as I said, we needed to know that the operations were correct.
+
+Student 5
+That summarizes it pretty well.
+
+interviewer
+And how did you find it? How did it go?
+
+Student 4
+So the first part of calibrating our qubit was done by using microwaves. Because these are superconducting qubits with the difference between the ground and excited state being in the gigahertz territory. So we can sort of change the state of our qubit using microwaves. And basically, that's the first half of what we did that we applied some sort of microwave with a given amplitude, time, and then sweep the frequency. Then did it for the amplitude as well with constant frequency and time, and measured where there's a maximum probability of the qubit going from ground to excited state.
+
+interviewer
+Right.
+
+Student 2
+Was that the question?
+
+Student 4
+I don't know.
+
+interviewer
+I was also thinking like more than the technical details of what you did, like how did it go? Oh, sorry. But also good to like have that in place, right?
+
+Student 3
+We used the quantum computer, so we didn't use a simulator. And we took like real values to evaluate also the dephasing, the detuning, and anything related to how can qubits like change states and be affected.
+
+Student 1
+Yeah, to be honest, it was a superconducting computer. And to be honest, I don't understand why we do this lab right now when we learn about like ion trap, photonic computers, but not superconducting, so it was a bit confusing to me.
+
+Student 4
+But I don't think superconducting qubits next week.
+
+Student 5
+Yeah.
+
+Student 1
+So it was like a bunch of new information, like how the hardware works, but...
+
+interviewer
+Can you elaborate on that? Like, what is it you don't think makes sense?
+
+Student 5
+We haven't been taught about superconducting.
+
+Student 1
+What?
+
+Student 5
+We have not been taught about superconducting qubits yet. [overlap]
+
+Student 1
+Usually, yeah, the other type of computers, we learned about both of them. In this lecture, but superconducting will, I don't know, be next week or week after, and we do this lab right now. So maybe it would be easier to do this lab after you have some basic knowledge about like what's going on. So right now, yeah, it was lots of new stuff to me. But yeah, the TA was kind of patient and I think they explained everything, yeah, so. I would say.
+
+interviewer
+I guess building on that, can you talk me through like the specific challenges you faced?
+
+Student 2
+I don't agree with what you said.
+
+Student 1
+You don't agree with that?
+
+Student 2
+Well, I agree with that it's new information, but I didn't think the information was nearly as dense as the information we usually get about subjects. So she was really surface level in what a superconductor was, and then much of the other time we did Rabi oscillations and found decay times and decoherence times, which is what we have learned, right?
+
+Student 1
+I mean, lots of theorem we learn about it, but you know, like...
+
+Student 2
+It is weird that we're suddenly using a superconducting...
+
+Student 1
+They put it in and explain this theorem in other type of computers. So I don't understand why we wait for this level. But anyway, I understand what you say. Like, yeah, we learned basic theorems, but still...
+
+Student 2
+I think it was mostly just to get us to see how to actually do the calibrations and characteristics. And then we just had to fill in a little bit of, oh, this is just a superconducting, yeah, superconducting quantum computer.
+
+interviewer
+Getting a little more specific, maybe could you like, if you're frustrated with some of the contents of the exercise, could you maybe elaborate a bit more about the specific challenges?
+
+Student 3
+I think like the name of the whole lab topic was pretty scary because it was about superconducting qubits that we weren't taught still, but the actual like what we were being tested on were things that were mostly taught on our lectures till this far. But when we came here, it was pretty new to us what we were going to face. But I don't think that the material we did here was something we haven't seen already. I think 80%.
+
+interviewer
+So how did it go, like filling in the blanks that you had to figure out yourself today?
+
+Student 1
+By connecting to that, for example, it was confusing to me. Like the hardware was superconducting and other solutions, for example, don't have like this resonant frequency. They're using lasers or something. So it was like also, you know, okay, at what frequency to sit and where and that. So and this was mostly for the hardware, I think. So yeah.
+
+Student 4
+I think it helped a lot with what we did during the actual experiments that there was ample time to sort of discuss what we're doing in advance. And the person present, the TA, I think helped a lot with helping us understand what's going on.
+
+interviewer
+Right. Do you feel like your TA could help you understand the stuff that you had a hard time getting?
+
+Student 4
+Yeah, I think so.
+
+Student 2
+They were very open to questions.
+
+Student 5
+They explained things very nicely. And I think it also helped that I feel like most of us had a genuinely good understanding of what was going on. So we were not completely lost.
+
+interviewer
+Thank you. If you had to go back in there tomorrow and have three more hours to explore a bit more freely, do you have any ideas of what you would do?
+
+Student 4
+I don't know how much we can do actually. I might, because the actual experiments we did were like pre-made programs. And we don't really have to have the time to go through what's going on actually. I think I would like to explore how the programming language works with which the experiments were set up with. And then try to maybe do something on my own, but I don't know.
+
+interviewer
+Right.
+
+Student 1
+I would also like just do some practical things. So right now I feel like that was what we learned, theorems, what we accept and run, okay, and like this kind of like proving what we did so far, but not like, okay, now how to use a computer, like how to, you know, extract information or do some circuits on it or... And I miss it, miss that, to be honest. So, maybe it's another course, but still it's proving theorems in a quantum computer is not much useful.
+
+Student 5
+We don't do many quantum circuits.
+
+interviewer
+How do you think the experiments you just did may relate to any plans you have after this course?
+
+Student 5
+Not at all.
+
+interviewer
+Not at all? [laughs]
+
+Student 3
+I think it's pretty early also to have an opinion about that because we haven't really explored how this is practical to the things we want to follow, how these are related also to the things we want to pursue after.
+
+Student 5
+I say not at all because I have already planned my master's. Or my thesis, and it's going to be in a different area, so it's not going to be related.
+
+Student 1
+I came from QIS, so I was just interested how this physically implemented these things, like get some practical things, but nothing further.
+
+interviewer
+And even if you have your master's thesis planned, you couldn't see yourself in the future, like in a job or in a PhD where you would use something like this?
+
+Student 3
+I probably would, but I don't know. I think it's too early.
+
+Student 5
+You never know what the future brings. I think the theory is, it's okay. [unsure] It's kind of nice.
+
+Student 1
+I want to go back to the industry. I couldn't see how I could use this kind of knowledge maybe in this research or go to PhD…
+
+Student 4
+I think I would love to do some experiments like this in different types of qubits since I'm also looking into quantum information science but I have a more physical background and I'm more interested in the physical side of things and the physical implementations and I'm not really planning on getting back to the industry at least not immediately. So I think this would be something I'd be interested in but I'm more interested in quantum optics, quantum photonics, or quantum light. So that's sort of quantum qubits based on more on that area, based more on optics rather than these superconducting chips that we used today.
+
+Student 2
+I think it was neat. [emphasis] I really like being in my lab. [laughs] I think it's much easier to remember the concepts when they're tied to doing an exercise like this. I'm much more motivated to listen when I know it's not just some exercise.
+
+interviewer
+What's your general feelings about being in the lab?
+
+Student 2
+10 out of 10.
+
+Student 5
+10 out of 10. That was amazing.
+
+Student 1
+What did you say?
+
+Student 2
+10 out of 10.
+
+Student 1
+10 out of 10.
+
+Student 5
+I think it was nice. It was a bit stressful for me maybe.
+
+Student 1
+I had better labs, but being in the lab, I think it's…
+
+interviewer
+What was the not so good part about this lab session?
+
+Student 1
+Like maybe this whole quantum thing is too abstract, but I don't feel like I can actually build things in a lab. I think it's like kind of important. Like you do the theory to like, okay, how to connect things. And now I just feel like, you know, press the button. Yeah, it's very press the button again. And it was like...
+
+Student 3
+Yeah, but I think like many labs are this way and especially anything like Particle physics stuff that you take count as you count in like, I don't know, it's like this.
+
+Student 1
+In Hungary, we came from Hungary, both of us, and that's part of the lab was like you put together the setup and I understand like it's a million of... kroner, but still, like, I don't feel like now I know exactly how the things going on a structure or an architecture point of view. So yeah, it's kind of annoying, I would say.
+
+Student 5
+Might as well could have been simulated data for the purpose because we did.
+
+Student 3
+It could be, yeah.
+
+Student 5
+You don't touch any machine.
+
+Student 3
+You wouldn't notice.
+
+Student 5
+No, you wouldn't have noticed. We would not have noticed. We even controlled it through internet page.
+
+Student 2
+We were unsure if it was real at first or just a simulation.
+
+Student 5
+Actually, we were like, is it real?
+
+interviewer
+So the whole cryostat setup is like a big black box. Yeah.
+
+Student 1
+Exactly.
+
+Student 5
+Completely no touchy.
+
+interviewer
+Right. That makes sense. Do you have any recommendations for what we could do or how to improve? Like, because it's sort of hard to, you know, the qubit has to be in there and it has to be like closed off and stuff. So do you have any recommendations for how we could make it more hands-on?
+
+Student 3
+I don't know, like a kind of life simulation, how the inside of it works would be pretty cool. Like, we only got to see the inside when we were looking up at the temperatures, but that was only that.
+
+Student 4
+Yeah, true. That was only the cryostat. I don't know, I liked the lab exercise today and right now I don't really see what should be changed because this is still an introductory course of the whole systems that we are working with. So I think it makes sense that there should be a distance between like how much a student can break. [laughs] And I think because it still offers of motivation that knowing that we're working with a real qubit chip here. I think that's very nice. And I think it's also a good idea not to let us like, of course, I'm a little bit like, oh man, I wish I could have done my own, programmed my own experiment and tried that or that could break something.
+
+interviewer
+Okay, cool. Thank you. I don't think I have anything else. I'm going to ask you to write down your names and emails, and then maybe we will reach out again if we need something. Thank you.
+
+
+

@@ -1,0 +1,446 @@
+20251212_1 PIQIP Qinu lab_Julie.m4a Student 1: female, Student 2: male, Student 3: male, Student 4: male
+level: masters
+
+Interviewer
+Okay, thank you so much for being here, im going to interview you. I'm going to inform you that I'll be recording, but not to use directly, but we might use some anonymized quotes from you. So first of all, I don't know what you've been doing, so maybe if some of you could put some words into the experience in the lab today.
+
+Student 1
+Okay, I'll start with this. The experience in the lab today was actually pretty good. I feel like I learned a lot of things because even if it was a virtual lab, I feel like through the TAs help was actually really helpful to actually understand the concepts and feel like I was actually doing more hands-on lab work. It was pretty nice.
+
+Interviewer
+That sounds great.
+
+Student 2
+Yeah, we had seen some of these objects in class, not the exact experiment, but what we applied to it, and it was really good to clarify what we learned.
+
+Interviewer
+Did you see that this week or earlier? 
+
+Student 1
+Earlier, earlier, yeah. 
+
+Interviewer
+But it was still fresh in memory, and...
+
+Student 2
+I mean fresh enough.[laughs]
+
+Interviewer
+Do you want to put some words into what you've been doing in lab today?
+
+Student 3
+I got here a bit late, super late actually, but... I really like the part where you can just change parameters, see how it affects the experiment. I don't think that's something you can do directly in the lectures or just handwritten exercises. It's really nice to see that.
+
+Interviewer
+Yeah.
+
+Student 4
+I think the whole format was nice and it was nice to have the site available for us in advance so we could like go through it like just a little bit, maybe a bit more time would have been nice.
+
+Interviewer
+So if you had more time, let's say three more hours next week, what would you use that time for?
+
+Student 3
+Go over it again.
+
+Student 4
+Either that or just extend this one so it's like going in depth more. To more stuff.
+
+Interviewer
+What about you guys? Would you also like three more hours to repeat the experiment or go in depth with the experiment?
+
+Student 1
+I think three more hours would be a bit too much, but maybe we had like an extra hour today to just like take a bit of extra time to like, really delve into the concepts and maybe having more time to perfect our notes because I feel like it wasn't enough time to actually understand what we were doing, but it definitely wasn't enough time to write down proper notes about what we're doing. So right now, I feel great. I feel like I understand a lot of things, but I'm afraid that if I don't go through the questions right after the lab experience, I might forget some stuff when I actually tackle it.
+
+Interviewer
+I see. So is there anything you'd like to change about the lab today?
+
+Student 1
+Maybe just like it would be nice if we were like an extra hour just so we are a bit more relaxed and have a bit more time to take better notes.
+
+Interviewer
+Yeah.
+
+Student 1
+Like for me that's all. Everything else it was great I think for me.
+
+Student 2
+With more time maybe we could also like experiment more and try different values.
+
+Student 3
+And I've had experience in all the lab sessions I've done, there's already the issue that you don't have time to write down everything because the professor just wants to keep going because you don't have much time, so you cannot stop discussing too much sometimes.
+
+Student 4
+Or have some kind of recording, maybe, like of the screen or yeah.[unsure]
+
+Interviewer
+So the screen, would that be your results? I really don't know what you've been doing.
+
+Student 3
+Well, we would see the steps we followed.
+
+Student 2
+I don't know if it's data, but.
+
+Student 1
+We basically had a set of slides preferred that were guiding us through experiments and we did the experiments on the screen where basically we changed a bunch of parameters and we got different graphs. Basically we're tweaking the parameters until we got like better fitted results.
+
+Interviewer
+Okay, so you had some slides?
+
+Student 1
+We had some slides that were guiding us through like the theory and then the steps we were to do like on the virtual lab.
+
+Interviewer
+How was that getting the instructions, like in steps?
+
+Student 1
+It was helpful, I think. It was helpful.
+
+Student 2
+Yeah, it was really good, like to look for step by step, you know, like all the whole lab practice a bit much for me.
+
+Student 4
+Steps were laid out well. It's like it built up so deep.
+
+Student 1
+And I like the fact that we were guided to think about what results we should expect, like visualize the graphs ourselves first and then actually getting to actually attain them. It was nice.
+
+Interviewer
+Was there any time where you didn't get the answers that you wanted, or the results that you wanted maybe?
+
+Student 1
+I mean. Kind of, like we got the general shape of the graphs we expected every time, but some of our results, some of the actual numbers we got weren't ideal, but it would be a problem with the experiment or the noise, so like it can be explained.
+
+Student 3
+Yeah, just I think it was the last thing we did, it was like not what we expected.
+
+Student 1
+But yeah, it was not exactly what we expected, but like on the graph you saw.
+
+Student 4
+I mean that was also a nice example.
+
+Student 1
+I mean, it's what you expect when you do experimental stuff. It's not always going to work. It's part of the experience.
+
+Interviewer
+Were you able to get the answers you wanted from your TA or from some material you had? 
+
+Student 1
+Yeah, definitely. I think so. They were really helpful.
+
+Interviewer
+That sounds really good. So maybe you could walk me through some of the challenges that you faced during the exercises?
+
+Student 2
+Somebody remembering like the theory that we saw in class so that we could properly apply it. [agreement]
+
+Interviewer
+That because it's maybe too far away or because you've learned a lot of stuff in short time or do you know why that is?
+
+Student 2
+Maybe both like too much stuff and check the others.
+
+Student 1
+Yeah, definitely the second one because like we've been doing this course for a month now so it's not enough time to actually properly divulge in all this information.
+
+Interviewer
+I know that feeling.
+
+Student 1
+But definitely like doing this lab, at least for myself, I feel like it has helped me understand the concepts way more than I did in the actual lectures.
+
+Interviewer
+Nice, I'm happy to hear that. What about you? [silence] Did you face any challenges?
+
+Student 3
+I mean, there's a lot of theory I didn't remember, because I think this was the first week of actually, second day, yeah, so there's a lot of stuff I remember more or less, but I don't know exactly what they were, so I had to refresh a bit during the lab.
+
+Interviewer
+Yeah, I'll just check it's recording. Yeah, nice. What about you?
+
+Student 4
+It's nice to have some contrast between new lectures and the experiments, because when you see those lectures, you think about it and you expect something. And you come here, you see this, and it's like, maybe it doesn't match what you imagined. And now you can mesh it together and then have more questions. What about those questions?
+
+Interviewer
+So is that a good or a bad thing?
+
+Student 4
+It's good, but it's like, yeah, it's good.
+
+Interviewer
+Nice. I'm wondering what master's program you're on.
+
+Student 1
+I'm in the masters in quantum information science.
+
+Interviewer
+Yeah.
+
+Student 2
+Yeah me too quantum information science.
+
+Student 3
+Same.
+
+Student 1
+All of us.
+
+Interviewer
+OK, all of you. Yes. So how do you think that this experience might relate to your plans after this course?
+
+Student 1
+Well, personally, one of the paths I'm considering is doing more experimental work. So I'm really glad we got to do a lab exercise as part of this course, because it gives me a bit more of a taste of what I could be doing later. So that's really good.
+
+Interviewer
+Nice.
+
+Student 2
+I mean, I like the experiments that we've done, like these classes and in other classes, but I still don't know if I would like to go directly to, all the way into experiment. Like, I like the experience. I don't know if I would like to go like that as a career path.
+
+Student 1
+Yeah, but definitely it's a good thing that you get to test it out.
+
+Student 2
+Yeah, and I usually, yeah, I really like to have the idea of what is going on, so I know what other people do.
+
+Student 3
+I think it's very appropriate for this course, because if you are gonna teach about physical implementation, it's good that you actually do some physics in the lab. But yeah, then it's also good to have it to just show people how the work is and if they want to continue to this path or not. Especially like here in superconducting qubits. Like it gives you an idea of what they do and if you want to continue like do a thesis on that topic or whatever.
+
+Student 4
+I think for me, I was just guessing I'm going to like it. now that I see the difference between the other courses we had and we could have in the future, I think I would go for these kinds of courses with higher probability.
+
+Interviewer
+So how would you define these kind of courses?
+
+Student 4
+Like more physical, closer to physics, not abstract math stuff.
+
+Interviewer
+So, this lab experiment was a good way to find out whether you want to continue doing experiments? [agreement] Do you think there's anything else that you get out of this for the future?
+
+Student 2
+I mean, an idea of how hard it is to get proper results, like all this technology, how it like actually it's hard to work with it.
+
+Student 3
+I mean, other than showing how the lab work is, I mean, I think that's enough. Like, it's a very good point of this type of session, right?
+
+Student 1
+Yeah.
+
+Student 3
+To teach the student how lab work is and if they like it and want to continue to this part and do some research on it, or they just want to stick to theory. That should be a purpose of lab.
+
+Student 1
+I agree because I feel like this point, especially considering it's like a course you take relatively early in your masters, it's good to like test a lot of different things out so you actually get a better picture of what you want to do later, like for a thesis for example. So it's really good. Yeah.
+
+Student 4
+Though I think it would be nice to go through like more in depth in the physical stuff. Like how is it built up and explain it a little bit more. Because I thought, we just went over it pretty fast.
+
+Student 3
+So check like the components of... Yeah, then you just interact with an interface, right? You don't see.
+
+Student 1
+Yeah, I guess it's because the point is to think about how you process the information and not about like the actual steps of how its built.
+
+Student 3
+Maybe we have the three hours extra we mentioned, that would be an interesting component.
+
+Student 2
+Like the theory of how it works. I think we'll see it next week in class.
+
+Student 1
+Probably.
+
+Student 4
+Yeah.
+
+Interviewer
+So before you started the experiment today, you didn't know the components?
+
+Student 2
+I mean, we saw like a similar, like... process that works very similar to this one, but not this exact qubit.
+
+Student 1
+I mean, so far in the lectures, when we were thinking about qubits, we were mainly thinking about trapped ions, and this was a superconducting qubit. And we are going to learn about superconducting qubits more next week. But the control methods we looked at today, they're basically kind of the same thing that you would see in like a trapped ion type of qubit.
+
+Student 3
+So.
+
+Interviewer
+Yeah, OK.
+
+Student 1
+We just didn't know the structure of the superconducting chip and what is it physically and how it physically works. But the control methods and how you process the quantum information, it was basically the same. So it was easy to follow.
+
+Interviewer
+I see. So would you have preferred to have this experiment later in the course?
+
+Student 2
+I would say.
+
+Student 4
+Yeah. Yes.
+
+Student 3
+I think last year it actually was in January or something. I don't remember doing this experiment shortly.
+
+Student 1
+But personally, I don't know if I would prefer it if it were later, because yes, we would have a better idea of what superconducting qubits are, but we have to do another experiment later in January, and then it would get very close to exams. And I don't think, I think that would be a little bit too stressful.
+
+Student 4
+Yeah, not just that, but like it's, for me at least, it's like more useful if I have more time to think on it afterwards. And when you are getting to exams, you're not going to wonder, daydream about what we did here.
+
+Interviewer
+And you said you also had some questions you might want to ask your lecturer or your TA. You had some questions after today that you…
+
+Student 4
+Yeah, probably I'm going to have some.
+
+Student 3
+So its good that there will come the session where we will discuss this.
+
+Interviewer
+Yeah. So after today, do you feel like you know the components or... Are you still, or have a better grasp of it or?
+
+Student 2
+The physical components?
+
+Interviewer
+Yeah.
+
+Student 1
+Personally, I feel like I have a much better grasp on things compared to before I came here.
+
+Student 4
+It's enough for the experiments.
+
+Student 1
+Definitely.
+
+Interviewer
+Is there anything that could have given you a better understanding of the components, perhaps? 
+
+Student 3
+A bit more time. 
+
+Student 1
+More time. 
+
+Interviewer
+More time? [laughs]
+
+Student 2
+It's also hard because they are like on a chip. So we can't see.
+
+Student 3
+There's a lot of things going on. So it's not like that easy.
+
+Interviewer
+So I hear a lot of consensus about one hour more would have been great. But would you have, with four hours in a laboratory, would that be good or would that be too much?
+
+Student 1
+With a small break in between, I think it would be perfect.
+
+Student 4
+I really like the DTU one, if you guys remember how long that was. It was very long. And it was like more than like 5-ish.
+
+Student 1
+The lecture lab, you mean, right?
+
+Student 3
+Which one did you do? Please explain.
+
+Student 4
+The quantum dots. And the photodetector.
+
+Interviewer
+So could you tell me how the DTU lab experience was different than this one?
+
+Student 1
+It was more hours. It started very similar to this one in the sense that we had some introduction of the theory and the experiment we were about to do. And then we actually went in the lab, but it lasted way more hours. And we had a long break in between, like a lunch break for like half to one hour.
+
+Interviewer
+Okay.
+
+Student 1
+Yeah.
+
+Student 4
+And then we discussed even more in that break.
+
+Student 1
+Yeah.
+
+Interviewer
+Nice. So it was. Actually, an entire day you used?
+
+Student 4
+I think it was like 9 A.m., 8 A.m., yeah, we started at 9 A.m.
+
+Student 1
+And maybe we left at like 4 p.m., there were a few...
+
+Student 2
+Breaks in the middle, but.
+
+Student 1
+Yeah, and it really depended on which exercise you did, I think, because we didn't all do the same exercise as part of the DTU lab experiences. Some were longer, some were shorter, but like maybe like a one hour difference between them, nothing crazy.
+
+Interviewer
+So if you had a whole day for this experiment, like you did at DTU, then I guess that would mean that you maybe had less time for lecture or I know if you have exercise classes, would that be okay?
+
+Student 1
+I mean, if it was just for one day, I feel like it would be okay. And for me, for example friday was my free day, so it wouldn't make a difference really.
+
+Student 3
+I mean, it's actually like studying, so it's not like you're losing the time.
+
+Student 4
+Yeah, exactly.
+
+Interviewer
+Okay, great. Thank you so much. I don't think I have any more questions. Do you have anything you want to add? Something I should know?
+
+Student 1
+I don't think so. Not about the lab, anyway.[laughs]
+
+Student 2
+I mean, I don't know about their labs, like if there's more like a manual stuff you can do, or if this one is just like on the screen, so I don't know if there are other labs, like these or similar experiments with more, like I don't know.
+
+Interviewer
+Would you rather have something, some handout?
+
+Student 2
+No, like a button, sir. I don't know, like you can like more directly to the screen. I mean, I don't know if it's possible.
+
+Interviewer
+So some manual thing to change instead of changing on the screen. When you change the variables, right.
+
+Student 3
+It depends on the experiment you're doing, right? Yeah, because, I know in this kind of experiment, what are you going to do with your hands, right?
+
+Student 2
+Yeah, this one I know, yeah, exactly.
+
+Interviewer
+So why do you think you would prefer that?
+
+Student 2
+I mean, this one you don't know if it's actually happening or it's just like a simulation. I mean, it's just like.
+
+Student 3
+I think in the memory experiment, you can see the whole setup. And I don't know if you have to touch the things, but because it's like very like exactly measured. It's quite tricky, but right, but you can see the whole component and everything, I think. Do you agree that you have like a closed fridge and everything, and it's like magic?
+
+Interviewer
+Do you agree that it seems almost like a simulation when you don't have something physical to change the variables?
+
+Student 3
+It feels like that, but it sounds like that, but it feels like that.
+
+Interviewer
+No, that's good input. Thank you so much.
+
+
+
