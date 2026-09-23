@@ -154,8 +154,6 @@ def generate_markdown_report(findings: list[dict]) -> str:
             continue
         lines.append(f"## {finding_type.replace('_', ' ').title()}\n")
         for f in matching:
-            # Prepend any short warning lines for human reviewers when
-            # checks added during quote-resolution flag inconsistencies.
             if not f.get("codes_involved_consistent", True):
                 lines.append("⚠ codes_involved does not match cited quotes' actual codes -- see codes_involved_actual")
             if f.get("single_interview_only", False):
@@ -205,7 +203,7 @@ def main():
     )
 
     # Splice verified quote data back in by ID -- same anti-drift pattern as
-    # run_pipeline.py's Pass 2. Flag (don't crash on) any quote_id the model
+    # run_pipeline.py's Pass 2. Flag (AND don't crash on) any quote_id the model
     # referenced that doesn't actually exist in our data.
     for finding in findings:
         resolved = []

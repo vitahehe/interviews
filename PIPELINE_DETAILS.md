@@ -4,6 +4,8 @@
 
 This document provides comprehensive technical documentation for every component of the interview analysis pipeline, including how data flows through the system, how the AI model is constrained at each stage, what validation checks are performed, and the design rationale behind key decisions.
 
+The pipeline implemented in this codespace follows the same broad design logic as the decomposed prompting literature (e.g., arXiv:2210.02406) and the codebook-driven deductive-coding approach described by Ziang Xiao et al. rather than asking one model call to do everything at once. It decomposes the qualitative coding problem into a modular workflow: first, a codebook defines the conceptual categories and the model is asked to retrieve evidence for each theme only from student turns using citation-enabled retrieval; second, a separate interpretation pass turns those verified quotes into structured analytic statements with explicit rationale, teaching implications, and grounding labels; and third, a post-hoc aggregation stage validates all interview outputs and then asks the model to synthesize cross-interview patterns from the verified evidence alone. This design is intentionally schema-aware and validation-heavy, consistent with the goals of JSONSchemaBench: each stage is constrained by a fixed output schema, tool-based responses, and downstream checks that reject malformed or poorly grounded outputs before the analysis proceeds.
+
 ## Architecture Diagram
 
 ```
@@ -1129,14 +1131,3 @@ python pipeline/pipeline.py \
 - Results are comparable if prompts and codebook are identical
 
 ---
-
-## Conclusion
-
-This pipeline implements a **constrained, auditable, reproducible** system for qualitative analysis. Every stage:
-- Uses API constraints to prevent hallucination or forcing
-- Tracks metadata (hashes, timing, usage, stop_reason)
-- Applies health checks to ensure quality
-- Traces data back to source (raw transcript)
-- Produces human-readable and machine-readable outputs
-
-The design prioritizes **evidence-based interpretation**, **schema guarantees**, and **end-to-end traceability**.
