@@ -3,109 +3,29 @@
   "interpretations": [
     {
       "quote_id": "I02-Q001",
-      "rationale": "The quote describes the cognitive difficulty of tracking multiple parameters and visualizing graphs correctly during the exercise, which is a direct account of problem-solving experience.",
-      "why_interesting": "It highlights that the challenge was not a single conceptual gap but the cumulative complexity of juggling several interacting parameters, and shows how peer discussion served as a coping strategy.",
-      "teaching_implication": "Consider providing scaffolding (e.g., a running summary of what parameter is being varied at each step) to reduce cognitive load, and explicitly encourage group discussion when tasks require holding multiple parameters in mind (speculative).",
+      "rationale": "The student directly addresses their group's lack of prior experience with the equipment and describes how they managed to work through it, reflecting on their problem-solving approach.",
+      "why_interesting": "Shows that even with no prior experience, the student framed the challenge as manageable and intuitive, suggesting resilience and adaptability rather than frustration.",
+      "teaching_implication": "Instructors could highlight that unfamiliarity with lab equipment need not be a barrier if adequate scaffolding or intuitive design is present.",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 1: I think sometimes the visualization of like, oh, think about how would this graph look for some given, like we had to do one for omega where we thought one thing because this made sense to us, but then she kind of explained it and I'm like, okay, it makes sense. I think sometimes it's like, because there's a lot of parameters suddenly, right? Each part of the exercise, you have to sort of think of like another aspect of this experiment. So I think for me, at least I have a hard time sometimes remembering what I'm looking at right now or like visualizing it in a good way. I think that was hard, but I mean, that's the good thing about being multiple people. You can talk and then someone usually has a good idea. ",
+      "cited_text": "Student 1: I would say so. I felt like our group didn't have a lot of experience with working with these types of machines before. And we managed. I would say it was quite intuitive.\n\nInterviewer\nCould you walk me through any challenges that you or your group felt like you faced in the exercise? ",
       "code": "1.a",
       "theme_id": "1",
       "speakers": [
         "Student 1"
       ],
       "turn_ids": [
-        "I02-T014"
+        "I02-T006"
       ]
     },
     {
       "quote_id": "I02-Q002",
-      "rationale": "The student explicitly names a specific conceptual confusion about Rabi frequency and oscillations, which is a concrete problem-solving obstacle encountered during the lab.",
-      "why_interesting": "It shows that even when a lab feels 'straightforward' overall, a specific mechanism can remain only partially understood, and the student wants further peer discussion to resolve it.",
-      "teaching_implication": "Instructors could build in a short debrief or discussion prompt specifically about the Rabi-frequency-to-oscillation relationship, since it seems to be a recurring sticking point (speculative).",
+      "rationale": "The student describes a specific conceptual obstacle (plotting probability vs. amplitude instead of time) and explains their problem-solving process of asking questions to resolve confusion.",
+      "why_interesting": "It reveals a specific point of conceptual friction between theoretical expectations and experimental practice, and shows reliance on social/instructional support to resolve it.",
+      "teaching_implication": "This suggests that instructors should proactively address the amplitude-vs-time framing as a known point of confusion for students transitioning from theory to experiment.",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 2: I felt like it was pretty straightforward. There was one question that confused me and maybe the rest of the group about what happens as you increase the Rabi frequency strength. And I still feel a little bit shaky on the explanation there, how you get these oscillations actually that go with increasing Rabi strength. that I would like to talk about a bit more with the group members. That was, I think, the only big point of confusion for me directly related to the lab exercise.\n\nInterviewer\nYeah. How about you? ",
+      "cited_text": "Student 1: [unsure] I mean, I felt like basically everything, like any issue that we encountered, we could mostly just ask questions or the helper would help us with it. So I don't recall any like major obstacles that we encountered. Like it took a bit to get the hang of like, for example, one thing that confused us: I feel like maybe the most confusing was relating, like essentially plotting, the probability of being the excited state for any particular qubit as a function of amplitude of the driving frequency, as opposed to the time. And that I personally found quite unintuitive and I think that was maybe a bit difficult to understand for the group. That instead of fixing the frequency and plotting it against time, we fix time and plot against amplitude and we get a similar looking function. But it's just how these machines usually work.\n\nInterviewer\nSo what did you do when you faced something that you thought was unintuitive or you had a hard time understanding? ",
       "code": "1.a",
       "theme_id": "1",
-      "speakers": [
-        "Student 2"
-      ],
-      "turn_ids": [
-        "I02-T017"
-      ]
-    },
-    {
-      "quote_id": "I02-Q003",
-      "rationale": "The student frames a theoretical question (about T2* vs T2 entering the master equation) as a challenge, while also noting it's not something expected to be covered in a lab, showing reflection on the boundary of problem-solving scope.",
-      "why_interesting": "It reveals a student distinguishing between lab-level troubleshooting and deeper theoretical curiosity, suggesting an appetite for more theory even while acknowledging it may be out of scope.",
-      "teaching_implication": "Optional supplementary material on T2*/T2 and the master equation could be offered for students wanting deeper theoretical grounding without altering the core lab scope (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 3: Not specific to the lab, I would say. There's this difference between the T2* and T2, right? On a theoretical level. How do they enter into the master question? But that's not something I would expect to get covered in a lab session anyways, right? That's more.\n\nInterviewer\nSo can you walk me through, so I know the exercise and there's a progression, but can you walk us through some of the challenges you faced during the exercise? What was challenging? ",
-      "code": "1.a",
-      "theme_id": "1",
-      "speakers": [
-        "Student 3"
-      ],
-      "turn_ids": [
-        "I02-T013"
-      ]
-    },
-    {
-      "quote_id": "I02-Q004",
-      "rationale": "The student explicitly requests more Hamiltonian-based mathematical formalism to connect experimental outcomes to theory, reflecting a preference for thinking in terms of Hamiltonians and unitaries, which signals a theorist orientation.",
-      "why_interesting": "It shows a student self-aware of preferring formal, mathematical descriptions over more phenomenological explanations, hinting at how identity as a 'theorist' shapes what counts as a satisfying explanation.",
-      "teaching_implication": "Offering an optional or advanced track with more explicit Hamiltonian-based derivations could cater to students with a stronger theoretical identity (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "Student 3: Don't know if this is maybe a bad idea, but a bit more of the sort of Hamiltonian math could be nice, just so because we say: Oh, the detuning, if we do this, then we drive this in this position, or we do A, we get this superposition. I would like to see it if you're used to think in terms of a Hamiltonian acting on some kind of or a unitary acting on a qubit, right? ",
-      "code": "2.b",
-      "theme_id": "2",
-      "speakers": [
-        "Student 3"
-      ],
-      "turn_ids": [
-        "I02-T015"
-      ]
-    },
-    {
-      "quote_id": "I02-Q005",
-      "rationale": "The student directly states familiarity with the Ramsey experiment setup, referencing prior exposure to similar laboratory equipment.",
-      "why_interesting": "It shows that prior lab exposure shapes how novel or routine an exercise feels, even when the exact experiment hasn't been personally performed before.",
-      "teaching_implication": "Instructors might briefly assess prior equipment familiarity at the start of a session to calibrate the level of introductory explanation needed (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 3: I mean, I haven't done a Ramsey experiment before exactly, but I've seen the setup quite a few times before.\n\nInterviewer\nWhen you say setup, have you seen the hardware or have you seen just this theory and the schemes and stuff like that? ",
-      "code": "3.a",
-      "theme_id": "3",
-      "speakers": [
-        "Student 3"
-      ],
-      "turn_ids": [
-        "I02-T032"
-      ]
-    },
-    {
-      "quote_id": "I02-Q006",
-      "rationale": "The student names specific laboratory equipment (cryostats and control stacks) and states familiarity with them, directly supporting the equipment code.",
-      "why_interesting": "It indicates a baseline of hands-on or observational experience with core quantum lab hardware that may differ across students and affect how they engage with new exercises.",
-      "teaching_implication": "Lab designers could tier equipment-orientation content based on students' self-reported familiarity with cryostats and control stacks (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 3: Cryostats and control stacks and all that relatively used to that.\n\nInterviewer\nJust give me a moment to see if I covered what I want to cover... Yeah. So, you always told me that you're interested in the computing part and using the semiconducting thing. So, and some of you mentioned that you're not really interested in, let's say, having one more session in the lab. So how are you general ideas of working in a lab maybe also for your thesis or even after the thesis? ",
-      "code": "3.a",
-      "theme_id": "3",
-      "speakers": [
-        "Student 3"
-      ],
-      "turn_ids": [
-        "I02-T033"
-      ]
-    },
-    {
-      "quote_id": "I02-Q007",
-      "rationale": "The student compares the current lab's website-guided workflow to the equipment/interface style of previous classes, emphasizing that the structured setup made the process straightforward.",
-      "why_interesting": "It highlights how the interface/tooling (not just the physical hardware) shapes perceived accessibility of a lab, contrasting with prior experiences of confusing paper-based instructions.",
-      "teaching_implication": "Maintaining or expanding structured, step-by-step web-based interfaces could help reduce confusion compared to dense text-based lab manuals (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 1: I don't think so. I think it was pretty, I think I like it because it was very straightforward. I think the whole mechanism with the website and everything made it fairly easy to... Before in classes we would often get these long papers where you step in and it's super confusing, there was a lot of text and you had to figure out what to do. Here it was very, like: Think about this. Okay, now you thought about this, go into the website and then what you just thought about, apply that with these parameters. She explained the parameters. I think it was... ",
-      "code": "3.a",
-      "theme_id": "3",
       "speakers": [
         "Student 1"
       ],
@@ -114,179 +34,307 @@
       ]
     },
     {
-      "quote_id": "I02-Q008",
-      "rationale": "The student states the exercise gave a 'good intuitive understanding,' framing it as a positive learning outcome despite gaps in prior theoretical preparation.",
-      "why_interesting": "It shows that a positive learning experience can coexist with expressed need for more preparatory material, suggesting the two are not mutually exclusive.",
-      "teaching_implication": "Providing optional pre-lab readings could preserve the positive intuitive learning experience while reducing the feeling of 'tracking behind' (speculative).",
+      "quote_id": "I02-Q003",
+      "rationale": "The student explains how they resolved their confusion by asking the TA and using an interactive tool, describing this as an effective problem-solving strategy.",
+      "why_interesting": "Notably, even the TA acknowledged the unintuitiveness, normalizing the student's confusion and showing how visual/interactive aids helped bridge understanding.",
+      "teaching_implication": "This supports continued or expanded use of the Bloch-sphere animation tool as a key resource for resolving conceptual confusion.",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 1: I think it was good. It gave us a good intuitive understanding. The only thing I think will... That I would have liked is that they prepared us a little bit more with the theory. There's a lot of the stuff that we haven't had yet. Some of it were, but because there was some stuff I didn't understand, I was kind of tracking behind, I felt like. So even the stuff I understood became a little bit more confusing. So I think it's okay we didn't have it in class, but it would have been nice to have some papers to read or some material to have read over beforehand. I would have been more prepared to understand.\n\n[inaudible]\n\nInterviewer\nSorry. ",
-      "code": "3.b",
-      "theme_id": "3",
+      "cited_text": "Student 1: We could ask. And the TA was also very helpful and they also acknowledged that this is a bit unintuitive for them as well. And so they just walked us through how to think about it and then from that point on we understood. We also actually, it was very helpful to have the Bloch-sphere animation, like this interactive tool where we could see how different pulses rotate around the Bloch-sphere. Right. That was definitely helpful.\n\nInterviewer\nYeah, sure. If you had another three hours in the cryostat lab tomorrow, do you have any ideas of what you would do with that time? ",
+      "code": "1.a",
+      "theme_id": "1",
       "speakers": [
         "Student 1"
       ],
       "turn_ids": [
-        "I02-T001"
+        "I02-T008"
+      ]
+    },
+    {
+      "quote_id": "I02-Q004",
+      "rationale": "The student explicitly states enjoying theory and wanting to understand it, positioning themselves as someone who values theoretical work alongside hands-on experience.",
+      "why_interesting": "The student articulates a hybrid identity, valuing theory but finding it insufficient alone, which nuances a simple theorist/experimentalist binary.",
+      "teaching_implication": "Labs may benefit from explicitly connecting theoretical concepts to hands-on manipulation to serve students with blended interests.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Yes, which is where we are coming from all sorts of backgrounds. Some people are from computer science. I'm actually closer to computer science as well because I specialize in computer science, so that's how I qualify for this program as well. But because of my, well, not because of my mechatronics background, but related to my mechatronics background, I also really like working with hardware. And as much as I love the theory and as much as I want to understand it, I feel like it might be a little too dry to just always work in theory and work at a whiteboard and never actually see things in action. I mean I know most of the time you're just staring at the outer wall of a refrigerator or like a cryostat, but still the fact that I know that there's something happening in there that I manipulate is, I find that inspiring.\n\nInterviewer\nSure. And yes, what would you say is like your main takeaway from this exercise that you did today? If you could point to something. ",
+      "code": "2.b",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I02-T013"
+      ]
+    },
+    {
+      "quote_id": "I02-Q005",
+      "rationale": "The student describes finding hands-on work that relates to theory to be intuitive and inspiring, reflecting a practical/experimentalist orientation.",
+      "why_interesting": "The comparison to a prior photonics lab course shows a pattern across the student's experience of valuing experimental work as a means to build intuition.",
+      "teaching_implication": "This suggests hands-on labs tied closely to theoretical content are especially effective for this type of student and could be emphasized in curriculum design.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Specifically about today's lab? Okay. Yeah, I found it really inspiring and somewhat intuitive. And I always find it really helpful when I get to do hands-on things that relate to the theory that I learn. And I also get to ask questions from somebody who actually knows the answers to them. I had that experience with a previous course at KU. It was actually a DTU course that had some labs with photonics. And it really helped me kind of get an intuitive understanding of what we were actually learning about before. And I've had a similar experience here. So overall, it was a very positive experience. I felt like I got a lot from it.\n\nInterviewer\nHave you been in the cryostat lab before? ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I02-T004"
+      ]
+    },
+    {
+      "quote_id": "I02-Q006",
+      "rationale": "The student states a desire to work close to hardware and to be involved with experiments, directly expressing a practical/experimentalist identity.",
+      "why_interesting": "Despite being interested in photonics/distributed quantum computing rather than superconducting qubits directly, the student sees value in the practical lab skills for their broader identity as someone who wants hands-on experimental involvement.",
+      "teaching_implication": "This indicates that labs on one hardware platform can still be perceived as relevant training for students planning to work in different experimental subfields.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: I have not settled on a specialization yet for my program, for my studies, but I think my number one thing that I'm interested in would be maybe distributed quantum computing systems. And so that maybe works with photonics a little bit more than superconducting qubits. But it also requires relatively good quantum memory, for example, for long distance communications. So I would say that Getting some lab experience, working with superconducting qubits is definitely going to be useful for me because I do want to work rather close to hardware. I do like theory, but I definitely want to be involved with the experiments as well. Right.\n\nInterviewer\nThat's going to be my next question, how your general relation to being in the lab is? ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I02-T011"
+      ]
+    },
+    {
+      "quote_id": "I02-Q007",
+      "rationale": "The student directly states \"I love being in the lab,\" a clear expression of practical/experimentalist identity.",
+      "why_interesting": "The brevity and directness of this statement, paired with disclosure of a non-physics (mechatronics) background, highlights how interdisciplinary students can strongly identify with lab-based practical work.",
+      "teaching_implication": "This suggests labs should be designed to be accessible and engaging for students from diverse engineering/interdisciplinary backgrounds, not just physics majors.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: I love being in the lab. So my background is actually in mechatronics engineering, so I'm not a physicist.\n\nInterviewer\nAre you in the QIS masters? ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I02-T012"
+      ]
+    },
+    {
+      "quote_id": "I02-Q008",
+      "rationale": "The student describes liking to work with hardware and finding satisfaction in manipulating something physically real, which reflects an experimentalist/practical orientation.",
+      "why_interesting": "The phrase about finding it 'inspiring' to know something is happening inside the cryostat even though it's not visible captures a distinctive experiential aspect of experimental physics work.",
+      "teaching_implication": "This suggests value in helping students visualize or conceptualize the invisible physical processes occurring during experiments to sustain engagement.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Yes, which is where we are coming from all sorts of backgrounds. Some people are from computer science. I'm actually closer to computer science as well because I specialize in computer science, so that's how I qualify for this program as well. But because of my, well, not because of my mechatronics background, but related to my mechatronics background, I also really like working with hardware. And as much as I love the theory and as much as I want to understand it, I feel like it might be a little too dry to just always work in theory and work at a whiteboard and never actually see things in action. I mean I know most of the time you're just staring at the outer wall of a refrigerator or like a cryostat, but still the fact that I know that there's something happening in there that I manipulate is, I find that inspiring.\n\nInterviewer\nSure. And yes, what would you say is like your main takeaway from this exercise that you did today? If you could point to something. ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I02-T013"
       ]
     },
     {
       "quote_id": "I02-Q009",
-      "rationale": "The student explicitly calls this 'one of the better labs' and describes the experience as 'a really nice learning experience,' directly supporting a positive learning experience code.",
-      "why_interesting": "It suggests that immediate TA feedback can compensate for gaps in theoretical background, reframing what makes a lab experience feel successful.",
-      "teaching_implication": "Ensuring sufficient TA availability for immediate feedback during labs may be as important as pre-lab theoretical preparation (speculative).",
+      "rationale": "The student references the group's inexperience with 'these types of machines,' directly citing laboratory equipment as a factor in their reflections.",
+      "why_interesting": "The casual mention of unfamiliarity with equipment, paired with a positive outcome, suggests initial equipment-anxiety was not a lasting barrier.",
+      "teaching_implication": "This may support keeping the initial equipment learning curve accessible via intuitive design or support so it does not discourage novice users.",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 2: Actually, I thought it was, I mean, I think it could have been nice to have some more theory behind it, like some more readings to do that would help us with understanding what we're doing today. But I felt like this was one of the better labs for me in the sense that everything was very straightforward and the questions that we were asked, we were able to get immediate feedback on from the TA, which was super nice. And I'm very used to not understanding what is going on in lab classes. So to an extent, I almost feel like the fact that we were working with the TA who could help us, even if we didn't have so much background, maybe. It was a really nice learning experience. [agreement] ",
-      "code": "3.b",
+      "cited_text": "Student 1: I would say so. I felt like our group didn't have a lot of experience with working with these types of machines before. And we managed. I would say it was quite intuitive.\n\nInterviewer\nCould you walk me through any challenges that you or your group felt like you faced in the exercise? ",
+      "code": "3.a",
       "theme_id": "3",
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "turn_ids": [
-        "I02-T004"
+        "I02-T006"
       ]
     },
     {
       "quote_id": "I02-Q010",
-      "rationale": "The student's description of gaining a 'good intuitive understanding' and enjoying the process, despite some confusion, reflects engagement with the material.",
-      "why_interesting": "It shows enjoyment can be tempered by a wish for better preparation, illustrating a nuanced, mixed engagement experience rather than pure enthusiasm.",
-      "teaching_implication": "Balancing engaging hands-on activities with adequate conceptual scaffolding could sustain enjoyment while reducing confusion (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "Student 1: I think it was good. It gave us a good intuitive understanding. The only thing I think will... That I would have liked is that they prepared us a little bit more with the theory. There's a lot of the stuff that we haven't had yet. Some of it were, but because there was some stuff I didn't understand, I was kind of tracking behind, I felt like. So even the stuff I understood became a little bit more confusing. So I think it's okay we didn't have it in class, but it would have been nice to have some papers to read or some material to have read over beforehand. I would have been more prepared to understand.\n\n[inaudible]\n\nInterviewer\nSorry. ",
-      "code": "3.c",
+      "rationale": "The student mentions the interactive Bloch-sphere animation tool as helpful equipment/resource for understanding pulse rotations.",
+      "why_interesting": "This highlights a specific piece of technology (interactive visualization) as distinctly valuable compared to the physical machinery itself.",
+      "teaching_implication": "This supports continued integration of visualization tools as a complement to physical lab equipment.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: We could ask. And the TA was also very helpful and they also acknowledged that this is a bit unintuitive for them as well. And so they just walked us through how to think about it and then from that point on we understood. We also actually, it was very helpful to have the Bloch-sphere animation, like this interactive tool where we could see how different pulses rotate around the Bloch-sphere. Right. That was definitely helpful.\n\nInterviewer\nYeah, sure. If you had another three hours in the cryostat lab tomorrow, do you have any ideas of what you would do with that time? ",
+      "code": "3.a",
       "theme_id": "3",
       "speakers": [
         "Student 1"
       ],
       "turn_ids": [
-        "I02-T001"
+        "I02-T008"
       ]
     },
     {
       "quote_id": "I02-Q011",
-      "rationale": "The student's characterization of the lab as 'one of the better labs' and a 'really nice learning experience' reflects positive engagement with the activity.",
-      "why_interesting": "It reveals that engagement can be driven by supportive TA interaction rather than solely by content difficulty or prior knowledge.",
-      "teaching_implication": "Highlighting and preserving strong TA-student interaction models in lab design may boost engagement even in technically challenging labs (speculative).",
+      "rationale": "The student discusses the limitation of only having access to a single qubit (Q5) during the experiment, directly referencing the laboratory equipment setup.",
+      "why_interesting": "The student's stated interest in Bell states and multi-qubit gates suggests unmet curiosity due to equipment/resource constraints.",
+      "teaching_implication": "This suggests that expanding equipment access to multiple qubits could enable more advanced student-driven exploration.",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 2: Actually, I thought it was, I mean, I think it could have been nice to have some more theory behind it, like some more readings to do that would help us with understanding what we're doing today. But I felt like this was one of the better labs for me in the sense that everything was very straightforward and the questions that we were asked, we were able to get immediate feedback on from the TA, which was super nice. And I'm very used to not understanding what is going on in lab classes. So to an extent, I almost feel like the fact that we were working with the TA who could help us, even if we didn't have so much background, maybe. It was a really nice learning experience. [agreement] ",
-      "code": "3.c",
+      "cited_text": "Student 1: Yeah, I mean, I'm not sure if we would have had access to multiple qubits. I know the experiments that were set up for us only worked on Q5. But I guess if we had access to multiple qubits, then I would have loved to try and create like Bell states or do some multi-qubit gates, multi-qubit operations in general. But other than that, I mean, maybe you try to do try to do a Hadamard gate or something.\n\nInterviewer\nCool. How do you think that the experiments you did today may relate to any plans you have going forward from this course? ",
+      "code": "3.a",
       "theme_id": "3",
       "speakers": [
-        "Student 2"
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I02-T010"
+      ]
+    },
+    {
+      "quote_id": "I02-Q012",
+      "rationale": "The student references staring at 'the outer wall of a refrigerator or like a cryostat,' directly describing laboratory equipment as part of their experience.",
+      "why_interesting": "The image of watching an opaque piece of equipment while knowing complex physics is happening inside captures a unique aspect of cryostat-based experimental work.",
+      "teaching_implication": "This suggests instructors might address the disconnect between the physical opacity of the equipment and the invisible processes it controls, perhaps through supplementary visualization.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Yes, which is where we are coming from all sorts of backgrounds. Some people are from computer science. I'm actually closer to computer science as well because I specialize in computer science, so that's how I qualify for this program as well. But because of my, well, not because of my mechatronics background, but related to my mechatronics background, I also really like working with hardware. And as much as I love the theory and as much as I want to understand it, I feel like it might be a little too dry to just always work in theory and work at a whiteboard and never actually see things in action. I mean I know most of the time you're just staring at the outer wall of a refrigerator or like a cryostat, but still the fact that I know that there's something happening in there that I manipulate is, I find that inspiring.\n\nInterviewer\nSure. And yes, what would you say is like your main takeaway from this exercise that you did today? If you could point to something. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I02-T013"
+      ]
+    },
+    {
+      "quote_id": "I02-Q013",
+      "rationale": "The student explicitly calls the lab experience 'a very positive experience' and states they 'got a lot from it,' directly indicating a positive learning experience.",
+      "why_interesting": "The comparison to a prior photonics lab course suggests this positive framing is part of a consistent pattern in the student's educational history.",
+      "teaching_implication": "This supports maintaining hands-on components that connect directly to theoretical coursework as valuable for positive learning outcomes.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Specifically about today's lab? Okay. Yeah, I found it really inspiring and somewhat intuitive. And I always find it really helpful when I get to do hands-on things that relate to the theory that I learn. And I also get to ask questions from somebody who actually knows the answers to them. I had that experience with a previous course at KU. It was actually a DTU course that had some labs with photonics. And it really helped me kind of get an intuitive understanding of what we were actually learning about before. And I've had a similar experience here. So overall, it was a very positive experience. I felt like I got a lot from it.\n\nInterviewer\nHave you been in the cryostat lab before? ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
       ],
       "turn_ids": [
         "I02-T004"
       ]
     },
     {
-      "quote_id": "I02-Q012",
-      "rationale": "The student's remark that the format 'was very one-to-one, which was nice' directly expresses positive engagement with the interaction style of the exercise.",
-      "why_interesting": "It points to the value students place on personalized, direct interaction, which may be a distinct driver of engagement separate from content mastery.",
-      "teaching_implication": "Maintaining low student-to-TA ratios or one-on-one check-ins during lab exercises could support similar engagement in future sessions (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 1: It was very one-to-one, which was nice.\n\nInterviewer\nSo you mentioned that it was a good experience, and those of you also had some positive words about it. I'm getting a bit interested. Can I also maybe let you two put some words on how you experienced the actual exercises? ",
-      "code": "3.c",
-      "theme_id": "3",
-      "speakers": [
-        "Student 1"
-      ],
-      "turn_ids": [
-        "I02-T005"
-      ]
-    },
-    {
-      "quote_id": "I02-Q013",
-      "rationale": "The student describes the exercise as 'definitely interesting' and says it is 'persuading me a little bit,' directly expressing engagement and enthusiasm generated by the exercise.",
-      "why_interesting": "It shows the lab exercise may be influencing a student's disciplinary or career interest, not just their momentary enjoyment.",
-      "teaching_implication": "Labs that bridge sub-disciplines (e.g., computing and fabrication) might be leveraged intentionally to broaden student interest across specializations (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "Student 1: I mean, I'm also in the quantum computing way. I think I'm a little bit more in fabrication, like crystal growth direction, but it's definitely interesting. Like, yeah, it's definitely persuading me a little bit, so...\n\nInterviewer\nIn what's in persuading you in what sense? ",
-      "code": "3.c",
-      "theme_id": "3",
-      "speakers": [
-        "Student 1"
-      ],
-      "turn_ids": [
-        "I02-T030"
-      ]
-    },
-    {
       "quote_id": "I02-Q014",
-      "rationale": "The student explicitly calls the exercise 'a fun exercise,' directly indicating enjoyment and engagement with the lab content.",
-      "why_interesting": "It also reveals that enjoyment is coupled with a desire for more connection to active, substantial research, suggesting engagement could be deepened further.",
-      "teaching_implication": "Incorporating glimpses of ongoing NQCP research alongside 'toy demonstrations' could increase perceived relevance and sustain engagement (speculative).",
+      "rationale": "The student describes the TA's help and the Bloch-sphere animation tool as 'definitely helpful,' reflecting a positive learning outcome from these supports.",
+      "why_interesting": "The acknowledgment that even the TA found the concept unintuitive normalizes struggle and shows how collaborative learning contributed to a positive outcome.",
+      "teaching_implication": "This suggests that TA acknowledgment of difficulty, combined with visual aids, can transform an initially confusing topic into a positive learning experience.",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 2: I would say with this exercise, it was a fun exercise that I think directly relates to the content that we're studying in class, which is good. For myself, I'm really hoping that I can also see, instead of these cool toy demonstrations of whatever we just did, the Ramsey full sequence. It would be nice to see some of the active research that is going on at the NQCP, especially with where this course is in the course structure. I'm trying to think about who I might want to work with as my supervisor. I'm not so sure if I'm even going to do it in the quantum computing area. So it's fun to see these cool applied demonstrations of knowledge in class, but I'm also hoping that maybe in the future exercise section we can see or maybe hopefully contribute to something that's a bit more substantial in some sense.\n\nInterviewer\nIt's fun for me that you call it a toy demonstration because this is, in my opinion, pretty close to the real life. [laugs] I mean, so the characterization of qubits like you did, that's of course, that's done with an algorithm in the real research lab, so it's done in a moment. But the actual steps, it's pretty close, I would say, to what is done. ",
-      "code": "3.c",
+      "cited_text": "Student 1: We could ask. And the TA was also very helpful and they also acknowledged that this is a bit unintuitive for them as well. And so they just walked us through how to think about it and then from that point on we understood. We also actually, it was very helpful to have the Bloch-sphere animation, like this interactive tool where we could see how different pulses rotate around the Bloch-sphere. Right. That was definitely helpful.\n\nInterviewer\nYeah, sure. If you had another three hours in the cryostat lab tomorrow, do you have any ideas of what you would do with that time? ",
+      "code": "3.b",
       "theme_id": "3",
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "turn_ids": [
-        "I02-T034"
+        "I02-T008"
       ]
     },
     {
       "quote_id": "I02-Q015",
-      "rationale": "The student directly states a judgment about the perceived usefulness of the experience relative to their own research direction (spin qubits), saying it is 'not so useful.'",
-      "why_interesting": "It illustrates how perceived usefulness is highly contingent on a student's already-chosen specialization, even when the lab content is objectively relevant to the broader field.",
-      "teaching_implication": "Consider framing lab content with cross-cutting relevance explanations so students in different specializations (e.g., spin qubits vs. others) can see applicability (speculative).",
+      "rationale": "The student identifies specific content (characterizing T1 and T2 decoherence, T2 echo) as the most useful thing learned, reflecting a positive learning takeaway.",
+      "why_interesting": "The specificity of the technical content recalled suggests genuine retention and value from the lab exercise beyond general enjoyment.",
+      "teaching_implication": "This indicates that T1/T2 characterization and echo techniques are effectively taught and memorable, and could be emphasized as core learning objectives.",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 3: I don't think my experience there is so useful because I've already decided I want to do spin qubits. ",
-      "code": "3.d",
+      "cited_text": "Student 1: I think the most useful thing that I will remember is probably characterizing T1 and T2 decay or T1 and T2 decoherence. Sorry, I always say decay. I know one of them is dephasing, but like decoherence, characterizing decoherence. I think that might be the most useful that I learned, like the useful thing that I learned today. And also maybe executing T2 echo, like actually using echo to get better performance in terms of dephasing.\n\nInterviewer\nAnd last, do you have any recommendations or ideas for how this exercise could be improved for future students? ",
+      "code": "3.b",
       "theme_id": "3",
       "speakers": [
-        "Student 3"
+        "Student 1"
       ],
       "turn_ids": [
-        "I02-T029"
+        "I02-T014"
       ]
     },
     {
       "quote_id": "I02-Q016",
-      "rationale": "The student's comment that the exercise is 'definitely persuading me a little bit' toward the quantum computing/fabrication bridge area reflects a perceived usefulness for shaping career or research direction.",
-      "why_interesting": "It suggests labs can function as a subtle influence on students' disciplinary orientation, beyond just teaching specific content.",
-      "teaching_implication": "Explicitly highlighting interdisciplinary bridges (like computing-fabrication) in lab framing might help students see relevance to varied career paths (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "Student 1: I mean, I'm also in the quantum computing way. I think I'm a little bit more in fabrication, like crystal growth direction, but it's definitely interesting. Like, yeah, it's definitely persuading me a little bit, so...\n\nInterviewer\nIn what's in persuading you in what sense? ",
-      "code": "3.d",
+      "rationale": "The student describes the lab as 'inspiring,' 'intuitive,' and 'a very positive experience' that they enjoyed, directly reflecting enjoyment and engagement.",
+      "why_interesting": "The layering of multiple positive descriptors (inspiring, intuitive, positive) suggests a strong overall enjoyment rather than isolated satisfaction with one aspect.",
+      "teaching_implication": "This supports the current lab format as engaging, and instructors might explore what specific design elements (hands-on tasks, TA support) drive this level of enjoyment.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Specifically about today's lab? Okay. Yeah, I found it really inspiring and somewhat intuitive. And I always find it really helpful when I get to do hands-on things that relate to the theory that I learn. And I also get to ask questions from somebody who actually knows the answers to them. I had that experience with a previous course at KU. It was actually a DTU course that had some labs with photonics. And it really helped me kind of get an intuitive understanding of what we were actually learning about before. And I've had a similar experience here. So overall, it was a very positive experience. I felt like I got a lot from it.\n\nInterviewer\nHave you been in the cryostat lab before? ",
+      "code": "3.c",
       "theme_id": "3",
       "speakers": [
         "Student 1"
       ],
       "turn_ids": [
-        "I02-T030"
+        "I02-T004"
       ]
     },
     {
       "quote_id": "I02-Q017",
-      "rationale": "The student describes the exercise as 'the bridge between the two' areas of their interest (computing and fabrication), directly articulating perceived usefulness for their own academic trajectory.",
-      "why_interesting": "It shows a student actively integrating the lab experience into their evolving sense of research identity and interests.",
-      "teaching_implication": "Labs designed to explicitly connect multiple sub-fields could be marketed or framed as 'bridging' experiences to enhance perceived relevance (speculative).",
+      "rationale": "The student explicitly states they 'would have really enjoyed doing that because I'm just interested in it,' directly expressing enjoyment and engagement with optional content they didn't get to try.",
+      "why_interesting": "This reveals unmet curiosity and enthusiasm for material beyond what time constraints allowed, suggesting the exercise left the student wanting more rather than satisfied merely with baseline completion.",
+      "teaching_implication": "This suggests that time constraints may be limiting student engagement with optional advanced content, and instructors could consider extending time or providing follow-up opportunities for curious students.",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "Student 1: Like, because I've always been very interested in like computing in general. And then I got very interested in crystal growth. So that's also what I worked with a little bit. But now it's like it's kind of the bridge between the two, which is kind of what we're doing here, where you kind of start to bridge between computing and fabrication of these quantum chips.\n\nInterviewer\nSo I mean, semiconducting spin qubits, that was what you mentioned. These can also be put in the exactly same cryostat for doing similar experiments. So how about the experimental setup? Was it this novel for you or do you know it from other places in NQCP? ",
+      "cited_text": "Student 1: We did not have time to do the last two optional experiments, which is to test... I think it's... I didn't fully get whether it's to test whether we're coupled to a state or whether it is to couple to a state. I didn't get if it's just a test or if it's to actually do the action of coupling. But that's something we didn't have time for. And I would have really enjoyed doing that because I'm just interested in it. So if I had more time, then I would probably do that first.\n\nInterviewer\nRight. Anything that wasn't listed in the lab manual that you were just curious about or that you would have liked to just, out of curiosity, play around with? ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I02-T009"
+      ]
+    },
+    {
+      "quote_id": "I02-Q018",
+      "rationale": "The direct statement 'I love being in the lab' is an explicit expression of enjoyment and engagement with lab work.",
+      "why_interesting": "The immediacy and enthusiasm of this statement, unprompted by further elaboration, underscores a strong affective connection to lab-based learning.",
+      "teaching_implication": "This suggests that opportunities for hands-on lab engagement should be preserved and possibly expanded given the strong positive affect they generate.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: I love being in the lab. So my background is actually in mechatronics engineering, so I'm not a physicist.\n\nInterviewer\nAre you in the QIS masters? ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I02-T012"
+      ]
+    },
+    {
+      "quote_id": "I02-Q019",
+      "rationale": "The student concludes by saying they 'found it intuitive and I found it enjoyable,' directly expressing enjoyment despite noting some inefficiencies.",
+      "why_interesting": "The student balances constructive critique (about whiteboard input fields and file-saving taking time) with an overall enjoyable assessment, showing nuanced engagement rather than uncritical enthusiasm.",
+      "teaching_implication": "This suggests that streamlining administrative/interface aspects of the exercise (like input fields and file saving) could further enhance an already enjoyable experience.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: Yeah, maybe. I mean, for some of the, for some of the planning fields, like we had the always like the red questions for every exercise. For some of them, like for all of them, it was like a whiteboard type of input field. I felt like some of them might have been more intuitive with just a text field, because for some of them, it's like, what are the steps that you should take here? And then Either we write it out by hand or we draw something, but I felt like maybe we took a bit too much time on these little things. We also took quite a bit of time on selecting the numbers and saving the files and everything. And I don't really know how to streamline that better, but I guess it's just as feedback, we did lose a bit of time on that. But otherwise, I think it was pretty flawless. I found it intuitive and I found it enjoyable.\n\nInterviewer\nGreat. Yeah. Okay. Thank you so much. ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I02-T016"
+      ]
+    },
+    {
+      "quote_id": "I02-Q020",
+      "rationale": "The student states that 'getting some lab experience, working with superconducting qubits is definitely going to be useful for me,' directly expressing perceived usefulness.",
+      "why_interesting": "Even though the student's primary interest lies in photonics/distributed quantum computing rather than superconducting qubits, they still perceive clear transferable value from this lab experience.",
+      "teaching_implication": "This suggests the lab's value is perceived as extending beyond the specific hardware platform taught, supporting its inclusion for students across different specialization interests.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: I have not settled on a specialization yet for my program, for my studies, but I think my number one thing that I'm interested in would be maybe distributed quantum computing systems. And so that maybe works with photonics a little bit more than superconducting qubits. But it also requires relatively good quantum memory, for example, for long distance communications. So I would say that Getting some lab experience, working with superconducting qubits is definitely going to be useful for me because I do want to work rather close to hardware. I do like theory, but I definitely want to be involved with the experiments as well. Right.\n\nInterviewer\nThat's going to be my next question, how your general relation to being in the lab is? ",
       "code": "3.d",
       "theme_id": "3",
       "speakers": [
         "Student 1"
       ],
       "turn_ids": [
-        "I02-T031"
+        "I02-T011"
       ]
     },
     {
-      "quote_id": "I02-Q018",
-      "rationale": "The student's wish to see 'active research' and contribute to 'something more substantial' reflects a judgment about the current exercise's usefulness relative to their career planning needs.",
-      "why_interesting": "It reveals a gap between enjoying a well-designed teaching demonstration and feeling it is sufficiently useful for making concrete decisions about research direction or supervisors.",
-      "teaching_implication": "Pairing lab exercises with exposure to real ongoing research projects or supervisor talks could increase perceived usefulness for career decision-making (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "Student 2: I would say with this exercise, it was a fun exercise that I think directly relates to the content that we're studying in class, which is good. For myself, I'm really hoping that I can also see, instead of these cool toy demonstrations of whatever we just did, the Ramsey full sequence. It would be nice to see some of the active research that is going on at the NQCP, especially with where this course is in the course structure. I'm trying to think about who I might want to work with as my supervisor. I'm not so sure if I'm even going to do it in the quantum computing area. So it's fun to see these cool applied demonstrations of knowledge in class, but I'm also hoping that maybe in the future exercise section we can see or maybe hopefully contribute to something that's a bit more substantial in some sense.\n\nInterviewer\nIt's fun for me that you call it a toy demonstration because this is, in my opinion, pretty close to the real life. [laugs] I mean, so the characterization of qubits like you did, that's of course, that's done with an algorithm in the real research lab, so it's done in a moment. But the actual steps, it's pretty close, I would say, to what is done. ",
+      "quote_id": "I02-Q021",
+      "rationale": "The student names specific content (T1/T2 decoherence characterization and T2 echo) as 'the most useful thing that I will remember,' directly indicating perceived usefulness.",
+      "why_interesting": "The specificity of technical recall suggests the perceived usefulness is tied to concrete, transferable skills rather than vague general impressions.",
+      "teaching_implication": "This supports emphasizing T1/T2 characterization and echo techniques as key learning outcomes with demonstrated perceived value to students.",
+      "interpretation_grounded_in": "quote_text_only",
+      "cited_text": "Student 1: I think the most useful thing that I will remember is probably characterizing T1 and T2 decay or T1 and T2 decoherence. Sorry, I always say decay. I know one of them is dephasing, but like decoherence, characterizing decoherence. I think that might be the most useful that I learned, like the useful thing that I learned today. And also maybe executing T2 echo, like actually using echo to get better performance in terms of dephasing.\n\nInterviewer\nAnd last, do you have any recommendations or ideas for how this exercise could be improved for future students? ",
       "code": "3.d",
       "theme_id": "3",
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "turn_ids": [
-        "I02-T034"
+        "I02-T014"
       ]
     }
   ]

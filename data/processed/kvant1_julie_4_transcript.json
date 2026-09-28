@@ -1,0 +1,400 @@
+{
+  "interview_id": "I12",
+  "turns": [
+    {
+      "turn_id": "I12-T001",
+      "speaker": "Student 1",
+      "text": "Vi har lavet kvantemekanik. [laughs]"
+    },
+    {
+      "turn_id": "I12-T002",
+      "speaker": "Student 2",
+      "text": "Vi har leget med lasere."
+    },
+    {
+      "turn_id": "I12-T003",
+      "speaker": "Student 1",
+      "text": "Vi har lavet et quantum eraser forsøg."
+    },
+    {
+      "turn_id": "I12-T004",
+      "speaker": "Student 2",
+      "text": "For at se hvornår der var inferens når vi splittede en laser op og så samlede den igen, hvor vi så ikke ved hvor den... Ja."
+    },
+    {
+      "turn_id": "I12-T005",
+      "speaker": "Student 3",
+      "text": "Ja."
+    },
+    {
+      "turn_id": "I12-T006",
+      "speaker": "Student 2",
+      "text": "Ja.\n\nInterviewer\nOplevede i nogle udfordringer i laboratoriet?"
+    },
+    {
+      "turn_id": "I12-T007",
+      "speaker": "Student 2",
+      "text": "Ja vi havde nogen spejle som blev ved med og være dumme. Så skulle vi hele tiden have hjælp til at få dem sat op igen, så vi faktisk kunne lave forsøget. Så det brugte vi ret lang tid på."
+    },
+    {
+      "turn_id": "I12-T008",
+      "speaker": "Student 1",
+      "text": "Selvom at man ikke vidste, hvordan man satte det op, ikke? Sådan noget sidder man og bruger lang tid på at finde ud af, at det var det der var galt og ikke noget med de andre ting vi lavede. Så lige at filtrere det ned til den havde vi svært ved at gøre. Altså til at problemet var at spejlene og ikke hvordan vi havde sat filtrene.\n\nInterviewer\nSå det var både teknisk svært og svært at finde ud af at det var teknikken?"
+    },
+    {
+      "turn_id": "I12-T009",
+      "speaker": "Student 1",
+      "text": "Ja.\n\nInterviewer\nMen i fik det løst med jeres TA?"
+    },
+    {
+      "turn_id": "I12-T010",
+      "speaker": "Student 3",
+      "text": "Ja. Han var meget sød, og hjalp også til skole. [laughs]\n\nInterviewer\nHvordan fungerede det der med at have 3 timer til at lave både eksperiment og video?"
+    },
+    {
+      "turn_id": "I12-T011",
+      "speaker": "Student 2",
+      "text": "Det er jo Sådan set meget rart, at vi ikke følte os på den måde stressede i at skulle skynde sig igennem forsøget. Det synes jeg lidt vi følte i det forrige i hvert fald."
+    },
+    {
+      "turn_id": "I12-T012",
+      "speaker": "Student 1",
+      "text": "Helt klart."
+    },
+    {
+      "turn_id": "I12-T013",
+      "speaker": "Student 2",
+      "text": "Ja der var vi lidt pressede, så det er rart at kunne komme herop og så nu tale det igennem, sådan set."
+    },
+    {
+      "turn_id": "I12-T014",
+      "speaker": "Student 1",
+      "text": "Ja."
+    },
+    {
+      "turn_id": "I12-T015",
+      "speaker": "Student 3",
+      "text": "Ja.\n\nInterviewer\nAltså hvis i havde 3 timer mere. Ville i kunne finde noget at bruge de timer på eller var det her egentlig meget fint?"
+    },
+    {
+      "turn_id": "I12-T016",
+      "speaker": "Student 2",
+      "text": "Nej, det tror jeg ikke. Altså vi mangler lige det sidste og vi havde... Ja, det passer egentlig meget fornuftigt synes jeg. [agreement]\n\nInterviewer\nSå fik i de resultater, som vi forventede at få i dag?"
+    },
+    {
+      "turn_id": "I12-T017",
+      "speaker": "Student 2",
+      "text": "Altså i selve forsøget?\n\nInterviewer\nI selve forsøget. Ja."
+    },
+    {
+      "turn_id": "I12-T018",
+      "speaker": "Student 2",
+      "text": "Ja det gjorde vi da ja."
+    },
+    {
+      "turn_id": "I12-T019",
+      "speaker": "Student 1",
+      "text": "Ja."
+    },
+    {
+      "turn_id": "I12-T020",
+      "speaker": "Student 3",
+      "text": "Ja.\n\nInterviewer\nJa"
+    },
+    {
+      "turn_id": "I12-T021",
+      "speaker": "Student 1",
+      "text": "Det var lige at finde ud af det der med at man skulle gøre det relativt til, eller filterne ikke helt var sande til hvad der stod på dem, og efter at man ligesom havde regnet det i hovedet og kigget på det, så fik de vi selv havde snakket om at sådan er det, det her burde fungere. Så kom det rigtige ud, når man ligesom havde indsigt den del af det og den teoretiske del af den praktiske del af det og så kom det rigtigt.\n\nInterviewer\nVar det noget i selv skulle finde ud?"
+    },
+    {
+      "turn_id": "I12-T022",
+      "speaker": "Student 1",
+      "text": "Det der med polariseringsfiltrene, hvordan de var orienteret og sådan noget der, det skulle vi selv finde ud af eller snakke med de andre om, som havde fået det at vide."
+    },
+    {
+      "turn_id": "I12-T023",
+      "speaker": "Student 2",
+      "text": "Vores TA havde lige glemt at sige det til os, men havde sagt det til de andre."
+    },
+    {
+      "turn_id": "I12-T024",
+      "speaker": "Student 1",
+      "text": "Så ja så.\n\nInterviewer\nOk."
+    },
+    {
+      "turn_id": "I12-T025",
+      "speaker": "Student 2",
+      "text": "Det var en lille..."
+    },
+    {
+      "turn_id": "I12-T026",
+      "speaker": "Student 1",
+      "text": "Lille upsi tror jeg det hedder.\n\nInterviewer\nMen når man først vidste det, så var det fint nok at komme igennem?"
+    },
+    {
+      "turn_id": "I12-T027",
+      "speaker": "Student 1",
+      "text": "Ja.\n\nInterviewer\nFøler i at i har lært noget, som i også vil kunne bruge senere i studiet eller i livet?"
+    },
+    {
+      "turn_id": "I12-T028",
+      "speaker": "Student 2",
+      "text": "Jeg tror vi har været lidt frustreret over, at der er lidt et mismatch i forhold til hvad vi lavede her og nu i forhold til hvad vi faktisk har snakket om til undervisning. Så ja, altså vi har overhovedet ikke snakket om entanglement endnu. Vi har ikke snakket om noget quantum interference og det jeg ved godt, at det er så ideen med forsøget, at vi skal det, men der er... Der er de ting vi skal lave til prelab og herefter til videoen har vi ikke fået introduktion til, så det var sådan ja..."
+    },
+    {
+      "turn_id": "I12-T029",
+      "speaker": "Student 1",
+      "text": "Vi sidder også lidt i sådan noget som projektering og for eksempel at finde ud af, hvordan den operation fungerer, også hvordan man laver den algebra, når man har to stadier der er sat sammen. Hvorfor fungerer den på den ene og ikke på den anden eller sådan nogle ting og det var lidt alt sammen noget nyt, så da vi skulle forudsige tingene, kunne vi ikke helt se hvor det gik galt, eller hvad man kan sige."
+    },
+    {
+      "turn_id": "I12-T030",
+      "speaker": "Student 2",
+      "text": "ja. Så det gjorde det lidt utilfredsstillende."
+    },
+    {
+      "turn_id": "I12-T031",
+      "speaker": "Student 1",
+      "text": "Det gjorde det lidt sværere. Ja.\n\nInterviewer\nUtilfredsstillende? Hvordan det?"
+    },
+    {
+      "turn_id": "I12-T032",
+      "speaker": "Student 2",
+      "text": "Det der med, fordi vi ved ikke. Altså vi kan ikke se hvad der er går galt og hvornår det går galt. Ja."
+    },
+    {
+      "turn_id": "I12-T033",
+      "speaker": "Student 1",
+      "text": "Ja, ikke?"
+    },
+    {
+      "turn_id": "I12-T034",
+      "speaker": "Student 2",
+      "text": "Og nu er vi nogen, der kommer til at regne timer, så ja.\n\nInterviewer\nJa."
+    },
+    {
+      "turn_id": "I12-T035",
+      "speaker": "Student 1",
+      "text": "Ja."
+    },
+    {
+      "turn_id": "I12-T036",
+      "speaker": "Student 2",
+      "text": "Men altså ja på den anden side, så har vi nu slås med det, og så nu kan vi sikkert godt finde ud af det, tror jeg."
+    },
+    {
+      "turn_id": "I12-T037",
+      "speaker": "Student 1",
+      "text": "Så jeg synes en opgave sådan at sidde og regne dem ud og finde ud af de der ting. Det var virkelig dejligt. Det havde bare været dejligt også lige at forstå de der projekteringsoperatorer eller sådan noget der, hvordan man lige sætter dem op i de her tilfælde for eksempel. Eller hvordan de der entanglements sat sammen fungerer når du putter et operator på den. Hvornår ser den på, eller hvornår gør den det ikke? Da vi snakkede om dem i hvert fald, der følte vi, at vi var lidt bare kyllinger hvor man tager hovedet af der rendte rundt og sagde: Ahhhhh. Sådan cirka det her nok.\n\nInterviewer\nJa."
+    },
+    {
+      "turn_id": "I12-T038",
+      "speaker": "Student 1",
+      "text": "Indtil vi fik spurgt om det. Så kan man måske lidt, men ja.\n\nInterviewer\nKan i sætte lidt flere ord på det her? Altså hvordan det føles det her med at i har hørt om de her ting for første gang mens i skulle bruge dem?"
+    },
+    {
+      "turn_id": "I12-T039",
+      "speaker": "Student 2",
+      "text": "Det er jo lidt frustrerende."
+    },
+    {
+      "turn_id": "I12-T040",
+      "speaker": "Student 1",
+      "text": "Ja."
+    },
+    {
+      "turn_id": "I12-T041",
+      "speaker": "Student 2",
+      "text": "Men Det er jo også sådan man lærer hurtigt."
+    },
+    {
+      "turn_id": "I12-T042",
+      "speaker": "Student 1",
+      "text": "Stirrer frustreret på tavlen, og sidder ud og regner det igennem."
+    },
+    {
+      "turn_id": "I12-T043",
+      "speaker": "Student 2",
+      "text": "Og så kan man huske det mener jeg bare."
+    },
+    {
+      "turn_id": "I12-T044",
+      "speaker": "Student 1",
+      "text": "Det er rigtigt."
+    },
+    {
+      "turn_id": "I12-T045",
+      "speaker": "Student 2",
+      "text": "Når man har været frustreret. Ja Det er bare nederen at stå i det."
+    },
+    {
+      "turn_id": "I12-T046",
+      "speaker": "Student 1",
+      "text": "Der er frustrationer at stå i det, og så når man er færdig med det, så er det måske rart, at ligesom have diskuteret det færdigt ja."
+    },
+    {
+      "turn_id": "I12-T047",
+      "speaker": "Student 2",
+      "text": "Ja.\n\nInterviewer\nSå føler i nu, at i forstår hvad entanglement er og den der projektionsoperator og sådan nogle ting?"
+    },
+    {
+      "turn_id": "I12-T048",
+      "speaker": "Student 2",
+      "text": "Jeg vil ikke sige fuldt ud. Nej."
+    },
+    {
+      "turn_id": "I12-T049",
+      "speaker": "Student 3",
+      "text": "Ikke rigtigt."
+    },
+    {
+      "turn_id": "I12-T050",
+      "speaker": "Student 2",
+      "text": "Men det er måske også ok."
+    },
+    {
+      "turn_id": "I12-T051",
+      "speaker": "Student 1",
+      "text": "Vi har taget nogle par skridt til at derhen af der er altså..."
+    },
+    {
+      "turn_id": "I12-T052",
+      "speaker": "Student 3",
+      "text": "Men Vi er der ikke endnu.\n\nInterviewer\nSå jeg skal bare lige vende tilbage til spørgsmålet med om i tror i har lært mig at bruge i andre kurser eller efter kurset?"
+    },
+    {
+      "turn_id": "I12-T053",
+      "speaker": "Student 1",
+      "text": "Hmmmm."
+    },
+    {
+      "turn_id": "I12-T054",
+      "speaker": "Student 2",
+      "text": "Altså lige det her vi lavede i dag ja. Nu tager jeg optik lige nu, og det var er noget vi også lige har snakket om der. Så det er sådan set meget nice og det på den måde de tog kurser blev lige bundet rigtig meget sammen fordi vi har lige snakket om beamsplittere og sådan noget der. Så at der er de her forskellige sider af det samme er sådan set meget rart, så det giver lidt mere fuldendt billede af fysik synes jeg. Så det kan jeg godt lide."
+    },
+    {
+      "turn_id": "I12-T055",
+      "speaker": "Student 1",
+      "text": "Jeg føler også det eneste jeg føler at fundet ud af, men det punkt er at nu forstår jeg hvordan man laver forsøg i kvantemekanik forstår, ok eller når det kommer til lys i hvert fald specifikt. Det der med at sige: ok, men du har en beamsplitter og det er sådan her du entangler ting sammen og det er sådan her du kan sådan undersøge hvordan entanglement fungerer, at du kan få den operator der kan. Hvad kalder man det Sådan? Lave en tåge??? over hvilken vej den har taget ikke og det synes jeg er fedt at forstå hvordan der fungerer. Som man i fremtiden måske ville, hvis man laver et forsøg eller Sådan noget, forstå den kontekst eller hvor ja. Hvad du sætter op for at få den her entanglement kørende. Men jeg ved ikke hvor meget det kommer til at have relevant i min fremtidige karriere. Det har jeg ikke rigtigt sådan...\n\nInterviewer\nEj, det er så fair."
+    },
+    {
+      "turn_id": "I12-T056",
+      "speaker": "Student 3",
+      "text": "Det tror jeg, at jeg er enig i. Det er meget cool ay have prøvet at lege med de der spejle og sådan noget. Så nu kan jeg måske sige mere med sikkerhed om jeg vil gå den vej eller den anden vej. Men ja tror jeg det er det.\n\nInterviewer\nVed du så om du vil den her vej eller den anden vej?"
+    },
+    {
+      "turn_id": "I12-T057",
+      "speaker": "Student 3",
+      "text": "Ikke  umiddelbart. Det er i hvert fald ikke hvad jeg lige med det samme har tænkt mig at gøre. Så nok ikke. Men det var sjovt at prøve.\n\nInterviewer\nEr der noget, det kunne have været bedre ved lab forløbet i dag?"
+    },
+    {
+      "turn_id": "I12-T058",
+      "speaker": "Student 2",
+      "text": "Jeg tror egentlig bare jeg savnede lidt at der stod måske lidt mere egentlig i labvejledningen, så man altså fordi når man lige læser på forhånd der så... Ja, men det var måske også mest på grund af situationen med vores operator der."
+    },
+    {
+      "turn_id": "I12-T059",
+      "speaker": "Student 1",
+      "text": "Ja."
+    },
+    {
+      "turn_id": "I12-T060",
+      "speaker": "Student 2",
+      "text": "Maybe."
+    },
+    {
+      "turn_id": "I12-T061",
+      "speaker": "Student 1",
+      "text": "Ja, Jeg tror at det ville være.. Altså jeg kan godt lide den måde de ligesom bygger det stille og roligt op altså setuppet og så videre. Jeg tror at det der med når vi sådan sidder foran det lige pludselig og så skal arbejde med det og sådan nogle der ting. Der tror jeg at der er en mismatch i, at specielt den der med polarisering føler jeg bare kunne stå i opgaveteksten også. Sådan så vi ikke behøver at have en TA der forklarer til os det her er relativt eller sådan de der udstyr ting, nogle generelle ting lige at vide om det ville måske være dejligt så man ikke bare står med totalt fremmede objekter foran en. Og så hvad skal jeg gøre her? Specielt med vores setup der var lidt løst og sådan noget der det tror jeg er mere specifikt med os har været et problem. Altså ligesom: Jamen nu skal vi have vores TA ind flere gange og rette de der spejle og sådan nogle her ting og det har jo sjovt nok været lidt irriterende, men det er jo også noget der kan undgås, hvis man måske havde en lidt mere forståelse for de setup komponenter, som vi havde at lege med.\n\nInterviewer\nJa."
+    },
+    {
+      "turn_id": "I12-T062",
+      "speaker": "Student 2",
+      "text": "Og så var det bare lidt udefinerbart hvad den der video skulle gå ud på lige præcis. Fordi der står igennem det hele at: Måske kunne det være i jeres hand-in, måske ikke. Måske kunne det altså og så var vi sådan lidt: Jeg ved ikke helt hvad de vil have. Nu har vi lavet noget, som vi synes var godt nok."
+    },
+    {
+      "turn_id": "I12-T063",
+      "speaker": "Student 3",
+      "text": "Ja, haha."
+    },
+    {
+      "turn_id": "I12-T064",
+      "speaker": "Student 2",
+      "text": "Men sådan er det jo ofte kan man sige. Idk.\n\nInterviewer\nJeg kunne godt tænke mig at høre om i tror, at i ville have fået mere, mindre eller det samme ud af labløbet, hvis i havde fået alt den her information inden? Altså hvis i havde fået at vide hvad de her projektorer var og alle komponenterne og sådan noget."
+    },
+    {
+      "turn_id": "I12-T065",
+      "speaker": "Student 2",
+      "text": "Jeg tror, vi ville have fået mere ud af det, idet at vi ville have fokuseret mere på og teste de forskellige, altså opstillingen i sig selv. Det kunne vi have brugt mere tid på, det vi gjorde nu, fordi vi ikke stod og undrede os over, hvorfor det ikke virkede i halvdelen af tiden. Så ja."
+    },
+    {
+      "turn_id": "I12-T066",
+      "speaker": "Student 1",
+      "text": "Hvis jeg havde fået at vide hvordan det fungerede lidt bedre, så kunne vi jo også ud fra de der informationer bygge en mere sådan udvidelsen. Altså at sige: OK, men hvad så hvis vi gør det her eller sådan de der spørgsmål man nogle gange får. Som hvis vi havde vidst tidligere: Jamen ok, det er sådan verden ser ud og så sætter os nede i lab ved setuppet og leger med det. Så kan vi jo mere lege med det, fordi vi forstår hvad konsekvenserne vil være og så se at vi sådan set kan forudse det med de informationer vi har. Nu har vi på baggrund lidt forudset udover det sidste.\n\nInterviewer\nJa."
+    },
+    {
+      "turn_id": "I12-T067",
+      "speaker": "Student 1",
+      "text": "Men hvis vi havde nogle andre ideer om hvordan man kunne sætte ting op eller sådan noget der. Det kan vi ikke gøre nu, fordi det er først nu vi sådan forstår det bedre, hvis det giver mening.\n\nInterviewer\nJa, helt sikkert."
+    },
+    {
+      "turn_id": "I12-T068",
+      "speaker": "Student 1",
+      "text": "Jeg tror svaret er ja, jeg tror vi ville have fået mere ud af det, hvis vi vidste det før.\n\nInterviewer\nTror i der var noget i har fået ud af den her måde, hvor i ikke vidste helt på forhånd, som i ikke ville have fået ud af det, hvis det er i havde vidst det på forhånd?"
+    },
+    {
+      "turn_id": "I12-T069",
+      "speaker": "Student 1",
+      "text": "Det største tror jeg er diskussionerne vi har haft med hinanden. At sidde og sige: OK men snak det igennem og få ligesom intuitivt bygget det op på en eller anden måde."
+    },
+    {
+      "turn_id": "I12-T070",
+      "speaker": "Student 3",
+      "text": "Ja man får ikke diskuteret lige så meget, hvis det går nemt."
+    },
+    {
+      "turn_id": "I12-T071",
+      "speaker": "Student 2",
+      "text": "Det er klart."
+    },
+    {
+      "turn_id": "I12-T072",
+      "speaker": "Student 3",
+      "text": "Ja, så det skal jo også være lidt frustrerende ja."
+    },
+    {
+      "turn_id": "I12-T073",
+      "speaker": "Student 2",
+      "text": "Det ved vi også godt. [emphasis]"
+    },
+    {
+      "turn_id": "I12-T074",
+      "speaker": "Student 1",
+      "text": "Skal ikke være nemt nej.\n\nInterviewer\nDet er helt fair at føle frustration. Jeg må lige se om der er mere jeg vil spørge jer om. [silence] Nej, det er mere bare om der er noget lige nu som i føler at i ikke har fået svar på?"
+    },
+    {
+      "turn_id": "I12-T075",
+      "speaker": "Student 1",
+      "text": "Ja."
+    },
+    {
+      "turn_id": "I12-T076",
+      "speaker": "Student 2",
+      "text": "Vi har en faktor."
+    },
+    {
+      "turn_id": "I12-T077",
+      "speaker": "Student 1",
+      "text": "Vi sidder lige nu med den der projektionsoperator vi snakke om tidligere og sådan hvordan fungerer det når vi ved hvor den kommer fra. Det mangler vi vel lidt, men det er sådan mere matematiksorienteret hvordan den fungerer i spørgsmål 11. Ja.\n\nInterviewer\nSå det i laboratoriet, det gav mening og i styr på det?"
+    },
+    {
+      "turn_id": "I12-T078",
+      "speaker": "Student 1",
+      "text": "Efter vi har snakket om og fået det forklaret, så gav det mening.\n\nInterviewer\nJa."
+    },
+    {
+      "turn_id": "I12-T079",
+      "speaker": "Student 1",
+      "text": "Det var ikke...\n\nInterviewer\nCool. Det er jeg glad for at høre."
+    }
+  ]
+}

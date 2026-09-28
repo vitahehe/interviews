@@ -1,0 +1,255 @@
+{
+  "interview_id": "I05",
+  "turns": [
+    {
+      "turn_id": "I05-T001",
+      "speaker": "Student 1",
+      "text": "You mean the content of the...\n\nInterviewer\nYes, so what you just experienced. Can you just put, what did you think? What did you feel?"
+    },
+    {
+      "turn_id": "I05-T002",
+      "speaker": "Student 2",
+      "text": "Okay, I thought it was nice to be not that many people.\n\nInterviewer\nYeah, so you were only two today."
+    },
+    {
+      "turn_id": "I05-T003",
+      "speaker": "Student 2",
+      "text": "Yeah, but also compared to lectures. So it's different in this way.\n\nInterviewer\nYeah, all right. You compared with a lecture. What makes you compare it with a lecture?"
+    },
+    {
+      "turn_id": "I05-T004",
+      "speaker": "Student 2",
+      "text": "Because it's because I deal with the subject that I also deal with in lectures and we also have we also talk in the lectures in like groups where we are supposed to discuss and that's also nice. But this was like for a long time and I feel like we had more time to understand stuff here.\n\nInterviewer\nYeah. So you have 3 hours here. Is that more or less than usual exercise for you?"
+    },
+    {
+      "turn_id": "I05-T005",
+      "speaker": "Student 2",
+      "text": "More.\n\nInterviewer\nMore?"
+    },
+    {
+      "turn_id": "I05-T006",
+      "speaker": "Student 2",
+      "text": "Yeah."
+    },
+    {
+      "turn_id": "I05-T007",
+      "speaker": "Student 1",
+      "text": "Okay, so my first time I do an exercise here."
+    },
+    {
+      "turn_id": "I05-T008",
+      "speaker": "Student 2",
+      "text": "Yeah.\n\nInterviewer\nAre you a QIS master student?"
+    },
+    {
+      "turn_id": "I05-T009",
+      "speaker": "Student 1",
+      "text": "Yeah.\n\nInterviewer\nAnd you? The quantum information science programme."
+    },
+    {
+      "turn_id": "I05-T010",
+      "speaker": "Student 2",
+      "text": "No, I'm just a quantum physics.\n\nInterviewer\nAll right. So you've been used to be here and you're new here?"
+    },
+    {
+      "turn_id": "I05-T011",
+      "speaker": "Student 1",
+      "text": "Yeah, I'm new here.\n\nInterviewer\nYeah, all right. Can I also ask you to try to describe how you experienced this exercise?"
+    },
+    {
+      "turn_id": "I05-T012",
+      "speaker": "Student 1",
+      "text": "Yeah, I mean, it's nice because we actually did something not in theory. We are trying to conduct a small experiment. It makes me feel more real about the things you learned.\n\nInterviewer\nSo you feel this is more real? I'm getting a bit curious. What makes it real?"
+    },
+    {
+      "turn_id": "I05-T013",
+      "speaker": "Student 1",
+      "text": "I mean, in class or in lecture, you will see the equations or something. In here, you got some data. It's much better.\n\nInterviewer\nI don't think you wrote a single equation during the exercise, even though you drew and wrote a lot on the whiteboard and on the writing area. How do you think about that? Not having equations but a lot of drawings."
+    },
+    {
+      "turn_id": "I05-T014",
+      "speaker": "Student 2",
+      "text": "I like it because I get more intuition from it and I don't get that much intuition from equations, especially if they're large equations.\n\nInterviewer\nCan I ask you to try to mention something that was challenging?\n\n[silence]"
+    },
+    {
+      "turn_id": "I05-T015",
+      "speaker": "Student 1",
+      "text": "No, not so challenging."
+    },
+    {
+      "turn_id": "I05-T016",
+      "speaker": "Student 2",
+      "text": "It felt a little bit challenging at first, or like, I don't know, it felt like, I don't know, I felt like I didn't know how to do it. I was afraid that I wouldn't know how to do it.\n\nInterviewer\nBut this was in the beginning. What happened?"
+    },
+    {
+      "turn_id": "I05-T017",
+      "speaker": "Student 2",
+      "text": "Then I experienced that it was not that hard and we had help all the time.\n\nInterviewer\nSo what did you expect? It sounds like you expected something."
+    },
+    {
+      "turn_id": "I05-T018",
+      "speaker": "Student 2",
+      "text": "I just expected it to be very complicated because I've been in a quantum lab before and it was very complicated with all of the different components and buttons and wires and stuff.\n\nInterviewer\nSo that was what you expected. Can you put some words and what did you experience then?"
+    },
+    {
+      "turn_id": "I05-T019",
+      "speaker": "Student 2",
+      "text": "That it was so simple and this big screen and you didn't need to be like good at computers or know all of this stuff in advance. You could just do it.\n\nInterviewer\nSorry, I'm continuing with you. I did actually write in my observations that there was some time where the TA mentioned something to you and you expressed that you didn't understand or you were in doubt or you actually didn't really believe it or something. Can you try to recall a situation where you needed more explanation from the TA?"
+    },
+    {
+      "turn_id": "I05-T020",
+      "speaker": "Student 2",
+      "text": "I think there was several things.\n\nInterviewer\nWe don't need to talk about more, but maybe."
+    },
+    {
+      "turn_id": "I05-T021",
+      "speaker": "Student 2",
+      "text": "Right now, what was it? For example, the thing about dephasing. [unsure]\n\nInterviewer\nYeah, Can you try to explain that for me, what happened? Because I might forget it."
+    },
+    {
+      "turn_id": "I05-T022",
+      "speaker": "Student 2",
+      "text": "Yeah, so. So I was already confused about the echo thing when we learned about it in the lecture. I didn't understand it fully. And then I thought I understood it the TAs first explanation. But then there was something about the approximation that I didn't understand. Like the function of it. But then at last, after some time I understood it.\n\nInterviewer\nWhat made you understand it?"
+    },
+    {
+      "turn_id": "I05-T023",
+      "speaker": "Student 2",
+      "text": "That we could talk about it and that we had time to discuss it and draw it.\n\nInterviewer\nYou did draw a lot, I saw. Yeah, all right. How about you? Was that also challenging for you, the echo part?"
+    },
+    {
+      "turn_id": "I05-T024",
+      "speaker": "Student 1",
+      "text": "Yeah, because this is hard to imagine your man???. You need to, yeah, on the graph it would be much easier to understand.\n\nInterviewer\nOn a graph or on a drawing?"
+    },
+    {
+      "turn_id": "I05-T025",
+      "speaker": "Student 1",
+      "text": "Yes, a drawing.\n\nInterviewer\nOh, drawing, all right, all right. So imagine if you had three more hours in the lab, not today, I know you're tired, but let's say tomorrow or next week. What would you like to do then?"
+    },
+    {
+      "turn_id": "I05-T026",
+      "speaker": "Student 2",
+      "text": "I would like to do something with some part of the curriculum that I don't understand, so that I can understand.\n\nInterviewer\nIs it something that you can mention now or you just think about, well, then cover more of the things that I don't understand?"
+    },
+    {
+      "turn_id": "I05-T027",
+      "speaker": "Student 2",
+      "text": "Maybe some of the protocols, because I think they're very complicated. And I've never done things like that.\n\nInterviewer\nYeah, what do you mean when you say protocols?"
+    },
+    {
+      "turn_id": "I05-T028",
+      "speaker": "Student 2",
+      "text": "Like the different, what is it, I don't know, when we have like CNOTs and...\n\nInterviewer\nThat kind of stuff, so more tied to algorithms. Yeah. All right, that's true. We could work more on that. Yeah. And how about you? Would you, if you should do the same exercise, how would you approach it?"
+    },
+    {
+      "turn_id": "I05-T029",
+      "speaker": "Student 1",
+      "text": "You mean the same as today?\n\nInterviewer\nYeah, or maybe at least there was a chapter 2, if there was a part 2. Would you approach it differently?"
+    },
+    {
+      "turn_id": "I05-T030",
+      "speaker": "Student 1",
+      "text": "I mean, I want to see more information about the equipment, the device, and how it works.\n\nInterviewer\nYeah, all right. So that's interesting. So you already mentioned the big screen, but the equipment, you were surrounded by equipment, but you didn't really touch anything. And so when you say equipment, can you maybe elaborate what you would like to work with? It could also be that you don't want to work with it."
+    },
+    {
+      "turn_id": "I05-T031",
+      "speaker": "Student 1",
+      "text": "Yes, the chips, the refrigerators.\n\nInterviewer\nYeah. Did you realize where the refrigerator was?"
+    },
+    {
+      "turn_id": "I05-T032",
+      "speaker": "Student 1",
+      "text": "Yes, it's near the computer.\n\nInterviewer\nYeah."
+    },
+    {
+      "turn_id": "I05-T033",
+      "speaker": "Student 2",
+      "text": "I don't think i saw it. \n\nInterviewer\nYou didn't see it? There's the tower of this size. This was actually where the chip was on the top of. So that's a bit interesting for me that you actually didn't realize that. But that also means a lot of the physics is done through scripts and on a display, right? So what does, so this experience of working with scripts and doing experiments and discussing what... How might this relate to your plans after this course? So what you're going to do after this course?"
+    },
+    {
+      "turn_id": "I05-T034",
+      "speaker": "Student 2",
+      "text": "Like how it will influence me?\n\nInterviewer\nI would like to hear a lot of different things. It could also be just for the next course. Well, this is my last course. Yes, this is just what are you going to do then?"
+    },
+    {
+      "turn_id": "I05-T035",
+      "speaker": "Student 2",
+      "text": "I'm going to do my thesis. And it'll also be in the lab. But in that lab, I think I'll have to do some stuff for myself a bit more.\n\nInterviewer\nYeah. That would be very interesting for me to hear more about what you're going to do in the lab."
+    },
+    {
+      "turn_id": "I05-T036",
+      "speaker": "Student 2",
+      "text": "I'm not sure yet, but I'm not sure what the setup will be. But I'll do something with some quantum dots.\n\nInterviewer\nAll right. Yeah."
+    },
+    {
+      "turn_id": "I05-T037",
+      "speaker": "Student 2",
+      "text": "So quantum optics.\n\nInterviewer\nYeah."
+    },
+    {
+      "turn_id": "I05-T038",
+      "speaker": "Student 2",
+      "text": "And so we have to deal with fibers and...\n\nInterviewer\nBut that's optical light and not microwave, yes? or near optical at least. And how do you think this experience could relate to what you're going to do?"
+    },
+    {
+      "turn_id": "I05-T039",
+      "speaker": "Student 2",
+      "text": "Well, it's still a qubit and a quantum dot that responds. Well, a content that is a qubit.\n\nInterviewer\nYeah."
+    },
+    {
+      "turn_id": "I05-T040",
+      "speaker": "Student 2",
+      "text": "It gives me intuition and how and what to expect when I measure.\n\nInterviewer\nHow about you? still have some time before your thesis. Well, how do you think that this course is going to affect you or how do you think you will use it later in your master's program?"
+    },
+    {
+      "turn_id": "I05-T041",
+      "speaker": "Student 1",
+      "text": "I also want to do something related to quantum optics. So I just want to see which part I want to do.\n\nInterviewer\nAnd are you in doubt of what part you want to go?"
+    },
+    {
+      "turn_id": "I05-T042",
+      "speaker": "Student 1",
+      "text": "Because I don't know which part I want to do. I just take this course to see what is quantum computation, what is that? Maybe I'm interested.\n\nInterviewer\nYeah. And so you know for sure that you're going to work intensively on quantum optics and you might do it. So if you imagine yourself working in a lab like this for a year, what words could you is popping up in your head about your expectations?"
+    },
+    {
+      "turn_id": "I05-T043",
+      "speaker": "Student 2",
+      "text": "I imagine that I'll become very confident in the different devices and how to use them.\n\nInterviewer\nAnd is that because you feel some sort of, what's the word I'm looking for? The opposite of confidence. Insecure. Yeah."
+    },
+    {
+      "turn_id": "I05-T044",
+      "speaker": "Student 2",
+      "text": "Because it's expensive stuff that you can break. And it's something you can't really figure out without someone telling you how. And things look alike. And I think I in general I have like a feeling of not being good at computers. So everything that has to do with computers, I have like this insecurity about.\n\nInterviewer\nAll right. How about you?"
+    },
+    {
+      "turn_id": "I05-T045",
+      "speaker": "Student 1",
+      "text": "Yeah, to be honest, I don't know how to program at all. It's also maybe a problem.\n\nInterviewer\nWell, it wasn't a problem today, I could see. And you managed to do quite a lot of measurements there. And there's also another exercise that is much more quantum optics actually during this course. I don't know if you take it next week or after Christmas. The last thing, if I could ask you to describe what might be your main takeaway from this exercise, can I ask you to start?"
+    },
+    {
+      "turn_id": "I05-T046",
+      "speaker": "Student 1",
+      "text": "Take away from this exercise?\n\nInterviewer\nYes, so what's the most important thing you've learned or the most, the thing that you will remember maybe?"
+    },
+    {
+      "turn_id": "I05-T047",
+      "speaker": "Student 1",
+      "text": "I mean, they remember how to get T1, T2, and measure it.\n\nInterviewer\nSo how to characterize and measure T1, T2? Yeah, that's very relevant for this course, I would say. Yeah."
+    },
+    {
+      "turn_id": "I05-T048",
+      "speaker": "Student 1",
+      "text": "I think this will be mentioned in lectures for many times. Actually, we measure it. I think it's very useful.\n\nInterviewer\nYeah. So when you saw that you should measure T1 or T2 in the exercise, so what do you think? Was it, oh God, it's the same we've already heard about in lecture or..."
+    },
+    {
+      "turn_id": "I05-T049",
+      "speaker": "Student 1",
+      "text": "No, it's different experiences in class it's more about how to you have the equations and the principles to measure it, but right now you are using those equations by the computers. Yes, it's different experience.\n\nInterviewer\nI'm taking way much of your time, but the last, what would you say is your main takeaway or main thing that you'll remember?"
+    },
+    {
+      "turn_id": "I05-T050",
+      "speaker": "Student 2",
+      "text": "I just think I got a deeper understanding of all of the things that we did. So I'm able to discuss it for the exam.\n\nInterviewer\nYeah, yeah. All right. Thank you so much for your time. Thank you for letting me observe you."
+    }
+  ]
+}

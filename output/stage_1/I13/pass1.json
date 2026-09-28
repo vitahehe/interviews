@@ -1,0 +1,404 @@
+{
+  "interview_id": "I13",
+  "quotes": [
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: So I was thinking like, is this efficient the way we're doing this right now? Because I noticed that in the beginning, for the first time, we got very much lost in details, so we didn't really come up with a strategy to actually handle the task we had. So we just started doing a very, let's say, unorganized search for what's happening here. But then I realized that that's maybe not the best thing to do, so we tried to, yeah...\n\nInterviewer\nI'm really curious about the use inefficient. What were you afraid would be inefficient? ",
+      "turn_ids": [
+        "I13-T011"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I13-Q001"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Well, I was thinking, okay, you have a certain amount of time to figure out what is happening in the experiment. And of course, if you spend most of the time in just looking at where the light goes in which configuration or in which part of the setup in particular, you might not use the time to actually find out what the bigger picture is.\n\nInterviewer\nSo for me it sounds like you had an idea of something, you had some goal or some mission that you should achieve. And it's not about time efficient in regards to, for example, learning outcome that you felt it was a waste of time or something? ",
+      "turn_ids": [
+        "I13-T012"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I13-Q002"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: I would say in the first part, just because I didn't feel like I was in the mindset of the whole experiment and the physics behind it, I felt it was hard to do anything in the first 20 minutes because we're just looking at... We've never done a laser experiment so we're just looking at random parts and we're already kind of missing the connection to the course details. So maybe a small recap of what we're actually, like what is happening when you use these H.W.P.s or polarizers, because that connection is kind of missing, and then it's hard to find out what each of these parts are doing.\n\nInterviewer\nSo tell me a bit more about this moment where you said you're not in the right mindset. How about you two? Did you have the same experience? What happened in the first...? ",
+      "turn_ids": [
+        "I13-T013"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I13-Q003"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: Yeah, I feel like, yeah, especially when we start it was hard to... there was so many... [unsure] It was a little overwhelming because, like you said, you weren't really in the mindset of what was going on, the physics behind. Maybe a little, because we've had some of it, but still we haven't had this specific experiment in class. So that was just a lot. And then at the same time, all the optics parts that you have never seen before, if you've never done a laser experiment, and we have never done that. So everything is new, and then when you don't really understand the physics at the same time yet, then it's a little overwhelming too. But still, I think maybe for the remembering part, I'll definitely remember it better because we actually did the exploring first instead of just being told at once. So I like how we could use the paper to sort of walk through where the light came from.\n\nInterviewer\nYeah, I'm very happy to hear about that. So from the side of the ones who prepared this, I see that you actually got through the program, the planned schedule, and you also figured out what the waveplates did and you actually got to the right conclusions mostly on your own. How did you overcome this challenge then? Because I see that you succeeded. ",
+      "turn_ids": [
+        "I13-T014"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I13-Q004"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Yeah, I mean, we did use, let's say, also the internet and ChatGPT to figure out which parts of the setups do what. [laughs]\n\nInterviewer\nAnd you're laughing a bit. Why do you laugh? Can you? ",
+      "turn_ids": [
+        "I13-T015"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I13-Q005"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: I think it's funny that this is actually, first of all, didn't work so well using ChatGPT, for example. And then also it's not something you're usually encouraged to do, I guess, in teaching. But I hear it does make sense to see where it gets you. ",
+      "turn_ids": [
+        "I13-T016"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I13-Q006"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: But it also feels a bit... Because at some point I remember you asked that we should try and research it first or ask ChatGPT first before we got the explanation. And that part I felt was a bit silly, I'll be honest, because reading ChatGPT answer is not very directed at my specific question. It answers very broad and it can maybe confuse a bit more than... [overlap] ",
+      "turn_ids": [
+        "I13-T017"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I13-Q007"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: Yeah, I also like understanding how changing the half wave plate actually affected it because we could sort of interpret how it all got transmitted through.\n\nInterviewer\nYeah, so the atoms behave differently because you did something on this... ",
+      "turn_ids": [
+        "I13-T021"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I13-Q008"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: Yeah, exactly. And then like being able to predict what happens. ",
+      "turn_ids": [
+        "I13-T022"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I13-Q009"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: I think in the moment where you really began to understand what was going on, as you said, you were turning them and then you could actually see how this was changing, how much you got out of the system, right?\n\nInterviewer\nSo you're the first group and the other groups in the course where your course mates are going to do the same. If you were to give an advice to those, what would you say to them in advance of this? ",
+      "turn_ids": [
+        "I13-T023"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I13-Q010"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "Student 1: It was also nice that there was a part of exploration to it where we had a time where we could try and figure out ourselves what the results we were seeing actually meant. Not to say, because also I find it nice that we skipped the whole process of setting up the experiment and just.. We kind of explored the results of the experiment more than the process of building the whole setup.\n\nInterviewer\nWhat was going through your mind, especially maybe the first time you had this exploring without help and without being allowed to ask questions? ",
+      "turn_ids": [
+        "I13-T010"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I13-Q011"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.b",
+      "cited_text": "Student 2: Well, I mean, I'm a theorist and I'm doing this course to get a bit of a better feeling of what people can do in the lab. So that sense, yeah, kind of, yes.\n\nInterviewer\nYeah, so what do you think you got a feeling of? ",
+      "turn_ids": [
+        "I13-T030"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I13-Q012"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Yes, so I think what was good is that we, for example, we got a little bit of help for using the oscilloscope and the mirrors and the plates and the whole setup was already aligned for us because I mean if you want to do an experimental course I guess you need to learn these kind of things but I guess for this situation it was more important to actually just see what's what happens without dealing too much with these details, which of course are a huge part of actually the experiments, but I guess here it's maybe not the main focus.\n\nInterviewer\nYeah, you had something? ",
+      "turn_ids": [
+        "I13-T009"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I13-Q013"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: I would say in the first part, just because I didn't feel like I was in the mindset of the whole experiment and the physics behind it, I felt it was hard to do anything in the first 20 minutes because we're just looking at... We've never done a laser experiment so we're just looking at random parts and we're already kind of missing the connection to the course details. So maybe a small recap of what we're actually, like what is happening when you use these H.W.P.s or polarizers, because that connection is kind of missing, and then it's hard to find out what each of these parts are doing.\n\nInterviewer\nSo tell me a bit more about this moment where you said you're not in the right mindset. How about you two? Did you have the same experience? What happened in the first...? ",
+      "turn_ids": [
+        "I13-T013"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I13-Q014"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Checking out the laser path with the piece of the laser blocker. ",
+      "turn_ids": [
+        "I13-T020"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I13-Q015"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: Yeah, I also like understanding how changing the half wave plate actually affected it because we could sort of interpret how it all got transmitted through.\n\nInterviewer\nYeah, so the atoms behave differently because you did something on this... ",
+      "turn_ids": [
+        "I13-T021"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I13-Q016"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: I guess just to be like curious about the stup and use the poster. Yeah, the poster is really good. [laughs]\n\nInterviewer\nThat is very much on purpose, and... ",
+      "turn_ids": [
+        "I13-T025"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I13-Q017"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: It's, at least for me, I didn't see the posters at all for the first 20 minutes. [laughs]\n\nInterviewer\nWe tested this on one student and she also I didn't notice at all. ",
+      "turn_ids": [
+        "I13-T026"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I13-Q018"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: It was also nice that there was a part of exploration to it where we had a time where we could try and figure out ourselves what the results we were seeing actually meant. Not to say, because also I find it nice that we skipped the whole process of setting up the experiment and just.. We kind of explored the results of the experiment more than the process of building the whole setup.\n\nInterviewer\nWhat was going through your mind, especially maybe the first time you had this exploring without help and without being allowed to ask questions? ",
+      "turn_ids": [
+        "I13-T010"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I13-Q019"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 3: Yeah, I feel like, yeah, especially when we start it was hard to... there was so many... [unsure] It was a little overwhelming because, like you said, you weren't really in the mindset of what was going on, the physics behind. Maybe a little, because we've had some of it, but still we haven't had this specific experiment in class. So that was just a lot. And then at the same time, all the optics parts that you have never seen before, if you've never done a laser experiment, and we have never done that. So everything is new, and then when you don't really understand the physics at the same time yet, then it's a little overwhelming too. But still, I think maybe for the remembering part, I'll definitely remember it better because we actually did the exploring first instead of just being told at once. So I like how we could use the paper to sort of walk through where the light came from.\n\nInterviewer\nYeah, I'm very happy to hear about that. So from the side of the ones who prepared this, I see that you actually got through the program, the planned schedule, and you also figured out what the waveplates did and you actually got to the right conclusions mostly on your own. How did you overcome this challenge then? Because I see that you succeeded. ",
+      "turn_ids": [
+        "I13-T014"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I13-Q020"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Like the struggle was also fun, as it might be a bit demotivating, but it was, yeah, as Student 3 said, you remember it way better.\n\nInterviewer\nCan I ask, can you mention maybe a specific moment that was fun? Because now you say it was fun. ",
+      "turn_ids": [
+        "I13-T019"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I13-Q021"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 3: Yeah, I also like understanding how changing the half wave plate actually affected it because we could sort of interpret how it all got transmitted through.\n\nInterviewer\nYeah, so the atoms behave differently because you did something on this... ",
+      "turn_ids": [
+        "I13-T021"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I13-Q022"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 3: Yeah, exactly. And then like being able to predict what happens. ",
+      "turn_ids": [
+        "I13-T022"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I13-Q023"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: I think in the moment where you really began to understand what was going on, as you said, you were turning them and then you could actually see how this was changing, how much you got out of the system, right?\n\nInterviewer\nSo you're the first group and the other groups in the course where your course mates are going to do the same. If you were to give an advice to those, what would you say to them in advance of this? ",
+      "turn_ids": [
+        "I13-T023"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I13-Q024"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Well, I mean, here in particular, I don't know. [silence] I mean, yeah, I mean, so the one thing is for sure that it's always, there are so many components involved in doing these, which in theory is maybe just a very short explanation. And then you see all these components that are involved in such an experiment. So I mean, I guess it just... It helps you understand a bit that there are many layers to things some things cannot be done directly, and then you have to do a very winding path to reach that goal, and you should always be aware of that when you come up with ideas that you maybe should talk to someone to see?\n\nInterviewer\nFor example, just the act of turning off light requires 2 AOMs with double pass AOMs. ",
+      "turn_ids": [
+        "I13-T031"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I13-Q025"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: Yeah, it was quite nice. It was quite nice. I think it was a good balance between not making us get lost too much in the details of how to do the actual experiments and it was a good, let's say, focus on what do we actually see and why do we see it. So I think in that sense it was...\n\nInterviewer\nCan I ask you to put more words on this balance? Because so it's balance between what and what? ",
+      "turn_ids": [
+        "I13-T008"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I13-Q026"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: It was also nice that there was a part of exploration to it where we had a time where we could try and figure out ourselves what the results we were seeing actually meant. Not to say, because also I find it nice that we skipped the whole process of setting up the experiment and just.. We kind of explored the results of the experiment more than the process of building the whole setup.\n\nInterviewer\nWhat was going through your mind, especially maybe the first time you had this exploring without help and without being allowed to ask questions? ",
+      "turn_ids": [
+        "I13-T010"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I13-Q027"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: I think it's funny that this is actually, first of all, didn't work so well using ChatGPT, for example. And then also it's not something you're usually encouraged to do, I guess, in teaching. But I hear it does make sense to see where it gets you. ",
+      "turn_ids": [
+        "I13-T016"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I13-Q028"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: Like the struggle was also fun, as it might be a bit demotivating, but it was, yeah, as Student 3 said, you remember it way better.\n\nInterviewer\nCan I ask, can you mention maybe a specific moment that was fun? Because now you say it was fun. ",
+      "turn_ids": [
+        "I13-T019"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I13-Q029"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 3: Yeah, I also like understanding how changing the half wave plate actually affected it because we could sort of interpret how it all got transmitted through.\n\nInterviewer\nYeah, so the atoms behave differently because you did something on this... ",
+      "turn_ids": [
+        "I13-T021"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I13-Q030"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 3: I guess just to be like curious about the stup and use the poster. Yeah, the poster is really good. [laughs]\n\nInterviewer\nThat is very much on purpose, and... ",
+      "turn_ids": [
+        "I13-T025"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I13-Q031"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: Well, I mean, I'm a theorist and I'm doing this course to get a bit of a better feeling of what people can do in the lab. So that sense, yeah, kind of, yes.\n\nInterviewer\nYeah, so what do you think you got a feeling of? ",
+      "turn_ids": [
+        "I13-T030"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I13-Q032"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: Well, I mean, here in particular, I don't know. [silence] I mean, yeah, I mean, so the one thing is for sure that it's always, there are so many components involved in doing these, which in theory is maybe just a very short explanation. And then you see all these components that are involved in such an experiment. So I mean, I guess it just... It helps you understand a bit that there are many layers to things some things cannot be done directly, and then you have to do a very winding path to reach that goal, and you should always be aware of that when you come up with ideas that you maybe should talk to someone to see?\n\nInterviewer\nFor example, just the act of turning off light requires 2 AOMs with double pass AOMs. ",
+      "turn_ids": [
+        "I13-T031"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I13-Q033"
+    }
+  ],
+  "codes_with_no_quotes": [
+    "2.c"
+  ]
+}

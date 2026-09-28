@@ -4,33 +4,33 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 2: Filtrene. Altså det der med at filtrene ikke... Der står hvad for en vinkel det skal forestille og være på, og så kan man justere den, men det er den forkerte vinkel. Så det bliver nødt til ligesom at finde ud af. Vi blev jo nødt til sådan at lege os lidt frem til at finde ud af, hvilken vinkel er egentlig nul grader og så endte det jo med altså... Og så står det på filtret som sådan 140 eller et eller andet ikke? Altså det det var en... Det ja... Det var lidt frustrerende, men øh. ",
+      "cited_text": "Student 1: I mean. Kind of, like we got the general shape of the graphs we expected every time, but some of our results, some of the actual numbers we got weren't ideal, but it would be a problem with the experiment or the noise, so like it can be explained. ",
       "turn_ids": [
-        "I06-T014"
+        "I06-T023"
       ],
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "quote_id": "I06-Q001"
     },
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 1: Lige så snart vi fangede den, så var det okay, ikke? ",
+      "cited_text": "Student 3: Yeah, just I think it was the last thing we did, it was like not what we expected. ",
       "turn_ids": [
-        "I06-T015"
+        "I06-T024"
       ],
       "speakers": [
-        "Student 1"
+        "Student 3"
       ],
       "quote_id": "I06-Q002"
     },
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 1: Men jo jeg alle vores vinkler hvor vi ligesom havde: okay her er den rent faktisk. Øh hvor der er 0 eller 45 eller 90 grader. Det var sådan lidt hvor jeg sad sådan: her bliver den lavere, her bliver den lavere cirka her ikke? Lidt irriterende så ja. ",
+      "cited_text": "Student 1: But yeah, it was not exactly what we expected, but like on the graph you saw. ",
       "turn_ids": [
-        "I06-T017"
+        "I06-T025"
       ],
       "speakers": [
         "Student 1"
@@ -40,21 +40,21 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 2: Det var nok ja, Det var nok det værste forhindring [oversat] tror jeg. Det tog altså også lidt tid at fange at det var det vi skulle gøre, ikke? For at finde vinklen, at vi ikke Sådan jamen... Vi er kom ned af et par veje der var forkerte ikke? Inden vi fandt ud af, hvordan vi skulle gøre med det, så.\n\nInterviewer\nMen er det noget jeg selv kom frem til, eller var det sammen med jeres TA? ",
+      "cited_text": "Student 1: I mean, it's what you expect when you do experimental stuff. It's not always going to work. It's part of the experience.\n\nInterviewer\nWere you able to get the answers you wanted from your TA or from some material you had? ",
       "turn_ids": [
-        "I06-T018"
+        "I06-T027"
       ],
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "quote_id": "I06-Q004"
     },
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 2: Det var sammen med vores TA ja. Helt klart. ",
+      "cited_text": "Student 2: Somebody remembering like the theory that we saw in class so that we could properly apply it. [agreement]\n\nInterviewer\nThat because it's maybe too far away or because you've learned a lot of stuff in short time or do you know why that is? ",
       "turn_ids": [
-        "I06-T019"
+        "I06-T029"
       ],
       "speakers": [
         "Student 2"
@@ -64,93 +64,93 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 2: Og du, du vidste det? Det tror. Mig og Student 1, vi var forvirret. ",
+      "cited_text": "Student 3: I mean, there's a lot of theory I didn't remember, because I think this was the first week of actually, second day, yeah, so there's a lot of stuff I remember more or less, but I don't know exactly what they were, so I had to refresh a bit during the lab.\n\nInterviewer\nYeah, I'll just check it's recording. Yeah, nice. What about you? ",
       "turn_ids": [
-        "I06-T020"
+        "I06-T033"
       ],
       "speakers": [
-        "Student 2"
+        "Student 3"
       ],
       "quote_id": "I06-Q006"
     },
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 3: Ja. Jeg havde en Sådan snert af en fornemmelse af fra, den tid, de tidligere forklaringer, at det her offset der var i de her filtre på samme måde som mange andre forsøg, som vi har lavet, i bund og grund ikke har været sat sammen med sådan rimelig meget tankegang. Hvor det er sådan lidt en: Vi sætter det ind for at gøre det færdig hurtigt, og så tager vi bare og regner med det senere, fordi vi gider ikke rigtig... Vi gider egentlig ikke rigtig tage tiden i det til at sørge for det er justeret korrekt. ",
+      "cited_text": "Student 1: We just didn't know the structure of the superconducting chip and what is it physically and how it physically works. But the control methods and how you process the quantum information, it was basically the same. So it was easy to follow.\n\nInterviewer\nI see. So would you have preferred to have this experiment later in the course? ",
       "turn_ids": [
-        "I06-T021"
+        "I06-T062"
       ],
       "speakers": [
-        "Student 3"
+        "Student 1"
       ],
       "quote_id": "I06-Q007"
     },
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 1: jamen vi har lejet rigtig meget med interferensen af de der fotoner, som vi skød ud med laseren og især også matematikken, har vi skulle ja arbejdet os lidt langsomt igennem, fordi at det nok også er det som er den store hurdle. Om hvorfor der lige pludselig er interferens og hvorfor der ikke er interferens i den anden... Ja.\n\nInterviewer\nSå fandt de ud af det. Giver det mening nu? ",
+      "cited_text": "Student 2: It's also hard because they are like on a chip. So we can't see. ",
       "turn_ids": [
-        "I06-T010"
+        "I06-T076"
       ],
       "speakers": [
-        "Student 1"
+        "Student 2"
       ],
       "quote_id": "I06-Q008"
     },
     {
-      "theme_id": "1",
-      "code": "1.a",
-      "cited_text": "Student 3: Ja. Altså Sådan indenfor rigelighedens grænser. Vi havde lige et øjeblik i sidste øjeblik, hvor at interferensen i quantum eraseren, den lige pludselig den skiftede tidsafhængigt med at vise interferens og ikke vise interferens. Og Det var vi lidt forvirrede over, og det var vores TA også lidt forvirret over. Men det det var sådan nok den største del som vi helt ikke rigtigt har fået svar på efter i dag. ",
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "Student 1: I mean. Kind of, like we got the general shape of the graphs we expected every time, but some of our results, some of the actual numbers we got weren't ideal, but it would be a problem with the experiment or the noise, so like it can be explained. ",
       "turn_ids": [
-        "I06-T067"
+        "I06-T023"
       ],
       "speakers": [
-        "Student 3"
+        "Student 1"
       ],
       "quote_id": "I06-Q009"
     },
     {
       "theme_id": "2",
-      "code": "2.b",
-      "cited_text": "Student 2: Jeg er lidt mere teoretisk anlagt. Jeg er faktisk... Altså mig eksperimenter er ikke super gode venner og jeg tror det er en individuel ting hvis jeg skal være ærligt. Der var andre mennesker der altså synes de er super fede ikke? Altså jeg er mere teoretisk anlagt, så eksperimenterne forvirrer mig mere, end de gør godt. Som regel.\n\nInterviewer\nSå er det måske et særligt vigtigt spørgsmål til dig. Altså har det her eksperiment bare været Sådan en lille: Det skal sgu bare overstås. Eller har du fået noget ud af det i det store billede? ",
+      "code": "2.a",
+      "cited_text": "Student 1: I mean, it's what you expect when you do experimental stuff. It's not always going to work. It's part of the experience.\n\nInterviewer\nWere you able to get the answers you wanted from your TA or from some material you had? ",
       "turn_ids": [
-        "I06-T062"
+        "I06-T027"
       ],
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "quote_id": "I06-Q010"
     },
     {
       "theme_id": "2",
-      "code": "2.b",
-      "cited_text": "Student 2: Det er et godt spørgsmål ikke? Men jeg tror altid eksperimentet er lidt noget der skal overstås fra min side. ",
+      "code": "2.a",
+      "cited_text": "Student 3: I think it's very appropriate for this course, because if you are gonna teach about physical implementation, it's good that you actually do some physics in the lab. But yeah, then it's also good to have it to just show people how the work is and if they want to continue to this path or not. Especially like here in superconducting qubits. Like it gives you an idea of what they do and if you want to continue like do a thesis on that topic or whatever. ",
       "turn_ids": [
-        "I06-T063"
+        "I06-T044"
       ],
       "speakers": [
-        "Student 2"
+        "Student 3"
       ],
       "quote_id": "I06-Q011"
     },
     {
       "theme_id": "2",
-      "code": "2.b",
-      "cited_text": "Student 2: Det ved jeg ikke rigtigt. Altså jeg synes det at snakke med TA har givet mig meget af det jeg synes jeg manglede, men selve eksperimentet synes jeg måske bare lidt viste hvad vi allerede havde regnet på. Men... Når det så er sagt, så kan jeg heller ikke lide eksperimentet, så jeg er nok tilbøjelig til at være temmelig kritisk overfor dem.\n\nInterviewer\nJa. jamen der er så godt med lidt input. så fik i altid de resultater i forventede at få? ",
+      "code": "2.c",
+      "cited_text": "Student 1: But definitely like doing this lab, at least for myself, I feel like it has helped me understand the concepts way more than I did in the actual lectures.\n\nInterviewer\nNice, I'm happy to hear that. What about you? [silence] Did you face any challenges? ",
       "turn_ids": [
-        "I06-T065"
+        "I06-T032"
       ],
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "quote_id": "I06-Q012"
     },
     {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "Student 1: Jamen Vi har leget med lasere [laughs], men altså af oplevelser generelt, så det første indtryk var at der var ret crammed. Der var ikke særlig meget plads. Og nu havde vi godt nok også en seddel, så det var blevet lavet lidt rundt omkring at vi ikke kunne få en bærbar ud og sådan. Så der var blevet printet ud for os, så det var rart men ja der var ikke. Altså nu var vi heldige at der kun var 3 grupper der var mødt op fordi der ville ikke have været plads til flere. Så ja. ",
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 1: Well, personally, one of the paths I'm considering is doing more experimental work. So I'm really glad we got to do a lab exercise as part of this course, because it gives me a bit more of a taste of what I could be doing later. So that's really good.\n\nInterviewer\nNice. ",
       "turn_ids": [
-        "I06-T002"
+        "I06-T040"
       ],
       "speakers": [
         "Student 1"
@@ -158,95 +158,95 @@
       "quote_id": "I06-Q013"
     },
     {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "Student 1: jamen vi har lejet rigtig meget med interferensen af de der fotoner, som vi skød ud med laseren og især også matematikken, har vi skulle ja arbejdet os lidt langsomt igennem, fordi at det nok også er det som er den store hurdle. Om hvorfor der lige pludselig er interferens og hvorfor der ikke er interferens i den anden... Ja.\n\nInterviewer\nSå fandt de ud af det. Giver det mening nu? ",
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 4: I think for me, I was just guessing I'm going to like it. now that I see the difference between the other courses we had and we could have in the future, I think I would go for these kinds of courses with higher probability.\n\nInterviewer\nSo how would you define these kind of courses? ",
       "turn_ids": [
-        "I06-T010"
+        "I06-T045"
       ],
       "speakers": [
-        "Student 1"
+        "Student 4"
       ],
       "quote_id": "I06-Q014"
     },
     {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "Student 2: Filtrene. Altså det der med at filtrene ikke... Der står hvad for en vinkel det skal forestille og være på, og så kan man justere den, men det er den forkerte vinkel. Så det bliver nødt til ligesom at finde ud af. Vi blev jo nødt til sådan at lege os lidt frem til at finde ud af, hvilken vinkel er egentlig nul grader og så endte det jo med altså... Og så står det på filtret som sådan 140 eller et eller andet ikke? Altså det det var en... Det ja... Det var lidt frustrerende, men øh. ",
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 4: Like more physical, closer to physics, not abstract math stuff.\n\nInterviewer\nSo, this lab experiment was a good way to find out whether you want to continue doing experiments? [agreement] Do you think there's anything else that you get out of this for the future? ",
       "turn_ids": [
-        "I06-T014"
+        "I06-T046"
       ],
       "speakers": [
-        "Student 2"
+        "Student 4"
       ],
       "quote_id": "I06-Q015"
     },
     {
       "theme_id": "3",
       "code": "3.a",
-      "cited_text": "Student 1: Men jo jeg alle vores vinkler hvor vi ligesom havde: okay her er den rent faktisk. Øh hvor der er 0 eller 45 eller 90 grader. Det var sådan lidt hvor jeg sad sådan: her bliver den lavere, her bliver den lavere cirka her ikke? Lidt irriterende så ja. ",
+      "cited_text": "Student 2: It's also hard because they are like on a chip. So we can't see. ",
       "turn_ids": [
-        "I06-T017"
+        "I06-T076"
       ],
       "speakers": [
-        "Student 1"
+        "Student 2"
       ],
       "quote_id": "I06-Q016"
     },
     {
       "theme_id": "3",
       "code": "3.a",
-      "cited_text": "Student 2: Det var nok ja, Det var nok det værste forhindring [oversat] tror jeg. Det tog altså også lidt tid at fange at det var det vi skulle gøre, ikke? For at finde vinklen, at vi ikke Sådan jamen... Vi er kom ned af et par veje der var forkerte ikke? Inden vi fandt ud af, hvordan vi skulle gøre med det, så.\n\nInterviewer\nMen er det noget jeg selv kom frem til, eller var det sammen med jeres TA? ",
+      "cited_text": "Student 3: There's a lot of things going on. So it's not like that easy.\n\nInterviewer\nSo I hear a lot of consensus about one hour more would have been great. But would you have, with four hours in a laboratory, would that be good or would that be too much? ",
       "turn_ids": [
-        "I06-T018"
+        "I06-T077"
       ],
       "speakers": [
-        "Student 2"
+        "Student 3"
       ],
       "quote_id": "I06-Q017"
     },
     {
       "theme_id": "3",
       "code": "3.a",
-      "cited_text": "Student 3: Ja. Jeg havde en Sådan snert af en fornemmelse af fra, den tid, de tidligere forklaringer, at det her offset der var i de her filtre på samme måde som mange andre forsøg, som vi har lavet, i bund og grund ikke har været sat sammen med sådan rimelig meget tankegang. Hvor det er sådan lidt en: Vi sætter det ind for at gøre det færdig hurtigt, og så tager vi bare og regner med det senere, fordi vi gider ikke rigtig... Vi gider egentlig ikke rigtig tage tiden i det til at sørge for det er justeret korrekt. ",
+      "cited_text": "Student 4: The quantum dots. And the photodetector.\n\nInterviewer\nSo could you tell me how the DTU lab experience was different than this one? ",
       "turn_ids": [
-        "I06-T021"
+        "I06-T082"
       ],
       "speakers": [
-        "Student 3"
+        "Student 4"
       ],
       "quote_id": "I06-Q018"
     },
     {
       "theme_id": "3",
       "code": "3.a",
-      "cited_text": "Student 1: Ja. Det er et godt svar. [laughs] Ja Jeg synes vi fik gjort alt det der ligesom var at gøre. Altså den største ting var rent faktisk at lave setuppet for den der quantum eraser der stod der som sådan en challenge. At få den der: Det ene var interferens og det andet ikke var, og nu var det omvendt. Men ja og efter det ligesom var gjort, så var det som om at man ligesom var: OK der er kun så mange måder man ligesom kan blokere lys eller bare sætte sådan en polarizer op på, når det er et simpelt setup. Så vi gjorde basically alt det vi lige tænkte, der var vigtigt at gøre med det. Ret så hurtigt i hvert fald. ",
+      "cited_text": "Student 3: It depends on the experiment you're doing, right? Yeah, because, I know in this kind of experiment, what are you going to do with your hands, right? ",
       "turn_ids": [
-        "I06-T053"
+        "I06-T097"
       ],
       "speakers": [
-        "Student 1"
+        "Student 3"
       ],
       "quote_id": "I06-Q019"
     },
     {
       "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "Student 1: Men for mig i hvert fald, så var der meget der faldt på plads fra prelab, fordi at vi sad i prelab og prøvede at få styr på nogle af de der koncepter. Og så synes jeg, at Student 4 han gjorde supergodt arbejde i at få fleshet nogle af de der forskellige ting lidt ud. Sådan så det gav bedre mening. Men Jeg er da lidt irriteret fordi at der bliver snakket om sådan entanglement og vi har ikke haft noget om det før. Vi har ikke haft lært noget om entanglement endnu, så vi skulle sådan lidt lære det on the go, hvilket selvfølgelig også er fint nok ikke, men det blev brugt som om at vi vidste præcis hvad Det var. Sådan der blev... Der blev ment ja... Det var lidt frustrerende.\n\nInterviewer\nDet forstår jeg godt. ",
+      "code": "3.a",
+      "cited_text": "Student 3: I think in the memory experiment, you can see the whole setup. And I don't know if you have to touch the things, but because it's like very like exactly measured. It's quite tricky, but right, but you can see the whole component and everything, I think. Do you agree that you have like a closed fridge and everything, and it's like magic?\n\nInterviewer\nDo you agree that it seems almost like a simulation when you don't have something physical to change the variables? ",
       "turn_ids": [
-        "I06-T012"
+        "I06-T100"
       ],
       "speakers": [
-        "Student 1"
+        "Student 3"
       ],
       "quote_id": "I06-Q020"
     },
     {
       "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "Student 1: Og Det var især det, som Jeg synes at Student 4 han hjalp os rigtig meget med i dag. ",
+      "code": "3.a",
+      "cited_text": "Student 1: We just didn't know the structure of the superconducting chip and what is it physically and how it physically works. But the control methods and how you process the quantum information, it was basically the same. So it was easy to follow.\n\nInterviewer\nI see. So would you have preferred to have this experiment later in the course? ",
       "turn_ids": [
-        "I06-T032"
+        "I06-T062"
       ],
       "speakers": [
         "Student 1"
@@ -256,9 +256,9 @@
     {
       "theme_id": "3",
       "code": "3.b",
-      "cited_text": "Student 1: Han fik sat det på plads for os. Ja. ",
+      "cited_text": "Student 1: Okay, I'll start with this. The experience in the lab today was actually pretty good. I feel like I learned a lot of things because even if it was a virtual lab, I feel like through the TAs help was actually really helpful to actually understand the concepts and feel like I was actually doing more hands-on lab work. It was pretty nice.\n\nInterviewer\nThat sounds great. ",
       "turn_ids": [
-        "I06-T034"
+        "I06-T001"
       ],
       "speakers": [
         "Student 1"
@@ -268,21 +268,21 @@
     {
       "theme_id": "3",
       "code": "3.b",
-      "cited_text": "Student 1: Ja, så sværhedsgraden var... en lille smule nede her og så lige pludseligt whoosh. [agreement] ",
+      "cited_text": "Student 2: Yeah, we had seen some of these objects in class, not the exact experiment, but what we applied to it, and it was really good to clarify what we learned.\n\nInterviewer\nDid you see that this week or earlier? ",
       "turn_ids": [
-        "I06-T036"
+        "I06-T002"
       ],
       "speakers": [
-        "Student 1"
+        "Student 2"
       ],
       "quote_id": "I06-Q023"
     },
     {
       "theme_id": "3",
       "code": "3.b",
-      "cited_text": "Student 1: Altså prelabbet handlede om det der setup så jeg kom og tænkte: OK jamen nu har vi altså kigget en masse på det, vi har fået de forskellige dele forklaret og der står nogle hovedpointer og vi har snakket om det. Matematikken var måske ikke helt på plads, men... Selve hvordan at setuppet var og hvad vi forventede at se. Det var slået på plads af prelabbet, så det var der. Ja, så vi var klar til at gå i gang lige så snart vi kom basically.\n\nInterviewer\nJa så der var ikke for meget der ikke for lidt, det var bare helt tilpas? ",
+      "cited_text": "Student 1: And I like the fact that we were guided to think about what results we should expect, like visualize the graphs ourselves first and then actually getting to actually attain them. It was nice.\n\nInterviewer\nWas there any time where you didn't get the answers that you wanted, or the results that you wanted maybe? ",
       "turn_ids": [
-        "I06-T039"
+        "I06-T022"
       ],
       "speakers": [
         "Student 1"
@@ -292,45 +292,45 @@
     {
       "theme_id": "3",
       "code": "3.b",
-      "cited_text": "Student 3: Ja jeg især bestemt selv lidt ubestemt, men også nu her specielt efter vi er cirka halvvejs i kurset, så vil jeg generelt set sige at jeg synes, at jeg har sådan lidt afmystificeret begrebet kantemekanik, og hvor jeg er lidt ærgerlig over, at jeg har fået afmystificeret det, så er jeg egentlig også ret glad for at jeg nu ved lidt mere og et nyt emne, som jeg faktisk synes er rimelig interessant, som jeg gerne vil vide mere om.\n\nInterviewer\nHvordan tror du det her eksperiment passer ind i din fremtid? ",
+      "cited_text": "Student 1: But definitely like doing this lab, at least for myself, I feel like it has helped me understand the concepts way more than I did in the actual lectures.\n\nInterviewer\nNice, I'm happy to hear that. What about you? [silence] Did you face any challenges? ",
       "turn_ids": [
-        "I06-T061"
+        "I06-T032"
       ],
       "speakers": [
-        "Student 3"
+        "Student 1"
       ],
       "quote_id": "I06-Q025"
     },
     {
       "theme_id": "3",
       "code": "3.b",
-      "cited_text": "Student 2: Det ved jeg ikke rigtigt. Altså jeg synes det at snakke med TA har givet mig meget af det jeg synes jeg manglede, men selve eksperimentet synes jeg måske bare lidt viste hvad vi allerede havde regnet på. Men... Når det så er sagt, så kan jeg heller ikke lide eksperimentet, så jeg er nok tilbøjelig til at være temmelig kritisk overfor dem.\n\nInterviewer\nJa. jamen der er så godt med lidt input. så fik i altid de resultater i forventede at få? ",
+      "cited_text": "Student 3: I mean, there's a lot of theory I didn't remember, because I think this was the first week of actually, second day, yeah, so there's a lot of stuff I remember more or less, but I don't know exactly what they were, so I had to refresh a bit during the lab.\n\nInterviewer\nYeah, I'll just check it's recording. Yeah, nice. What about you? ",
       "turn_ids": [
-        "I06-T065"
+        "I06-T033"
       ],
       "speakers": [
-        "Student 2"
+        "Student 3"
       ],
       "quote_id": "I06-Q026"
     },
     {
       "theme_id": "3",
       "code": "3.b",
-      "cited_text": "Student 2: Jeg mener ligesom at jeg forstår den sådan overfladisk, men ikke, jeg har ikke set det og kommer nok ikke til at se det, men rent teoretisk, så forstår jeg i bund og grund godt hvorfor at det er tilfældet. Fordi det er jo rent matematikken bag at jeg ved godt det er hvad der skal ske, men i den virkelige verden er det lidt mere kompliceret og det er ikke... Det er jo ikke hvad vi ser. Desværre.\n\nInterviewer\nHvordan har i det med det, at det ikke er det så? ",
+      "cited_text": "Student 1: Personally, I feel like I have a much better grasp on things compared to before I came here. ",
       "turn_ids": [
-        "I06-T072"
+        "I06-T071"
       ],
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "quote_id": "I06-Q027"
     },
     {
       "theme_id": "3",
       "code": "3.c",
-      "cited_text": "Student 1: Jamen Vi har leget med lasere [laughs], men altså af oplevelser generelt, så det første indtryk var at der var ret crammed. Der var ikke særlig meget plads. Og nu havde vi godt nok også en seddel, så det var blevet lavet lidt rundt omkring at vi ikke kunne få en bærbar ud og sådan. Så der var blevet printet ud for os, så det var rart men ja der var ikke. Altså nu var vi heldige at der kun var 3 grupper der var mødt op fordi der ville ikke have været plads til flere. Så ja. ",
+      "cited_text": "Student 1: Okay, I'll start with this. The experience in the lab today was actually pretty good. I feel like I learned a lot of things because even if it was a virtual lab, I feel like through the TAs help was actually really helpful to actually understand the concepts and feel like I was actually doing more hands-on lab work. It was pretty nice.\n\nInterviewer\nThat sounds great. ",
       "turn_ids": [
-        "I06-T002"
+        "I06-T001"
       ],
       "speakers": [
         "Student 1"
@@ -340,33 +340,33 @@
     {
       "theme_id": "3",
       "code": "3.c",
-      "cited_text": "Student 2: Om det giver mening? Vi kan regne os frem til hvad der sådan skal ske men om det giver mening? Det ved jeg ikke helt, men det er måske også mere bare at det er et svært koncept end at det egentlig er sådan... Altså for jeg synes jo ja, det var jo meget fint at kunne se sådan hvornår der blev skabt en til interferens, hvornår der ikke gjorde og sådan. [uncertain] Jeg ved ikke om det nogensinde kommer til og give helt mening. ",
+      "cited_text": "Student 3: I got here a bit late, super late actually, but... I really like the part where you can just change parameters, see how it affects the experiment. I don't think that's something you can do directly in the lectures or just handwritten exercises. It's really nice to see that.\n\nInterviewer\nYeah. ",
       "turn_ids": [
-        "I06-T011"
+        "I06-T005"
       ],
       "speakers": [
-        "Student 2"
+        "Student 3"
       ],
       "quote_id": "I06-Q029"
     },
     {
       "theme_id": "3",
       "code": "3.c",
-      "cited_text": "Student 2: Men Det var rigtig godt at der var de der prelab synes jeg helt klart. Det synes jeg måske godt er noget man kunne gøre i andre kurser også fordi det at forstå alt teorien inden, det hjælper altså rimelig meget på når du er i lab. Måske i EM ikke altså? Der kunne det have været rart. Men ja, så jeg synes det er rigtig godt at der er de der prelab. ",
+      "cited_text": "Student 4: I think the whole format was nice and it was nice to have the site available for us in advance so we could like go through it like just a little bit, maybe a bit more time would have been nice.\n\nInterviewer\nSo if you had more time, let's say three more hours next week, what would you use that time for? ",
       "turn_ids": [
-        "I06-T037"
+        "I06-T006"
       ],
       "speakers": [
-        "Student 2"
+        "Student 4"
       ],
       "quote_id": "I06-Q030"
     },
     {
       "theme_id": "3",
       "code": "3.c",
-      "cited_text": "Student 1: Det er et stort spørgsmål. Det er også et svært spørgsmål at svare på. Altså, jeg ved i hvert fald, da jeg startede her, var det jeg har glædet mig allermest til kvantemekanik, fordi jeg synes at det er det der er mest underligt. ",
+      "cited_text": "Student 1: Like for me that's all. Everything else it was great I think for me. ",
       "turn_ids": [
-        "I06-T058"
+        "I06-T011"
       ],
       "speakers": [
         "Student 1"
@@ -376,42 +376,221 @@
     {
       "theme_id": "3",
       "code": "3.c",
-      "cited_text": "Student 3: Ja jeg især bestemt selv lidt ubestemt, men også nu her specielt efter vi er cirka halvvejs i kurset, så vil jeg generelt set sige at jeg synes, at jeg har sådan lidt afmystificeret begrebet kantemekanik, og hvor jeg er lidt ærgerlig over, at jeg har fået afmystificeret det, så er jeg egentlig også ret glad for at jeg nu ved lidt mere og et nyt emne, som jeg faktisk synes er rimelig interessant, som jeg gerne vil vide mere om.\n\nInterviewer\nHvordan tror du det her eksperiment passer ind i din fremtid? ",
+      "cited_text": "Student 2: Yeah, it was really good, like to look for step by step, you know, like all the whole lab practice a bit much for me. ",
       "turn_ids": [
-        "I06-T061"
+        "I06-T020"
       ],
       "speakers": [
-        "Student 3"
+        "Student 2"
       ],
       "quote_id": "I06-Q032"
     },
     {
       "theme_id": "3",
-      "code": "3.d",
-      "cited_text": "Student 2: Men Det var rigtig godt at der var de der prelab synes jeg helt klart. Det synes jeg måske godt er noget man kunne gøre i andre kurser også fordi det at forstå alt teorien inden, det hjælper altså rimelig meget på når du er i lab. Måske i EM ikke altså? Der kunne det have været rart. Men ja, så jeg synes det er rigtig godt at der er de der prelab. ",
+      "code": "3.c",
+      "cited_text": "Student 4: Steps were laid out well. It's like it built up so deep. ",
       "turn_ids": [
-        "I06-T037"
+        "I06-T021"
       ],
       "speakers": [
-        "Student 2"
+        "Student 4"
       ],
       "quote_id": "I06-Q033"
     },
     {
       "theme_id": "3",
-      "code": "3.d",
-      "cited_text": "Student 1: Og man kan tydeligt se, at lige så snart det kommer med nærmest alt man læsere der. Så er kvantemekanik lige pludselig hvor at, hvis man nogensinde har lyst til at arbejde med noget, som der sådan er atomisk eller man gerne vil skyde noget laser mod et eller andet altså, så er det jo et voldsomt vigtigt. Jeg ved ikke hvad jeres fremtid er men, jeg tror at man altid kan finde på et eller andet man lasere. ",
+      "code": "3.c",
+      "cited_text": "Student 4: I mean that was also a nice example. ",
       "turn_ids": [
-        "I06-T060"
+        "I06-T026"
+      ],
+      "speakers": [
+        "Student 4"
+      ],
+      "quote_id": "I06-Q034"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: Yeah, definitely. I think so. They were really helpful.\n\nInterviewer\nThat sounds really good. So maybe you could walk me through some of the challenges that you faced during the exercises? ",
+      "turn_ids": [
+        "I06-T028"
       ],
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I06-Q034"
+      "quote_id": "I06-Q035"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 4: It's nice to have some contrast between new lectures and the experiments, because when you see those lectures, you think about it and you expect something. And you come here, you see this, and it's like, maybe it doesn't match what you imagined. And now you can mesh it together and then have more questions. What about those questions?\n\nInterviewer\nSo is that a good or a bad thing? ",
+      "turn_ids": [
+        "I06-T034"
+      ],
+      "speakers": [
+        "Student 4"
+      ],
+      "quote_id": "I06-Q036"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: I mean, I like the experiments that we've done, like these classes and in other classes, but I still don't know if I would like to go directly to, all the way into experiment. Like, I like the experience. I don't know if I would like to go like that as a career path. ",
+      "turn_ids": [
+        "I06-T041"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I06-Q037"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 3: I think it's very appropriate for this course, because if you are gonna teach about physical implementation, it's good that you actually do some physics in the lab. But yeah, then it's also good to have it to just show people how the work is and if they want to continue to this path or not. Especially like here in superconducting qubits. Like it gives you an idea of what they do and if you want to continue like do a thesis on that topic or whatever. ",
+      "turn_ids": [
+        "I06-T044"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I06-Q038"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 4: Though I think it would be nice to go through like more in depth in the physical stuff. Like how is it built up and explain it a little bit more. Because I thought, we just went over it pretty fast. ",
+      "turn_ids": [
+        "I06-T052"
+      ],
+      "speakers": [
+        "Student 4"
+      ],
+      "quote_id": "I06-Q039"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: With a small break in between, I think it would be perfect. ",
+      "turn_ids": [
+        "I06-T078"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I06-Q040"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 4: I really like the DTU one, if you guys remember how long that was. It was very long. And it was like more than like 5-ish. ",
+      "turn_ids": [
+        "I06-T079"
+      ],
+      "speakers": [
+        "Student 4"
+      ],
+      "quote_id": "I06-Q041"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 1: Well, personally, one of the paths I'm considering is doing more experimental work. So I'm really glad we got to do a lab exercise as part of this course, because it gives me a bit more of a taste of what I could be doing later. So that's really good.\n\nInterviewer\nNice. ",
+      "turn_ids": [
+        "I06-T040"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I06-Q042"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: I mean, I like the experiments that we've done, like these classes and in other classes, but I still don't know if I would like to go directly to, all the way into experiment. Like, I like the experience. I don't know if I would like to go like that as a career path. ",
+      "turn_ids": [
+        "I06-T041"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I06-Q043"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: Yeah, and I usually, yeah, I really like to have the idea of what is going on, so I know what other people do. ",
+      "turn_ids": [
+        "I06-T043"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I06-Q044"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 3: I think it's very appropriate for this course, because if you are gonna teach about physical implementation, it's good that you actually do some physics in the lab. But yeah, then it's also good to have it to just show people how the work is and if they want to continue to this path or not. Especially like here in superconducting qubits. Like it gives you an idea of what they do and if you want to continue like do a thesis on that topic or whatever. ",
+      "turn_ids": [
+        "I06-T044"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I06-Q045"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 4: I think for me, I was just guessing I'm going to like it. now that I see the difference between the other courses we had and we could have in the future, I think I would go for these kinds of courses with higher probability.\n\nInterviewer\nSo how would you define these kind of courses? ",
+      "turn_ids": [
+        "I06-T045"
+      ],
+      "speakers": [
+        "Student 4"
+      ],
+      "quote_id": "I06-Q046"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: I mean, an idea of how hard it is to get proper results, like all this technology, how it like actually it's hard to work with it. ",
+      "turn_ids": [
+        "I06-T047"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I06-Q047"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 3: To teach the student how lab work is and if they like it and want to continue to this part and do some research on it, or they just want to stick to theory. That should be a purpose of lab. ",
+      "turn_ids": [
+        "I06-T050"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I06-Q048"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 1: I agree because I feel like this point, especially considering it's like a course you take relatively early in your masters, it's good to like test a lot of different things out so you actually get a better picture of what you want to do later, like for a thesis for example. So it's really good. Yeah. ",
+      "turn_ids": [
+        "I06-T051"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I06-Q049"
     }
   ],
   "codes_with_no_quotes": [
-    "2.a",
-    "2.c"
+    "2.b"
   ]
 }

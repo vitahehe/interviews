@@ -1,0 +1,621 @@
+{
+  "interview_id": "I14",
+  "quotes": [
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: In the beginning.\n\nInterviewer\nSo what went through your head in the beginning? Student 3: Just that there was a lot going on and how to navigate that. But the more I asked questions, the more we discussed, and the more I understood and things fell into place.\n\nInterviewer\nSo if we imagine a parallel world where you read the paper in advance as thoroughly as you wanted to, how do you think your experience would be different? So this is a thought experiment. ",
+      "turn_ids": [
+        "I14-T009",
+        "I14-T010"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q001"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Yes. So in the experiment, I can understand how the setup is, and the lasers and the half wave plate correlations, and also the hyperfine structure. But then I can understand when you when you have two polarizations with mixture not mixture it coherent mixture of two this sigma plus and sigma minus then you get this state right, but then when you turn it off and turn it back on again with just sigma plus, how do you actually get your information back? I still don't really understand that, why and how is that happening?\n\nInterviewer\nSo it's the detailed understanding of the scheme of the experiment and the dynamics of the stark state. Yeah. All right. And is this something you discussed in your classes in theory? ",
+      "turn_ids": [
+        "I14-T012"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I14-Q002"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Not specifically with rubidium. And I also feel like some of this with temperature and how atoms would fly around was not something we had mentioned at any point. So I have to say this experiment, undoubtedly for me, the hardest part was understanding what was going on inside of that big metal tube with all of these atoms in thermal equilibrium because we haven't discussed it. We haven't even discussed statistical physics in the course. ",
+      "turn_ids": [
+        "I14-T013"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q003"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: I think it was nice. It was good that we at least had each other to kind of spar with. And often the time went quicker than I thought. We could have even had longer between ourselves, figure more out before we got outside help. ",
+      "turn_ids": [
+        "I14-T015"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q004"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: I was feeling it was nice that we didn't have the option to take the easy route and ask the teacher. I think it's actually good to force yourself to not ask. And first just sit in your own thoughts and think, how could this be? How can we figure this out? So I think it's a good tool.\n\nInterviewer\nSo when the time where you have to work on your own was done, then you could actually ask questions. So did you get the answers you needed when you had to dialogue with me and the TA. ",
+      "turn_ids": [
+        "I14-T016"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q005"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: So during just our discussion, for some of the questions, one of us had answers and when we were not sure, then we would make some argument, okay, this must be like this. And then we ask the TA and we get more understanding of it, depending on how you were correct or not and why you were not correct. So, if you were sure that this is true, and if it's not true, then also we've done something like that. ",
+      "turn_ids": [
+        "I14-T018"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I14-Q006"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Okay, so the pocket cell was new.\n\nInterviewer\nYeah. ",
+      "turn_ids": [
+        "I14-T023"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q007"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: For me, the AOM. ",
+      "turn_ids": [
+        "I14-T024"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q008"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: I don't think I've seen a way you can just plug a USB in.\n\nInterviewer\nThat part of the technology. ",
+      "turn_ids": [
+        "I14-T028"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q009"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: Well, I just imagine if I was here on my own and I didn't have anyone who knew the experiment. I had to set it up on my own and learn all the little characteristics of how to use this equipment. This thing needs one pulse for on and one for off, and it's not just a pulse that it's listened to. Yeah, when something doesn't work and if I don't have someone to talk to. If I was just on my own, then it would be hard to do.\n\nInterviewer\nAnd how are your expectations to yourself about being able to solve these challenges in a theoretical work? I suppose there are other challenges. ",
+      "turn_ids": [
+        "I14-T034"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q010"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: I would say so, but also just doing it a lot of times, yeah. Because then I'll be used to, okay, there's an issue here, what could I try to do? And then hopefully at some point I'll have 10 things I could try if there's something that goes wrong. Whereas right now we might have like one or two ideas, and if they don't work, we're a little bit lost.\n\nInterviewer\nSo maybe the last thing, how would you feel about the idea of spending half a year, for example, in the lab? ",
+      "turn_ids": [
+        "I14-T040"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q011"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "Student 3: I think for me it's just an introduction to how it can be spending a lot of time in the lab and especially seeing the type of problems that you'll be dealing with in setting up experiments. Because before I was mostly interested in theory and I didn't find that that exciting, but I think this is somehow different. It's like I can more see the characterization of qubits, for example, is important and kind of makes progress in the field, whereas measuring some springs or something was never that exciting for me. [emphasis] Because it wasn't new. \n\nInterviewer\nI get really interested in this because, so can I ask you to put some more words about what changed? How did you, what made it more important than before? For you specifically. ",
+      "turn_ids": [
+        "I14-T031"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q012"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.a",
+      "cited_text": "Student 3: Because I feel I can see that this is important for progress to building, for example, good quantum computers. And that doing all these characterizations, for example, is like building blocks to getting good single qubits and therefore good many qubit systems.\n\nInterviewer\nAnd how would you feel about the idea of, let's say, spending half a year making a thesis in a lab like this one or the one you experienced? ",
+      "turn_ids": [
+        "I14-T032"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q013"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.b",
+      "cited_text": "Student 1: Yeah, I do want to do an experimental thesis and I also have the exact same feelings as Student 2 with that it's like I don't really feel as I'm not as good at solving the challenges as I am in theoretical work because we've had so many courses in our bachelor in theoretical work. But I just feel like it's because I'm not in the lab as much as I am by the paper so I just need to be there more and that's also why I want to do a thesis like this.\n\nInterviewer\nSo it's something about routine? ",
+      "turn_ids": [
+        "I14-T039"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q014"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.b",
+      "cited_text": "Student 3: I think for me it's just an introduction to how it can be spending a lot of time in the lab and especially seeing the type of problems that you'll be dealing with in setting up experiments. Because before I was mostly interested in theory and I didn't find that that exciting, but I think this is somehow different. It's like I can more see the characterization of qubits, for example, is important and kind of makes progress in the field, whereas measuring some springs or something was never that exciting for me. [emphasis] Because it wasn't new. \n\nInterviewer\nI get really interested in this because, so can I ask you to put some more words about what changed? How did you, what made it more important than before? For you specifically. ",
+      "turn_ids": [
+        "I14-T031"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q015"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Yeah. So we had this memory experiment where we were trying to store quantum data in an ensemble of atoms. And we took the data was first in the form of light through photons. There were two laser pulses where one of them was a signal pulse that stored this information in the rubidium atoms. And there was another pulse which was keeping the process driven. Then we had a bunch of optical elements which control polarization and timing of when things would go in and so on. And we took some measurements on that.\n\nInterviewer\nAnd you are, by coincidence, one of the last groups, so there are not many students left who haven't done this. But if you should explain, tell another student who's going to experience this, what would you say? Maybe you? ",
+      "turn_ids": [
+        "I14-T001"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q016"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Yes. So in the experiment, I can understand how the setup is, and the lasers and the half wave plate correlations, and also the hyperfine structure. But then I can understand when you when you have two polarizations with mixture not mixture it coherent mixture of two this sigma plus and sigma minus then you get this state right, but then when you turn it off and turn it back on again with just sigma plus, how do you actually get your information back? I still don't really understand that, why and how is that happening?\n\nInterviewer\nSo it's the detailed understanding of the scheme of the experiment and the dynamics of the stark state. Yeah. All right. And is this something you discussed in your classes in theory? ",
+      "turn_ids": [
+        "I14-T012"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I14-Q017"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Not specifically with rubidium. And I also feel like some of this with temperature and how atoms would fly around was not something we had mentioned at any point. So I have to say this experiment, undoubtedly for me, the hardest part was understanding what was going on inside of that big metal tube with all of these atoms in thermal equilibrium because we haven't discussed it. We haven't even discussed statistical physics in the course. ",
+      "turn_ids": [
+        "I14-T013"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q018"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Okay, so the pocket cell was new.\n\nInterviewer\nYeah. ",
+      "turn_ids": [
+        "I14-T023"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q019"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: For me, the AOM. ",
+      "turn_ids": [
+        "I14-T024"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q020"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: I have heard of that. ",
+      "turn_ids": [
+        "I14-T025"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q021"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Yeah, it was interesting to see how you turn on and off the lasers, right, without actually turning on and off that is.\n\nInterviewer\nHow about the oscilloscope? ",
+      "turn_ids": [
+        "I14-T026"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I14-Q022"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: I have seen that.\n\nInterviewer\nYeah, I mean, I expect you've seen it. Did you experience anything new with the oscilloscope or anything you learned about that equipment? ",
+      "turn_ids": [
+        "I14-T027"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q023"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: I don't think I've seen a way you can just plug a USB in.\n\nInterviewer\nThat part of the technology. ",
+      "turn_ids": [
+        "I14-T028"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q024"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: I have seen that you can pause, make it freeze.\n\nInterviewer\nI remember one of you commented that it was averaging, for example. Have you used that function before? [silence] I mean, it takes a lifetime to master them, so you're well on your way. So the last thing I want to ask you is to try to put words on how this experiment or the experiments in this course can be related to your plans after the course. I don't know, are you QIS students? All 3? One year are you? Second? ",
+      "turn_ids": [
+        "I14-T029"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q025"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: Well, I just imagine if I was here on my own and I didn't have anyone who knew the experiment. I had to set it up on my own and learn all the little characteristics of how to use this equipment. This thing needs one pulse for on and one for off, and it's not just a pulse that it's listened to. Yeah, when something doesn't work and if I don't have someone to talk to. If I was just on my own, then it would be hard to do.\n\nInterviewer\nAnd how are your expectations to yourself about being able to solve these challenges in a theoretical work? I suppose there are other challenges. ",
+      "turn_ids": [
+        "I14-T034"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q026"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: Yeah. I think in... There are different challenges though, like... in a theoretical way that you can kind of, I feel like you can more easily just search, for example, read on the internet. Whereas if you have this type of specific oscilloscope, which is this model and it's not this model, then even though you can look it up, the instructions aren't necessarily the same. And so it's much more specific to just what you have in the room than the theory that is kind of the same wherever you're thinking about that theory.\n\nInterviewer\nThis is very interesting for me as an educator. ",
+      "turn_ids": [
+        "I14-T035"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q027"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 3: Just that there was a lot going on and how to navigate that. But the more I asked questions, the more we discussed, and the more I understood and things fell into place.\n\nInterviewer\nSo if we imagine a parallel world where you read the paper in advance as thoroughly as you wanted to, how do you think your experience would be different? So this is a thought experiment. ",
+      "turn_ids": [
+        "I14-T010"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q028"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: So during just our discussion, for some of the questions, one of us had answers and when we were not sure, then we would make some argument, okay, this must be like this. And then we ask the TA and we get more understanding of it, depending on how you were correct or not and why you were not correct. So, if you were sure that this is true, and if it's not true, then also we've done something like that. ",
+      "turn_ids": [
+        "I14-T018"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I14-Q029"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Okay, so the pocket cell was new.\n\nInterviewer\nYeah. ",
+      "turn_ids": [
+        "I14-T023"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q030"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 3: For me, the AOM. ",
+      "turn_ids": [
+        "I14-T024"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q031"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Yeah, it was interesting to see how you turn on and off the lasers, right, without actually turning on and off that is.\n\nInterviewer\nHow about the oscilloscope? ",
+      "turn_ids": [
+        "I14-T026"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I14-Q032"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 3: I don't think I've seen a way you can just plug a USB in.\n\nInterviewer\nThat part of the technology. ",
+      "turn_ids": [
+        "I14-T028"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q033"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 3: I have seen that you can pause, make it freeze.\n\nInterviewer\nI remember one of you commented that it was averaging, for example. Have you used that function before? [silence] I mean, it takes a lifetime to master them, so you're well on your way. So the last thing I want to ask you is to try to put words on how this experiment or the experiments in this course can be related to your plans after the course. I don't know, are you QIS students? All 3? One year are you? Second? ",
+      "turn_ids": [
+        "I14-T029"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q034"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: I would ask them to read about the experiment, right, the ensemble of atoms and how do you make a memory out of it. During the experiment, I would say, ask more questions, I think it is still a bit difficult for me to understand how do you retrieve the memory and How does that thing work right? But it was an interesting experience and it was good to see that how do you realize what we have studied in the class?\n\nInterviewer\nSo there are many things that I'm very curious about. So the first thing that you, do I understand it correctly, so you have an advice for those students to read about it in advance or what did you mean with the... Can you please explain a bit more about the first thing you said? ",
+      "turn_ids": [
+        "I14-T002"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I14-Q035"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 3: I think it was nice. It was good that we at least had each other to kind of spar with. And often the time went quicker than I thought. We could have even had longer between ourselves, figure more out before we got outside help. ",
+      "turn_ids": [
+        "I14-T015"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q036"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: I was feeling it was nice that we didn't have the option to take the easy route and ask the teacher. I think it's actually good to force yourself to not ask. And first just sit in your own thoughts and think, how could this be? How can we figure this out? So I think it's a good tool.\n\nInterviewer\nSo when the time where you have to work on your own was done, then you could actually ask questions. So did you get the answers you needed when you had to dialogue with me and the TA. ",
+      "turn_ids": [
+        "I14-T016"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q037"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 3: Yeah, so it's a good balance. ",
+      "turn_ids": [
+        "I14-T019"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q038"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: Yeah, it was interesting to see how you turn on and off the lasers, right, without actually turning on and off that is.\n\nInterviewer\nHow about the oscilloscope? ",
+      "turn_ids": [
+        "I14-T026"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I14-Q039"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 3: I think for me it's just an introduction to how it can be spending a lot of time in the lab and especially seeing the type of problems that you'll be dealing with in setting up experiments. Because before I was mostly interested in theory and I didn't find that that exciting, but I think this is somehow different. It's like I can more see the characterization of qubits, for example, is important and kind of makes progress in the field, whereas measuring some springs or something was never that exciting for me. [emphasis] Because it wasn't new. \n\nInterviewer\nI get really interested in this because, so can I ask you to put some more words about what changed? How did you, what made it more important than before? For you specifically. ",
+      "turn_ids": [
+        "I14-T031"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q040"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 3: That would be a good challenge that you overcome when you're in your lab.\n\nInterviewer\nAll right. Thank you so much. I'll stop it here. ",
+      "turn_ids": [
+        "I14-T042"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q041"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 3: I think for me it's just an introduction to how it can be spending a lot of time in the lab and especially seeing the type of problems that you'll be dealing with in setting up experiments. Because before I was mostly interested in theory and I didn't find that that exciting, but I think this is somehow different. It's like I can more see the characterization of qubits, for example, is important and kind of makes progress in the field, whereas measuring some springs or something was never that exciting for me. [emphasis] Because it wasn't new. \n\nInterviewer\nI get really interested in this because, so can I ask you to put some more words about what changed? How did you, what made it more important than before? For you specifically. ",
+      "turn_ids": [
+        "I14-T031"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q042"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 3: Because I feel I can see that this is important for progress to building, for example, good quantum computers. And that doing all these characterizations, for example, is like building blocks to getting good single qubits and therefore good many qubit systems.\n\nInterviewer\nAnd how would you feel about the idea of, let's say, spending half a year making a thesis in a lab like this one or the one you experienced? ",
+      "turn_ids": [
+        "I14-T032"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q043"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 3: I'm still not completely sold on the experimental stuff because I can see that it can be frustrating. But I'm definitely much closer than I was before in terms of willingness to...\n\nInterviewer\nAnd I'm sorry, I'm digging deeper, but What kind of frustrations are you thinking of here? ",
+      "turn_ids": [
+        "I14-T033"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q044"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 3: Well, I just imagine if I was here on my own and I didn't have anyone who knew the experiment. I had to set it up on my own and learn all the little characteristics of how to use this equipment. This thing needs one pulse for on and one for off, and it's not just a pulse that it's listened to. Yeah, when something doesn't work and if I don't have someone to talk to. If I was just on my own, then it would be hard to do.\n\nInterviewer\nAnd how are your expectations to yourself about being able to solve these challenges in a theoretical work? I suppose there are other challenges. ",
+      "turn_ids": [
+        "I14-T034"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q045"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: I agree with the part that these experiments gave me some idea about how what kind of work that people do in physics instrumental life because I don't come from physics. And even though I mean I'm still I don't think I'll still go to an experimental thesis in future because of the one of the reasons that...\n\nInterviewer\nSo the reasons that was mentioned about this experimental equipment and stuff like that? ",
+      "turn_ids": [
+        "I14-T037"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I14-Q046"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: Yeah, that's true, but also because I think it needs a lot of patience and I don't think I have that. ",
+      "turn_ids": [
+        "I14-T038"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I14-Q047"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 1: Yeah, I do want to do an experimental thesis and I also have the exact same feelings as Student 2 with that it's like I don't really feel as I'm not as good at solving the challenges as I am in theoretical work because we've had so many courses in our bachelor in theoretical work. But I just feel like it's because I'm not in the lab as much as I am by the paper so I just need to be there more and that's also why I want to do a thesis like this.\n\nInterviewer\nSo it's something about routine? ",
+      "turn_ids": [
+        "I14-T039"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q048"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 1: I would say so, but also just doing it a lot of times, yeah. Because then I'll be used to, okay, there's an issue here, what could I try to do? And then hopefully at some point I'll have 10 things I could try if there's something that goes wrong. Whereas right now we might have like one or two ideas, and if they don't work, we're a little bit lost.\n\nInterviewer\nSo maybe the last thing, how would you feel about the idea of spending half a year, for example, in the lab? ",
+      "turn_ids": [
+        "I14-T040"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q049"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 1: I would want to do it. I think it would be very challenging, but I think it would be good. ",
+      "turn_ids": [
+        "I14-T041"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I14-Q050"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 3: That would be a good challenge that you overcome when you're in your lab.\n\nInterviewer\nAll right. Thank you so much. I'll stop it here. ",
+      "turn_ids": [
+        "I14-T042"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I14-Q051"
+    }
+  ],
+  "codes_with_no_quotes": [
+    "2.c"
+  ]
+}

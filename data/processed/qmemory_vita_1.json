@@ -1,0 +1,205 @@
+{
+  "interview_id": "I15",
+  "turns": [
+    {
+      "turn_id": "I15-T001",
+      "speaker": "Student 1",
+      "text": "My name is Student 1.\n\nInterviewer\nOkay, thank you so much for the names. Can you maybe first catch me up with what you did today? Just for someone who wasn't at the laboratory, what did you do? What exercises?"
+    },
+    {
+      "turn_id": "I15-T002",
+      "speaker": "Student 2",
+      "text": "We did a memory experiment. So storing quantum information and light, storing a photon.\n\nInterviewer\nWhat setup did you work with?"
+    },
+    {
+      "turn_id": "I15-T003",
+      "speaker": "Student 2",
+      "text": "This setup [laughs], atomic ensemble of rubidium atoms.\n\nInterviewer\nOkay, Is there like any overall thoughts or how are you feeling now that you're done with it?"
+    },
+    {
+      "turn_id": "I15-T004",
+      "speaker": "Student 2",
+      "text": "It was pretty nice. It was fun.\n\nInterviewer\nYeah, you found this fun?"
+    },
+    {
+      "turn_id": "I15-T005",
+      "speaker": "Student 2",
+      "text": "I liked it."
+    },
+    {
+      "turn_id": "I15-T006",
+      "speaker": "Student 3",
+      "text": "Was easy to follow also. Like when we got here, it was pretty, it was like overwhelming of all the setup. But it was pretty easy to follow after the explanations.\n\nInterviewer\nSo the explanations really helped."
+    },
+    {
+      "turn_id": "I15-T007",
+      "speaker": "Student 1",
+      "text": "Yeah, we have a lot of task cards and we can follow the experiment step by step. And actually this paper is from Professor Lukin from Harvard in 2003, I think like 20 years ago. And that's very interesting because Professor Lukin come here three months before. I haven't gone to the lecture. Yeah, he's his first outstanding paper, and we can forward it. That's pretty interesting, meaningful, kind of meaningful for the first year student in quantum information science. Yeah, I think you can [inaudible] right? Yeah, we are quantum information science both, right?\n\nInterviewer\nOkay, but you said that the material was nicely made. You understood and you guys could follow what Awas on it?"
+    },
+    {
+      "turn_id": "I15-T008",
+      "speaker": "Student 4",
+      "text": "Actually, I think the task is quite difficult to follow. For example, the investigate part, he asked me to think, but don't give a lot of support. So it's quite hard for me to think, especially in this room. So when the task asked me to think, I'm almost not thinking.\n\nInterviewer\nDo you mean when you say thinking, do you mean like problem solve of spot or figure out things? What are you referring to?"
+    },
+    {
+      "turn_id": "I15-T009",
+      "speaker": "Student 4",
+      "text": "Maybe he will ask me to send me some function or some components, but I just don't know. So it's very hard to start to think.\n\nInterviewer\nYeah, did you guys, what did you do when you didn't know something? Look it up?"
+    },
+    {
+      "turn_id": "I15-T010",
+      "speaker": "Student 2",
+      "text": "Yeah, we could look it up. Yeah. \n\nInterviewer\nWas there a specific part that was like really challenging of the lab that you found it's quite like hard to get through?"
+    },
+    {
+      "turn_id": "I15-T011",
+      "speaker": "Student 1",
+      "text": "Yeah, in task 2 and we set up the pocket cells voltage at 225 and both us and TA could not describe this weird phenomenon in our plot. We do that again. It's over there. You can see that.\n\nInterviewer\nYeah."
+    },
+    {
+      "turn_id": "I15-T012",
+      "speaker": "Student 1",
+      "text": "It's a very strange dip here. And we do it again. At first we think just maybe an error or the offset or the graphing, things like that. But we do that again. It still happens. So we do not have the idea of how to describe this result.\n\nInterviewer\nSo you didn't quite arrive at the conclusion yet? Is it going to be after?"
+    },
+    {
+      "turn_id": "I15-T013",
+      "speaker": "Student 3",
+      "text": "Yeah, on this specific problem."
+    },
+    {
+      "turn_id": "I15-T014",
+      "speaker": "Student 1",
+      "text": "Yeah, on this specific problem. We have 4 examples. For this example, we don't actually know what's going on in that dip.\n\nInterviewer\nAnd because the material you said, you didn't like it quite for this task. Was there anything else that made it hard to get over this?"
+    },
+    {
+      "turn_id": "I15-T015",
+      "speaker": "Student 3",
+      "text": "This problem.\n\nInterviewer\nYeah."
+    },
+    {
+      "turn_id": "I15-T016",
+      "speaker": "Student 3",
+      "text": "No, I think that sometimes like how the setup is made or the... some courses you can take into account when you're making an experiment and especially for three hours. You will arrive at some problems at some point, so yeah.\n\nInterviewer\nOf course."
+    },
+    {
+      "turn_id": "I15-T017",
+      "speaker": "Student 3",
+      "text": "All the other values were on point, so there was no problem in that.\n\nInterviewer\nOkay, that's really nice. Did you guys have a little bit of like feeling that you could play around? Figure it out and have a problem solving experience?"
+    },
+    {
+      "turn_id": "I15-T018",
+      "speaker": "Student 2",
+      "text": "I think that was pretty nice. I think that worked well. To just get a couple of minutes to look at whatever you want and try and figure out what's going on before the TA takes over.\n\nInterviewer\nSo the structure was well made in this sense? Like you have time to play around and then the explanations followed."
+    },
+    {
+      "turn_id": "I15-T019",
+      "speaker": "Student 2",
+      "text": "Yeah, I think that was really nice."
+    },
+    {
+      "turn_id": "I15-T020",
+      "speaker": "Student 1",
+      "text": "I think if we have the manner of the equipment, I can do better. Because usually we're not familiar with the new equipment. It takes some time to adjust it.\n\nInterviewer\nYeah, of course. But did you find any use in this laboratory? Is this something that even after this course you will be encountering again?"
+    },
+    {
+      "turn_id": "I15-T021",
+      "speaker": "Student 3",
+      "text": "I don't know about that, but it's definitely something that It was nice to see either way, yeah. Relevant or not on further studies, it was nice to see. And we don't have any lab exercises on the masters. So it's cool.\n\nInterviewer\nYeah, exactly. So there was a little bit like off. You can connect the theory to."
+    },
+    {
+      "turn_id": "I15-T022",
+      "speaker": "Student 3",
+      "text": "And also getting to a lab itself, like, was okay.\n\nInterviewer\nYeah. Okay, that's really nice to hear. Is there anything, yeah, I was also thinking about taking this course. Is there anything you would advise me before I do?"
+    },
+    {
+      "turn_id": "I15-T023",
+      "speaker": "Student 1",
+      "text": "We are in the same major, right? What's your bachelor background?\n\nInterviewer\nPhysics."
+    },
+    {
+      "turn_id": "I15-T024",
+      "speaker": "Student 1",
+      "text": "Yeah, you can apply for this first. For me, I have a computer science background. There are some people from the mathematics background, at first it's really really hard to understand the atomic physics, and a lot of background knowledge you need to have. So at first it's hard. For the experiment, I think the professor is pretty clear about the definition and what's going on there. It's good. It's really good.\n\nInterviewer\nThat's really nice to hear that the explanations we did well. Okay. So did you get some skills, knowledge you're happy with?"
+    },
+    {
+      "turn_id": "I15-T025",
+      "speaker": "Student 3",
+      "text": "Yeah."
+    },
+    {
+      "turn_id": "I15-T026",
+      "speaker": "Student 2",
+      "text": "It's a very fruitful course. I feel like I've learned a lot.\n\nInterviewer\nYeah, do you have any specifics for me?"
+    },
+    {
+      "turn_id": "I15-T027",
+      "speaker": "Student 2",
+      "text": "Specific like stuff I've learned?\n\nInterviewer\nYeah, skills, something that was like..."
+    },
+    {
+      "turn_id": "I15-T028",
+      "speaker": "Student 2",
+      "text": "I mean, no, I guess just a bunch of knowledge on quantum information. I don't know. Yeah."
+    },
+    {
+      "turn_id": "I15-T029",
+      "speaker": "Student 4",
+      "text": "You mean about the course? So from this experiment?\n\nInterviewer\nI mean, for today. Yeah."
+    },
+    {
+      "turn_id": "I15-T030",
+      "speaker": "Student 1",
+      "text": "I think today's experiment in general had some knowledge from the lecture, I think. Yeah, most of knowledge we covered in the lecture."
+    },
+    {
+      "turn_id": "I15-T031",
+      "speaker": "Student 3",
+      "text": "Yeah, but it's nice to see, like, from the lecture to the real one.\n\nInterviewer\nThe transition between, yeah, connecting it.. Because, as you said, if there is no master courses that train you in the lab."
+    },
+    {
+      "turn_id": "I15-T032",
+      "speaker": "Student 1",
+      "text": "We will see this, but i am very happy to sit here."
+    },
+    {
+      "turn_id": "I15-T033",
+      "speaker": "Student 3",
+      "text": "And also some lectures from this course are relevant to what we're doing here. So that was nice-\n\nInterviewer\nOkay, I think actually just one last question if I can get you guys. I don't know how we are on time. But was there something you really didn't like about the laboratory? Any critics?"
+    },
+    {
+      "turn_id": "I15-T034",
+      "speaker": "Student 1",
+      "text": "I have one funny thing, like we do not know our card can enter this building. The three of us were just stand in front of the building and waiting for somebody to pick us up. We were standing outside for 20 minutes.\n\nInterviewer\nLogistics, okay. Anything else?"
+    },
+    {
+      "turn_id": "I15-T035",
+      "speaker": "Student 4",
+      "text": "I think maybe they can give more support before we enter the lab.\n\nInterviewer\nBefore entering the lab? Okay"
+    },
+    {
+      "turn_id": "I15-T036",
+      "speaker": "Student 4",
+      "text": "Yeah, before I can provide some pictures."
+    },
+    {
+      "turn_id": "I15-T037",
+      "speaker": "Student 1",
+      "text": "Like: Then open this door and downstairs and then you will find something like that."
+    },
+    {
+      "turn_id": "I15-T038",
+      "speaker": "Student 4",
+      "text": "Okay, or really explain this experiment before we enter the lab, so we can prepare.\n\nInterviewer\nAh, preparation before. So material to actually know which…"
+    },
+    {
+      "turn_id": "I15-T039",
+      "speaker": "Student 3",
+      "text": "More material.\n\nInterviewer\nYeah, for before the lab?"
+    },
+    {
+      "turn_id": "I15-T040",
+      "speaker": "Student 4",
+      "text": "Before the lab when we're still at home.\n\nInterviewer\nOkay, this is quite insightful. in that case, thank you. I think this should be most of the things I was interested in. Yeah, thank you."
+    }
+  ]
+}

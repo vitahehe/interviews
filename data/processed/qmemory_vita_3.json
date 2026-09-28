@@ -1,0 +1,255 @@
+{
+  "interview_id": "I17",
+  "turns": [
+    {
+      "turn_id": "I17-T001",
+      "speaker": "Student 1",
+      "text": "Hey, I'm Student 1."
+    },
+    {
+      "turn_id": "I17-T002",
+      "speaker": "Student 2",
+      "text": "I'm Student 2."
+    },
+    {
+      "turn_id": "I17-T003",
+      "speaker": "Student 3",
+      "text": "I'm Student 3.\n\nInterviewer\nOkay, my name is Interviewer. Thanks again for the time. Can you guys first tell me a little bit of what you did today? Just in a summary, what were you doing?"
+    },
+    {
+      "turn_id": "I17-T004",
+      "speaker": "Student 1",
+      "text": "We had different tasks and we had to... for each task before discussing it by ourselves and then be able to ask questions. And we did the experiment. We tested the memory of ensemble atoms.\n\nInterviewer\nThat sounds pretty interesting. Now that you're done, like, how are you?\n\n[overlap] \n\nInterviewer\nHow are you feeling now that you're done? Any overall thoughts or remarks about the laboratory that you had?"
+    },
+    {
+      "turn_id": "I17-T005",
+      "speaker": "Student 3",
+      "text": "No."
+    },
+    {
+      "turn_id": "I17-T006",
+      "speaker": "Student 1",
+      "text": "No\n\nInterviewer\nZero?"
+    },
+    {
+      "turn_id": "I17-T007",
+      "speaker": "Student 2",
+      "text": "I mean, I thought it was really nice that we always got time to think about it ourselves, because for me that's usually better to than ask questions afterwards because it's sometimes easy to say, I understand it if someone tells you what to do and you don't actually have. So it's nice to first ask yourself and then ask the TAs the questions. I like that. And I also like that it was step by step because I'm used to TAs leaving the room during experiments and I think this is a lot nicer.\n\nInterviewer\nWhen you say step by step, what do you mean?"
+    },
+    {
+      "turn_id": "I17-T008",
+      "speaker": "Student 2",
+      "text": "Because we had the, it was divided into tasks and we always got the 10 minutes to think about it and then... I thought that was nice."
+    },
+    {
+      "turn_id": "I17-T009",
+      "speaker": "Student 1",
+      "text": "I agree. in the first like 2 tasks, honestly, but also because probably I didn't read the paper to come here and so maybe it's also that, but I was a bit lost. Like it was very... A lot. I've never seen any of this stuff and so I was quite confused. But then, as she said, like with the time and with the possibility of asking questions, then I kind of got like tuned in the situation and then it felt very good. I think I understood and it was good what we did. So yeah.\n\nInterviewer\nBut you said that it was at the beginning a bit confusing?"
+    },
+    {
+      "turn_id": "I17-T010",
+      "speaker": "Student 1",
+      "text": "For me at the beginning I didn't quite understand what we like all this instrument... But maybe because it was also the first time for me seeing some lasers and stuff."
+    },
+    {
+      "turn_id": "I17-T011",
+      "speaker": "Student 2",
+      "text": "Wait didn't you see any? Like at your bachelor's thesis or something like that?"
+    },
+    {
+      "turn_id": "I17-T012",
+      "speaker": "Student 3",
+      "text": "No, but I've seen that. I've seen an optics table before."
+    },
+    {
+      "turn_id": "I17-T013",
+      "speaker": "Student 3",
+      "text": "Okay, yeah, because I did my bachelor's thesis on optics, so don't feel bad about it."
+    },
+    {
+      "turn_id": "I17-T014",
+      "speaker": "Student 1",
+      "text": "Because then I was like, Okay, guys, this is okay. Also, the oscilloscope, like I saw it in my bachelor, but not really, so it took me some time to know what was I seeing on it, and yeah.\n\nInterviewer\nNo, of course. When you came into something like: I really don't know what that is, what did you do?"
+    },
+    {
+      "turn_id": "I17-T015",
+      "speaker": "Student 1",
+      "text": "When I came into?\n\nInterviewer\nA situation where you didn't quite know what's happening or when you didn't understand a part."
+    },
+    {
+      "turn_id": "I17-T016",
+      "speaker": "Student 1",
+      "text": "I asked all of them or to that. Yes.\n\nInterviewer\nWere you looking it up or using any other resources?"
+    },
+    {
+      "turn_id": "I17-T017",
+      "speaker": "Student 1",
+      "text": "No, we didn't."
+    },
+    {
+      "turn_id": "I17-T018",
+      "speaker": "Student 2",
+      "text": "I think every time it got kind of hard, the 10 minutes were already almost up. So, yeah, I think."
+    },
+    {
+      "turn_id": "I17-T019",
+      "speaker": "Student 1",
+      "text": "We know we didn't use the resources, other resources.\n\nInterviewer\nNo, you should go through with figuring it out yourselves and asking?"
+    },
+    {
+      "turn_id": "I17-T020",
+      "speaker": "Student 2",
+      "text": "Yeah, until the time was up."
+    },
+    {
+      "turn_id": "I17-T021",
+      "speaker": "Student 1",
+      "text": "Yeah, but the time was up like immediately."
+    },
+    {
+      "turn_id": "I17-T022",
+      "speaker": "Student 2",
+      "text": "I think we never got through all of the questions, but... \n\nInterviewer\nYou at the beginning said that you liked that you had like a little bit of time in the beginning to put it together yourself. Like was it fun to play around a bit?"
+    },
+    {
+      "turn_id": "I17-T023",
+      "speaker": "Student 2",
+      "text": "Yeah, I think it's fun until it's not fun anymore. [laughs] I mean, if it was more time, I think it would have become a bit frustrating. But i think 10 minutes was good.\n\nInterviewer\nYeah?"
+    },
+    {
+      "turn_id": "I17-T024",
+      "speaker": "Student 1",
+      "text": "Yeah, I think the same."
+    },
+    {
+      "turn_id": "I17-T025",
+      "speaker": "Student 2",
+      "text": "Because yeah, if we didn't have the 10 minutes and someone just told me what is going on, I would probably not have comprehended that as well.\n\nInterviewer\nSo was there like a part that felt specifically fun or interesting for you guys? [silence] Something you would want to maybe do, like if you were to have another hour here? Maybe elaborate a little."
+    },
+    {
+      "turn_id": "I17-T026",
+      "speaker": "Student 1",
+      "text": "I don't know if it's like a specific part because it was the second-half of the lab. But when we watched the, when we started watching the oscilloscope and understanding what was going on and changing stuff, then for me it was more interesting. Than like understanding, I don't know if here there is a mirror where the light goes. In that part I was a bit more like, okay... [unsure]\n\nInterviewer\nWhat for you guys?"
+    },
+    {
+      "turn_id": "I17-T027",
+      "speaker": "Student 3",
+      "text": "So the actual data acquisition is not that interesting because you're just twisting stuff and turning on buttons and saving files. Before that, it was kind of nice. But I guess it's important that we also get an instruction to how to actually acquire data in an object site.\n\nInterviewer\nYeah, so it was more interesting to see how the overall picture than just collecting data, okay."
+    },
+    {
+      "turn_id": "I17-T028",
+      "speaker": "Student 2",
+      "text": "Yeah, I think I would agree.\n\nInterviewer\nTrying to understand and place the pieces together? Okay. Do you think that after you finish with this course, lab, like this lab here, would this be something you would stumble upon again? Did you learn something that you think might be useful for you after?"
+    },
+    {
+      "turn_id": "I17-T029",
+      "speaker": "Student 2",
+      "text": "I don't know where I'm doing my master's thesis yet, but I assume it's always, if you want to do something with experimental optics, it's always good to  know some stuff about the elements. And of course, if you want to do something with the quantum memory, I mean, then it's of course useful.\n\nInterviewer\nBut for you guys specifically, you think?"
+    },
+    {
+      "turn_id": "I17-T030",
+      "speaker": "Student 1",
+      "text": "I was thinking because I was thinking that I really like these two labs, but they were a lot of, in my opinion, they were very focused on what we are doing on the course and this was also very nice. But I think that if you are doing this for like one year, probably you will have to take care of all the engineering details. And I think that I would like it more like this way, just seeing it from above and say, okay, this something happened, but we are not going to go there and see exactly what happens. But who knows, maybe, I don't know, maybe...\n\nInterviewer\nSo the experimentalist part is not something you were too intrigued by? Let's say."
+    },
+    {
+      "turn_id": "I17-T031",
+      "speaker": "Student 1",
+      "text": "No, like the no, honestly not like the data, like analyzing the data and seeing data, yes. But the fact that I put a mirror here instead of here and that it's not aligned or this, not that much. But maybe I feel that also like it's because it's a lot to understand in such a short time. Like I would say that maybe if you do, I don't know, a thesis here, you will have a lot of time to understand it and maybe it will become also a challenge and so it will become interesting. But right now I enter here in a lot of details, I'm like, okay, I trust that this is happening this way.\n\nInterviewer\nSo technicalities and details were a little bit in the way from actually playing around and thinking about enjoying it, let's say?"
+    },
+    {
+      "turn_id": "I17-T032",
+      "speaker": "Student 1",
+      "text": "I think we kind of put it out of technicality."
+    },
+    {
+      "turn_id": "I17-T033",
+      "speaker": "Student 2",
+      "text": "I mean, I like it that it was a bit technical in the beginning, but I also want to do experimental, so I mean, it kind of makes sense."
+    },
+    {
+      "turn_id": "I17-T034",
+      "speaker": "Student 1",
+      "text": "But did you ask if in this lab we put the technical part, we didn't care a lot about technical order.\n\nInterviewer\nNo, more if it was too much on the technical part. From focusing on the overall picture. Do you think his balance was nice for you?"
+    },
+    {
+      "turn_id": "I17-T035",
+      "speaker": "Student 1",
+      "text": "No, I think it was not. It wasn't too much."
+    },
+    {
+      "turn_id": "I17-T036",
+      "speaker": "Student 2",
+      "text": "No, I also think it was balanced well."
+    },
+    {
+      "turn_id": "I17-T037",
+      "speaker": "Student 3",
+      "text": "And a lot of details, like how this whole chamber of atoms works, which gives rise to this decay that we've been talking a lot about now. It's a lot of details which are mostly relevant for the experimentalists who will be working with it, but it's just... two hours here, three hours, just been shown with small details. Oh yeah, this doesn't work. Oh yeah, the Pockels cell is not turned on. Thank you. That was like an hour into the session. A lot of small details could probably have been given out beforehand. To kind of better understanding."
+    },
+    {
+      "turn_id": "I17-T038",
+      "speaker": "Student 1",
+      "text": "Yeah, I also agree a bit with this. I mean, I read the announcement related to this lab. And it was written that, there was a paper, which I didn't read, so my bad. But there was also like, we're going to give you some task, but there is no need to read them because you're not going to have them beforehand. Like, you're going to have them when you're there. And I don't know what was in the paper, so maybe I should not talk, but I also think that I would have liked to read a bit about this before.\n\nInterviewer\nBeforehand?"
+    },
+    {
+      "turn_id": "I17-T039",
+      "speaker": "Student 1",
+      "text": "Yeah, I mean, like about what's happening, what do I see on the oscilloscope or this picture there? Yeah.\n\nInterviewer\nA bit of material beforehand then would be useful probably."
+    },
+    {
+      "turn_id": "I17-T040",
+      "speaker": "Student 1",
+      "text": "Yes, probably yes.\n\nInterviewer\nThat's good to know. I just have the last two brief questions. Is there something you really disliked about it?"
+    },
+    {
+      "turn_id": "I17-T041",
+      "speaker": "Student 3",
+      "text": "Finding a way down here? [laughs] Like there's no signs in this building. You have to find someone who works here and ask for the way."
+    },
+    {
+      "turn_id": "I17-T042",
+      "speaker": "Student 1",
+      "text": "Yes, we had to."
+    },
+    {
+      "turn_id": "I17-T043",
+      "speaker": "Student 3",
+      "text": "Make a detailed guide on the absalon page."
+    },
+    {
+      "turn_id": "I17-T044",
+      "speaker": "Student 2",
+      "text": "With the location for it."
+    },
+    {
+      "turn_id": "I17-T045",
+      "speaker": "Student 3",
+      "text": "Yeah, please.\n\nInterviewer\nYeah, this is the second time this was mentioned, so I hope they're going to put the sign. Something making it easier for you guys to come back."
+    },
+    {
+      "turn_id": "I17-T046",
+      "speaker": "Student 1",
+      "text": "It's a bit stupid, but Maybe because also we are the group that arrived at like 3 o'clock, so we spent all day at uni, so maybe we were a little more tired, but I would like to sit during this. [agreement] I don't know, like now I'm very good. When I first arrived, I was like, Okay, now I'm gonna 3 hours stand. Okay, let's see how it goes, but... Yeah, I don't think it's a big deal. Like, it's also because maybe we were all day in uni, but I'm not really tired, it's okay, but if I have to say something i would say that.\n\nInterviewer\nI would say more chairs and signs to the lab. Okay, so you might, if I understand, you might return to the labs and do something experimental?"
+    },
+    {
+      "turn_id": "I17-T047",
+      "speaker": "Student 3",
+      "text": "Yeah, sure. Probably not optics. Not optics.\n\nInterviewer\nYeah?"
+    },
+    {
+      "turn_id": "I17-T048",
+      "speaker": "Student 3",
+      "text": "No, I don't like optics.\n\nInterviewer\nOkay."
+    },
+    {
+      "turn_id": "I17-T049",
+      "speaker": "Student 2",
+      "text": "I want to do optics.\n\nInterviewer\nNice. Yeah. Okay, so this was a bit more intuitive?"
+    },
+    {
+      "turn_id": "I17-T050",
+      "speaker": "Student 2",
+      "text": "Yeah, I liked it. And I also have no complaint to add, I think. [laughs]\n\nInterviewer\nOkay, that's perfect. Then thank you so much for the time, you guys. Thank you. That is all."
+    }
+  ]
+}

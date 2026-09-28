@@ -1,0 +1,225 @@
+{
+  "interview_id": "I08",
+  "quotes": [
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Yeah, I mean we came to do the quantum eraser lab and I mean, we experienced that getting the interference was very difficult for us, but I mean, I think we managed to actually get it to interfere and just be a dot.\n\nInterviewer\nAll right, so you said it was difficult. Can I ask you to put some more words on what was difficult? ",
+      "turn_ids": [
+        "I08-T001"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I08-Q001"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: I mean, it's using instruments I personally haven't used before. So getting used to using the new polarizers and working with lasers. Also making sure that, I mean, it's safe has been what's filled up most of my mind at least.\n\nInterviewer\nAll right. So was it something that, was it, were you worried? ",
+      "turn_ids": [
+        "I08-T002"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I08-Q002"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: Not like high, but like more like components that are dedicated for this sort of experiment, like the beam splitter or the more accurate degree polarizers. Even though I didn't, the problem with the polarizers not being fully calibrated was a bit confusing at start. So it could be good to have some better knowledge on that beforehand, at least to find a way to actually calibrate them properly.\n\nInterviewer\nSo did you do the pre-lab exercise before? How did you experience the connection between the prelab and the experiment? ",
+      "turn_ids": [
+        "I08-T007"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I08-Q003"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: So we started with an interference pattern and then without any article filters it kind of disappeared and it didn't really come back. ",
+      "turn_ids": [
+        "I08-T011"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I08-Q004"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: We still don't understand why that happened, so we swapped to this setup instead.\n\nInterviewer\nSo my guess is that somehow some alignment was involuntarily, unintentionally changed and that might change this. So that happens. But did it work after switching the experiment? ",
+      "turn_ids": [
+        "I08-T012"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I08-Q005"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Yes, it did. When we got up to this table, it was much easier. But I think the polarization was still difficult to get right because we had to use these other polarizers to make them, you know, talk together. So I think it would be nice for the future to have the polarizers be aligned well so that if you're, for example, at 0 degrees, it means it's X-polarized. if it's at 90 degrees, it would be bipolarizing. That would make the experiment much easier. Also because it was not something that was very much focused on in the pre-lab. It was sort of very conceptual with 0 and 90 degrees. But even though that was like the entire problem of our session. So I think it would be, I think, easier for us if the polarizers worked from the beginning.\n\nInterviewer\nAll right. So maybe one last thing is that I don't know you, so I don't know what kind of interest you have and what kind of specialization you are aiming for. But this experiment, how does it relate to what you want to study further on? ",
+      "turn_ids": [
+        "I08-T013"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I08-Q006"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 1: I mean, maybe it's because here it's visual, right? It's with lasers you can actually see what is happening, where the photoelectric effect, it's like, I mean, you can maybe say it's just another number you're measuring, right? And you do some theory behind it and you find out your results where here you're like, either you actually get interference or not.\n\nInterviewer\nYeah. So you mentioned all the numbers. So this experiment is super conceptual and qualitative in nature. And how did you experience that? I suppose it's different at least from the previous experiment. ",
+      "turn_ids": [
+        "I08-T015"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I08-Q007"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: I mean, it's using instruments I personally haven't used before. So getting used to using the new polarizers and working with lasers. Also making sure that, I mean, it's safe has been what's filled up most of my mind at least.\n\nInterviewer\nAll right. So was it something that, was it, were you worried? ",
+      "turn_ids": [
+        "I08-T002"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I08-Q008"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: I worked in an optical lab as a student operator in an engineering company, so I'm pretty used to working with lasers, so I don't feel that I probably don't have that much awareness of it because I'm used to it.\n\nInterviewer\nHow about you? ",
+      "turn_ids": [
+        "I08-T004"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I08-Q009"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: I've worked with some optical equipment before. I mean, this is more high-tech, but I've worked with the lasers before, so it's not, I know that my general way around how to handle them.\n\nInterviewer\nSo I'm getting a bit curious about what part of this you consider as high-tech. Because I don't know what you experienced before. ",
+      "turn_ids": [
+        "I08-T006"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I08-Q010"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: Not like high, but like more like components that are dedicated for this sort of experiment, like the beam splitter or the more accurate degree polarizers. Even though I didn't, the problem with the polarizers not being fully calibrated was a bit confusing at start. So it could be good to have some better knowledge on that beforehand, at least to find a way to actually calibrate them properly.\n\nInterviewer\nSo did you do the pre-lab exercise before? How did you experience the connection between the prelab and the experiment? ",
+      "turn_ids": [
+        "I08-T007"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I08-Q011"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: We still don't understand why that happened, so we swapped to this setup instead.\n\nInterviewer\nSo my guess is that somehow some alignment was involuntarily, unintentionally changed and that might change this. So that happens. But did it work after switching the experiment? ",
+      "turn_ids": [
+        "I08-T012"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I08-Q012"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Yes, it did. When we got up to this table, it was much easier. But I think the polarization was still difficult to get right because we had to use these other polarizers to make them, you know, talk together. So I think it would be nice for the future to have the polarizers be aligned well so that if you're, for example, at 0 degrees, it means it's X-polarized. if it's at 90 degrees, it would be bipolarizing. That would make the experiment much easier. Also because it was not something that was very much focused on in the pre-lab. It was sort of very conceptual with 0 and 90 degrees. But even though that was like the entire problem of our session. So I think it would be, I think, easier for us if the polarizers worked from the beginning.\n\nInterviewer\nAll right. So maybe one last thing is that I don't know you, so I don't know what kind of interest you have and what kind of specialization you are aiming for. But this experiment, how does it relate to what you want to study further on? ",
+      "turn_ids": [
+        "I08-T013"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I08-Q013"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: I mean, I think like how I understand it afterwards, I think is like elevated a bit. I feel like I had a better understanding going out of a lab like this than one where it's not so extensive of a prelab. All right.\n\nInterviewer\nAllow me to go back to some of the things that you said in the beginning about the alignment or the interference was difficult to achieve. So do I understand it correctly? There were no fringes in the beginning? ",
+      "turn_ids": [
+        "I08-T009"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I08-Q014"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: I mean, I think the prelab kind of like, it feels like it expects you to actually know what's going on, I think. I feel like I didn't really get surprised by anything in this lab right here because the prelab was so like extensive. But on the other hand, it like feels really nice to actually like know what you're doing and what can we expect when we do this and actually see it happen and try to troubleshoot it when it's not what we just learned should happen?\n\nInterviewer\nAnd this lack of surprise, how did you, what do you think about that? ",
+      "turn_ids": [
+        "I08-T008"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I08-Q015"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: I mean, now I don't know how much further on it is, but it really feels like a quantum experiment. So like I was kind of curious, like personally I haven't really looked into quantum before the quantum course. So it feels like very great to actually see now it's quantum, now it's not, right? Where the lab for quantum we did before this, it just like felt like something that was just there to be there.\n\nInterviewer\nI'm sorry, as I said, it was my last question, but that makes me curious. So, what, so it's the photoelectric effect you were mentioning the first time? So, what, why did you experience these two things differently? ",
+      "turn_ids": [
+        "I08-T014"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I08-Q016"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: I thought it was nice because it's, at least in the lectures, it's very much about math and linear algebra. And here it was more conceptual, so I think it works nice together to have a very conceptual lab and then a very theoretical and mathematical lectures.\n\nInterviewer\nSuper. Thank you so much. I disturbed you, so I will stop here. But thank you. It's really valuable for us and we take your input very seriously for our work. So thank you. ",
+      "turn_ids": [
+        "I08-T016"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I08-Q017"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: I thought it was nice because it's, at least in the lectures, it's very much about math and linear algebra. And here it was more conceptual, so I think it works nice together to have a very conceptual lab and then a very theoretical and mathematical lectures.\n\nInterviewer\nSuper. Thank you so much. I disturbed you, so I will stop here. But thank you. It's really valuable for us and we take your input very seriously for our work. So thank you. ",
+      "turn_ids": [
+        "I08-T016"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I08-Q018"
+    }
+  ],
+  "codes_with_no_quotes": [
+    "2.a",
+    "2.b"
+  ]
+}

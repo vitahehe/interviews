@@ -120,8 +120,10 @@ For detailed documentation of how each component works, design constraints, and 
 ## Quick Start: Stage 1 Only (Segment & Analyze All Interviews)
 
 counter=0; for file in transcription/test/*.txt; do counter=$((counter + 1)); interview_id=$(printf "I%02d" "$counter"); filename=$(basename "$file" .txt); echo "Segmenting $interview_id: $file"; python pipeline/segment_transcript.py --input "$file" --interview-id "$interview_id" --output "data/processed/${filename}.json" || break; done && echo "✓ All interviews segmented!"
+for processed in data/processed/*.json; do interview_id=$(python -c 'import json,sys; print(json.load(open(sys.argv[1]))["interview_id"])' "$processed") || break; echo "Running pipeline for $interview_id: $processed"; python pipeline/pipeline.py --interview-id "$interview_id" --processed "$processed" --codebook codebook.yaml --prompts-dir prompts --outdir "output/stage_1/${interview_id}" --model claude-sonnet-5 || break; done && echo "✓ Stage 1 complete!"
 
-counter=0; for file in transcription/test/*.txt; do counter=$((counter + 1)); interview_id=$(printf "I%02d" "$counter"); filename=$(basename "$file" .txt); echo "Running pipeline for $interview_id: $file"; python pipeline/pipeline.py --interview-id "$interview_id" --processed "data/processed/${filename}.json" --codebook codebook.yaml --prompts-dir prompts --outdir "output/stage_1/${interview_id}" --model claude-sonnet-5 || break; done && echo "✓ Stage 1 complete!"
+
+
 
 **What this does:**
 - Finds all `.txt` files in `transcription/test/`
@@ -147,18 +149,38 @@ echo "✓ All stages complete! Results in output/stage_1/ and outputs/stage_2/"
 ```
 
 
-
-FOR NOW Æ Segmenting I01: transcription/test/Monday_20260223_Kvant1_lab_transcript.txt
+Segmenting I01: transcription/test/Monday_20260223_Kvant1_lab_transcript.txt
 Wrote 45 turns (25 student quote units) to data/processed/Monday_20260223_Kvant1_lab_transcript.json
-Segmenting I02: transcription/test/PIQIP_Qinu_lab_bjarke_1.txt
+Segmenting I02: transcription/test/PIQIP_Qinu_lab_andrea_1.txt
+Wrote 17 turns (17 student quote units) to data/processed/PIQIP_Qinu_lab_andrea_1.json
+Segmenting I03: transcription/test/PIQIP_Qinu_lab_andrea_2.txt
+Wrote 68 turns (68 student quote units) to data/processed/PIQIP_Qinu_lab_andrea_2.json
+Segmenting I04: transcription/test/PIQIP_Qinu_lab_bjarke_1.txt
 Wrote 37 turns (37 student quote units) to data/processed/PIQIP_Qinu_lab_bjarke_1.json
-Segmenting I03: transcription/test/Wednesday_20260225_Kvant1_lab_transcript.txt
+Segmenting I05: transcription/test/PIQIP_Qinu_lab_bjarke_2.txt
+Wrote 50 turns (50 student quote units) to data/processed/PIQIP_Qinu_lab_bjarke_2.json
+Segmenting I06: transcription/test/PIQIP_Qinu_lab_julie_1.txt
+Wrote 101 turns (101 student quote units) to data/processed/PIQIP_Qinu_lab_julie_1.json
+Segmenting I07: transcription/test/Wednesday_20260225_Kvant1_lab_transcript.txt
 Wrote 56 turns (31 student quote units) to data/processed/Wednesday_20260225_Kvant1_lab_transcript.json
-Segmenting I04: transcription/test/kvant1_bjarke_3_transcript.txt
+Segmenting I08: transcription/test/kvant1_bjarke_3_transcript.txt
 Wrote 16 turns (16 student quote units) to data/processed/kvant1_bjarke_3_transcript.json
-Segmenting I05: transcription/test/kvant1_julie_1_transcript.txt
+Segmenting I09: transcription/test/kvant1_julie_1_transcript.txt
 Wrote 45 turns (45 student quote units) to data/processed/kvant1_julie_1_transcript.json
-Segmenting I06: transcription/test/kvant1_julie_2_transcript.txt
+Segmenting I10: transcription/test/kvant1_julie_2_transcript.txt
 Wrote 79 turns (79 student quote units) to data/processed/kvant1_julie_2_transcript.json
-Segmenting I07: transcription/test/kvant1_julie_3_transcript.txt
+Segmenting I11: transcription/test/kvant1_julie_3_transcript.txt
 Wrote 49 turns (49 student quote units) to data/processed/kvant1_julie_3_transcript.json
+Segmenting I12: transcription/test/kvant1_julie_4_transcript.txt
+Wrote 79 turns (79 student quote units) to data/processed/kvant1_julie_4_transcript.json
+Segmenting I13: transcription/test/qmemory_bjarke_1.txt
+Wrote 32 turns (32 student quote units) to data/processed/qmemory_bjarke_1.json
+Segmenting I14: transcription/test/qmemory_bjarke_2.txt
+Wrote 42 turns (42 student quote units) to data/processed/qmemory_bjarke_2.json
+Segmenting I15: transcription/test/qmemory_vita_1.txt
+Wrote 40 turns (40 student quote units) to data/processed/qmemory_vita_1.json
+Segmenting I16: transcription/test/qmemory_vita_2.txt
+Wrote 37 turns (37 student quote units) to data/processed/qmemory_vita_2.json
+Segmenting I17: transcription/test/qmemory_vita_3.txt
+Wrote 50 turns (50 student quote units) to data/processed/qmemory_vita_3.json
+✓ All interviews segmented!

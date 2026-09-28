@@ -3,36 +3,34 @@
   "model": "claude-sonnet-5",
   "codebook_hash": "ad455eee812c791d",
   "pass1_prompt_hash": "2e884348362a93d1",
-  "pass2_prompt_hash": "8e241976befc511a",
+  "pass2_prompt_hash": "eb15e43e8d444860",
   "system_prompt_hash": "091d592b35ff052d",
   "pass1_calls": 3,
   "pass1_usage_per_theme": [
     {
       "theme_id": "1",
-      "usage": "Usage(cache_creation=CacheCreation(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=0), cache_creation_input_tokens=0, cache_read_input_tokens=0, inference_geo='global', input_tokens=5646, output_tokens=1973, output_tokens_details=OutputTokensDetails(thinking_tokens=1266), server_tool_use=None, service_tier='standard')",
+      "usage": "Usage(cache_creation=CacheCreation(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=0), cache_creation_input_tokens=0, cache_read_input_tokens=0, inference_geo='global', input_tokens=5251, output_tokens=2117, output_tokens_details=OutputTokensDetails(thinking_tokens=1397), server_tool_use=None, service_tier='standard')",
       "stop_reason": "end_turn"
     },
     {
       "theme_id": "2",
-      "usage": "Usage(cache_creation=CacheCreation(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=0), cache_creation_input_tokens=0, cache_read_input_tokens=0, inference_geo='global', input_tokens=5840, output_tokens=829, output_tokens_details=OutputTokensDetails(thinking_tokens=768), server_tool_use=None, service_tier='standard')",
+      "usage": "Usage(cache_creation=CacheCreation(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=0), cache_creation_input_tokens=0, cache_read_input_tokens=0, inference_geo='global', input_tokens=5445, output_tokens=2133, output_tokens_details=OutputTokensDetails(thinking_tokens=1910), server_tool_use=None, service_tier='standard')",
       "stop_reason": "end_turn"
     },
     {
       "theme_id": "3",
-      "usage": "Usage(cache_creation=CacheCreation(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=0), cache_creation_input_tokens=0, cache_read_input_tokens=0, inference_geo='global', input_tokens=5788, output_tokens=2539, output_tokens_details=OutputTokensDetails(thinking_tokens=855), server_tool_use=None, service_tier='standard')",
+      "usage": "Usage(cache_creation=CacheCreation(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=0), cache_creation_input_tokens=0, cache_read_input_tokens=0, inference_geo='global', input_tokens=5393, output_tokens=3351, output_tokens_details=OutputTokensDetails(thinking_tokens=1444), server_tool_use=None, service_tier='standard')",
       "stop_reason": "end_turn"
     }
   ],
-  "pass2_usage": "Usage(cache_creation=CacheCreation(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=0), cache_creation_input_tokens=0, cache_read_input_tokens=0, inference_geo='global', input_tokens=5213, output_tokens=5922, output_tokens_details=OutputTokensDetails(thinking_tokens=0), server_tool_use=None, service_tier='standard')",
+  "pass2_usage": "Usage(cache_creation=CacheCreation(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=0), cache_creation_input_tokens=0, cache_read_input_tokens=0, inference_geo='global', input_tokens=5856, output_tokens=5245, output_tokens_details=OutputTokensDetails(thinking_tokens=0), server_tool_use=None, service_tier='standard')",
   "timing_seconds": {
-    "pass1": 63.48,
-    "pass2": 55.06
+    "pass1": 89.71,
+    "pass2": 52.84
   },
-  "quote_count": 31,
+  "quote_count": 24,
   "codes_with_no_quotes": [
     "2.a",
-    "2.b",
-    "2.c",
-    "3.d"
+    "2.b"
   ]
 }

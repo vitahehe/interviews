@@ -1,248 +1,248 @@
 {
-  "interview_id": "I07",
+  "interview_id": "I11",
   "turns": [
     {
-      "turn_id": "I07-T001",
+      "turn_id": "I11-T001",
       "speaker": "Student 1",
       "text": "I dag har vi brugt, altså ja vi har lavet eller kigget på hvad hedder det? Mach Zehnder interferometer. Kiggede på vi. Vi startede jo til prelab med at lave nogle regnestykker hvor vi kunne se entanglement og hvad? Hvad hed det?"
     },
     {
-      "turn_id": "I07-T002",
+      "turn_id": "I11-T002",
       "speaker": "Student 2",
       "text": "Interferens"
     },
     {
-      "turn_id": "I07-T003",
+      "turn_id": "I11-T003",
       "speaker": "Student 1",
       "text": "Ja interferens og hvad vi forventede og også. Ja og om polarisering og det kunne vi bare se i praksis nu."
     },
     {
-      "turn_id": "I07-T004",
+      "turn_id": "I11-T004",
       "speaker": "Student 2",
       "text": "Ja."
     },
     {
-      "turn_id": "I07-T005",
+      "turn_id": "I11-T005",
       "speaker": "Student 1",
       "text": "Ja.\n\nInterviewer\nJa dejligt og oplevede i nogle udfordringer i laboratoriet?"
     },
     {
-      "turn_id": "I07-T006",
+      "turn_id": "I11-T006",
       "speaker": "Student 2",
       "text": "Vi var lidt i tvivl om i forhold til... Jeg havde ikke lige tænkt over at de der 45 grader var relativt til den anden. Skal jeg lige tænke mig: Nej der står 45, det var så ikke rigtigt, men udover det var det rimelig ligetil følte jeg og det var bare lidt med det der fine tuning der var lidt besværligt, men sådan logisk gav det meget god mening."
     },
     {
-      "turn_id": "I07-T007",
+      "turn_id": "I11-T007",
       "speaker": "Student 1",
       "text": "Så det fik vi lært."
     },
     {
-      "turn_id": "I07-T008",
+      "turn_id": "I11-T008",
       "speaker": "Student 2",
       "text": "Ja."
     },
     {
-      "turn_id": "I07-T009",
+      "turn_id": "I11-T009",
       "speaker": "Student 1",
       "text": "Og hvordan vi skulle kalibrere det.\n\nInterviewer\nDet lyder også godt."
     },
     {
-      "turn_id": "I07-T010",
+      "turn_id": "I11-T010",
       "speaker": "Student 1",
       "text": "Ja.\n\nInterviewer\nFik i så de resultater, som vi forventede? Måske ud fra jeres prelab eller ud fra intuitionen? Var der mønstre?"
     },
     {
-      "turn_id": "I07-T011",
+      "turn_id": "I11-T011",
       "speaker": "Student 1",
       "text": "Ja, der var nogle gange hvor vi sådan teoretisk ikke forventede interferens, men vi så det alligevel. Så spurgte vi ind til det."
     },
     {
-      "turn_id": "I07-T012",
+      "turn_id": "I11-T012",
       "speaker": "Student 2",
       "text": "Men jeg tror også det havde at gøre med netop at fange lige at få den kalibreret og justeret rigtigt."
     },
     {
-      "turn_id": "I07-T013",
+      "turn_id": "I11-T013",
       "speaker": "Student 1",
       "text": "I forhold til hinanden ja. Det var noget med udstyret. Det fik vi at vide.\n\nInterviewer\nSpændende. Føler i at i har lært noget? Har i fået noget ud af det?"
     },
     {
-      "turn_id": "I07-T014",
+      "turn_id": "I11-T014",
       "speaker": "Student 1",
       "text": "Ja, det føler jeg faktisk. Jeg synes det var lidt sejt at kunne se det."
     },
     {
-      "turn_id": "I07-T015",
+      "turn_id": "I11-T015",
       "speaker": "Student 2",
       "text": "Det er meget nemmere at forstå når man ser det ske. Så giver det lidt bedre mening."
     },
     {
-      "turn_id": "I07-T016",
+      "turn_id": "I11-T016",
       "speaker": "Student 1",
       "text": "Ja.\n\nInterviewer\nFedt, så føler i at i også kan tage noget med til måske fremtidige kurser eller hvad end i nu har for jer i fremtiden?"
     },
     {
-      "turn_id": "I07-T017",
+      "turn_id": "I11-T017",
       "speaker": "Student 1",
       "text": "Ja, jeg synes kvantefysik er meget flot og det har jeg synes i lang tid, men jeg synes det bliver bestemt ikke kedeligere det her, det bliver sjovere.\n\nInterviewer\nJa, skidegodt.\n\n[silence]"
     },
     {
-      "turn_id": "I07-T018",
+      "turn_id": "I11-T018",
       "speaker": "Student 2",
       "text": "Og så har vi også lært, det bliver vi ved med at lære, at vi skal være lidt mere ordentlige, når vi læser labvejledningen. Fordi det er tit vi kommer til at spørge om nogle ting, som egentlig står i vejledningen."
     },
     {
-      "turn_id": "I07-T019",
+      "turn_id": "I11-T019",
       "speaker": "Student 1",
       "text": "Ja."
     },
     {
-      "turn_id": "I07-T020",
+      "turn_id": "I11-T020",
       "speaker": "Student 2",
       "text": "Det sker også til andre labgange."
     },
     {
-      "turn_id": "I07-T021",
+      "turn_id": "I11-T021",
       "speaker": "Student 1",
       "text": "Det lærer vi igen. Jeg føler der var en meget god pædagogisk prelab."
     },
     {
-      "turn_id": "I07-T022",
+      "turn_id": "I11-T022",
       "speaker": "Student 2",
       "text": "Meget pædagogisk og grundig, så man var helt med på det hele."
     },
     {
-      "turn_id": "I07-T023",
+      "turn_id": "I11-T023",
       "speaker": "Student 1",
       "text": "Selvom vi ikke har haft det i faget eller til forelæsning endnu, så synes jeg det giver mening. Og det var også en god labvejledning. Vi skal bare læse den lidt bedre, lidt grundigt."
     },
     {
-      "turn_id": "I07-T024",
+      "turn_id": "I11-T024",
       "speaker": "Student 2",
       "text": "Den var også meget pædagogisk, den starter med det mest basic og så tilføjer den mere og mere."
     },
     {
-      "turn_id": "I07-T025",
+      "turn_id": "I11-T025",
       "speaker": "Student 1",
       "text": "Og det er sjovt det er en video.\n\nInterviewer\nJa det synes i er en fed måde at gøre det på?"
     },
     {
-      "turn_id": "I07-T026",
+      "turn_id": "I11-T026",
       "speaker": "Student 1",
       "text": "Ja, det er sådan lidt med interaktivt og det gør det også lidt sjovere på en måde så det ikke sådan stresser. Det klarer man jo, men sådan er det bare sjovere. Og man får den samme ud af det."
     },
     {
-      "turn_id": "I07-T027",
+      "turn_id": "I11-T027",
       "speaker": "Student 2",
       "text": "For man skal alligevel forstå materialet nok til at kunne forklare det. Det skal man jo uanset.\n\nInterviewer\nJeg føler i at i gør det? Forstår materialet?"
     },
     {
-      "turn_id": "I07-T028",
+      "turn_id": "I11-T028",
       "speaker": "Student 2",
       "text": "Ja, og så tænker jeg også vi får de sidste ting helt på plads når vi lige sidder og laver videoer."
     },
     {
-      "turn_id": "I07-T029",
+      "turn_id": "I11-T029",
       "speaker": "Student 1",
       "text": "Ja.\n\nInterviewer\nNu sagde du, at i jeg lavede det her, inden i måske havde haft nogle af tingene til forelæsningerne? Hvordan fungerer det at have det i den rækkefølge?"
     },
     {
-      "turn_id": "I07-T030",
+      "turn_id": "I11-T030",
       "speaker": "Student 1",
       "text": "Jeg føler det her er nok det første kursus, hvor jeg føler at... Jeg føler det er sådan det plejer at være, men det her er det kursus hvor det virker, eller hvor det fungerer bedst. [agreement] Fordi det er så gode prelabs. Til tidligere fag har der været sådan lidt: Nå jamen det er okay at man ikke sådan helt forstår det nu fordi det kommer først senere, når jeg får læsningen. Men gør det alligevel og det er nok to get by, men det har jeg..."
     },
     {
-      "turn_id": "I07-T031",
+      "turn_id": "I11-T031",
       "speaker": "Student 2",
       "text": "Måske har det også lidt at gøre med at der er meget færre labgange end de andre kurser med lab. [agreement] Så man har bedre tid til at lige at kunne sætte sig ind i det og forstå det før man går ind.\n\nInterviewer\nJa, så det der gjorde det der prelab bedre end hvad i før har oplevet, var det at den var meget pædagogisk, som vi nævnte før, eller er der også andet?"
     },
     {
-      "turn_id": "I07-T032",
+      "turn_id": "I11-T032",
       "speaker": "Student 2",
       "text": "Ja både at den er meget pædagogisk og så også at der ikke er lige så mange labgange som man kan noget bedre sætte tid af til at forstå det. Men Jeg tror primært at det er at den er meget pædagogisk og grundig med at den tager det helt fra toppen."
     },
     {
-      "turn_id": "I07-T033",
+      "turn_id": "I11-T033",
       "speaker": "Student 1",
       "text": "Det synes jeg var godt. Og også at den var så interaktiv, så man kunne lære noget. Så var der nogle spørgsmål. Og så læse lidt mere. [agreement]"
     },
     {
-      "turn_id": "I07-T034",
+      "turn_id": "I11-T034",
       "speaker": "Student 2",
       "text": "Ja, jeg føler også med labvejledningen, at der også var nogle spørgsmål, som man skulle tænke over undervejs og sådan noget. Det føler jeg også er meget godt til, at man forstår det bedre."
     },
     {
-      "turn_id": "I07-T035",
+      "turn_id": "I11-T035",
       "speaker": "Student 1",
       "text": "Ja.\n\nInterviewer\nSå hvordan passede det med tiden i havde nede i laboratorium? Var det for lidt, for meget, perfekt?"
     },
     {
-      "turn_id": "I07-T036",
+      "turn_id": "I11-T036",
       "speaker": "Student 2",
       "text": "Jeg følte det passer meget godt i forhold til, så havde vi lige tid til at lave videoen også, så det passer meget perfekt."
     },
     {
-      "turn_id": "I07-T037",
+      "turn_id": "I11-T037",
       "speaker": "Student 1",
       "text": "Det var godt synes jeg.\n\nInterviewer\nHvis i havde mere tid, så hvis i for eksempel havde, nu er i gået efter 2 timer og vil lave videoen derhjemme, hvad hvis i nu havde 3 timer kun til laboratoriet og så skulle lave videoen bagefter? Ville det være for meget?"
     },
     {
-      "turn_id": "I07-T038",
+      "turn_id": "I11-T038",
       "speaker": "Student 2",
       "text": "Det tror jeg, for jeg føler vi nåede alt det vi skulle, altså vi kunne ikke rigtig komme i tanke om mere med det udstyr der var, som kunne have lavet agtigt."
     },
     {
-      "turn_id": "I07-T039",
+      "turn_id": "I11-T039",
       "speaker": "Student 1",
       "text": "Nej og det er også meget rart at få tid til at lave videoen her, eller når vi er på uni. Fordi labvejlederen er der jo stadigvæk, så hvis vi nu starter med vores video og Vi har et spørgsmål så kan vi jo stadigvæk gå og spørge. Så det er også rart synes jeg. At have den mulighed.\n\nInterviewer\nEr der mere i gerne vil finde ud af om det her eksperiment?"
     },
     {
-      "turn_id": "I07-T040",
+      "turn_id": "I11-T040",
       "speaker": "Student 2",
       "text": "Ikke umiddelbart."
     },
     {
-      "turn_id": "I07-T041",
+      "turn_id": "I11-T041",
       "speaker": "Student 1",
       "text": "Nej, der stod jo oppe i hjørnet Sådan real life examples. Det var godt. Nej egentlig ikke.\n\nInterviewer\nJa og jeg tænker lige om der er mere jeg vil spørge om. Har i nogle forslag til forbedringer, er der noget der kunne have været bedre?"
     },
     {
-      "turn_id": "I07-T042",
+      "turn_id": "I11-T042",
       "speaker": "Student 1",
       "text": "I forhold til den her lab eller generelt?\n\nInterviewer\nBare den her lab."
     },
     {
-      "turn_id": "I07-T043",
+      "turn_id": "I11-T043",
       "speaker": "Student 2",
       "text": "Jeg føler det ikke lige umiddelbart."
     },
     {
-      "turn_id": "I07-T044",
+      "turn_id": "I11-T044",
       "speaker": "Student 1",
       "text": "Nej, Sådan nogle gange var det måske lidt svært at få hjælp. Fordi der kun var en TA så man måtte vente nogle gange.\n\nInterviewer\nHvad var det for eksempel i ville have hjælp til?"
     },
     {
-      "turn_id": "I07-T045",
+      "turn_id": "I11-T045",
       "speaker": "Student 2",
       "text": "Det var til det der med at dreje. Vi forstod ikke lige, hvorfor vi fik de forskellige, ikke de resultater vi havde forventet, men det var så på grund af, at vi ikke har kalibreret dem i forhold til hinanden rigtigt. Ja, så det kunne måske være forklaret tidligere, men jeg tror måske også at det er os. [laughs]\n\nInterviewer\nMen det er måske fint nok at finde ud af det."
     },
     {
-      "turn_id": "I07-T046",
+      "turn_id": "I11-T046",
       "speaker": "Student 2",
       "text": "Ja. Det er en del af oplevelsen."
     },
     {
-      "turn_id": "I07-T047",
+      "turn_id": "I11-T047",
       "speaker": "Student 2",
       "text": "Yes Jeg synes ikke rigtigt der er så meget.\n\nInterviewer\nEr der noget andet jeg skal vide?"
     },
     {
-      "turn_id": "I07-T048",
+      "turn_id": "I11-T048",
       "speaker": "Student 1",
       "text": "Næ.\n\nInterviewer\nCool mange tak .\n\nStudent 2:\nSelv tak."
     },
     {
-      "turn_id": "I07-T049",
+      "turn_id": "I11-T049",
       "speaker": "Student 1",
       "text": "Hvad er det til?"
     }

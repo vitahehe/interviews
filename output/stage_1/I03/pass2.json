@@ -3,383 +3,359 @@
   "interpretations": [
     {
       "quote_id": "I03-Q001",
-      "rationale": "The quote describes an iterative trial-and-error process of adjusting the angle by small increments to find and maintain interference, which reflects a hands-on problem-solving approach to the experiment.",
-      "why_interesting": "It shows how a seemingly small physical action (a one-degree adjustment) has an outsized effect on the observed phenomenon, revealing the sensitivity of the setup and how students learn through fine-tuned trial and error.",
-      "teaching_implication": "Labs could explicitly highlight sensitivity thresholds like this to help students anticipate and interpret sudden changes rather than treating them as errors (speculative).",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 3: Det var mere det med, at man ændrede det en grad, og så tænkte man, det gør jo ikke noget som helst. Og så var der interferens. Og så var det sådan, at når man lige vil have interferens, så lad os lige gå en grad længere ned. Så det var meget... mere det med. Det går meget hurtigt, og hvis man kom til at røre ved spejlen, så wobblede lyset på pladen, fordi det gør jo meget for selv i lyset. ",
+      "rationale": "The student explicitly describes confusion about why the lab on superconducting computers is being done before the corresponding lecture content, reflecting a problem-solving experience shaped by curriculum sequencing.",
+      "why_interesting": "It highlights a mismatch between lecture pacing and lab scheduling that directly affects student comprehension and confidence going into the lab.",
+      "cited_text": "Student 1: Yeah, to be honest, it was a superconducting computer. And to be honest, I don't understand why we do this lab right now when we learn about like ion trap, photonic computers, but not superconducting, so it was a bit confusing to me. ",
       "code": "1.a",
       "theme_id": "1",
       "speakers": [
-        "student 3"
-      ],
-      "turn_ids": [
-        "I03-T007"
-      ]
-    },
-    {
-      "quote_id": "I03-Q002",
-      "rationale": "The student expresses surprise about the impact of moving the table, directly indicating a problem-solving realization during the experiment.",
-      "why_interesting": "It captures a genuine moment of unexpected discovery about how environmental/physical setup factors affect experimental results.",
-      "teaching_implication": "Instructors might use such surprises as teaching moments to discuss experimental control and sources of noise (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 1: Jeg tror, jeg er overrasket over, hvor stor forskel det gjorde at rykke bord. [laughs] ",
-      "code": "1.a",
-      "theme_id": "1",
-      "speakers": [
-        "student 1"
-      ],
-      "turn_ids": [
-        "I03-T011"
-      ]
-    },
-    {
-      "quote_id": "I03-Q003",
-      "rationale": "The student recounts a specific problem (table instability affecting visibility) and the solution (moving to a different table), illustrating direct problem-solving in the lab.",
-      "why_interesting": "It shows the practical, iterative nature of troubleshooting equipment setups to get usable data.",
-      "teaching_implication": "Providing more stable table options from the start, or explaining why stability matters, could reduce troubleshooting time (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 1: Ja, fordi vi startede med det der lille bord, og der var det sådan noget, så skulle vi lige sidde og vente lidt, fordi bordet skulle lige stå stille, så vi kunne se det. Ja, og så rykkede vi over til det andet, og så kunne man bare se det, hvad det så var. ",
-      "code": "1.a",
-      "theme_id": "1",
-      "speakers": [
-        "student 1"
-      ],
-      "turn_ids": [
-        "I03-T013"
-      ]
-    },
-    {
-      "quote_id": "I03-Q004",
-      "rationale": "The student contrasts a coded/data-based approach with a more direct, visual reasoning approach to solving the problem, framing this comparison as an aspect of problem-solving experience.",
-      "why_interesting": "It highlights how visual/direct feedback can support faster reasoning and understanding when equipment isn't perfectly calibrated.",
-      "teaching_implication": "Emphasizing visual, hands-on setups alongside coded data displays might help students build intuition before or alongside quantitative analysis (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "student 2: Ja, et kode program. Så ser du det ind i din picoskop og sætter dem ind og husker hvad akserne betyder og så giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. Det gør jo både at man kan hurtigt, og så kan man forstå det... Det kan også gøre, at hvis man ikke forstår det, så tænker man lige pludselig, hvad der skete, og det er selvfølgelig fint. De linser er ikke 100% perfekte og sådan noget... ",
-      "code": "1.a",
-      "theme_id": "1",
-      "speakers": [
-        "student 2"
-      ],
-      "turn_ids": [
-        "I03-T038"
-      ]
-    },
-    {
-      "quote_id": "I03-Q005",
-      "rationale": "The student describes confusion about why devices could not simply be trusted and how the experiment was set up, reflecting an early problem-solving/orientation struggle in understanding the lab task.",
-      "why_interesting": "It shows how initial disorientation (illness, missing context) can compound confusion about experimental design choices.",
-      "teaching_implication": "Clearer upfront explanations of why certain calibration steps are needed could reduce confusion for students who join late or feel lost (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "student 3: Nå ja, det var bare fordi, hvad er det nu det hedder... Jeg kom bare lidt for set af. Jeg var også lidt småsyg, og så blev jeg smidt ind i, at vi var i gang, så jeg fattede ikke rigtigt, hvad der foregik. Så det var bare, hvordan man lavede forsøget, og hvorfor de var ude af vinklen. Hvorfor kunne man ikke bare stole på dem? Det var det, jeg var meget forvirret over. ",
-      "code": "1.a",
-      "theme_id": "1",
-      "speakers": [
-        "student 3"
-      ],
-      "turn_ids": [
-        "I03-T051"
-      ]
-    },
-    {
-      "quote_id": "I03-Q006",
-      "rationale": "The student describes a hands-on, intuitive way of engaging with the equipment, comparing it to a child's tactile discovery, which reflects an experimentalist/practical identity.",
-      "why_interesting": "The comparison to a child mixing cornstarch and water suggests a joyful, exploratory relationship to physical manipulation of equipment, rather than purely analytical engagement.",
-      "teaching_implication": "Labs could intentionally incorporate open-ended tactile exploration phases to nurture this intuitive experimental style (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "student 1: Jeg synes bare, at det er sådan... Lidt som han også sagde, det bliver sådan lidt mere sådan, du sidder med det i hånden, lidt ligesom sådan en lille barn, der opdager, hvis du blander kartoffelmel og vand. Altså sådan, det bliver meget sådan... [uncertain] Intuitivt, du sidder og drejer på det. Du kan se, hvad der sker, når du sidder og drejer. ",
-      "code": "2.c",
-      "theme_id": "2",
-      "speakers": [
-        "student 1"
-      ],
-      "turn_ids": [
-        "I03-T045"
-      ]
-    },
-    {
-      "quote_id": "I03-Q007",
-      "rationale": "The quote directly names lasers as the equipment used ('lege med lasere'), fitting the laboratory equipment code.",
-      "why_interesting": "The playful phrasing ('lege med' - play with) suggests an informal, enjoyable relationship with sophisticated equipment.",
-      "teaching_implication": "Framing equipment interaction as 'play' in lab instructions might increase student comfort and engagement (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 1: Vi skulle lege med lasere. [laughs] ",
-      "code": "3.a",
-      "theme_id": "3",
-      "speakers": [
-        "student 1"
-      ],
-      "turn_ids": [
-        "I03-T002"
-      ]
-    },
-    {
-      "quote_id": "I03-Q008",
-      "rationale": "The quote explicitly references the mirror and the sensitivity of the setup to touch, directly describing the laboratory equipment's behavior.",
-      "why_interesting": "It reveals the delicate, precision nature of optical equipment where a slight touch could disrupt the whole result.",
-      "teaching_implication": "Instructors could pre-warn students about equipment sensitivity to touch to prevent frustration or repeated setup failures (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 3: Det var mere det med, at man ændrede det en grad, og så tænkte man, det gør jo ikke noget som helst. Og så var der interferens. Og så var det sådan, at når man lige vil have interferens, så lad os lige gå en grad længere ned. Så det var meget... mere det med. Det går meget hurtigt, og hvis man kom til at røre ved spejlen, så wobblede lyset på pladen, fordi det gør jo meget for selv i lyset. ",
-      "code": "3.a",
-      "theme_id": "3",
-      "speakers": [
-        "student 3"
-      ],
-      "turn_ids": [
-        "I03-T007"
-      ]
-    },
-    {
-      "quote_id": "I03-Q009",
-      "rationale": "The mention of the table directly pertains to lab equipment/setup that influenced experimental results.",
-      "why_interesting": "It underscores how seemingly mundane equipment (a table) can be a critical variable in precision optics experiments.",
-      "teaching_implication": "Lab guides might explicitly mention table stability as an equipment consideration for interference experiments (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 1: Jeg tror, jeg er overrasket over, hvor stor forskel det gjorde at rykke bord. [laughs] ",
-      "code": "3.a",
-      "theme_id": "3",
-      "speakers": [
-        "student 1"
-      ],
-      "turn_ids": [
-        "I03-T011"
-      ]
-    },
-    {
-      "quote_id": "I03-Q010",
-      "rationale": "The quote describes switching between two different tables as equipment, directly relating to laboratory equipment code.",
-      "why_interesting": "It shows a concrete example of equipment quality directly affecting the feasibility of observing results.",
-      "teaching_implication": "Ensuring stable equipment/tables are available from the outset could streamline lab sessions (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 1: Ja, fordi vi startede med det der lille bord, og der var det sådan noget, så skulle vi lige sidde og vente lidt, fordi bordet skulle lige stå stille, så vi kunne se det. Ja, og så rykkede vi over til det andet, og så kunne man bare se det, hvad det så var. ",
-      "code": "3.a",
-      "theme_id": "3",
-      "speakers": [
-        "student 1"
-      ],
-      "turn_ids": [
-        "I03-T013"
-      ]
-    },
-    {
-      "quote_id": "I03-Q011",
-      "rationale": "The quote directly compares this lab's pre-set setup to other labs where students had to build the setup themselves, referencing laboratory equipment configuration.",
-      "why_interesting": "It suggests that pre-arranged equipment can free cognitive resources for conceptual exploration rather than technical assembly.",
-      "teaching_implication": "Providing pre-configured equipment setups in some labs may allow more time for conceptual exploration (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 2: Det var ikke sådan, at man kommer ind og tænker, [emphasis] what? Jeg har prøvet andre labgange hvor man sidder og tænker ok, hvordan skal jeg sætte det her op? Setuppet sidder der jo allerede. Så ma er meget fri til at sidde der og lege med det og på den måde få en forståelse for lys. ",
-      "code": "3.a",
-      "theme_id": "3",
-      "speakers": [
-        "student 2"
-      ],
-      "turn_ids": [
-        "I03-T023"
-      ]
-    },
-    {
-      "quote_id": "I03-Q012",
-      "rationale": "The quote references specific equipment (picoskop, code program, lenses) and compares the directness of visual equipment feedback to coded output, tying into laboratory equipment.",
-      "why_interesting": "It reveals a preference for equipment offering direct visual feedback over abstracted digital displays.",
-      "teaching_implication": "Combining visual/direct optical demonstrations with digital measurement tools might help bridge intuitive and quantitative understanding (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 2: Ja, et kode program. Så ser du det ind i din picoskop og sætter dem ind og husker hvad akserne betyder og så giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. Det gør jo både at man kan hurtigt, og så kan man forstå det... Det kan også gøre, at hvis man ikke forstår det, så tænker man lige pludselig, hvad der skete, og det er selvfølgelig fint. De linser er ikke 100% perfekte og sådan noget... ",
-      "code": "3.a",
-      "theme_id": "3",
-      "speakers": [
-        "student 2"
-      ],
-      "turn_ids": [
-        "I03-T038"
-      ]
-    },
-    {
-      "quote_id": "I03-Q013",
-      "rationale": "The quote discusses laser safety practices (not bending down, standing up) directly related to handling laboratory equipment.",
-      "why_interesting": "It shows how safety procedures become part of the memorable equipment experience, even overshadowing conceptual content.",
-      "teaching_implication": "Clear, memorable safety framing (like posture rules) seems to stick with students and could be reinforced deliberately in equipment training (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 3: Ja, det var sjovt nok. Jeg har ikke nogen specielle holdninger til lasere. Noget med, at man ikke rigtig bukke sig ned fordi så får man lasere i øjnene, og så bliver ens syn værre. Og så skulle man stå op. ",
-      "code": "3.a",
-      "theme_id": "3",
-      "speakers": [
-        "student 3"
-      ],
-      "turn_ids": [
-        "I03-T041"
-      ]
-    },
-    {
-      "quote_id": "I03-Q014",
-      "rationale": "The student describes a positive, engaging observation of light interference appearing and disappearing, reflecting a positive learning experience through visual phenomena.",
-      "why_interesting": "It shows how the unpredictable, 'chaotic' visual behavior of light sparked deeper conceptual reflection on wave interference.",
-      "teaching_implication": "Encouraging students to observe and reflect on unexpected or unstable phenomena might deepen conceptual understanding of wave behavior (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 3: Mere det visuelle med lys, der faktisk begyndte at interferere. Og så lige pludselig gjorde den det ikke. Og så lige pludselig forsvandt det bare. Det var meget kaotisk på en eller anden måde. Så tænkte man meget mere over, at det faktisk var de der to bølger. ",
-      "code": "3.b",
-      "theme_id": "3",
-      "speakers": [
-        "student 3"
-      ],
-      "turn_ids": [
-        "I03-T005"
-      ]
-    },
-    {
-      "quote_id": "I03-Q015",
-      "rationale": "The student states a new realization that light is more chaotic than expected, directly reflecting a positive learning takeaway from the experiment.",
-      "why_interesting": "It captures a shift in the student's mental model of light from orderly to chaotic, a core conceptual insight from the lab.",
-      "teaching_implication": "Highlighting this 'chaotic' aspect of light explicitly in lab framing could help other students anticipate and value such insights (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 3: Ja, at lys faktisk er mere kaotisk, end man lige troede det, at der var. ",
-      "code": "3.b",
-      "theme_id": "3",
-      "speakers": [
-        "student 3"
-      ],
-      "turn_ids": [
-        "I03-T009"
-      ]
-    },
-    {
-      "quote_id": "I03-Q016",
-      "rationale": "The student explicitly says it's 'fedt' (great) that the lab focuses on understanding and free exploration, directly indicating a positive learning experience.",
-      "why_interesting": "It shows how the freedom to explore before formal explanation supports a sense of ownership over learning.",
-      "teaching_implication": "Structuring labs to allow open exploration before formal explanation could increase student engagement with concepts (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 1: Jeg synes i hvert fald at det er fedt at det handler meget om forståelse. Fordi så er det meget sådan, så kan du bare starte at lege lidt med det, og så er det ret frit, og så er det sådan lidt mere sådan, hov, hvorfor gør det det? Og så kan du finde ud af, hvorfor det gør det. ",
-      "code": "3.b",
-      "theme_id": "3",
-      "speakers": [
-        "student 1"
-      ],
-      "turn_ids": [
-        "I03-T024"
-      ]
-    },
-    {
-      "quote_id": "I03-Q017",
-      "rationale": "The student describes how visual, direct interaction supports understanding ('så giver det mening'), reflecting a positive learning experience.",
-      "why_interesting": "It highlights a specific cognitive benefit of visual/direct methods over abstracted code-based approaches for building understanding.",
-      "teaching_implication": "Labs could pair coded data outputs with direct visual demonstrations to strengthen conceptual grounding (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 2: Ja, et kode program. Så ser du det ind i din picoskop og sætter dem ind og husker hvad akserne betyder og så giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. Det gør jo både at man kan hurtigt, og så kan man forstå det... Det kan også gøre, at hvis man ikke forstår det, så tænker man lige pludselig, hvad der skete, og det er selvfølgelig fint. De linser er ikke 100% perfekte og sådan noget... ",
-      "code": "3.b",
-      "theme_id": "3",
-      "speakers": [
-        "student 2"
-      ],
-      "turn_ids": [
-        "I03-T038"
-      ]
-    },
-    {
-      "quote_id": "I03-Q018",
-      "rationale": "The student describes an intuitive, hands-on discovery process that led to positive engagement with the equipment and understanding.",
-      "why_interesting": "The child/cornstarch analogy suggests learning through embodied, playful discovery rather than formal instruction.",
-      "teaching_implication": "Lab design could intentionally include open-ended manipulation phases reminiscent of playful discovery to enhance intuitive learning (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "student 1: Jeg synes bare, at det er sådan... Lidt som han også sagde, det bliver sådan lidt mere sådan, du sidder med det i hånden, lidt ligesom sådan en lille barn, der opdager, hvis du blander kartoffelmel og vand. Altså sådan, det bliver meget sådan... [uncertain] Intuitivt, du sidder og drejer på det. Du kan se, hvad der sker, når du sidder og drejer. ",
-      "code": "3.b",
-      "theme_id": "3",
-      "speakers": [
-        "student 1"
-      ],
-      "turn_ids": [
-        "I03-T045"
-      ]
-    },
-    {
-      "quote_id": "I03-Q019",
-      "rationale": "The playful phrase 'lege med lasere' (play with lasers) directly expresses enjoyment and engagement with the lab activity.",
-      "why_interesting": "It reflects a light-hearted, positive emotional tone toward handling potentially intimidating equipment like lasers.",
-      "teaching_implication": "Framing lab tasks with playful language may help reduce intimidation around advanced equipment (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 1: Vi skulle lege med lasere. [laughs] ",
-      "code": "3.c",
-      "theme_id": "3",
-      "speakers": [
-        "student 1"
-      ],
-      "turn_ids": [
-        "I03-T002"
-      ]
-    },
-    {
-      "quote_id": "I03-Q020",
-      "rationale": "The student states it was 'rart' (nice) to know the lab took place at NBI, directly expressing positive engagement tied to the setting.",
-      "why_interesting": "It suggests that the prestige or specific location of the lab contributed to the student's enjoyment, beyond just the content.",
-      "teaching_implication": "Highlighting the significance or institutional context of a lab location might enhance student engagement (speculative).",
-      "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 1: Jeg tror, det var meget rart at vide, at det var på NBI. [laughs] ",
-      "code": "3.c",
-      "theme_id": "3",
-      "speakers": [
-        "student 1"
+        "Student 1"
       ],
       "turn_ids": [
         "I03-T015"
       ]
     },
     {
-      "quote_id": "I03-Q021",
-      "rationale": "The student explicitly says it's 'fedt' (cool/great) that the lab is about understanding and free exploration, directly indicating enjoyment and engagement.",
-      "why_interesting": "It shows enjoyment is tied specifically to the freedom and curiosity-driven nature of the activity, not just the content itself.",
-      "teaching_implication": "Preserving open-ended, curiosity-driven exploration phases in labs may sustain student enjoyment and engagement (speculative).",
+      "quote_id": "I03-Q002",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 1: Jeg synes i hvert fald at det er fedt at det handler meget om forståelse. Fordi så er det meget sådan, så kan du bare starte at lege lidt med det, og så er det ret frit, og så er det sådan lidt mere sådan, hov, hvorfor gør det det? Og så kan du finde ud af, hvorfor det gør det. ",
-      "code": "3.c",
-      "theme_id": "3",
+      "rationale": "The student explains that doing the lab before the relevant lecture material meant facing 'lots of new stuff' and suggests reordering would ease the problem-solving process, while crediting the TA's patience.",
+      "why_interesting": "It shows how sequencing issues can be partially mitigated by supportive TA guidance, revealing a coping strategy for a structural gap in preparation.",
+      "cited_text": "Student 1: Usually, yeah, the other type of computers, we learned about both of them. In this lecture, but superconducting will, I don't know, be next week or week after, and we do this lab right now. So maybe it would be easier to do this lab after you have some basic knowledge about like what's going on. So right now, yeah, it was lots of new stuff to me. But yeah, the TA was kind of patient and I think they explained everything, yeah, so. I would say.\n\ninterviewer\nI guess building on that, can you talk me through like the specific challenges you faced? ",
+      "code": "1.a",
+      "theme_id": "1",
       "speakers": [
-        "student 1"
+        "Student 1"
       ],
       "turn_ids": [
-        "I03-T024"
+        "I03-T022"
+      ]
+    },
+    {
+      "quote_id": "I03-Q003",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student describes the topic name as 'scary' but notes most of the tested material was already covered in lecture, indicating the actual problem-solving challenge was smaller than anticipated.",
+      "why_interesting": "It reveals a gap between perceived difficulty (based on topic framing) and actual difficulty once engaging with the content, which is useful for managing student expectations.",
+      "cited_text": "Student 3: I think like the name of the whole lab topic was pretty scary because it was about superconducting qubits that we weren't taught still, but the actual like what we were being tested on were things that were mostly taught on our lectures till this far. But when we came here, it was pretty new to us what we were going to face. But I don't think that the material we did here was something we haven't seen already. I think 80%.\n\ninterviewer\nSo how did it go, like filling in the blanks that you had to figure out yourself today? ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 3"
+      ],
+      "turn_ids": [
+        "I03-T030"
+      ]
+    },
+    {
+      "quote_id": "I03-Q004",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student describes specific technical confusion about frequency selection in superconducting hardware compared to laser-based systems, illustrating a concrete problem-solving challenge encountered during the lab.",
+      "why_interesting": "It shows how unfamiliarity with one hardware platform (superconducting vs. photonic) created a specific conceptual sticking point during hands-on work.",
+      "cited_text": "Student 1: By connecting to that, for example, it was confusing to me. Like the hardware was superconducting and other solutions, for example, don't have like this resonant frequency. They're using lasers or something. So it was like also, you know, okay, at what frequency to sit and where and that. So and this was mostly for the hardware, I think. So yeah. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T031"
+      ]
+    },
+    {
+      "quote_id": "I03-Q005",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student credits advance discussion time and TA support as helpful for problem-solving during the actual experiment, directly addressing how challenges were navigated.",
+      "why_interesting": "It underscores the role of structured pre-lab discussion time in supporting student problem-solving, not just TA presence alone.",
+      "cited_text": "Student 4: I think it helped a lot with what we did during the actual experiments that there was ample time to sort of discuss what we're doing in advance. And the person present, the TA, I think helped a lot with helping us understand what's going on.\n\ninterviewer\nRight. Do you feel like your TA could help you understand the stuff that you had a hard time getting? ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 4"
+      ],
+      "turn_ids": [
+        "I03-T032"
+      ]
+    },
+    {
+      "quote_id": "I03-Q006",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student describes assembling part of the setup yet still not understanding the underlying structure or architecture, indicating an unresolved problem-solving gap despite hands-on participation.",
+      "why_interesting": "It reveals a disconnect between physically performing a lab task and achieving conceptual understanding, which is a notable tension in experiential learning.",
+      "cited_text": "Student 1: In Hungary, we came from Hungary, both of us, and that's part of the lab was like you put together the setup and I understand like it's a million of... kroner, but still, like, I don't feel like now I know exactly how the things going on a structure or an architecture point of view. So yeah, it's kind of annoying, I would say. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T057"
+      ]
+    },
+    {
+      "quote_id": "I03-Q007",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student explicitly expresses a desire for more practical, hands-on activities like extracting information or building circuits, contrasting this with the theorem-proving focus of coursework, which reflects an experimentalist identity.",
+      "why_interesting": "It captures a student's frustration that theoretical mastery alone does not fulfill their desire to engage practically with quantum hardware.",
+      "cited_text": "Student 1: I would also like just do some practical things. So right now I feel like that was what we learned, theorems, what we accept and run, okay, and like this kind of like proving what we did so far, but not like, okay, now how to use a computer, like how to, you know, extract information or do some circuits on it or... And I miss it, miss that, to be honest. So, maybe it's another course, but still it's proving theorems in a quantum computer is not much useful. ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T037"
+      ]
+    },
+    {
+      "quote_id": "I03-Q008",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student states their interest in seeing how quantum concepts are 'physically implemented' and getting 'practical things,' directly expressing an experimentalist orientation.",
+      "why_interesting": "It shows how a student's disciplinary background (QIS) shapes their motivation for wanting hands-on physical implementation experience.",
+      "cited_text": "Student 1: I came from QIS, so I was just interested how this physically implemented these things, like get some practical things, but nothing further.\n\ninterviewer\nAnd even if you have your master's thesis planned, you couldn't see yourself in the future, like in a job or in a PhD where you would use something like this? ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T042"
+      ]
+    },
+    {
+      "quote_id": "I03-Q009",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student expresses enthusiasm for doing experiments with different qubit types and identifies as more interested in 'the physical side of things and the physical implementations,' marking a clear experimentalist identity.",
+      "why_interesting": "It shows a student differentiating between platforms (optics vs. superconducting) while still affirming a broader identity centered on physical experimentation.",
+      "cited_text": "Student 4: I think I would love to do some experiments like this in different types of qubits since I'm also looking into quantum information science but I have a more physical background and I'm more interested in the physical side of things and the physical implementations and I'm not really planning on getting back to the industry at least not immediately. So I think this would be something I'd be interested in but I'm more interested in quantum optics, quantum photonics, or quantum light. So that's sort of quantum qubits based on more on that area, based more on optics rather than these superconducting chips that we used today. ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "Student 4"
+      ],
+      "turn_ids": [
+        "I03-T046"
+      ]
+    },
+    {
+      "quote_id": "I03-Q010",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student contrasts abstract theory with an inability to 'actually build things in a lab,' expressing that pressing buttons does not satisfy their desire for hands-on construction, which relates to an experimentalist identity left unfulfilled.",
+      "why_interesting": "It reveals a tension between wanting genuine hands-on building experience and the reality of automated or restricted lab procedures.",
+      "cited_text": "Student 1: Like maybe this whole quantum thing is too abstract, but I don't feel like I can actually build things in a lab. I think it's like kind of important. Like you do the theory to like, okay, how to connect things. And now I just feel like, you know, press the button. Yeah, it's very press the button again. And it was like... ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T055"
+      ]
+    },
+    {
+      "quote_id": "I03-Q011",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student's account of assembling part of an expensive setup without gaining structural or architectural understanding reflects a partially realized experimentalist experience.",
+      "why_interesting": "It illustrates that even physical assembly tasks can leave students feeling they haven't achieved the deeper practical understanding they associate with being a hands-on experimentalist.",
+      "cited_text": "Student 1: In Hungary, we came from Hungary, both of us, and that's part of the lab was like you put together the setup and I understand like it's a million of... kroner, but still, like, I don't feel like now I know exactly how the things going on a structure or an architecture point of view. So yeah, it's kind of annoying, I would say. ",
+      "code": "2.c",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T057"
+      ]
+    },
+    {
+      "quote_id": "I03-Q012",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student describes the specific equipment and procedure—using microwaves to calibrate a superconducting qubit and sweeping frequency and amplitude—directly referencing laboratory equipment and its use.",
+      "why_interesting": "It provides a detailed, technically precise account of the equipment-driven calibration procedure central to the lab.",
+      "cited_text": "Student 4: So the first part of calibrating our qubit was done by using microwaves. Because these are superconducting qubits with the difference between the ground and excited state being in the gigahertz territory. So we can sort of change the state of our qubit using microwaves. And basically, that's the first half of what we did that we applied some sort of microwave with a given amplitude, time, and then sweep the frequency. Then did it for the amplitude as well with constant frequency and time, and measured where there's a maximum probability of the qubit going from ground to excited state.\n\ninterviewer\nRight. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 4"
+      ],
+      "turn_ids": [
+        "I03-T011"
+      ]
+    },
+    {
+      "quote_id": "I03-Q013",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student explicitly states they used a real quantum computer rather than a simulator, directly referencing the laboratory equipment used.",
+      "why_interesting": "It highlights that students valued or noted the distinction between real hardware and simulated experiences as part of their lab equipment experience.",
+      "cited_text": "Student 3: We used the quantum computer, so we didn't use a simulator. And we took like real values to evaluate also the dephasing, the detuning, and anything related to how can qubits like change states and be affected. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 3"
+      ],
+      "turn_ids": [
+        "I03-T014"
+      ]
+    },
+    {
+      "quote_id": "I03-Q014",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student references putting together the physical setup and its high monetary value, directly relating to the laboratory equipment involved.",
+      "why_interesting": "It shows how awareness of the equipment's cost and complexity shaped the student's perception of the hands-on experience with the equipment.",
+      "cited_text": "Student 1: In Hungary, we came from Hungary, both of us, and that's part of the lab was like you put together the setup and I understand like it's a million of... kroner, but still, like, I don't feel like now I know exactly how the things going on a structure or an architecture point of view. So yeah, it's kind of annoying, I would say. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T057"
+      ]
+    },
+    {
+      "quote_id": "I03-Q015",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student remarks that the experience 'might as well could have been simulated data,' directly commenting on the nature and limitations of the laboratory equipment used.",
+      "why_interesting": "It surfaces a critical perception that the real hardware interaction felt indistinguishable from simulation, raising questions about the perceived authenticity of hands-on equipment use.",
+      "cited_text": "Student 5: Might as well could have been simulated data for the purpose because we did. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 5"
+      ],
+      "turn_ids": [
+        "I03-T058"
+      ]
+    },
+    {
+      "quote_id": "I03-Q016",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student notes that the difference between real equipment and simulation would not have been noticeable, and that control was via an internet page, directly describing the nature of interaction with the laboratory equipment.",
+      "why_interesting": "It reveals that remote/indirect control of equipment can blur the line between authentic and simulated experimental experiences for students.",
+      "cited_text": "Student 5: No, you wouldn't have noticed. We would not have noticed. We even controlled it through internet page. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 5"
+      ],
+      "turn_ids": [
+        "I03-T062"
+      ]
+    },
+    {
+      "quote_id": "I03-Q017",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student's succinct description 'Completely no touchy' directly characterizes the hands-off nature of interacting with the laboratory equipment.",
+      "why_interesting": "It emphasizes, in a memorable phrase, students' awareness of and possible dissatisfaction with the non-tactile nature of working with sensitive quantum hardware.",
+      "cited_text": "Student 5: Completely no touchy.\n\ninterviewer\nRight. That makes sense. Do you have any recommendations for what we could do or how to improve? Like, because it's sort of hard to, you know, the qubit has to be in there and it has to be like closed off and stuff. So do you have any recommendations for how we could make it more hands-on? ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 5"
+      ],
+      "turn_ids": [
+        "I03-T066"
+      ]
+    },
+    {
+      "quote_id": "I03-Q018",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student's suggestion for a 'life simulation' of the equipment's inner workings and mention of only seeing temperature readouts directly pertains to the laboratory equipment and its visibility to students.",
+      "why_interesting": "It highlights a specific student-generated idea for improving engagement with equipment that is otherwise inaccessible to direct observation.",
+      "cited_text": "Student 3: I don't know, like a kind of life simulation, how the inside of it works would be pretty cool. Like, we only got to see the inside when we were looking up at the temperatures, but that was only that. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 3"
+      ],
+      "turn_ids": [
+        "I03-T067"
+      ]
+    },
+    {
+      "quote_id": "I03-Q019",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student references the cryostat and reflects on the appropriate distance between students and the delicate real qubit chip equipment, directly discussing the laboratory equipment setup.",
+      "why_interesting": "It shows a student rationalizing equipment access restrictions as a sensible trade-off given the value and fragility of real quantum hardware.",
+      "cited_text": "Student 4: Yeah, true. That was only the cryostat. I don't know, I liked the lab exercise today and right now I don't really see what should be changed because this is still an introductory course of the whole systems that we are working with. So I think it makes sense that there should be a distance between like how much a student can break. [laughs] And I think because it still offers of motivation that knowing that we're working with a real qubit chip here. I think that's very nice. And I think it's also a good idea not to let us like, of course, I'm a little bit like, oh man, I wish I could have done my own, programmed my own experiment and tried that or that could break something.\n\ninterviewer\nOkay, cool. Thank you. I don't think I have anything else. I'm going to ask you to write down your names and emails, and then maybe we will reach out again if we need something. Thank you. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 4"
+      ],
+      "turn_ids": [
+        "I03-T068"
+      ]
+    },
+    {
+      "quote_id": "I03-Q020",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student states that explanations were clear and that most group members had good understanding, directly describing a positive learning experience.",
+      "why_interesting": "It suggests that peer comprehension level contributed to a shared sense of confidence and positive engagement during the lab.",
+      "cited_text": "Student 5: They explained things very nicely. And I think it also helped that I feel like most of us had a genuinely good understanding of what was going on. So we were not completely lost.\n\ninterviewer\nThank you. If you had to go back in there tomorrow and have three more hours to explore a bit more freely, do you have any ideas of what you would do? ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 5"
+      ],
+      "turn_ids": [
+        "I03-T035"
+      ]
+    },
+    {
+      "quote_id": "I03-Q021",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student states it was 'neat,' expresses liking being in the lab, and explains that tying concepts to exercises makes them easier to remember and more motivating, directly describing a positive learning experience.",
+      "why_interesting": "It illustrates how experiential, applied learning can enhance both motivation and retention compared to purely theoretical exercises.",
+      "cited_text": "Student 2: I think it was neat. [emphasis] I really like being in my lab. [laughs] I think it's much easier to remember the concepts when they're tied to doing an exercise like this. I'm much more motivated to listen when I know it's not just some exercise.\n\ninterviewer\nWhat's your general feelings about being in the lab? ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I03-T047"
       ]
     },
     {
       "quote_id": "I03-Q022",
-      "rationale": "The student directly states enjoyment ('det var fedt') related to embodying or acting as a laser, showing engagement with an experiential/role-based activity.",
-      "why_interesting": "It suggests embodied or role-play elements in the lab (acting as a laser) can be memorable and enjoyable for students.",
-      "teaching_implication": "Incorporating embodied or role-play analogies into physics instruction might increase engagement (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "student 1: Jeg synes, det var fedt at være en laser. ",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student's expressed enjoyment ('I really like being in my lab') and increased motivation to engage directly reflect enjoyment and engagement with the lab activity.",
+      "why_interesting": "It shows how the lab format itself can be a source of motivation independent of the specific content being taught.",
+      "cited_text": "Student 2: I think it was neat. [emphasis] I really like being in my lab. [laughs] I think it's much easier to remember the concepts when they're tied to doing an exercise like this. I'm much more motivated to listen when I know it's not just some exercise.\n\ninterviewer\nWhat's your general feelings about being in the lab? ",
       "code": "3.c",
       "theme_id": "3",
       "speakers": [
-        "student 1"
+        "Student 2"
       ],
       "turn_ids": [
-        "I03-T040"
+        "I03-T047"
       ]
     },
     {
       "quote_id": "I03-Q023",
-      "rationale": "The student describes the experience as 'sjovt' (fun), directly indicating enjoyment tied to laser safety practices during the lab.",
-      "why_interesting": "It shows that even procedural/safety aspects of the lab (posture rules around lasers) can be recalled with a sense of fun.",
-      "teaching_implication": "Safety instructions delivered with some levity may be more memorable and less anxiety-inducing (speculative).",
       "interpretation_grounded_in": "quote_text_only",
-      "cited_text": "student 3: Ja, det var sjovt nok. Jeg har ikke nogen specielle holdninger til lasere. Noget med, at man ikke rigtig bukke sig ned fordi så får man lasere i øjnene, og så bliver ens syn værre. Og så skulle man stå op. ",
+      "rationale": "The brief, direct rating of '10 out of 10' explicitly conveys strong enjoyment and engagement with the lab experience.",
+      "why_interesting": "The unambiguous top rating stands out as a strong, unqualified expression of student satisfaction.",
+      "cited_text": "Student 2: 10 out of 10. ",
       "code": "3.c",
       "theme_id": "3",
       "speakers": [
-        "student 3"
+        "Student 2"
       ],
       "turn_ids": [
-        "I03-T041"
+        "I03-T048"
       ]
     },
     {
       "quote_id": "I03-Q024",
-      "rationale": "The student describes finding another group's quantum computer-related diagram 'ret sejt' (pretty cool), directly reflecting enjoyment and engagement with lab content beyond their own task.",
-      "why_interesting": "It shows engagement extending beyond the assigned task to curiosity about peers' more advanced work, and its role in future specialization considerations.",
-      "teaching_implication": "Creating opportunities for students to observe and discuss peers' related but more advanced projects could spark broader interest and engagement (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "student 3: Jeg stod lidt mest, da vi var derinde, og så kiggede jeg på en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men så sad jeg og så var jeg sådan lidt, jeg synes allerede det er meget besværligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men så ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. Nå, det var den kvantekomputer, tror jeg. Så det virkede ret sejt. Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student's exclamation 'That was amazing' alongside a perfect numeric rating directly expresses high enjoyment and engagement.",
+      "why_interesting": "It reflects an enthusiastic, emotionally charged endorsement of the lab experience that goes beyond neutral satisfaction.",
+      "cited_text": "Student 5: 10 out of 10. That was amazing. ",
       "code": "3.c",
       "theme_id": "3",
       "speakers": [
-        "student 3"
+        "Student 5"
       ],
       "turn_ids": [
         "I03-T049"
@@ -387,15 +363,14 @@
     },
     {
       "quote_id": "I03-Q025",
-      "rationale": "The student expresses excitement ('det er jo bare sejt') about seeing a more complex experiment, directly reflecting enjoyment and engagement with the broader lab environment.",
-      "why_interesting": "The comparison to a 'skrå bold' (angled throw) experiment shows how students contextualize their own simpler tasks against more advanced work, fostering aspiration.",
-      "teaching_implication": "Exposing students to a range of experiment complexities in the same session might inspire curiosity about future coursework (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "student 3: Ja, og så kiggede jeg over, og så var jeg sådan lidt, wow, det er meget mere kompleks agtigt. Det er jo bare sejt. Og jeg synes allerede mere, at det er lidt svært. Det er jo lidt ligesom, man står, når man laver en skrå bold, og så kigger man på nogle, der laver et meget mere avanceret... Det var et ret sejt forsøg. Jeg står bare med min skrå bold (skråt kast) her. Så har man ligesom noget man kan se frem til. ",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student describes the experience as 'nice' but also 'a bit stressful,' capturing a mixed but still engagement-related emotional response to the lab.",
+      "why_interesting": "It shows that positive engagement can coexist with stress, suggesting the lab was demanding as well as enjoyable.",
+      "cited_text": "Student 5: I think it was nice. It was a bit stressful for me maybe. ",
       "code": "3.c",
       "theme_id": "3",
       "speakers": [
-        "student 3"
+        "Student 5"
       ],
       "turn_ids": [
         "I03-T053"
@@ -403,34 +378,92 @@
     },
     {
       "quote_id": "I03-Q026",
-      "rationale": "The student connects the lab experience to broader applications like informatics and signal transmission, directly reflecting perceived usefulness of the lab content.",
-      "why_interesting": "It shows how a hands-on lab activity can prompt students to connect small-scale demonstrations to large-scale real-world technological systems.",
-      "teaching_implication": "Explicitly linking lab activities to real-world applications (e.g., signal processing) could reinforce perceived relevance (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "student 2: Hvis man hører et eller andet fra de ældre studerende, der også sidder og leger med laser, når de præsenterer, når de kommer videre. Jeg tænker, at det er meget med [uncertain] informatic, hvordan signalerne bliver sendt rundt. Det er jo bare, hvordan man skalerer helt op, hvad der kan sker i de mindre komponenter, så det bliver meget tydeligt, hvad der sker. Og så i den forståelse gå videre med det. Jeg kan jo godt være vi ikke kan se det, men det er altså også sådan nogle komponenter her. ",
-      "code": "3.d",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student states 'I liked the lab exercise today,' directly expressing enjoyment, while also reflecting engagement with the rationale behind equipment restrictions.",
+      "why_interesting": "It shows a student balancing enjoyment of the activity with an understanding of practical constraints on hands-on access, suggesting mature engagement with the lab's design.",
+      "cited_text": "Student 4: Yeah, true. That was only the cryostat. I don't know, I liked the lab exercise today and right now I don't really see what should be changed because this is still an introductory course of the whole systems that we are working with. So I think it makes sense that there should be a distance between like how much a student can break. [laughs] And I think because it still offers of motivation that knowing that we're working with a real qubit chip here. I think that's very nice. And I think it's also a good idea not to let us like, of course, I'm a little bit like, oh man, I wish I could have done my own, programmed my own experiment and tried that or that could break something.\n\ninterviewer\nOkay, cool. Thank you. I don't think I have anything else. I'm going to ask you to write down your names and emails, and then maybe we will reach out again if we need something. Thank you. ",
+      "code": "3.c",
       "theme_id": "3",
       "speakers": [
-        "student 2"
+        "Student 4"
       ],
       "turn_ids": [
-        "I03-T047"
+        "I03-T068"
       ]
     },
     {
       "quote_id": "I03-Q027",
-      "rationale": "The student explicitly frames the lab as a 'god introduktion' (good introduction) that will inform future specialization decisions, directly reflecting perceived usefulness.",
-      "why_interesting": "It shows how exposure to advanced related work during a lab session can serve as a meaningful signal for future academic/career choices.",
-      "teaching_implication": "Structuring labs to expose students to a range of related advanced topics could support informed specialization decisions later (speculative).",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "cited_text": "student 3: Jeg stod lidt mest, da vi var derinde, og så kiggede jeg på en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men så sad jeg og så var jeg sådan lidt, jeg synes allerede det er meget besværligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men så ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. Nå, det var den kvantekomputer, tror jeg. Så det virkede ret sejt. Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student explicitly states the lab content is 'not at all' relevant because their thesis is in a different area, directly addressing perceived usefulness.",
+      "why_interesting": "It shows how a student's future academic plans can directly shape their perception of a lab's relevance, regardless of the lab's intrinsic quality.",
+      "cited_text": "Student 5: I say not at all because I have already planned my master's. Or my thesis, and it's going to be in a different area, so it's not going to be related. ",
       "code": "3.d",
       "theme_id": "3",
       "speakers": [
-        "student 3"
+        "Student 5"
       ],
       "turn_ids": [
-        "I03-T049"
+        "I03-T041"
+      ]
+    },
+    {
+      "quote_id": "I03-Q028",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student's statement that they were 'just interested' in physical implementation 'but nothing further' implies a limited perceived usefulness beyond curiosity.",
+      "why_interesting": "It suggests that some students engage with the lab purely out of intellectual curiosity rather than seeing it as career-relevant.",
+      "cited_text": "Student 1: I came from QIS, so I was just interested how this physically implemented these things, like get some practical things, but nothing further.\n\ninterviewer\nAnd even if you have your master's thesis planned, you couldn't see yourself in the future, like in a job or in a PhD where you would use something like this? ",
+      "code": "3.d",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T042"
+      ]
+    },
+    {
+      "quote_id": "I03-Q029",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student's tentative response 'I probably would, but I don't know. I think it's too early' directly addresses uncertainty about the future usefulness of the lab content.",
+      "why_interesting": "It captures the uncertainty many students feel about how current lab experiences will translate into future usefulness, given their early career stage.",
+      "cited_text": "Student 3: I probably would, but I don't know. I think it's too early. ",
+      "code": "3.d",
+      "theme_id": "3",
+      "speakers": [
+        "Student 3"
+      ],
+      "turn_ids": [
+        "I03-T043"
+      ]
+    },
+    {
+      "quote_id": "I03-Q030",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student explicitly states a plan to return to industry and expresses doubt about how this knowledge could be used in research or a PhD, directly addressing perceived usefulness.",
+      "why_interesting": "It highlights a disconnect between academic lab content and a student's intended non-academic career path.",
+      "cited_text": "Student 1: I want to go back to the industry. I couldn't see how I could use this kind of knowledge maybe in this research or go to PhD… ",
+      "code": "3.d",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I03-T045"
+      ]
+    },
+    {
+      "quote_id": "I03-Q031",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student expresses interest in doing similar experiments with different qubit types while clarifying their specific interest lies more in quantum optics/photonics than superconducting chips, directly speaking to perceived usefulness relative to their specialization.",
+      "why_interesting": "It shows nuanced perceived usefulness where the general experimental approach is valued but the particular hardware platform is seen as less aligned with the student's interests.",
+      "cited_text": "Student 4: I think I would love to do some experiments like this in different types of qubits since I'm also looking into quantum information science but I have a more physical background and I'm more interested in the physical side of things and the physical implementations and I'm not really planning on getting back to the industry at least not immediately. So I think this would be something I'd be interested in but I'm more interested in quantum optics, quantum photonics, or quantum light. So that's sort of quantum qubits based on more on that area, based more on optics rather than these superconducting chips that we used today. ",
+      "code": "3.d",
+      "theme_id": "3",
+      "speakers": [
+        "Student 4"
+      ],
+      "turn_ids": [
+        "I03-T046"
       ]
     }
   ]

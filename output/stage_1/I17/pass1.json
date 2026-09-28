@@ -1,0 +1,285 @@
+{
+  "interview_id": "I17",
+  "quotes": [
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: I agree. in the first like 2 tasks, honestly, but also because probably I didn't read the paper to come here and so maybe it's also that, but I was a bit lost. Like it was very... A lot. I've never seen any of this stuff and so I was quite confused. But then, as she said, like with the time and with the possibility of asking questions, then I kind of got like tuned in the situation and then it felt very good. I think I understood and it was good what we did. So yeah.\n\nInterviewer\nBut you said that it was at the beginning a bit confusing? ",
+      "turn_ids": [
+        "I17-T009"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I17-Q001"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: For me at the beginning I didn't quite understand what we like all this instrument... But maybe because it was also the first time for me seeing some lasers and stuff. ",
+      "turn_ids": [
+        "I17-T010"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I17-Q002"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Because then I was like, Okay, guys, this is okay. Also, the oscilloscope, like I saw it in my bachelor, but not really, so it took me some time to know what was I seeing on it, and yeah.\n\nInterviewer\nNo, of course. When you came into something like: I really don't know what that is, what did you do? ",
+      "turn_ids": [
+        "I17-T014"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I17-Q003"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: I asked all of them or to that. Yes.\n\nInterviewer\nWere you looking it up or using any other resources? ",
+      "turn_ids": [
+        "I17-T016"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I17-Q004"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: I think every time it got kind of hard, the 10 minutes were already almost up. So, yeah, I think. ",
+      "turn_ids": [
+        "I17-T018"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I17-Q005"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: No, like the no, honestly not like the data, like analyzing the data and seeing data, yes. But the fact that I put a mirror here instead of here and that it's not aligned or this, not that much. But maybe I feel that also like it's because it's a lot to understand in such a short time. Like I would say that maybe if you do, I don't know, a thesis here, you will have a lot of time to understand it and maybe it will become also a challenge and so it will become interesting. But right now I enter here in a lot of details, I'm like, okay, I trust that this is happening this way.\n\nInterviewer\nSo technicalities and details were a little bit in the way from actually playing around and thinking about enjoying it, let's say? ",
+      "turn_ids": [
+        "I17-T031"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I17-Q006"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 2: I mean, I like it that it was a bit technical in the beginning, but I also want to do experimental, so I mean, it kind of makes sense. ",
+      "turn_ids": [
+        "I17-T033"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I17-Q007"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 2: I want to do optics.\n\nInterviewer\nNice. Yeah. Okay, so this was a bit more intuitive? ",
+      "turn_ids": [
+        "I17-T049"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I17-Q008"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: For me at the beginning I didn't quite understand what we like all this instrument... But maybe because it was also the first time for me seeing some lasers and stuff. ",
+      "turn_ids": [
+        "I17-T010"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I17-Q009"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: No, but I've seen that. I've seen an optics table before. ",
+      "turn_ids": [
+        "I17-T012"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I17-Q010"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Because then I was like, Okay, guys, this is okay. Also, the oscilloscope, like I saw it in my bachelor, but not really, so it took me some time to know what was I seeing on it, and yeah.\n\nInterviewer\nNo, of course. When you came into something like: I really don't know what that is, what did you do? ",
+      "turn_ids": [
+        "I17-T014"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I17-Q011"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: I don't know if it's like a specific part because it was the second-half of the lab. But when we watched the, when we started watching the oscilloscope and understanding what was going on and changing stuff, then for me it was more interesting. Than like understanding, I don't know if here there is a mirror where the light goes. In that part I was a bit more like, okay... [unsure]\n\nInterviewer\nWhat for you guys? ",
+      "turn_ids": [
+        "I17-T026"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I17-Q012"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: No, like the no, honestly not like the data, like analyzing the data and seeing data, yes. But the fact that I put a mirror here instead of here and that it's not aligned or this, not that much. But maybe I feel that also like it's because it's a lot to understand in such a short time. Like I would say that maybe if you do, I don't know, a thesis here, you will have a lot of time to understand it and maybe it will become also a challenge and so it will become interesting. But right now I enter here in a lot of details, I'm like, okay, I trust that this is happening this way.\n\nInterviewer\nSo technicalities and details were a little bit in the way from actually playing around and thinking about enjoying it, let's say? ",
+      "turn_ids": [
+        "I17-T031"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I17-Q013"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: And a lot of details, like how this whole chamber of atoms works, which gives rise to this decay that we've been talking a lot about now. It's a lot of details which are mostly relevant for the experimentalists who will be working with it, but it's just... two hours here, three hours, just been shown with small details. Oh yeah, this doesn't work. Oh yeah, the Pockels cell is not turned on. Thank you. That was like an hour into the session. A lot of small details could probably have been given out beforehand. To kind of better understanding. ",
+      "turn_ids": [
+        "I17-T037"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I17-Q014"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: I agree. in the first like 2 tasks, honestly, but also because probably I didn't read the paper to come here and so maybe it's also that, but I was a bit lost. Like it was very... A lot. I've never seen any of this stuff and so I was quite confused. But then, as she said, like with the time and with the possibility of asking questions, then I kind of got like tuned in the situation and then it felt very good. I think I understood and it was good what we did. So yeah.\n\nInterviewer\nBut you said that it was at the beginning a bit confusing? ",
+      "turn_ids": [
+        "I17-T009"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I17-Q015"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: I don't know if it's like a specific part because it was the second-half of the lab. But when we watched the, when we started watching the oscilloscope and understanding what was going on and changing stuff, then for me it was more interesting. Than like understanding, I don't know if here there is a mirror where the light goes. In that part I was a bit more like, okay... [unsure]\n\nInterviewer\nWhat for you guys? ",
+      "turn_ids": [
+        "I17-T026"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I17-Q016"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: I mean, I thought it was really nice that we always got time to think about it ourselves, because for me that's usually better to than ask questions afterwards because it's sometimes easy to say, I understand it if someone tells you what to do and you don't actually have. So it's nice to first ask yourself and then ask the TAs the questions. I like that. And I also like that it was step by step because I'm used to TAs leaving the room during experiments and I think this is a lot nicer.\n\nInterviewer\nWhen you say step by step, what do you mean? ",
+      "turn_ids": [
+        "I17-T007"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I17-Q017"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: Because we had the, it was divided into tasks and we always got the 10 minutes to think about it and then... I thought that was nice. ",
+      "turn_ids": [
+        "I17-T008"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I17-Q018"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: Yeah, I think it's fun until it's not fun anymore. [laughs] I mean, if it was more time, I think it would have become a bit frustrating. But i think 10 minutes was good.\n\nInterviewer\nYeah? ",
+      "turn_ids": [
+        "I17-T023"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I17-Q019"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 3: So the actual data acquisition is not that interesting because you're just twisting stuff and turning on buttons and saving files. Before that, it was kind of nice. But I guess it's important that we also get an instruction to how to actually acquire data in an object site.\n\nInterviewer\nYeah, so it was more interesting to see how the overall picture than just collecting data, okay. ",
+      "turn_ids": [
+        "I17-T027"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I17-Q020"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: I mean, I like it that it was a bit technical in the beginning, but I also want to do experimental, so I mean, it kind of makes sense. ",
+      "turn_ids": [
+        "I17-T033"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I17-Q021"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: Yeah, I liked it. And I also have no complaint to add, I think. [laughs]\n\nInterviewer\nOkay, that's perfect. Then thank you so much for the time, you guys. Thank you. That is all. ",
+      "turn_ids": [
+        "I17-T050"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I17-Q022"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: I don't know where I'm doing my master's thesis yet, but I assume it's always, if you want to do something with experimental optics, it's always good to  know some stuff about the elements. And of course, if you want to do something with the quantum memory, I mean, then it's of course useful.\n\nInterviewer\nBut for you guys specifically, you think? ",
+      "turn_ids": [
+        "I17-T029"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I17-Q023"
+    }
+  ],
+  "codes_with_no_quotes": [
+    "2.a",
+    "2.b"
+  ]
+}

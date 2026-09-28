@@ -28,18 +28,6 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "student 1: I also think considering me and student 1 we both have optics as student 2 said if we didn't have that we would have [emphasis] no idea what we're doing because like we've been explained polarization and basically everything we did today but we would have no idea about it if we didn't do that so maybe just kind of tiny bit of theoretical background for it would be nice. ",
-      "turn_ids": [
-        "I01-T018"
-      ],
-      "speakers": [
-        "student 1"
-      ],
-      "quote_id": "I01-Q003"
-    },
-    {
-      "theme_id": "1",
-      "code": "1.a",
       "cited_text": "student 3: I think it was okay, but it was kind of fast that he went through it. So I didn't really get it totally but then it was also one of my some of my friends had optics so i was playing around yeah. ",
       "turn_ids": [
         "I01-T020"
@@ -47,7 +35,7 @@
       "speakers": [
         "student 3"
       ],
-      "quote_id": "I01-Q004"
+      "quote_id": "I01-Q003"
     },
     {
       "theme_id": "1",
@@ -59,7 +47,7 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I01-Q005"
+      "quote_id": "I01-Q004"
     },
     {
       "theme_id": "2",
@@ -71,7 +59,7 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I01-Q006"
+      "quote_id": "I01-Q005"
     },
     {
       "theme_id": "2",
@@ -83,7 +71,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I01-Q007"
+      "quote_id": "I01-Q006"
     },
     {
       "theme_id": "3",
@@ -95,7 +83,7 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I01-Q008"
+      "quote_id": "I01-Q007"
     },
     {
       "theme_id": "3",
@@ -107,7 +95,7 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I01-Q009"
+      "quote_id": "I01-Q008"
     },
     {
       "theme_id": "3",
@@ -119,7 +107,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I01-Q010"
+      "quote_id": "I01-Q009"
     },
     {
       "theme_id": "3",
@@ -131,7 +119,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I01-Q011"
+      "quote_id": "I01-Q010"
     },
     {
       "theme_id": "3",
@@ -143,7 +131,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I01-Q012"
+      "quote_id": "I01-Q011"
     },
     {
       "theme_id": "3",
@@ -155,7 +143,7 @@
       "speakers": [
         "student 3"
       ],
-      "quote_id": "I01-Q013"
+      "quote_id": "I01-Q012"
     },
     {
       "theme_id": "3",
@@ -167,7 +155,7 @@
       "speakers": [
         "student 1"
       ],
-      "quote_id": "I01-Q014"
+      "quote_id": "I01-Q013"
     },
     {
       "theme_id": "3",
@@ -179,7 +167,7 @@
       "speakers": [
         "student 2"
       ],
-      "quote_id": "I01-Q015"
+      "quote_id": "I01-Q014"
     },
     {
       "theme_id": "3",
@@ -191,7 +179,7 @@
       "speakers": [
         "Student 1"
       ],
-      "quote_id": "I01-Q016"
+      "quote_id": "I01-Q015"
     },
     {
       "theme_id": "3",
@@ -203,13 +191,24 @@
       "speakers": [
         "student 2"
       ],
+      "quote_id": "I01-Q016"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "student 1: I think you might have the wrong group for this, because everyone except for student 3 does astrophysics. Yeah. So it's not really our area. But I guess, presumably, now it's not personal, now I'm speaking for others, but I know people who want to do quantum, who are excited to do this. So I think it's just not the group here that should bring it. ",
+      "turn_ids": [
+        "I01-T044"
+      ],
+      "speakers": [
+        "student 1"
+      ],
       "quote_id": "I01-Q017"
     }
   ],
   "codes_with_no_quotes": [
     "2.b",
     "2.c",
-    "3.b",
-    "3.d"
+    "3.b"
   ]
 }

@@ -4,9 +4,9 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 1: I think sometimes the visualization of like, oh, think about how would this graph look for some given, like we had to do one for omega where we thought one thing because this made sense to us, but then she kind of explained it and I'm like, okay, it makes sense. I think sometimes it's like, because there's a lot of parameters suddenly, right? Each part of the exercise, you have to sort of think of like another aspect of this experiment. So I think for me, at least I have a hard time sometimes remembering what I'm looking at right now or like visualizing it in a good way. I think that was hard, but I mean, that's the good thing about being multiple people. You can talk and then someone usually has a good idea. ",
+      "cited_text": "Student 1: I would say so. I felt like our group didn't have a lot of experience with working with these types of machines before. And we managed. I would say it was quite intuitive.\n\nInterviewer\nCould you walk me through any challenges that you or your group felt like you faced in the exercise? ",
       "turn_ids": [
-        "I02-T014"
+        "I02-T006"
       ],
       "speakers": [
         "Student 1"
@@ -16,69 +16,69 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 2: I felt like it was pretty straightforward. There was one question that confused me and maybe the rest of the group about what happens as you increase the Rabi frequency strength. And I still feel a little bit shaky on the explanation there, how you get these oscillations actually that go with increasing Rabi strength. that I would like to talk about a bit more with the group members. That was, I think, the only big point of confusion for me directly related to the lab exercise.\n\nInterviewer\nYeah. How about you? ",
+      "cited_text": "Student 1: [unsure] I mean, I felt like basically everything, like any issue that we encountered, we could mostly just ask questions or the helper would help us with it. So I don't recall any like major obstacles that we encountered. Like it took a bit to get the hang of like, for example, one thing that confused us: I feel like maybe the most confusing was relating, like essentially plotting, the probability of being the excited state for any particular qubit as a function of amplitude of the driving frequency, as opposed to the time. And that I personally found quite unintuitive and I think that was maybe a bit difficult to understand for the group. That instead of fixing the frequency and plotting it against time, we fix time and plot against amplitude and we get a similar looking function. But it's just how these machines usually work.\n\nInterviewer\nSo what did you do when you faced something that you thought was unintuitive or you had a hard time understanding? ",
       "turn_ids": [
-        "I02-T017"
+        "I02-T007"
       ],
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "quote_id": "I02-Q002"
     },
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 3: Not specific to the lab, I would say. There's this difference between the T2* and T2, right? On a theoretical level. How do they enter into the master question? But that's not something I would expect to get covered in a lab session anyways, right? That's more.\n\nInterviewer\nSo can you walk me through, so I know the exercise and there's a progression, but can you walk us through some of the challenges you faced during the exercise? What was challenging? ",
+      "cited_text": "Student 1: We could ask. And the TA was also very helpful and they also acknowledged that this is a bit unintuitive for them as well. And so they just walked us through how to think about it and then from that point on we understood. We also actually, it was very helpful to have the Bloch-sphere animation, like this interactive tool where we could see how different pulses rotate around the Bloch-sphere. Right. That was definitely helpful.\n\nInterviewer\nYeah, sure. If you had another three hours in the cryostat lab tomorrow, do you have any ideas of what you would do with that time? ",
       "turn_ids": [
-        "I02-T013"
+        "I02-T008"
       ],
       "speakers": [
-        "Student 3"
+        "Student 1"
       ],
       "quote_id": "I02-Q003"
     },
     {
       "theme_id": "2",
       "code": "2.b",
-      "cited_text": "Student 3: Don't know if this is maybe a bad idea, but a bit more of the sort of Hamiltonian math could be nice, just so because we say: Oh, the detuning, if we do this, then we drive this in this position, or we do A, we get this superposition. I would like to see it if you're used to think in terms of a Hamiltonian acting on some kind of or a unitary acting on a qubit, right? ",
+      "cited_text": "Student 1: Yes, which is where we are coming from all sorts of backgrounds. Some people are from computer science. I'm actually closer to computer science as well because I specialize in computer science, so that's how I qualify for this program as well. But because of my, well, not because of my mechatronics background, but related to my mechatronics background, I also really like working with hardware. And as much as I love the theory and as much as I want to understand it, I feel like it might be a little too dry to just always work in theory and work at a whiteboard and never actually see things in action. I mean I know most of the time you're just staring at the outer wall of a refrigerator or like a cryostat, but still the fact that I know that there's something happening in there that I manipulate is, I find that inspiring.\n\nInterviewer\nSure. And yes, what would you say is like your main takeaway from this exercise that you did today? If you could point to something. ",
       "turn_ids": [
-        "I02-T015"
+        "I02-T013"
       ],
       "speakers": [
-        "Student 3"
+        "Student 1"
       ],
       "quote_id": "I02-Q004"
     },
     {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "Student 3: I mean, I haven't done a Ramsey experiment before exactly, but I've seen the setup quite a few times before.\n\nInterviewer\nWhen you say setup, have you seen the hardware or have you seen just this theory and the schemes and stuff like that? ",
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 1: Specifically about today's lab? Okay. Yeah, I found it really inspiring and somewhat intuitive. And I always find it really helpful when I get to do hands-on things that relate to the theory that I learn. And I also get to ask questions from somebody who actually knows the answers to them. I had that experience with a previous course at KU. It was actually a DTU course that had some labs with photonics. And it really helped me kind of get an intuitive understanding of what we were actually learning about before. And I've had a similar experience here. So overall, it was a very positive experience. I felt like I got a lot from it.\n\nInterviewer\nHave you been in the cryostat lab before? ",
       "turn_ids": [
-        "I02-T032"
+        "I02-T004"
       ],
       "speakers": [
-        "Student 3"
+        "Student 1"
       ],
       "quote_id": "I02-Q005"
     },
     {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "Student 3: Cryostats and control stacks and all that relatively used to that.\n\nInterviewer\nJust give me a moment to see if I covered what I want to cover... Yeah. So, you always told me that you're interested in the computing part and using the semiconducting thing. So, and some of you mentioned that you're not really interested in, let's say, having one more session in the lab. So how are you general ideas of working in a lab maybe also for your thesis or even after the thesis? ",
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 1: I have not settled on a specialization yet for my program, for my studies, but I think my number one thing that I'm interested in would be maybe distributed quantum computing systems. And so that maybe works with photonics a little bit more than superconducting qubits. But it also requires relatively good quantum memory, for example, for long distance communications. So I would say that Getting some lab experience, working with superconducting qubits is definitely going to be useful for me because I do want to work rather close to hardware. I do like theory, but I definitely want to be involved with the experiments as well. Right.\n\nInterviewer\nThat's going to be my next question, how your general relation to being in the lab is? ",
       "turn_ids": [
-        "I02-T033"
+        "I02-T011"
       ],
       "speakers": [
-        "Student 3"
+        "Student 1"
       ],
       "quote_id": "I02-Q006"
     },
     {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "Student 1: I don't think so. I think it was pretty, I think I like it because it was very straightforward. I think the whole mechanism with the website and everything made it fairly easy to... Before in classes we would often get these long papers where you step in and it's super confusing, there was a lot of text and you had to figure out what to do. Here it was very, like: Think about this. Okay, now you thought about this, go into the website and then what you just thought about, apply that with these parameters. She explained the parameters. I think it was... ",
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 1: I love being in the lab. So my background is actually in mechatronics engineering, so I'm not a physicist.\n\nInterviewer\nAre you in the QIS masters? ",
       "turn_ids": [
-        "I02-T007"
+        "I02-T012"
       ],
       "speakers": [
         "Student 1"
@@ -86,11 +86,11 @@
       "quote_id": "I02-Q007"
     },
     {
-      "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "Student 1: I think it was good. It gave us a good intuitive understanding. The only thing I think will... That I would have liked is that they prepared us a little bit more with the theory. There's a lot of the stuff that we haven't had yet. Some of it were, but because there was some stuff I didn't understand, I was kind of tracking behind, I felt like. So even the stuff I understood became a little bit more confusing. So I think it's okay we didn't have it in class, but it would have been nice to have some papers to read or some material to have read over beforehand. I would have been more prepared to understand.\n\n[inaudible]\n\nInterviewer\nSorry. ",
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 1: Yes, which is where we are coming from all sorts of backgrounds. Some people are from computer science. I'm actually closer to computer science as well because I specialize in computer science, so that's how I qualify for this program as well. But because of my, well, not because of my mechatronics background, but related to my mechatronics background, I also really like working with hardware. And as much as I love the theory and as much as I want to understand it, I feel like it might be a little too dry to just always work in theory and work at a whiteboard and never actually see things in action. I mean I know most of the time you're just staring at the outer wall of a refrigerator or like a cryostat, but still the fact that I know that there's something happening in there that I manipulate is, I find that inspiring.\n\nInterviewer\nSure. And yes, what would you say is like your main takeaway from this exercise that you did today? If you could point to something. ",
       "turn_ids": [
-        "I02-T001"
+        "I02-T013"
       ],
       "speakers": [
         "Student 1"
@@ -99,22 +99,22 @@
     },
     {
       "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "Student 2: Actually, I thought it was, I mean, I think it could have been nice to have some more theory behind it, like some more readings to do that would help us with understanding what we're doing today. But I felt like this was one of the better labs for me in the sense that everything was very straightforward and the questions that we were asked, we were able to get immediate feedback on from the TA, which was super nice. And I'm very used to not understanding what is going on in lab classes. So to an extent, I almost feel like the fact that we were working with the TA who could help us, even if we didn't have so much background, maybe. It was a really nice learning experience. [agreement] ",
+      "code": "3.a",
+      "cited_text": "Student 1: I would say so. I felt like our group didn't have a lot of experience with working with these types of machines before. And we managed. I would say it was quite intuitive.\n\nInterviewer\nCould you walk me through any challenges that you or your group felt like you faced in the exercise? ",
       "turn_ids": [
-        "I02-T004"
+        "I02-T006"
       ],
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "quote_id": "I02-Q009"
     },
     {
       "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 1: I think it was good. It gave us a good intuitive understanding. The only thing I think will... That I would have liked is that they prepared us a little bit more with the theory. There's a lot of the stuff that we haven't had yet. Some of it were, but because there was some stuff I didn't understand, I was kind of tracking behind, I felt like. So even the stuff I understood became a little bit more confusing. So I think it's okay we didn't have it in class, but it would have been nice to have some papers to read or some material to have read over beforehand. I would have been more prepared to understand.\n\n[inaudible]\n\nInterviewer\nSorry. ",
+      "code": "3.a",
+      "cited_text": "Student 1: We could ask. And the TA was also very helpful and they also acknowledged that this is a bit unintuitive for them as well. And so they just walked us through how to think about it and then from that point on we understood. We also actually, it was very helpful to have the Bloch-sphere animation, like this interactive tool where we could see how different pulses rotate around the Bloch-sphere. Right. That was definitely helpful.\n\nInterviewer\nYeah, sure. If you had another three hours in the cryostat lab tomorrow, do you have any ideas of what you would do with that time? ",
       "turn_ids": [
-        "I02-T001"
+        "I02-T008"
       ],
       "speakers": [
         "Student 1"
@@ -123,22 +123,22 @@
     },
     {
       "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 2: Actually, I thought it was, I mean, I think it could have been nice to have some more theory behind it, like some more readings to do that would help us with understanding what we're doing today. But I felt like this was one of the better labs for me in the sense that everything was very straightforward and the questions that we were asked, we were able to get immediate feedback on from the TA, which was super nice. And I'm very used to not understanding what is going on in lab classes. So to an extent, I almost feel like the fact that we were working with the TA who could help us, even if we didn't have so much background, maybe. It was a really nice learning experience. [agreement] ",
+      "code": "3.a",
+      "cited_text": "Student 1: Yeah, I mean, I'm not sure if we would have had access to multiple qubits. I know the experiments that were set up for us only worked on Q5. But I guess if we had access to multiple qubits, then I would have loved to try and create like Bell states or do some multi-qubit gates, multi-qubit operations in general. But other than that, I mean, maybe you try to do try to do a Hadamard gate or something.\n\nInterviewer\nCool. How do you think that the experiments you did today may relate to any plans you have going forward from this course? ",
       "turn_ids": [
-        "I02-T004"
+        "I02-T010"
       ],
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "quote_id": "I02-Q011"
     },
     {
       "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 1: It was very one-to-one, which was nice.\n\nInterviewer\nSo you mentioned that it was a good experience, and those of you also had some positive words about it. I'm getting a bit interested. Can I also maybe let you two put some words on how you experienced the actual exercises? ",
+      "code": "3.a",
+      "cited_text": "Student 1: Yes, which is where we are coming from all sorts of backgrounds. Some people are from computer science. I'm actually closer to computer science as well because I specialize in computer science, so that's how I qualify for this program as well. But because of my, well, not because of my mechatronics background, but related to my mechatronics background, I also really like working with hardware. And as much as I love the theory and as much as I want to understand it, I feel like it might be a little too dry to just always work in theory and work at a whiteboard and never actually see things in action. I mean I know most of the time you're just staring at the outer wall of a refrigerator or like a cryostat, but still the fact that I know that there's something happening in there that I manipulate is, I find that inspiring.\n\nInterviewer\nSure. And yes, what would you say is like your main takeaway from this exercise that you did today? If you could point to something. ",
       "turn_ids": [
-        "I02-T005"
+        "I02-T013"
       ],
       "speakers": [
         "Student 1"
@@ -147,10 +147,10 @@
     },
     {
       "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 1: I mean, I'm also in the quantum computing way. I think I'm a little bit more in fabrication, like crystal growth direction, but it's definitely interesting. Like, yeah, it's definitely persuading me a little bit, so...\n\nInterviewer\nIn what's in persuading you in what sense? ",
+      "code": "3.b",
+      "cited_text": "Student 1: Specifically about today's lab? Okay. Yeah, I found it really inspiring and somewhat intuitive. And I always find it really helpful when I get to do hands-on things that relate to the theory that I learn. And I also get to ask questions from somebody who actually knows the answers to them. I had that experience with a previous course at KU. It was actually a DTU course that had some labs with photonics. And it really helped me kind of get an intuitive understanding of what we were actually learning about before. And I've had a similar experience here. So overall, it was a very positive experience. I felt like I got a lot from it.\n\nInterviewer\nHave you been in the cryostat lab before? ",
       "turn_ids": [
-        "I02-T030"
+        "I02-T004"
       ],
       "speakers": [
         "Student 1"
@@ -159,34 +159,34 @@
     },
     {
       "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 2: I would say with this exercise, it was a fun exercise that I think directly relates to the content that we're studying in class, which is good. For myself, I'm really hoping that I can also see, instead of these cool toy demonstrations of whatever we just did, the Ramsey full sequence. It would be nice to see some of the active research that is going on at the NQCP, especially with where this course is in the course structure. I'm trying to think about who I might want to work with as my supervisor. I'm not so sure if I'm even going to do it in the quantum computing area. So it's fun to see these cool applied demonstrations of knowledge in class, but I'm also hoping that maybe in the future exercise section we can see or maybe hopefully contribute to something that's a bit more substantial in some sense.\n\nInterviewer\nIt's fun for me that you call it a toy demonstration because this is, in my opinion, pretty close to the real life. [laugs] I mean, so the characterization of qubits like you did, that's of course, that's done with an algorithm in the real research lab, so it's done in a moment. But the actual steps, it's pretty close, I would say, to what is done. ",
+      "code": "3.b",
+      "cited_text": "Student 1: We could ask. And the TA was also very helpful and they also acknowledged that this is a bit unintuitive for them as well. And so they just walked us through how to think about it and then from that point on we understood. We also actually, it was very helpful to have the Bloch-sphere animation, like this interactive tool where we could see how different pulses rotate around the Bloch-sphere. Right. That was definitely helpful.\n\nInterviewer\nYeah, sure. If you had another three hours in the cryostat lab tomorrow, do you have any ideas of what you would do with that time? ",
       "turn_ids": [
-        "I02-T034"
+        "I02-T008"
       ],
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "quote_id": "I02-Q014"
     },
     {
       "theme_id": "3",
-      "code": "3.d",
-      "cited_text": "Student 3: I don't think my experience there is so useful because I've already decided I want to do spin qubits. ",
+      "code": "3.b",
+      "cited_text": "Student 1: I think the most useful thing that I will remember is probably characterizing T1 and T2 decay or T1 and T2 decoherence. Sorry, I always say decay. I know one of them is dephasing, but like decoherence, characterizing decoherence. I think that might be the most useful that I learned, like the useful thing that I learned today. And also maybe executing T2 echo, like actually using echo to get better performance in terms of dephasing.\n\nInterviewer\nAnd last, do you have any recommendations or ideas for how this exercise could be improved for future students? ",
       "turn_ids": [
-        "I02-T029"
+        "I02-T014"
       ],
       "speakers": [
-        "Student 3"
+        "Student 1"
       ],
       "quote_id": "I02-Q015"
     },
     {
       "theme_id": "3",
-      "code": "3.d",
-      "cited_text": "Student 1: I mean, I'm also in the quantum computing way. I think I'm a little bit more in fabrication, like crystal growth direction, but it's definitely interesting. Like, yeah, it's definitely persuading me a little bit, so...\n\nInterviewer\nIn what's in persuading you in what sense? ",
+      "code": "3.c",
+      "cited_text": "Student 1: Specifically about today's lab? Okay. Yeah, I found it really inspiring and somewhat intuitive. And I always find it really helpful when I get to do hands-on things that relate to the theory that I learn. And I also get to ask questions from somebody who actually knows the answers to them. I had that experience with a previous course at KU. It was actually a DTU course that had some labs with photonics. And it really helped me kind of get an intuitive understanding of what we were actually learning about before. And I've had a similar experience here. So overall, it was a very positive experience. I felt like I got a lot from it.\n\nInterviewer\nHave you been in the cryostat lab before? ",
       "turn_ids": [
-        "I02-T030"
+        "I02-T004"
       ],
       "speakers": [
         "Student 1"
@@ -195,10 +195,10 @@
     },
     {
       "theme_id": "3",
-      "code": "3.d",
-      "cited_text": "Student 1: Like, because I've always been very interested in like computing in general. And then I got very interested in crystal growth. So that's also what I worked with a little bit. But now it's like it's kind of the bridge between the two, which is kind of what we're doing here, where you kind of start to bridge between computing and fabrication of these quantum chips.\n\nInterviewer\nSo I mean, semiconducting spin qubits, that was what you mentioned. These can also be put in the exactly same cryostat for doing similar experiments. So how about the experimental setup? Was it this novel for you or do you know it from other places in NQCP? ",
+      "code": "3.c",
+      "cited_text": "Student 1: We did not have time to do the last two optional experiments, which is to test... I think it's... I didn't fully get whether it's to test whether we're coupled to a state or whether it is to couple to a state. I didn't get if it's just a test or if it's to actually do the action of coupling. But that's something we didn't have time for. And I would have really enjoyed doing that because I'm just interested in it. So if I had more time, then I would probably do that first.\n\nInterviewer\nRight. Anything that wasn't listed in the lab manual that you were just curious about or that you would have liked to just, out of curiosity, play around with? ",
       "turn_ids": [
-        "I02-T031"
+        "I02-T009"
       ],
       "speakers": [
         "Student 1"
@@ -207,19 +207,54 @@
     },
     {
       "theme_id": "3",
-      "code": "3.d",
-      "cited_text": "Student 2: I would say with this exercise, it was a fun exercise that I think directly relates to the content that we're studying in class, which is good. For myself, I'm really hoping that I can also see, instead of these cool toy demonstrations of whatever we just did, the Ramsey full sequence. It would be nice to see some of the active research that is going on at the NQCP, especially with where this course is in the course structure. I'm trying to think about who I might want to work with as my supervisor. I'm not so sure if I'm even going to do it in the quantum computing area. So it's fun to see these cool applied demonstrations of knowledge in class, but I'm also hoping that maybe in the future exercise section we can see or maybe hopefully contribute to something that's a bit more substantial in some sense.\n\nInterviewer\nIt's fun for me that you call it a toy demonstration because this is, in my opinion, pretty close to the real life. [laugs] I mean, so the characterization of qubits like you did, that's of course, that's done with an algorithm in the real research lab, so it's done in a moment. But the actual steps, it's pretty close, I would say, to what is done. ",
+      "code": "3.c",
+      "cited_text": "Student 1: I love being in the lab. So my background is actually in mechatronics engineering, so I'm not a physicist.\n\nInterviewer\nAre you in the QIS masters? ",
       "turn_ids": [
-        "I02-T034"
+        "I02-T012"
       ],
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "quote_id": "I02-Q018"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: Yeah, maybe. I mean, for some of the, for some of the planning fields, like we had the always like the red questions for every exercise. For some of them, like for all of them, it was like a whiteboard type of input field. I felt like some of them might have been more intuitive with just a text field, because for some of them, it's like, what are the steps that you should take here? And then Either we write it out by hand or we draw something, but I felt like maybe we took a bit too much time on these little things. We also took quite a bit of time on selecting the numbers and saving the files and everything. And I don't really know how to streamline that better, but I guess it's just as feedback, we did lose a bit of time on that. But otherwise, I think it was pretty flawless. I found it intuitive and I found it enjoyable.\n\nInterviewer\nGreat. Yeah. Okay. Thank you so much. ",
+      "turn_ids": [
+        "I02-T016"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I02-Q019"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 1: I have not settled on a specialization yet for my program, for my studies, but I think my number one thing that I'm interested in would be maybe distributed quantum computing systems. And so that maybe works with photonics a little bit more than superconducting qubits. But it also requires relatively good quantum memory, for example, for long distance communications. So I would say that Getting some lab experience, working with superconducting qubits is definitely going to be useful for me because I do want to work rather close to hardware. I do like theory, but I definitely want to be involved with the experiments as well. Right.\n\nInterviewer\nThat's going to be my next question, how your general relation to being in the lab is? ",
+      "turn_ids": [
+        "I02-T011"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I02-Q020"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 1: I think the most useful thing that I will remember is probably characterizing T1 and T2 decay or T1 and T2 decoherence. Sorry, I always say decay. I know one of them is dephasing, but like decoherence, characterizing decoherence. I think that might be the most useful that I learned, like the useful thing that I learned today. And also maybe executing T2 echo, like actually using echo to get better performance in terms of dephasing.\n\nInterviewer\nAnd last, do you have any recommendations or ideas for how this exercise could be improved for future students? ",
+      "turn_ids": [
+        "I02-T014"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I02-Q021"
     }
   ],
   "codes_with_no_quotes": [
-    "2.a",
-    "2.c"
+    "2.a"
   ]
 }

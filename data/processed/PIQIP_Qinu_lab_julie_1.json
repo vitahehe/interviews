@@ -1,0 +1,510 @@
+{
+  "interview_id": "I06",
+  "turns": [
+    {
+      "turn_id": "I06-T001",
+      "speaker": "Student 1",
+      "text": "Okay, I'll start with this. The experience in the lab today was actually pretty good. I feel like I learned a lot of things because even if it was a virtual lab, I feel like through the TAs help was actually really helpful to actually understand the concepts and feel like I was actually doing more hands-on lab work. It was pretty nice.\n\nInterviewer\nThat sounds great."
+    },
+    {
+      "turn_id": "I06-T002",
+      "speaker": "Student 2",
+      "text": "Yeah, we had seen some of these objects in class, not the exact experiment, but what we applied to it, and it was really good to clarify what we learned.\n\nInterviewer\nDid you see that this week or earlier?"
+    },
+    {
+      "turn_id": "I06-T003",
+      "speaker": "Student 1",
+      "text": "Earlier, earlier, yeah. \n\nInterviewer\nBut it was still fresh in memory, and..."
+    },
+    {
+      "turn_id": "I06-T004",
+      "speaker": "Student 2",
+      "text": "I mean fresh enough.[laughs]\n\nInterviewer\nDo you want to put some words into what you've been doing in lab today?"
+    },
+    {
+      "turn_id": "I06-T005",
+      "speaker": "Student 3",
+      "text": "I got here a bit late, super late actually, but... I really like the part where you can just change parameters, see how it affects the experiment. I don't think that's something you can do directly in the lectures or just handwritten exercises. It's really nice to see that.\n\nInterviewer\nYeah."
+    },
+    {
+      "turn_id": "I06-T006",
+      "speaker": "Student 4",
+      "text": "I think the whole format was nice and it was nice to have the site available for us in advance so we could like go through it like just a little bit, maybe a bit more time would have been nice.\n\nInterviewer\nSo if you had more time, let's say three more hours next week, what would you use that time for?"
+    },
+    {
+      "turn_id": "I06-T007",
+      "speaker": "Student 3",
+      "text": "Go over it again."
+    },
+    {
+      "turn_id": "I06-T008",
+      "speaker": "Student 4",
+      "text": "Either that or just extend this one so it's like going in depth more. To more stuff.\n\nInterviewer\nWhat about you guys? Would you also like three more hours to repeat the experiment or go in depth with the experiment?"
+    },
+    {
+      "turn_id": "I06-T009",
+      "speaker": "Student 1",
+      "text": "I think three more hours would be a bit too much, but maybe we had like an extra hour today to just like take a bit of extra time to like, really delve into the concepts and maybe having more time to perfect our notes because I feel like it wasn't enough time to actually understand what we were doing, but it definitely wasn't enough time to write down proper notes about what we're doing. So right now, I feel great. I feel like I understand a lot of things, but I'm afraid that if I don't go through the questions right after the lab experience, I might forget some stuff when I actually tackle it.\n\nInterviewer\nI see. So is there anything you'd like to change about the lab today?"
+    },
+    {
+      "turn_id": "I06-T010",
+      "speaker": "Student 1",
+      "text": "Maybe just like it would be nice if we were like an extra hour just so we are a bit more relaxed and have a bit more time to take better notes.\n\nInterviewer\nYeah."
+    },
+    {
+      "turn_id": "I06-T011",
+      "speaker": "Student 1",
+      "text": "Like for me that's all. Everything else it was great I think for me."
+    },
+    {
+      "turn_id": "I06-T012",
+      "speaker": "Student 2",
+      "text": "With more time maybe we could also like experiment more and try different values."
+    },
+    {
+      "turn_id": "I06-T013",
+      "speaker": "Student 3",
+      "text": "And I've had experience in all the lab sessions I've done, there's already the issue that you don't have time to write down everything because the professor just wants to keep going because you don't have much time, so you cannot stop discussing too much sometimes."
+    },
+    {
+      "turn_id": "I06-T014",
+      "speaker": "Student 4",
+      "text": "Or have some kind of recording, maybe, like of the screen or yeah.[unsure]\n\nInterviewer\nSo the screen, would that be your results? I really don't know what you've been doing."
+    },
+    {
+      "turn_id": "I06-T015",
+      "speaker": "Student 3",
+      "text": "Well, we would see the steps we followed."
+    },
+    {
+      "turn_id": "I06-T016",
+      "speaker": "Student 2",
+      "text": "I don't know if it's data, but."
+    },
+    {
+      "turn_id": "I06-T017",
+      "speaker": "Student 1",
+      "text": "We basically had a set of slides preferred that were guiding us through experiments and we did the experiments on the screen where basically we changed a bunch of parameters and we got different graphs. Basically we're tweaking the parameters until we got like better fitted results.\n\nInterviewer\nOkay, so you had some slides?"
+    },
+    {
+      "turn_id": "I06-T018",
+      "speaker": "Student 1",
+      "text": "We had some slides that were guiding us through like the theory and then the steps we were to do like on the virtual lab.\n\nInterviewer\nHow was that getting the instructions, like in steps?"
+    },
+    {
+      "turn_id": "I06-T019",
+      "speaker": "Student 1",
+      "text": "It was helpful, I think. It was helpful."
+    },
+    {
+      "turn_id": "I06-T020",
+      "speaker": "Student 2",
+      "text": "Yeah, it was really good, like to look for step by step, you know, like all the whole lab practice a bit much for me."
+    },
+    {
+      "turn_id": "I06-T021",
+      "speaker": "Student 4",
+      "text": "Steps were laid out well. It's like it built up so deep."
+    },
+    {
+      "turn_id": "I06-T022",
+      "speaker": "Student 1",
+      "text": "And I like the fact that we were guided to think about what results we should expect, like visualize the graphs ourselves first and then actually getting to actually attain them. It was nice.\n\nInterviewer\nWas there any time where you didn't get the answers that you wanted, or the results that you wanted maybe?"
+    },
+    {
+      "turn_id": "I06-T023",
+      "speaker": "Student 1",
+      "text": "I mean. Kind of, like we got the general shape of the graphs we expected every time, but some of our results, some of the actual numbers we got weren't ideal, but it would be a problem with the experiment or the noise, so like it can be explained."
+    },
+    {
+      "turn_id": "I06-T024",
+      "speaker": "Student 3",
+      "text": "Yeah, just I think it was the last thing we did, it was like not what we expected."
+    },
+    {
+      "turn_id": "I06-T025",
+      "speaker": "Student 1",
+      "text": "But yeah, it was not exactly what we expected, but like on the graph you saw."
+    },
+    {
+      "turn_id": "I06-T026",
+      "speaker": "Student 4",
+      "text": "I mean that was also a nice example."
+    },
+    {
+      "turn_id": "I06-T027",
+      "speaker": "Student 1",
+      "text": "I mean, it's what you expect when you do experimental stuff. It's not always going to work. It's part of the experience.\n\nInterviewer\nWere you able to get the answers you wanted from your TA or from some material you had?"
+    },
+    {
+      "turn_id": "I06-T028",
+      "speaker": "Student 1",
+      "text": "Yeah, definitely. I think so. They were really helpful.\n\nInterviewer\nThat sounds really good. So maybe you could walk me through some of the challenges that you faced during the exercises?"
+    },
+    {
+      "turn_id": "I06-T029",
+      "speaker": "Student 2",
+      "text": "Somebody remembering like the theory that we saw in class so that we could properly apply it. [agreement]\n\nInterviewer\nThat because it's maybe too far away or because you've learned a lot of stuff in short time or do you know why that is?"
+    },
+    {
+      "turn_id": "I06-T030",
+      "speaker": "Student 2",
+      "text": "Maybe both like too much stuff and check the others."
+    },
+    {
+      "turn_id": "I06-T031",
+      "speaker": "Student 1",
+      "text": "Yeah, definitely the second one because like we've been doing this course for a month now so it's not enough time to actually properly divulge in all this information.\n\nInterviewer\nI know that feeling."
+    },
+    {
+      "turn_id": "I06-T032",
+      "speaker": "Student 1",
+      "text": "But definitely like doing this lab, at least for myself, I feel like it has helped me understand the concepts way more than I did in the actual lectures.\n\nInterviewer\nNice, I'm happy to hear that. What about you? [silence] Did you face any challenges?"
+    },
+    {
+      "turn_id": "I06-T033",
+      "speaker": "Student 3",
+      "text": "I mean, there's a lot of theory I didn't remember, because I think this was the first week of actually, second day, yeah, so there's a lot of stuff I remember more or less, but I don't know exactly what they were, so I had to refresh a bit during the lab.\n\nInterviewer\nYeah, I'll just check it's recording. Yeah, nice. What about you?"
+    },
+    {
+      "turn_id": "I06-T034",
+      "speaker": "Student 4",
+      "text": "It's nice to have some contrast between new lectures and the experiments, because when you see those lectures, you think about it and you expect something. And you come here, you see this, and it's like, maybe it doesn't match what you imagined. And now you can mesh it together and then have more questions. What about those questions?\n\nInterviewer\nSo is that a good or a bad thing?"
+    },
+    {
+      "turn_id": "I06-T035",
+      "speaker": "Student 4",
+      "text": "It's good, but it's like, yeah, it's good.\n\nInterviewer\nNice. I'm wondering what master's program you're on."
+    },
+    {
+      "turn_id": "I06-T036",
+      "speaker": "Student 1",
+      "text": "I'm in the masters in quantum information science.\n\nInterviewer\nYeah."
+    },
+    {
+      "turn_id": "I06-T037",
+      "speaker": "Student 2",
+      "text": "Yeah me too quantum information science."
+    },
+    {
+      "turn_id": "I06-T038",
+      "speaker": "Student 3",
+      "text": "Same."
+    },
+    {
+      "turn_id": "I06-T039",
+      "speaker": "Student 1",
+      "text": "All of us.\n\nInterviewer\nOK, all of you. Yes. So how do you think that this experience might relate to your plans after this course?"
+    },
+    {
+      "turn_id": "I06-T040",
+      "speaker": "Student 1",
+      "text": "Well, personally, one of the paths I'm considering is doing more experimental work. So I'm really glad we got to do a lab exercise as part of this course, because it gives me a bit more of a taste of what I could be doing later. So that's really good.\n\nInterviewer\nNice."
+    },
+    {
+      "turn_id": "I06-T041",
+      "speaker": "Student 2",
+      "text": "I mean, I like the experiments that we've done, like these classes and in other classes, but I still don't know if I would like to go directly to, all the way into experiment. Like, I like the experience. I don't know if I would like to go like that as a career path."
+    },
+    {
+      "turn_id": "I06-T042",
+      "speaker": "Student 1",
+      "text": "Yeah, but definitely it's a good thing that you get to test it out."
+    },
+    {
+      "turn_id": "I06-T043",
+      "speaker": "Student 2",
+      "text": "Yeah, and I usually, yeah, I really like to have the idea of what is going on, so I know what other people do."
+    },
+    {
+      "turn_id": "I06-T044",
+      "speaker": "Student 3",
+      "text": "I think it's very appropriate for this course, because if you are gonna teach about physical implementation, it's good that you actually do some physics in the lab. But yeah, then it's also good to have it to just show people how the work is and if they want to continue to this path or not. Especially like here in superconducting qubits. Like it gives you an idea of what they do and if you want to continue like do a thesis on that topic or whatever."
+    },
+    {
+      "turn_id": "I06-T045",
+      "speaker": "Student 4",
+      "text": "I think for me, I was just guessing I'm going to like it. now that I see the difference between the other courses we had and we could have in the future, I think I would go for these kinds of courses with higher probability.\n\nInterviewer\nSo how would you define these kind of courses?"
+    },
+    {
+      "turn_id": "I06-T046",
+      "speaker": "Student 4",
+      "text": "Like more physical, closer to physics, not abstract math stuff.\n\nInterviewer\nSo, this lab experiment was a good way to find out whether you want to continue doing experiments? [agreement] Do you think there's anything else that you get out of this for the future?"
+    },
+    {
+      "turn_id": "I06-T047",
+      "speaker": "Student 2",
+      "text": "I mean, an idea of how hard it is to get proper results, like all this technology, how it like actually it's hard to work with it."
+    },
+    {
+      "turn_id": "I06-T048",
+      "speaker": "Student 3",
+      "text": "I mean, other than showing how the lab work is, I mean, I think that's enough. Like, it's a very good point of this type of session, right?"
+    },
+    {
+      "turn_id": "I06-T049",
+      "speaker": "Student 1",
+      "text": "Yeah."
+    },
+    {
+      "turn_id": "I06-T050",
+      "speaker": "Student 3",
+      "text": "To teach the student how lab work is and if they like it and want to continue to this part and do some research on it, or they just want to stick to theory. That should be a purpose of lab."
+    },
+    {
+      "turn_id": "I06-T051",
+      "speaker": "Student 1",
+      "text": "I agree because I feel like this point, especially considering it's like a course you take relatively early in your masters, it's good to like test a lot of different things out so you actually get a better picture of what you want to do later, like for a thesis for example. So it's really good. Yeah."
+    },
+    {
+      "turn_id": "I06-T052",
+      "speaker": "Student 4",
+      "text": "Though I think it would be nice to go through like more in depth in the physical stuff. Like how is it built up and explain it a little bit more. Because I thought, we just went over it pretty fast."
+    },
+    {
+      "turn_id": "I06-T053",
+      "speaker": "Student 3",
+      "text": "So check like the components of... Yeah, then you just interact with an interface, right? You don't see."
+    },
+    {
+      "turn_id": "I06-T054",
+      "speaker": "Student 1",
+      "text": "Yeah, I guess it's because the point is to think about how you process the information and not about like the actual steps of how its built."
+    },
+    {
+      "turn_id": "I06-T055",
+      "speaker": "Student 3",
+      "text": "Maybe we have the three hours extra we mentioned, that would be an interesting component."
+    },
+    {
+      "turn_id": "I06-T056",
+      "speaker": "Student 2",
+      "text": "Like the theory of how it works. I think we'll see it next week in class."
+    },
+    {
+      "turn_id": "I06-T057",
+      "speaker": "Student 1",
+      "text": "Probably."
+    },
+    {
+      "turn_id": "I06-T058",
+      "speaker": "Student 4",
+      "text": "Yeah.\n\nInterviewer\nSo before you started the experiment today, you didn't know the components?"
+    },
+    {
+      "turn_id": "I06-T059",
+      "speaker": "Student 2",
+      "text": "I mean, we saw like a similar, like... process that works very similar to this one, but not this exact qubit."
+    },
+    {
+      "turn_id": "I06-T060",
+      "speaker": "Student 1",
+      "text": "I mean, so far in the lectures, when we were thinking about qubits, we were mainly thinking about trapped ions, and this was a superconducting qubit. And we are going to learn about superconducting qubits more next week. But the control methods we looked at today, they're basically kind of the same thing that you would see in like a trapped ion type of qubit."
+    },
+    {
+      "turn_id": "I06-T061",
+      "speaker": "Student 3",
+      "text": "So.\n\nInterviewer\nYeah, OK."
+    },
+    {
+      "turn_id": "I06-T062",
+      "speaker": "Student 1",
+      "text": "We just didn't know the structure of the superconducting chip and what is it physically and how it physically works. But the control methods and how you process the quantum information, it was basically the same. So it was easy to follow.\n\nInterviewer\nI see. So would you have preferred to have this experiment later in the course?"
+    },
+    {
+      "turn_id": "I06-T063",
+      "speaker": "Student 2",
+      "text": "I would say."
+    },
+    {
+      "turn_id": "I06-T064",
+      "speaker": "Student 4",
+      "text": "Yeah. Yes."
+    },
+    {
+      "turn_id": "I06-T065",
+      "speaker": "Student 3",
+      "text": "I think last year it actually was in January or something. I don't remember doing this experiment shortly."
+    },
+    {
+      "turn_id": "I06-T066",
+      "speaker": "Student 1",
+      "text": "But personally, I don't know if I would prefer it if it were later, because yes, we would have a better idea of what superconducting qubits are, but we have to do another experiment later in January, and then it would get very close to exams. And I don't think, I think that would be a little bit too stressful."
+    },
+    {
+      "turn_id": "I06-T067",
+      "speaker": "Student 4",
+      "text": "Yeah, not just that, but like it's, for me at least, it's like more useful if I have more time to think on it afterwards. And when you are getting to exams, you're not going to wonder, daydream about what we did here.\n\nInterviewer\nAnd you said you also had some questions you might want to ask your lecturer or your TA. You had some questions after today that you…"
+    },
+    {
+      "turn_id": "I06-T068",
+      "speaker": "Student 4",
+      "text": "Yeah, probably I'm going to have some."
+    },
+    {
+      "turn_id": "I06-T069",
+      "speaker": "Student 3",
+      "text": "So its good that there will come the session where we will discuss this.\n\nInterviewer\nYeah. So after today, do you feel like you know the components or... Are you still, or have a better grasp of it or?"
+    },
+    {
+      "turn_id": "I06-T070",
+      "speaker": "Student 2",
+      "text": "The physical components?\n\nInterviewer\nYeah."
+    },
+    {
+      "turn_id": "I06-T071",
+      "speaker": "Student 1",
+      "text": "Personally, I feel like I have a much better grasp on things compared to before I came here."
+    },
+    {
+      "turn_id": "I06-T072",
+      "speaker": "Student 4",
+      "text": "It's enough for the experiments."
+    },
+    {
+      "turn_id": "I06-T073",
+      "speaker": "Student 1",
+      "text": "Definitely.\n\nInterviewer\nIs there anything that could have given you a better understanding of the components, perhaps?"
+    },
+    {
+      "turn_id": "I06-T074",
+      "speaker": "Student 3",
+      "text": "A bit more time."
+    },
+    {
+      "turn_id": "I06-T075",
+      "speaker": "Student 1",
+      "text": "More time. \n\nInterviewer\nMore time? [laughs]"
+    },
+    {
+      "turn_id": "I06-T076",
+      "speaker": "Student 2",
+      "text": "It's also hard because they are like on a chip. So we can't see."
+    },
+    {
+      "turn_id": "I06-T077",
+      "speaker": "Student 3",
+      "text": "There's a lot of things going on. So it's not like that easy.\n\nInterviewer\nSo I hear a lot of consensus about one hour more would have been great. But would you have, with four hours in a laboratory, would that be good or would that be too much?"
+    },
+    {
+      "turn_id": "I06-T078",
+      "speaker": "Student 1",
+      "text": "With a small break in between, I think it would be perfect."
+    },
+    {
+      "turn_id": "I06-T079",
+      "speaker": "Student 4",
+      "text": "I really like the DTU one, if you guys remember how long that was. It was very long. And it was like more than like 5-ish."
+    },
+    {
+      "turn_id": "I06-T080",
+      "speaker": "Student 1",
+      "text": "The lecture lab, you mean, right?"
+    },
+    {
+      "turn_id": "I06-T081",
+      "speaker": "Student 3",
+      "text": "Which one did you do? Please explain."
+    },
+    {
+      "turn_id": "I06-T082",
+      "speaker": "Student 4",
+      "text": "The quantum dots. And the photodetector.\n\nInterviewer\nSo could you tell me how the DTU lab experience was different than this one?"
+    },
+    {
+      "turn_id": "I06-T083",
+      "speaker": "Student 1",
+      "text": "It was more hours. It started very similar to this one in the sense that we had some introduction of the theory and the experiment we were about to do. And then we actually went in the lab, but it lasted way more hours. And we had a long break in between, like a lunch break for like half to one hour.\n\nInterviewer\nOkay."
+    },
+    {
+      "turn_id": "I06-T084",
+      "speaker": "Student 1",
+      "text": "Yeah."
+    },
+    {
+      "turn_id": "I06-T085",
+      "speaker": "Student 4",
+      "text": "And then we discussed even more in that break."
+    },
+    {
+      "turn_id": "I06-T086",
+      "speaker": "Student 1",
+      "text": "Yeah.\n\nInterviewer\nNice. So it was. Actually, an entire day you used?"
+    },
+    {
+      "turn_id": "I06-T087",
+      "speaker": "Student 4",
+      "text": "I think it was like 9 A.m., 8 A.m., yeah, we started at 9 A.m."
+    },
+    {
+      "turn_id": "I06-T088",
+      "speaker": "Student 1",
+      "text": "And maybe we left at like 4 p.m., there were a few..."
+    },
+    {
+      "turn_id": "I06-T089",
+      "speaker": "Student 2",
+      "text": "Breaks in the middle, but."
+    },
+    {
+      "turn_id": "I06-T090",
+      "speaker": "Student 1",
+      "text": "Yeah, and it really depended on which exercise you did, I think, because we didn't all do the same exercise as part of the DTU lab experiences. Some were longer, some were shorter, but like maybe like a one hour difference between them, nothing crazy.\n\nInterviewer\nSo if you had a whole day for this experiment, like you did at DTU, then I guess that would mean that you maybe had less time for lecture or I know if you have exercise classes, would that be okay?"
+    },
+    {
+      "turn_id": "I06-T091",
+      "speaker": "Student 1",
+      "text": "I mean, if it was just for one day, I feel like it would be okay. And for me, for example friday was my free day, so it wouldn't make a difference really."
+    },
+    {
+      "turn_id": "I06-T092",
+      "speaker": "Student 3",
+      "text": "I mean, it's actually like studying, so it's not like you're losing the time."
+    },
+    {
+      "turn_id": "I06-T093",
+      "speaker": "Student 4",
+      "text": "Yeah, exactly.\n\nInterviewer\nOkay, great. Thank you so much. I don't think I have any more questions. Do you have anything you want to add? Something I should know?"
+    },
+    {
+      "turn_id": "I06-T094",
+      "speaker": "Student 1",
+      "text": "I don't think so. Not about the lab, anyway.[laughs]"
+    },
+    {
+      "turn_id": "I06-T095",
+      "speaker": "Student 2",
+      "text": "I mean, I don't know about their labs, like if there's more like a manual stuff you can do, or if this one is just like on the screen, so I don't know if there are other labs, like these or similar experiments with more, like I don't know.\n\nInterviewer\nWould you rather have something, some handout?"
+    },
+    {
+      "turn_id": "I06-T096",
+      "speaker": "Student 2",
+      "text": "No, like a button, sir. I don't know, like you can like more directly to the screen. I mean, I don't know if it's possible.\n\nInterviewer\nSo some manual thing to change instead of changing on the screen. When you change the variables, right."
+    },
+    {
+      "turn_id": "I06-T097",
+      "speaker": "Student 3",
+      "text": "It depends on the experiment you're doing, right? Yeah, because, I know in this kind of experiment, what are you going to do with your hands, right?"
+    },
+    {
+      "turn_id": "I06-T098",
+      "speaker": "Student 2",
+      "text": "Yeah, this one I know, yeah, exactly.\n\nInterviewer\nSo why do you think you would prefer that?"
+    },
+    {
+      "turn_id": "I06-T099",
+      "speaker": "Student 2",
+      "text": "I mean, this one you don't know if it's actually happening or it's just like a simulation. I mean, it's just like."
+    },
+    {
+      "turn_id": "I06-T100",
+      "speaker": "Student 3",
+      "text": "I think in the memory experiment, you can see the whole setup. And I don't know if you have to touch the things, but because it's like very like exactly measured. It's quite tricky, but right, but you can see the whole component and everything, I think. Do you agree that you have like a closed fridge and everything, and it's like magic?\n\nInterviewer\nDo you agree that it seems almost like a simulation when you don't have something physical to change the variables?"
+    },
+    {
+      "turn_id": "I06-T101",
+      "speaker": "Student 3",
+      "text": "It feels like that, but it sounds like that, but it feels like that.\n\nInterviewer\nNo, that's good input. Thank you so much."
+    }
+  ]
+}

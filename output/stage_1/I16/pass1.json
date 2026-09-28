@@ -1,0 +1,273 @@
+{
+  "interview_id": "I16",
+  "quotes": [
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: But I think the technical part takes up a lot of time and energy. At least I uses on this lab, so I mean, yes, that was a little bit about the theory, but also a lot about just understanding the setup and what to do with memory.\n\nInterviewer\nBut was it technical in the sense that you guys could connect it with theory from the lectures? ",
+      "turn_ids": [
+        "I16-T012"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I16-Q001"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Some of it, but some of it is not connected to theory from the lectures because it's just how the machine works or how the setup is, because we don't do that in the lectures.\n\nInterviewer\nDid you guys, what did you do when you didn't know something? ",
+      "turn_ids": [
+        "I16-T013"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I16-Q002"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: We would ask and get help from the TA, I don't remember their name. ",
+      "turn_ids": [
+        "I16-T014"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I16-Q003"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: We were not allowed to ask questions for some time for all of their tasks, which makes sense. But I mean, I don't know if it makes sense because we don't necessarily know anything about the experimental setup. It's not everyone who does that. ",
+      "turn_ids": [
+        "I16-T015"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I16-Q004"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: It's really hard to understand the experiments and setup the 1st 20 minutes. ",
+      "turn_ids": [
+        "I16-T016"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I16-Q005"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: And just figuring out the oscilloscope, even though we've been working with it a lot early on, but like it's hard to figure out, so that takes some time as well, of course.\n\nInterviewer\nBut did you guys have a feeling you could play around a little bit? Like, as in you see the machine, could you try things out? ",
+      "turn_ids": [
+        "I16-T018"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I16-Q006"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 3: Yeah, but also sort of limited, actually. We didn't have a lot of things we could adjust on. Also, I don't didn't know what anything did, so. No, I think it was like our knowledge on the subject was sort of limited, which would limit our ability to adjust on different things.\n\nInterviewer\nIs there anything that would help you guys? I'm just looking for what could make understanding this easier for you. ",
+      "turn_ids": [
+        "I16-T019"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I16-Q007"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: [inaudible] But I don't know. I think it's difficult to, so I mean it's been a long time since I've been in the lab and I think it's difficult to come into a lab and we have an overview of everything and it just it takes more time and it's confusing and when you're 4 people it's even more confusing and yeah. ",
+      "turn_ids": [
+        "I16-T033"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I16-Q008"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: But of course it's really like a nice thing about this lab is that we have one TA for one group, so of course also. We've never gotten to do that before, having a sort of a private lecture.\n\nInterviewer\nPrivate lecture. I see, I see. But just if I can catch you with the confusing, you know what do you mean? The theory? What exactly would you like to do? ",
+      "turn_ids": [
+        "I16-T034"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I16-Q009"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: The machines and the setup, the technical stuff, it takes more time to get used to and to be comfortable with. For me, at least, it's like, and it's always been like that in all that's that that's like a big barrier, and you can't really, you don't pass it every three hours. I just don't like the short labs.\n\nInterviewer\nSo the barrier was the fact that it was too many technicalities, in a sense that it was hard to play around and focus on what you're interested in? ",
+      "turn_ids": [
+        "I16-T035"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I16-Q010"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.b",
+      "cited_text": "Student 2: I think I understand the lecture material a little bit better. So, that way it helps, but I'm more from a theoretical physics background, so of course lab never really was my thing. ",
+      "turn_ids": [
+        "I16-T031"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I16-Q011"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Some of it, but some of it is not connected to theory from the lectures because it's just how the machine works or how the setup is, because we don't do that in the lectures.\n\nInterviewer\nDid you guys, what did you do when you didn't know something? ",
+      "turn_ids": [
+        "I16-T013"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I16-Q012"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: It's really hard to understand the experiments and setup the 1st 20 minutes. ",
+      "turn_ids": [
+        "I16-T016"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I16-Q013"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: And just figuring out the oscilloscope, even though we've been working with it a lot early on, but like it's hard to figure out, so that takes some time as well, of course.\n\nInterviewer\nBut did you guys have a feeling you could play around a little bit? Like, as in you see the machine, could you try things out? ",
+      "turn_ids": [
+        "I16-T018"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I16-Q014"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: Yeah, but also sort of limited, actually. We didn't have a lot of things we could adjust on. Also, I don't didn't know what anything did, so. No, I think it was like our knowledge on the subject was sort of limited, which would limit our ability to adjust on different things.\n\nInterviewer\nIs there anything that would help you guys? I'm just looking for what could make understanding this easier for you. ",
+      "turn_ids": [
+        "I16-T019"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I16-Q015"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Yes, like a similar way as the previous lab. It's like a big screen and it was very easy. And also we could get something to read before.\n\nInterviewer\nSo a little bit preparation of the setup beforehand for you guys to actually understand? ",
+      "turn_ids": [
+        "I16-T020"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I16-Q016"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: The machines and the setup, the technical stuff, it takes more time to get used to and to be comfortable with. For me, at least, it's like, and it's always been like that in all that's that that's like a big barrier, and you can't really, you don't pass it every three hours. I just don't like the short labs.\n\nInterviewer\nSo the barrier was the fact that it was too many technicalities, in a sense that it was hard to play around and focus on what you're interested in? ",
+      "turn_ids": [
+        "I16-T035"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I16-Q017"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: I think I understand the lecture material a little bit better. So, that way it helps, but I'm more from a theoretical physics background, so of course lab never really was my thing. ",
+      "turn_ids": [
+        "I16-T031"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I16-Q018"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 3: No, I think it was fun and I think. Lots of the theory sort of spans over a lot of what we've done in the classes and in the exercise classes, not just like now, but throughout the whole course. So it contains a lot of the different aspects that we've been going through. So in that respect, it's been a very relevant lab exercise. ",
+      "turn_ids": [
+        "I16-T011"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I16-Q019"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: But of course it's really like a nice thing about this lab is that we have one TA for one group, so of course also. We've never gotten to do that before, having a sort of a private lecture.\n\nInterviewer\nPrivate lecture. I see, I see. But just if I can catch you with the confusing, you know what do you mean? The theory? What exactly would you like to do? ",
+      "turn_ids": [
+        "I16-T034"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I16-Q020"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: I think I understand the lecture material a little bit better. So, that way it helps, but I'm more from a theoretical physics background, so of course lab never really was my thing. ",
+      "turn_ids": [
+        "I16-T031"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I16-Q021"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 3: So, no, I'm sure it benefits in a different number of ways. It's just hard to put a finger exactly where and how, but that's usually something you will be able to answer that question later on, because then you're like: Ah, actually, that's what we did in lab, and so you can't really just have the lab, know exactly what's relevant and what to take from here and so on, I think… [unsure]\n\nInterviewer\nBut as I see you're more of a theoretical physicist. ",
+      "turn_ids": [
+        "I16-T032"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I16-Q022"
+    }
+  ],
+  "codes_with_no_quotes": [
+    "2.a",
+    "2.c"
+  ]
+}

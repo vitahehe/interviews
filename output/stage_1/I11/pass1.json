@@ -1,0 +1,323 @@
+{
+  "interview_id": "I11",
+  "quotes": [
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Vi var lidt i tvivl om i forhold til... Jeg havde ikke lige tænkt over at de der 45 grader var relativt til den anden. Skal jeg lige tænke mig: Nej der står 45, det var så ikke rigtigt, men udover det var det rimelig ligetil følte jeg og det var bare lidt med det der fine tuning der var lidt besværligt, men sådan logisk gav det meget god mening. ",
+      "turn_ids": [
+        "I11-T006"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I11-Q001"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Så det fik vi lært. ",
+      "turn_ids": [
+        "I11-T007"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q002"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Og hvordan vi skulle kalibrere det.\n\nInterviewer\nDet lyder også godt. ",
+      "turn_ids": [
+        "I11-T009"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q003"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Ja, der var nogle gange hvor vi sådan teoretisk ikke forventede interferens, men vi så det alligevel. Så spurgte vi ind til det. ",
+      "turn_ids": [
+        "I11-T011"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q004"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Men jeg tror også det havde at gøre med netop at fange lige at få den kalibreret og justeret rigtigt. ",
+      "turn_ids": [
+        "I11-T012"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I11-Q005"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: I forhold til hinanden ja. Det var noget med udstyret. Det fik vi at vide.\n\nInterviewer\nSpændende. Føler i at i har lært noget? Har i fået noget ud af det? ",
+      "turn_ids": [
+        "I11-T013"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q006"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Nej, Sådan nogle gange var det måske lidt svært at få hjælp. Fordi der kun var en TA så man måtte vente nogle gange.\n\nInterviewer\nHvad var det for eksempel i ville have hjælp til? ",
+      "turn_ids": [
+        "I11-T044"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q007"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Det var til det der med at dreje. Vi forstod ikke lige, hvorfor vi fik de forskellige, ikke de resultater vi havde forventet, men det var så på grund af, at vi ikke har kalibreret dem i forhold til hinanden rigtigt. Ja, så det kunne måske være forklaret tidligere, men jeg tror måske også at det er os. [laughs]\n\nInterviewer\nMen det er måske fint nok at finde ud af det. ",
+      "turn_ids": [
+        "I11-T045"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I11-Q008"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Ja. Det er en del af oplevelsen. ",
+      "turn_ids": [
+        "I11-T046"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I11-Q009"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Vi var lidt i tvivl om i forhold til... Jeg havde ikke lige tænkt over at de der 45 grader var relativt til den anden. Skal jeg lige tænke mig: Nej der står 45, det var så ikke rigtigt, men udover det var det rimelig ligetil følte jeg og det var bare lidt med det der fine tuning der var lidt besværligt, men sådan logisk gav det meget god mening. ",
+      "turn_ids": [
+        "I11-T006"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I11-Q010"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Og hvordan vi skulle kalibrere det.\n\nInterviewer\nDet lyder også godt. ",
+      "turn_ids": [
+        "I11-T009"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q011"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Men jeg tror også det havde at gøre med netop at fange lige at få den kalibreret og justeret rigtigt. ",
+      "turn_ids": [
+        "I11-T012"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I11-Q012"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: I forhold til hinanden ja. Det var noget med udstyret. Det fik vi at vide.\n\nInterviewer\nSpændende. Føler i at i har lært noget? Har i fået noget ud af det? ",
+      "turn_ids": [
+        "I11-T013"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q013"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Det tror jeg, for jeg føler vi nåede alt det vi skulle, altså vi kunne ikke rigtig komme i tanke om mere med det udstyr der var, som kunne have lavet agtigt. ",
+      "turn_ids": [
+        "I11-T038"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I11-Q014"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Nej, Sådan nogle gange var det måske lidt svært at få hjælp. Fordi der kun var en TA så man måtte vente nogle gange.\n\nInterviewer\nHvad var det for eksempel i ville have hjælp til? ",
+      "turn_ids": [
+        "I11-T044"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q015"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Det var til det der med at dreje. Vi forstod ikke lige, hvorfor vi fik de forskellige, ikke de resultater vi havde forventet, men det var så på grund af, at vi ikke har kalibreret dem i forhold til hinanden rigtigt. Ja, så det kunne måske være forklaret tidligere, men jeg tror måske også at det er os. [laughs]\n\nInterviewer\nMen det er måske fint nok at finde ud af det. ",
+      "turn_ids": [
+        "I11-T045"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I11-Q016"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Så det fik vi lært. ",
+      "turn_ids": [
+        "I11-T007"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q017"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Ja, det føler jeg faktisk. Jeg synes det var lidt sejt at kunne se det. ",
+      "turn_ids": [
+        "I11-T014"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q018"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Det er meget nemmere at forstå når man ser det ske. Så giver det lidt bedre mening. ",
+      "turn_ids": [
+        "I11-T015"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I11-Q019"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Og så har vi også lært, det bliver vi ved med at lære, at vi skal være lidt mere ordentlige, når vi læser labvejledningen. Fordi det er tit vi kommer til at spørge om nogle ting, som egentlig står i vejledningen. ",
+      "turn_ids": [
+        "I11-T018"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I11-Q020"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Det lærer vi igen. Jeg føler der var en meget god pædagogisk prelab. ",
+      "turn_ids": [
+        "I11-T021"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q021"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Ja, og så tænker jeg også vi får de sidste ting helt på plads når vi lige sidder og laver videoer. ",
+      "turn_ids": [
+        "I11-T028"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I11-Q022"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: Ja, det føler jeg faktisk. Jeg synes det var lidt sejt at kunne se det. ",
+      "turn_ids": [
+        "I11-T014"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q023"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: Ja, jeg synes kvantefysik er meget flot og det har jeg synes i lang tid, men jeg synes det bliver bestemt ikke kedeligere det her, det bliver sjovere.\n\nInterviewer\nJa, skidegodt.\n\n[silence] ",
+      "turn_ids": [
+        "I11-T017"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q024"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: Ja, det er sådan lidt med interaktivt og det gør det også lidt sjovere på en måde så det ikke sådan stresser. Det klarer man jo, men sådan er det bare sjovere. Og man får den samme ud af det. ",
+      "turn_ids": [
+        "I11-T026"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q025"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: Nej, der stod jo oppe i hjørnet Sådan real life examples. Det var godt. Nej egentlig ikke.\n\nInterviewer\nJa og jeg tænker lige om der er mere jeg vil spørge om. Har i nogle forslag til forbedringer, er der noget der kunne have været bedre? ",
+      "turn_ids": [
+        "I11-T041"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I11-Q026"
+    }
+  ],
+  "codes_with_no_quotes": [
+    "2.a",
+    "2.b",
+    "2.c",
+    "3.d"
+  ]
+}

@@ -1,0 +1,661 @@
+{
+  "interview_id": "I12",
+  "interpretations": [
+    {
+      "quote_id": "I12-Q001",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The quote describes recurring equipment failure (mirrors) that consumed significant time and required repeated help, illustrating a hands-on troubleshooting problem.",
+      "why_interesting": "It shows how persistent physical setup issues, rather than conceptual content, can dominate lab time and student effort.",
+      "teaching_implication": "Labs could benefit from more robust or pre-checked equipment setups to reduce time lost to technical troubleshooting.",
+      "cited_text": "Student 2: Ja vi havde nogen spejle som blev ved med og være dumme. Så skulle vi hele tiden have hjælp til at få dem sat op igen, så vi faktisk kunne lave forsøget. Så det brugte vi ret lang tid på. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T007"
+      ]
+    },
+    {
+      "quote_id": "I12-Q002",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student describes spending a long time trying to isolate whether the problem was equipment setup or something else, indicating a diagnostic problem-solving process.",
+      "why_interesting": "It highlights the cognitive difficulty of distinguishing between technical/equipment issues and other experimental factors, a common but underappreciated lab skill.",
+      "teaching_implication": "Instructors could explicitly teach diagnostic/troubleshooting strategies to help students isolate sources of error more efficiently.",
+      "cited_text": "Student 1: Selvom at man ikke vidste, hvordan man satte det op, ikke? Sådan noget sidder man og bruger lang tid på at finde ud af, at det var det der var galt og ikke noget med de andre ting vi lavede. Så lige at filtrere det ned til den havde vi svært ved at gøre. Altså til at problemet var at spejlene og ikke hvordan vi havde sat filtrene.\n\nInterviewer\nSå det var både teknisk svært og svært at finde ud af at det var teknikken? ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T008"
+      ]
+    },
+    {
+      "quote_id": "I12-Q003",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student explains a process of reasoning through discrepancies between filter labels and actual behavior, eventually combining theory and practice to get correct results.",
+      "why_interesting": "It captures the moment where theoretical understanding and practical observation converge, which is a key learning experience in experimental physics.",
+      "teaching_implication": "Encouraging students to explicitly connect theoretical predictions with experimental discrepancies could strengthen conceptual understanding.",
+      "cited_text": "Student 1: Det var lige at finde ud af det der med at man skulle gøre det relativt til, eller filterne ikke helt var sande til hvad der stod på dem, og efter at man ligesom havde regnet det i hovedet og kigget på det, så fik de vi selv havde snakket om at sådan er det, det her burde fungere. Så kom det rigtige ud, når man ligesom havde indsigt den del af det og den teoretiske del af den praktiske del af det og så kom det rigtigt.\n\nInterviewer\nVar det noget i selv skulle finde ud? ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T021"
+      ]
+    },
+    {
+      "quote_id": "I12-Q004",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student states they had to independently determine polarization filter orientation or consult peers, showing self-directed problem-solving.",
+      "why_interesting": "It reflects reliance on peer knowledge-sharing as a substitute for formal instruction in resolving technical uncertainties.",
+      "teaching_implication": "Formalizing peer consultation or providing clearer initial instructions on equipment orientation could reduce trial-and-error time.",
+      "cited_text": "Student 1: Det der med polariseringsfiltrene, hvordan de var orienteret og sådan noget der, det skulle vi selv finde ud af eller snakke med de andre om, som havde fået det at vide. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T022"
+      ]
+    },
+    {
+      "quote_id": "I12-Q005",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student describes struggling to predict outcomes of algebraic operations on combined stages because the concepts were new, illustrating conceptual problem-solving difficulty.",
+      "why_interesting": "It shows how unfamiliarity with new theoretical tools can make it hard for students to locate the source of prediction errors.",
+      "teaching_implication": "Providing worked examples of multi-stage operations beforehand might help students build predictive intuition.",
+      "cited_text": "Student 1: Vi sidder også lidt i sådan noget som projektering og for eksempel at finde ud af, hvordan den operation fungerer, også hvordan man laver den algebra, når man har to stadier der er sat sammen. Hvorfor fungerer den på den ene og ikke på den anden eller sådan nogle ting og det var lidt alt sammen noget nyt, så da vi skulle forudsige tingene, kunne vi ikke helt se hvor det gik galt, eller hvad man kan sige. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T029"
+      ]
+    },
+    {
+      "quote_id": "I12-Q006",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student explicitly states they cannot see what is going wrong or when, indicating an unresolved problem-solving challenge.",
+      "why_interesting": "It captures the frustration of being unable to diagnose errors, a common experience in exploratory lab work.",
+      "teaching_implication": "Providing diagnostic checkpoints or feedback mechanisms during experiments could help students identify errors earlier.",
+      "cited_text": "Student 2: Det der med, fordi vi ved ikke. Altså vi kan ikke se hvad der er går galt og hvornår det går galt. Ja. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T032"
+      ]
+    },
+    {
+      "quote_id": "I12-Q007",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student expresses having struggled with a problem but now feeling confident they can eventually solve it, reflecting the process of working through difficulty.",
+      "why_interesting": "It shows resilience and growing confidence despite earlier struggle, suggesting productive frustration in problem-solving.",
+      "teaching_implication": "Instructors might normalize initial struggle as part of the learning process to reduce student anxiety about difficulty.",
+      "cited_text": "Student 2: Men altså ja på den anden side, så har vi nu slås med det, og så nu kan vi sikkert godt finde ud af det, tror jeg. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T036"
+      ]
+    },
+    {
+      "quote_id": "I12-Q008",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student describes both enjoying calculation-based tasks and struggling to understand projection operators, comparing themselves to confused chickens, which reflects the problem-solving experience of grappling with new material.",
+      "why_interesting": "The vivid metaphor captures the disorientation students feel when introduced to complex new formalism without adequate scaffolding.",
+      "teaching_implication": "Introducing operator formalism with more scaffolding or step-by-step examples could reduce student confusion.",
+      "cited_text": "Student 1: Så jeg synes en opgave sådan at sidde og regne dem ud og finde ud af de der ting. Det var virkelig dejligt. Det havde bare været dejligt også lige at forstå de der projekteringsoperatorer eller sådan noget der, hvordan man lige sætter dem op i de her tilfælde for eksempel. Eller hvordan de der entanglements sat sammen fungerer når du putter et operator på den. Hvornår ser den på, eller hvornår gør den det ikke? Da vi snakkede om dem i hvert fald, der følte vi, at vi var lidt bare kyllinger hvor man tager hovedet af der rendte rundt og sagde: Ahhhhh. Sådan cirka det her nok.\n\nInterviewer\nJa. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T037"
+      ]
+    },
+    {
+      "quote_id": "I12-Q009",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student notes that understanding only came after asking a question, implying that resolving confusion required external input as part of the problem-solving process.",
+      "why_interesting": "It suggests that timely access to help is critical for moving past conceptual roadblocks.",
+      "teaching_implication": "Ensuring TAs are readily available for quick clarifying questions could prevent prolonged confusion.",
+      "cited_text": "Student 1: Indtil vi fik spurgt om det. Så kan man måske lidt, men ja.\n\nInterviewer\nKan i sætte lidt flere ord på det her? Altså hvordan det føles det her med at i har hørt om de her ting for første gang mens i skulle bruge dem? ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T038"
+      ]
+    },
+    {
+      "quote_id": "I12-Q010",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The comment implies that struggling through a problem leads to fast learning, framing difficulty as part of an effective problem-solving/learning process.",
+      "why_interesting": "It reflects a student's belief that productive struggle accelerates learning, a valuable insight into student learning theory.",
+      "teaching_implication": "Lab design could intentionally incorporate moments of guided struggle to leverage this perceived rapid learning effect.",
+      "cited_text": "Student 2: Men Det er jo også sådan man lærer hurtigt. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T041"
+      ]
+    },
+    {
+      "quote_id": "I12-Q011",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The description of frustration while working through a problem at the board reflects the affective and cognitive dimensions of problem-solving.",
+      "why_interesting": "It vividly illustrates the emotional toll of working through unfamiliar material, which is often invisible in written reports.",
+      "teaching_implication": "Recognizing visible signs of frustration could prompt instructors to offer timely support during problem-solving sessions.",
+      "cited_text": "Student 1: Stirrer frustreret på tavlen, og sidder ud og regner det igennem. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T042"
+      ]
+    },
+    {
+      "quote_id": "I12-Q012",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The remark connects the act of working through and remembering material, implying that the problem-solving process aids retention.",
+      "why_interesting": "It suggests students perceive active struggle as linked to memory formation, relevant to how labs support long-term learning.",
+      "teaching_implication": "Designing labs that require active problem-solving rather than passive instruction may improve retention.",
+      "cited_text": "Student 2: Og så kan man huske det mener jeg bare. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T043"
+      ]
+    },
+    {
+      "quote_id": "I12-Q013",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student directly describes the experience of being frustrated and finding it unpleasant to be stuck in that state, characterizing the emotional side of problem-solving.",
+      "why_interesting": "It highlights that frustration, while potentially productive, is also experienced as genuinely unpleasant by students.",
+      "teaching_implication": "Instructors might build in strategies to help students manage frustration without it undermining motivation.",
+      "cited_text": "Student 2: Når man har været frustreret. Ja Det er bare nederen at stå i det. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T045"
+      ]
+    },
+    {
+      "quote_id": "I12-Q014",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student contrasts the frustration of being stuck with the relief of having fully discussed and resolved the problem, capturing the arc of problem-solving experience.",
+      "why_interesting": "It shows how resolution and discussion provide a sense of closure after struggle, which may be important for student wellbeing.",
+      "teaching_implication": "Building in time for post-problem discussion/debrief could help students consolidate learning and closure.",
+      "cited_text": "Student 1: Der er frustrationer at stå i det, og så når man er færdig med det, så er det måske rart, at ligesom have diskuteret det færdigt ja. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T046"
+      ]
+    },
+    {
+      "quote_id": "I12-Q015",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student discusses feeling mismatched between the gradual setup and the sudden hands-on work with unfamiliar equipment, describing this as a source of problem-solving difficulty.",
+      "why_interesting": "It reveals a gap between preparatory instruction and actual lab execution that leads to reliance on TA intervention.",
+      "teaching_implication": "Providing more detailed equipment orientation in the task text itself could reduce dependency on TA troubleshooting.",
+      "cited_text": "Student 1: Ja, Jeg tror at det ville være.. Altså jeg kan godt lide den måde de ligesom bygger det stille og roligt op altså setuppet og så videre. Jeg tror at det der med når vi sådan sidder foran det lige pludselig og så skal arbejde med det og sådan nogle der ting. Der tror jeg at der er en mismatch i, at specielt den der med polarisering føler jeg bare kunne stå i opgaveteksten også. Sådan så vi ikke behøver at have en TA der forklarer til os det her er relativt eller sådan de der udstyr ting, nogle generelle ting lige at vide om det ville måske være dejligt så man ikke bare står med totalt fremmede objekter foran en. Og så hvad skal jeg gøre her? Specielt med vores setup der var lidt løst og sådan noget der det tror jeg er mere specifikt med os har været et problem. Altså ligesom: Jamen nu skal vi have vores TA ind flere gange og rette de der spejle og sådan nogle her ting og det har jo sjovt nok været lidt irriterende, men det er jo også noget der kan undgås, hvis man måske havde en lidt mere forståelse for de setup komponenter, som vi havde at lege med.\n\nInterviewer\nJa. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T061"
+      ]
+    },
+    {
+      "quote_id": "I12-Q016",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student identifies discussions with peers as the primary means of building intuitive understanding, framing this as central to their problem-solving process.",
+      "why_interesting": "It underscores the role of peer dialogue as a key mechanism for working through difficult material.",
+      "teaching_implication": "Structuring lab time to explicitly encourage peer discussion could support problem-solving development.",
+      "cited_text": "Student 1: Det største tror jeg er diskussionerne vi har haft med hinanden. At sidde og sige: OK men snak det igennem og få ligesom intuitivt bygget det op på en eller anden måde. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T069"
+      ]
+    },
+    {
+      "quote_id": "I12-Q017",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student notes an unresolved gap in understanding the mathematical origin of the projection operator, indicating an ongoing problem-solving challenge tied to lab content.",
+      "why_interesting": "It shows that even after lab completion, some conceptual problem-solving remains incomplete, especially the mathematical underpinnings.",
+      "teaching_implication": "Follow-up sessions focusing on mathematical derivations could help close such gaps after lab work.",
+      "cited_text": "Student 1: Vi sidder lige nu med den der projektionsoperator vi snakke om tidligere og sådan hvordan fungerer det når vi ved hvor den kommer fra. Det mangler vi vel lidt, men det er sådan mere matematiksorienteret hvordan den fungerer i spørgsmål 11. Ja.\n\nInterviewer\nSå det i laboratoriet, det gav mening og i styr på det? ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T077"
+      ]
+    },
+    {
+      "quote_id": "I12-Q018",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The statement that understanding came after discussion and explanation reflects the resolution phase of the problem-solving experience.",
+      "why_interesting": "It reinforces the importance of dialogic explanation in helping students move from confusion to comprehension.",
+      "teaching_implication": "Ensuring accessible explanation opportunities (peer or TA) throughout the lab could support this resolution process.",
+      "cited_text": "Student 1: Efter vi har snakket om og fået det forklaret, så gav det mening.\n\nInterviewer\nJa. ",
+      "code": "1.a",
+      "theme_id": "1",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T078"
+      ]
+    },
+    {
+      "quote_id": "I12-Q019",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student expresses genuine enjoyment of calculation-based tasks and a desire to deeply understand operator formalism, reflecting an identification with theoretical/mathematical work.",
+      "why_interesting": "It reveals a student's self-positioning as someone who finds satisfaction in the theoretical/mathematical side of physics, despite finding it initially confusing.",
+      "teaching_implication": "Recognizing and nurturing students' theoretical inclinations could inform differentiated instruction that caters to varied learning identities.",
+      "cited_text": "Student 1: Så jeg synes en opgave sådan at sidde og regne dem ud og finde ud af de der ting. Det var virkelig dejligt. Det havde bare været dejligt også lige at forstå de der projekteringsoperatorer eller sådan noget der, hvordan man lige sætter dem op i de her tilfælde for eksempel. Eller hvordan de der entanglements sat sammen fungerer når du putter et operator på den. Hvornår ser den på, eller hvornår gør den det ikke? Da vi snakkede om dem i hvert fald, der følte vi, at vi var lidt bare kyllinger hvor man tager hovedet af der rendte rundt og sagde: Ahhhhh. Sådan cirka det her nok.\n\nInterviewer\nJa. ",
+      "code": "2.b",
+      "theme_id": "2",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T037"
+      ]
+    },
+    {
+      "quote_id": "I12-Q020",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The quote directly names lasers as equipment used in the lab.",
+      "why_interesting": "It succinctly captures the tangible, hands-on nature of the lab work with a memorable, casual phrasing ('leget med' - played with).",
+      "teaching_implication": "None specifically beyond noting equipment used; helps confirm what tools students engaged with.",
+      "cited_text": "Student 2: Vi har leget med lasere. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T002"
+      ]
+    },
+    {
+      "quote_id": "I12-Q021",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The quote refers explicitly to mirrors as lab equipment that malfunctioned and required repeated adjustment.",
+      "why_interesting": "It shows how equipment reliability directly shapes the student experience and time allocation in the lab.",
+      "teaching_implication": "Regular equipment maintenance checks before lab sessions could reduce these disruptions.",
+      "cited_text": "Student 2: Ja vi havde nogen spejle som blev ved med og være dumme. Så skulle vi hele tiden have hjælp til at få dem sat op igen, så vi faktisk kunne lave forsøget. Så det brugte vi ret lang tid på. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T007"
+      ]
+    },
+    {
+      "quote_id": "I12-Q022",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The quote discusses uncertainty about whether the problem was with mirrors or filters, both pieces of lab equipment.",
+      "why_interesting": "It illustrates the layered complexity of diagnosing issues among multiple pieces of interacting equipment.",
+      "teaching_implication": "Clearer labeling or separate testing protocols for individual equipment components could aid troubleshooting.",
+      "cited_text": "Student 1: Selvom at man ikke vidste, hvordan man satte det op, ikke? Sådan noget sidder man og bruger lang tid på at finde ud af, at det var det der var galt og ikke noget med de andre ting vi lavede. Så lige at filtrere det ned til den havde vi svært ved at gøre. Altså til at problemet var at spejlene og ikke hvordan vi havde sat filtrene.\n\nInterviewer\nSå det var både teknisk svært og svært at finde ud af at det var teknikken? ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T008"
+      ]
+    },
+    {
+      "quote_id": "I12-Q023",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The quote specifically references polarization filters and the need to determine their orientation, directly naming lab equipment.",
+      "why_interesting": "It shows equipment-specific knowledge gaps that students had to resolve through self-directed learning or peer consultation.",
+      "teaching_implication": "Including orientation guides for specific equipment like polarization filters could streamline setup.",
+      "cited_text": "Student 1: Det der med polariseringsfiltrene, hvordan de var orienteret og sådan noget der, det skulle vi selv finde ud af eller snakke med de andre om, som havde fået det at vide. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T022"
+      ]
+    },
+    {
+      "quote_id": "I12-Q024",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student explicitly mentions having tried working with mirrors as lab equipment.",
+      "why_interesting": "It reflects how hands-on equipment experience can inform students' sense of their future academic/career direction.",
+      "teaching_implication": "Highlighting the career-relevance of hands-on equipment work could enhance student engagement with lab equipment.",
+      "cited_text": "Student 3: Det tror jeg, at jeg er enig i. Det er meget cool ay have prøvet at lege med de der spejle og sådan noget. Så nu kan jeg måske sige mere med sikkerhed om jeg vil gå den vej eller den anden vej. Men ja tror jeg det er det.\n\nInterviewer\nVed du så om du vil den her vej eller den anden vej? ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 3"
+      ],
+      "turn_ids": [
+        "I12-T056"
+      ]
+    },
+    {
+      "quote_id": "I12-Q025",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student references needing to have a TA repeatedly adjust the mirrors, directly naming equipment central to the lab setup issues.",
+      "why_interesting": "It highlights how equipment problems translate into recurring need for instructor intervention, shaping the overall lab experience.",
+      "teaching_implication": "Improved equipment design or pre-lab calibration could reduce the frequency of TA-dependent fixes.",
+      "cited_text": "Student 1: Ja, Jeg tror at det ville være.. Altså jeg kan godt lide den måde de ligesom bygger det stille og roligt op altså setuppet og så videre. Jeg tror at det der med når vi sådan sidder foran det lige pludselig og så skal arbejde med det og sådan nogle der ting. Der tror jeg at der er en mismatch i, at specielt den der med polarisering føler jeg bare kunne stå i opgaveteksten også. Sådan så vi ikke behøver at have en TA der forklarer til os det her er relativt eller sådan de der udstyr ting, nogle generelle ting lige at vide om det ville måske være dejligt så man ikke bare står med totalt fremmede objekter foran en. Og så hvad skal jeg gøre her? Specielt med vores setup der var lidt løst og sådan noget der det tror jeg er mere specifikt med os har været et problem. Altså ligesom: Jamen nu skal vi have vores TA ind flere gange og rette de der spejle og sådan nogle her ting og det har jo sjovt nok været lidt irriterende, men det er jo også noget der kan undgås, hvis man måske havde en lidt mere forståelse for de setup komponenter, som vi havde at lege med.\n\nInterviewer\nJa. ",
+      "code": "3.a",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T061"
+      ]
+    },
+    {
+      "quote_id": "I12-Q026",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student describes successfully reconciling theoretical predictions with practical filter behavior, resulting in correct results, which reflects a positive learning outcome from combining theory and practice.",
+      "why_interesting": "It shows a rewarding moment when theoretical insight directly explains an experimental discrepancy, reinforcing learning.",
+      "teaching_implication": "Emphasizing the interplay between theory and practical anomalies could be used deliberately to reinforce learning.",
+      "cited_text": "Student 1: Det var lige at finde ud af det der med at man skulle gøre det relativt til, eller filterne ikke helt var sande til hvad der stod på dem, og efter at man ligesom havde regnet det i hovedet og kigget på det, så fik de vi selv havde snakket om at sådan er det, det her burde fungere. Så kom det rigtige ud, når man ligesom havde indsigt den del af det og den teoretiske del af den praktiske del af det og så kom det rigtigt.\n\nInterviewer\nVar det noget i selv skulle finde ud? ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T021"
+      ]
+    },
+    {
+      "quote_id": "I12-Q027",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The comment that this is how one learns quickly suggests a positive framing of the fast-paced learning experience in the lab.",
+      "why_interesting": "It reflects a student's positive appraisal of experiential, in-the-moment learning despite its challenges.",
+      "teaching_implication": "Labs designed for rapid iterative learning could be leveraged intentionally as an effective teaching strategy.",
+      "cited_text": "Student 2: Men Det er jo også sådan man lærer hurtigt. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T041"
+      ]
+    },
+    {
+      "quote_id": "I12-Q028",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The remark ties active engagement in the lab to better memory retention, indicating a positive perceived learning outcome.",
+      "why_interesting": "It suggests students associate hands-on struggle with improved long-term retention of material.",
+      "teaching_implication": "Reinforcing active, hands-on components in labs could be prioritized to enhance retention.",
+      "cited_text": "Student 2: Og så kan man huske det mener jeg bare. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T043"
+      ]
+    },
+    {
+      "quote_id": "I12-Q029",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student describes how lab content connected meaningfully with concurrent coursework (optics), calling it 'nice' and giving a more complete picture of physics, indicating a positive learning experience.",
+      "why_interesting": "It highlights the value of cross-course integration in reinforcing and enriching student understanding.",
+      "teaching_implication": "Explicitly linking lab content to concurrent coursework could strengthen interdisciplinary connections for students.",
+      "cited_text": "Student 2: Altså lige det her vi lavede i dag ja. Nu tager jeg optik lige nu, og det var er noget vi også lige har snakket om der. Så det er sådan set meget nice og det på den måde de tog kurser blev lige bundet rigtig meget sammen fordi vi har lige snakket om beamsplittere og sådan noget der. Så at der er de her forskellige sider af det samme er sådan set meget rart, så det giver lidt mere fuldendt billede af fysik synes jeg. Så det kan jeg godt lide. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T054"
+      ]
+    },
+    {
+      "quote_id": "I12-Q030",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student expresses newfound understanding of how quantum mechanics experiments are conducted, specifically regarding beamsplitters and entanglement, indicating a positive learning outcome.",
+      "why_interesting": "It shows a moment of conceptual clarity and pride in understanding complex experimental design, even while questioning its career relevance.",
+      "teaching_implication": "Connecting abstract concepts to concrete experimental procedures can help solidify student understanding.",
+      "cited_text": "Student 1: Jeg føler også det eneste jeg føler at fundet ud af, men det punkt er at nu forstår jeg hvordan man laver forsøg i kvantemekanik forstår, ok eller når det kommer til lys i hvert fald specifikt. Det der med at sige: ok, men du har en beamsplitter og det er sådan her du entangler ting sammen og det er sådan her du kan sådan undersøge hvordan entanglement fungerer, at du kan få den operator der kan. Hvad kalder man det Sådan? Lave en tåge??? over hvilken vej den har taget ikke og det synes jeg er fedt at forstå hvordan der fungerer. Som man i fremtiden måske ville, hvis man laver et forsøg eller Sådan noget, forstå den kontekst eller hvor ja. Hvad du sætter op for at få den her entanglement kørende. Men jeg ved ikke hvor meget det kommer til at have relevant i min fremtidige karriere. Det har jeg ikke rigtigt sådan...\n\nInterviewer\nEj, det er så fair. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T055"
+      ]
+    },
+    {
+      "quote_id": "I12-Q031",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student identifies peer discussions as the most significant contributor to building an intuitive understanding, marking this as a positive learning experience.",
+      "why_interesting": "It emphasizes the social, dialogic nature of effective learning in this lab context.",
+      "teaching_implication": "Structuring dedicated peer discussion time could be a low-cost way to enhance learning outcomes.",
+      "cited_text": "Student 1: Det største tror jeg er diskussionerne vi har haft med hinanden. At sidde og sige: OK men snak det igennem og få ligesom intuitivt bygget det op på en eller anden måde. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T069"
+      ]
+    },
+    {
+      "quote_id": "I12-Q032",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The statement that understanding followed discussion and explanation reflects a positive shift from confusion to comprehension.",
+      "why_interesting": "It reinforces that explanation and dialogue are pivotal moments for achieving conceptual clarity.",
+      "teaching_implication": "Ensuring timely explanatory support during labs can convert confusion into positive learning moments.",
+      "cited_text": "Student 1: Efter vi har snakket om og fået det forklaret, så gav det mening.\n\nInterviewer\nJa. ",
+      "code": "3.b",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T078"
+      ]
+    },
+    {
+      "quote_id": "I12-Q033",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student expresses relief and enjoyment at not feeling rushed during the experiment, indicating positive engagement with the lab's pacing.",
+      "why_interesting": "It highlights how time pressure (or lack thereof) significantly shapes student enjoyment and engagement in labs.",
+      "teaching_implication": "Allowing sufficient time for experiments without rushing could improve student engagement and reduce stress.",
+      "cited_text": "Student 2: Det er jo Sådan set meget rart, at vi ikke følte os på den måde stressede i at skulle skynde sig igennem forsøget. Det synes jeg lidt vi følte i det forrige i hvert fald. ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T011"
+      ]
+    },
+    {
+      "quote_id": "I12-Q034",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student describes finding calculation tasks 'virkelig dejligt' (really lovely), directly expressing enjoyment despite acknowledging confusion, indicating engagement with the material.",
+      "why_interesting": "It shows that enjoyment and confusion can coexist, with students still finding satisfaction in engaging with challenging content.",
+      "teaching_implication": "Recognizing that enjoyable engagement can occur even amid difficulty may encourage instructors to maintain challenging content while supporting students through it.",
+      "cited_text": "Student 1: Så jeg synes en opgave sådan at sidde og regne dem ud og finde ud af de der ting. Det var virkelig dejligt. Det havde bare været dejligt også lige at forstå de der projekteringsoperatorer eller sådan noget der, hvordan man lige sætter dem op i de her tilfælde for eksempel. Eller hvordan de der entanglements sat sammen fungerer når du putter et operator på den. Hvornår ser den på, eller hvornår gør den det ikke? Da vi snakkede om dem i hvert fald, der følte vi, at vi var lidt bare kyllinger hvor man tager hovedet af der rendte rundt og sagde: Ahhhhh. Sådan cirka det her nok.\n\nInterviewer\nJa. ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T037"
+      ]
+    },
+    {
+      "quote_id": "I12-Q035",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student explicitly states they like ('det kan jeg godt lide') how the lab content ties together with other coursework, reflecting positive engagement.",
+      "why_interesting": "It shows how integration across courses can be a source of enjoyment and motivation for students.",
+      "teaching_implication": "Highlighting connections between lab work and other courses could be used to boost student engagement.",
+      "cited_text": "Student 2: Altså lige det her vi lavede i dag ja. Nu tager jeg optik lige nu, og det var er noget vi også lige har snakket om der. Så det er sådan set meget nice og det på den måde de tog kurser blev lige bundet rigtig meget sammen fordi vi har lige snakket om beamsplittere og sådan noget der. Så at der er de her forskellige sider af det samme er sådan set meget rart, så det giver lidt mere fuldendt billede af fysik synes jeg. Så det kan jeg godt lide. ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T054"
+      ]
+    },
+    {
+      "quote_id": "I12-Q036",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student describes finding it 'fedt' (cool/great) to understand how quantum mechanics experiments work, directly expressing enjoyment and engagement with the material.",
+      "why_interesting": "It reveals enthusiasm for understanding experimental design even when the student is uncertain about its future career relevance.",
+      "teaching_implication": "Emphasizing the intrinsic interest of experimental design, independent of career relevance, could sustain student engagement.",
+      "cited_text": "Student 1: Jeg føler også det eneste jeg føler at fundet ud af, men det punkt er at nu forstår jeg hvordan man laver forsøg i kvantemekanik forstår, ok eller når det kommer til lys i hvert fald specifikt. Det der med at sige: ok, men du har en beamsplitter og det er sådan her du entangler ting sammen og det er sådan her du kan sådan undersøge hvordan entanglement fungerer, at du kan få den operator der kan. Hvad kalder man det Sådan? Lave en tåge??? over hvilken vej den har taget ikke og det synes jeg er fedt at forstå hvordan der fungerer. Som man i fremtiden måske ville, hvis man laver et forsøg eller Sådan noget, forstå den kontekst eller hvor ja. Hvad du sætter op for at få den her entanglement kørende. Men jeg ved ikke hvor meget det kommer til at have relevant i min fremtidige karriere. Det har jeg ikke rigtigt sådan...\n\nInterviewer\nEj, det er så fair. ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "Student 1"
+      ],
+      "turn_ids": [
+        "I12-T055"
+      ]
+    },
+    {
+      "quote_id": "I12-Q037",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student describes the experience of working with mirrors as 'meget cool' (very cool), directly expressing enjoyment and engagement.",
+      "why_interesting": "It shows how hands-on equipment work can be a source of enjoyment that also informs career considerations.",
+      "teaching_implication": "Leveraging the inherent appeal of hands-on equipment work could be used to sustain interest in physics as a field.",
+      "cited_text": "Student 3: Det tror jeg, at jeg er enig i. Det er meget cool ay have prøvet at lege med de der spejle og sådan noget. Så nu kan jeg måske sige mere med sikkerhed om jeg vil gå den vej eller den anden vej. Men ja tror jeg det er det.\n\nInterviewer\nVed du så om du vil den her vej eller den anden vej? ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "Student 3"
+      ],
+      "turn_ids": [
+        "I12-T056"
+      ]
+    },
+    {
+      "quote_id": "I12-Q038",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student explicitly states 'det var sjovt at prøve' (it was fun to try), directly indicating enjoyment of the lab experience.",
+      "why_interesting": "It shows that even when a student doesn't see a lab area as their future path, they can still find genuine enjoyment in trying it.",
+      "teaching_implication": "Labs can be valuable for enjoyment and exposure purposes even if they don't align with a student's eventual specialization.",
+      "cited_text": "Student 3: Ikke  umiddelbart. Det er i hvert fald ikke hvad jeg lige med det samme har tænkt mig at gøre. Så nok ikke. Men det var sjovt at prøve.\n\nInterviewer\nEr der noget, det kunne have været bedre ved lab forløbet i dag? ",
+      "code": "3.c",
+      "theme_id": "3",
+      "speakers": [
+        "Student 3"
+      ],
+      "turn_ids": [
+        "I12-T057"
+      ]
+    },
+    {
+      "quote_id": "I12-Q039",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student notes that some students will go on to work with related calculations professionally ('regne timer'), implying perceived usefulness of the lab content for future work.",
+      "why_interesting": "It connects lab content to anticipated professional practice, showing perceived real-world relevance.",
+      "teaching_implication": "Explicitly framing lab tasks in terms of future professional relevance could increase perceived usefulness for students.",
+      "cited_text": "Student 2: Og nu er vi nogen, der kommer til at regne timer, så ja.\n\nInterviewer\nJa. ",
+      "code": "3.d",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T034"
+      ]
+    },
+    {
+      "quote_id": "I12-Q040",
+      "interpretation_grounded_in": "quote_text_only",
+      "rationale": "The student explicitly connects the lab content to their concurrent optics course, indicating a perceived usefulness of the lab in reinforcing related coursework.",
+      "why_interesting": "It shows how cross-course relevance enhances students' perception of a lab's practical value.",
+      "teaching_implication": "Explicitly designing labs to align with concurrent coursework could increase perceived usefulness.",
+      "cited_text": "Student 2: Altså lige det her vi lavede i dag ja. Nu tager jeg optik lige nu, og det var er noget vi også lige har snakket om der. Så det er sådan set meget nice og det på den måde de tog kurser blev lige bundet rigtig meget sammen fordi vi har lige snakket om beamsplittere og sådan noget der. Så at der er de her forskellige sider af det samme er sådan set meget rart, så det giver lidt mere fuldendt billede af fysik synes jeg. Så det kan jeg godt lide. ",
+      "code": "3.d",
+      "theme_id": "3",
+      "speakers": [
+        "Student 2"
+      ],
+      "turn_ids": [
+        "I12-T054"
+      ]
+    },
+    {
+      "quote_id": "I12-Q041",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "rationale": "The student suggests that hands-on experience with equipment helps clarify their sense of future direction, implying perceived usefulness for career decision-making.",
+      "why_interesting": "It shows how lab experiences can serve a career-exploration function beyond immediate content learning.",
+      "teaching_implication": "Labs could be framed explicitly as opportunities for career exploration to enhance perceived usefulness.",
+      "cited_text": "Student 3: Det tror jeg, at jeg er enig i. Det er meget cool ay have prøvet at lege med de der spejle og sådan noget. Så nu kan jeg måske sige mere med sikkerhed om jeg vil gå den vej eller den anden vej. Men ja tror jeg det er det.\n\nInterviewer\nVed du så om du vil den her vej eller den anden vej? ",
+      "code": "3.d",
+      "theme_id": "3",
+      "speakers": [
+        "Student 3"
+      ],
+      "turn_ids": [
+        "I12-T056"
+      ]
+    }
+  ]
+}

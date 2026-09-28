@@ -4,9 +4,9 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 1: Yeah, I mean we came to do the quantum eraser lab and I mean, we experienced that getting the interference was very difficult for us, but I mean, I think we managed to actually get it to interfere and just be a dot.\n\nInterviewer\nAll right, so you said it was difficult. Can I ask you to put some more words on what was difficult? ",
+      "cited_text": "Student 1: I think sometimes the visualization of like, oh, think about how would this graph look for some given, like we had to do one for omega where we thought one thing because this made sense to us, but then she kind of explained it and I'm like, okay, it makes sense. I think sometimes it's like, because there's a lot of parameters suddenly, right? Each part of the exercise, you have to sort of think of like another aspect of this experiment. So I think for me, at least I have a hard time sometimes remembering what I'm looking at right now or like visualizing it in a good way. I think that was hard, but I mean, that's the good thing about being multiple people. You can talk and then someone usually has a good idea. ",
       "turn_ids": [
-        "I04-T001"
+        "I04-T014"
       ],
       "speakers": [
         "Student 1"
@@ -16,33 +16,33 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "Student 1: I mean, it's using instruments I personally haven't used before. So getting used to using the new polarizers and working with lasers. Also making sure that, I mean, it's safe has been what's filled up most of my mind at least.\n\nInterviewer\nAll right. So was it something that, was it, were you worried? ",
+      "cited_text": "Student 2: I felt like it was pretty straightforward. There was one question that confused me and maybe the rest of the group about what happens as you increase the Rabi frequency strength. And I still feel a little bit shaky on the explanation there, how you get these oscillations actually that go with increasing Rabi strength. that I would like to talk about a bit more with the group members. That was, I think, the only big point of confusion for me directly related to the lab exercise.\n\nInterviewer\nYeah. How about you? ",
       "turn_ids": [
-        "I04-T002"
+        "I04-T017"
       ],
       "speakers": [
-        "Student 1"
+        "Student 2"
       ],
       "quote_id": "I04-Q002"
     },
     {
-      "theme_id": "1",
-      "code": "1.a",
-      "cited_text": "Student 1: No, I don't think I was worried, but I think I was very aware not to do any of the things we talked about in the safety like wrong.\n\nInterviewer\nYeah. How about you? Was it also new for you and was it something that you made you somehow more cautious or aware than usually? ",
+      "theme_id": "2",
+      "code": "2.b",
+      "cited_text": "Student 3: Don't know if this is maybe a bad idea, but a bit more of the sort of Hamiltonian math could be nice, just so because we say: Oh, the detuning, if we do this, then we drive this in this position, or we do A, we get this superposition. I would like to see it if you're used to think in terms of a Hamiltonian acting on some kind of or a unitary acting on a qubit, right? ",
       "turn_ids": [
-        "I04-T003"
+        "I04-T015"
       ],
       "speakers": [
-        "Student 1"
+        "Student 3"
       ],
       "quote_id": "I04-Q003"
     },
     {
-      "theme_id": "1",
-      "code": "1.a",
-      "cited_text": "Student 3: Not like high, but like more like components that are dedicated for this sort of experiment, like the beam splitter or the more accurate degree polarizers. Even though I didn't, the problem with the polarizers not being fully calibrated was a bit confusing at start. So it could be good to have some better knowledge on that beforehand, at least to find a way to actually calibrate them properly.\n\nInterviewer\nSo did you do the pre-lab exercise before? How did you experience the connection between the prelab and the experiment? ",
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: I mean, I haven't done a Ramsey experiment before exactly, but I've seen the setup quite a few times before.\n\nInterviewer\nWhen you say setup, have you seen the hardware or have you seen just this theory and the schemes and stuff like that? ",
       "turn_ids": [
-        "I04-T007"
+        "I04-T032"
       ],
       "speakers": [
         "Student 3"
@@ -50,35 +50,35 @@
       "quote_id": "I04-Q004"
     },
     {
-      "theme_id": "1",
-      "code": "1.a",
-      "cited_text": "Student 1: So we started with an interference pattern and then without any article filters it kind of disappeared and it didn't really come back. ",
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: Cryostats and control stacks and all that relatively used to that.\n\nInterviewer\nJust give me a moment to see if I covered what I want to cover... Yeah. So, you always told me that you're interested in the computing part and using the semiconducting thing. So, and some of you mentioned that you're not really interested in, let's say, having one more session in the lab. So how are you general ideas of working in a lab maybe also for your thesis or even after the thesis? ",
       "turn_ids": [
-        "I04-T011"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
-      "quote_id": "I04-Q005"
-    },
-    {
-      "theme_id": "1",
-      "code": "1.a",
-      "cited_text": "Student 3: We still don't understand why that happened, so we swapped to this setup instead.\n\nInterviewer\nSo my guess is that somehow some alignment was involuntarily, unintentionally changed and that might change this. So that happens. But did it work after switching the experiment? ",
-      "turn_ids": [
-        "I04-T012"
+        "I04-T033"
       ],
       "speakers": [
         "Student 3"
       ],
+      "quote_id": "I04-Q005"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: I think it was good. It gave us a good intuitive understanding. The only thing I think will... That I would have liked is that they prepared us a little bit more with the theory. There's a lot of the stuff that we haven't had yet. Some of it were, but because there was some stuff I didn't understand, I was kind of tracking behind, I felt like. So even the stuff I understood became a little bit more confusing. So I think it's okay we didn't have it in class, but it would have been nice to have some papers to read or some material to have read over beforehand. I would have been more prepared to understand.\n\n[inaudible]\n\nInterviewer\nSorry. ",
+      "turn_ids": [
+        "I04-T001"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
       "quote_id": "I04-Q006"
     },
     {
-      "theme_id": "1",
-      "code": "1.a",
-      "cited_text": "Student 2: Yes, it did. When we got up to this table, it was much easier. But I think the polarization was still difficult to get right because we had to use these other polarizers to make them, you know, talk together. So I think it would be nice for the future to have the polarizers be aligned well so that if you're, for example, at 0 degrees, it means it's X-polarized. if it's at 90 degrees, it would be bipolarizing. That would make the experiment much easier. Also because it was not something that was very much focused on in the pre-lab. It was sort of very conceptual with 0 and 90 degrees. But even though that was like the entire problem of our session. So I think it would be, I think, easier for us if the polarizers worked from the beginning.\n\nInterviewer\nAll right. So maybe one last thing is that I don't know you, so I don't know what kind of interest you have and what kind of specialization you are aiming for. But this experiment, how does it relate to what you want to study further on? ",
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Actually, I thought it was, I mean, I think it could have been nice to have some more theory behind it, like some more readings to do that would help us with understanding what we're doing today. But I felt like this was one of the better labs for me in the sense that everything was very straightforward and the questions that we were asked, we were able to get immediate feedback on from the TA, which was super nice. And I'm very used to not understanding what is going on in lab classes. So to an extent, I almost feel like the fact that we were working with the TA who could help us, even if we didn't have so much background, maybe. It was a really nice learning experience. [agreement] ",
       "turn_ids": [
-        "I04-T013"
+        "I04-T004"
       ],
       "speakers": [
         "Student 2"
@@ -86,71 +86,71 @@
       "quote_id": "I04-Q007"
     },
     {
-      "theme_id": "2",
-      "code": "2.c",
-      "cited_text": "Student 2: I worked in an optical lab as a student operator in an engineering company, so I'm pretty used to working with lasers, so I don't feel that I probably don't have that much awareness of it because I'm used to it.\n\nInterviewer\nHow about you? ",
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: I think sometimes the visualization of like, oh, think about how would this graph look for some given, like we had to do one for omega where we thought one thing because this made sense to us, but then she kind of explained it and I'm like, okay, it makes sense. I think sometimes it's like, because there's a lot of parameters suddenly, right? Each part of the exercise, you have to sort of think of like another aspect of this experiment. So I think for me, at least I have a hard time sometimes remembering what I'm looking at right now or like visualizing it in a good way. I think that was hard, but I mean, that's the good thing about being multiple people. You can talk and then someone usually has a good idea. ",
+      "turn_ids": [
+        "I04-T014"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I04-Q008"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: I think it was good. It gave us a good intuitive understanding. The only thing I think will... That I would have liked is that they prepared us a little bit more with the theory. There's a lot of the stuff that we haven't had yet. Some of it were, but because there was some stuff I didn't understand, I was kind of tracking behind, I felt like. So even the stuff I understood became a little bit more confusing. So I think it's okay we didn't have it in class, but it would have been nice to have some papers to read or some material to have read over beforehand. I would have been more prepared to understand.\n\n[inaudible]\n\nInterviewer\nSorry. ",
+      "turn_ids": [
+        "I04-T001"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I04-Q009"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: Actually, I thought it was, I mean, I think it could have been nice to have some more theory behind it, like some more readings to do that would help us with understanding what we're doing today. But I felt like this was one of the better labs for me in the sense that everything was very straightforward and the questions that we were asked, we were able to get immediate feedback on from the TA, which was super nice. And I'm very used to not understanding what is going on in lab classes. So to an extent, I almost feel like the fact that we were working with the TA who could help us, even if we didn't have so much background, maybe. It was a really nice learning experience. [agreement] ",
       "turn_ids": [
         "I04-T004"
       ],
       "speakers": [
         "Student 2"
       ],
-      "quote_id": "I04-Q008"
-    },
-    {
-      "theme_id": "2",
-      "code": "2.c",
-      "cited_text": "Student 3: I've worked with some optical equipment before. I mean, this is more high-tech, but I've worked with the lasers before, so it's not, I know that my general way around how to handle them.\n\nInterviewer\nSo I'm getting a bit curious about what part of this you consider as high-tech. Because I don't know what you experienced before. ",
-      "turn_ids": [
-        "I04-T006"
-      ],
-      "speakers": [
-        "Student 3"
-      ],
-      "quote_id": "I04-Q009"
-    },
-    {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "Student 1: I mean, it's using instruments I personally haven't used before. So getting used to using the new polarizers and working with lasers. Also making sure that, I mean, it's safe has been what's filled up most of my mind at least.\n\nInterviewer\nAll right. So was it something that, was it, were you worried? ",
-      "turn_ids": [
-        "I04-T002"
-      ],
-      "speakers": [
-        "Student 1"
-      ],
       "quote_id": "I04-Q010"
     },
     {
       "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "Student 3: I've worked with some optical equipment before. I mean, this is more high-tech, but I've worked with the lasers before, so it's not, I know that my general way around how to handle them.\n\nInterviewer\nSo I'm getting a bit curious about what part of this you consider as high-tech. Because I don't know what you experienced before. ",
+      "code": "3.c",
+      "cited_text": "Student 1: It was very one-to-one, which was nice.\n\nInterviewer\nSo you mentioned that it was a good experience, and those of you also had some positive words about it. I'm getting a bit interested. Can I also maybe let you two put some words on how you experienced the actual exercises? ",
       "turn_ids": [
-        "I04-T006"
+        "I04-T005"
       ],
       "speakers": [
-        "Student 3"
+        "Student 1"
       ],
       "quote_id": "I04-Q011"
     },
     {
       "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "Student 3: Not like high, but like more like components that are dedicated for this sort of experiment, like the beam splitter or the more accurate degree polarizers. Even though I didn't, the problem with the polarizers not being fully calibrated was a bit confusing at start. So it could be good to have some better knowledge on that beforehand, at least to find a way to actually calibrate them properly.\n\nInterviewer\nSo did you do the pre-lab exercise before? How did you experience the connection between the prelab and the experiment? ",
+      "code": "3.c",
+      "cited_text": "Student 1: I mean, I'm also in the quantum computing way. I think I'm a little bit more in fabrication, like crystal growth direction, but it's definitely interesting. Like, yeah, it's definitely persuading me a little bit, so...\n\nInterviewer\nIn what's in persuading you in what sense? ",
       "turn_ids": [
-        "I04-T007"
+        "I04-T030"
       ],
       "speakers": [
-        "Student 3"
+        "Student 1"
       ],
       "quote_id": "I04-Q012"
     },
     {
       "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "Student 2: Yes, it did. When we got up to this table, it was much easier. But I think the polarization was still difficult to get right because we had to use these other polarizers to make them, you know, talk together. So I think it would be nice for the future to have the polarizers be aligned well so that if you're, for example, at 0 degrees, it means it's X-polarized. if it's at 90 degrees, it would be bipolarizing. That would make the experiment much easier. Also because it was not something that was very much focused on in the pre-lab. It was sort of very conceptual with 0 and 90 degrees. But even though that was like the entire problem of our session. So I think it would be, I think, easier for us if the polarizers worked from the beginning.\n\nInterviewer\nAll right. So maybe one last thing is that I don't know you, so I don't know what kind of interest you have and what kind of specialization you are aiming for. But this experiment, how does it relate to what you want to study further on? ",
+      "code": "3.c",
+      "cited_text": "Student 2: I would say with this exercise, it was a fun exercise that I think directly relates to the content that we're studying in class, which is good. For myself, I'm really hoping that I can also see, instead of these cool toy demonstrations of whatever we just did, the Ramsey full sequence. It would be nice to see some of the active research that is going on at the NQCP, especially with where this course is in the course structure. I'm trying to think about who I might want to work with as my supervisor. I'm not so sure if I'm even going to do it in the quantum computing area. So it's fun to see these cool applied demonstrations of knowledge in class, but I'm also hoping that maybe in the future exercise section we can see or maybe hopefully contribute to something that's a bit more substantial in some sense.\n\nInterviewer\nIt's fun for me that you call it a toy demonstration because this is, in my opinion, pretty close to the real life. [laugs] I mean, so the characterization of qubits like you did, that's of course, that's done with an algorithm in the real research lab, so it's done in a moment. But the actual steps, it's pretty close, I would say, to what is done. ",
       "turn_ids": [
-        "I04-T013"
+        "I04-T034"
       ],
       "speakers": [
         "Student 2"
@@ -159,22 +159,22 @@
     },
     {
       "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "Student 1: I mean, I think like how I understand it afterwards, I think is like elevated a bit. I feel like I had a better understanding going out of a lab like this than one where it's not so extensive of a prelab. All right.\n\nInterviewer\nAllow me to go back to some of the things that you said in the beginning about the alignment or the interference was difficult to achieve. So do I understand it correctly? There were no fringes in the beginning? ",
+      "code": "3.d",
+      "cited_text": "Student 3: I don't think my experience there is so useful because I've already decided I want to do spin qubits. ",
       "turn_ids": [
-        "I04-T009"
+        "I04-T029"
       ],
       "speakers": [
-        "Student 1"
+        "Student 3"
       ],
       "quote_id": "I04-Q014"
     },
     {
       "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 1: I mean, now I don't know how much further on it is, but it really feels like a quantum experiment. So like I was kind of curious, like personally I haven't really looked into quantum before the quantum course. So it feels like very great to actually see now it's quantum, now it's not, right? Where the lab for quantum we did before this, it just like felt like something that was just there to be there.\n\nInterviewer\nI'm sorry, as I said, it was my last question, but that makes me curious. So, what, so it's the photoelectric effect you were mentioning the first time? So, what, why did you experience these two things differently? ",
+      "code": "3.d",
+      "cited_text": "Student 1: I mean, I'm also in the quantum computing way. I think I'm a little bit more in fabrication, like crystal growth direction, but it's definitely interesting. Like, yeah, it's definitely persuading me a little bit, so...\n\nInterviewer\nIn what's in persuading you in what sense? ",
       "turn_ids": [
-        "I04-T014"
+        "I04-T030"
       ],
       "speakers": [
         "Student 1"
@@ -183,22 +183,22 @@
     },
     {
       "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "Student 2: I thought it was nice because it's, at least in the lectures, it's very much about math and linear algebra. And here it was more conceptual, so I think it works nice together to have a very conceptual lab and then a very theoretical and mathematical lectures.\n\nInterviewer\nSuper. Thank you so much. I disturbed you, so I will stop here. But thank you. It's really valuable for us and we take your input very seriously for our work. So thank you. ",
+      "code": "3.d",
+      "cited_text": "Student 1: Like, because I've always been very interested in like computing in general. And then I got very interested in crystal growth. So that's also what I worked with a little bit. But now it's like it's kind of the bridge between the two, which is kind of what we're doing here, where you kind of start to bridge between computing and fabrication of these quantum chips.\n\nInterviewer\nSo I mean, semiconducting spin qubits, that was what you mentioned. These can also be put in the exactly same cryostat for doing similar experiments. So how about the experimental setup? Was it this novel for you or do you know it from other places in NQCP? ",
       "turn_ids": [
-        "I04-T016"
+        "I04-T031"
       ],
       "speakers": [
-        "Student 2"
+        "Student 1"
       ],
       "quote_id": "I04-Q016"
     },
     {
       "theme_id": "3",
       "code": "3.d",
-      "cited_text": "Student 2: I thought it was nice because it's, at least in the lectures, it's very much about math and linear algebra. And here it was more conceptual, so I think it works nice together to have a very conceptual lab and then a very theoretical and mathematical lectures.\n\nInterviewer\nSuper. Thank you so much. I disturbed you, so I will stop here. But thank you. It's really valuable for us and we take your input very seriously for our work. So thank you. ",
+      "cited_text": "Student 2: I would say with this exercise, it was a fun exercise that I think directly relates to the content that we're studying in class, which is good. For myself, I'm really hoping that I can also see, instead of these cool toy demonstrations of whatever we just did, the Ramsey full sequence. It would be nice to see some of the active research that is going on at the NQCP, especially with where this course is in the course structure. I'm trying to think about who I might want to work with as my supervisor. I'm not so sure if I'm even going to do it in the quantum computing area. So it's fun to see these cool applied demonstrations of knowledge in class, but I'm also hoping that maybe in the future exercise section we can see or maybe hopefully contribute to something that's a bit more substantial in some sense.\n\nInterviewer\nIt's fun for me that you call it a toy demonstration because this is, in my opinion, pretty close to the real life. [laugs] I mean, so the characterization of qubits like you did, that's of course, that's done with an algorithm in the real research lab, so it's done in a moment. But the actual steps, it's pretty close, I would say, to what is done. ",
       "turn_ids": [
-        "I04-T016"
+        "I04-T034"
       ],
       "speakers": [
         "Student 2"
@@ -208,6 +208,6 @@
   ],
   "codes_with_no_quotes": [
     "2.a",
-    "2.b"
+    "2.c"
   ]
 }

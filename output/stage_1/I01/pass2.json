@@ -3,10 +3,10 @@
   "interpretations": [
     {
       "quote_id": "I01-Q001",
+      "rationale": "The student describes how insufficient preparation shifts focus away from understanding and toward mechanically taking and logging data, directly describing their problem-solving approach in the lab.",
+      "why_interesting": "It reveals a coping strategy where data collection becomes a substitute for conceptual engagement when time or preparation is lacking.",
+      "teaching_implication": "Instructors could build in structured pre-lab checks or extra time buffers so students aren't forced to trade understanding for data logging.",
       "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The student directly describes how lack of preparation shifts focus away from understanding toward mechanical data collection, which reflects their problem-solving experience in the lab.",
-      "why_interesting": "It reveals a tension students feel between procedural task completion and conceptual understanding when preparation time is limited.",
-      "teaching_implication": "Consider providing structured pre-lab materials or checkpoints that ensure students arrive with enough conceptual grounding to engage in problem-solving rather than just data logging.",
       "cited_text": "student 1: So if you haven't come really prepared to the lab, you don't necessarily have the time to really understand what you're doing. And you're just kind of going on. You're more focusing on taking the data. And logging it and making sure to see it correctly.[agreement] ",
       "code": "1.a",
       "theme_id": "1",
@@ -19,10 +19,10 @@
     },
     {
       "quote_id": "I01-Q002",
+      "rationale": "The student explicitly discusses the difficulty of understanding polarization and interpreting whether data is correct, which reflects their process of working through a problem.",
+      "why_interesting": "It shows the student's uncertainty about data validity as a recurring struggle, highlighting a gap between data collection and conceptual sense-making.",
+      "teaching_implication": "Labs could include explicit checkpoints where students justify why a data pattern makes sense before moving on.",
       "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The student describes uncertainty about whether data is 'correct' and what it can be used for, illustrating an ongoing problem-solving struggle with interpretation of results.",
-      "why_interesting": "It shows that even when procedural steps are followed, students still grapple with sense-making of their own data, indicating a gap between doing and understanding.",
-      "teaching_implication": "Labs could include structured prompts or discussion points that guide students to interpret their data in real time rather than only after the fact.",
       "cited_text": "student 2: I think for my part, actually understanding like polarization, what we see on the screens for because it is the same when we get data like oh is this actually correct or what can we use this data for whether this is I think it's it's easier to look at and maybe try understand it but it's still get more to understanding parts. ",
       "code": "1.a",
       "theme_id": "1",
@@ -35,26 +35,10 @@
     },
     {
       "quote_id": "I01-Q003",
-      "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The student explicitly states that without prior optics background they would have 'no idea' what they were doing, tying problem-solving ability directly to prior theoretical knowledge.",
-      "why_interesting": "It highlights how prerequisite knowledge unevenly distributed among students can create very different lab experiences and problem-solving capacities within the same group.",
-      "teaching_implication": "Providing a brief, targeted theoretical primer before the lab could help equalize problem-solving readiness across students with varying backgrounds.",
-      "cited_text": "student 1: I also think considering me and student 1 we both have optics as student 2 said if we didn't have that we would have [emphasis] no idea what we're doing because like we've been explained polarization and basically everything we did today but we would have no idea about it if we didn't do that so maybe just kind of tiny bit of theoretical background for it would be nice. ",
-      "code": "1.a",
-      "theme_id": "1",
-      "speakers": [
-        "student 1"
-      ],
-      "turn_ids": [
-        "I01-T018"
-      ]
-    },
-    {
-      "quote_id": "I01-Q004",
+      "rationale": "The student reflects on how the pace of instruction affected their ability to grasp the material, describing their own problem-solving experience with the content.",
+      "why_interesting": "It shows how reliance on peer knowledge (a friend from optics) became an informal support system when formal instruction felt rushed.",
+      "teaching_implication": "Pairing students with varied backgrounds or slowing key explanations could reduce reliance on informal peer scaffolding.",
       "interpretation_grounded_in": "quote_plus_inference",
-      "rationale": "The student notes the introduction moved too fast to fully grasp, and instead relied on peer knowledge to compensate, reflecting a problem-solving experience shaped by pacing and peer support.",
-      "why_interesting": "It suggests that problem-solving in the lab was socially mediated, with students leaning on peers' prior coursework rather than the instructor's explanation alone.",
-      "teaching_implication": "Instructors might slow down key conceptual explanations or provide written summaries so that understanding does not depend heavily on peer tutoring.",
       "cited_text": "student 3: I think it was okay, but it was kind of fast that he went through it. So I didn't really get it totally but then it was also one of my some of my friends had optics so i was playing around yeah. ",
       "code": "1.a",
       "theme_id": "1",
@@ -66,11 +50,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q005",
+      "quote_id": "I01-Q004",
+      "rationale": "The student narrates their expectation versus the actual observed outcome of an interference pattern, illustrating the process of forming and testing hypotheses in the lab.",
+      "why_interesting": "It captures a moment of mismatch between theoretical expectation and empirical result, a core aspect of scientific problem-solving.",
+      "teaching_implication": "Instructors could use such expectation-mismatches as teaching moments to discuss real versus idealized experimental outcomes.",
       "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The student describes an expectation-versus-observation gap regarding interference, which is a form of problem-solving experience involving prediction and adjustment of understanding.",
-      "why_interesting": "It captures a moment of cognitive dissonance where the physical result didn't match anticipated theory, a key part of experiential problem-solving in physics labs.",
-      "teaching_implication": "Encouraging students to articulate predictions before observation and then reflect on discrepancies could deepen engagement with the underlying physics concepts.",
       "cited_text": "student 1: I kind of expected to see more interference. Same way. I thought it was gonna be a bit more obvious than it was. Yeah. All right. So that's my expectation. Then I was like, oh okay, I can see it. But it's not like as... Not as fun. Yeah, not as like definite, like as defined as I expected it to be. ",
       "code": "1.a",
       "theme_id": "1",
@@ -82,11 +66,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q006",
+      "quote_id": "I01-Q005",
+      "rationale": "The student contrasts the rigid first-year lab structure with the freedom of this lab, framing their evolving relationship to how science is practiced, relevant to identity as a scientist making autonomous choices.",
+      "why_interesting": "It shows a shift in self-perception from a rule-follower to someone given autonomy resembling real scientific practice.",
+      "teaching_implication": "Introducing more open-ended lab structures earlier could help students transition into a research-scientist identity sooner.",
       "interpretation_grounded_in": "quote_plus_inference",
-      "rationale": "The student contrasts prescriptive first-year labs with this open-ended lab, describing being 'encouraged' rather than told exactly what to do, which reflects a shift toward more autonomous, scientist-like practice.",
-      "why_interesting": "It suggests that reduced structure may foster a stronger sense of ownership and identity as an independent investigator rather than a task-follower.",
-      "teaching_implication": "Speculatively, gradually increasing lab openness across a curriculum might help students transition from procedural followers to independent scientific thinkers.",
       "cited_text": "student 1: Well, compared to maybe when we look back at our first year, we kind of like, you need to do this and do this and hand in this, so you need to get this data. While here, it was just, we encourage you to do this, and we do need you to make a video about it, but there was nothing like, you need to do this, and you need to have the angles like this and the filters like this so mess around in the sense that it was very free. ",
       "code": "2.a",
       "theme_id": "2",
@@ -98,11 +82,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q007",
+      "quote_id": "I01-Q006",
+      "rationale": "The student describes engaging in open discussion about results and the underlying physics rather than following prescribed answers, reflecting a shift toward thinking and acting like a scientist.",
+      "why_interesting": "It highlights how open-ended lab design fosters genuine scientific reasoning and dialogue rather than rote confirmation of expected results.",
+      "teaching_implication": "Encouraging group discussion of unexpected results can strengthen students' identity as active interpreters of data rather than passive followers.",
       "interpretation_grounded_in": "quote_plus_inference",
-      "rationale": "The student describes needing to discuss 'what is the physics behind it' themselves rather than having answers pre-determined, indicating engagement in authentic scientific reasoning akin to a quantum scientist's practice.",
-      "why_interesting": "It shows students recognizing a qualitative difference between rote confirmation labs and labs that require genuine scientific interpretation and discussion.",
-      "teaching_implication": "Labs could be designed to intentionally withhold expected results, prompting more genuine scientific discourse among peers, though this may need scaffolding to avoid frustration.",
       "cited_text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do this like the results were almost there for us before actually doing the experiment where here we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it yeah so yeah What is the physics behind it? ",
       "code": "2.a",
       "theme_id": "2",
@@ -114,11 +98,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q008",
+      "quote_id": "I01-Q007",
+      "rationale": "The student explicitly names the physical apparatus used—mirrors, beam splitters, and lasers—directly describing the laboratory equipment involved in the experiment.",
+      "why_interesting": "It grounds the abstract quantum eraser experiment in tangible, hands-on equipment, showing how conceptual physics is enacted through concrete tools.",
+      "teaching_implication": "Highlighting the equipment early can help students connect abstract quantum concepts to physical, manipulable components.",
       "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The quote explicitly names the laboratory equipment used (mirrors, beam splitters, lasers) in the quantum eraser experiment setup.",
-      "why_interesting": "It documents the concrete apparatus students associate with their quantum mechanics lab experience, grounding abstract concepts in physical tools.",
-      "teaching_implication": "Ensuring students can clearly name and describe the function of each piece of equipment could be reinforced through labeled diagrams or equipment briefings.",
       "cited_text": "student 1: Okay. Well, I'll do it in English. We were introduced to the quantum eraser experiment so we got a set up with a bunch of mirrors and the mirrors and the beam splitters and lasers and we kind of were allowed to do some free play with that and mess around with it to do a hand in for the quantum mechanics course. ",
       "code": "3.a",
       "theme_id": "3",
@@ -130,11 +114,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q009",
+      "quote_id": "I01-Q008",
+      "rationale": "The mention of angles and filters as adjustable components ties directly to the laboratory equipment used in the free-play setup.",
+      "why_interesting": "It shows how equipment parameters (angles, filters) become sites of student agency and experimentation rather than fixed instructions.",
+      "teaching_implication": "Labs could explicitly frame equipment parameters as variables for exploration to reinforce experimental thinking.",
       "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The student references 'angles' and 'filters' as adjustable equipment parameters that were left unconstrained, directly relating to lab equipment use.",
-      "why_interesting": "It shows that the lack of specified equipment settings was experienced as a marker of freedom rather than ambiguity, reflecting how equipment constraints shape perceived autonomy.",
-      "teaching_implication": "Instructors could clarify which equipment parameters are open for exploration versus which require precision, to balance freedom with necessary guidance.",
       "cited_text": "student 1: Well, compared to maybe when we look back at our first year, we kind of like, you need to do this and do this and hand in this, so you need to get this data. While here, it was just, we encourage you to do this, and we do need you to make a video about it, but there was nothing like, you need to do this, and you need to have the angles like this and the filters like this so mess around in the sense that it was very free. ",
       "code": "3.a",
       "theme_id": "3",
@@ -146,11 +130,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q010",
+      "quote_id": "I01-Q009",
+      "rationale": "The student compares expectations of precise equipment handling (mirrors) to the looser, hand-held use of filters, directly discussing equipment handling practices.",
+      "why_interesting": "It reveals a perceived gap between expected scientific rigor and the informal, hands-on reality of manipulating lab equipment.",
+      "teaching_implication": "Clarifying which equipment interactions require precision versus flexibility could help set realistic expectations for students.",
       "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The student explicitly compares the expected precision of mirror alignment equipment to the more informal, hand-held use of filters and paper in this lab.",
-      "why_interesting": "It reveals a mismatch between students' prior expectations of lab equipment rigor and the more improvisational equipment handling encountered here.",
-      "teaching_implication": "Clarifying up front which equipment operations require precision and which allow informal handling could help set appropriate expectations for students.",
       "cited_text": "student 2: More technical in terms of that I thought, like changing the mirrors and stuff like that had to be more precise. Where this felt more freely like holding the filters up by hand and stuff like that. And placing paper down to block the... I thought that it would more defined what the places has to be. ",
       "code": "3.a",
       "theme_id": "3",
@@ -162,11 +146,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q011",
+      "quote_id": "I01-Q010",
+      "rationale": "The student elaborates on the informal, hand-held placement of filters, directly describing their experience with the lab's physical equipment.",
+      "why_interesting": "It captures an ambivalence about whether informal equipment handling is a benefit or a drawback for experimental rigor.",
+      "teaching_implication": "Discussing the trade-offs of flexible versus fixed equipment setups could help students understand experimental design choices.",
       "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The student reflects on the informal, hand-held placement of filters as equipment interaction that felt both positive and negative, directly discussing equipment handling practices.",
-      "why_interesting": "It highlights an ambivalence toward reduced equipment precision, suggesting students may value structure even while enjoying freedom.",
-      "teaching_implication": "Lab design could offer optional equipment mounts or guides for students who prefer more precise setups, while still allowing free exploration for others.",
       "cited_text": "student 2: More... Not necessarily not precise. Like it was still... It was just like having the filters in hand and placing them down didn't feel like... they had to be there and stuff like that. Which is both positive and negative I think. Alright. In some way. ",
       "code": "3.a",
       "theme_id": "3",
@@ -178,11 +162,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q012",
-      "interpretation_grounded_in": "quote_plus_inference",
-      "rationale": "The student expresses that talking freely about results and discussing 'the physics behind it' was 'kind of nice', indicating enjoyment tied to engagement in discussion rather than rote procedure.",
-      "why_interesting": "It suggests that enjoyment in this lab stemmed from intellectual engagement and dialogue rather than just successful data collection.",
-      "teaching_implication": "Building in structured discussion time around results could enhance enjoyment and engagement in other labs as well.",
+      "quote_id": "I01-Q011",
+      "rationale": "The student expresses that the freedom to discuss results and physics felt 'nice,' directly indicating positive engagement with the lab process.",
+      "why_interesting": "It shows enjoyment stemming not from the equipment itself but from the intellectual freedom to interpret data collaboratively.",
+      "teaching_implication": "Structuring labs to include open discussion time could enhance student enjoyment and deeper engagement.",
+      "interpretation_grounded_in": "quote_text_only",
       "cited_text": "student 2: I think we found it kind of nice to actually getting to talk more freely about it like oh what is the result that we actually getting well as you said in our first years like you have to do this like the results were almost there for us before actually doing the experiment where here we actually had to talk to each other about what is it that we actually see and how yeah what is the physics behind it yeah so yeah What is the physics behind it? ",
       "code": "3.c",
       "theme_id": "3",
@@ -194,11 +178,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q013",
+      "quote_id": "I01-Q012",
+      "rationale": "The student states it was 'nice' not to have to take extensive data, contrasting it with stress from other labs, directly expressing enjoyment tied to reduced data-taking burden.",
+      "why_interesting": "It highlights how the volume of required data collection can be a source of stress that detracts from enjoyment in other labs.",
+      "teaching_implication": "Reducing unnecessary data collection demands in some labs may improve student engagement and reduce stress.",
       "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The student directly states it was 'kind of nice' not having to take extensive data, associating reduced data-collection burden with less stress and more enjoyment.",
-      "why_interesting": "It highlights how heavy data-collection demands in other labs can be a source of stress that detracts from enjoyment, making this lab's lighter data load a positive contrast.",
-      "teaching_implication": "Reducing unnecessary data-collection burden in some labs, or clarifying why certain data is needed, might help lower stress and increase engagement.",
       "cited_text": "student 3: Also, kind of nice in some way not having to take data because it takes it sometimes. Having to take so much data in some of the labs. Getting stressed about it.[overlap] Yeah, getting stressed about it. ",
       "code": "3.c",
       "theme_id": "3",
@@ -210,11 +194,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q014",
+      "quote_id": "I01-Q013",
+      "rationale": "The student explicitly says the result was 'not as fun' as expected, directly reflecting their enjoyment level relative to expectations.",
+      "why_interesting": "It shows how enjoyment is tied to the vividness or clarity of the phenomenon observed, not just the act of experimenting.",
+      "teaching_implication": "Ensuring key phenomena are clearly visible or dramatic could enhance student enjoyment and perceived success.",
       "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The student explicitly says the interference observed was 'not as fun' as expected, directly linking their engagement/enjoyment to the vividness of the observed phenomenon.",
-      "why_interesting": "It shows that enjoyment is tied to the perceptual salience of the physics phenomenon, and unmet expectations can dampen engagement even when the experiment technically works.",
-      "teaching_implication": "Setting more calibrated expectations beforehand, or enhancing the visibility of subtle effects, might help sustain student enjoyment when phenomena are less dramatic than anticipated.",
       "cited_text": "student 1: I kind of expected to see more interference. Same way. I thought it was gonna be a bit more obvious than it was. Yeah. All right. So that's my expectation. Then I was like, oh okay, I can see it. But it's not like as... Not as fun. Yeah, not as like definite, like as defined as I expected it to be. ",
       "code": "3.c",
       "theme_id": "3",
@@ -226,11 +210,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q015",
+      "quote_id": "I01-Q014",
+      "rationale": "The student's exclamation 'a bit more wow' followed by laughter directly conveys a moment of enjoyment and engagement.",
+      "why_interesting": "It captures a spontaneous, affective reaction that reflects genuine excitement rather than rehearsed positivity.",
+      "teaching_implication": "Identifying and amplifying 'wow' moments in lab design could help sustain student motivation.",
       "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The brief exclamation 'a bit more wow' followed by laughter directly expresses a moment of enjoyment and engagement with the experiment.",
-      "why_interesting": "The spontaneous, informal reaction captures an authentic affective response that surveys might miss, showing genuine excitement in the moment.",
-      "teaching_implication": "Labs could be designed to include moments intentionally amplifying such 'wow' reactions, for example by highlighting particularly striking visual results.",
       "cited_text": "student 2: Yeah, I guess. So there's a bit more wow. [laughs] ",
       "code": "3.c",
       "theme_id": "3",
@@ -242,11 +226,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q016",
+      "quote_id": "I01-Q015",
+      "rationale": "The student describes 'quantum memories' as sounding 'really cool' with laughter, directly expressing enthusiasm and engagement with the topic name itself.",
+      "why_interesting": "It shows how the framing or naming of a scientific topic can itself generate excitement before any content is even taught.",
+      "teaching_implication": "Using evocative, engaging terminology when introducing topics could help spark initial student interest.",
       "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The student's laughter and description of 'quantum memories' as 'really cool' directly expresses enjoyment and engagement with the topic.",
-      "why_interesting": "It shows that even the terminology or naming of a quantum concept can spark enthusiasm and curiosity before any hands-on interaction.",
-      "teaching_implication": "Framing lab topics with evocative, engaging language early on could help build anticipation and motivation before the practical work begins.",
       "cited_text": "Student 1: It just is quantum memories, so it sounds like something would have found factor. Sounds like it's really cool. [laughs] ",
       "code": "3.c",
       "theme_id": "3",
@@ -258,11 +242,11 @@
       ]
     },
     {
-      "quote_id": "I01-Q017",
-      "interpretation_grounded_in": "quote_text_only",
-      "rationale": "The student contrasts the 'spectacular' sounding name 'quantum eraser' with the comparatively mundane experience of 'seeing interference', reflecting engagement shaped by expectation versus reality.",
-      "why_interesting": "It reveals how the branding or naming of an experiment can set up expectations that affect perceived engagement, independent of the actual physics content.",
-      "teaching_implication": "Instructors might consider briefly explaining what students will concretely observe, to align expectations with the experience and reduce potential letdown in engagement.",
+      "quote_id": "I01-Q016",
+      "rationale": "The student contrasts the more dramatic-sounding 'quantum eraser' with the comparatively mundane observation of interference, directly reflecting their engagement with the topic's framing versus reality.",
+      "why_interesting": "It highlights a gap between the excitement generated by terminology and the more modest empirical experience delivered by the lab.",
+      "teaching_implication": "Aligning the framing of lab topics with the actual observable outcomes could help manage student expectations and sustain engagement.",
+      "interpretation_grounded_in": "quote_plus_inference",
       "cited_text": "student 2: I don't know. As then as soon as seeing pre-lab and then coming here, like, okay, I know what it's like. It was like a written pre-lab and it was like...Quantum eraser sounds more spectacular than seeing interference. Yeah. I feel like... ",
       "code": "3.c",
       "theme_id": "3",
@@ -271,6 +255,22 @@
       ],
       "turn_ids": [
         "I01-T039"
+      ]
+    },
+    {
+      "quote_id": "I01-Q017",
+      "rationale": "The student explicitly discusses how relevance to their own field (astrophysics vs. quantum) affects perceived usefulness of the topic, directly addressing perceived usefulness.",
+      "why_interesting": "It reveals how disciplinary identity shapes whether students see a topic as personally useful, regardless of its intrinsic scientific value.",
+      "teaching_implication": "Framing quantum topics with cross-disciplinary relevance (e.g., to astrophysics) could increase perceived usefulness for a broader range of students.",
+      "interpretation_grounded_in": "quote_plus_inference",
+      "cited_text": "student 1: I think you might have the wrong group for this, because everyone except for student 3 does astrophysics. Yeah. So it's not really our area. But I guess, presumably, now it's not personal, now I'm speaking for others, but I know people who want to do quantum, who are excited to do this. So I think it's just not the group here that should bring it. ",
+      "code": "3.d",
+      "theme_id": "3",
+      "speakers": [
+        "student 1"
+      ],
+      "turn_ids": [
+        "I01-T044"
       ]
     }
   ]

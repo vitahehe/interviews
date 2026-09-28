@@ -4,326 +4,374 @@
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "student 3: Det var mere det med, at man ændrede det en grad, og så tænkte man, det gør jo ikke noget som helst. Og så var der interferens. Og så var det sådan, at når man lige vil have interferens, så lad os lige gå en grad længere ned. Så det var meget... mere det med. Det går meget hurtigt, og hvis man kom til at røre ved spejlen, så wobblede lyset på pladen, fordi det gør jo meget for selv i lyset. ",
+      "cited_text": "Student 1: Yeah, to be honest, it was a superconducting computer. And to be honest, I don't understand why we do this lab right now when we learn about like ion trap, photonic computers, but not superconducting, so it was a bit confusing to me. ",
       "turn_ids": [
-        "I03-T007"
+        "I03-T015"
       ],
       "speakers": [
-        "student 3"
+        "Student 1"
       ],
       "quote_id": "I03-Q001"
     },
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "student 1: Jeg tror, jeg er overrasket over, hvor stor forskel det gjorde at rykke bord. [laughs] ",
+      "cited_text": "Student 1: Usually, yeah, the other type of computers, we learned about both of them. In this lecture, but superconducting will, I don't know, be next week or week after, and we do this lab right now. So maybe it would be easier to do this lab after you have some basic knowledge about like what's going on. So right now, yeah, it was lots of new stuff to me. But yeah, the TA was kind of patient and I think they explained everything, yeah, so. I would say.\n\ninterviewer\nI guess building on that, can you talk me through like the specific challenges you faced? ",
       "turn_ids": [
-        "I03-T011"
+        "I03-T022"
       ],
       "speakers": [
-        "student 1"
+        "Student 1"
       ],
       "quote_id": "I03-Q002"
     },
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "student 1: Ja, fordi vi startede med det der lille bord, og der var det sådan noget, så skulle vi lige sidde og vente lidt, fordi bordet skulle lige stå stille, så vi kunne se det. Ja, og så rykkede vi over til det andet, og så kunne man bare se det, hvad det så var. ",
+      "cited_text": "Student 3: I think like the name of the whole lab topic was pretty scary because it was about superconducting qubits that we weren't taught still, but the actual like what we were being tested on were things that were mostly taught on our lectures till this far. But when we came here, it was pretty new to us what we were going to face. But I don't think that the material we did here was something we haven't seen already. I think 80%.\n\ninterviewer\nSo how did it go, like filling in the blanks that you had to figure out yourself today? ",
       "turn_ids": [
-        "I03-T013"
+        "I03-T030"
       ],
       "speakers": [
-        "student 1"
+        "Student 3"
       ],
       "quote_id": "I03-Q003"
     },
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "student 2: Ja, et kode program. Så ser du det ind i din picoskop og sætter dem ind og husker hvad akserne betyder og så giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. Det gør jo både at man kan hurtigt, og så kan man forstå det... Det kan også gøre, at hvis man ikke forstår det, så tænker man lige pludselig, hvad der skete, og det er selvfølgelig fint. De linser er ikke 100% perfekte og sådan noget... ",
+      "cited_text": "Student 1: By connecting to that, for example, it was confusing to me. Like the hardware was superconducting and other solutions, for example, don't have like this resonant frequency. They're using lasers or something. So it was like also, you know, okay, at what frequency to sit and where and that. So and this was mostly for the hardware, I think. So yeah. ",
       "turn_ids": [
-        "I03-T038"
+        "I03-T031"
       ],
       "speakers": [
-        "student 2"
+        "Student 1"
       ],
       "quote_id": "I03-Q004"
     },
     {
       "theme_id": "1",
       "code": "1.a",
-      "cited_text": "student 3: Nå ja, det var bare fordi, hvad er det nu det hedder... Jeg kom bare lidt for set af. Jeg var også lidt småsyg, og så blev jeg smidt ind i, at vi var i gang, så jeg fattede ikke rigtigt, hvad der foregik. Så det var bare, hvordan man lavede forsøget, og hvorfor de var ude af vinklen. Hvorfor kunne man ikke bare stole på dem? Det var det, jeg var meget forvirret over. ",
+      "cited_text": "Student 4: I think it helped a lot with what we did during the actual experiments that there was ample time to sort of discuss what we're doing in advance. And the person present, the TA, I think helped a lot with helping us understand what's going on.\n\ninterviewer\nRight. Do you feel like your TA could help you understand the stuff that you had a hard time getting? ",
       "turn_ids": [
-        "I03-T051"
+        "I03-T032"
       ],
       "speakers": [
-        "student 3"
+        "Student 4"
       ],
       "quote_id": "I03-Q005"
     },
     {
-      "theme_id": "2",
-      "code": "2.c",
-      "cited_text": "student 1: Jeg synes bare, at det er sådan... Lidt som han også sagde, det bliver sådan lidt mere sådan, du sidder med det i hånden, lidt ligesom sådan en lille barn, der opdager, hvis du blander kartoffelmel og vand. Altså sådan, det bliver meget sådan... [uncertain] Intuitivt, du sidder og drejer på det. Du kan se, hvad der sker, når du sidder og drejer. ",
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: In Hungary, we came from Hungary, both of us, and that's part of the lab was like you put together the setup and I understand like it's a million of... kroner, but still, like, I don't feel like now I know exactly how the things going on a structure or an architecture point of view. So yeah, it's kind of annoying, I would say. ",
       "turn_ids": [
-        "I03-T045"
+        "I03-T057"
       ],
       "speakers": [
-        "student 1"
+        "Student 1"
       ],
       "quote_id": "I03-Q006"
     },
     {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "student 1: Vi skulle lege med lasere. [laughs] ",
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 1: I would also like just do some practical things. So right now I feel like that was what we learned, theorems, what we accept and run, okay, and like this kind of like proving what we did so far, but not like, okay, now how to use a computer, like how to, you know, extract information or do some circuits on it or... And I miss it, miss that, to be honest. So, maybe it's another course, but still it's proving theorems in a quantum computer is not much useful. ",
       "turn_ids": [
-        "I03-T002"
+        "I03-T037"
       ],
       "speakers": [
-        "student 1"
+        "Student 1"
       ],
       "quote_id": "I03-Q007"
     },
     {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "student 3: Det var mere det med, at man ændrede det en grad, og så tænkte man, det gør jo ikke noget som helst. Og så var der interferens. Og så var det sådan, at når man lige vil have interferens, så lad os lige gå en grad længere ned. Så det var meget... mere det med. Det går meget hurtigt, og hvis man kom til at røre ved spejlen, så wobblede lyset på pladen, fordi det gør jo meget for selv i lyset. ",
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 1: I came from QIS, so I was just interested how this physically implemented these things, like get some practical things, but nothing further.\n\ninterviewer\nAnd even if you have your master's thesis planned, you couldn't see yourself in the future, like in a job or in a PhD where you would use something like this? ",
       "turn_ids": [
-        "I03-T007"
+        "I03-T042"
       ],
       "speakers": [
-        "student 3"
+        "Student 1"
       ],
       "quote_id": "I03-Q008"
     },
     {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "student 1: Jeg tror, jeg er overrasket over, hvor stor forskel det gjorde at rykke bord. [laughs] ",
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 4: I think I would love to do some experiments like this in different types of qubits since I'm also looking into quantum information science but I have a more physical background and I'm more interested in the physical side of things and the physical implementations and I'm not really planning on getting back to the industry at least not immediately. So I think this would be something I'd be interested in but I'm more interested in quantum optics, quantum photonics, or quantum light. So that's sort of quantum qubits based on more on that area, based more on optics rather than these superconducting chips that we used today. ",
       "turn_ids": [
-        "I03-T011"
+        "I03-T046"
       ],
       "speakers": [
-        "student 1"
+        "Student 4"
       ],
       "quote_id": "I03-Q009"
     },
     {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "student 1: Ja, fordi vi startede med det der lille bord, og der var det sådan noget, så skulle vi lige sidde og vente lidt, fordi bordet skulle lige stå stille, så vi kunne se det. Ja, og så rykkede vi over til det andet, og så kunne man bare se det, hvad det så var. ",
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 1: Like maybe this whole quantum thing is too abstract, but I don't feel like I can actually build things in a lab. I think it's like kind of important. Like you do the theory to like, okay, how to connect things. And now I just feel like, you know, press the button. Yeah, it's very press the button again. And it was like... ",
       "turn_ids": [
-        "I03-T013"
+        "I03-T055"
       ],
       "speakers": [
-        "student 1"
+        "Student 1"
       ],
       "quote_id": "I03-Q010"
     },
     {
-      "theme_id": "3",
-      "code": "3.a",
-      "cited_text": "student 2: Det var ikke sådan, at man kommer ind og tænker, [emphasis] what? Jeg har prøvet andre labgange hvor man sidder og tænker ok, hvordan skal jeg sætte det her op? Setuppet sidder der jo allerede. Så ma er meget fri til at sidde der og lege med det og på den måde få en forståelse for lys. ",
+      "theme_id": "2",
+      "code": "2.c",
+      "cited_text": "Student 1: In Hungary, we came from Hungary, both of us, and that's part of the lab was like you put together the setup and I understand like it's a million of... kroner, but still, like, I don't feel like now I know exactly how the things going on a structure or an architecture point of view. So yeah, it's kind of annoying, I would say. ",
       "turn_ids": [
-        "I03-T023"
+        "I03-T057"
       ],
       "speakers": [
-        "student 2"
+        "Student 1"
       ],
       "quote_id": "I03-Q011"
     },
     {
       "theme_id": "3",
       "code": "3.a",
-      "cited_text": "student 2: Ja, et kode program. Så ser du det ind i din picoskop og sætter dem ind og husker hvad akserne betyder og så giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. Det gør jo både at man kan hurtigt, og så kan man forstå det... Det kan også gøre, at hvis man ikke forstår det, så tænker man lige pludselig, hvad der skete, og det er selvfølgelig fint. De linser er ikke 100% perfekte og sådan noget... ",
+      "cited_text": "Student 4: So the first part of calibrating our qubit was done by using microwaves. Because these are superconducting qubits with the difference between the ground and excited state being in the gigahertz territory. So we can sort of change the state of our qubit using microwaves. And basically, that's the first half of what we did that we applied some sort of microwave with a given amplitude, time, and then sweep the frequency. Then did it for the amplitude as well with constant frequency and time, and measured where there's a maximum probability of the qubit going from ground to excited state.\n\ninterviewer\nRight. ",
       "turn_ids": [
-        "I03-T038"
+        "I03-T011"
       ],
       "speakers": [
-        "student 2"
+        "Student 4"
       ],
       "quote_id": "I03-Q012"
     },
     {
       "theme_id": "3",
       "code": "3.a",
-      "cited_text": "student 3: Ja, det var sjovt nok. Jeg har ikke nogen specielle holdninger til lasere. Noget med, at man ikke rigtig bukke sig ned fordi så får man lasere i øjnene, og så bliver ens syn værre. Og så skulle man stå op. ",
+      "cited_text": "Student 3: We used the quantum computer, so we didn't use a simulator. And we took like real values to evaluate also the dephasing, the detuning, and anything related to how can qubits like change states and be affected. ",
       "turn_ids": [
-        "I03-T041"
+        "I03-T014"
       ],
       "speakers": [
-        "student 3"
+        "Student 3"
       ],
       "quote_id": "I03-Q013"
     },
     {
       "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "student 3: Mere det visuelle med lys, der faktisk begyndte at interferere. Og så lige pludselig gjorde den det ikke. Og så lige pludselig forsvandt det bare. Det var meget kaotisk på en eller anden måde. Så tænkte man meget mere over, at det faktisk var de der to bølger. ",
+      "code": "3.a",
+      "cited_text": "Student 1: In Hungary, we came from Hungary, both of us, and that's part of the lab was like you put together the setup and I understand like it's a million of... kroner, but still, like, I don't feel like now I know exactly how the things going on a structure or an architecture point of view. So yeah, it's kind of annoying, I would say. ",
       "turn_ids": [
-        "I03-T005"
+        "I03-T057"
       ],
       "speakers": [
-        "student 3"
+        "Student 1"
       ],
       "quote_id": "I03-Q014"
     },
     {
       "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "student 3: Ja, at lys faktisk er mere kaotisk, end man lige troede det, at der var. ",
+      "code": "3.a",
+      "cited_text": "Student 5: Might as well could have been simulated data for the purpose because we did. ",
       "turn_ids": [
-        "I03-T009"
+        "I03-T058"
       ],
       "speakers": [
-        "student 3"
+        "Student 5"
       ],
       "quote_id": "I03-Q015"
     },
     {
       "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "student 1: Jeg synes i hvert fald at det er fedt at det handler meget om forståelse. Fordi så er det meget sådan, så kan du bare starte at lege lidt med det, og så er det ret frit, og så er det sådan lidt mere sådan, hov, hvorfor gør det det? Og så kan du finde ud af, hvorfor det gør det. ",
+      "code": "3.a",
+      "cited_text": "Student 5: No, you wouldn't have noticed. We would not have noticed. We even controlled it through internet page. ",
       "turn_ids": [
-        "I03-T024"
+        "I03-T062"
       ],
       "speakers": [
-        "student 1"
+        "Student 5"
       ],
       "quote_id": "I03-Q016"
     },
     {
       "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "student 2: Ja, et kode program. Så ser du det ind i din picoskop og sætter dem ind og husker hvad akserne betyder og så giver det mening? Her er det meget direkte, hvor du visuelt kan sidde og resonere frem til det. Det gør jo både at man kan hurtigt, og så kan man forstå det... Det kan også gøre, at hvis man ikke forstår det, så tænker man lige pludselig, hvad der skete, og det er selvfølgelig fint. De linser er ikke 100% perfekte og sådan noget... ",
+      "code": "3.a",
+      "cited_text": "Student 5: Completely no touchy.\n\ninterviewer\nRight. That makes sense. Do you have any recommendations for what we could do or how to improve? Like, because it's sort of hard to, you know, the qubit has to be in there and it has to be like closed off and stuff. So do you have any recommendations for how we could make it more hands-on? ",
       "turn_ids": [
-        "I03-T038"
+        "I03-T066"
       ],
       "speakers": [
-        "student 2"
+        "Student 5"
       ],
       "quote_id": "I03-Q017"
     },
     {
       "theme_id": "3",
-      "code": "3.b",
-      "cited_text": "student 1: Jeg synes bare, at det er sådan... Lidt som han også sagde, det bliver sådan lidt mere sådan, du sidder med det i hånden, lidt ligesom sådan en lille barn, der opdager, hvis du blander kartoffelmel og vand. Altså sådan, det bliver meget sådan... [uncertain] Intuitivt, du sidder og drejer på det. Du kan se, hvad der sker, når du sidder og drejer. ",
+      "code": "3.a",
+      "cited_text": "Student 3: I don't know, like a kind of life simulation, how the inside of it works would be pretty cool. Like, we only got to see the inside when we were looking up at the temperatures, but that was only that. ",
       "turn_ids": [
-        "I03-T045"
+        "I03-T067"
       ],
       "speakers": [
-        "student 1"
+        "Student 3"
       ],
       "quote_id": "I03-Q018"
     },
     {
       "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "student 1: Vi skulle lege med lasere. [laughs] ",
+      "code": "3.a",
+      "cited_text": "Student 4: Yeah, true. That was only the cryostat. I don't know, I liked the lab exercise today and right now I don't really see what should be changed because this is still an introductory course of the whole systems that we are working with. So I think it makes sense that there should be a distance between like how much a student can break. [laughs] And I think because it still offers of motivation that knowing that we're working with a real qubit chip here. I think that's very nice. And I think it's also a good idea not to let us like, of course, I'm a little bit like, oh man, I wish I could have done my own, programmed my own experiment and tried that or that could break something.\n\ninterviewer\nOkay, cool. Thank you. I don't think I have anything else. I'm going to ask you to write down your names and emails, and then maybe we will reach out again if we need something. Thank you. ",
       "turn_ids": [
-        "I03-T002"
+        "I03-T068"
       ],
       "speakers": [
-        "student 1"
+        "Student 4"
       ],
       "quote_id": "I03-Q019"
     },
     {
       "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "student 1: Jeg tror, det var meget rart at vide, at det var på NBI. [laughs] ",
+      "code": "3.b",
+      "cited_text": "Student 5: They explained things very nicely. And I think it also helped that I feel like most of us had a genuinely good understanding of what was going on. So we were not completely lost.\n\ninterviewer\nThank you. If you had to go back in there tomorrow and have three more hours to explore a bit more freely, do you have any ideas of what you would do? ",
       "turn_ids": [
-        "I03-T015"
+        "I03-T035"
       ],
       "speakers": [
-        "student 1"
+        "Student 5"
       ],
       "quote_id": "I03-Q020"
     },
     {
       "theme_id": "3",
-      "code": "3.c",
-      "cited_text": "student 1: Jeg synes i hvert fald at det er fedt at det handler meget om forståelse. Fordi så er det meget sådan, så kan du bare starte at lege lidt med det, og så er det ret frit, og så er det sådan lidt mere sådan, hov, hvorfor gør det det? Og så kan du finde ud af, hvorfor det gør det. ",
+      "code": "3.b",
+      "cited_text": "Student 2: I think it was neat. [emphasis] I really like being in my lab. [laughs] I think it's much easier to remember the concepts when they're tied to doing an exercise like this. I'm much more motivated to listen when I know it's not just some exercise.\n\ninterviewer\nWhat's your general feelings about being in the lab? ",
       "turn_ids": [
-        "I03-T024"
+        "I03-T047"
       ],
       "speakers": [
-        "student 1"
+        "Student 2"
       ],
       "quote_id": "I03-Q021"
     },
     {
       "theme_id": "3",
       "code": "3.c",
-      "cited_text": "student 1: Jeg synes, det var fedt at være en laser. ",
+      "cited_text": "Student 2: I think it was neat. [emphasis] I really like being in my lab. [laughs] I think it's much easier to remember the concepts when they're tied to doing an exercise like this. I'm much more motivated to listen when I know it's not just some exercise.\n\ninterviewer\nWhat's your general feelings about being in the lab? ",
       "turn_ids": [
-        "I03-T040"
+        "I03-T047"
       ],
       "speakers": [
-        "student 1"
+        "Student 2"
       ],
       "quote_id": "I03-Q022"
     },
     {
       "theme_id": "3",
       "code": "3.c",
-      "cited_text": "student 3: Ja, det var sjovt nok. Jeg har ikke nogen specielle holdninger til lasere. Noget med, at man ikke rigtig bukke sig ned fordi så får man lasere i øjnene, og så bliver ens syn værre. Og så skulle man stå op. ",
+      "cited_text": "Student 2: 10 out of 10. ",
       "turn_ids": [
-        "I03-T041"
+        "I03-T048"
       ],
       "speakers": [
-        "student 3"
+        "Student 2"
       ],
       "quote_id": "I03-Q023"
     },
     {
       "theme_id": "3",
       "code": "3.c",
-      "cited_text": "student 3: Jeg stod lidt mest, da vi var derinde, og så kiggede jeg på en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men så sad jeg og så var jeg sådan lidt, jeg synes allerede det er meget besværligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men så ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. Nå, det var den kvantekomputer, tror jeg. Så det virkede ret sejt. Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
+      "cited_text": "Student 5: 10 out of 10. That was amazing. ",
       "turn_ids": [
         "I03-T049"
       ],
       "speakers": [
-        "student 3"
+        "Student 5"
       ],
       "quote_id": "I03-Q024"
     },
     {
       "theme_id": "3",
       "code": "3.c",
-      "cited_text": "student 3: Ja, og så kiggede jeg over, og så var jeg sådan lidt, wow, det er meget mere kompleks agtigt. Det er jo bare sejt. Og jeg synes allerede mere, at det er lidt svært. Det er jo lidt ligesom, man står, når man laver en skrå bold, og så kigger man på nogle, der laver et meget mere avanceret... Det var et ret sejt forsøg. Jeg står bare med min skrå bold (skråt kast) her. Så har man ligesom noget man kan se frem til. ",
+      "cited_text": "Student 5: I think it was nice. It was a bit stressful for me maybe. ",
       "turn_ids": [
         "I03-T053"
       ],
       "speakers": [
-        "student 3"
+        "Student 5"
       ],
       "quote_id": "I03-Q025"
     },
     {
       "theme_id": "3",
-      "code": "3.d",
-      "cited_text": "student 2: Hvis man hører et eller andet fra de ældre studerende, der også sidder og leger med laser, når de præsenterer, når de kommer videre. Jeg tænker, at det er meget med [uncertain] informatic, hvordan signalerne bliver sendt rundt. Det er jo bare, hvordan man skalerer helt op, hvad der kan sker i de mindre komponenter, så det bliver meget tydeligt, hvad der sker. Og så i den forståelse gå videre med det. Jeg kan jo godt være vi ikke kan se det, men det er altså også sådan nogle komponenter her. ",
+      "code": "3.c",
+      "cited_text": "Student 4: Yeah, true. That was only the cryostat. I don't know, I liked the lab exercise today and right now I don't really see what should be changed because this is still an introductory course of the whole systems that we are working with. So I think it makes sense that there should be a distance between like how much a student can break. [laughs] And I think because it still offers of motivation that knowing that we're working with a real qubit chip here. I think that's very nice. And I think it's also a good idea not to let us like, of course, I'm a little bit like, oh man, I wish I could have done my own, programmed my own experiment and tried that or that could break something.\n\ninterviewer\nOkay, cool. Thank you. I don't think I have anything else. I'm going to ask you to write down your names and emails, and then maybe we will reach out again if we need something. Thank you. ",
       "turn_ids": [
-        "I03-T047"
+        "I03-T068"
       ],
       "speakers": [
-        "student 2"
+        "Student 4"
       ],
       "quote_id": "I03-Q026"
     },
     {
       "theme_id": "3",
       "code": "3.d",
-      "cited_text": "student 3: Jeg stod lidt mest, da vi var derinde, og så kiggede jeg på en af de andres diagrammer. Omkring et eller andet kvantekomputer, som jeg ikke rigtigt forstod. Men så sad jeg og så var jeg sådan lidt, jeg synes allerede det er meget besværligt, jeg fatter ikke rigtigt, hvad vi laver lige nu. Men så ved det her andet her, der ser det meget mere kompliceret ud, og de laver alt muligt. Nå, det var den kvantekomputer, tror jeg. Så det virkede ret sejt. Det er jo en god introduktion til at få smag for, at det kommer til at være, hvis man så går den her retning. Og så tager jeg det i minde, når jeg laver en mere reel overvejelse, og hvad jeg egentlig vil specialisere mig i. ",
+      "cited_text": "Student 5: I say not at all because I have already planned my master's. Or my thesis, and it's going to be in a different area, so it's not going to be related. ",
       "turn_ids": [
-        "I03-T049"
+        "I03-T041"
       ],
       "speakers": [
-        "student 3"
+        "Student 5"
       ],
       "quote_id": "I03-Q027"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 1: I came from QIS, so I was just interested how this physically implemented these things, like get some practical things, but nothing further.\n\ninterviewer\nAnd even if you have your master's thesis planned, you couldn't see yourself in the future, like in a job or in a PhD where you would use something like this? ",
+      "turn_ids": [
+        "I03-T042"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I03-Q028"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 3: I probably would, but I don't know. I think it's too early. ",
+      "turn_ids": [
+        "I03-T043"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I03-Q029"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 1: I want to go back to the industry. I couldn't see how I could use this kind of knowledge maybe in this research or go to PhD… ",
+      "turn_ids": [
+        "I03-T045"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I03-Q030"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 4: I think I would love to do some experiments like this in different types of qubits since I'm also looking into quantum information science but I have a more physical background and I'm more interested in the physical side of things and the physical implementations and I'm not really planning on getting back to the industry at least not immediately. So I think this would be something I'd be interested in but I'm more interested in quantum optics, quantum photonics, or quantum light. So that's sort of quantum qubits based on more on that area, based more on optics rather than these superconducting chips that we used today. ",
+      "turn_ids": [
+        "I03-T046"
+      ],
+      "speakers": [
+        "Student 4"
+      ],
+      "quote_id": "I03-Q031"
     }
   ],
   "codes_with_no_quotes": [

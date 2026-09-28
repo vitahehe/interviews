@@ -1,0 +1,501 @@
+{
+  "interview_id": "I12",
+  "quotes": [
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Ja vi havde nogen spejle som blev ved med og være dumme. Så skulle vi hele tiden have hjælp til at få dem sat op igen, så vi faktisk kunne lave forsøget. Så det brugte vi ret lang tid på. ",
+      "turn_ids": [
+        "I12-T007"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q001"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Selvom at man ikke vidste, hvordan man satte det op, ikke? Sådan noget sidder man og bruger lang tid på at finde ud af, at det var det der var galt og ikke noget med de andre ting vi lavede. Så lige at filtrere det ned til den havde vi svært ved at gøre. Altså til at problemet var at spejlene og ikke hvordan vi havde sat filtrene.\n\nInterviewer\nSå det var både teknisk svært og svært at finde ud af at det var teknikken? ",
+      "turn_ids": [
+        "I12-T008"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q002"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Det var lige at finde ud af det der med at man skulle gøre det relativt til, eller filterne ikke helt var sande til hvad der stod på dem, og efter at man ligesom havde regnet det i hovedet og kigget på det, så fik de vi selv havde snakket om at sådan er det, det her burde fungere. Så kom det rigtige ud, når man ligesom havde indsigt den del af det og den teoretiske del af den praktiske del af det og så kom det rigtigt.\n\nInterviewer\nVar det noget i selv skulle finde ud? ",
+      "turn_ids": [
+        "I12-T021"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q003"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Det der med polariseringsfiltrene, hvordan de var orienteret og sådan noget der, det skulle vi selv finde ud af eller snakke med de andre om, som havde fået det at vide. ",
+      "turn_ids": [
+        "I12-T022"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q004"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Vi sidder også lidt i sådan noget som projektering og for eksempel at finde ud af, hvordan den operation fungerer, også hvordan man laver den algebra, når man har to stadier der er sat sammen. Hvorfor fungerer den på den ene og ikke på den anden eller sådan nogle ting og det var lidt alt sammen noget nyt, så da vi skulle forudsige tingene, kunne vi ikke helt se hvor det gik galt, eller hvad man kan sige. ",
+      "turn_ids": [
+        "I12-T029"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q005"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Det der med, fordi vi ved ikke. Altså vi kan ikke se hvad der er går galt og hvornår det går galt. Ja. ",
+      "turn_ids": [
+        "I12-T032"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q006"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Men altså ja på den anden side, så har vi nu slås med det, og så nu kan vi sikkert godt finde ud af det, tror jeg. ",
+      "turn_ids": [
+        "I12-T036"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q007"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Så jeg synes en opgave sådan at sidde og regne dem ud og finde ud af de der ting. Det var virkelig dejligt. Det havde bare været dejligt også lige at forstå de der projekteringsoperatorer eller sådan noget der, hvordan man lige sætter dem op i de her tilfælde for eksempel. Eller hvordan de der entanglements sat sammen fungerer når du putter et operator på den. Hvornår ser den på, eller hvornår gør den det ikke? Da vi snakkede om dem i hvert fald, der følte vi, at vi var lidt bare kyllinger hvor man tager hovedet af der rendte rundt og sagde: Ahhhhh. Sådan cirka det her nok.\n\nInterviewer\nJa. ",
+      "turn_ids": [
+        "I12-T037"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q008"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Indtil vi fik spurgt om det. Så kan man måske lidt, men ja.\n\nInterviewer\nKan i sætte lidt flere ord på det her? Altså hvordan det føles det her med at i har hørt om de her ting for første gang mens i skulle bruge dem? ",
+      "turn_ids": [
+        "I12-T038"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q009"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Men Det er jo også sådan man lærer hurtigt. ",
+      "turn_ids": [
+        "I12-T041"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q010"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Stirrer frustreret på tavlen, og sidder ud og regner det igennem. ",
+      "turn_ids": [
+        "I12-T042"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q011"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Og så kan man huske det mener jeg bare. ",
+      "turn_ids": [
+        "I12-T043"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q012"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 2: Når man har været frustreret. Ja Det er bare nederen at stå i det. ",
+      "turn_ids": [
+        "I12-T045"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q013"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Der er frustrationer at stå i det, og så når man er færdig med det, så er det måske rart, at ligesom have diskuteret det færdigt ja. ",
+      "turn_ids": [
+        "I12-T046"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q014"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Ja, Jeg tror at det ville være.. Altså jeg kan godt lide den måde de ligesom bygger det stille og roligt op altså setuppet og så videre. Jeg tror at det der med når vi sådan sidder foran det lige pludselig og så skal arbejde med det og sådan nogle der ting. Der tror jeg at der er en mismatch i, at specielt den der med polarisering føler jeg bare kunne stå i opgaveteksten også. Sådan så vi ikke behøver at have en TA der forklarer til os det her er relativt eller sådan de der udstyr ting, nogle generelle ting lige at vide om det ville måske være dejligt så man ikke bare står med totalt fremmede objekter foran en. Og så hvad skal jeg gøre her? Specielt med vores setup der var lidt løst og sådan noget der det tror jeg er mere specifikt med os har været et problem. Altså ligesom: Jamen nu skal vi have vores TA ind flere gange og rette de der spejle og sådan nogle her ting og det har jo sjovt nok været lidt irriterende, men det er jo også noget der kan undgås, hvis man måske havde en lidt mere forståelse for de setup komponenter, som vi havde at lege med.\n\nInterviewer\nJa. ",
+      "turn_ids": [
+        "I12-T061"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q015"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Det største tror jeg er diskussionerne vi har haft med hinanden. At sidde og sige: OK men snak det igennem og få ligesom intuitivt bygget det op på en eller anden måde. ",
+      "turn_ids": [
+        "I12-T069"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q016"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Vi sidder lige nu med den der projektionsoperator vi snakke om tidligere og sådan hvordan fungerer det når vi ved hvor den kommer fra. Det mangler vi vel lidt, men det er sådan mere matematiksorienteret hvordan den fungerer i spørgsmål 11. Ja.\n\nInterviewer\nSå det i laboratoriet, det gav mening og i styr på det? ",
+      "turn_ids": [
+        "I12-T077"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q017"
+    },
+    {
+      "theme_id": "1",
+      "code": "1.a",
+      "cited_text": "Student 1: Efter vi har snakket om og fået det forklaret, så gav det mening.\n\nInterviewer\nJa. ",
+      "turn_ids": [
+        "I12-T078"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q018"
+    },
+    {
+      "theme_id": "2",
+      "code": "2.b",
+      "cited_text": "Student 1: Så jeg synes en opgave sådan at sidde og regne dem ud og finde ud af de der ting. Det var virkelig dejligt. Det havde bare været dejligt også lige at forstå de der projekteringsoperatorer eller sådan noget der, hvordan man lige sætter dem op i de her tilfælde for eksempel. Eller hvordan de der entanglements sat sammen fungerer når du putter et operator på den. Hvornår ser den på, eller hvornår gør den det ikke? Da vi snakkede om dem i hvert fald, der følte vi, at vi var lidt bare kyllinger hvor man tager hovedet af der rendte rundt og sagde: Ahhhhh. Sådan cirka det her nok.\n\nInterviewer\nJa. ",
+      "turn_ids": [
+        "I12-T037"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q019"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Vi har leget med lasere. ",
+      "turn_ids": [
+        "I12-T002"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q020"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 2: Ja vi havde nogen spejle som blev ved med og være dumme. Så skulle vi hele tiden have hjælp til at få dem sat op igen, så vi faktisk kunne lave forsøget. Så det brugte vi ret lang tid på. ",
+      "turn_ids": [
+        "I12-T007"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q021"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Selvom at man ikke vidste, hvordan man satte det op, ikke? Sådan noget sidder man og bruger lang tid på at finde ud af, at det var det der var galt og ikke noget med de andre ting vi lavede. Så lige at filtrere det ned til den havde vi svært ved at gøre. Altså til at problemet var at spejlene og ikke hvordan vi havde sat filtrene.\n\nInterviewer\nSå det var både teknisk svært og svært at finde ud af at det var teknikken? ",
+      "turn_ids": [
+        "I12-T008"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q022"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Det der med polariseringsfiltrene, hvordan de var orienteret og sådan noget der, det skulle vi selv finde ud af eller snakke med de andre om, som havde fået det at vide. ",
+      "turn_ids": [
+        "I12-T022"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q023"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 3: Det tror jeg, at jeg er enig i. Det er meget cool ay have prøvet at lege med de der spejle og sådan noget. Så nu kan jeg måske sige mere med sikkerhed om jeg vil gå den vej eller den anden vej. Men ja tror jeg det er det.\n\nInterviewer\nVed du så om du vil den her vej eller den anden vej? ",
+      "turn_ids": [
+        "I12-T056"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I12-Q024"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.a",
+      "cited_text": "Student 1: Ja, Jeg tror at det ville være.. Altså jeg kan godt lide den måde de ligesom bygger det stille og roligt op altså setuppet og så videre. Jeg tror at det der med når vi sådan sidder foran det lige pludselig og så skal arbejde med det og sådan nogle der ting. Der tror jeg at der er en mismatch i, at specielt den der med polarisering føler jeg bare kunne stå i opgaveteksten også. Sådan så vi ikke behøver at have en TA der forklarer til os det her er relativt eller sådan de der udstyr ting, nogle generelle ting lige at vide om det ville måske være dejligt så man ikke bare står med totalt fremmede objekter foran en. Og så hvad skal jeg gøre her? Specielt med vores setup der var lidt løst og sådan noget der det tror jeg er mere specifikt med os har været et problem. Altså ligesom: Jamen nu skal vi have vores TA ind flere gange og rette de der spejle og sådan nogle her ting og det har jo sjovt nok været lidt irriterende, men det er jo også noget der kan undgås, hvis man måske havde en lidt mere forståelse for de setup komponenter, som vi havde at lege med.\n\nInterviewer\nJa. ",
+      "turn_ids": [
+        "I12-T061"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q025"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Det var lige at finde ud af det der med at man skulle gøre det relativt til, eller filterne ikke helt var sande til hvad der stod på dem, og efter at man ligesom havde regnet det i hovedet og kigget på det, så fik de vi selv havde snakket om at sådan er det, det her burde fungere. Så kom det rigtige ud, når man ligesom havde indsigt den del af det og den teoretiske del af den praktiske del af det og så kom det rigtigt.\n\nInterviewer\nVar det noget i selv skulle finde ud? ",
+      "turn_ids": [
+        "I12-T021"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q026"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Men Det er jo også sådan man lærer hurtigt. ",
+      "turn_ids": [
+        "I12-T041"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q027"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Og så kan man huske det mener jeg bare. ",
+      "turn_ids": [
+        "I12-T043"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q028"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 2: Altså lige det her vi lavede i dag ja. Nu tager jeg optik lige nu, og det var er noget vi også lige har snakket om der. Så det er sådan set meget nice og det på den måde de tog kurser blev lige bundet rigtig meget sammen fordi vi har lige snakket om beamsplittere og sådan noget der. Så at der er de her forskellige sider af det samme er sådan set meget rart, så det giver lidt mere fuldendt billede af fysik synes jeg. Så det kan jeg godt lide. ",
+      "turn_ids": [
+        "I12-T054"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q029"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Jeg føler også det eneste jeg føler at fundet ud af, men det punkt er at nu forstår jeg hvordan man laver forsøg i kvantemekanik forstår, ok eller når det kommer til lys i hvert fald specifikt. Det der med at sige: ok, men du har en beamsplitter og det er sådan her du entangler ting sammen og det er sådan her du kan sådan undersøge hvordan entanglement fungerer, at du kan få den operator der kan. Hvad kalder man det Sådan? Lave en tåge??? over hvilken vej den har taget ikke og det synes jeg er fedt at forstå hvordan der fungerer. Som man i fremtiden måske ville, hvis man laver et forsøg eller Sådan noget, forstå den kontekst eller hvor ja. Hvad du sætter op for at få den her entanglement kørende. Men jeg ved ikke hvor meget det kommer til at have relevant i min fremtidige karriere. Det har jeg ikke rigtigt sådan...\n\nInterviewer\nEj, det er så fair. ",
+      "turn_ids": [
+        "I12-T055"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q030"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Det største tror jeg er diskussionerne vi har haft med hinanden. At sidde og sige: OK men snak det igennem og få ligesom intuitivt bygget det op på en eller anden måde. ",
+      "turn_ids": [
+        "I12-T069"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q031"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.b",
+      "cited_text": "Student 1: Efter vi har snakket om og fået det forklaret, så gav det mening.\n\nInterviewer\nJa. ",
+      "turn_ids": [
+        "I12-T078"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q032"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: Det er jo Sådan set meget rart, at vi ikke følte os på den måde stressede i at skulle skynde sig igennem forsøget. Det synes jeg lidt vi følte i det forrige i hvert fald. ",
+      "turn_ids": [
+        "I12-T011"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q033"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: Så jeg synes en opgave sådan at sidde og regne dem ud og finde ud af de der ting. Det var virkelig dejligt. Det havde bare været dejligt også lige at forstå de der projekteringsoperatorer eller sådan noget der, hvordan man lige sætter dem op i de her tilfælde for eksempel. Eller hvordan de der entanglements sat sammen fungerer når du putter et operator på den. Hvornår ser den på, eller hvornår gør den det ikke? Da vi snakkede om dem i hvert fald, der følte vi, at vi var lidt bare kyllinger hvor man tager hovedet af der rendte rundt og sagde: Ahhhhh. Sådan cirka det her nok.\n\nInterviewer\nJa. ",
+      "turn_ids": [
+        "I12-T037"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q034"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 2: Altså lige det her vi lavede i dag ja. Nu tager jeg optik lige nu, og det var er noget vi også lige har snakket om der. Så det er sådan set meget nice og det på den måde de tog kurser blev lige bundet rigtig meget sammen fordi vi har lige snakket om beamsplittere og sådan noget der. Så at der er de her forskellige sider af det samme er sådan set meget rart, så det giver lidt mere fuldendt billede af fysik synes jeg. Så det kan jeg godt lide. ",
+      "turn_ids": [
+        "I12-T054"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q035"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 1: Jeg føler også det eneste jeg føler at fundet ud af, men det punkt er at nu forstår jeg hvordan man laver forsøg i kvantemekanik forstår, ok eller når det kommer til lys i hvert fald specifikt. Det der med at sige: ok, men du har en beamsplitter og det er sådan her du entangler ting sammen og det er sådan her du kan sådan undersøge hvordan entanglement fungerer, at du kan få den operator der kan. Hvad kalder man det Sådan? Lave en tåge??? over hvilken vej den har taget ikke og det synes jeg er fedt at forstå hvordan der fungerer. Som man i fremtiden måske ville, hvis man laver et forsøg eller Sådan noget, forstå den kontekst eller hvor ja. Hvad du sætter op for at få den her entanglement kørende. Men jeg ved ikke hvor meget det kommer til at have relevant i min fremtidige karriere. Det har jeg ikke rigtigt sådan...\n\nInterviewer\nEj, det er så fair. ",
+      "turn_ids": [
+        "I12-T055"
+      ],
+      "speakers": [
+        "Student 1"
+      ],
+      "quote_id": "I12-Q036"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 3: Det tror jeg, at jeg er enig i. Det er meget cool ay have prøvet at lege med de der spejle og sådan noget. Så nu kan jeg måske sige mere med sikkerhed om jeg vil gå den vej eller den anden vej. Men ja tror jeg det er det.\n\nInterviewer\nVed du så om du vil den her vej eller den anden vej? ",
+      "turn_ids": [
+        "I12-T056"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I12-Q037"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.c",
+      "cited_text": "Student 3: Ikke  umiddelbart. Det er i hvert fald ikke hvad jeg lige med det samme har tænkt mig at gøre. Så nok ikke. Men det var sjovt at prøve.\n\nInterviewer\nEr der noget, det kunne have været bedre ved lab forløbet i dag? ",
+      "turn_ids": [
+        "I12-T057"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I12-Q038"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: Og nu er vi nogen, der kommer til at regne timer, så ja.\n\nInterviewer\nJa. ",
+      "turn_ids": [
+        "I12-T034"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q039"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 2: Altså lige det her vi lavede i dag ja. Nu tager jeg optik lige nu, og det var er noget vi også lige har snakket om der. Så det er sådan set meget nice og det på den måde de tog kurser blev lige bundet rigtig meget sammen fordi vi har lige snakket om beamsplittere og sådan noget der. Så at der er de her forskellige sider af det samme er sådan set meget rart, så det giver lidt mere fuldendt billede af fysik synes jeg. Så det kan jeg godt lide. ",
+      "turn_ids": [
+        "I12-T054"
+      ],
+      "speakers": [
+        "Student 2"
+      ],
+      "quote_id": "I12-Q040"
+    },
+    {
+      "theme_id": "3",
+      "code": "3.d",
+      "cited_text": "Student 3: Det tror jeg, at jeg er enig i. Det er meget cool ay have prøvet at lege med de der spejle og sådan noget. Så nu kan jeg måske sige mere med sikkerhed om jeg vil gå den vej eller den anden vej. Men ja tror jeg det er det.\n\nInterviewer\nVed du så om du vil den her vej eller den anden vej? ",
+      "turn_ids": [
+        "I12-T056"
+      ],
+      "speakers": [
+        "Student 3"
+      ],
+      "quote_id": "I12-Q041"
+    }
+  ],
+  "codes_with_no_quotes": [
+    "2.a",
+    "2.c"
+  ]
+}
