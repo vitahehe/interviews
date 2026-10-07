@@ -25,16 +25,6 @@ Cross-Interview Findings (pattern_findings.json, pattern_findings.md)
 See [PIPELINE_DETAILS.md](PIPELINE_DETAILS.md) for comprehensive technical documentation of every component, constraint, and design decision.
 
 
-### 1. Set up environment
-
-```bash
-cd /home/vita/projects/interviews
-python -m venv .venv
-source .venv/bin/activate
-pip install -r pipeline/requirements.txt
-export ANTHROPIC_API_KEY=your_key_here
-```
-
 ## Processing One Interview (I01)
 
 
@@ -115,24 +105,7 @@ python pipeline/analyze_patterens.py \
 
 For detailed documentation of how each component works, design constraints, and how the model is guided at every stage, see [PIPELINE_DETAILS.md](PIPELINE_DETAILS.md).
 
----
-
-## Quick Start: Stage 1 Only (Segment & Analyze All Interviews)
-
-counter=0; for file in transcription/test/*.txt; do counter=$((counter + 1)); interview_id=$(printf "I%02d" "$counter"); filename=$(basename "$file" .txt); echo "Segmenting $interview_id: $file"; python pipeline/segment_transcript.py --input "$file" --interview-id "$interview_id" --output "data/processed/${filename}.json" || break; done && echo "✓ All interviews segmented!"
-for processed in data/processed/*.json; do interview_id=$(python -c 'import json,sys; print(json.load(open(sys.argv[1]))["interview_id"])' "$processed") || break; echo "Running pipeline for $interview_id: $processed"; python pipeline/pipeline.py --interview-id "$interview_id" --processed "$processed" --codebook codebook.yaml --prompts-dir prompts --outdir "output/stage_1/${interview_id}" --model claude-sonnet-5 || break; done && echo "✓ Stage 1 complete!"
-
-
-
-
-**What this does:**
-- Finds all `.txt` files in `transcription/test/`
-- Assigns interview IDs: I01, I02, I03, etc.
-- Segments each transcript
-- Runs Stage 1 analysis (Pass 1 + Pass 2) for each
-- Stops on error (safe mode)
-
----
+JUST stage 2:
 
 After Stage 1 completes, run Stage 2 (aggregation + pattern finding):
 
@@ -147,7 +120,7 @@ python pipeline/analyze_patterens.py \
   --model claude-sonnet-5 && \
 echo "✓ All stages complete! Results in output/stage_1/ and outputs/stage_2/"
 ```
-
+Note for me: check alignment manually
 
 Segmenting I01: transcription/test/Monday_20260223_Kvant1_lab_transcript.txt
 Wrote 45 turns (25 student quote units) to data/processed/Monday_20260223_Kvant1_lab_transcript.json
