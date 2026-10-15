@@ -23,9 +23,6 @@ Find ALL genuine patterns in these categories. No limits per category — find a
 4. **subtlety**: Nuance visible only when reading multiple quotes together
 5. **emerging_pattern**: Something recurrent NOT in the codebook
 
-For each finding, add teaching_implication: a concrete, tentative suggestion for how this could inform lab teaching design, in 1-2 sentences. Mark clearly if this is
-speculative beyond what the finding from direct quotes directly supports.
-
 ### IRRELEVANT PATTERNS (NOT tied to codebook codes, but noteworthy):
 6. **irrelevant_pattern**: Recurrent themes that emerge but are NOT addressed by codebook codes, including:
    - Social relations (peer dynamics, collaboration quality, group formation)

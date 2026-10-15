@@ -31,7 +31,7 @@ themes:
         motivation: >
           Reflects the subjective task value component and notion that a learner can identify more strongly with one sub-community (theory) than another (experimental lab work).
       - id: "2.c"
-        name: "Experimentalist / practical identity"
+        name: "Practical identity"
         description: >
           The student says they have a preference for or are usually better at
           experimental physics or experiments/practical work in general. This
